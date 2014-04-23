@@ -1,0 +1,19 @@
+* installing *source* package 'em2' ...
+** package 'em2' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c FixSeq.cpp -o FixSeq.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c MeasuresCRI.cpp -o MeasuresCRI.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c MeasuresCRIComputations.cpp -o MeasuresCRIComputations.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c MeasuresStandard.cpp -o MeasuresStandard.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c MeasuresStandardComputations.cpp -o MeasuresStandardComputations.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c debug.cpp -o debug.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c eyemeasures.cpp -o eyemeasures.o
+g++ -shared -o em2.so FixSeq.o MeasuresCRI.o MeasuresCRIComputations.o MeasuresStandard.o MeasuresStandardComputations.o debug.o eyemeasures.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpPhMZfD/check_crand3f19cef95f/em2.Rcheck/em2/libs
+** R
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (em2)

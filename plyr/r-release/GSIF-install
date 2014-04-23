@@ -1,0 +1,16 @@
+* installing *source* package 'GSIF' ...
+** package 'GSIF' successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'subset' from package 'base' in package 'GSIF'
+Creating a generic function for 'as.data.frame' from package 'base' in package 'GSIF'
+Creating a generic function for 'merge' from package 'base' in package 'GSIF'
+Creating a generic function for 'predict' from package 'stats' in package 'GSIF'
+Creating a generic function for 'summary' from package 'base' in package 'GSIF'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (GSIF)

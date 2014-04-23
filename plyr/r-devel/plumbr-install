@@ -1,0 +1,14 @@
+* installing *source* package 'plumbr' ...
+** package 'plumbr' successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'as.vector' from package 'base' in package 'plumbr'
+Creating a generic function for 'as.factor' from package 'base' in package 'plumbr'
+Creating a generic function for 'as.matrix' from package 'base' in package 'plumbr'
+Creating a generic function for 'which' from package 'base' in package 'plumbr'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (plumbr)

@@ -1,0 +1,23 @@
+* installing *source* package 'HLMdiag' ...
+** package 'HLMdiag' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c cooksd_obs.cpp -o cooksd_obs.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c cooksd_subset.cpp -o cooksd_subset.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c covratio.cpp -o covratio.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c covtrace.cpp -o covtrace.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c linear_algebra_fnc.cpp -o linear_algebra_fnc.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c mdffits_subset.cpp -o mdffits_subset.o
+g++ -shared -o HLMdiag.so cooksd_obs.o cooksd_subset.o covratio.o covtrace.o linear_algebra_fnc.o mdffits_subset.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpPhMZfD/check_crand3f19cef95f/HLMdiag.Rcheck/HLMdiag/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Creating a generic function from function 'adjust_lmList' in package 'HLMdiag'
+Creating a generic function for 'lmList' from package 'lme4' in package 'HLMdiag'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (HLMdiag)

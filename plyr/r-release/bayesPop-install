@@ -1,0 +1,15 @@
+* installing *source* package 'bayesPop' ...
+** package 'bayesPop' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c projection_functions.c -o projection_functions.o
+gcc -std=gnu99 -shared -o bayesPop.so projection_functions.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpPhMZfD/check_crand3f19cef95f/bayesPop.Rcheck/bayesPop/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (bayesPop)

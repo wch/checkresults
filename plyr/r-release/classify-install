@@ -1,0 +1,18 @@
+* installing *source* package 'classify' ...
+** package 'classify' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c exp.cpp -o exp.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c gpcm.cpp -o gpcm.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c rcpp_w_lord.cpp -o rcpp_w_lord.o
+g++ -shared -o classify.so exp.o gpcm.o rcpp_w_lord.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpPhMZfD/check_crand3f19cef95f/classify.Rcheck/classify/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'summary' from package 'base' in package 'classify'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (classify)

@@ -1,0 +1,14 @@
+* installing *source* package 'chemosensors' ...
+** package 'chemosensors' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** preparing package for lazy loading
+Creating a new generic function for 'beta' in package 'chemosensors'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (chemosensors)

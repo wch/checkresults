@@ -1,0 +1,13 @@
+* installing *source* package 'OpenRepGrid' ...
+** package 'OpenRepGrid' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (OpenRepGrid)

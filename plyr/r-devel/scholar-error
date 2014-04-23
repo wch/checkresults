@@ -1,0 +1,18 @@
+scholar *  checking examples ... ERROR
+Running examples in 'scholar-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: compare_scholar_careers
+> ### Title: Compare the careers of multiple scholars
+> ### Aliases: compare_scholar_careers
+> 
+> ### ** Examples
+> 
+> {
++ 	## How do Richard Feynmann and Stephen Hawking compare?
++ 	ids <- c("B7vSqZsAAAAJ", "qj74uXkAAAAJ")
++     df <- compare_scholar_careers(ids)
++ }
+Error: failed to load HTTP resource
+Execution halted

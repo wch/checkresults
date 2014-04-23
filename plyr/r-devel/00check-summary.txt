@@ -1,0 +1,1301 @@
+R version 3.0.2 (2013-09-25)
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] devtools_1.4.1.99
+
+loaded via a namespace (and not attached):
+[1] digest_0.6.4   evaluate_0.5.1 httr_0.2       memoise_0.1    parallel_3.0.2
+[6] RCurl_1.95-4.1 stringr_0.6.2  tools_3.0.2    whisker_0.3-2 
+
+abctools ================================================================ 
+ 
+
+
+abd ===================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [25s/27s] OK
+WARNING: There was 1 warning.
+NOTE: There was 1 note. 
+
+
+acs ===================================================================== 
+ 
+
+
+aLFQ ==================================================================== 
+ 
+
+
+alm ===================================================================== 
+ 
+
+
+AppliedPredictiveModeling =============================================== 
+ 
+
+
+aqp ===================================================================== 
+ 
+
+
+bams ==================================================================== 
+ 
+
+
+BatchExperiments ======================================================== 
+ 
+
+
+BatchJobs =============================================================== 
+ 
+
+
+bayesGDS ================================================================ 
+ 
+
+
+bayesPop ================================================================ 
+ 
+
+
+bcpa ==================================================================== 
+ 
+
+
+bear ==================================================================== 
+ 
+
+
+bigml =================================================================== 
+ 
+
+
+Biograph ================================================================ 
+ 
+
+
+biom ==================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/testthat-biom.R' failed.
+Last 13 lines of output:
+  
+  > library("testthat")
+  > test_package("biom")
+  ........................12......................................................................................
+  
+  1. Failure(@test-IO.R#69): show method output tests ----------------------------
+  x1 does not match 'biom object. type:'. Actual value: "biom object. \ntype: OTU table \nmatrix_type: dense \n5 rows and 6 columns "
+  
+  2. Failure(@test-IO.R#70): show method output tests ----------------------------
+  x4 does not match 'biom object. type:'. Actual value: "biom object. \ntype: OTU table \nmatrix_type: sparse \n5 rows and 6 columns "
+  
+  Error: Test failures
+  Execution halted 
+
+
+bmk ===================================================================== 
+ 
+
+
+caret =================================================================== 
+ 
+
+
+cda ===================================================================== 
+ 
+
+
+chemosensors ============================================================ 
+ 
+
+
+ChemoSpec =============================================================== 
+ 
+
+
+classify ================================================================ 
+ 
+
+
+clhs ==================================================================== 
+ 
+
+
+coefplot ================================================================ 
+ 
+
+
+CONORData =============================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'preprocessCore'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+CONOR =================================================================== 
+ *  checking package dependencies ... ERROR
+Packages required but not available: 'preprocessCore' 'CONORData'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+CPMCGLM ================================================================= 
+ 
+
+
+cshapes ================================================================= 
+ 
+
+
+d3Network =============================================================== 
+ 
+
+
+DataCombine ============================================================= 
+ 
+
+
+data.table ============================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > library(testthat)
+  > library(data.table)
+  > 
+  > test_package("data.table")
+  S4 Compatability : Error in assign(mname, def, where) : 
+    cannot add bindings to a locked environment
+  Calls: test_package ... eval -> eval -> setClass -> assignClassDef -> assign
+  Execution halted 
+
+
+decctools =============================================================== 
+ *  checking examples ... ERROR
+Running examples in 'decctools-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: get_LAD_data
+> ### Title: Get LAD energy consumption data
+> ### Aliases: get_LAD_data
+> ### Keywords: data energy
+> 
+> ### ** Examples
+> 
+> ## Not run: 
+> ##D # Gets energy data for total fuels and sectors for most recent year
+> ##D lad_data <- get_LAD_data()
+> ## End(Not run)
+> # Gets energy data for electricity and gas use in the domestic sector in the most recent year
+> # This example requires a working internet connection
+> library(RCurl)
+Loading required package: bitops
+> if (url.exists("http://www.google.com")) {
++   df <- get_LAD_data(sector="domestic", fuel=c("electricity", "gas"))
++ }
+curl: try 'curl --help' or 'curl --manual' for more information
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   216  100   216    0     0    373      0 --:--:-- --:--:-- --:--:--   618
+Error in value[[3L]](cond) : Error loading workbook:
+	Error: IllegalArgumentException (Java): Your InputStream was neither an OLE2 stream, nor an OOXML stream
+
+Tried download file from https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/244786/september_2013_sub_national_total_final_energy_consumption_statistics.xlsx.  Email package maintainer to see if URL has changed.
+Calls: get_LAD_data ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+Execution halted 
+
+
+Deducer ================================================================= 
+ 
+
+
+demi ==================================================================== 
+ *  checking package dependencies ... ERROR
+Packages required but not available: 'affy' 'affxparser' 'oligo'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+DescribeDisplay ========================================================= 
+ 
+
+
+discreteRV ============================================================== 
+ 
+
+
+dostats ================================================================= 
+ 
+
+
+dynsurv ================================================================= 
+ *  checking whether package 'dynsurv' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpBCY3Yb/check_cranfc5f786f92/dynsurv.Rcheck/00install.out' for details. 
+
+
+EBMAforecast ============================================================ 
+ 
+
+
+ecoengine =============================================================== 
+ 
+
+
+eeptools ================================================================ 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > library(testthat)
+  > library(eeptools)
+  Loading required package: ggplot2
+  Loading required package: MASS
+  Loading required namespace: car
+  > 
+  > test_package("eeptools")
+  Error: No tests found for eeptools
+  Execution halted 
+
+
+em2 ===================================================================== 
+ 
+
+
+emdbook ================================================================= 
+ 
+
+
+EpiContactTrace ========================================================= 
+ 
+
+
+extracat ================================================================ 
+ 
+
+
+ez ====================================================================== 
+ 
+
+
+ezsim =================================================================== 
+ 
+
+
+FAOSTAT ================================================================= 
+ 
+
+
+fishmove ================================================================ 
+ 
+
+
+gcbd ==================================================================== 
+ 
+
+
+gcookbook =============================================================== 
+ 
+
+
+GDELTtools ============================================================== 
+ 
+
+
+gems ==================================================================== 
+ *  checking for missing documentation entries ... WARNING
+Undocumented S4 methods:
+  generic '[' and siglist 'ArtCohort,ANY,ANY,ANY'
+  generic '[' and siglist 'PosteriorProbabilities,ANY,ANY,ANY'
+All user-level objects in a package (including S4 classes and methods)
+should have documentation entries.
+See the chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual. 
+
+
+geospt ================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'gsl'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+GGally ================================================================== 
+ 
+
+
+ggHorizon =============================================================== 
+ 
+
+
+ggmap =================================================================== 
+ 
+
+
+ggmcmc ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [21s/21s] OK
+Examples with CPU or elapsed time > 5s
+        user system elapsed
+ggmcmc 9.632  0.084   9.881
+WARNING: There was 1 warning.
+NOTE: There was 1 note. 
+
+
+ggparallel ============================================================== 
+ 
+
+
+ggplot2 ================================================================= 
+ 
+
+
+ggsubplot =============================================================== 
+ 
+
+
+ggtern ================================================================== 
+ 
+
+
+ggthemes ================================================================ 
+ 
+
+
+GOsummaries ============================================================= 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'limma'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+govdat ================================================================== 
+ 
+
+
+gpmap =================================================================== 
+ 
+
+
+gProfileR =============================================================== 
+ 
+
+
+granovaGG =============================================================== 
+ 
+
+
+gsDesign ================================================================ 
+ 
+
+
+GSIF ==================================================================== 
+ 
+
+
+gtable ================================================================== 
+ 
+
+
+harvestr ================================================================ 
+ 
+
+
+HistData ================================================================ 
+ 
+
+
+HiveR =================================================================== 
+ 
+
+
+HLMdiag ================================================================= 
+ 
+
+
+hof ===================================================================== 
+ 
+
+
+intsvy ================================================================== 
+ 
+
+
+IsingSampler ============================================================ 
+ 
+
+
+Kmisc =================================================================== 
+ 
+
+
+knitrBootstrap ========================================================== 
+ 
+
+
+kobe ==================================================================== 
+ 
+
+
+Lahman ================================================================== 
+ 
+
+
+learningr =============================================================== 
+ 
+
+
+lint ==================================================================== 
+ 
+
+
+llama =================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/run-all.R' failed.
+Last 13 lines of output:
+  1.Creating a generic function for 'predict' from package 'stats' in the global environment
+  ..........................................................................................................................
+  
+  1. Error: contributions returns contributions ----------------------------------
+  class not found
+  1: contributions(d) at test.analysis.R:3
+  2: J("shapleyComputation/CoalitionValueCalculator")
+  3: jclassName(class)
+  4: .jfindClass(as.character(class))
+  5: stop("class not found")
+  
+  Error: Test failures
+  Execution halted 
+
+
+lllcrc ================================================================== 
+ 
+
+
+lme4 ==================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  13: eval(expr, envir, enclos)
+  14: model.frame(drop.unused.levels = TRUE, formula = z ~ 1 + f)
+  15: model.frame.default(drop.unused.levels = TRUE, formula = z ~ 1 + f)
+  16: eval(predvars, data, env)
+  17: eval(expr, envir, enclos)
+  18: .handleSimpleError(function (e) 
+     {
+         e$calls <- head(sys.calls()[-seq_len(frame + 7)], -2)
+         signalCondition(e)
+     }, "object 'z' not found", quote(eval(expr, envir, enclos)))
+  
+  Error: Test failures
+  Execution halted 
+
+
+lsmeans ================================================================= 
+ *  checking R files for syntax errors ... WARNING
+Warning in Sys.setlocale("LC_CTYPE", "en_US") :
+  OS reports request to set locale to "en_US" cannot be honored
+*  checking examples ... WARNING
+checking a package with encoding  'latin1'  in an ASCII locale
+
+ [12s/12s] OK 
+
+
+lubridate =============================================================== 
+ 
+
+
+marked ================================================================== 
+ 
+
+
+meifly ================================================================== 
+ 
+
+
+metagen ================================================================= 
+ 
+
+
+MissingDataGUI ========================================================== 
+ 
+
+
+mizer =================================================================== 
+ 
+
+
+mosaic ================================================================== 
+ 
+
+
+MplusAutomation ========================================================= 
+ 
+
+
+mpoly =================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'partitions'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+MRMR ==================================================================== 
+ 
+
+
+multilevelPSA =========================================================== 
+ 
+
+
+NAPPA =================================================================== 
+ 
+
+
+networkTomography ======================================================= 
+ 
+
+
+ngramr ================================================================== 
+ 
+
+
+NlsyLinks =============================================================== 
+ 
+
+
+nullabor ================================================================ 
+ *  checking examples ... ERROR
+Running examples in 'nullabor-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: lineup
+> ### Title: The line-up protocol.
+> ### Aliases: lineup
+> 
+> ### ** Examples
+> 
+> if (require("ggplot2")) {
++ qplot(mpg, wt, data = mtcars) %+%
++   lineup(null_permute("mpg"), mtcars) +
++   facet_wrap(~ .sample)
++ qplot(mpg, .sample, data = lineup(null_permute("cyl"), mtcars),
++   colour = factor(cyl))
++ }
+Loading required package: ggplot2
+decrypt("vBcZ bdsd Az tFRAsAFz DO")
+Error in .n + 1 : non-numeric argument to binary operator
+Calls: %+% ... add_true -> with -> with.default -> eval -> eval -> ifelse
+Execution halted 
+
+
+okmesonet =============================================================== 
+ 
+
+
+openair ================================================================= 
+ 
+
+
+OpenRepGrid ============================================================= 
+ 
+
+
+OutbreakTools =========================================================== 
+ 
+
+
+parboost ================================================================ 
+ 
+
+
+peptider ================================================================ 
+ 
+
+
+pitchRx ================================================================= 
+ 
+
+
+planar ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+plotKML ================================================================= 
+ 
+
+
+plumbr ================================================================== 
+ 
+
+
+PMA ===================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'impute'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+PopGenReport ============================================================ 
+ 
+
+
+primerTree ============================================================== 
+ 
+
+
+pROC ==================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [11s/12s] OK
+WARNING: There was 1 warning. 
+
+
+profileR ================================================================ 
+ 
+
+
+ProjectTemplate ========================================================= 
+ *  checking tests ... ERROR
+Running the tests in 'tests/1.R' failed.
+Last 13 lines of output:
+  > load.project()
+  Loading project configuration
+  Autoloading data
+  Munging data
+   Running preprocessing script: 01-A.R
+  > test.project()
+  Loading project configuration
+  Autoloading data
+  Munging data
+   Running preprocessing script: 01-A.R
+  Error in setwd(path) : cannot change working directory
+  Calls: test.project -> test_dir -> source_dir -> setwd
+  Execution halted 
+
+
+psd ===================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'fftw'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+psytabs ================================================================= 
+ 
+
+
+qdap ==================================================================== 
+ 
+
+
+qgraph ================================================================== 
+ 
+
+
+rAltmetric ============================================================== 
+ 
+
+
+rapportools ============================================================= 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK
+WARNING: There was 1 warning.
+NOTE: There was 1 note. 
+
+
+rapport ================================================================= 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK
+WARNING: There was 1 warning.
+NOTE: There was 1 note. 
+
+
+rbefdata ================================================================ 
+ 
+
+
+rbhl ==================================================================== 
+ 
+
+
+rbison ================================================================== 
+ 
+
+
+Rcell =================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'EBImage'
+
+Package suggested but not available for checking: 'hopach'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+RcmdrPlugin.KMggplot2 =================================================== 
+ 
+
+
+rcqp ==================================================================== 
+ *  checking R files for syntax errors ... WARNING
+Warning in Sys.setlocale("LC_CTYPE", "en_US") :
+  OS reports request to set locale to "en_US" cannot be honored
+*  checking examples ... WARNING
+checking a package with encoding  'latin1'  in an ASCII locale
+
+ OK 
+
+
+rdryad ================================================================== 
+ 
+
+
+RDSTK =================================================================== 
+ 
+
+
+rebird ================================================================== 
+ 
+
+
+remix =================================================================== 
+ 
+
+
+repmis ================================================================== 
+ 
+
+
+reshape2 ================================================================ 
+ 
+
+
+reshapeGUI ============================================================== 
+ 
+
+
+reshape ================================================================= 
+ *  checking examples ... ERROR
+Running examples in 'reshape-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: cast
+> ### Title: Cast function
+> ### Aliases: cast
+> ### Keywords: manip
+> 
+> ### ** Examples
+> #Air quality example
+> names(airquality) <- tolower(names(airquality))
+> aqm <- melt(airquality, id=c("month", "day"), na.rm=TRUE)
+> 
+> cast(aqm, day ~ month ~ variable)
+, , variable = ozone
+
+    month
+day    5  6   7   8  9
+  1   41 NA 135  39 96
+  2   36 NA  49   9 78
+  3   12 NA  32  16 73
+  4   18 NA  NA  78 91
+  5   NA NA  64  35 47
+  6   28 NA  40  66 32
+  7   23 29  77 122 20
+  8   19 NA  97  89 23
+  9    8 71  97 110 21
+  10  NA 39  85  NA 24
+  11   7 NA  NA  NA 44
+  12  16 NA  10  44 21
+  13  11 23  27  28 28
+  14  14 NA  NA  65  9
+  15  18 NA   7  NA 13
+  16  14 21  48  22 46
+  17  34 37  35  59 18
+  18   6 20  61  23 13
+  19  30 12  79  31 24
+  20  11 13  63  44 16
+  21   1 NA  16  21 13
+  22  11 NA  NA   9 23
+  23   4 NA  NA  NA 36
+  24  32 NA  80  45  7
+  25  NA NA 108 168 14
+  26  NA NA  20  73 30
+  27  NA NA  52  NA NA
+  28  23 NA  82  76 14
+  29  45 NA  50 118 18
+  30 115 NA  64  84 20
+  31  37 NA  59  85 NA
+
+, , variable = solar.r
+
+    month
+day    5   6   7   8   9
+  1  190 286 269  83 167
+  2  118 287 248  24 197
+  3  149 242 236  77 183
+  4  313 186 101  NA 189
+  5   NA 220 175  NA  95
+  6   NA 264 314  NA  92
+  7  299 127 276 255 252
+  8   99 273 267 229 220
+  9   19 291 272 207 230
+  10 194 323 175 222 259
+  11  NA 259 139 137 236
+  12 256 250 264 192 259
+  13 290 148 175 273 238
+  14 274 332 291 157  24
+  15  65 322  48  64 112
+  16 334 191 260  71 237
+  17 307 284 274  51 224
+  18  78  37 285 115  27
+  19 322 120 187 244 238
+  20  44 137 220 190 201
+  21   8 150   7 259 238
+  22 320  59 258  36  14
+  23  25  91 295 255 139
+  24  92 250 294 212  49
+  25  66 135 223 238  20
+  26 266 127  81 215 193
+  27  NA  47  82 153 145
+  28  13  98 213 203 191
+  29 252  31 275 225 131
+  30 223 138 253 237 223
+  31 279  NA 254 188  NA
+
+, , variable = wind
+
+    month
+day     5    6    7    8    9
+  1   7.4  8.6  4.1  6.9  6.9
+  2   8.0  9.7  9.2 13.8  5.1
+  3  12.6 16.1  9.2  7.4  2.8
+  4  11.5  9.2 10.9  6.9  4.6
+  5  14.3  8.6  4.6  7.4  7.4
+  6  14.9 14.3 10.9  4.6 15.5
+  7   8.6  9.7  5.1  4.0 10.9
+  8  13.8  6.9  6.3 10.3 10.3
+  9  20.1 13.8  5.7  8.0 10.9
+  10  8.6 11.5  7.4  8.6  9.7
+  11  6.9 10.9  8.6 11.5 14.9
+  12  9.7  9.2 14.3 11.5 15.5
+  13  9.2  8.0 14.9 11.5  6.3
+  14 10.9 13.8 14.9  9.7 10.9
+  15 13.2 11.5 14.3 11.5 11.5
+  16 11.5 14.9  6.9 10.3  6.9
+  17 12.0 20.7 10.3  6.3 13.8
+  18 18.4  9.2  6.3  7.4 10.3
+  19 11.5 11.5  5.1 10.9 10.3
+  20  9.7 10.3 11.5 10.3  8.0
+  21  9.7  6.3  6.9 15.5 12.6
+  22 16.6  1.7  9.7 14.3  9.2
+  23  9.7  4.6 11.5 12.6 10.3
+  24 12.0  6.3  8.6  9.7 10.3
+  25 16.6  8.0  8.0  3.4 16.6
+  26 14.9  8.0  8.6  8.0  6.9
+  27  8.0 10.3 12.0  5.7 13.2
+  28 12.0 11.5  7.4  9.7 14.3
+  29 14.9 14.9  7.4  2.3  8.0
+  30  5.7  8.0  7.4  6.3 11.5
+  31  7.4   NA  9.2  6.3   NA
+
+, , variable = temp
+
+    month
+day   5  6  7  8  9
+  1  67 78 84 81 91
+  2  72 74 85 81 92
+  3  74 67 81 82 93
+  4  62 84 84 86 93
+  5  56 85 83 85 87
+  6  66 79 83 87 84
+  7  65 82 88 89 80
+  8  59 87 92 90 78
+  9  61 90 92 90 75
+  10 69 87 89 92 73
+  11 74 93 82 86 81
+  12 69 92 73 86 76
+  13 66 82 81 82 77
+  14 68 80 91 80 71
+  15 58 79 80 79 71
+  16 64 77 81 77 78
+  17 66 72 82 79 67
+  18 57 65 84 76 76
+  19 68 73 87 78 68
+  20 62 76 85 78 82
+  21 59 77 74 77 64
+  22 73 76 81 72 71
+  23 61 76 82 75 81
+  24 61 76 86 79 69
+  25 57 75 85 81 63
+  26 58 78 82 86 70
+  27 57 73 86 88 77
+  28 67 80 88 97 75
+  29 81 77 86 94 76
+  30 79 83 83 96 68
+  31 76 NA 81 94 NA
+
+> cast(aqm, month ~ variable, mean)
+  month    ozone  solar.r      wind     temp
+1     5 23.61538 181.2963 11.622581 65.54839
+2     6 29.44444 190.1667 10.266667 79.10000
+3     7 59.11538 216.4839  8.941935 83.90323
+4     8 59.96154 171.8571  8.793548 83.96774
+5     9 31.44828 167.4333 10.180000 76.90000
+> cast(aqm, month ~ . | variable, mean)
+$ozone
+  month    (all)
+1     5 23.61538
+2     6 29.44444
+3     7 59.11538
+4     8 59.96154
+5     9 31.44828
+
+$solar.r
+  month    (all)
+1     5 181.2963
+2     6 190.1667
+3     7 216.4839
+4     8 171.8571
+5     9 167.4333
+
+$wind
+  month     (all)
+1     5 11.622581
+2     6 10.266667
+3     7  8.941935
+4     8  8.793548
+5     9 10.180000
+
+$temp
+  month    (all)
+1     5 65.54839
+2     6 79.10000
+3     7 83.90323
+4     8 83.96774
+5     9 76.90000
+
+> cast(aqm, month ~ variable, mean, margins=c("grand_row", "grand_col"))
+Error in allocate_column(df[[var]], nrows, dfs, var) : 
+  Array variable result has inconsistent dims
+Calls: cast ... sort_df -> rbind.fill -> output_template -> allocate_column
+Execution halted 
+
+
+rfigshare =============================================================== 
+ 
+
+
+RForcecom =============================================================== 
+ 
+
+
+rgauges ================================================================= 
+ 
+
+
+rgbif =================================================================== 
+ 
+
+
+rinat =================================================================== 
+ 
+
+
+Rmisc =================================================================== 
+ 
+
+
+ropensnp ================================================================ 
+ 
+
+
+rplos =================================================================== 
+ 
+
+
+RSAGA =================================================================== 
+ 
+
+
+RSA ===================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK
+WARNING: There was 1 warning. 
+
+
+RSiteCatalyst =========================================================== 
+ 
+
+
+rsnps =================================================================== 
+ 
+
+
+rspear ================================================================== 
+ 
+
+
+RStorm ================================================================== 
+ 
+
+
+rtematres =============================================================== 
+ 
+
+
+rvertnet ================================================================ 
+ 
+
+
+RXKCD =================================================================== 
+ 
+
+
+scales ================================================================== 
+ 
+
+
+scholar ================================================================= 
+ *  checking examples ... ERROR
+Running examples in 'scholar-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: compare_scholar_careers
+> ### Title: Compare the careers of multiple scholars
+> ### Aliases: compare_scholar_careers
+> 
+> ### ** Examples
+> 
+> {
++ 	## How do Richard Feynmann and Stephen Hawking compare?
++ 	ids <- c("B7vSqZsAAAAJ", "qj74uXkAAAAJ")
++     df <- compare_scholar_careers(ids)
++ }
+Error: failed to load HTTP resource
+Execution halted 
+
+
+SciencesPo ============================================================== 
+ 
+
+
+semPlot ================================================================= 
+ 
+
+
+SGP ===================================================================== 
+ 
+
+
+simPH =================================================================== 
+ 
+
+
+SixSigma ================================================================ 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [14s/14s] OK
+Examples with CPU or elapsed time > 5s
+                  user system elapsed
+SixSigma-package 5.916    0.1   6.017 
+
+
+sjPlot ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [48s/49s] OK
+Examples with CPU or elapsed time > 5s
+            user system elapsed
+sjp.grpfrq 9.013  0.036   9.178
+sjp.lm.int 5.837  0.028   5.868
+WARNING: There was 1 warning. 
+
+
+smatr =================================================================== 
+ 
+
+
+soilDB ================================================================== 
+ 
+
+
+solr ==================================================================== 
+ 
+
+
+sorvi =================================================================== 
+ 
+
+
+sparseHessianFD ========================================================= 
+ 
+
+
+sparseMVN =============================================================== 
+ 
+
+
+ss3sim ================================================================== 
+ 
+
+
+sss ===================================================================== 
+ 
+
+
+Stack =================================================================== 
+ 
+
+
+strvalidator ============================================================ 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  > # CHANGE LOG
+  > # 05.12.2013: Updated to thestthat 0.8
+  > 
+  > 
+  > library(testthat)
+  > library(strvalidator)
+  > 
+  > # test_check(package="strvalidator") # Does not work yet?
+  > # test_package=("strvalidator") # No error message, but does not run (although R CDM says OK)
+  >   test_dir("tests/testthat")
+  Error in setwd(path) : cannot change working directory
+  Calls: test_dir -> source_dir -> setwd
+  Execution halted 
+
+
+surveydata ============================================================== 
+ 
+
+
+taRifx.geo ============================================================== 
+ 
+
+
+taRifx ================================================================== 
+ 
+
+
+taxize ================================================================== 
+ 
+
+
+timeordered ============================================================= 
+ 
+
+
+TimeProjection ========================================================== 
+ 
+
+
+transnet ================================================================ 
+ 
+
+
+trapezoid =============================================================== 
+ 
+
+
+treecm ================================================================== 
+ 
+
+
+TripleR ================================================================= 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [11s/11s] OK
+WARNING: There was 1 warning. 
+
+
+trustOptim ============================================================== 
+ 
+
+
+useful ================================================================== 
+ 
+
+
+vcdExtra ================================================================ 
+ *  checking sizes of PDF files under 'inst/doc' ... WARNING
+  'gs+qpdf' made some significant size reductions:
+     compacted 'vcd-tutorial.pdf' from 770Kb to 525Kb
+  consider running tools::compactPDF(gs_quality = "ebook") on these files 
+
+
+Wats ==================================================================== 
+ 
+
+
+wethepeople ============================================================= 
+ 
+
+
+wordmatch =============================================================== 
+ 
+
+
+wppExplorer ============================================================= 
+ 
+
+
+XML2R =================================================================== 
+ 
+
+
+yhatr =================================================================== 
+ 
+
+

@@ -1,0 +1,17 @@
+* installing *source* package 'pROC' ...
+** package 'pROC' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c RcppExports.cpp -o RcppExports.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c delong.cpp -o delong.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c perfsAll.cpp -o perfsAll.o
+g++ -shared -o pROC.so RcppExports.o delong.o perfsAll.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpPhMZfD/check_crand3f19cef95f/pROC.Rcheck/pROC/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (pROC)

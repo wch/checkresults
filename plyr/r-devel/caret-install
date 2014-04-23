@@ -1,0 +1,16 @@
+* installing *source* package 'caret' ...
+** package 'caret' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c caret.c -o caret.o
+gcc -std=gnu99 -shared -o caret.so caret.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc5f786f92/caret.Rcheck/caret/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (caret)

@@ -1,0 +1,19 @@
+* installing *source* package 'dynsurv' ...
+** package 'dynsurv' successfully unpacked and MD5 sums checked
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking for R... yes
+checking for Rscript... yes
+checking for Boost development files... no
+configure: error: Boost development files not found
+ERROR: configuration failed for package 'dynsurv'
+* removing '/mnt/tmp/RtmpBCY3Yb/check_cranfc5f786f92/dynsurv.Rcheck/dynsurv'

@@ -1,0 +1,23 @@
+nullabor *  checking examples ... ERROR
+Running examples in 'nullabor-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: lineup
+> ### Title: The line-up protocol.
+> ### Aliases: lineup
+> 
+> ### ** Examples
+> 
+> if (require("ggplot2")) {
++ qplot(mpg, wt, data = mtcars) %+%
++   lineup(null_permute("mpg"), mtcars) +
++   facet_wrap(~ .sample)
++ qplot(mpg, .sample, data = lineup(null_permute("cyl"), mtcars),
++   colour = factor(cyl))
++ }
+Loading required package: ggplot2
+decrypt("vBcZ bdsd Az tFRAsAFz DO")
+Error in .n + 1 : non-numeric argument to binary operator
+Calls: %+% ... add_true -> with -> with.default -> eval -> eval -> ifelse
+Execution halted

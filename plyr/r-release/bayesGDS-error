@@ -1,0 +1,16 @@
+bayesGDS *  checking tests ... ERROR
+Running the tests in 'tests/choice_gds.R' failed.
+Last 13 lines of output:
+  > 
+  > library(bayesGDS)
+  Loading required package: Matrix
+  Loading required package: compiler
+  > library(Matrix)
+  > library(trustOptim)
+  Loading required package: Rcpp
+  Loading required package: RcppEigen
+  Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+    unable to load shared object '/home/ubuntu/R-lib/3.0/trustOptim/libs/trustOptim.so':
+    libRcpp.so: cannot open shared object file: No such file or directory
+  Error: package or namespace load failed for 'trustOptim'
+  Execution halted

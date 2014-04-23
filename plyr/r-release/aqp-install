@@ -1,0 +1,16 @@
+* installing *source* package 'aqp' ...
+** package 'aqp' successfully unpacked and MD5 sums checked
+** R
+** data
+** demo
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'nrow' from package 'base' in package 'aqp'
+Creating a generic function for 'unique' from package 'base' in package 'aqp'
+Creating a generic function for 'plot' from package 'graphics' in package 'aqp'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (aqp)

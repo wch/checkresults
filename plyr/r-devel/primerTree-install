@@ -1,0 +1,15 @@
+* installing *source* package 'primerTree' ...
+** package 'primerTree' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c read_dna.c -o read_dna.o
+gcc -std=gnu99 -shared -o primerTree.so read_dna.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc5f786f92/primerTree.Rcheck/primerTree/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (primerTree)

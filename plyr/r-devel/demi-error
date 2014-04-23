@@ -1,0 +1,5 @@
+demi *  checking package dependencies ... ERROR
+Packages required but not available: 'affy' 'affxparser' 'oligo'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

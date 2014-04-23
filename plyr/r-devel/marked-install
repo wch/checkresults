@@ -1,0 +1,27 @@
+* installing *source* package 'marked' ...
+** package 'marked' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c bayesCR.cpp -o bayesCR.o
+gfortran   -fpic  -O3 -pipe  -g  -c cjs.f -o cjs.o
+gfortran   -fpic  -O3 -pipe  -g  -c cjsdmat.f -o cjsdmat.o
+gfortran   -fpic  -O3 -pipe  -g  -c cjsgamma.f -o cjsgamma.o
+gfortran   -fpic  -O3 -pipe  -g  -c hmm_like.f -o hmm_like.o
+gfortran   -fpic  -O3 -pipe  -g  -c ms2gamma.f -o ms2gamma.o
+gfortran   -fpic  -O3 -pipe  -g  -c msdmat.f -o msdmat.o
+gfortran   -fpic  -O3 -pipe  -g  -c msgamma.f -o msgamma.o
+gfortran   -fpic  -O3 -pipe  -g  -c ums2dmat.f -o ums2dmat.o
+gfortran   -fpic  -O3 -pipe  -g  -c umsdmat.f -o umsdmat.o
+g++ -shared -o marked.so bayesCR.o cjs.o cjsdmat.o cjsgamma.o hmm_like.o ms2gamma.o msdmat.o msgamma.o ums2dmat.o umsdmat.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc5f786f92/marked.Rcheck/marked/libs
+** R
+** data
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'marked.Rnw' using 'latin-9' 
+** testing if installed package can be loaded
+* DONE (marked)

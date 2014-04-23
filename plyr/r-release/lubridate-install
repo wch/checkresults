@@ -1,0 +1,17 @@
+* installing *source* package 'lubridate' ...
+** package 'lubridate' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c tparse.c -o tparse.o
+gcc -std=gnu99 -shared -o lubridate.so tparse.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpPhMZfD/check_crand3f19cef95f/lubridate.Rcheck/lubridate/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (lubridate)

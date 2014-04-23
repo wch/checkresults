@@ -1,0 +1,16 @@
+* installing *source* package 'extracat' ...
+** package 'extracat' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c optile.c -o optile.o
+gcc -std=gnu99 -shared -o extracat.so optile.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpPhMZfD/check_crand3f19cef95f/extracat.Rcheck/extracat/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (extracat)

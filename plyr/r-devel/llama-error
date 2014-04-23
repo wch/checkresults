@@ -1,0 +1,16 @@
+llama *  checking tests ... ERROR
+Running the tests in 'tests/run-all.R' failed.
+Last 13 lines of output:
+  1.Creating a generic function for 'predict' from package 'stats' in the global environment
+  ..........................................................................................................................
+  
+  1. Error: contributions returns contributions ----------------------------------
+  class not found
+  1: contributions(d) at test.analysis.R:3
+  2: J("shapleyComputation/CoalitionValueCalculator")
+  3: jclassName(class)
+  4: .jfindClass(as.character(class))
+  5: stop("class not found")
+  
+  Error: Test failures
+  Execution halted

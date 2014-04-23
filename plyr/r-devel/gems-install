@@ -1,0 +1,15 @@
+* installing *source* package 'gems' ...
+** package 'gems' successfully unpacked and MD5 sums checked
+** R
+** preparing package for lazy loading
+Creating a generic function for 'plot' from package 'graphics' in package 'gems'
+Creating a generic function for 'update' from package 'stats' in package 'gems'
+Creating a generic function for 'head' from package 'utils' in package 'gems'
+Creating a generic function for 'tail' from package 'utils' in package 'gems'
+Creating a generic function for 'print' from package 'base' in package 'gems'
+Creating a generic function for 'summary' from package 'base' in package 'gems'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (gems)

@@ -1,0 +1,8 @@
+gems *  checking for missing documentation entries ... WARNING
+Undocumented S4 methods:
+  generic '[' and siglist 'ArtCohort,ANY,ANY,ANY'
+  generic '[' and siglist 'PosteriorProbabilities,ANY,ANY,ANY'
+All user-level objects in a package (including S4 classes and methods)
+should have documentation entries.
+See the chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.

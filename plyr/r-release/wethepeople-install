@@ -1,0 +1,11 @@
+* installing *source* package 'wethepeople' ...
+** package 'wethepeople' successfully unpacked and MD5 sums checked
+** R
+** data
+** preparing package for lazy loading
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/ubuntu/R-lib/3.0/wordcloud/libs/wordcloud.so':
+  libRcpp.so: cannot open shared object file: No such file or directory
+Error : package 'wordcloud' could not be loaded
+ERROR: lazy loading failed for package 'wethepeople'
+* removing '/mnt/tmp/RtmpPhMZfD/check_crand3f19cef95f/wethepeople.Rcheck/wethepeople'

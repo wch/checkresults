@@ -1,0 +1,15 @@
+* installing *source* package 'biom' ...
+** package 'biom' successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'nrow' from package 'base' in package 'biom'
+Creating a generic function for 'ncol' from package 'base' in package 'biom'
+Creating a generic function for 'rownames' from package 'base' in package 'biom'
+Creating a generic function for 'colnames' from package 'base' in package 'biom'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (biom)

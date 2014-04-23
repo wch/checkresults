@@ -1,0 +1,217 @@
+* using log directory '/mnt/tmp/RtmpPhMZfD/check_crand3f19cef95f/granovaGG.Rcheck'
+* using R version 3.0.2 (2013-09-25)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'granovaGG/DESCRIPTION' ... OK
+* this is package 'granovaGG' version '1.2'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'granovaGG' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+GrandMeanPoint: no visible binding for global variable 'score'
+JitteredScoresByGroupContrast: no visible binding for global variable
+  'contrast'
+JitteredScoresByGroupContrast: no visible binding for global variable
+  'score'
+granovagg.1w : GetSummary: no visible binding for global variable
+  'score'
+granovagg.1w : GetSummary: no visible binding for global variable
+  'contrast'
+granovagg.1w : PrintGroupSummary: no visible binding for global
+  variable 'maximum.score'
+granovagg.1w : GroupMeanLine: no visible binding for global variable
+  'x'
+granovagg.1w : GroupMeanLine: no visible binding for global variable
+  'y'
+granovagg.1w : GroupMeanLine: no visible binding for global variable
+  'xend'
+granovagg.1w : GroupMeanLine: no visible binding for global variable
+  'yend'
+granovagg.1w : GroupMeansByContrast: no visible binding for global
+  variable 'contrast'
+granovagg.1w : GroupMeansByContrast: no visible binding for global
+  variable 'group.mean'
+granovagg.1w : Residuals: no visible binding for global variable
+  'within.group.residuals'
+granovagg.1w : Residuals: no visible binding for global variable
+  'within.1.sd.of.the.mean.of.all.residuals'
+granovagg.1w : OuterSquare: no visible binding for global variable
+  'xmin'
+granovagg.1w : OuterSquare: no visible binding for global variable
+  'xmax'
+granovagg.1w : OuterSquare: no visible binding for global variable
+  'ymin'
+granovagg.1w : OuterSquare: no visible binding for global variable
+  'ymax'
+granovagg.1w : OuterSquare: no visible binding for global variable
+  'fill'
+granovagg.1w : InnerSquare: no visible binding for global variable
+  'xmin'
+granovagg.1w : InnerSquare: no visible binding for global variable
+  'xmax'
+granovagg.1w : InnerSquare: no visible binding for global variable
+  'ymin'
+granovagg.1w : InnerSquare: no visible binding for global variable
+  'ymax'
+granovagg.1w : InnerSquare: no visible binding for global variable
+  'fill'
+granovagg.1w : SquaresText: no visible binding for global variable 'x'
+granovagg.1w : SquaresText: no visible binding for global variable 'y'
+granovagg.1w : SquaresText: no visible binding for global variable
+  'label'
+granovagg.1w : WithinGroupVariation: no visible binding for global
+  variable 'x'
+granovagg.1w : WithinGroupVariation: no visible binding for global
+  variable 'ymin'
+granovagg.1w : WithinGroupVariation: no visible binding for global
+  variable 'ymax'
+granovagg.1w : MaxWithinGroupVariation: no visible binding for global
+  variable 'x'
+granovagg.1w : MaxWithinGroupVariation: no visible binding for global
+  variable 'ymin'
+granovagg.1w : MaxWithinGroupVariation: no visible binding for global
+  variable 'ymax'
+granovagg.1w : BaselineWithinGroupVariation: no visible binding for
+  global variable 'baseline.variation'
+granovagg.1w : BackgroundForGroupSizesAndLabels: no visible binding for
+  global variable 'ymin'
+granovagg.1w : BackgroundForGroupSizesAndLabels: no visible binding for
+  global variable 'ymax'
+granovagg.1w : BackgroundForGroupSizesAndLabels: no visible binding for
+  global variable 'xmin'
+granovagg.1w : BackgroundForGroupSizesAndLabels: no visible binding for
+  global variable 'xmax'
+granovagg.1w : GroupSizes: no visible binding for global variable 'x'
+granovagg.1w : GroupSizes: no visible binding for global variable 'y'
+granovagg.1w : GroupSizes: no visible binding for global variable
+  'label'
+granovagg.1w : GroupSizes: no visible binding for global variable
+  'angle'
+granovagg.1w : NonOverplottedGroupLabels: no visible binding for global
+  variable 'x'
+granovagg.1w : NonOverplottedGroupLabels: no visible binding for global
+  variable 'y'
+granovagg.1w : NonOverplottedGroupLabels: no visible binding for global
+  variable 'label'
+granovagg.1w : NonOverplottedGroupLabels: no visible binding for global
+  variable 'angle'
+granovagg.1w : NonOverplottedGroupLabels: no visible binding for global
+  variable 'overplotted'
+granovagg.1w : OverplottedGroupLabels: no visible binding for global
+  variable 'x'
+granovagg.1w : OverplottedGroupLabels: no visible binding for global
+  variable 'y'
+granovagg.1w : OverplottedGroupLabels: no visible binding for global
+  variable 'label'
+granovagg.1w : OverplottedGroupLabels: no visible binding for global
+  variable 'angle'
+granovagg.1w : OverplottedGroupLabels: no visible binding for global
+  variable 'overplotted'
+granovagg.1w : PrintOverplotWarning: no visible binding for global
+  variable 'overplotted'
+granovagg.1w : PrintOverplotWarning: no visible binding for global
+  variable 'group.mean'
+granovagg.1w : PrintOverplotWarning: no visible binding for global
+  variable 'contrast'
+granovagg.contr : GetSummary: no visible binding for global variable
+  'x.values'
+granovagg.contr : GetSummary: no visible binding for global variable
+  'y.values'
+granovagg.contr : JitteredResponsesByContrast: no visible binding for
+  global variable 'x.values'
+granovagg.contr : JitteredResponsesByContrast: no visible binding for
+  global variable 'y.values'
+granovagg.contr : EffectsOfContrasts: no visible binding for global
+  variable 'responses'
+granovagg.contr : ConnectEffectMeans: no visible binding for global
+  variable 'responses'
+granovagg.contr : GetGroupSummary: no visible binding for global
+  variable 'variable'
+granovagg.contr : GetGroupSummary: no visible binding for global
+  variable 'value'
+granovagg.contr : GetGroupSummary: no visible binding for global
+  variable 'standard.deviation'
+granovagg.contr : RawScoresByGroup: no visible binding for global
+  variable 'variable'
+granovagg.contr : RawScoresByGroup: no visible binding for global
+  variable 'value'
+granovagg.contr : MeansByGroup: no visible binding for global variable
+  'group'
+granovagg.contr : MeansByGroup: no visible binding for global variable
+  'group.mean'
+granovagg.contr : ConnectGroupResponseMeans: no visible binding for
+  global variable 'group'
+granovagg.contr : ConnectGroupResponseMeans: no visible binding for
+  global variable 'group.mean'
+granovagg.ds : GetCrossElementCoordinates: no visible binding for
+  global variable 'color'
+granovagg.ds : TreatmentLine: no visible binding for global variable
+  'intercept'
+granovagg.ds : TreatmentLine: no visible binding for global variable
+  'slope'
+granovagg.ds : TreatmentLine: no visible binding for global variable
+  'color'
+granovagg.ds : Crossbow: no visible binding for global variable 'x'
+granovagg.ds : Crossbow: no visible binding for global variable 'y'
+granovagg.ds : Crossbow: no visible binding for global variable 'x.end'
+granovagg.ds : Crossbow: no visible binding for global variable 'y.end'
+granovagg.ds : CIBand: no visible binding for global variable 'x'
+granovagg.ds : CIBand: no visible binding for global variable 'y'
+granovagg.ds : CIBand: no visible binding for global variable 'x.end'
+granovagg.ds : CIBand: no visible binding for global variable 'y.end'
+granovagg.ds : CIBand: no visible binding for global variable 'color'
+granovagg.ds : Shadows: no visible binding for global variable
+  'x.shadow'
+granovagg.ds : Shadows: no visible binding for global variable
+  'y.shadow'
+granovagg.ds : Trails: no visible binding for global variable
+  'x.trail.start'
+granovagg.ds : Trails: no visible binding for global variable
+  'y.trail.start'
+granovagg.ds : Trails: no visible binding for global variable
+  'x.trail.end'
+granovagg.ds : Trails: no visible binding for global variable
+  'y.trail.end'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... [29s/29s] OK
+Examples with CPU or elapsed time > 5s
+                  user system elapsed
+granovagg.contr 11.445  0.080  11.587
+granovagg.1w    11.060  0.236  11.482
+NOTE: There was 1 note.

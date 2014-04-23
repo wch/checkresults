@@ -1,0 +1,35 @@
+decctools *  checking examples ... ERROR
+Running examples in 'decctools-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: get_LAD_data
+> ### Title: Get LAD energy consumption data
+> ### Aliases: get_LAD_data
+> ### Keywords: data energy
+> 
+> ### ** Examples
+> 
+> ## Not run: 
+> ##D # Gets energy data for total fuels and sectors for most recent year
+> ##D lad_data <- get_LAD_data()
+> ## End(Not run)
+> # Gets energy data for electricity and gas use in the domestic sector in the most recent year
+> # This example requires a working internet connection
+> library(RCurl)
+Loading required package: bitops
+> if (url.exists("http://www.google.com")) {
++   df <- get_LAD_data(sector="domestic", fuel=c("electricity", "gas"))
++ }
+curl: try 'curl --help' or 'curl --manual' for more information
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   216  100   216    0     0    373      0 --:--:-- --:--:-- --:--:--   618
+Error in value[[3L]](cond) : Error loading workbook:
+	Error: IllegalArgumentException (Java): Your InputStream was neither an OLE2 stream, nor an OOXML stream
+
+Tried download file from https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/244786/september_2013_sub_national_total_final_energy_consumption_statistics.xlsx.  Email package maintainer to see if URL has changed.
+Calls: get_LAD_data ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+Execution halted
