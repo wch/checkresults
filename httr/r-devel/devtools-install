@@ -1,0 +1,14 @@
+* installing *source* package 'devtools' ...
+** package 'devtools' successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c devtools.c -o devtools.o
+ccache gcc -shared -L/usr/local/lib -o devtools.so devtools.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/RtmphDT8mb/check_cran6d7a1c392405/devtools.Rcheck/devtools/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (devtools)

@@ -1,0 +1,14 @@
+rinat *  checking running R code from vignettes ... [2s/15s] ERROR
+Errors in running code in vignettes:
+when running code in 'rinat-intro.Rmd'
+  ...
+
+> library(rinat)
+
+> library(ggplot2)
+
+> vp_obs <- get_inat_obs(query = "vernal pool")
+
+  When sourcing 'rinat-intro.R':
+Error: invalid 'text' argument
+Execution halted

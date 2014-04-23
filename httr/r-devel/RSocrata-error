@@ -1,0 +1,15 @@
+RSocrata *  checking examples ... ERROR
+Running examples in 'RSocrata-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: read.socrata
+> ### Title: Get a full Socrata data set as an R data frame
+> ### Aliases: read.socrata
+> 
+> ### ** Examples
+> 
+> earthquakes <- read.socrata("http://soda.demo.socrata.com/resource/4334-bgaj.csv")
+Error in textConnection(content(response)) : invalid 'text' argument
+Calls: read.socrata ... getContentAsDataFrame -> read.csv -> read.table -> textConnection
+Execution halted

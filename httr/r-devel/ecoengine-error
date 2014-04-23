@@ -1,0 +1,15 @@
+ecoengine *  checking examples ... ERROR
+Running examples in 'ecoengine-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: ee_about
+> ### Title: About the Berkeley Ecoinformatics Engine
+> ### Aliases: ee_about
+> 
+> ### ** Examples
+> 
+> ee_about()
+Error in loadNamespace(name) : there is no package called 'RJSONIO'
+Calls: ee_about ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+Execution halted
