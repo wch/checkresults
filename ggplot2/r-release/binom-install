@@ -1,0 +1,15 @@
+* installing *source* package 'binom' ...
+** package 'binom' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c binom.c -o binom.o
+gcc -std=gnu99 -shared -o binom.so binom.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/binom.Rcheck/binom/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (binom)

@@ -1,0 +1,14 @@
+* installing *source* package 'PopGenReport' ...
+** package 'PopGenReport' successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+[1] "R/gap is loaded"
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+[1] "R/gap is loaded"
+* DONE (PopGenReport)

@@ -1,0 +1,16 @@
+* installing *source* package 'trapezoid' ...
+** package 'trapezoid' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c trapezoid.c -o trapezoid.o
+gcc -std=gnu99 -shared -o trapezoid.so trapezoid.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/trapezoid.Rcheck/trapezoid/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'trapezoid.Rnw' 
+** testing if installed package can be loaded
+* DONE (trapezoid)

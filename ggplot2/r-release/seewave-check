@@ -1,0 +1,17 @@
+* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/seewave.Rcheck'
+* using R version 3.0.3 (2014-03-06)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'seewave/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'seewave' version '1.7.3'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package required but not available: 'fftw'
+
+Package suggested but not available for checking: 'rpanel'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

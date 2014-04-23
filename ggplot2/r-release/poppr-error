@@ -1,0 +1,7 @@
+poppr *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [22s/22s] OK
+Examples with CPU or elapsed time > 5s
+     user system elapsed
+mlg 5.789   0.06   5.884

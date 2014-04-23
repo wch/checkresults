@@ -1,0 +1,18 @@
+* installing *source* package 'OutbreakTools' ...
+** package 'OutbreakTools' successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'plot' from package 'graphics' in package 'OutbreakTools'
+Creating a generic function for 'as.matrix' from package 'base' in package 'OutbreakTools'
+Creating a generic function for 'as.data.frame' from package 'base' in package 'OutbreakTools'
+Creating a generic function for 'summary' from package 'base' in package 'OutbreakTools'
+Creating a generic function for 'head' from package 'utils' in package 'OutbreakTools'
+Creating a generic function for 'tail' from package 'utils' in package 'OutbreakTools'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (OutbreakTools)

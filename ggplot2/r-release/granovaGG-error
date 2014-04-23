@@ -1,0 +1,20 @@
+granovaGG *  checking examples ... ERROR
+Running examples in 'granovaGG-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: granovagg.contr
+> ### Title: Elemental Graphic Display for Contrast Effect of ANOVA
+> ### Aliases: granovagg.contr
+> ### Keywords: hplot
+> 
+> ### ** Examples
+> 
+> data(arousal)  
+> contrasts22 <- data.frame( c(-.5,-.5,.5,.5), 
++   c(-.5,.5,-.5,.5), c(.5,-.5,-.5,.5) )
+> names(contrasts22) <- c("Drug.A", "Drug.B", "Drug.A.B")
+> granovagg.contr(arousal, contrasts = contrasts22)
+Error in list(x = x, y = y, ...) : 'x' is missing
+Calls: granovagg.contr ... <Anonymous> -> <Anonymous> -> do.call -> aes_string
+Execution halted

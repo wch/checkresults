@@ -1,0 +1,15 @@
+* installing *source* package 'pcaPA' ...
+** package 'pcaPA' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG `gsl-config --cflags`     -fpic  -O3 -pipe  -g  -c Cpolychoric.cpp -o Cpolychoric.o
+/bin/bash: gsl-config: command not found
+Cpolychoric.cpp:38:26: fatal error: gsl/gsl_math.h: No such file or directory
+compilation terminated.
+make: *** [Cpolychoric.o] Error 1
+g++ -I/usr/share/R/include -DNDEBUG `gsl-config --cflags`     -fpic  -O3 -pipe  -g  -c Cpolychoric.cpp -o Cpolychoric.o
+/bin/bash: gsl-config: command not found
+Cpolychoric.cpp:38:26: fatal error: gsl/gsl_math.h: No such file or directory
+compilation terminated.
+make: *** [Cpolychoric.o] Error 1
+ERROR: compilation failed for package 'pcaPA'
+* removing '/mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/pcaPA.Rcheck/pcaPA'

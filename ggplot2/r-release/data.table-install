@@ -1,0 +1,33 @@
+* installing *source* package 'data.table' ...
+** package 'data.table' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c assign.c -o assign.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c bmerge.c -o bmerge.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c chmatch.c -o chmatch.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c dogroups.c -o dogroups.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c fastmean.c -o fastmean.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c fastradixdouble.c -o fastradixdouble.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c fastradixint.c -o fastradixint.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c fcast.c -o fcast.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c fmelt.c -o fmelt.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c forder.c -o forder.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c fread.c -o fread.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c gsumm.c -o gsumm.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c init.c -o init.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c rbindlist.c -o rbindlist.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c reorder.c -o reorder.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c uniqlist.c -o uniqlist.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c vecseq.c -o vecseq.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c wrappers.c -o wrappers.o
+gcc -std=gnu99 -shared -o data.table.so assign.o bmerge.o chmatch.o dogroups.o fastmean.o fastradixdouble.o fastradixint.o fcast.o fmelt.o forder.o fread.o gsumm.o init.o rbindlist.o reorder.o uniqlist.o vecseq.o wrappers.o -L/usr/lib/R/lib -lR
+mv data.table.so datatable.so
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/data.table.Rcheck/data.table/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (data.table)

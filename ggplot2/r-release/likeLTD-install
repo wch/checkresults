@@ -1,0 +1,20 @@
+* installing *source* package 'likeLTD' ...
+** package 'likeLTD' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -O3 -pipe  -g  -c genetics.cpp -o genetics.o
+g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -O3 -pipe  -g  -c module.cpp -o module.o
+g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -O3 -pipe  -g  -c objectives.cpp -o objectives.o
+g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -O3 -pipe  -g  -c openmp.cpp -o openmp.o
+g++ -shared -o likeLTD.so genetics.o module.o objectives.o openmp.o -fopenmp -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/likeLTD.Rcheck/likeLTD/libs
+** R
+** data
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (likeLTD)

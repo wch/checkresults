@@ -1,0 +1,16 @@
+evaluate *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  cannot add bindings to a locked environment
+  1: setClass("A", contains = "function") at test-evaluate.r:28
+  2: assignClassDef(Class, classDef, where)
+  3: assign(mname, def, where)
+  
+  2. Error: errors during printing visible values are captured -------------------
+  cannot add bindings to a locked environment
+  1: setClass("A", contains = "function") at test-evaluate.r:37
+  2: assignClassDef(Class, classDef, where)
+  3: assign(mname, def, where)
+  
+  Error: Test failures
+  Execution halted

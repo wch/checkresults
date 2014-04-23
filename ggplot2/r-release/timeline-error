@@ -1,0 +1,16 @@
+timeline *  checking examples ... ERROR
+Running examples in 'timeline-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: timeline
+> ### Title: Creates a timeline plot.
+> ### Aliases: timeline
+> 
+> ### ** Examples
+> 
+> data(ww2)
+> timeline(ww2, ww2.events)
+Error in list(x = x, y = y, ...) : 'x' is missing
+Calls: timeline ... <Anonymous> -> <Anonymous> -> do.call -> aes_string
+Execution halted

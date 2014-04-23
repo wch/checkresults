@@ -1,0 +1,16 @@
+* installing *source* package 'chron' ...
+** package 'chron' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c chron_strs.c -o chron_strs.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c init.c -o init.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c unpaste.c -o unpaste.o
+gcc -std=gnu99 -shared -o chron.so chron_strs.o init.o unpaste.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/chron.Rcheck/chron/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (chron)

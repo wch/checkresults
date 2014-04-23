@@ -1,0 +1,17 @@
+* installing *source* package 'PedCNV' ...
+** package 'PedCNV' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c algorithm.cpp -o algorithm.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c getInitial.cpp -o getInitial.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c silWidth.cpp -o silWidth.o
+g++ -shared -o PedCNV.so algorithm.o getInitial.o silWidth.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/PedCNV.Rcheck/PedCNV/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (PedCNV)

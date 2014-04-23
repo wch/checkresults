@@ -1,0 +1,4 @@
+vcdExtra *  checking sizes of PDF files under 'inst/doc' ... WARNING
+  'gs+qpdf' made some significant size reductions:
+     compacted 'vcd-tutorial.pdf' from 770Kb to 525Kb
+  consider running tools::compactPDF(gs_quality = "ebook") on these files

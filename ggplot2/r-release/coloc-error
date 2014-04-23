@@ -1,0 +1,14 @@
+coloc *  checking running R code from vignettes ... [14s/14s] WARNING
+Errors in running code in vignettes:
+when running code in 'vignette.Rnw'
+  ...
+             values.against
+values.for    c(-0.1, 1) c(0.9, 1.1)
+  c(-0.1, 1)     1.00000  0.05150753
+  c(0.9, 1.1)   19.41464  1.00000000
+
+> library(snpStats)
+
+  When sourcing 'vignette.R':
+Error: there is no package called 'snpStats'
+Execution halted

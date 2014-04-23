@@ -1,0 +1,139 @@
+PhaseType *  checking examples ... ERROR
+Running examples in 'PhaseType-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: PhaseType-package
+> ### Title: Phase-type Distributions Toolbox
+> ### Aliases: PhaseType-package PhaseType
+> ### Keywords: phase-type pht mcmc
+> 
+> ### ** Examples
+> 
+> library(actuar)
+
+Attaching package: 'actuar'
+
+The following object is masked from 'package:grDevices':
+
+    cm
+
+> # Define the S matrix (columnwise)
+> S <- matrix(c(-3.6, 9.5, 9.5, 1.8, -11.3, 0, 1.8, 0, -11.3), 3)
+> 
+> # Define starting state distribution
+> pi <- c(1, 0, 0)
+> 
+> # Generate 50 random absorption times from the Phase-type with subgenerator S
+> # and starting distribution pi, which we will try to infer next
+> x <- rphtype(50, pi, S)
+> 
+> 
+> library(PhaseType)
+> # FIRST: descriptive model fit (Bladt et al. 2003)
+> # Prior on starting state
+> dirpi <- c(1, 0, 0)
+> 
+> # Gamma prior: shape hyperparameters (one per matrix element, columnwise)
+> nu <- c(24, 24, 1, 180, 1, 24, 180, 1, 24)
+> 
+> # Gamma prior: reciprocal scale hyperparameters (one per matrix row)
+> zeta <- c(16, 16, 16)
+> 
+> # Define dimension of model to fit
+> n <- 3
+> 
+> # Perform 20 MCMC iterations (fix inner Metropolis-Hastings to one iteration
+> # since starts in stationarity here).  Do more in practise!!
+> res1 <- phtMCMC(x, n, dirpi, nu, zeta, 20, mhit=1)
+Setting up Gibbs run ...
+Starting phase-type MCMC sampler ...
+
+Begining processing ...
+Processing iteration 2 of 20 (10.0%)
+
+Processing iteration 3 of 20 (15.0%)
+
+Processing iteration 4 of 20 (20.0%)
+
+Processing iteration 5 of 20 (25.0%)
+
+Processing iteration 6 of 20 (30.0%)
+
+Processing iteration 7 of 20 (35.0%)
+
+Processing iteration 8 of 20 (40.0%)
+
+Processing iteration 9 of 20 (45.0%)
+
+Processing iteration 10 of 20 (50.0%)
+
+Processing iteration 11 of 20 (55.0%)
+
+Processing iteration 12 of 20 (60.0%)
+
+Processing iteration 13 of 20 (65.0%)
+
+Processing iteration 14 of 20 (70.0%)
+
+Processing iteration 15 of 20 (75.0%)
+
+Processing iteration 16 of 20 (80.0%)
+
+Processing iteration 17 of 20 (85.0%)
+
+Processing iteration 18 of 20 (90.0%)
+
+Processing iteration 19 of 20 (95.0%)
+
+Processing iteration 20 of 20 (100.0%)
+
+Completed MCMC run, returning results ...
+> print(res1)
+MCMC chain of length 20 iterations for Phase-type inference on matrix structure:
+     [,1] [,2] [,3] [,4]
+[1,] 0    S12  S13  s1  
+[2,] S21  0    S23  s2  
+[3,] S31  S32  0    s3  
+[4,] 0    0    0    0   
+
+Priors:
+S12 ~ Gamma(shape=24, scale=1/16)
+S13 ~ Gamma(shape=24, scale=1/16)
+S21 ~ Gamma(shape=180, scale=1/16)
+S23 ~ Gamma(shape=1, scale=1/16)
+S31 ~ Gamma(shape=180, scale=1/16)
+S32 ~ Gamma(shape=1, scale=1/16)
+s1 ~ Gamma(shape=1, scale=1/16)
+s2 ~ Gamma(shape=24, scale=1/16)
+s3 ~ Gamma(shape=24, scale=1/16)
+
+Original data consist 50 observations
+
+Posterior sample mean and standard deviation for each variable, plus standard error of the mean:
+           Mean         SD   Naive SE Time-series SE
+S12  1.28553829 0.30948816 0.06920366     0.13401599
+S13  1.27060821 0.16714267 0.03737424     0.01226974
+S21 11.12836057 0.78900143 0.17642608     0.26813825
+S23  0.05762216 0.04765006 0.01065488     0.01065488
+S31 11.29054654 0.64935772 0.14520080     0.21723695
+S32  0.05758215 0.06195951 0.01385457     0.01385457
+s1   0.37501895 0.09687819 0.02166262     0.03288282
+s2   1.32575684 0.25232043 0.05642056     0.09278021
+s3   1.28512324 0.25970159 0.05807104     0.05807104
+
+Posterior quantiles for each variable:
+            2.5%         25%         50%         75%      97.5%
+S12  0.891230717  1.08655856  1.24784288  1.42704244  1.9451062
+S13  1.018271813  1.10455705  1.27180769  1.38398974  1.5464045
+S21 10.069666688 10.44813111 11.00270883 11.59224986 12.4677910
+S23  0.007129706  0.02198595  0.04305314  0.07983968  0.1589998
+S31 10.231801103 10.85654117 11.21401658 11.58052399 12.4011354
+S32  0.003767725  0.01612634  0.02825940  0.08221284  0.2041676
+s1   0.165185185  0.33427169  0.37507861  0.42912943  0.5231887
+s2   0.877949644  1.20862352  1.35562136  1.45823890  1.7728619
+s3   0.867242269  1.12000986  1.26355790  1.38441052  1.8279905
+> plot(res1)
+Error in list(x = x, y = y, ...) : 'y' is missing
+Calls: plot ... <Anonymous> -> <Anonymous> -> do.call -> aes_string
+Execution halted

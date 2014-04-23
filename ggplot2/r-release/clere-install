@@ -1,0 +1,20 @@
+* installing *source* package 'clere' ...
+** package 'clere' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"   -fpic  -O3 -pipe  -g  -c Fit.cpp -o Fit.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"   -fpic  -O3 -pipe  -g  -c IO.cpp -o IO.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"   -fpic  -O3 -pipe  -g  -c Model.cpp -o Model.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"   -fpic  -O3 -pipe  -g  -c ModelSelect.cpp -o ModelSelect.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"   -fpic  -O3 -pipe  -g  -c clere.cpp -o clere.o
+g++ -shared -o clere.so Fit.o IO.o Model.o ModelSelect.o clere.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/clere.Rcheck/clere/libs
+** R
+** preparing package for lazy loading
+Creating a generic function for 'predict' from package 'stats' in package 'clere'
+Creating a generic function for 'summary' from package 'base' in package 'clere'
+Creating a generic function for 'plot' from package 'graphics' in package 'clere'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (clere)

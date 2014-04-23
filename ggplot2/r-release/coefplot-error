@@ -1,0 +1,32 @@
+coefplot *  checking examples ... ERROR
+Running examples in 'coefplot-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: buildModelCI
+> ### Title: buildModelCI
+> ### Aliases: buildModelCI
+> 
+> ### ** Examples
+> 
+> data(diamonds)
+> model1 <- lm(price ~ carat + cut, data=diamonds)
+> coefplot:::buildModelCI(model1)
+                  Value Coefficient   HighInner    LowInner  HighOuter
+cut^4          74.59427       cut^4    90.83386    58.35469   107.0734
+cut.C         367.90995       cut.C   388.12410   347.69579   408.3383
+cut.Q        -528.59779       cut.Q  -505.46541  -551.73018  -482.3330
+cut.L        1239.80045       cut.L  1265.90049  1213.70040  1292.0005
+carat        7871.08213       carat  7885.06176  7857.10251  7899.0414
+(Intercept) -2701.37602 (Intercept) -2685.94495 -2716.80710 -2670.5139
+              LowOuter  Model
+cut^4          42.1151 model1
+cut.C         327.4816 model1
+cut.Q        -574.8626 model1
+cut.L        1187.6004 model1
+carat        7843.1229 model1
+(Intercept) -2732.2382 model1
+> coefplot(model1)
+Error in list(x = x, y = y, ...) : 'x' is missing
+Calls: coefplot ... <Anonymous> -> <Anonymous> -> do.call -> aes_string
+Execution halted

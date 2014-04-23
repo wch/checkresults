@@ -1,0 +1,14 @@
+* installing *source* package 'kobe' ...
+** package 'kobe' successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+in method for 'kobeShade' with signature 'object="cast_df"': no definition for class "cast_df"
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'kobe.Rnw' 
+** testing if installed package can be loaded
+* DONE (kobe)

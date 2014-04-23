@@ -1,0 +1,53 @@
+* installing *source* package 'NMF' ...
+** package 'NMF' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c distance.cpp -o distance.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c divergence.cpp -o divergence.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c euclidean.cpp -o euclidean.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c utils.cpp -o utils.o
+g++ -shared -o NMF.so distance.o divergence.o euclidean.o utils.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/NMF.Rcheck/NMF/libs
+** R
+** data
+** demo
+** inst
+** preparing package for lazy loading
+Setting package specific options: package:NMF (10 default option(s))
+Registering extra action 'Biobase' for handler 'install.packages' ... OK
+Creating meta registry in package 'NMF' ... OK
+Creating registry 'pkgmaker::extra_action' in package 'NMF' ... OK
+Adding entry 'Biobase' in registry 'pkgmaker::extra_action' ... OK
+Creating registry 'algorithm' in package 'NMF' ... OK
+Registering NMF algorithm '.R#brunet' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'brunet' [NMFStrategyIterative] based on template '.R#brunet' ... OK
+Registering NMF algorithm 'KL' [NMFStrategyIterative] ... OK
+Registering NMF algorithm '.R#lee' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'lee' [NMFStrategyIterative] based on template '.R#lee' ... OK
+Registering NMF algorithm 'Frobenius' [NMFStrategyIterative] ... OK
+Registering NMF algorithm '.R#offset' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'offset' [NMFStrategyIterative] based on template '.R#offset' ... OK
+Registering NMF algorithm '.R#nsNMF' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'nsNMF' [NMFStrategyIterative] based on template '.R#nsNMF' ... OK
+Registering NMF algorithm '.M#brunet' [NMFStrategyOctave] ... OK
+Registering NMF algorithm 'ls-nmf' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'pe-nmf' [NMFStrategyIterative] ... OK
+Registering NMF algorithm '.siNMF' [NMFStrategyIterative] based on template 'lee' ... OK
+Registering NMF algorithm 'siNMF' [NMFStrategyIterative] based on template 'lee' ... OK
+Registering NMF algorithm 'snmf/r' [NMFStrategyFunction] ... OK
+Registering NMF algorithm 'snmf/l' [NMFStrategyFunction] ... OK
+Creating registry 'seed' in package 'NMF' ... OK
+Registering extra action 'bigmemory' for handler 'install.packages' ... OK
+Adding entry 'bigmemory' in registry 'pkgmaker::extra_action' ... OK
+Registering extra action 'synchronicity' for handler 'install.packages' ... OK
+Adding entry 'synchronicity' in registry 'pkgmaker::extra_action' ... OK
+Registering NMF seeding method 'none' [NMFSeed] ... OK
+Registering NMF seeding method 'random' [NMFSeed] ... OK
+Registering NMF seeding method 'ica' [NMFSeed] ... OK
+Registering NMF seeding method 'nndsvd' [NMFSeed] ... OK
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+# NOTE - CRAN check detected: limiting maximum number of cores [2/32]
+* DONE (NMF)

@@ -1,0 +1,13 @@
+* installing *source* package 'SDaA' ...
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'SDaA_using_survey.Rnw' using 'UTF-8' 
+** testing if installed package can be loaded
+* DONE (SDaA)

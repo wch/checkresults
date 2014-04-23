@@ -1,0 +1,16 @@
+evaluate *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  Errors : ....
+  Evaluation : ..1........
+  Evaluation: graphics : .......................
+  Output : .
+  Parsing : .
+  
+  
+  1. Failure(@test-evaluate.r#12): data sets loaded ------------------------------
+  length(ev) not equal to 3
+  Mean relative difference: 0.3333333
+  
+  Error: Test failures
+  Execution halted

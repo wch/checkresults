@@ -1,0 +1,16 @@
+* installing *source* package 'RDS' ...
+** package 'RDS' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c getinclCstacked.c -o getinclCstacked.o
+gcc -std=gnu99 -shared -o RDS.so getinclCstacked.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/RDS.Rcheck/RDS/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'print' from package 'base' in package 'RDS'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (RDS)

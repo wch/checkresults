@@ -1,0 +1,14 @@
+* installing *source* package 'cvxclustr' ...
+** package 'cvxclustr' successfully unpacked and MD5 sums checked
+** libs
+gfortran  -fpic -O3 -pipe  -g  -c  variable_splitting.f90 -o variable_splitting.o
+gfortran -shared -o cvxclustr.so variable_splitting.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/cvxclustr.Rcheck/cvxclustr/libs
+** R
+** data
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (cvxclustr)

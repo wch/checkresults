@@ -1,0 +1,5 @@
+gridDebug *  checking package dependencies ... ERROR
+Package required but not available: 'gridGraphviz'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

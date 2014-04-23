@@ -1,0 +1,99 @@
+* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/coloc.Rcheck'
+* using R version 3.0.2 (2013-09-25)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'coloc/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'coloc' version '2.3-1'
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Package suggested but not available for checking: 'snpStats'
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'coloc' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+coloc.abf.snpStats: no visible global function definition for
+  'single.snp.tests'
+coloc.abf.snpStats: no visible global function definition for
+  'col.summary'
+fillin: no visible global function definition for 'col.summary'
+fillin: no visible global function definition for 'snp.imputation'
+fillin: no visible global function definition for 'impute.snps'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking sizes of PDF files under 'inst/doc' ... OK
+* checking installed files from 'inst/doc' ... OK
+* checking files in 'vignettes' ... OK
+* checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... OK
+* checking running R code from vignettes ... [14s/14s] WARNING
+Errors in running code in vignettes:
+when running code in 'vignette.Rnw'
+  ...
+             values.against
+values.for    c(-0.1, 1) c(0.9, 1.1)
+  c(-0.1, 1)     1.00000  0.05150753
+  c(0.9, 1.1)   19.41464  1.00000000
+
+> library(snpStats)
+
+  When sourcing 'vignette.R':
+Error: there is no package called 'snpStats'
+Execution halted
+
+* checking re-building of vignette outputs ... NOTE
+Error in re-building vignettes:
+  ...
+Loading required package: colorspace
+Loading required package: MASS
+Loading required package: BMA
+Loading required package: survival
+Loading required package: splines
+Loading required package: leaps
+Loading required package: robustbase
+
+Attaching package: 'robustbase'
+
+The following object is masked from 'package:survival':
+
+    heart
+
+
+Error: processing vignette 'vignette.Rnw' failed with diagnostics:
+ chunk 7 
+Error in library(snpStats) : there is no package called 'snpStats'
+Execution halted
+
+WARNING: There was 1 warning.
+NOTE: There were 3 notes.

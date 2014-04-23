@@ -1,0 +1,18 @@
+* installing *source* package 'zoo' ...
+** package 'zoo' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c coredata.c -o coredata.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c init.c -o init.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c lag.c -o lag.o
+gcc -std=gnu99 -shared -o zoo.so coredata.o init.o lag.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/zoo.Rcheck/zoo/libs
+** R
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (zoo)

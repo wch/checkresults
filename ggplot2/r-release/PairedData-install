@@ -1,0 +1,12 @@
+* installing *source* package 'PairedData' ...
+** package 'PairedData' successfully unpacked and MD5 sums checked
+** R
+** data
+** preparing package for lazy loading
+Creating a new generic function for 'summary' in package 'PairedData'
+Creating a generic function for 'plot' from package 'graphics' in package 'PairedData'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (PairedData)

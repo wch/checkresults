@@ -1,0 +1,16 @@
+* installing *source* package 'spikeSlabGAM' ...
+** package 'spikeSlabGAM' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c sampler.c -o sampler.o
+gcc -std=gnu99 -shared -o spikeSlabGAM.so sampler.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/spikeSlabGAM.Rcheck/spikeSlabGAM/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'UsingSpikeSlabGAM.Rnw' 
+** testing if installed package can be loaded
+* DONE (spikeSlabGAM)

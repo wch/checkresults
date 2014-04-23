@@ -1,0 +1,88 @@
+* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/NMF.Rcheck'
+* using R version 3.0.2 (2013-09-25)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'NMF/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'NMF' version '0.20'
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Packages suggested but not available for checking:
+  'RcppOctave' 'doMPI' 'Biobase'
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'NMF' can be installed ... [17s/17s] OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+.wrapResult: no visible global function definition for 'exprs'
+run,NMFStrategyOctave-matrix-NMFfit: no visible global function
+  definition for 'system.mfile'
+run,NMFStrategyOctave-matrix-NMFfit: no visible global function
+  definition for 'as.mfile'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... NOTE
+Packages unavailable to check Rd xrefs: 'RcppOctave', 'Biobase'
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... NOTE
+  Error in .requirePackage(package) : 
+    unable to find required package 'Biobase'
+  Calls: <Anonymous> ... .extendsForS3 -> extends -> getClassDef -> .requirePackage
+  Execution halted
+* checking data for ASCII and uncompressed saves ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking sizes of PDF files under 'inst/doc' ... OK
+* checking installed files from 'inst/doc' ... OK
+* checking files in 'vignettes' ... OK
+* checking examples ... ERROR
+Running examples in 'NMF-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: esGolub
+> ### Title: Golub ExpressionSet
+> ### Aliases: esGolub
+> ### Keywords: datasets
+> 
+> ### ** Examples
+> 
+> data(esGolub)
+> esGolub
+Loading required package: Biobase
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'Biobase'
+Error in .requirePackage(package) : 
+  unable to find required package 'Biobase'
+Calls: <Anonymous> ... .findInheritedMethods -> getClass -> getClassDef -> .requirePackage
+Execution halted

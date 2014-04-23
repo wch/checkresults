@@ -1,0 +1,27 @@
+* installing *source* package 'growcurves' ...
+** package 'growcurves' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c DPre.cpp -o DPre.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c ddp.cpp -o ddp.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c lgm.cpp -o lgm.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c mmC.cpp -o mmC.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c mmCchol.cpp -o mmCchol.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c mmCmiar.cpp -o mmCmiar.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c mmCmvplusDP.cpp -o mmCmvplusDP.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c mmCplusDP.cpp -o mmCplusDP.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c mmI.cpp -o mmI.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c mmIgroup.cpp -o mmIgroup.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c mmIgroupDP.cpp -o mmIgroupDP.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c mmIplusDP.cpp -o mmIplusDP.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c mmmult.cpp -o mmmult.o
+g++ -shared -o growcurves.so DPre.o ddp.o lgm.o mmC.o mmCchol.o mmCmiar.o mmCmvplusDP.o mmCplusDP.o mmI.o mmIgroup.o mmIgroupDP.o mmIplusDP.o mmmult.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/growcurves.Rcheck/growcurves/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (growcurves)

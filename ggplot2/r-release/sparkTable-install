@@ -1,0 +1,12 @@
+* installing *source* package 'sparkTable' ...
+** package 'sparkTable' successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'print' from package 'base' in package 'sparkTable'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (sparkTable)

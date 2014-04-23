@@ -1,0 +1,7 @@
+Rcell *  checking package dependencies ... ERROR
+Package required but not available: 'EBImage'
+
+Package suggested but not available for checking: 'hopach'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

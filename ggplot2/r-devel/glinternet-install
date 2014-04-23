@@ -1,0 +1,14 @@
+* installing *source* package 'glinternet' ...
+** package 'glinternet' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -O3 -pipe  -g  -c c_routines.c -o c_routines.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -O3 -pipe  -g  -c fista.c -o fista.o
+gcc -std=gnu99 -shared -o glinternet.so c_routines.o fista.o -fopenmp -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/glinternet.Rcheck/glinternet/libs
+** R
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (glinternet)

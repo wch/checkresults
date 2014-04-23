@@ -1,0 +1,15 @@
+* installing *source* package 'MissingDataGUI' ...
+** package 'MissingDataGUI' successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+Xlib:  extension "RANDR" missing on display ":99".
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'introduction.Rnw' using 'latin-9' 
+** testing if installed package can be loaded
+Xlib:  extension "RANDR" missing on display ":99".
+* DONE (MissingDataGUI)

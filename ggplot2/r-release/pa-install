@@ -1,0 +1,14 @@
+* installing *source* package 'pa' ...
+** package 'pa' successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'plot' from package 'graphics' in package 'pa'
+Creating a generic function for 'summary' from package 'base' in package 'pa'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (pa)

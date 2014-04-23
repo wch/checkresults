@@ -1,0 +1,22 @@
+* installing *source* package 'PhaseType' ...
+** package 'PhaseType' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c LJMA_arms.c -o LJMA_arms.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c PHT_MCMC_Aslett.c -o PHT_MCMC_Aslett.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Simulate_AbsCTMC_eq_AslettHobolth_DCS.c -o Simulate_AbsCTMC_eq_AslettHobolth_DCS.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Simulate_AbsCTMC_eq_Aslett_DCS.c -o Simulate_AbsCTMC_eq_Aslett_DCS.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Simulate_AbsCTMC_eq_Aslett_ECS.c -o Simulate_AbsCTMC_eq_Aslett_ECS.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Simulate_AbsCTMC_eq_Bladt_MHRS.c -o Simulate_AbsCTMC_eq_Bladt_MHRS.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Simulate_AbsCTMC_gt_Aslett_DCS.c -o Simulate_AbsCTMC_gt_Aslett_DCS.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Simulate_AbsCTMC_gt_Bladt_MHRS.c -o Simulate_AbsCTMC_gt_Bladt_MHRS.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Simulate_AbsCTMC_gt_Hobolth_DCS.c -o Simulate_AbsCTMC_gt_Hobolth_DCS.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c utility.c -o utility.o
+gcc -std=gnu99 -shared -o PhaseType.so LJMA_arms.o PHT_MCMC_Aslett.o Simulate_AbsCTMC_eq_AslettHobolth_DCS.o Simulate_AbsCTMC_eq_Aslett_DCS.o Simulate_AbsCTMC_eq_Aslett_ECS.o Simulate_AbsCTMC_eq_Bladt_MHRS.o Simulate_AbsCTMC_gt_Aslett_DCS.o Simulate_AbsCTMC_gt_Bladt_MHRS.o Simulate_AbsCTMC_gt_Hobolth_DCS.o utility.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/PhaseType.Rcheck/PhaseType/libs
+** R
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (PhaseType)

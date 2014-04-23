@@ -1,0 +1,13 @@
+* installing *source* package 'bams' ...
+** package 'bams' successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'redoing-the-article.Rnw' 
+** testing if installed package can be loaded
+* DONE (bams)

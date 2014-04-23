@@ -1,0 +1,1709 @@
+R version 3.0.3 (2014-03-06)
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] devtools_1.5
+
+loaded via a namespace (and not attached):
+ [1] digest_0.6.4   evaluate_0.5.1 formatR_0.10   httr_0.3       knitr_1.5     
+ [6] memoise_0.1    parallel_3.0.3 RCurl_1.95-4.1 stringr_0.6.2  tools_3.0.3   
+[11] whisker_0.3-2 
+
+abctools ================================================================ 
+ 
+
+
+abd ===================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [25s/25s] OK
+WARNING: There was 1 warning.
+NOTE: There were 2 notes. 
+
+
+adegenet ================================================================ 
+ 
+
+
+alm ===================================================================== 
+ 
+
+
+AmpliconDuo ============================================================= 
+ 
+
+
+antitrust =============================================================== 
+ 
+
+
+aoristic ================================================================ 
+ 
+
+
+archetypes ============================================================== 
+ 
+
+
+automap ================================================================= 
+ 
+
+
+bams ==================================================================== 
+ 
+
+
+bbmle =================================================================== 
+ 
+
+
+BCEA ==================================================================== 
+ 
+
+
+bcrm ==================================================================== 
+ *  checking examples ... ERROR
+Running examples in 'bcrm-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: Posterior
+> ### Title: Calculate posterior distribution of CRM model parameter(s)
+> ### Aliases: Posterior.exact Posterior.rjags Posterior.BRugs
+> ###   Posterior.R2WinBUGS
+> 
+> ### ** Examples
+> 
+> ## Dose-escalation cancer trial example as described in Neuenschwander et al 2008.
+> ## Pre-defined doses
+> dose<-c(1,2.5,5,10,15,20,25,30,40,50,75,100,150,200,250)
+> ## Pre-specified probabilities of toxicity
+> ## [dose levels 11-15 not specified in the paper, and are for illustration only]
+> p.tox0<-c(0.010,0.015,0.020,0.025,0.030,0.040,0.050,0.100,0.170,0.300,0.400,0.500,0.650
++   ,0.800,0.900)
+> ## Data from the first 5 cohorts of 18 patients
+> tox<-c(0,0,0,0,0,0,2,0,0,0,0,0,0,0,0)
+> notox<-c(3,4,5,4,0,0,0,0,0,0,0,0,0,0,0)
+> ## Target toxicity level
+> target.tox<-0.30
+> ## Lognormal prior
+> prior.alpha<-list(3,0,1.34^2)
+> ## Power functional form
+> ff<-"power"
+> ## Standardised doses
+> sdose<-find.x(ff,p.tox0,alpha=1)
+> 
+> ## Posterior distribution of the model parameter using exact computation
+> post.exact<-Posterior.exact(tox,notox,sdose,ff,prior.alpha)
+> print(post.exact)
+$alpha.mean
+[1] 0.656327
+
+$dose.mean
+ [1] 0.07015495 0.08657340 0.10073468 0.11345014 0.12513580 0.14632099
+ [7] 0.16543985 0.24440829 0.33268033 0.46747152 0.55775747 0.64098831
+[13] 0.75674204 0.86470521 0.93341409
+
+$dose.sd
+ [1] 0.05576646 0.06301816 0.06857499 0.07309664 0.07690729 0.08307314
+ [7] 0.08791252 0.10207616 0.10937471 0.10769604 0.09963883 0.08803282
+[13] 0.06596772 0.03977388 0.02050140
+
+$dose.quantiles
+            [,1]        [,2]       [,3]       [,4]       [,5]       [,6]
+2.5%  0.00493028 0.007870533 0.01096804 0.01418799 0.01750901 0.02439981
+25%   0.02855730 0.039055712 0.04877024 0.05794062 0.06669945 0.08328996
+50%   0.05606857 0.072258554 0.08650794 0.09946878 0.11148739 0.13347270
+75%   0.09709748 0.119228444 0.13792670 0.15442699 0.16936368 0.19592450
+97.5% 0.21325448 0.244335033 0.26909712 0.29001956 0.30831640 0.33956267
+            [,7]       [,8]      [,9]     [,10]     [,11]     [,12]     [,13]
+2.5%  0.03156301 0.07021595 0.1295011 0.2493594 0.3474967 0.4495133 0.6083921
+25%   0.09895116 0.16898906 0.2545645 0.3946969 0.4928719 0.5855477 0.7170388
+50%   0.15346992 0.23678803 0.3300182 0.4708320 0.5636801 0.6481321 0.7637497
+75%   0.21936311 0.31160469 0.4076640 0.5435209 0.6287598 0.7039788 0.8040074
+97.5% 0.36596385 0.46179484 0.5517933 0.6676480 0.7353107 0.7924815 0.8654120
+          [,14]     [,15]
+2.5%  0.7730509 0.8855555
+25%   0.8417280 0.9218680
+50%   0.8696994 0.9362078
+75%   0.8931515 0.9480442
+97.5% 0.9278585 0.9652638
+
+> 
+> ## Posterior distribution of the model parameter using rjags
+> post.rjags<-Posterior.rjags(tox,notox,sdose,ff,prior.alpha
++   ,burnin.itr=2000,production.itr=2000)
+Loading required package: rjags
+Loading required package: coda
+Loading required package: lattice
+Linked to JAGS 3.4.0
+Loaded modules: basemod,bugs
+Loading required package: R2WinBUGS
+Loading required package: boot
+
+Attaching package: 'boot'
+
+The following object is masked from 'package:lattice':
+
+    melanoma
+
+> print(mean(post.rjags))
+[1] 0.6468731
+> hist(post.rjags)
+> 
+> ## Posterior distribution of the model parameter using BRugs (Windows and i386 Linux only)
+> if(Sys.info()["sysname"] %in% c("Windows","Linux")){
++ 	post.BRugs<-Posterior.BRugs(tox,notox,sdose,ff,prior.alpha
++ 	  ,burnin.itr=2000,production.itr=2000)
++ 	print(mean(post.BRugs))
++ 	hist(post.BRugs)
++ 	}
+Loading required package: BRugs
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'BRugs'
+Warning in mean.default(post.BRugs) :
+  argument is not numeric or logical: returning NA
+[1] NA
+Error in hist.default(post.BRugs) : 'x' must be numeric
+Calls: hist -> hist.default
+Execution halted 
+
+
+bear ==================================================================== 
+ 
+
+
+benchmark =============================================================== 
+ 
+
+
+binom =================================================================== 
+ 
+
+
+Biograph ================================================================ 
+ 
+
+
+breakpoint ============================================================== 
+ 
+
+
+capm ==================================================================== 
+ 
+
+
+catenary ================================================================ 
+ 
+
+
+Causata ================================================================= 
+ 
+
+
+cda ===================================================================== 
+ 
+
+
+chemosensors ============================================================ 
+ 
+
+
+choroplethr ============================================================= 
+ 
+
+
+chron =================================================================== 
+ 
+
+
+classify ================================================================ 
+ 
+
+
+clere =================================================================== 
+ 
+
+
+clhs ==================================================================== 
+ 
+
+
+clusthaplo ============================================================== 
+ 
+
+
+clustrd ================================================================= 
+ 
+
+
+coefplot ================================================================ 
+ 
+
+
+coloc =================================================================== 
+ *  checking running R code from vignettes ... [14s/14s] WARNING
+Errors in running code in vignettes:
+when running code in 'vignette.Rnw'
+  ...
+             values.against
+values.for    c(-0.1, 1) c(0.9, 1.1)
+  c(-0.1, 1)     1.00000  0.05150753
+  c(0.9, 1.1)   19.41464  1.00000000
+
+> library(snpStats)
+
+  When sourcing 'vignette.R':
+Error: there is no package called 'snpStats'
+Execution halted
+ 
+
+
+cooccur ================================================================= 
+ 
+
+
+cplm ==================================================================== 
+ 
+
+
+cvxclustr =============================================================== 
+ 
+
+
+data.table ============================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/tests.R' failed.
+Last 13 lines of output:
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > require(data.table)
+  Loading required package: data.table
+  > options(warn=2)
+  > test.data.table()
+  Running /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/data.table.Rcheck/data.table/tests/tests.Rraw 
+  Error in parse(n = -1, file = file, srcfile = NULL, keep.source = FALSE) : 
+    (converted from warning) invalid input found on input connection '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/data.table.Rcheck/data.table/tests/tests.Rraw'
+  Calls: test.data.table -> sys.source -> parse
+  Execution halted 
+
+
+Deducer ================================================================= 
+ 
+
+
+demi ==================================================================== 
+ *  checking package dependencies ... ERROR
+Packages required but not available: 'affy' 'affxparser' 'oligo'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+DescribeDisplay ========================================================= 
+ 
+
+
+dfexplore =============================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+dielectric ============================================================== 
+ 
+
+
+directlabels ============================================================ 
+ 
+
+
+diveRsity =============================================================== 
+ 
+
+
+doBy ==================================================================== 
+ *  checking R files for syntax errors ... WARNING
+Warning in Sys.setlocale("LC_CTYPE", "en_US") :
+  OS reports request to set locale to "en_US" cannot be honored
+*  checking examples ... WARNING
+checking a package with encoding  'latin1'  in an ASCII locale
+
+ [12s/12s] OK 
+
+
+dplyr =================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+    AwardsShareManagers, AwardsSharePlayers, Batting, BattingPost, Fielding,
+    FieldingOF, FieldingPost, HallOfFame, LahmanData, Managers, ManagersHalf,
+    Master, Pitching, PitchingPost, Salaries, Schools, SchoolsPlayers,
+    SeriesPost, Teams, TeamsFranchises, TeamsHalf, sqlite_stat1
+  > if (identical(Sys.getenv("NOT_CRAN"), "true")) {
+  +   lahman_postgres()  
+  + }
+  Loading required package: RPostgreSQL
+  Error in postgresqlNewConnection(drv, ...) : 
+    RS-DBI driver: (could not connect ubuntu@local on dbname "lahman"
+  )
+  Calls: lahman_postgres ... .valueClassTest -> is -> is -> postgresqlNewConnection -> .Call
+  Execution halted 
+
+
+dsm ===================================================================== 
+ 
+
+
+DTR ===================================================================== 
+ 
+
+
+dynsim ================================================================== 
+ 
+
+
+dynsurv ================================================================= 
+ *  checking whether package 'dynsurv' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/dynsurv.Rcheck/00install.out' for details. 
+
+
+earlywarnings =========================================================== 
+ 
+
+
+EasyHTMLReport ========================================================== 
+ 
+
+
+ecoengine =============================================================== 
+ 
+
+
+eeptools ================================================================ 
+ 
+
+
+egcm ==================================================================== 
+ 
+
+
+erer ==================================================================== 
+ 
+
+
+evaluate ================================================================ 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  Errors : ....
+  Evaluation : ..1........
+  Evaluation: graphics : .......................
+  Output : .
+  Parsing : .
+  
+  
+  1. Failure(@test-evaluate.r#12): data sets loaded ------------------------------
+  length(ev) not equal to 3
+  Mean relative difference: 0.3333333
+  
+  Error: Test failures
+  Execution halted 
+
+
+extracat ================================================================ 
+ 
+
+
+ez ====================================================================== 
+ 
+
+
+ezsim =================================================================== 
+ 
+
+
+FAOSTAT ================================================================= 
+ 
+
+
+FField ================================================================== 
+ 
+
+
+FinCal ================================================================== 
+ 
+
+
+fishmove ================================================================ 
+ 
+
+
+freqparcoord ============================================================ 
+ 
+
+
+frontiles =============================================================== 
+ *  checking R files for syntax errors ... WARNING
+Warning in Sys.setlocale("LC_CTYPE", "en_US") :
+  OS reports request to set locale to "en_US" cannot be honored
+*  checking examples ... WARNING
+checking a package with encoding  'latin1'  in an ASCII locale
+
+ [14s/14s] OK
+Examples with CPU or elapsed time > 5s
+                 user system elapsed
+alphafrontier.3d 9.08  0.084   9.179 
+
+
+GCD ===================================================================== 
+ 
+
+
+gcookbook =============================================================== 
+ 
+
+
+gettingtothebottom ====================================================== 
+ 
+
+
+GGally ================================================================== 
+ 
+
+
+ggdendro ================================================================ 
+ 
+
+
+ggHorizon =============================================================== 
+ 
+
+
+ggmap =================================================================== 
+ 
+
+
+ggmcmc ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [20s/20s] OK
+Examples with CPU or elapsed time > 5s
+        user system elapsed
+ggmcmc 9.288  0.072   9.364
+WARNING: There was 1 warning.
+NOTE: There was 1 note. 
+
+
+ggparallel ============================================================== 
+ 
+
+
+ggROC =================================================================== 
+ 
+
+
+ggsubplot =============================================================== 
+ 
+
+
+ggtern ================================================================== 
+ 
+
+
+ggthemes ================================================================ 
+ 
+
+
+gitter ================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'EBImage'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+glinternet ============================================================== 
+ 
+
+
+GOsummaries ============================================================= 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'limma'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+gpmap =================================================================== 
+ 
+
+
+granovaGG =============================================================== 
+ 
+
+
+gridDebug =============================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'gridGraphviz'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+gridExtra =============================================================== 
+ 
+
+
+growcurves ============================================================== 
+ 
+
+
+gsDesign ================================================================ 
+ 
+
+
+GSE ===================================================================== 
+ 
+
+
+gstudio ================================================================= 
+ 
+
+
+HistData ================================================================ 
+ 
+
+
+HiveR =================================================================== 
+ 
+
+
+HLMdiag ================================================================= 
+ 
+
+
+HTSCluster ============================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'edgeR'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+hyperSpec =============================================================== 
+ 
+
+
+IAT ===================================================================== 
+ 
+
+
+kdetrees ================================================================ 
+ 
+
+
+Kmisc =================================================================== 
+ 
+
+
+knitrBootstrap ========================================================== 
+ 
+
+
+kobe ==================================================================== 
+ 
+
+
+Lahman ================================================================== 
+ 
+
+
+lda ===================================================================== 
+ 
+
+
+LDheatmap =============================================================== 
+ *  checking examples ... ERROR
+Running examples in 'LDheatmap-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: GIMAP5.CEU
+> ### Title: Example data set for LDheatmap
+> ### Aliases: GIMAP5.CEU
+> ### Keywords: datasets
+> 
+> ### ** Examples
+>  
+> data(GIMAP5.CEU) 
+> LDheatmap(GIMAP5.CEU$snp.data,GIMAP5.CEU$snp.support$Position)
+Loading required package: chopsticks
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'chopsticks'
+Error in LDheatmap(GIMAP5.CEU$snp.data, GIMAP5.CEU$snp.support$Position) : 
+  could not find function "ld.snp"
+Execution halted 
+
+
+likeLTD ================================================================= 
+ 
+
+
+likert ================================================================== 
+ 
+
+
+lme4 ==================================================================== 
+ 
+
+
+localgauss ============================================================== 
+ 
+
+
+MAc ===================================================================== 
+ 
+
+
+MAd ===================================================================== 
+ 
+
+
+marked ================================================================== 
+ 
+
+
+MCMC.qpcr =============================================================== 
+ 
+
+
+mcprofile =============================================================== 
+ 
+
+
+MergeGUI ================================================================ 
+ 
+
+
+metagen ================================================================= 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [28s/28s] OK
+WARNING: There was 1 warning. 
+
+
+meteogRam =============================================================== 
+ 
+
+
+microbenchmark ========================================================== 
+ 
+
+
+micromap ================================================================ 
+ 
+
+
+MissingDataGUI ========================================================== 
+ 
+
+
+mistat ================================================================== 
+ 
+
+
+mixstock ================================================================ 
+ 
+
+
+Mobilize ================================================================ 
+ *  checking whether package 'Mobilize' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/Mobilize.Rcheck/00install.out' for details. 
+
+
+mosaic ================================================================== 
+ 
+
+
+MRMR ==================================================================== 
+ 
+
+
+MSG ===================================================================== 
+ 
+
+
+multiDimBio ============================================================= 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'pcaMethods'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+multilevelPSA =========================================================== 
+ 
+
+
+multitable ============================================================== 
+ 
+
+
+munsell ================================================================= 
+ 
+
+
+NeatMap ================================================================= 
+ 
+
+
+ngramr ================================================================== 
+ 
+
+
+NlsyLinks =============================================================== 
+ 
+
+
+NMF ===================================================================== 
+ *  checking examples ... ERROR
+Running examples in 'NMF-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: nmfModel
+> ### Title: Factory Methods NMF Models
+> ### Aliases: nmfModel nmfModel,data.frame,data.frame-method
+> ###   nmfModel,formula,ANY-method nmfModel,matrix,ANY-method
+> ###   nmfModel,matrix,matrix-method nmfModel-methods
+> ###   nmfModel,missing,ANY-method nmfModel,missing,missing-method
+> ###   nmfModel,NULL,ANY-method nmfModel,numeric,matrix-method
+> ###   nmfModel,numeric,missing-method nmfModel,numeric,numeric-method
+> ###   nmfModels
+> ### Keywords: methods
+> 
+> ### ** Examples
+> 
+> ## Don't show: 
+> # roxygen generated flag
+> options(R_CHECK_RUNNING_EXAMPLES_=TRUE)
+> ## End Don't show
+> 
+> #----------
+> # nmfModel,numeric,numeric-method
+> #----------
+> # data
+> n <- 20; r <- 3; p <- 10
+> V <- rmatrix(n, p) # some target matrix
+> 
+> # create a r-ranked NMF model with a given target dimensions n x p as a 2-length vector
+> nmfModel(r, c(n,p)) # directly
+<Object of class:NMFstd>
+features: 20 
+basis/rank: 3 
+samples: 10 
+> nmfModel(r, dim(V)) # or from an existing matrix <=> nmfModel(r, V)
+<Object of class:NMFstd>
+features: 20 
+basis/rank: 3 
+samples: 10 
+> # or alternatively passing each dimension separately
+> nmfModel(r, n, p)
+<Object of class:NMFstd>
+features: 20 
+basis/rank: 3 
+samples: 10 
+> 
+> # trying to create a NMF object based on incompatible matrices generates an error
+> w <- rmatrix(n, r)
+> h <- rmatrix(r+1, p)
+> try( new('NMFstd', W=w, H=h) )
+Error in validObject(.Object) : 
+  invalid class "NMFstd" object: Dimensions of W and H are not compatible [ncol(W)= 3 != nrow(H)= 4 ]
+> try( nmfModel(w, h) )
+Error in .local(rank, target, ...) : 
+  nmfModel - Invalid number of columns in the basis matrix [3]: it should match the number of rows in the mixture coefficient matrix [4]
+> try( nmfModel(r+1, W=w, H=h) )
+Error in .local(rank, target, ...) : 
+  nmfModel - Objective rank [4] is greater than the number of columns in W [3]
+> # The factory method can be force the model to match some target dimensions
+> # but warnings are thrown
+> nmfModel(r, W=w, H=h)
+Warning in .local(rank, target, ...) :
+  nmfModel - Objective rank [3] is lower than the number of rows in H [4]: only the first 3 rows of H  will be used
+<Object of class:NMFstd>
+features: 20 
+basis/rank: 3 
+samples: 10 
+> nmfModel(r, n-1, W=w, H=h)
+Warning in .local(rank, target, ...) :
+  nmfModel - Number of rows in target is lower than the number of rows in W [20]: only the first 19 rows of W will be used
+Warning in .local(rank, target, ...) :
+  nmfModel - Objective rank [3] is lower than the number of rows in H [4]: only the first 3 rows of H  will be used
+<Object of class:NMFstd>
+features: 19 
+basis/rank: 3 
+samples: 10 
+> 
+> #----------
+> # nmfModel,numeric,missing-method
+> #----------
+> ## Empty model of given rank
+> nmfModel(3)
+<Object of class:NMFstd>
+features: 0 
+basis/rank: 3 
+samples: 0 
+> 
+> #----------
+> # nmfModel,missing,ANY-method
+> #----------
+> nmfModel(target=10) #square
+<Object of class:NMFstd>
+features: 10 
+basis/rank: 0 
+samples: 10 
+> nmfModel(target=c(10, 5))
+<Object of class:NMFstd>
+features: 10 
+basis/rank: 0 
+samples: 5 
+> 
+> #----------
+> # nmfModel,missing,missing-method
+> #----------
+> # Build an empty NMF model
+> nmfModel()
+<Object of class:NMFstd>
+features: 0 
+basis/rank: 0 
+samples: 0 
+> 
+> # create a NMF object based on one random matrix: the missing matrix is deduced
+> # Note this only works when using factory method NMF
+> n <- 50; r <- 3;
+> w <- rmatrix(n, r)
+> nmfModel(W=w)
+<Object of class:NMFstd>
+features: 50 
+basis/rank: 3 
+samples: 0 
+> 
+> # create a NMF object based on random (compatible) matrices
+> p <- 20
+> h <- rmatrix(r, p)
+> nmfModel(H=h)
+<Object of class:NMFstd>
+features: 0 
+basis/rank: 3 
+samples: 20 
+> 
+> # specifies two compatible matrices
+> nmfModel(W=w, H=h)
+<Object of class:NMFstd>
+features: 50 
+basis/rank: 3 
+samples: 20 
+> # error if not compatible
+> try( nmfModel(W=w, H=h[-1,]) )
+Error in .local(rank, target, ...) : 
+  nmfModel - Invalid number of columns in the basis matrix [3]: it should match the number of rows in the mixture coefficient matrix [2]
+> 
+> #----------
+> # nmfModel,numeric,matrix-method
+> #----------
+> # create a r-ranked NMF model compatible with a given target matrix
+> obj <- nmfModel(r, V)
+> all(is.na(basis(obj)))
+[1] TRUE
+> 
+> #----------
+> # nmfModel,matrix,matrix-method
+> #----------
+> ## From two existing factors
+> 
+> # allows a convenient call without argument names
+> w <- rmatrix(n, 3); h <- rmatrix(3, p)
+> nmfModel(w, h)
+<Object of class:NMFstd>
+features: 50 
+basis/rank: 3 
+samples: 20 
+> 
+> # Specify the type of NMF model (e.g. 'NMFns' for non-smooth NMF)
+> mod <- nmfModel(w, h, model='NMFns')
+> mod
+<Object of class:NMFns>
+features: 50 
+basis/rank: 3 
+samples: 20 
+theta: 0.5 
+> 
+> # One can use such an NMF model as a seed when fitting a target matrix with nmf()
+> V <- rmatrix(mod)
+> res <- nmf(V, mod)
+> nmf.equal(res, nmf(V, mod))
+[1] TRUE
+> 
+> # NB: when called only with such a seed, the rank and the NMF algorithm
+> # are selected based on the input NMF model.
+> # e.g. here rank was 3 and the algorithm "nsNMF" is used, because it is the default
+> # algorithm to fit "NMFns" models (See ?nmf).
+> 
+> #----------
+> # nmfModel,matrix,ANY-method
+> #----------
+> ## swapped arguments `rank` and `target`
+> V <- rmatrix(20, 10)
+> nmfModel(V) # equivalent to nmfModel(target=V)
+<Object of class:NMFstd>
+features: 20 
+basis/rank: 0 
+samples: 10 
+> nmfModel(V, 3) # equivalent to nmfModel(3, V)
+<Object of class:NMFstd>
+features: 20 
+basis/rank: 3 
+samples: 10 
+> 
+> #----------
+> # nmfModel,formula,ANY-method
+> #----------
+> # empty 3-rank model
+> nmfModel(~ 3)
+<Object of class:NMFstd>
+features: 0 
+basis/rank: 3 
+samples: 0 
+> 
+> # 3-rank model that fits a given data matrix
+> x <- rmatrix(20,10)
+> nmfModel(x ~ 3)
+<Object of class:NMFstd>
+features: 20 
+basis/rank: 3 
+samples: 10 
+> 
+> # add fixed coefficient term defined by a factor
+> gr <- gl(2, 5)
+> nmfModel(x ~ 3 + gr)
+<Object of class:NMFstd>
+features: 20 
+basis/rank: 5 
+samples: 10 
+fixed coef [2]:
+  gr = <1, 2>
+> 
+> # add fixed coefficient term defined by a numeric covariate
+> nmfModel(x ~ 3 + gr + b, data=list(b=runif(10)))
+<Object of class:NMFstd>
+features: 20 
+basis/rank: 6 
+samples: 10 
+fixed coef [3]:
+  gr = <1, 2>
+  b = 0.0101301828399301, 0.21454192395322, ..., 0.767450851621106
+> 
+> # 3-rank model that fits a given ExpressionSet (with fixed coef terms)
+> e <- ExpressionSet(x)
+Error: could not find function "ExpressionSet"
+Execution halted 
+
+
+npmv ==================================================================== 
+ 
+
+
+nullabor ================================================================ 
+ 
+
+
+OpenStreetMap =========================================================== 
+ 
+
+
+optiRum ================================================================= 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+         DATED = FALSE, compiler = "xelatex") at test-generatePDF.R:90
+  2: knit2pdf(input = src, output = dest, envir = envir, quiet = QUIET, clean = CLEANUP, 
+         ...)
+  3: tools::texi2pdf(basename(out), ...)
+  4: texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet, texi2dvi = texi2dvi, 
+         texinputs = texinputs, index = index)
+  5: stop(msg, domain = NA)
+  
+  Error: Test failures
+  In addition: Warning messages:
+  1: In precision(x) : NaNs produced
+  2: In precision(x) : NaNs produced
+  Execution halted 
+
+
+OutbreakTools =========================================================== 
+ 
+
+
+PairedData ============================================================== 
+ 
+
+
+paleofire =============================================================== 
+ 
+
+
+pander ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK
+WARNING: There was 1 warning. 
+
+
+pa ====================================================================== 
+ 
+
+
+PAWL ==================================================================== 
+ 
+
+
+pbdPROF ================================================================= 
+ *  checking whether package 'pbdPROF' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/pbdPROF.Rcheck/00install.out' for details. 
+
+
+PBImisc ================================================================= 
+ 
+
+
+pcaPA =================================================================== 
+ *  checking whether package 'pcaPA' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/pcaPA.Rcheck/00install.out' for details. 
+
+
+pcrcoal ================================================================= 
+ 
+
+
+PedCNV ================================================================== 
+ 
+
+
+peptider ================================================================ 
+ 
+
+
+pequod ================================================================== 
+ 
+
+
+performanceEstimation =================================================== 
+ 
+
+
+perry =================================================================== 
+ 
+
+
+PhaseType =============================================================== 
+ 
+
+
+phylosim ================================================================ 
+ 
+
+
+pitchRx ================================================================= 
+ 
+
+
+PKgraph ================================================================= 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'rggobi'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+PKreport ================================================================ 
+ 
+
+
+planar ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+playwith ================================================================ 
+ 
+
+
+plot2groups ============================================================= 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK
+WARNING: There was 1 warning. 
+
+
+plspm =================================================================== 
+ 
+
+
+popgraph ================================================================ 
+ 
+
+
+poppr =================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [22s/22s] OK
+Examples with CPU or elapsed time > 5s
+     user system elapsed
+mlg 5.789   0.06   5.884 
+
+
+popReconstruct ========================================================== 
+ 
+
+
+ppstat ================================================================== 
+ 
+
+
+PReMiuM ================================================================= 
+ 
+
+
+primerTree ============================================================== 
+ 
+
+
+PRISMA ================================================================== 
+ 
+
+
+processdata ============================================================= 
+ 
+
+
+profileR ================================================================ 
+ 
+
+
+profr =================================================================== 
+ 
+
+
+ProgGUIinR ============================================================== 
+ 
+
+
+ProjectTemplate ========================================================= 
+ 
+
+
+PSAboot ================================================================= 
+ 
+
+
+PSCBS =================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'DNAcopy'
+
+Package suggested but not available for checking: 'aroma.light'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+psd ===================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'fftw'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+qdap ==================================================================== 
+ *  checking whether package 'qdap' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/qdap.Rcheck/00install.out' for details. 
+
+
+quadrupen =============================================================== 
+ 
+
+
+R2admb ================================================================== 
+ 
+
+
+rags2ridges ============================================================= 
+ 
+
+
+rAltmetric ============================================================== 
+ 
+
+
+rasterVis =============================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [24s/25s] OK
+Examples with CPU or elapsed time > 5s
+                    user system elapsed
+levelplot-methods 14.329  0.088  14.492
+WARNING: There was 1 warning. 
+
+
+rattle ================================================================== 
+ 
+
+
+rbefdata ================================================================ 
+ *  checking whether package 'rbefdata' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/rbefdata.Rcheck/00install.out' for details. 
+
+
+rbison ================================================================== 
+ 
+
+
+Rcell =================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'EBImage'
+
+Package suggested but not available for checking: 'hopach'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+RcmdrPlugin.KMggplot2 =================================================== 
+ 
+
+
+RDS ===================================================================== 
+ 
+
+
+ReporteRs =============================================================== 
+ 
+
+
+rfigshare =============================================================== 
+ 
+
+
+rfisheries ============================================================== 
+ 
+
+
+rfPermute =============================================================== 
+ 
+
+
+rgauges ================================================================= 
+ 
+
+
+rgbif =================================================================== 
+ 
+
+
+RGraphics =============================================================== 
+ 
+
+
+RIGHT =================================================================== 
+ 
+
+
+rinat =================================================================== 
+ 
+
+
+rnoaa =================================================================== 
+ 
+
+
+robustbase ============================================================== 
+ 
+
+
+robustHD ================================================================ 
+ 
+
+
+robustlmm =============================================================== 
+ 
+
+
+rotations =============================================================== 
+ 
+
+
+rpf ===================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/dotest.R' failed.
+Last 13 lines of output:
+  plink : ............
+  goodness of fit : ...
+  outfit/infit : ........................
+  rescale : ....................................
+  sample : ..........
+  
+  
+  1. Failure(@test-dTheta.R#38): rpf.mdim.nrm ------------------------------------
+  analytic$hessian not equal to c(dir %*% deriv[c(ii@factors + triSize(1:ii@factors)), ])
+  Mean relative difference: 0.0007532709
+  
+  Error: Test failures
+  Execution halted 
+
+
+rplos =================================================================== 
+ 
+
+
+RPPanalyzer ============================================================= 
+ *  checking package dependencies ... ERROR
+Packages required but not available: 'limma' 'Biobase'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+RSA ===================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK
+WARNING: There was 1 warning. 
+
+
+RSDA ==================================================================== 
+ 
+
+
+rtematres =============================================================== 
+ 
+
+
+rtf ===================================================================== 
+ 
+
+
+rvertnet ================================================================ 
+ 
+
+
+Rz ====================================================================== 
+ 
+
+
+SamplerCompare ========================================================== 
+ 
+
+
+SCGLR =================================================================== 
+ 
+
+
+SDaA ==================================================================== 
+ 
+
+
+season ================================================================== 
+ 
+
+
+seewave ================================================================= 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'fftw'
+
+Package suggested but not available for checking: 'rpanel'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+simPH =================================================================== 
+ 
+
+
+SixSigma ================================================================ 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [13s/13s] OK
+Examples with CPU or elapsed time > 5s
+         user system elapsed
+SixSigma 5.06  0.052   5.117 
+
+
+sjPlot ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [69s/70s] OK
+Examples with CPU or elapsed time > 5s
+            user system elapsed
+sjp.grpfrq 9.809  0.000  10.144
+sjp.lm.int 6.036  0.004   6.037
+sjp.frq    5.488  0.004   5.543
+WARNING: There was 1 warning. 
+
+
+SMFI5 =================================================================== 
+ 
+
+
+snpEnrichment =========================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'snpStats'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+soc.ca ================================================================== 
+ 
+
+
+sorvi =================================================================== 
+ 
+
+
+sparkTable ============================================================== 
+ 
+
+
+spcosa ================================================================== 
+ 
+
+
+spikeSlabGAM ============================================================ 
+ 
+
+
+spocc =================================================================== 
+ 
+
+
+SPOT ==================================================================== 
+ 
+
+
+ss3sim ================================================================== 
+ 
+
+
+StatRank ================================================================ 
+ 
+
+
+strvalidator ============================================================ 
+ 
+
+
+SuperLearner ============================================================ 
+ 
+
+
+survMisc ================================================================ 
+ 
+
+
+sweSCB ================================================================== 
+ 
+
+
+tabplot ================================================================= 
+ 
+
+
+taRifx ================================================================== 
+ 
+
+
+TeachingDemos =========================================================== 
+ 
+
+
+tikzDevice ============================================================== 
+ 
+
+
+timeit ================================================================== 
+ 
+
+
+timeline ================================================================ 
+ 
+
+
+TimeProjection ========================================================== 
+ 
+
+
+tourrGui ================================================================ 
+ 
+
+
+tourr =================================================================== 
+ 
+
+
+trapezoid =============================================================== 
+ 
+
+
+treecm ================================================================== 
+ 
+
+
+TriMatch ================================================================ 
+ 
+
+
+TripleR ================================================================= 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [12s/12s] OK
+WARNING: There was 1 warning.
+NOTE: There was 1 note. 
+
+
+tspmeta ================================================================= 
+ 
+
+
+useful ================================================================== 
+ 
+
+
+varbvs ================================================================== 
+ 
+
+
+vcdExtra ================================================================ 
+ 
+
+
+Wats ==================================================================== 
+ *  checking examples ... ERROR
+Running examples in 'Wats-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: CartesianPeriodic
+> ### Title: Linear Plot with Periodic Elements
+> ### Aliases: CartesianPeriodic
+> ### Keywords: Cartesian
+> 
+> ### ** Examples
+> 
+> require(Wats) #Load the package
+> changeMonth <- base::as.Date("1996-02-15")
+> dsLinear <- CountyMonthBirthRate2005Version
+> dsLinear <- dsLinear[dsLinear$CountyName=="oklahoma", ]
+> dsLinear <- AugmentYearDataWithMonthResolution(dsLinear=dsLinear, dateName="Date")
+> hSpread <- function( scores ) { return( quantile(x=scores, probs=c(.25, .75)) ) }
+> portfolio <- AnnotateData(
++     dsLinear,
++     dvName = "BirthRate",
++     centerFunction = median,
++     spreadFunction = hSpread
++ )
+> 
+> CartesianPeriodic(
++   portfolio$dsLinear,
++   portfolio$dsPeriodic,
++   xName = "Date",
++   yName = "BirthRate",
++   stageIDName = "StageID",
++   changePoints = changeMonth,
++   changePointLabels = "Bombing Effect"
++ )
+Error in eval(expr, envir, enclos) : object 'BirthRate' not found
+Calls: print ... unlist -> lapply -> eval.quoted -> lapply -> FUN -> eval
+Execution halted 
+
+
+wethepeople ============================================================= 
+ *  checking whether package 'wethepeople' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/wethepeople.Rcheck/00install.out' for details. 
+
+
+wppExplorer ============================================================= 
+ 
+
+
+wq ====================================================================== 
+ 
+
+
+xkcd ==================================================================== 
+ 
+
+
+XLConnect =============================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/run_tests.R' failed.
+Last 13 lines of output:
+  214:                 "With whitespace" = 1:4,
+  215:                 "And some other funky characters: _=?^~!$@#%
+                       ^
+  Error in runUnitTests() : 
+  
+  Unit Testing failed (#test failures: 0, #R errors: 2)
+  
+  In addition: Warning messages:
+  1: Error detected in cell X106 - Value is not available 
+  2: Error detected in cell Y104 - Value is not available 
+  3: Error detected in cell X106 - Value is not available 
+  4: Error detected in cell Y104 - Value is not available 
+  Execution halted 
+
+
+YourCast ================================================================ 
+ 
+
+
+zoo ===================================================================== 
+ 
+
+

@@ -1,0 +1,17 @@
+* installing *source* package 'GSE' ...
+** package 'GSE' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c emve.cpp -o emve.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c gse.cpp -o gse.o
+gfortran   -fpic  -O3 -pipe  -g  -c robmiss.f -o robmiss.o
+g++ -shared -o GSE.so emve.o gse.o robmiss.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/GSE.Rcheck/GSE/libs
+** R
+** data
+** preparing package for lazy loading
+Creating a generic function for 'summary' from package 'base' in package 'GSE'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (GSE)

@@ -1,0 +1,15 @@
+* installing *source* package 'PReMiuM' ...
+** package 'PReMiuM' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG -I./include   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"   -fpic  -O3 -pipe  -g  -c PReMiuM.cpp -o PReMiuM.o
+g++ -I/usr/share/R/include -DNDEBUG -I./include   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"   -fpic  -O3 -pipe  -g  -c postProcess.cpp -o postProcess.o
+g++ -shared -o PReMiuM.so PReMiuM.o postProcess.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/PReMiuM.Rcheck/PReMiuM/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (PReMiuM)

@@ -1,0 +1,20 @@
+LDheatmap *  checking examples ... ERROR
+Running examples in 'LDheatmap-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: GIMAP5.CEU
+> ### Title: Example data set for LDheatmap
+> ### Aliases: GIMAP5.CEU
+> ### Keywords: datasets
+> 
+> ### ** Examples
+>  
+> data(GIMAP5.CEU) 
+> LDheatmap(GIMAP5.CEU$snp.data,GIMAP5.CEU$snp.support$Position)
+Loading required package: chopsticks
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'chopsticks'
+Error in LDheatmap(GIMAP5.CEU$snp.data, GIMAP5.CEU$snp.support$Position) : 
+  could not find function "ld.snp"
+Execution halted

@@ -1,0 +1,13 @@
+* installing *source* package 'OpenStreetMap' ...
+** package 'OpenStreetMap' successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+in method for 'raster' with signature '"osmtile"': no definition for class "osmtile"
+in method for 'raster' with signature '"OpenStreetMap"': no definition for class "OpenStreetMap"
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (OpenStreetMap)

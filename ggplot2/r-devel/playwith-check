@@ -1,0 +1,71 @@
+* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/playwith.Rcheck'
+* using R version 3.0.2 (2013-09-25)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'playwith/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'playwith' version '0.9-54'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'playwith' can be installed ... [11s/11s] OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+'library' or 'require' call to 'lattice' which was already attached by Depends.
+  Please remove these calls from your code.
+Packages in Depends field not imported from:
+  'cairoDevice' 'gWidgetsRGtk2' 'lattice'
+  These packages needs to imported from for the case when
+  this namespace is loaded but not attached.
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+grobBoundingBoxes: no visible binding for global variable 'type'
+
+Found the following assignments to the global environment:
+File 'playwith/R/uiIdentifyActions.R':
+  assign(name, playGetIDs(playState), globalenv())
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... NOTE
+S3 methods shown with full name in documentation object 'plotCoords':
+  'plotCoords.plot' 'plotCoords.biplot'
+
+The \usage entries for S3 methods should use the \method markup and not
+their full name.
+See the chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking examples ... OK
+NOTE: There were 3 notes.

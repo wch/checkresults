@@ -1,0 +1,12 @@
+* installing *source* package 'antitrust' ...
+** package 'antitrust' successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'plot' from package 'graphics' in package 'antitrust'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (antitrust)

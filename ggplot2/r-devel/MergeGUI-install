@@ -1,0 +1,14 @@
+* installing *source* package 'MergeGUI' ...
+** R
+** demo
+** inst
+** preparing package for lazy loading
+Xlib:  extension "RANDR" missing on display ":99".
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'introduction.Rnw' using 'latin-9' 
+** testing if installed package can be loaded
+Xlib:  extension "RANDR" missing on display ":99".
+* DONE (MergeGUI)

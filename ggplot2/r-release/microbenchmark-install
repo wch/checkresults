@@ -1,0 +1,13 @@
+* installing *source* package 'microbenchmark' ...
+** package 'microbenchmark' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -D_POSIX_C_SOURCE=200112L     -fpic  -O3 -pipe  -g  -c nanotimer.c -o nanotimer.o
+gcc -std=gnu99 -shared -o microbenchmark.so nanotimer.o -lrt -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/microbenchmark.Rcheck/microbenchmark/libs
+** R
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (microbenchmark)

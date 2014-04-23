@@ -1,0 +1,103 @@
+* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/zoo.Rcheck'
+* using R version 3.0.3 (2014-03-06)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'zoo/DESCRIPTION' ... OK
+* this is package 'zoo' version '1.7-11'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'zoo' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking 'build' directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... NOTE
+Package unavailable to check Rd xrefs: 'stinepack'
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking sizes of PDF files under 'inst/doc' ... OK
+* checking installed files from 'inst/doc' ... OK
+* checking files in 'vignettes' ... OK
+* checking examples ... OK
+* checking differences from 'zoo-Ex.Rout' to 'zoo-Ex.Rout.save' ...
+172c172
+< 1970-01-01 00:00:00 1970-01-01 00:10:00 1970-01-01 00:20:00 1970-01-01 00:30:00 
+---
+> 1970-01-01 01:00:00 1970-01-01 01:10:00 1970-01-01 01:20:00 1970-01-01 01:30:00 
+2437,2442c2437,2448
+<  [1] "2000-01-01 UTC" "2000-02-01 UTC" "2000-03-01 UTC" "2000-04-01 UTC"
+<  [5] "2000-05-01 UTC" "2000-06-01 UTC" "2000-07-01 UTC" "2000-08-01 UTC"
+<  [9] "2000-09-01 UTC" "2000-10-01 UTC" "2000-11-01 UTC" "2000-12-01 UTC"
+< [13] "2001-01-01 UTC" "2001-02-01 UTC" "2001-03-01 UTC" "2001-04-01 UTC"
+< [17] "2001-05-01 UTC" "2001-06-01 UTC" "2001-07-01 UTC" "2001-08-01 UTC"
+< [21] "2001-09-01 UTC" "2001-10-01 UTC" "2001-11-01 UTC" "2001-12-01 UTC"
+---
+>  [1] "2000-01-01 01:00:00 CET"  "2000-02-01 01:00:00 CET" 
+>  [3] "2000-03-01 01:00:00 CET"  "2000-04-01 02:00:00 CEST"
+>  [5] "2000-05-01 02:00:00 CEST" "2000-06-01 02:00:00 CEST"
+>  [7] "2000-07-01 02:00:00 CEST" "2000-08-01 02:00:00 CEST"
+>  [9] "2000-09-01 02:00:00 CEST" "2000-10-01 02:00:00 CEST"
+> [11] "2000-11-01 01:00:00 CET"  "2000-12-01 01:00:00 CET" 
+> [13] "2001-01-01 01:00:00 CET"  "2001-02-01 01:00:00 CET" 
+> [15] "2001-03-01 01:00:00 CET"  "2001-04-01 02:00:00 CEST"
+> [17] "2001-05-01 02:00:00 CEST" "2001-06-01 02:00:00 CEST"
+> [19] "2001-07-01 02:00:00 CEST" "2001-08-01 02:00:00 CEST"
+> [21] "2001-09-01 02:00:00 CEST" "2001-10-01 02:00:00 CEST"
+> [23] "2001-11-01 01:00:00 CET"  "2001-12-01 01:00:00 CET" 
+2569,2570c2575,2578
+< [1] "2000-01-01 UTC" "2000-04-01 UTC" "2000-07-01 UTC" "2000-10-01 UTC"
+< [5] "2001-01-01 UTC" "2001-04-01 UTC" "2001-07-01 UTC" "2001-10-01 UTC"
+---
+> [1] "2000-01-01 01:00:00 CET"  "2000-04-01 02:00:00 CEST"
+> [3] "2000-07-01 02:00:00 CEST" "2000-10-01 02:00:00 CEST"
+> [5] "2001-01-01 01:00:00 CET"  "2001-04-01 02:00:00 CEST"
+> [7] "2001-07-01 02:00:00 CEST" "2001-10-01 02:00:00 CEST"
+ OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running 'as.Date.R'
+  Comparing 'as.Date.Rout' to 'as.Date.Rout.save' ... OK
+  Running 'bugfixes.R'
+  Comparing 'bugfixes.Rout' to 'bugfixes.Rout.save' ... OK
+  Running 'vignette-zoo-quickref.R'
+  Comparing 'vignette-zoo-quickref.Rout' to 'vignette-zoo-quickref.Rout.save' ... OK
+  Running 'vignette-zoo.R'
+  Comparing 'vignette-zoo.Rout' to 'vignette-zoo.Rout.save' ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... [8s/11s] OK
+NOTE: There was 1 note.

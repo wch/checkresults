@@ -1,0 +1,14 @@
+* installing *source* package 'PKreport' ...
+** package 'PKreport' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'PKreport.rnw' 
+** testing if installed package can be loaded
+* DONE (PKreport)

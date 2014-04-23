@@ -1,0 +1,14 @@
+* installing *source* package 'MergeGUI' ...
+** package 'MergeGUI' successfully unpacked and MD5 sums checked
+** R
+** demo
+** inst
+** preparing package for lazy loading
+Xlib:  extension "RANDR" missing on display ":99".
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+Xlib:  extension "RANDR" missing on display ":99".
+* DONE (MergeGUI)

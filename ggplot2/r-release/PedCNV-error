@@ -1,0 +1,23 @@
+PedCNV *  checking examples ... ERROR
+Running examples in 'PedCNV-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: plot.clust
+> ### Title: Plots clustering result
+> ### Aliases: plot.clust
+> 
+> ### ** Examples
+> 
+> # Fit the data under the given clustering numbers
+> clus.fit <- ClusProc(signal=signal,N=2:6,varSelection='PC.9')
+The first 5 principal components are used.
+The logliklihood for signal model is -1663.629 when clustering number is 2.
+The logliklihood for signal model is -1477.954 when clustering number is 3.
+The logliklihood for signal model is -1395.767 when clustering number is 4.
+The logliklihood for signal model is -1354.902 when clustering number is 5.
+The logliklihood for signal model is -1290.334 when clustering number is 6.
+> plot(clus.fit,type='histo')
+Error in list(x = x, y = y, ...) : 'x' is missing
+Calls: plot ... <Anonymous> -> <Anonymous> -> do.call -> aes_string
+Execution halted

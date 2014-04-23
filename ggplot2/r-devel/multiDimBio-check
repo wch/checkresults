@@ -1,0 +1,14 @@
+* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/multiDimBio.Rcheck'
+* using R version 3.0.2 (2013-09-25)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'multiDimBio/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'multiDimBio' version '0.3.2'
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package required but not available: 'pcaMethods'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

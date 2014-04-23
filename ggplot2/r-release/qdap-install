@@ -1,0 +1,12 @@
+* installing *source* package 'qdap' ...
+** package 'qdap' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/ubuntu/R-lib/3.0/wordcloud/libs/wordcloud.so':
+  libRcpp.so: cannot open shared object file: No such file or directory
+ERROR: lazy loading failed for package 'qdap'
+* removing '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/qdap.Rcheck/qdap'

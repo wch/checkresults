@@ -1,0 +1,72 @@
+* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/PKreport.Rcheck'
+* using R version 3.0.2 (2013-09-25)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'PKreport/DESCRIPTION' ... OK
+* this is package 'PKreport' version '1.4'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'PKreport' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... NOTE
+prepare_Rd: PKadjust.Rd:22-24: Dropping empty section \value
+prepare_Rd: PKadjust.Rd:28-30: Dropping empty section \examples
+prepare_Rd: PKclean.Rd:13-15: Dropping empty section \arguments
+prepare_Rd: PKcode.Rd:25-27: Dropping empty section \examples
+prepare_Rd: PKreport.1.Rd:17-19: Dropping empty section \details
+prepare_Rd: PKreport.2.Rd:17-19: Dropping empty section \details
+prepare_Rd: PKreport.3.Rd:17-19: Dropping empty section \details
+prepare_Rd: PKreport.4.Rd:17-19: Dropping empty section \details
+prepare_Rd: PKreport.5.Rd:17-19: Dropping empty section \details
+prepare_Rd: PKreport.6.Rd:17-19: Dropping empty section \details
+prepare_Rd: PKreport.7.Rd:17-19: Dropping empty section \details
+prepare_Rd: PKreport.8.Rd:17-19: Dropping empty section \details
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking sizes of PDF files under 'inst/doc' ... OK
+* checking installed files from 'inst/doc' ... NOTE
+The following files should probably not be installed:
+  'PKreport.tex'
+
+Consider the use of a .Rinstignore file: see 'Writing R Extensions',
+or move the vignette sources from 'inst/doc' to 'vignettes'.
+* checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK
+NOTE: There were 2 notes.

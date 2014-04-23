@@ -1,0 +1,22 @@
+GGally *  checking examples ... ERROR
+Running examples in 'GGally-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: addAndOverwriteAes
+> ### Title: Add new aes
+> ### Aliases: addAndOverwriteAes
+> ### Keywords: internal
+> 
+> ### ** Examples
+> 
+> data(diamonds, package="ggplot2")
+>  diamonds.samp <- diamonds[sample(1:dim(diamonds)[1],100),]
+>  ggpairs(diamonds.samp, columns = 5:7,
++   upper = list(continuous = "cor", aes_string = aes_string(color = "clarity")),
++   lower = list(continuous = "cor", aes_string = aes_string(color = "cut")),
++   color = "color",
++   title = "Diamonds Sample")
+Error in list(x = x, y = y, ...) : 'x' is missing
+Calls: ggpairs -> aes_string
+Execution halted

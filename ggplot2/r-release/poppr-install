@@ -1,0 +1,17 @@
+* installing *source* package 'poppr' ...
+** package 'poppr' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c permut_shuffler.c -o permut_shuffler.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c poppr_distance.c -o poppr_distance.o
+gcc -std=gnu99 -shared -o poppr.so permut_shuffler.o poppr_distance.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/poppr.Rcheck/poppr/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (poppr)

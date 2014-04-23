@@ -1,0 +1,90 @@
+* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/benchmark.Rcheck'
+* using R version 3.0.3 (2014-03-06)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'benchmark/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'benchmark' version '0.3-5'
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Package suggested but not available for checking: 'Rgraphviz'
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'benchmark' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+Packages in Depends field not imported from:
+  'ggplot2' 'proto' 'reshape' 'scales'
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+Unexported object imported by a ':::' call: 'multcomp:::plot.confint.glht'
+  See the note in ?`:::` about the use of this operator.
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+boxplot.AlgorithmPerformance: no visible binding for global variable
+  'algorithms'
+boxplot.AlgorithmPerformance: no visible binding for global variable
+  'value'
+boxplot.AlgorithmPerformance: no visible binding for global variable
+  'samples'
+bsgraph0.dist: no visible global function definition for 'addEdge'
+bsgraph0.graphNEL: no visible global function definition for
+  'getDefaultAttrs'
+bsgraph0.graphNEL: no visible global function definition for 'agopen'
+densityplot.AlgorithmPerformance: no visible binding for global
+  variable 'value'
+densityplot.AlgorithmPerformance: no visible binding for global
+  variable 'algorithms'
+plot.DatasetCharacterization: no visible binding for global variable
+  'characteristics'
+plot.DatasetCharacterization: no visible binding for global variable
+  'value'
+plot.DatasetCharacterization: no visible binding for global variable
+  'samples'
+plot.TestResult: no visible binding for global variable 'samples'
+plot.TestResult: no visible binding for global variable 'value'
+stripchart.AlgorithmPerformance: no visible binding for global variable
+  'algorithms'
+stripchart.AlgorithmPerformance: no visible binding for global variable
+  'value'
+stripchart.AlgorithmPerformance: no visible binding for global variable
+  'samples'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... NOTE
+Package unavailable to check Rd xrefs: 'graph'
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking sizes of PDF files under 'inst/doc' ... OK
+* checking installed files from 'inst/doc' ... OK
+* checking examples ... OK
+NOTE: There were 4 notes.

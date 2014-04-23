@@ -1,0 +1,12 @@
+* installing *source* package 'bbmle' ...
+** package 'bbmle' successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'formula' from package 'stats' in package 'bbmle'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (bbmle)

@@ -1,0 +1,20 @@
+* installing *source* package 'adegenet' ...
+** package 'adegenet' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c GLfunctions.c -o GLfunctions.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c adesub.c -o adesub.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c monmonier-utils.c -o monmonier-utils.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c sharedAll.c -o sharedAll.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c snpbin.c -o snpbin.o
+gcc -std=gnu99 -shared -o adegenet.so GLfunctions.o adesub.o monmonier-utils.o sharedAll.o snpbin.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/adegenet.Rcheck/adegenet/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'plot' from package 'graphics' in package 'adegenet'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (adegenet)

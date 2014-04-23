@@ -1,0 +1,18 @@
+* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/pbdPROF.Rcheck'
+* using R version 3.0.3 (2014-03-06)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'pbdPROF/DESCRIPTION' ... OK
+* this is package 'pbdPROF' version '0.2-2'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'pbdPROF' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/pbdPROF.Rcheck/00install.out' for details.

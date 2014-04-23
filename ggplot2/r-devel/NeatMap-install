@@ -1,0 +1,13 @@
+* installing *source* package 'NeatMap' ...
+** package 'NeatMap' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c nMDS_R.cc -o nMDS_R.o
+g++ -shared -o NeatMap.so nMDS_R.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/NeatMap.Rcheck/NeatMap/libs
+** R
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (NeatMap)

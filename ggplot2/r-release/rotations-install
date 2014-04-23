@@ -1,0 +1,21 @@
+* installing *source* package 'rotations' ...
+** package 'rotations' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c CppBayesFunctions.cpp -o CppBayesFunctions.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c FisherMethod.cpp -o FisherMethod.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c RcppExports.cpp -o RcppExports.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c ZhangMethod.cpp -o ZhangMethod.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c basics.cpp -o basics.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c estimators.cpp -o estimators.o
+g++ -shared -o rotations.so CppBayesFunctions.o FisherMethod.o RcppExports.o ZhangMethod.o basics.o estimators.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/rotations.Rcheck/rotations/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (rotations)

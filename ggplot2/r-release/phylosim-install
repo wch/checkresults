@@ -1,0 +1,1062 @@
+* installing *source* package 'phylosim' ...
+** package 'phylosim' successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+Warning in setMethodS3.default(".checkSymbolLengths", class = "character",  :
+  Method already existed and was not overwritten: .checkSymbolLengths.character
+Warning in setMethodS3.default(".checkSymbolDuplicates", class = "character",  :
+  Method already existed and was not overwritten: .checkSymbolDuplicates.character
+Warning in setMethodS3.default(".checkConsistency", class = "character",  :
+  Method already existed and was not overwritten: .checkConsistency.character
+Warning in setMethodS3.default("checkConsistency", class = "Alphabet", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.Alphabet
+Warning in setMethodS3.default("==", class = "Alphabet", function(e1, e2,  :
+  Method already existed and was not overwritten: ==.Alphabet
+Warning in setMethodS3.default("!=", class = "Alphabet", function(e1, e2,  :
+  Method already existed and was not overwritten: !=.Alphabet
+Warning in setMethodS3.default("getSymbols", class = "Alphabet", function(this,  :
+  Method already existed and was not overwritten: getSymbols.Alphabet
+Warning in setMethodS3.default("setSymbols", class = "Alphabet", function(this,  :
+  Method already existed and was not overwritten: setSymbols.Alphabet
+Warning in setMethodS3.default("getSymbolLength", class = "Alphabet", function(this,  :
+  Method already existed and was not overwritten: getSymbolLength.Alphabet
+Warning in setMethodS3.default("setSymbolLength", class = "Alphabet", function(this,  :
+  Method already existed and was not overwritten: setSymbolLength.Alphabet
+Warning in setMethodS3.default("getSize", class = "Alphabet", function(this,  :
+  Method already existed and was not overwritten: getSize.Alphabet
+Warning in setMethodS3.default("getType", class = "Alphabet", function(this,  :
+  Method already existed and was not overwritten: getType.Alphabet
+Warning in setMethodS3.default("setType", class = "Alphabet", function(this,  :
+  Method already existed and was not overwritten: setType.Alphabet
+Warning in setMethodS3.default("hasSymbols", class = "Alphabet", function(this,  :
+  Method already existed and was not overwritten: hasSymbols.Alphabet
+Warning in setMethodS3.default("getWriteProtected", class = "Alphabet",  :
+  Method already existed and was not overwritten: getWriteProtected.Alphabet
+Warning in setMethodS3.default("setWriteProtected", class = "Alphabet",  :
+  Method already existed and was not overwritten: setWriteProtected.Alphabet
+Warning in setMethodS3.default(".checkWriteProtection", class = "Alphabet",  :
+  Method already existed and was not overwritten: .checkWriteProtection.Alphabet
+Warning in setMethodS3.default("setSize", class = "Alphabet", function(this,  :
+  Method already existed and was not overwritten: setSize.Alphabet
+Warning in setMethodS3.default("as.character", class = "Alphabet", function(x,  :
+  Method already existed and was not overwritten: as.character.Alphabet
+Warning in setMethodS3.default("summary", class = "Alphabet", function(object,  :
+  Method already existed and was not overwritten: summary.Alphabet
+Warning in setMethodS3.default("is.Alphabet", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.Alphabet.default
+Warning in setMethodS3.default("isEmpty", class = "Alphabet", function(this,  :
+  Method already existed and was not overwritten: isEmpty.Alphabet
+Warning in setMethodS3.default("checkConsistency", class = "AminoAcidSubst",  :
+  Method already existed and was not overwritten: checkConsistency.AminoAcidSubst
+Warning in setMethodS3.default("buildFromPAML", class = "AminoAcidSubst",  :
+  Method already existed and was not overwritten: buildFromPAML.AminoAcidSubst
+Warning in setMethodS3.default(".readFromPAML", class = "AminoAcidSubst",  :
+  Method already existed and was not overwritten: .readFromPAML.AminoAcidSubst
+Warning in setMethodS3.default("setEquDist", class = "AminoAcidSubst", function(this,  :
+  Method already existed and was not overwritten: setEquDist.AminoAcidSubst
+Warning in setMethodS3.default("summary", class = "AminoAcidSubst", function(object,  :
+  Method already existed and was not overwritten: summary.AminoAcidSubst
+Warning in setMethodS3.default("newAAMatrix", class = "AminoAcidSubst",  :
+  Method already existed and was not overwritten: newAAMatrix.AminoAcidSubst
+Warning in setMethodS3.default("checkConsistency", class = "BinarySubst",  :
+  Method already existed and was not overwritten: checkConsistency.BinarySubst
+Warning in setMethodS3.default("summary", class = "BinarySubst", function(object,  :
+  Method already existed and was not overwritten: summary.BinarySubst
+Warning in setMethodS3.default("checkConsistency", class = "BrownianInsertor",  :
+  Method already existed and was not overwritten: checkConsistency.BrownianInsertor
+Warning in setMethodS3.default("BrownianPath", class = "BrownianInsertor",  :
+  Method already existed and was not overwritten: BrownianPath.BrownianInsertor
+Warning in setMethodS3.default("getType", class = "BrownianInsertor", function(this,  :
+  Method already existed and was not overwritten: getType.BrownianInsertor
+Warning in setMethodS3.default("setType", class = "BrownianInsertor", function(this,  :
+  Method already existed and was not overwritten: setType.BrownianInsertor
+Warning in setMethodS3.default("getScale", class = "BrownianInsertor", function(this,  :
+  Method already existed and was not overwritten: getScale.BrownianInsertor
+Warning in setMethodS3.default("setScale", class = "BrownianInsertor", function(this,  :
+  Method already existed and was not overwritten: setScale.BrownianInsertor
+Warning in setMethodS3.default("summary", class = "BrownianInsertor", function(object,  :
+  Method already existed and was not overwritten: summary.BrownianInsertor
+Warning in setMethodS3.default("checkConsistency", class = "CodonAlphabet",  :
+  Method already existed and was not overwritten: checkConsistency.CodonAlphabet
+Warning in setMethodS3.default("getTableId", class = "CodonAlphabet", function(this,  :
+  Method already existed and was not overwritten: getTableId.CodonAlphabet
+Warning in setMethodS3.default("setTableId", class = "CodonAlphabet", function(this,  :
+  Method already existed and was not overwritten: setTableId.CodonAlphabet
+Warning in setMethodS3.default("translateCodon", class = "CodonAlphabet",  :
+  Method already existed and was not overwritten: translateCodon.CodonAlphabet
+Warning in setMethodS3.default("isStopCodon", class = "CodonAlphabet", function(this,  :
+  Method already existed and was not overwritten: isStopCodon.CodonAlphabet
+Warning in setMethodS3.default("isStartCodon", class = "CodonAlphabet",  :
+  Method already existed and was not overwritten: isStartCodon.CodonAlphabet
+Warning in setMethodS3.default("areSynonymous", class = "CodonAlphabet",  :
+  Method already existed and was not overwritten: areSynonymous.CodonAlphabet
+Warning in setMethodS3.default(".codonDiff", class = "CodonAlphabet", function(this,  :
+  Method already existed and was not overwritten: .codonDiff.CodonAlphabet
+Warning in setMethodS3.default("summary", class = "CodonAlphabet", function(object,  :
+  Method already existed and was not overwritten: summary.CodonAlphabet
+Warning in setMethodS3.default("getTransTable", class = "CodonAlphabet",  :
+  Method already existed and was not overwritten: getTransTable.CodonAlphabet
+Warning in setMethodS3.default("setTransTable", class = "CodonAlphabet",  :
+  Method already existed and was not overwritten: setTransTable.CodonAlphabet
+Warning in setMethodS3.default("is.CodonAlphabet", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.CodonAlphabet.default
+Warning in setMethodS3.default("checkConsistency", class = "CodonUNREST",  :
+  Method already existed and was not overwritten: checkConsistency.CodonUNREST
+Warning in setMethodS3.default("is.CodonUNREST", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.CodonUNREST.default
+Warning in setMethodS3.default("is.GY94", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.GY94.default
+Warning in setMethodS3.default("getEventsAtSite", class = "GY94", function(this,  :
+  Method already existed and was not overwritten: getEventsAtSite.GY94
+Warning in setMethodS3.default("checkConsistency", class = "GY94", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.GY94
+Warning in setMethodS3.default("getOmegaScalingFactor", class = "GY94",  :
+  Method already existed and was not overwritten: getOmegaScalingFactor.GY94
+Warning in setMethodS3.default(".buildGY94Rates", class = "GY94", function(this,  :
+  Method already existed and was not overwritten: .buildGY94Rates.GY94
+Warning in setMethodS3.default("setRate", class = "GY94", function(this,  :
+  Method already existed and was not overwritten: setRate.GY94
+Warning in setMethodS3.default("getKappa", class = "GY94", function(this,  :
+  Method already existed and was not overwritten: getKappa.GY94
+Warning in setMethodS3.default("setKappa", class = "GY94", function(this,  :
+  Method already existed and was not overwritten: setKappa.GY94
+Warning in setMethodS3.default("getCodonFreqs", class = "GY94", function(this,  :
+  Method already existed and was not overwritten: getCodonFreqs.GY94
+Warning in setMethodS3.default("setCodonFreqs", class = "GY94", function(this,  :
+  Method already existed and was not overwritten: setCodonFreqs.GY94
+Warning in setMethodS3.default("summary", class = "GY94", function(object,  :
+  Method already existed and was not overwritten: summary.GY94
+Warning in setMethodS3.default("checkConsistency", class = "CodonSubst",  :
+  Method already existed and was not overwritten: checkConsistency.CodonSubst
+Warning in setMethodS3.default("buildFromPAML", class = "CodonSubst", function(this,  :
+  Method already existed and was not overwritten: buildFromPAML.CodonSubst
+Warning in setMethodS3.default(".readFromPAML", class = "CodonSubst", function(this,  :
+  Method already existed and was not overwritten: .readFromPAML.CodonSubst
+Warning in setMethodS3.default("setEquDist", class = "CodonSubst", function(this,  :
+  Method already existed and was not overwritten: setEquDist.CodonSubst
+Warning in setMethodS3.default("summary", class = "CodonSubst", function(object,  :
+  Method already existed and was not overwritten: summary.CodonSubst
+Warning in setMethodS3.default("newMatrix", class = "CodonSubst", function(name = NA,  :
+  Method already existed and was not overwritten: newMatrix.CodonSubst
+Warning in setMethodS3.default("checkConsistency", class = "ContinuousDeletor",  :
+  Method already existed and was not overwritten: checkConsistency.ContinuousDeletor
+Warning in setMethodS3.default("getDist", class = "ContinuousDeletor", function(this,  :
+  Method already existed and was not overwritten: getDist.ContinuousDeletor
+Warning in setMethodS3.default("setDist", class = "ContinuousDeletor", function(this,  :
+  Method already existed and was not overwritten: setDist.ContinuousDeletor
+Warning in setMethodS3.default("getMaxLength", class = "ContinuousDeletor",  :
+  Method already existed and was not overwritten: getMaxLength.ContinuousDeletor
+Warning in setMethodS3.default("setMaxLength", class = "ContinuousDeletor",  :
+  Method already existed and was not overwritten: setMaxLength.ContinuousDeletor
+Warning in setMethodS3.default("plot", class = "ContinuousDeletor", function(x,  :
+  Method already existed and was not overwritten: plot.ContinuousDeletor
+Warning in setMethodS3.default("summary", class = "ContinuousDeletor", function(object,  :
+  Method already existed and was not overwritten: summary.ContinuousDeletor
+Warning in setMethodS3.default("checkConsistency", class = "ContinuousInsertor",  :
+  Method already existed and was not overwritten: checkConsistency.ContinuousInsertor
+Warning in setMethodS3.default("getDist", class = "ContinuousInsertor",  :
+  Method already existed and was not overwritten: getDist.ContinuousInsertor
+Warning in setMethodS3.default("setDist", class = "ContinuousInsertor",  :
+  Method already existed and was not overwritten: setDist.ContinuousInsertor
+Warning in setMethodS3.default("getMaxLength", class = "ContinuousInsertor",  :
+  Method already existed and was not overwritten: getMaxLength.ContinuousInsertor
+Warning in setMethodS3.default("setMaxLength", class = "ContinuousInsertor",  :
+  Method already existed and was not overwritten: setMaxLength.ContinuousInsertor
+Warning in setMethodS3.default("plot", class = "ContinuousInsertor", function(x,  :
+  Method already existed and was not overwritten: plot.ContinuousInsertor
+Warning in setMethodS3.default("summary", class = "ContinuousInsertor",  :
+  Method already existed and was not overwritten: summary.ContinuousInsertor
+Warning in setMethodS3.default("checkConsistency", class = "DiscreteDeletor",  :
+  Method already existed and was not overwritten: checkConsistency.DiscreteDeletor
+Warning in setMethodS3.default("getSizes", class = "DiscreteDeletor", function(this,  :
+  Method already existed and was not overwritten: getSizes.DiscreteDeletor
+Warning in setMethodS3.default("setSizes", class = "DiscreteDeletor", function(this,  :
+  Method already existed and was not overwritten: setSizes.DiscreteDeletor
+Warning in setMethodS3.default("getProbs", class = "DiscreteDeletor", function(this,  :
+  Method already existed and was not overwritten: getProbs.DiscreteDeletor
+Warning in setMethodS3.default("setProbs", class = "DiscreteDeletor", function(this,  :
+  Method already existed and was not overwritten: setProbs.DiscreteDeletor
+Warning in setMethodS3.default("summary", class = "DiscreteDeletor", function(object,  :
+  Method already existed and was not overwritten: summary.DiscreteDeletor
+Warning in setMethodS3.default("plot", class = "DiscreteDeletor", function(x,  :
+  Method already existed and was not overwritten: plot.DiscreteDeletor
+Warning in setMethodS3.default("checkConsistency", class = "DiscreteInsertor",  :
+  Method already existed and was not overwritten: checkConsistency.DiscreteInsertor
+Warning in setMethodS3.default("getSizes", class = "DiscreteInsertor", function(this,  :
+  Method already existed and was not overwritten: getSizes.DiscreteInsertor
+Warning in setMethodS3.default("setSizes", class = "DiscreteInsertor", function(this,  :
+  Method already existed and was not overwritten: setSizes.DiscreteInsertor
+Warning in setMethodS3.default("getProbs", class = "DiscreteInsertor", function(this,  :
+  Method already existed and was not overwritten: getProbs.DiscreteInsertor
+Warning in setMethodS3.default("setProbs", class = "DiscreteInsertor", function(this,  :
+  Method already existed and was not overwritten: setProbs.DiscreteInsertor
+Warning in setMethodS3.default("plot", class = "DiscreteInsertor", function(x,  :
+  Method already existed and was not overwritten: plot.DiscreteInsertor
+Warning in setMethodS3.default("summary", class = "DiscreteInsertor", function(object,  :
+  Method already existed and was not overwritten: summary.DiscreteInsertor
+Warning in setMethodS3.default("is.Event", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.Event.default
+Warning in setMethodS3.default("getName", class = "Event", function(this,  :
+  Method already existed and was not overwritten: getName.Event
+Warning in setMethodS3.default("setName", class = "Event", function(this,  :
+  Method already existed and was not overwritten: setName.Event
+Warning in setMethodS3.default("getRate", class = "Event", function(this,  :
+  Method already existed and was not overwritten: getRate.Event
+Warning in setMethodS3.default("setRate", class = "Event", function(this,  :
+  Method already existed and was not overwritten: setRate.Event
+Warning in setMethodS3.default("getProcess", class = "Event", function(this,  :
+  Method already existed and was not overwritten: getProcess.Event
+Warning in setMethodS3.default("setProcess", class = "Event", function(this,  :
+  Method already existed and was not overwritten: setProcess.Event
+Warning in setMethodS3.default("getHandler", class = "Event", function(this,  :
+  Method already existed and was not overwritten: getHandler.Event
+Warning in setMethodS3.default("setHandler", class = "Event", function(this,  :
+  Method already existed and was not overwritten: setHandler.Event
+Warning in setMethodS3.default("getSite", class = "Event", function(this,  :
+  Method already existed and was not overwritten: getSite.Event
+Warning in setMethodS3.default("getPosition", class = "Event", function(this,  :
+  Method already existed and was not overwritten: getPosition.Event
+Warning in setMethodS3.default("setPosition", class = "Event", function(this,  :
+  Method already existed and was not overwritten: setPosition.Event
+Warning in setMethodS3.default("setSite", class = "Event", function(this,  :
+  Method already existed and was not overwritten: setSite.Event
+Warning in setMethodS3.default("Perform", class = "Event", function(this,  :
+  Method already existed and was not overwritten: Perform.Event
+Warning in setMethodS3.default(".setHandler", class = "Event", function(this,  :
+  Method already existed and was not overwritten: .setHandler.Event
+Warning in setMethodS3.default("getWriteProtected", class = "Event", function(this,  :
+  Method already existed and was not overwritten: getWriteProtected.Event
+Warning in setMethodS3.default("setWriteProtected", class = "Event", function(this,  :
+  Method already existed and was not overwritten: setWriteProtected.Event
+Warning in setMethodS3.default(".checkWriteProtection", class = "Event",  :
+  Method already existed and was not overwritten: .checkWriteProtection.Event
+Warning in setMethodS3.default("checkConsistency", class = "Event", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.Event
+Warning in setMethodS3.default("as.character", class = "Event", function(x,  :
+  Method already existed and was not overwritten: as.character.Event
+Warning in setMethodS3.default("summary", class = "Event", function(object,  :
+  Method already existed and was not overwritten: summary.Event
+Warning in setMethodS3.default(".checkLengthParams", class = "FastFieldDeletor",  :
+  Method already existed and was not overwritten: .checkLengthParams.FastFieldDeletor
+Warning in setMethodS3.default("checkConsistency", class = "FastFieldDeletor",  :
+  Method already existed and was not overwritten: checkConsistency.FastFieldDeletor
+Warning in setMethodS3.default("summary", class = "FastFieldDeletor", function(object,  :
+  Method already existed and was not overwritten: summary.FastFieldDeletor
+Warning in setMethodS3.default("getEventsAtSite", class = "FastFieldDeletor",  :
+  Method already existed and was not overwritten: getEventsAtSite.FastFieldDeletor
+Warning in setMethodS3.default("getType", class = "FastFieldDeletor", function(this,  :
+  Method already existed and was not overwritten: getType.FastFieldDeletor
+Warning in setMethodS3.default("setType", class = "FastFieldDeletor", function(this,  :
+  Method already existed and was not overwritten: setType.FastFieldDeletor
+Warning in setMethodS3.default("getLengthParam1", class = "FastFieldDeletor",  :
+  Method already existed and was not overwritten: getLengthParam1.FastFieldDeletor
+Warning in setMethodS3.default("getLengthParam2", class = "FastFieldDeletor",  :
+  Method already existed and was not overwritten: getLengthParam2.FastFieldDeletor
+Warning in setMethodS3.default("setLengthParam1", class = "FastFieldDeletor",  :
+  Method already existed and was not overwritten: setLengthParam1.FastFieldDeletor
+Warning in setMethodS3.default("setLengthParam2", class = "FastFieldDeletor",  :
+  Method already existed and was not overwritten: setLengthParam2.FastFieldDeletor
+Warning in setMethodS3.default("getToleranceMargin", class = "FastFieldDeletor",  :
+  Method already existed and was not overwritten: getToleranceMargin.FastFieldDeletor
+Warning in setMethodS3.default("setToleranceMargin", class = "FastFieldDeletor",  :
+  Method already existed and was not overwritten: setToleranceMargin.FastFieldDeletor
+Warning in setMethodS3.default(".getScalingFactor", class = "FastFieldDeletor",  :
+  Method already existed and was not overwritten: .getScalingFactor.FastFieldDeletor
+Warning in setMethodS3.default("setParameterAtSite", class = "FastFieldDeletor",  :
+  Method already existed and was not overwritten: setParameterAtSite.FastFieldDeletor
+Warning in setMethodS3.default("checkConsistency", class = "GeneralInDel",  :
+  Method already existed and was not overwritten: checkConsistency.GeneralInDel
+Warning in setMethodS3.default("getRate", class = "GeneralInDel", function(this,  :
+  Method already existed and was not overwritten: getRate.GeneralInDel
+Warning in setMethodS3.default("hasUndefinedRate", class = "GeneralInDel",  :
+  Method already existed and was not overwritten: hasUndefinedRate.GeneralInDel
+Warning in setMethodS3.default("setRate", class = "GeneralInDel", function(this,  :
+  Method already existed and was not overwritten: setRate.GeneralInDel
+Warning in setMethodS3.default("getProposeBy", class = "GeneralInDel", function(this,  :
+  Method already existed and was not overwritten: getProposeBy.GeneralInDel
+Warning in setMethodS3.default("setProposeBy", class = "GeneralInDel", function(this,  :
+  Method already existed and was not overwritten: setProposeBy.GeneralInDel
+Warning in setMethodS3.default("getAcceptBy", class = "GeneralInDel", function(this,  :
+  Method already existed and was not overwritten: getAcceptBy.GeneralInDel
+Warning in setMethodS3.default("setAcceptBy", class = "GeneralInDel", function(this,  :
+  Method already existed and was not overwritten: setAcceptBy.GeneralInDel
+Warning in setMethodS3.default("proposeLength", class = "GeneralInDel",  :
+  Method already existed and was not overwritten: proposeLength.GeneralInDel
+Warning in setMethodS3.default("is.GeneralInDel", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.GeneralInDel.default
+Warning in setMethodS3.default("summary", class = "GeneralInDel", function(object,  :
+  Method already existed and was not overwritten: summary.GeneralInDel
+Warning in setMethodS3.default("is.GeneralInsertor", class = "default",  :
+  Method already existed and was not overwritten: is.GeneralInsertor.default
+Warning in setMethodS3.default("checkConsistency", class = "GeneralInsertor",  :
+  Method already existed and was not overwritten: checkConsistency.GeneralInsertor
+Warning in setMethodS3.default("getEventsAtSite", class = "GeneralInsertor",  :
+  Method already existed and was not overwritten: getEventsAtSite.GeneralInsertor
+Warning in setMethodS3.default("generateInsert", class = "GeneralInsertor",  :
+  Method already existed and was not overwritten: generateInsert.GeneralInsertor
+Warning in setMethodS3.default("getGenerateBy", class = "GeneralInsertor",  :
+  Method already existed and was not overwritten: getGenerateBy.GeneralInsertor
+Warning in setMethodS3.default("setGenerateBy", class = "GeneralInsertor",  :
+  Method already existed and was not overwritten: setGenerateBy.GeneralInsertor
+Warning in setMethodS3.default("getTemplateSeq", class = "GeneralInsertor",  :
+  Method already existed and was not overwritten: getTemplateSeq.GeneralInsertor
+Warning in setMethodS3.default("setTemplateSeq", class = "GeneralInsertor",  :
+  Method already existed and was not overwritten: setTemplateSeq.GeneralInsertor
+Warning in setMethodS3.default("getAcceptWin", class = "GeneralInsertor",  :
+  Method already existed and was not overwritten: getAcceptWin.GeneralInsertor
+Warning in setMethodS3.default("setAcceptWin", class = "GeneralInsertor",  :
+  Method already existed and was not overwritten: setAcceptWin.GeneralInsertor
+Warning in setMethodS3.default("getInsertHook", class = "GeneralInsertor",  :
+  Method already existed and was not overwritten: getInsertHook.GeneralInsertor
+Warning in setMethodS3.default("setInsertHook", class = "GeneralInsertor",  :
+  Method already existed and was not overwritten: setInsertHook.GeneralInsertor
+Warning in setMethodS3.default("summary", class = "GeneralInsertor", function(object,  :
+  Method already existed and was not overwritten: summary.GeneralInsertor
+Warning in setMethodS3.default("is.GeneralDeletor", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.GeneralDeletor.default
+Warning in setMethodS3.default("checkConsistency", class = "GeneralDeletor",  :
+  Method already existed and was not overwritten: checkConsistency.GeneralDeletor
+Warning in setMethodS3.default("getEventsAtSite", class = "GeneralDeletor",  :
+  Method already existed and was not overwritten: getEventsAtSite.GeneralDeletor
+Warning in setMethodS3.default("summary", class = "GeneralDeletor", function(object,  :
+  Method already existed and was not overwritten: summary.GeneralDeletor
+Warning in setMethodS3.default("checkConsistency", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: checkConsistency.GeneralSubstitution
+Warning in setMethodS3.default("getEventsAtSite", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: getEventsAtSite.GeneralSubstitution
+Warning in setMethodS3.default("setEquDist", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: setEquDist.GeneralSubstitution
+Warning in setMethodS3.default(".setEquDistFromGuess", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: .setEquDistFromGuess.GeneralSubstitution
+Warning in setMethodS3.default(".checkEquMatCompat", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: .checkEquMatCompat.GeneralSubstitution
+Warning in setMethodS3.default(".guessEquDist", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: .guessEquDist.GeneralSubstitution
+Warning in setMethodS3.default(".initEquDist", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: .initEquDist.GeneralSubstitution
+Warning in setMethodS3.default("getEquDist", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: getEquDist.GeneralSubstitution
+Warning in setMethodS3.default("sampleState", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: sampleState.GeneralSubstitution
+Warning in setMethodS3.default("getQMatrix", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: getQMatrix.GeneralSubstitution
+Warning in setMethodS3.default("setQMatrix", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: setQMatrix.GeneralSubstitution
+Warning in setMethodS3.default("setAlphabet", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: setAlphabet.GeneralSubstitution
+Warning in setMethodS3.default("getAlphabet", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: getAlphabet.GeneralSubstitution
+Warning in setMethodS3.default("hasUndefinedRate", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: hasUndefinedRate.GeneralSubstitution
+Warning in setMethodS3.default("getEventRate", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: getEventRate.GeneralSubstitution
+Warning in setMethodS3.default("getEventRateAtSite", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: getEventRateAtSite.GeneralSubstitution
+Warning in setMethodS3.default("getRate", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: getRate.GeneralSubstitution
+Warning in setMethodS3.default("setRate", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: setRate.GeneralSubstitution
+Warning in setMethodS3.default("getRateList", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: getRateList.GeneralSubstitution
+Warning in setMethodS3.default("setRateList", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: setRateList.GeneralSubstitution
+Warning in setMethodS3.default("rescaleQMatrix", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: rescaleQMatrix.GeneralSubstitution
+Warning in setMethodS3.default("is.GeneralSubstitution", class = "default",  :
+  Method already existed and was not overwritten: is.GeneralSubstitution.default
+Warning in setMethodS3.default("as.character", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: as.character.GeneralSubstitution
+Warning in setMethodS3.default("summary", class = "GeneralSubstitution",  :
+  Method already existed and was not overwritten: summary.GeneralSubstitution
+Warning in setMethodS3.default("clone", class = "GeneralSubstitution", function(this,  :
+  Method already existed and was not overwritten: clone.GeneralSubstitution
+Warning in setMethodS3.default("plot", class = "GeneralSubstitution", function(x,  :
+  Method already existed and was not overwritten: plot.GeneralSubstitution
+Warning in setMethodS3.default("checkConsistency", class = "UNREST", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.UNREST
+Warning in setMethodS3.default("summary", class = "UNREST", function(object,  :
+  Method already existed and was not overwritten: summary.UNREST
+Warning in setMethodS3.default("checkConsistency", class = "JC69", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.JC69
+Warning in setMethodS3.default("summary", class = "JC69", function(object,  :
+  Method already existed and was not overwritten: summary.JC69
+Warning in setMethodS3.default("checkConsistency", class = "GTR", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.GTR
+Warning in setMethodS3.default(".getRateParam", class = "GTR", function(this,  :
+  Method already existed and was not overwritten: .getRateParam.GTR
+Warning in setMethodS3.default("getRateParam", class = "GTR", function(this,  :
+  Method already existed and was not overwritten: getRateParam.GTR
+Warning in setMethodS3.default(".setRateParam", class = "GTR", function(this,  :
+  Method already existed and was not overwritten: .setRateParam.GTR
+Warning in setMethodS3.default("setRateParam", class = "GTR", function(this,  :
+  Method already existed and was not overwritten: setRateParam.GTR
+Warning in setMethodS3.default("getRateParamList", class = "GTR", function(this,  :
+  Method already existed and was not overwritten: getRateParamList.GTR
+Warning in setMethodS3.default(".checkRateParamList", class = "GTR", function(this,  :
+  Method already existed and was not overwritten: .checkRateParamList.GTR
+Warning in setMethodS3.default("setRateParamList", class = "GTR", function(this,  :
+  Method already existed and was not overwritten: setRateParamList.GTR
+Warning in setMethodS3.default("getBaseFreqs", class = "GTR", function(this,  :
+  Method already existed and was not overwritten: getBaseFreqs.GTR
+Warning in setMethodS3.default("setBaseFreqs", class = "GTR", function(this,  :
+  Method already existed and was not overwritten: setBaseFreqs.GTR
+Warning in setMethodS3.default("summary", class = "GTR", function(object,  :
+  Method already existed and was not overwritten: summary.GTR
+Warning in setMethodS3.default("getRateParamList", class = "TN93", function(this,  :
+  Method already existed and was not overwritten: getRateParamList.TN93
+Warning in setMethodS3.default("setRateParamList", class = "TN93", function(this,  :
+  Method already existed and was not overwritten: setRateParamList.TN93
+Warning in setMethodS3.default("getRateParam", class = "TN93", function(this,  :
+  Method already existed and was not overwritten: getRateParam.TN93
+Warning in setMethodS3.default("setRateParam", class = "TN93", function(this,  :
+  Method already existed and was not overwritten: setRateParam.TN93
+Warning in setMethodS3.default("getBaseFreqs", class = "TN93", function(this,  :
+  Method already existed and was not overwritten: getBaseFreqs.TN93
+Warning in setMethodS3.default("setBaseFreqs", class = "TN93", function(this,  :
+  Method already existed and was not overwritten: setBaseFreqs.TN93
+Warning in setMethodS3.default("checkConsistency", class = "TN93", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.TN93
+Warning in setMethodS3.default("summary", class = "TN93", function(object,  :
+  Method already existed and was not overwritten: summary.TN93
+Warning in setMethodS3.default("getRateParamList", class = "HKY", function(this,  :
+  Method already existed and was not overwritten: getRateParamList.HKY
+Warning in setMethodS3.default("setRateParamList", class = "HKY", function(this,  :
+  Method already existed and was not overwritten: setRateParamList.HKY
+Warning in setMethodS3.default("getRateParam", class = "HKY", function(this,  :
+  Method already existed and was not overwritten: getRateParam.HKY
+Warning in setMethodS3.default("setRateParam", class = "HKY", function(this,  :
+  Method already existed and was not overwritten: setRateParam.HKY
+Warning in setMethodS3.default("getBaseFreqs", class = "HKY", function(this,  :
+  Method already existed and was not overwritten: getBaseFreqs.HKY
+Warning in setMethodS3.default("setBaseFreqs", class = "HKY", function(this,  :
+  Method already existed and was not overwritten: setBaseFreqs.HKY
+Warning in setMethodS3.default("checkConsistency", class = "HKY", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.HKY
+Warning in setMethodS3.default("summary", class = "HKY", function(object,  :
+  Method already existed and was not overwritten: summary.HKY
+Warning in setMethodS3.default("getRateParamList", class = "F81", function(this,  :
+  Method already existed and was not overwritten: getRateParamList.F81
+Warning in setMethodS3.default("setRateParamList", class = "F81", function(this,  :
+  Method already existed and was not overwritten: setRateParamList.F81
+Warning in setMethodS3.default("getRateParam", class = "F81", function(this,  :
+  Method already existed and was not overwritten: getRateParam.F81
+Warning in setMethodS3.default("setRateParam", class = "F81", function(this,  :
+  Method already existed and was not overwritten: setRateParam.F81
+Warning in setMethodS3.default("getBaseFreqs", class = "F81", function(this,  :
+  Method already existed and was not overwritten: getBaseFreqs.F81
+Warning in setMethodS3.default("setBaseFreqs", class = "F81", function(this,  :
+  Method already existed and was not overwritten: setBaseFreqs.F81
+Warning in setMethodS3.default("checkConsistency", class = "F81", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.F81
+Warning in setMethodS3.default("summary", class = "F81", function(object,  :
+  Method already existed and was not overwritten: summary.F81
+Warning in setMethodS3.default("getRateParamList", class = "K80", function(this,  :
+  Method already existed and was not overwritten: getRateParamList.K80
+Warning in setMethodS3.default("setRateParamList", class = "K80", function(this,  :
+  Method already existed and was not overwritten: setRateParamList.K80
+Warning in setMethodS3.default("getRateParam", class = "K80", function(this,  :
+  Method already existed and was not overwritten: getRateParam.K80
+Warning in setMethodS3.default("setRateParam", class = "K80", function(this,  :
+  Method already existed and was not overwritten: setRateParam.K80
+Warning in setMethodS3.default("getBaseFreqs", class = "K80", function(this,  :
+  Method already existed and was not overwritten: getBaseFreqs.K80
+Warning in setMethodS3.default("setBaseFreqs", class = "K80", function(this,  :
+  Method already existed and was not overwritten: setBaseFreqs.K80
+Warning in setMethodS3.default("checkConsistency", class = "K80", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.K80
+Warning in setMethodS3.default("summary", class = "K80", function(object,  :
+  Method already existed and was not overwritten: summary.K80
+Warning in setMethodS3.default("getRateParamList", class = "K81", function(this,  :
+  Method already existed and was not overwritten: getRateParamList.K81
+Warning in setMethodS3.default("setRateParamList", class = "K81", function(this,  :
+  Method already existed and was not overwritten: setRateParamList.K81
+Warning in setMethodS3.default("getRateParam", class = "K81", function(this,  :
+  Method already existed and was not overwritten: getRateParam.K81
+Warning in setMethodS3.default("setRateParam", class = "K81", function(this,  :
+  Method already existed and was not overwritten: setRateParam.K81
+Warning in setMethodS3.default("getBaseFreqs", class = "K81", function(this,  :
+  Method already existed and was not overwritten: getBaseFreqs.K81
+Warning in setMethodS3.default("setBaseFreqs", class = "K81", function(this,  :
+  Method already existed and was not overwritten: setBaseFreqs.K81
+Warning in setMethodS3.default("checkConsistency", class = "K81", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.K81
+Warning in setMethodS3.default("summary", class = "K81", function(object,  :
+  Method already existed and was not overwritten: summary.K81
+Warning in setMethodS3.default("getRateParamList", class = "T92", function(this,  :
+  Method already existed and was not overwritten: getRateParamList.T92
+Warning in setMethodS3.default("setRateParamList", class = "T92", function(this,  :
+  Method already existed and was not overwritten: setRateParamList.T92
+Warning in setMethodS3.default("getRateParam", class = "T92", function(this,  :
+  Method already existed and was not overwritten: getRateParam.T92
+Warning in setMethodS3.default("setRateParam", class = "T92", function(this,  :
+  Method already existed and was not overwritten: setRateParam.T92
+Warning in setMethodS3.default("getTheta", class = "T92", function(this,  :
+  Method already existed and was not overwritten: getTheta.T92
+Warning in setMethodS3.default("setTheta", class = "T92", function(this,  :
+  Method already existed and was not overwritten: setTheta.T92
+Warning in setMethodS3.default("checkConsistency", class = "T92", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.T92
+Warning in setMethodS3.default("summary", class = "T92", function(object,  :
+  Method already existed and was not overwritten: summary.T92
+Warning in setMethodS3.default("getRateParamList", class = "F84", function(this,  :
+  Method already existed and was not overwritten: getRateParamList.F84
+Warning in setMethodS3.default("setRateParamList", class = "F84", function(this,  :
+  Method already existed and was not overwritten: setRateParamList.F84
+Warning in setMethodS3.default("getRateParam", class = "F84", function(this,  :
+  Method already existed and was not overwritten: getRateParam.F84
+Warning in setMethodS3.default("setRateParam", class = "F84", function(this,  :
+  Method already existed and was not overwritten: setRateParam.F84
+Warning in setMethodS3.default("getKappa", class = "F84", function(this,  :
+  Method already existed and was not overwritten: getKappa.F84
+Warning in setMethodS3.default("setKappa", class = "F84", function(this,  :
+  Method already existed and was not overwritten: setKappa.F84
+Warning in setMethodS3.default("getBaseFreqs", class = "F84", function(this,  :
+  Method already existed and was not overwritten: getBaseFreqs.F84
+Warning in setMethodS3.default("setBaseFreqs", class = "F84", function(this,  :
+  Method already existed and was not overwritten: setBaseFreqs.F84
+Warning in setMethodS3.default("checkConsistency", class = "F84", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.F84
+Warning in setMethodS3.default("summary", class = "F84", function(object,  :
+  Method already existed and was not overwritten: summary.F84
+Warning in setMethodS3.default("print", class = "PSRootSummary", appendVarArgs = FALSE,  :
+  Method already existed and was overwritten: print.PSRootSummary
+Warning in setMethodS3.default("checkConsistency", class = "PSRootSummary",  :
+  Method already existed and was overwritten: checkConsistency.PSRootSummary
+Warning in setMethodS3.default("virtualAssignmentForbidden", class = "PSRoot",  :
+  Method already existed and was not overwritten: virtualAssignmentForbidden.PSRoot
+Warning in setMethodS3.default("enableVirtual", class = "PSRoot", function(this,  :
+  Method already existed and was not overwritten: enableVirtual.PSRoot
+Warning in setMethodS3.default("stringLength", class = "default", function(this,  :
+  Method already existed and was not overwritten: stringLength.default
+Warning in setMethodS3.default("stringLengthVector", class = "default",  :
+  Method already existed and was not overwritten: stringLengthVector.default
+Warning in setMethodS3.default("getMethodsList", class = "PSRoot", function(this,  :
+  Method already existed and was overwritten: getMethodsList.PSRoot
+Warning in setMethodS3.default("setMethodsList", class = "PSRoot", function(this,  :
+  Method already existed and was overwritten: setMethodsList.PSRoot
+Warning in setMethodS3.default("ll", class = "PSRoot", function(this, quiet = FALSE,  :
+  Method already existed and was overwritten: ll.PSRoot
+Warning in setMethodS3.default("getComments", class = "PSRoot", function(this,  :
+  Method already existed and was overwritten: getComments.PSRoot
+Warning in setMethodS3.default("setComments", class = "PSRoot", function(this,  :
+  Method already existed and was overwritten: setComments.PSRoot
+Warning in setMethodS3.default("my.all.equal", class = "PSRoot", function(static,  :
+  Method already existed and was overwritten: my.all.equal.PSRoot
+Warning in setMethodS3.default("summary", class = "PSRoot", function(object,  :
+  Method already existed and was overwritten: summary.PSRoot
+Warning in setMethodS3.default("is.na", class = "PSRoot", function(x, ...) { :
+  Method already existed and was overwritten: is.na.PSRoot
+Warning in setMethodS3.default("checkConsistency", class = "PSRoot", function(this,  :
+  Method already existed and was overwritten: checkConsistency.PSRoot
+Warning in setMethodS3.default("globalConsistencyCheck", class = "PSRoot",  :
+  Method already existed and was overwritten: globalConsistencyCheck.PSRoot
+Warning in setMethodS3.default("plot", class = "PSRoot", function(...) { :
+  Method already existed and was overwritten: plot.PSRoot
+Warning in setMethodS3.default("intersect.list", class = "PSRoot", function(this,  :
+  Method already existed and was overwritten: intersect.list.PSRoot
+Warning in setMethodS3.default("is.PSRoot", class = "default", function(this,  :
+  Method already existed and was overwritten: is.PSRoot.default
+Warning in setMethodS3.default("checkConsistency", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.PhyloSim
+Warning in setMethodS3.default("is.phylo", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.phylo.default
+Warning in setMethodS3.default("setPhylo", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setPhylo.PhyloSim
+Warning in setMethodS3.default(".checkTipLabels", class = "phylo", function(this,  :
+  Method already existed and was not overwritten: .checkTipLabels.phylo
+Warning in setMethodS3.default("getPhylo", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getPhylo.PhyloSim
+Warning in setMethodS3.default("setRootSeq", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setRootSeq.PhyloSim
+Warning in setMethodS3.default("getRootSeq", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getRootSeq.PhyloSim
+Warning in setMethodS3.default("as.character", class = "PhyloSim", function(x,  :
+  Method already existed and was not overwritten: as.character.PhyloSim
+Warning in setMethodS3.default("getName", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getName.PhyloSim
+Warning in setMethodS3.default("setName", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setName.PhyloSim
+Warning in setMethodS3.default("getId", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getId.PhyloSim
+Warning in setMethodS3.default("setId", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setId.PhyloSim
+Warning in setMethodS3.default("Simulate", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: Simulate.PhyloSim
+Warning in setMethodS3.default(".simulateEdge", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: .simulateEdge.PhyloSim
+Warning in setMethodS3.default(".evolveBranch", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: .evolveBranch.PhyloSim
+Warning in setMethodS3.default(".GillespieDirect", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: .GillespieDirect.PhyloSim
+Warning in setMethodS3.default("attachSeqToNode", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: attachSeqToNode.PhyloSim
+Warning in setMethodS3.default("attachHookToNode", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: attachHookToNode.PhyloSim
+Warning in setMethodS3.default(".checkNode", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: .checkNode.PhyloSim
+Warning in setMethodS3.default(".checkSeq", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: .checkSeq.PhyloSim
+Warning in setMethodS3.default("detachSeqFromNode", class = "PhyloSim",  :
+  Method already existed and was not overwritten: detachSeqFromNode.PhyloSim
+Warning in setMethodS3.default("detachHookFromNode", class = "PhyloSim",  :
+  Method already existed and was not overwritten: detachHookFromNode.PhyloSim
+Warning in setMethodS3.default("getSeqFromNode", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getSeqFromNode.PhyloSim
+Warning in setMethodS3.default("getSequences", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getSequences.PhyloSim
+Warning in setMethodS3.default("setSequences", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setSequences.PhyloSim
+Warning in setMethodS3.default("getAlignment", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getAlignment.PhyloSim
+Warning in setMethodS3.default("setAlignment", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setAlignment.PhyloSim
+Warning in setMethodS3.default(".recoverAlignment", class = "PhyloSim",  :
+  Method already existed and was not overwritten: .recoverAlignment.PhyloSim
+Warning in setMethodS3.default(".checkAlignmentConsistency", class = "PhyloSim",  :
+  Method already existed and was not overwritten: .checkAlignmentConsistency.PhyloSim
+Warning in setMethodS3.default("saveAlignment", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: saveAlignment.PhyloSim
+Warning in setMethodS3.default("plot", class = "PhyloSim", function(x, plot.tree,  :
+  Method already existed and was not overwritten: plot.PhyloSim
+Warning in setMethodS3.default(".plotWithAlignment", class = "PhyloSim",  :
+  Method already existed and was not overwritten: .plotWithAlignment.PhyloSim
+Warning in setMethodS3.default("summary", class = "PhyloSim", function(object,  :
+  Method already existed and was not overwritten: summary.PhyloSim
+Warning in setMethodS3.default("getLogFile", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getLogFile.PhyloSim
+Warning in setMethodS3.default("setLogFile", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setLogFile.PhyloSim
+Warning in setMethodS3.default("getLogLevel", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getLogLevel.PhyloSim
+Warning in setMethodS3.default("setLogLevel", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setLogLevel.PhyloSim
+Warning in setMethodS3.default(".getMessageTemplate", class = "PhyloSim",  :
+  Method already existed and was not overwritten: .getMessageTemplate.PhyloSim
+Warning in setMethodS3.default(".logMessage", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: .logMessage.PhyloSim
+Warning in setMethodS3.default("Log", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: Log.PhyloSim
+Warning in setMethodS3.default("Debug", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: Debug.PhyloSim
+Warning in setMethodS3.default(".UpdateBranchStats", class = "PhyloSim",  :
+  Method already existed and was not overwritten: .UpdateBranchStats.PhyloSim
+Warning in setMethodS3.default("getBranchEvents", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getBranchEvents.PhyloSim
+Warning in setMethodS3.default("setBranchEvents", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setBranchEvents.PhyloSim
+Warning in setMethodS3.default("exportStatTree", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: exportStatTree.PhyloSim
+Warning in setMethodS3.default(".getStatBrlen", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: .getStatBrlen.PhyloSim
+Warning in setMethodS3.default("getEdges", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getEdges.PhyloSim
+Warning in setMethodS3.default("setEdges", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setEdges.PhyloSim
+Warning in setMethodS3.default("getNtips", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getNtips.PhyloSim
+Warning in setMethodS3.default("setNtips", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setNtips.PhyloSim
+Warning in setMethodS3.default("getTipLabels", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getTipLabels.PhyloSim
+Warning in setMethodS3.default("setTipLabels", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setTipLabels.PhyloSim
+Warning in setMethodS3.default("getNodes", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getNodes.PhyloSim
+Warning in setMethodS3.default("getNedges", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getNedges.PhyloSim
+Warning in setMethodS3.default("setNedges", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setNedges.PhyloSim
+Warning in setMethodS3.default("setNodes", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setNodes.PhyloSim
+Warning in setMethodS3.default("getTips", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getTips.PhyloSim
+Warning in setMethodS3.default("setTips", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setTips.PhyloSim
+Warning in setMethodS3.default("getRootNode", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getRootNode.PhyloSim
+Warning in setMethodS3.default("setRootNode", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setRootNode.PhyloSim
+Warning in setMethodS3.default("is.tip", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: is.tip.PhyloSim
+Warning in setMethodS3.default("getEdge", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getEdge.PhyloSim
+Warning in setMethodS3.default("getTreeLength", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: getTreeLength.PhyloSim
+Warning in setMethodS3.default("setTreeLength", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: setTreeLength.PhyloSim
+Warning in setMethodS3.default("scaleTree", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: scaleTree.PhyloSim
+Warning in setMethodS3.default("readAlignment", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: readAlignment.PhyloSim
+Warning in setMethodS3.default("getAlignmentLength", class = "PhyloSim",  :
+  Method already existed and was not overwritten: getAlignmentLength.PhyloSim
+Warning in setMethodS3.default("readTree", class = "PhyloSim", function(this,  :
+  Method already existed and was not overwritten: readTree.PhyloSim
+Warning in setMethodS3.default("Undocumented", class = "PhyloSim", function(...) { :
+  Method already existed and was not overwritten: Undocumented.PhyloSim
+Warning in setMethodS3.default("revComp", class = "NucleotideSequence",  :
+  Method already existed and was not overwritten: revComp.NucleotideSequence
+Warning in setMethodS3.default("getOmegas", class = "CodonSequence", function(this,  :
+  Method already existed and was not overwritten: getOmegas.CodonSequence
+Warning in setMethodS3.default("omegaHist", class = "CodonSequence", function(this,  :
+  Method already existed and was not overwritten: omegaHist.CodonSequence
+Warning in setMethodS3.default("setOmegas", class = "CodonSequence", function(this,  :
+  Method already existed and was not overwritten: setOmegas.CodonSequence
+Warning in setMethodS3.default("omegaVarM0", class = "CodonSequence", function(this,  :
+  Method already existed and was not overwritten: omegaVarM0.CodonSequence
+Warning in setMethodS3.default("omegaVarM1", class = "CodonSequence", function(this,  :
+  Method already existed and was not overwritten: omegaVarM1.CodonSequence
+Warning in setMethodS3.default("omegaVarM2", class = "CodonSequence", function(this,  :
+  Method already existed and was not overwritten: omegaVarM2.CodonSequence
+Warning in setMethodS3.default("omegaVarM3", class = "CodonSequence", function(this,  :
+  Method already existed and was not overwritten: omegaVarM3.CodonSequence
+Warning in setMethodS3.default("omegaVarM4", class = "CodonSequence", function(this,  :
+  Method already existed and was not overwritten: omegaVarM4.CodonSequence
+Warning in setMethodS3.default(".omegaVarM5Cont", class = "CodonSequence",  :
+  Method already existed and was not overwritten: .omegaVarM5Cont.CodonSequence
+Warning in setMethodS3.default(".omegaVarM6Cont", class = "CodonSequence",  :
+  Method already existed and was not overwritten: .omegaVarM6Cont.CodonSequence
+Warning in setMethodS3.default(".omegaVarM7", class = "CodonSequence", function(this,  :
+  Method already existed and was not overwritten: .omegaVarM7.CodonSequence
+Warning in setMethodS3.default(".omegaVarM8Cont", class = "CodonSequence",  :
+  Method already existed and was not overwritten: .omegaVarM8Cont.CodonSequence
+Warning in setMethodS3.default(".omegaVarM9Cont", class = "CodonSequence",  :
+  Method already existed and was not overwritten: .omegaVarM9Cont.CodonSequence
+Warning in setMethodS3.default(".omegaVarM10Cont", class = "CodonSequence",  :
+  Method already existed and was not overwritten: .omegaVarM10Cont.CodonSequence
+Warning in setMethodS3.default(".omegaVarM11Cont", class = "CodonSequence",  :
+  Method already existed and was not overwritten: .omegaVarM11Cont.CodonSequence
+Warning in setMethodS3.default(".omegaVarM12Cont", class = "CodonSequence",  :
+  Method already existed and was not overwritten: .omegaVarM12Cont.CodonSequence
+Warning in setMethodS3.default(".omegaVarM13Cont", class = "CodonSequence",  :
+  Method already existed and was not overwritten: .omegaVarM13Cont.CodonSequence
+Warning in setMethodS3.default("checkConsistency", class = "CodonSequence",  :
+  Method already existed and was not overwritten: checkConsistency.CodonSequence
+Warning in setMethodS3.default("Translate", class = "CodonSequence", function(this,  :
+  Method already existed and was not overwritten: Translate.CodonSequence
+Warning in setMethodS3.default("is.Process", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.Process.default
+Warning in setMethodS3.default("checkConsistency", class = "Process", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.Process
+Warning in setMethodS3.default(".checkSiteSpecificParamList", class = "Process",  :
+  Method already existed and was not overwritten: .checkSiteSpecificParamList.Process
+Warning in setMethodS3.default("==", class = "Process", function(e1, e2,  :
+  Method already existed and was not overwritten: ==.Process
+Warning in setMethodS3.default("!=", class = "Process", function(e1, e2,  :
+  Method already existed and was not overwritten: !=.Process
+Warning in setMethodS3.default(".addSiteSpecificParameter", class = "Process",  :
+  Method already existed and was not overwritten: .addSiteSpecificParameter.Process
+Warning in setMethodS3.default("getId", class = "Process", function(this,  :
+  Method already existed and was not overwritten: getId.Process
+Warning in setMethodS3.default(".setId", class = "Process", function(this,  :
+  Method already existed and was not overwritten: .setId.Process
+Warning in setMethodS3.default("setId", class = "Process", function(this,  :
+  Method already existed and was not overwritten: setId.Process
+Warning in setMethodS3.default("getName", class = "Process", function(this,  :
+  Method already existed and was not overwritten: getName.Process
+Warning in setMethodS3.default("setName", class = "Process", function(this,  :
+  Method already existed and was not overwritten: setName.Process
+Warning in setMethodS3.default("getSiteSpecificParamList", class = "Process",  :
+  Method already existed and was not overwritten: getSiteSpecificParamList.Process
+Warning in setMethodS3.default("setSiteSpecificParamList", class = "Process",  :
+  Method already existed and was not overwritten: setSiteSpecificParamList.Process
+Warning in setMethodS3.default("getSiteSpecificParamIds", class = "Process",  :
+  Method already existed and was not overwritten: getSiteSpecificParamIds.Process
+Warning in setMethodS3.default("setSiteSpecificParamIds", class = "Process",  :
+  Method already existed and was not overwritten: setSiteSpecificParamIds.Process
+Warning in setMethodS3.default("getAlphabet", class = "Process", function(this,  :
+  Method already existed and was not overwritten: getAlphabet.Process
+Warning in setMethodS3.default("setAlphabet", class = "Process", function(this,  :
+  Method already existed and was not overwritten: setAlphabet.Process
+Warning in setMethodS3.default("getEventsAtSite", class = "Process", function(this,  :
+  Method already existed and was not overwritten: getEventsAtSite.Process
+Warning in setMethodS3.default("getWriteProtected", class = "Process", function(this,  :
+  Method already existed and was not overwritten: getWriteProtected.Process
+Warning in setMethodS3.default("setWriteProtected", class = "Process", function(this,  :
+  Method already existed and was not overwritten: setWriteProtected.Process
+Warning in setMethodS3.default("hasUndefinedRate", class = "Process", function(this,  :
+  Method already existed and was not overwritten: hasUndefinedRate.Process
+Warning in setMethodS3.default(".checkWriteProtection", class = "Process",  :
+  Method already existed and was not overwritten: .checkWriteProtection.Process
+Warning in setMethodS3.default("clone", class = "Process", function(this,  :
+  Method already existed and was not overwritten: clone.Process
+Warning in setMethodS3.default("as.character", class = "Process", function(x,  :
+  Method already existed and was not overwritten: as.character.Process
+Warning in setMethodS3.default(".addSummaryAlphabet", class = "Process",  :
+  Method already existed and was not overwritten: .addSummaryAlphabet.Process
+Warning in setMethodS3.default(".addSummaryNameId", class = "Process", function(this,  :
+  Method already existed and was not overwritten: .addSummaryNameId.Process
+Warning in setMethodS3.default("summary", class = "Process", function(object,  :
+  Method already existed and was not overwritten: summary.Process
+Warning in setMethodS3.default("hasSiteSpecificParameter", class = "Process",  :
+  Method already existed and was not overwritten: hasSiteSpecificParameter.Process
+Warning in setMethodS3.default("getParameterAtSite", class = "Process",  :
+  Method already existed and was not overwritten: getParameterAtSite.Process
+Warning in setMethodS3.default(".getParameterAtSiteFast", class = "Process",  :
+  Method already existed and was not overwritten: .getParameterAtSiteFast.Process
+Warning in setMethodS3.default("setParameterAtSite", class = "Process",  :
+  Method already existed and was not overwritten: setParameterAtSite.Process
+Warning in setMethodS3.default(".checkTriplett", class = "Process", function(this,  :
+  Method already existed and was not overwritten: .checkTriplett.Process
+Warning in setMethodS3.default(".buildRateMatrix", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: .buildRateMatrix.QMatrix
+Warning in setMethodS3.default("checkConsistency", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.QMatrix
+Warning in setMethodS3.default(".callRateRescaling", class = "QMatrix",  :
+  Method already existed and was not overwritten: .callRateRescaling.QMatrix
+Warning in setMethodS3.default("getName", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: getName.QMatrix
+Warning in setMethodS3.default("setName", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: setName.QMatrix
+Warning in setMethodS3.default("getProcess", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: getProcess.QMatrix
+Warning in setMethodS3.default("setProcess", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: setProcess.QMatrix
+Warning in setMethodS3.default("getAlphabet", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: getAlphabet.QMatrix
+Warning in setMethodS3.default("setAlphabet", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: setAlphabet.QMatrix
+Warning in setMethodS3.default(".nameToDim", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: .nameToDim.QMatrix
+Warning in setMethodS3.default(".nameToDimFast", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: .nameToDimFast.QMatrix
+Warning in setMethodS3.default(".dimToName", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: .dimToName.QMatrix
+Warning in setMethodS3.default("getEventRate", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: getEventRate.QMatrix
+Warning in setMethodS3.default(".getEventRateFast", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: .getEventRateFast.QMatrix
+Warning in setMethodS3.default("getRate", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: getRate.QMatrix
+Warning in setMethodS3.default("setRate", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: setRate.QMatrix
+Warning in setMethodS3.default("getRateList", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: getRateList.QMatrix
+Warning in setMethodS3.default("setRateList", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: setRateList.QMatrix
+Warning in setMethodS3.default(".genExpected", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: .genExpected.QMatrix
+Warning in setMethodS3.default(".calculateDiagonal", class = "QMatrix",  :
+  Method already existed and was not overwritten: .calculateDiagonal.QMatrix
+Warning in setMethodS3.default(".symToIndex", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: .symToIndex.QMatrix
+Warning in setMethodS3.default("getMatrix", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: getMatrix.QMatrix
+Warning in setMethodS3.default("setMatrix", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: setMatrix.QMatrix
+Warning in setMethodS3.default("getScaledMatrix", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: getScaledMatrix.QMatrix
+Warning in setMethodS3.default("setScaledMatrix", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: setScaledMatrix.QMatrix
+Warning in setMethodS3.default("Scale", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: Scale.QMatrix
+Warning in setMethodS3.default("as.character", class = "QMatrix", function(x,  :
+  Method already existed and was not overwritten: as.character.QMatrix
+Warning in setMethodS3.default("print", class = "QMatrix", function(x, ...) { :
+  Method already existed and was not overwritten: print.QMatrix
+Warning in setMethodS3.default("summary", class = "QMatrix", function(object,  :
+  Method already existed and was not overwritten: summary.QMatrix
+Warning in setMethodS3.default("setId", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: setId.QMatrix
+Warning in setMethodS3.default("getId", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: getId.QMatrix
+Warning in setMethodS3.default("getWriteProtected", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: getWriteProtected.QMatrix
+Warning in setMethodS3.default("is.QMatrix", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.QMatrix.default
+Warning in setMethodS3.default("setWriteProtected", class = "QMatrix", function(this,  :
+  Method already existed and was not overwritten: setWriteProtected.QMatrix
+Warning in setMethodS3.default(".checkWriteProtection", class = "QMatrix",  :
+  Method already existed and was not overwritten: .checkWriteProtection.QMatrix
+Warning in setMethodS3.default("is.Sequence", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.Sequence.default
+Warning in setMethodS3.default("checkConsistency", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.Sequence
+Warning in setMethodS3.default("getId", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getId.Sequence
+Warning in setMethodS3.default("setId", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: setId.Sequence
+Warning in setMethodS3.default("getName", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getName.Sequence
+Warning in setMethodS3.default("setName", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: setName.Sequence
+Warning in setMethodS3.default("getString", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getString.Sequence
+Warning in setMethodS3.default("setString", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: setString.Sequence
+Warning in setMethodS3.default("getLength", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getLength.Sequence
+Warning in setMethodS3.default("setLength", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: setLength.Sequence
+Warning in setMethodS3.default("getSites", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getSites.Sequence
+Warning in setMethodS3.default("getStates", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getStates.Sequence
+Warning in setMethodS3.default("setStates", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: setStates.Sequence
+Warning in setMethodS3.default("getAlphabets", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getAlphabets.Sequence
+Warning in setMethodS3.default("setAlphabets", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: setAlphabets.Sequence
+Warning in setMethodS3.default("getUniqueAlphabets", class = "Sequence",  :
+  Method already existed and was not overwritten: getUniqueAlphabets.Sequence
+Warning in setMethodS3.default("setUniqueAlphabets", class = "Sequence",  :
+  Method already existed and was not overwritten: setUniqueAlphabets.Sequence
+Warning in setMethodS3.default("attachProcess", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: attachProcess.Sequence
+Warning in setMethodS3.default("detachProcess", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: detachProcess.Sequence
+Warning in setMethodS3.default("getProcesses", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getProcesses.Sequence
+Warning in setMethodS3.default("getUniqueProcesses", class = "Sequence",  :
+  Method already existed and was not overwritten: getUniqueProcesses.Sequence
+Warning in setMethodS3.default("setUniqueProcesses", class = "Sequence",  :
+  Method already existed and was not overwritten: setUniqueProcesses.Sequence
+Warning in setMethodS3.default("setProcesses", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: setProcesses.Sequence
+Warning in setMethodS3.default("setParameterAtSites", class = "Sequence",  :
+  Method already existed and was not overwritten: setParameterAtSites.Sequence
+Warning in setMethodS3.default("setRateMultipliers", class = "Sequence",  :
+  Method already existed and was not overwritten: setRateMultipliers.Sequence
+Warning in setMethodS3.default("getRateMultipliers", class = "Sequence",  :
+  Method already existed and was not overwritten: getRateMultipliers.Sequence
+Warning in setMethodS3.default("getParameterAtSites", class = "Sequence",  :
+  Method already existed and was not overwritten: getParameterAtSites.Sequence
+Warning in setMethodS3.default("getEvents", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getEvents.Sequence
+Warning in setMethodS3.default("getTotalRatesFromRange", class = "Sequence",  :
+  Method already existed and was not overwritten: getTotalRatesFromRange.Sequence
+Warning in setMethodS3.default("getTotalRates", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getTotalRates.Sequence
+Warning in setMethodS3.default("setTotalRates", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: setTotalRates.Sequence
+Warning in setMethodS3.default("getAncestral", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getAncestral.Sequence
+Warning in setMethodS3.default("getCumulativeRatesFromRange", class = "Sequence",  :
+  Method already existed and was not overwritten: getCumulativeRatesFromRange.Sequence
+Warning in setMethodS3.default(".getCumulativeRatesFast", class = "Sequence",  :
+  Method already existed and was not overwritten: .getCumulativeRatesFast.Sequence
+Warning in setMethodS3.default(".recalculateCumulativeRates", class = "Sequence",  :
+  Method already existed and was not overwritten: .recalculateCumulativeRates.Sequence
+Warning in setMethodS3.default("getCumulativeRates", class = "Sequence",  :
+  Method already existed and was not overwritten: getCumulativeRates.Sequence
+Warning in setMethodS3.default("setCumulativeRates", class = "Sequence",  :
+  Method already existed and was not overwritten: setCumulativeRates.Sequence
+Warning in setMethodS3.default("getBigRate", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getBigRate.Sequence
+Warning in setMethodS3.default("setBigRate", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: setBigRate.Sequence
+Warning in setMethodS3.default("setAncestral", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: setAncestral.Sequence
+Warning in setMethodS3.default("clone", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: clone.Sequence
+Warning in setMethodS3.default("getWriteProtected", class = "Sequence",  :
+  Method already existed and was not overwritten: getWriteProtected.Sequence
+Warning in setMethodS3.default(".checkIndexSanity", class = "Sequence",  :
+  Method already existed and was not overwritten: .checkIndexSanity.Sequence
+Warning in setMethodS3.default("setWriteProtected", class = "Sequence",  :
+  Method already existed and was not overwritten: setWriteProtected.Sequence
+Warning in setMethodS3.default(".checkWriteProtection", class = "Sequence",  :
+  Method already existed and was not overwritten: .checkWriteProtection.Sequence
+Warning in setMethodS3.default("summary", class = "Sequence", function(object,  :
+  Method already existed and was not overwritten: summary.Sequence
+Warning in setMethodS3.default("as.character", class = "Sequence", function(x,  :
+  Method already existed and was not overwritten: as.character.Sequence
+Warning in setMethodS3.default("plot", class = "Sequence", function(x, index = NA,  :
+  Method already existed and was not overwritten: plot.Sequence
+Warning in setMethodS3.default("plotParametersAtSites", class = "Sequence",  :
+  Method already existed and was not overwritten: plotParametersAtSites.Sequence
+Warning in setMethodS3.default("setDeletionTolerance", class = "Sequence",  :
+  Method already existed and was not overwritten: setDeletionTolerance.Sequence
+Warning in setMethodS3.default("getDeletionTolerance", class = "Sequence",  :
+  Method already existed and was not overwritten: getDeletionTolerance.Sequence
+Warning in setMethodS3.default("setInsertionTolerance", class = "Sequence",  :
+  Method already existed and was not overwritten: setInsertionTolerance.Sequence
+Warning in setMethodS3.default("getInsertionTolerance", class = "Sequence",  :
+  Method already existed and was not overwritten: getInsertionTolerance.Sequence
+Warning in setMethodS3.default("sampleStates", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: sampleStates.Sequence
+Warning in setMethodS3.default("clearStates", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: clearStates.Sequence
+Warning in setMethodS3.default("setOmegas", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: setOmegas.Sequence
+Warning in setMethodS3.default("getOmegas", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getOmegas.Sequence
+Warning in setMethodS3.default("getSymbolFreqs", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: getSymbolFreqs.Sequence
+Warning in setMethodS3.default(".discretizeGamma", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: .discretizeGamma.Sequence
+Warning in setMethodS3.default("plusGamma", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: plusGamma.Sequence
+Warning in setMethodS3.default("plusInvGamma", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: plusInvGamma.Sequence
+Warning in setMethodS3.default("insertSequence", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: insertSequence.Sequence
+Warning in setMethodS3.default("deleteSubSequence", class = "Sequence",  :
+  Method already existed and was not overwritten: deleteSubSequence.Sequence
+Warning in setMethodS3.default("copySubSequence", class = "Sequence", function(this,  :
+  Method already existed and was not overwritten: copySubSequence.Sequence
+Warning in setMethodS3.default("is.Site", class = "default", function(this,  :
+  Method already existed and was not overwritten: is.Site.default
+Warning in setMethodS3.default(".checkConsistency", class = "Site", function(this,  :
+  Method already existed and was not overwritten: .checkConsistency.Site
+Warning in setMethodS3.default("checkConsistency", class = "Site", function(this,  :
+  Method already existed and was not overwritten: checkConsistency.Site
+Warning in setMethodS3.default("getState", class = "Site", function(this,  :
+  Method already existed and was not overwritten: getState.Site
+Warning in setMethodS3.default("setState", class = "Site", function(this,  :
+  Method already existed and was not overwritten: setState.Site
+Warning in setMethodS3.default("getAlphabet", class = "Site", function(this,  :
+  Method already existed and was not overwritten: getAlphabet.Site
+Warning in setMethodS3.default("setAlphabet", class = "Site", function(this,  :
+  Method already existed and was not overwritten: setAlphabet.Site
+Warning in setMethodS3.default(".setAlphabetSloppy", class = "Site", function(this,  :
+  Method already existed and was not overwritten: .setAlphabetSloppy.Site
+Warning in setMethodS3.default("getAncestral", class = "Site", function(this,  :
+  Method already existed and was not overwritten: getAncestral.Site
+Warning in setMethodS3.default("setAncestral", class = "Site", function(this,  :
+  Method already existed and was not overwritten: setAncestral.Site
+Warning in setMethodS3.default(".recalculateTotalRate", class = "Site",  :
+  Method already existed and was not overwritten: .recalculateTotalRate.Site
+Warning in setMethodS3.default("getTotalRate", class = "Site", function(this,  :
+  Method already existed and was not overwritten: getTotalRate.Site
+Warning in setMethodS3.default("setTotalRate", class = "Site", function(this,  :
+  Method already existed and was not overwritten: setTotalRate.Site
+Warning in setMethodS3.default("flagTotalRate", class = "Site", function(this,  :
+  Method already existed and was not overwritten: flagTotalRate.Site
+Warning in setMethodS3.default("getEvents", class = "Site", function(this,  :
+  Method already existed and was not overwritten: getEvents.Site
+Warning in setMethodS3.default(".getEventRates", class = "Site", function(this,  :
+  Method already existed and was not overwritten: .getEventRates.Site
+Warning in setMethodS3.default("setEvents", class = "Site", function(this,  :
+  Method already existed and was not overwritten: setEvents.Site
+Warning in setMethodS3.default("getSequence", class = "Site", function(this,  :
+  Method already existed and was not overwritten: getSequence.Site
+Warning in setMethodS3.default("setSequence", class = "Site", function(this,  :
+  Method already existed and was not overwritten: setSequence.Site
+Warning in setMethodS3.default("as.character", class = "Site", function(x,  :
+  Method already existed and was not overwritten: as.character.Site
+Warning in setMethodS3.default("summary", class = "Site", function(object,  :
+  Method already existed and was not overwritten: summary.Site
+Warning in setMethodS3.default("isAttached", class = "Site", function(this,  :
+  Method already existed and was not overwritten: isAttached.Site
+Warning in setMethodS3.default("attachProcess", class = "Site", function(this,  :
+  Method already existed and was not overwritten: attachProcess.Site
+Warning in setMethodS3.default(".attachProcessSloppy", class = "Site", function(this,  :
+  Method already existed and was not overwritten: .attachProcessSloppy.Site
+Warning in setMethodS3.default("detachProcess", class = "Site", function(this,  :
+  Method already existed and was not overwritten: detachProcess.Site
+Warning in setMethodS3.default("getProcesses", class = "Site", function(this,  :
+  Method already existed and was not overwritten: getProcesses.Site
+Warning in setMethodS3.default("setProcesses", class = "Site", function(this,  :
+  Method already existed and was not overwritten: setProcesses.Site
+Warning in setMethodS3.default(".setProcessesSloppy", class = "Site", function(this,  :
+  Method already existed and was not overwritten: .setProcessesSloppy.Site
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (phylosim)

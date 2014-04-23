@@ -1,0 +1,24 @@
+* installing *source* package 'quadrupen' ...
+** package 'quadrupen' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c bounded_reg.cpp -o bounded_reg.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c elastic_net.cpp -o elastic_net.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c first_order.cpp -o first_order.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c quadratic.cpp -o quadratic.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c utils.cpp -o utils.o
+g++ -shared -o quadrupen.so bounded_reg.o elastic_net.o first_order.o quadratic.o utils.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/quadrupen.Rcheck/quadrupen/libs
+** R
+** demo
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'plot' from package 'graphics' in package 'quadrupen'
+Creating a generic function for 'fitted' from package 'stats' in package 'quadrupen'
+Creating a generic function for 'predict' from package 'stats' in package 'quadrupen'
+Creating a generic function for 'residuals' from package 'stats' in package 'quadrupen'
+Creating a generic function for 'deviance' from package 'stats' in package 'quadrupen'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (quadrupen)

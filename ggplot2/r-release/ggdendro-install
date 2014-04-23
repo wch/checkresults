@@ -1,0 +1,12 @@
+* installing *source* package 'ggdendro' ...
+** package 'ggdendro' successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'ggdendro.Rnw' 
+** testing if installed package can be loaded
+* DONE (ggdendro)

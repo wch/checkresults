@@ -1,0 +1,20 @@
+* installing *source* package 'varbvs' ...
+** package 'varbvs' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c sigmoid.c -o sigmoid.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c varbvs.c -o varbvs.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c varbvsbin.c -o varbvsbin.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c varbvsbinupdateR.c -o varbvsbinupdateR.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c varbvsupdateR.c -o varbvsupdateR.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c vectorops.c -o vectorops.o
+gcc -std=gnu99 -shared -o varbvs.so sigmoid.o varbvs.o varbvsbin.o varbvsbinupdateR.o varbvsupdateR.o vectorops.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc572fe957d/varbvs.Rcheck/varbvs/libs
+** R
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (varbvs)

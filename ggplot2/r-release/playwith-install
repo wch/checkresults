@@ -1,0 +1,17 @@
+* installing *source* package 'playwith' ...
+** package 'playwith' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c interrupt.c -o interrupt.o
+gcc -std=gnu99 -shared -o playwith.so interrupt.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/playwith.Rcheck/playwith/libs
+** R
+** demo
+** inst
+** preparing package for lazy loading
+Xlib:  extension "RANDR" missing on display ":99".
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+Xlib:  extension "RANDR" missing on display ":99".
+* DONE (playwith)

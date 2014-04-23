@@ -1,0 +1,15 @@
+* installing *source* package 'wq' ...
+** package 'wq' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'summary' from package 'base' in package 'wq'
+Creating a generic function for 'plot' from package 'graphics' in package 'wq'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (wq)

@@ -1,0 +1,16 @@
+XLConnect *  checking tests ... ERROR
+Running the tests in 'tests/run_tests.R' failed.
+Last 13 lines of output:
+  214:                 "With whitespace" = 1:4,
+  215:                 "And some other funky characters: _=?^~!$@#%
+                       ^
+  Error in runUnitTests() : 
+  
+  Unit Testing failed (#test failures: 0, #R errors: 2)
+  
+  In addition: Warning messages:
+  1: Error detected in cell X106 - Value is not available 
+  2: Error detected in cell Y104 - Value is not available 
+  3: Error detected in cell X106 - Value is not available 
+  4: Error detected in cell Y104 - Value is not available 
+  Execution halted
