@@ -1,0 +1,7 @@
+YplantQMC *  checking package dependencies ... ERROR
+Package required but not available: 'geometry'
+
+Package suggested but not available for checking: 'ypaddon'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

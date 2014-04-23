@@ -1,0 +1,13 @@
+1  bisectr  0.5
+2  doRNG  0.5
+4  likert  50.0
+5  NlsyLinks  47.7
+6  NMF  114.1
+7  opencpu  37.3
+8  paleofire  153.8
+9  pkgmaker  43.1
+10  PSAboot  173.7
+11  rbundler  56.5
+12  smss  12.4
+13  Wats  108.5
+14  YplantQMC  46.7

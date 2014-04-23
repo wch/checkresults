@@ -1,0 +1,22 @@
+* installing *source* package 'YplantQMC' ...
+** package 'YplantQMC' successfully unpacked and MD5 sums checked
+** libs
+gfortran   -fpic  -O3 -pipe  -g  -c PNPOLYR.f -o PNPOLYR.o
+gfortran  -fpic -O3 -pipe  -g  -c  bristospitters.f90 -o bristospitters.o
+gfortran   -fpic  -O3 -pipe  -g  -c kn.f -o kn.o
+gfortran  -fpic -O3 -pipe  -g  -c  photosyn.f90 -o photosyn.o
+gfortran -shared -o YplantQMC.so PNPOLYR.o bristospitters.o kn.o photosyn.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmphf0IH4/check_cran47f758388a62/YplantQMC.Rcheck/YplantQMC/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+For complete functionality, install the 'ypaddon' package : 
+install_bitbucket('ypaddon','remkoduursma')
+
+By installing 'ypaddon', you agree to the License of the gpclib package (see library(help=gpclib)).
+* DONE (YplantQMC)
