@@ -1,0 +1,27 @@
+* installing *source* package 'RcppOctave' ...
+** package 'RcppOctave' successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking whether R is a shared library... yes
+Using R LDFLAGS: -L/usr/lib/R/lib -lR
+Using R CPPFLAGS: -I/usr/share/R/include
+checking for octave-config... no
+checking for mkoctfile... no
+configure: error: octave-config not found, is Octave installed?
+
+    On Debian/Ubuntu please check that the required packages are installed:
+    * For Octave 3.6: sudo apt-get install octave liboctave-dev
+    * For Octave 3.2.4: sudo apt-get install octave3.2 octave-headers
+    
+ERROR: configuration failed for package 'RcppOctave'
+* removing '/mnt/tmp/RtmpKYnz2h/RcppOctave.Rcheck/RcppOctave'

@@ -1,0 +1,12 @@
+rsgcc *  checking package dependencies ... ERROR
+Packages required but not available:
+  'cairoDevice' 'gWidgetsRGtk2'
+
+Package suggested but not available: 'ctc'
+
+The suggested packages are required for a complete check.
+Checking can be attempted without them by setting the environment
+variable _R_CHECK_FORCE_SUGGESTS_ to a false value.
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

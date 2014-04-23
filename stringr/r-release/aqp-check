@@ -1,0 +1,20 @@
+* using log directory '/mnt/tmp/RtmpKYnz2h/aqp.Rcheck'
+* using R version 2.15.2 (2012-10-26)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'aqp/DESCRIPTION' ... OK
+* this is package 'aqp' version '1.3'
+* checking CRAN incoming feasibility ... WARNING
+Maintainer: 'Dylan Beaudette <debeaudette@ucdavis.edu>'
+Insufficient package version (submitted: 1.3, existing: 1.3)
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package suggested but not available: 'soilDB'
+
+The suggested packages are required for a complete check.
+Checking can be attempted without them by setting the environment
+variable _R_CHECK_FORCE_SUGGESTS_ to a false value.
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

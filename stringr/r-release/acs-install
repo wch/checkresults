@@ -1,0 +1,14 @@
+* installing *source* package 'acs' ...
+** package 'acs' successfully unpacked and MD5 sums checked
+** R
+** data
+** preparing package for lazy loading
+Creating a generic function for 'summary' from package 'base' in package 'acs'
+Creating a new generic function for 'apply' in package 'acs'
+Creating a generic function for 'plot' from package 'graphics' in package 'acs'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+
+* DONE (acs)

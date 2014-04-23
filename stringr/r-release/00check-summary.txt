@@ -1,0 +1,302 @@
+acs ===================================================================== 
+ 
+
+
+afex ==================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK
+WARNING: There were 2 warnings.
+NOTE: There was 1 note.
+See
+  '/mnt/tmp/RtmpKYnz2h/afex.Rcheck/00check.log'
+for details. 
+
+
+aqp ===================================================================== 
+ *  checking package dependencies ... ERROR
+Package suggested but not available: 'soilDB'
+
+The suggested packages are required for a complete check.
+Checking can be attempted without them by setting the environment
+variable _R_CHECK_FORCE_SUGGESTS_ to a false value.
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+coefplot ================================================================ 
+ 
+
+
+dplR ==================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+eeptools ================================================================ 
+ 
+
+
+enaR ==================================================================== 
+ 
+
+
+evaluate ================================================================ 
+ 
+
+
+ez ====================================================================== 
+ 
+
+
+games =================================================================== 
+ 
+
+
+geotopbricks ============================================================ 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'rgdal'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+GGally ================================================================== 
+ 
+
+
+ggmap =================================================================== 
+ 
+
+
+ggsubplot =============================================================== 
+ 
+
+
+govdat ================================================================== 
+ 
+
+
+helpr =================================================================== 
+ 
+
+
+httr ==================================================================== 
+ 
+
+
+ISIPTA ================================================================== 
+ 
+
+
+ISOweek ================================================================= 
+ *  checking Rd cross-references ... WARNING
+Unknown package(s) 'surveillance' in Rd xrefs 
+
+
+knitr =================================================================== 
+ *  checking package dependencies ... ERROR
+Package suggested but not available: 'rgl'
+
+The suggested packages are required for a complete check.
+Checking can be attempted without them by setting the environment
+variable _R_CHECK_FORCE_SUGGESTS_ to a false value.
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+lint ==================================================================== 
+ 
+
+
+lubridate =============================================================== 
+ 
+
+
+mcpd ==================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'RODBC'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+mpoly =================================================================== 
+ 
+
+
+NlsyLinks =============================================================== 
+ 
+
+
+optparse ================================================================ 
+ 
+
+
+pkgmaker ================================================================ 
+ 
+
+
+plotKML ================================================================= 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'rgdal'
+
+Package suggested but not available: 'adehabitat'
+
+The suggested packages are required for a complete check.
+Checking can be attempted without them by setting the environment
+variable _R_CHECK_FORCE_SUGGESTS_ to a false value.
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+polywog ================================================================= 
+ *  checking package dependencies ... ERROR
+Package suggested but not available: 'rgl'
+
+The suggested packages are required for a complete check.
+Checking can be attempted without them by setting the environment
+variable _R_CHECK_FORCE_SUGGESTS_ to a false value.
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+ProjectTemplate ========================================================= 
+ *  checking package dependencies ... ERROR
+Packages suggested but not available:
+  'RMySQL' 'RODBC' 'RPostgreSQL'
+
+The suggested packages are required for a complete check.
+Checking can be attempted without them by setting the environment
+variable _R_CHECK_FORCE_SUGGESTS_ to a false value.
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+RcppOctave ============================================================== 
+ *  checking whether package 'RcppOctave' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpKYnz2h/RcppOctave.Rcheck/00install.out' for details. 
+
+
+rdryad ================================================================== 
+ 
+
+
+reshape2 ================================================================ 
+ 
+
+
+rImpactStory ============================================================ 
+ 
+
+
+rngtools ================================================================ 
+ 
+
+
+ropensnp ================================================================ 
+ 
+
+
+roxygen2 ================================================================ 
+ 
+
+
+rplos =================================================================== 
+ 
+
+
+rsgcc =================================================================== 
+ *  checking package dependencies ... ERROR
+Packages required but not available:
+  'cairoDevice' 'gWidgetsRGtk2'
+
+Package suggested but not available: 'ctc'
+
+The suggested packages are required for a complete check.
+Checking can be attempted without them by setting the environment
+variable _R_CHECK_FORCE_SUGGESTS_ to a false value.
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+scales ================================================================== 
+ 
+
+
+sdcTable ================================================================ 
+ 
+
+
+selectr ================================================================= 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  translation : .......................................12..
+  lang : .........
+  
+  
+  1. Failure: translation from parsed objects to XPath works ---------------------
+  xpath("di<U+00A0>v") not equal to "*[name() = 'di\302\240v']"
+  1 string mismatch
+  
+  2. Failure: translation from parsed objects to XPath works ---------------------
+  xpath("[h<U+00A0>ref]") not equal to "*[attribute::*[name() = 'h\302\240ref']]"
+  1 string mismatch
+  Error: Test failures
+  Execution halted 
+
+
+sinartra ================================================================ 
+ 
+
+
+Stack =================================================================== 
+ 
+
+
+taxize ================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  get_uid : ..
+  gni_details : ..
+  gni_search : ..
+  gnr_datasources : ..
+  gnr_resolve : ..
+  iplant_tnrsmatch : ..
+  itis : Loading required package: ritis
+  ...
+  itis_acceptname : ..
+  itis_downstream : http://www.itis.gov/ITISWebService/services/ITISService/getTaxonomicRankNameFromTSN?tsn=183264
+  Error in fix.by(by.x, x) : 'by' must specify uniquely valid column(s)
+  Calls: test_package ... itis_downstream -> merge -> merge.data.frame -> fix.by
+  Execution halted 
+
+
+testthat ================================================================ 
+ 
+
+
+vows ==================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'tkrplot'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+x12 ===================================================================== 
+ 
+
+

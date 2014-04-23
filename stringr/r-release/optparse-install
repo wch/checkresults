@@ -1,0 +1,14 @@
+* installing *source* package 'optparse' ...
+** package 'optparse' successfully unpacked and MD5 sums checked
+** R
+** exec
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'optparse.Rnw' 
+** testing if installed package can be loaded
+
+* DONE (optparse)

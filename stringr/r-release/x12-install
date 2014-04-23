@@ -1,0 +1,16 @@
+* installing *source* package 'x12' ...
+** package 'x12' successfully unpacked and MD5 sums checked
+** R
+** data
+** preparing package for lazy loading
+in method for 'X12' with signature 'object="x12Single"': no definition for class "x12Single"
+in method for 'X12' with signature 'object="x12Batch"': no definition for class "x12Batch"
+Creating a generic function for 'print' from package 'base' in package 'x12'
+Creating a generic function for 'plot' from package 'graphics' in package 'x12'
+Creating a generic function for 'summary' from package 'base' in package 'x12'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+
+* DONE (x12)

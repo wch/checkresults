@@ -1,0 +1,22 @@
+* installing *source* package 'dplR' ...
+** package 'dplR' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c exactmean.c -o exactmean.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c exactsum.c -o exactsum.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c gini.c -o gini.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c rcompact.c -o rcompact.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c readloop.c -o readloop.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c sens.c -o sens.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c tbrm.c -o tbrm.o
+gcc -std=gnu99 -shared -o dplR.so exactmean.o exactsum.o gini.o rcompact.o readloop.o sens.o tbrm.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpKYnz2h/dplR.Rcheck/dplR/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+
+* DONE (dplR)

@@ -1,0 +1,13 @@
+* installing *source* package 'rngtools' ...
+** package 'rngtools' successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'rngtools-unitTests.Rnw' 
+** testing if installed package can be loaded
+
+* DONE (rngtools)

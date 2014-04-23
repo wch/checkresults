@@ -1,0 +1,85 @@
+* using log directory '/mnt/tmp/RtmpKYnz2h/helpr.Rcheck'
+* using R version 2.15.2 (2012-10-26)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'helpr/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'helpr' version '0.1.2.2'
+* checking CRAN incoming feasibility ... WARNING
+Maintainer: 'Hadley Wickham <h.wickham@gmail.com>'
+Insufficient package version (submitted: 0.1.2.2, existing: 0.1.2.2)
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .gitignore
+  inst/public/.gitignore
+  inst/public/_tmp_pictures/.png
+These were most likely included in error. See section 'Package
+structure' in the 'Writing R Extensions' manual.
+* checking whether package 'helpr' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking for unstated dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+Found the following possibly unsafe calls:
+File 'R/route.r':
+  found assignInNamespace("httpd", render_path, "tools")
+exec_pkg_demo: warning in demo(dem, character = TRUE, package =
+  package, ask = TRUE): partial argument match of 'character' to
+  'character.only'
+code_info: no visible binding for global variable 'count'
+demo_info: no visible binding for global variable 'Item'
+function_and_link: no visible binding for global variable 'token.desc'
+functions_used: no visible binding for global variable 'token.desc'
+helpr : <anonymous>: no visible global function definition for
+  'rating_text'
+helpr : <anonymous>: no visible global function definition for
+  'exec_example'
+helpr : <anonymous>: no visible binding for global variable 'file_name'
+helpr_demo: no visible binding for global variable 'Item'
+last_ten_functions: no visible binding for global variable 'path'
+package_description: no visible binding for global variable 'package'
+parse_tabular: no visible binding for global variable 'package'
+top_ten_functions: no visible binding for global variable 'path'
+usage_functions: no visible binding for global variable 'package'
+usage_methods: no visible binding for global variable 'package'
+usage_methods : <anonymous>: no visible binding for global variable
+  'package'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking installed files from 'inst/doc' ... OK
+* checking examples ... OK
+WARNING: There was 1 warning.
+NOTE: There were 2 notes.
+See
+  '/mnt/tmp/RtmpKYnz2h/helpr.Rcheck/00check.log'
+for details.

@@ -1,0 +1,17 @@
+* using log directory '/mnt/tmp/RtmpKYnz2h/vows.Rcheck'
+* using R version 2.15.2 (2012-10-26)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'vows/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'vows' version '0.2-0'
+* checking CRAN incoming feasibility ... WARNING
+Maintainer: 'Lan Huo <lan.huo@nyumc.org>'
+Insufficient package version (submitted: 0.2.0, existing: 0.2.0)
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package required but not available: 'tkrplot'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

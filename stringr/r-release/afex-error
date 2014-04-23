@@ -1,0 +1,9 @@
+afex *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK
+WARNING: There were 2 warnings.
+NOTE: There was 1 note.
+See
+  '/mnt/tmp/RtmpKYnz2h/afex.Rcheck/00check.log'
+for details.

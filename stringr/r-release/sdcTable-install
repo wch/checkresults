@@ -1,0 +1,25 @@
+* installing *source* package 'sdcTable' ...
+** package 'sdcTable' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpic  -O3 -pipe  -g  -c myPaste.cpp -o myPaste.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpic  -O3 -pipe  -g  -c myPasteWithSep.cpp -o myPasteWithSep.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpic  -O3 -pipe  -g  -c mySplitFn.cpp -o mySplitFn.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpic  -O3 -pipe  -g  -c normQuader2.cpp -o normQuader2.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/Rcpp/include"   -fpic  -O3 -pipe  -g  -c sdcTable.c -o sdcTable.o
+g++ -shared -o sdcTable.so myPaste.o myPasteWithSep.o mySplitFn.o normQuader2.o sdcTable.o -L/home/ubuntu/R-lib/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/Rcpp/lib -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpKYnz2h/sdcTable.Rcheck/sdcTable/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'print' from package 'base' in package 'sdcTable'
+Creating a generic function for 'summary' from package 'base' in package 'sdcTable'
+Creating a generic function for 'as.matrix' from package 'base' in package 'sdcTable'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'sdcTable.Rnw' using 'UTF-8' 
+** testing if installed package can be loaded
+
+* DONE (sdcTable)

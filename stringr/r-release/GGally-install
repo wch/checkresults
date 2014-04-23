@@ -1,0 +1,14 @@
+* installing *source* package 'GGally' ...
+** package 'GGally' successfully unpacked and MD5 sums checked
+** R
+** preparing package for lazy loading
+Warning: replacing previous import 'rename' when loading 'reshape'
+Warning: replacing previous import 'round_any' when loading 'reshape'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+Warning: replacing previous import 'rename' when loading 'reshape'
+Warning: replacing previous import 'round_any' when loading 'reshape'
+
+* DONE (GGally)

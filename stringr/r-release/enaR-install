@@ -1,0 +1,22 @@
+* installing *source* package 'enaR' ...
+** package 'enaR' successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+     Tools for Social Network Analysis
+Version      2.2-0 created on      2010-11-21.
+copyright (c) 2005, Carter T. Butts, University of California-Irvine
+Type help(package="sna") to get started.
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'enaR.Rnw' 
+** testing if installed package can be loaded
+     Tools for Social Network Analysis
+Version      2.2-0 created on      2010-11-21.
+copyright (c) 2005, Carter T. Butts, University of California-Irvine
+Type help(package="sna") to get started.
+
+* DONE (enaR)

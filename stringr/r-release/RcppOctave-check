@@ -1,0 +1,20 @@
+* using log directory '/mnt/tmp/RtmpKYnz2h/RcppOctave.Rcheck'
+* using R version 2.15.2 (2012-10-26)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'RcppOctave/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'RcppOctave' version '0.8.5'
+* checking CRAN incoming feasibility ... WARNING
+Maintainer: 'Renaud Gaujoux <renaud@cbio.uct.ac.za>'
+Insufficient package version (submitted: 0.8.5, existing: 0.8.5)
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking whether package 'RcppOctave' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpKYnz2h/RcppOctave.Rcheck/00install.out' for details.

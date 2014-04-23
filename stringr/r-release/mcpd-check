@@ -1,0 +1,17 @@
+* using log directory '/mnt/tmp/RtmpKYnz2h/mcpd.Rcheck'
+* using R version 2.15.2 (2012-10-26)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'mcpd/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'mcpd' version '1.0'
+* checking CRAN incoming feasibility ... WARNING
+Maintainer: 'Reinhard Simon <R.SIMON@CGIAR.ORG>'
+Insufficient package version (submitted: 1.0, existing: 1.0)
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package required but not available: 'RODBC'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

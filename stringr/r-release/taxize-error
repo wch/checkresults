@@ -1,0 +1,16 @@
+taxize *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  get_uid : ..
+  gni_details : ..
+  gni_search : ..
+  gnr_datasources : ..
+  gnr_resolve : ..
+  iplant_tnrsmatch : ..
+  itis : Loading required package: ritis
+  ...
+  itis_acceptname : ..
+  itis_downstream : http://www.itis.gov/ITISWebService/services/ITISService/getTaxonomicRankNameFromTSN?tsn=183264
+  Error in fix.by(by.x, x) : 'by' must specify uniquely valid column(s)
+  Calls: test_package ... itis_downstream -> merge -> merge.data.frame -> fix.by
+  Execution halted

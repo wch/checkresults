@@ -1,0 +1,18 @@
+* using log directory '/mnt/tmp/RtmpKYnz2h/geotopbricks.Rcheck'
+* using R version 2.15.2 (2012-10-26)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'geotopbricks/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'geotopbricks' version '1.1'
+* checking CRAN incoming feasibility ... WARNING
+Maintainer: 'Emanuele Cordano <emanuele.cordano@gmail.com>'
+Insufficient package version (submitted: 1.1, existing: 1.1)
+Days since last update: 1
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package required but not available: 'rgdal'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

@@ -1,0 +1,13 @@
+* installing *source* package 'pkgmaker' ...
+** package 'pkgmaker' successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'pkgmaker-unitTests.Rnw' 
+** testing if installed package can be loaded
+
+* DONE (pkgmaker)

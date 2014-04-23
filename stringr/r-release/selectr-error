@@ -1,0 +1,16 @@
+selectr *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  translation : .......................................12..
+  lang : .........
+  
+  
+  1. Failure: translation from parsed objects to XPath works ---------------------
+  xpath("di<U+00A0>v") not equal to "*[name() = 'di\302\240v']"
+  1 string mismatch
+  
+  2. Failure: translation from parsed objects to XPath works ---------------------
+  xpath("[h<U+00A0>ref]") not equal to "*[attribute::*[name() = 'h\302\240ref']]"
+  1 string mismatch
+  Error: Test failures
+  Execution halted

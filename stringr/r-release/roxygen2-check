@@ -1,0 +1,67 @@
+* using log directory '/mnt/tmp/RtmpKYnz2h/roxygen2.Rcheck'
+* using R version 2.15.2 (2012-10-26)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'roxygen2/DESCRIPTION' ... OK
+* this is package 'roxygen2' version '2.2.2'
+* checking CRAN incoming feasibility ... WARNING
+Maintainer: 'Hadley Wickham <hadley@rice.edu>'
+Insufficient package version (submitted: 2.2.2, existing: 2.2.2)
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .gitignore
+These were most likely included in error. See section 'Package
+structure' in the 'Writing R Extensions' manual.
+* checking whether package 'roxygen2' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking for unstated dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+copy.dir: warning in list.files(source, full.name = TRUE, recursive =
+  TRUE, all.files = TRUE): partial argument match of 'full.name' to
+  'full.names'
+roc_process.had: warning in dir(file.path(base_path, "max-roxygen"),
+  full = TRUE): partial argument match of 'full' to 'full.names'
+template_eval: warning in brew(template_path, env = vars): partial
+  argument match of 'env' to 'envir'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running 'test-all.R'
+WARNING: There was 1 warning.
+NOTE: There were 2 notes.
+See
+  '/mnt/tmp/RtmpKYnz2h/roxygen2.Rcheck/00check.log'
+for details.

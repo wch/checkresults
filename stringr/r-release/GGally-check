@@ -1,0 +1,73 @@
+* using log directory '/mnt/tmp/RtmpKYnz2h/GGally.Rcheck'
+* using R version 2.15.2 (2012-10-26)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'GGally/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'GGally' version '0.4.2'
+* checking CRAN incoming feasibility ... WARNING
+Maintainer: 'Barret Schloerke <schloerke@gmail.com>'
+Insufficient package version (submitted: 0.4.2, existing: 0.4.2)
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking whether package 'GGally' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking for unstated dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+ggally_blank: no visible binding for global variable 'X'
+ggally_blank: no visible binding for global variable 'Y'
+ggally_cor: no visible binding for global variable 'labelp'
+ggally_densityDiag: no visible binding for global variable '..scaled..'
+ggally_densityDiag: no visible binding for global variable 'x'
+ggally_diagAxis: no visible binding for global variable 'x'
+ggally_diagAxis: no visible binding for global variable 'y'
+ggally_diagAxis: no visible binding for global variable 'lab'
+ggally_facetdensitystrip: no visible binding for global variable
+  '..density..'
+ggally_facetdensitystrip: no visible binding for global variable
+  '..scaled..'
+ggally_facetdensitystrip: no visible binding for global variable 'x'
+ggfluctuation2: no visible binding for global variable 'x'
+ggfluctuation2: no visible binding for global variable 'y'
+ggfluctuation2: no visible binding for global variable 'result'
+ggfluctuation2: no visible binding for global variable 'freq'
+ggparcoord: no visible binding for global variable 'variable'
+ggparcoord: no visible binding for global variable 'value'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+WARNING: There was 1 warning.
+NOTE: There was 1 note.
+See
+  '/mnt/tmp/RtmpKYnz2h/GGally.Rcheck/00check.log'
+for details.
