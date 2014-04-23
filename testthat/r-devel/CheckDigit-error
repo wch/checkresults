@@ -1,0 +1,16 @@
+CheckDigit *  checking tests ... ERROR
+Running the tests in 'tests/test-CheckDigit.R' failed.
+Last 13 lines of output:
+  Verhoeff algorithm : ........................................................................................
+  
+  
+  1. Error: AppendCheckDigit.Verhoeff returns correct values ---------------------
+  missing value where TRUE/FALSE needed
+  1: expect_that(AppendCheckDigit(as.character(NA), "Verhoeff"), is_equivalent_to(as.character(NA))) at test-AppendCheckDigit.R:33
+  2: condition(object)
+  3: equals(expected, check.attributes = FALSE)(actual)
+  4: compare(expected, actual, ...)
+  5: compare.character(expected, actual, ...)
+  
+  Error: Test failures
+  Execution halted

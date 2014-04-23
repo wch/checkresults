@@ -1,0 +1,71 @@
+* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/tourr.Rcheck'
+* using R version 3.0.2 (2013-09-25)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'tourr/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'tourr' version '0.5.2'
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Package suggested but not available for checking: 'rggobi'
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'tourr' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Licenses which are templates and need '+ file LICENSE':
+  MIT
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+display_ggobi : init: no visible global function definition for 'ggobi'
+display_ggobi : init: no visible global function definition for
+  'displays'
+display_ggobi : init: no visible global function definition for
+  'pmode<-'
+display_ggobi : render_data: no visible global function definition for
+  'ggobi_display_set_tour_projection'
+display_pcp : render_data: no visible binding for global variable 'y'
+display_trails : render_data: no visible binding for global variable
+  'past_x'
+display_trails : render_data: no visible binding for '<<-' assignment
+  to 'past_x'
+plot.path_curve: no visible binding for global variable 'value'
+plot.path_curve: no visible binding for global variable 'obs'
+range_dist: no visible global function definition for 'xy_limits'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... [24s/27s] OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running 'test-all.R'
+NOTE: There were 3 notes.

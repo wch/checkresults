@@ -1,0 +1,1316 @@
+R version 3.0.2 (2013-09-25)
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] devtools_1.4.1.99
+
+loaded via a namespace (and not attached):
+[1] digest_0.6.4   evaluate_0.5.1 httr_0.2       memoise_0.1    parallel_3.0.2
+[6] RCurl_1.95-4.1 stringr_0.6.2  tools_3.0.2    whisker_0.3-2 
+
+agop ==================================================================== 
+ 
+
+
+aidar =================================================================== 
+ 
+
+
+aLFQ ==================================================================== 
+ 
+
+
+alm ===================================================================== 
+ 
+
+
+analogue ================================================================ 
+ 
+
+
+argparse ================================================================ 
+ 
+
+
+arules ================================================================== 
+ 
+
+
+assertthat ============================================================== 
+ 
+
+
+bagRboostR ============================================================== 
+ 
+
+
+BatchExperiments ======================================================== 
+ 
+
+
+BatchJobs =============================================================== 
+ 
+
+
+BayesFactor ============================================================= 
+ 
+
+
+BBmisc ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+biom ==================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/testthat-biom.R' failed.
+Last 13 lines of output:
+  
+  > library("testthat")
+  > test_package("biom")
+  ........................12......................................................................................
+  
+  1. Failure(@test-IO.R#69): show method output tests ----------------------------
+  x1 does not match 'biom object. type:'. Actual value: "biom object. \ntype: OTU table \nmatrix_type: dense \n5 rows and 6 columns "
+  
+  2. Failure(@test-IO.R#70): show method output tests ----------------------------
+  x4 does not match 'biom object. type:'. Actual value: "biom object. \ntype: OTU table \nmatrix_type: sparse \n5 rows and 6 columns "
+  
+  Error: Test failures
+  Execution halted 
+
+
+bmp ===================================================================== 
+ 
+
+
+Causata ================================================================= 
+ 
+
+
+cda ===================================================================== 
+ 
+
+
+CheckDigit ============================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-CheckDigit.R' failed.
+Last 13 lines of output:
+  Verhoeff algorithm : ........................................................................................
+  
+  
+  1. Error: AppendCheckDigit.Verhoeff returns correct values ---------------------
+  missing value where TRUE/FALSE needed
+  1: expect_that(AppendCheckDigit(as.character(NA), "Verhoeff"), is_equivalent_to(as.character(NA))) at test-AppendCheckDigit.R:33
+  2: condition(object)
+  3: equals(expected, check.attributes = FALSE)(actual)
+  4: compare(expected, actual, ...)
+  5: compare.character(expected, actual, ...)
+  
+  Error: Test failures
+  Execution halted 
+
+
+CHNOSZ ================================================================== 
+ 
+
+
+cocor =================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+cocron ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+CSS ===================================================================== 
+ 
+
+
+cvxclustr =============================================================== 
+ 
+
+
+datacheck =============================================================== 
+ 
+
+
+datalist ================================================================ 
+ 
+
+
+data.table ============================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > library(testthat)
+  > library(data.table)
+  > 
+  > test_package("data.table")
+  S4 Compatability : Error in assign(mname, def, where) : 
+    cannot add bindings to a locked environment
+  Calls: test_package ... eval -> eval -> setClass -> assignClassDef -> assign
+  Execution halted 
+
+
+dendroextras ============================================================ 
+ 
+
+
+devtools ================================================================ 
+ 
+
+
+df2json ================================================================= 
+ 
+
+
+DiceKriging ============================================================= 
+ 
+
+
+dils ==================================================================== 
+ 
+
+
+discreteRV ============================================================== 
+ 
+
+
+Distance ================================================================ 
+ 
+
+
+dostats ================================================================= 
+ 
+
+
+downloader ============================================================== 
+ 
+
+
+dplyr =================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+    AwardsShareManagers, AwardsSharePlayers, Batting, BattingPost, Fielding,
+    FieldingOF, FieldingPost, HallOfFame, LahmanData, Managers, ManagersHalf,
+    Master, Pitching, PitchingPost, Salaries, Schools, SchoolsPlayers,
+    SeriesPost, Teams, TeamsFranchises, TeamsHalf, sqlite_stat1
+  > if (identical(Sys.getenv("NOT_CRAN"), "true")) {
+  +   lahman_postgres()  
+  + }
+  Loading required package: RPostgreSQL
+  Error in postgresqlNewConnection(drv, ...) : 
+    RS-DBI driver: (could not connect ubuntu@local on dbname "lahman"
+  )
+  Calls: lahman_postgres ... .valueClassTest -> is -> is -> postgresqlNewConnection -> .Call
+  Execution halted 
+
+
+drsmooth ================================================================ 
+ 
+
+
+DSsim =================================================================== 
+ 
+
+
+ecoengine =============================================================== 
+ 
+
+
+eeptools ================================================================ 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > library(testthat)
+  > library(eeptools)
+  Loading required package: ggplot2
+  Loading required package: MASS
+  Loading required namespace: car
+  > 
+  > test_package("eeptools")
+  Error: No tests found for eeptools
+  Execution halted 
+
+
+emdbook ================================================================= 
+ 
+
+
+EpiContactTrace ========================================================= 
+ 
+
+
+evaluate ================================================================ 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  cannot add bindings to a locked environment
+  1: setClass("A", contains = "function") at test-evaluate.r:28
+  2: assignClassDef(Class, classDef, where)
+  3: assign(mname, def, where)
+  
+  2. Error: errors during printing visible values are captured -------------------
+  cannot add bindings to a locked environment
+  1: setClass("A", contains = "function") at test-evaluate.r:37
+  2: assignClassDef(Class, classDef, where)
+  3: assign(mname, def, where)
+  
+  Error: Test failures
+  Execution halted 
+
+
+fail ==================================================================== 
+ 
+
+
+fanovaGraph ============================================================= 
+ *  checking tests ... ERROR
+Running the tests in 'tests/run-all.R' failed.
+Last 13 lines of output:
+  Loading required package: igraph
+  
+  Attaching package: 'igraph'
+  
+  The following object is masked from 'package:evd':
+  
+      clusters
+  
+  Loading required package: DiceKriging
+  > 
+  > test_package("fanovaGraph")
+  Error: No tests found for fanovaGraph
+  Execution halted 
+
+
+FastImputation ========================================================== 
+ *  checking examples ... ERROR
+Running examples in 'FastImputation-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: FastImputation
+> ### Title: Use the pattern learned from the training data to impute (fill
+> ###   in good guesses for) missing values.
+> ### Aliases: FastImputation
+> 
+> ### ** Examples
+> 
+> data(FItrain)   # provides FItrain dataset
+> patterns <- TrainFastImputation(FItrain)
+> 
+> data(FItest)
+> FItest          # note there is missing data
+      cust.id order.id is.fraud customer.age.yrs spent.days.0to2
+10001    2376    10001        1         13.27703              NA
+10002    2376    10002        1         26.86879            7.95
+10003    2376    10003        0         13.29263            0.08
+10004    2376    10004        1               NA            0.00
+10005    2376    10005        1         20.76693            0.45
+10006    2376    10006        0         20.83466            0.00
+10007    2377    10007        1         17.84906            1.32
+10008    2198    10008        0         16.92020            1.33
+10009    2378    10009        0         17.38457          205.00
+10010    2378    10010        0         17.70023              NA
+      spent.days.3to10 spent.days.11to30 geo.ip.fraud.rate account.age.days
+10001             0.00              0.00         0.7535829              305
+10002             0.24              1.71         0.4094864              193
+10003               NA              0.01                NA              249
+10004             0.00              5.30                NA              112
+10005             0.99              0.09         0.6869650              184
+10006             0.01                NA         0.7327991              379
+10007             0.00                NA         0.5197101               99
+10008             6.21                NA         0.5414169              119
+10009               NA              4.79         0.8924136               NA
+10010             1.83              2.24                NA               NA
+      days.to.first.purchase
+10001                    332
+10002                      8
+10003                     48
+10004                     45
+10005                     64
+10006                      5
+10007                      1
+10008                     NA
+10009                     13
+10010                      9
+> imputed.data <- FastImputation(FItest, patterns)
+
+  |                                                                            
+  |                                                                      |   0%Error in solve.default(a = patterns$FI.covariance[known.cols, known.cols],  : 
+  system is computationally singular: reciprocal condition number = 0
+Calls: FastImputation -> solve -> solve.default
+Execution halted 
+
+
+ffbase ================================================================== 
+ 
+
+
+flsa ==================================================================== 
+ 
+
+
+formula.tools =========================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/1_test.all.R' failed.
+Last 13 lines of output:
+  
+  > 
+  > library(testthat)
+  > library(formula.tools)
+  Loading required package: operator.tools
+  operator.tools-1.3.0 provided by Decision Patterns
+  
+  formula.tools-1.3.1 provided by Decision Patterns
+  
+  > 
+  > test_package('formula.tools')
+  Error: No tests found for formula.tools
+  Execution halted 
+
+
+futile.any ============================================================== 
+ 
+
+
+futile.logger =========================================================== 
+ 
+
+
+gemtc =================================================================== 
+ 
+
+
+GetoptLong ============================================================== 
+ 
+
+
+getopt ================================================================== 
+ 
+
+
+ggplot2 ================================================================= 
+ 
+
+
+growcurves ============================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/run-all.R' failed.
+Last 13 lines of output:
+  
+  6. Failure(@test-dpgrowmm.R#74): mmigrp option of dpgrowmm returns expect objects 
+  names(srm$X) does not match 'time'. Actual value: ""
+  
+  7. Failure(@test-dpgrowmm.R#107): mmi option of dpgrowmm returns expect objects 
+  names(srm$X) does not match 'time'. Actual value: ""
+  
+  8. Failure(@test-dpgrowmult.R#48): dpgrowmult with multiple MM terms returns expected objects 
+  names(srm$X) does not match 'time'. Actual value: ""
+  
+  Error: Test failures
+  In addition: There were 50 or more warnings (use warnings() to see the first 50)
+  Execution halted 
+
+
+gstudio ================================================================= 
+ 
+
+
+gtable ================================================================== 
+ 
+
+
+gWidgets2RGtk2 ========================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/run-tests.R' failed.
+Last 13 lines of output:
+  
+  [[2]]
+  NULL
+  
+  [[3]]
+  NULL
+  
+  testing /home/ubuntu/R-lib/3.0/gWidgets2/tests/label.R
+  testing /home/ubuntu/R-lib/3.0/gWidgets2/tests/notebook.R
+  testing /home/ubuntu/R-lib/3.0/gWidgets2/tests/radio.R
+  Error in widgets[[value[1]]] : subscript out of bounds
+  Calls: sapply ... svalue<-.GRadio -> NextMethod -> svalue<-.default -> <Anonymous>
+  Execution halted 
+
+
+gWidgets2tcltk ========================================================== 
+ 
+
+
+harvestr ================================================================ 
+ 
+
+
+hash ==================================================================== 
+ 
+
+
+httr ==================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  
+  1. Error: status converted to errors -------------------------------------------
+  length(regexp) == 1 is not TRUE
+  1: expect_error(stop_for_status(s300), c("300", "redirect")) at test-request.r:19
+  2: expect_that(object, throws_error(regexp, ...), info = info, label = label)
+  3: condition(object)
+  4: matches(regexp, ...)
+  5: stopifnot(is.character(regexp), length(regexp) == 1)
+  6: stop(sprintf(ngettext(length(r), "%s is not TRUE", "%s are not all TRUE"), ch), call. = FALSE, 
+         domain = NA)
+  
+  Error: Test failures
+  Execution halted 
+
+
+humanFormat ============================================================= 
+ 
+
+
+hyperSpec =============================================================== 
+ 
+
+
+IgorR =================================================================== 
+ 
+
+
+intergraph ============================================================== 
+ 
+
+
+ISOweek ================================================================= 
+ 
+
+
+Jmisc =================================================================== 
+ 
+
+
+jsonlite ================================================================ 
+ 
+
+
+Kmisc =================================================================== 
+ 
+
+
+knitcitations =========================================================== 
+ 
+
+
+knitrBootstrap ========================================================== 
+ 
+
+
+koRpus ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+LaF ===================================================================== 
+ 
+
+
+Lambda4 ================================================================= 
+ 
+
+
+lava ==================================================================== 
+ 
+
+
+LinearizedSVR =========================================================== 
+ 
+
+
+lint ==================================================================== 
+ 
+
+
+llama =================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/run-all.R' failed.
+Last 13 lines of output:
+  1.Creating a generic function for 'predict' from package 'stats' in the global environment
+  ..........................................................................................................................
+  
+  1. Error: contributions returns contributions ----------------------------------
+  class not found
+  1: contributions(d) at test.analysis.R:3
+  2: J("shapleyComputation/CoalitionValueCalculator")
+  3: jclassName(class)
+  4: .jfindClass(as.character(class))
+  5: stop("class not found")
+  
+  Error: Test failures
+  Execution halted 
+
+
+lme4 ==================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  13: eval(expr, envir, enclos)
+  14: model.frame(drop.unused.levels = TRUE, formula = z ~ 1 + f)
+  15: model.frame.default(drop.unused.levels = TRUE, formula = z ~ 1 + f)
+  16: eval(predvars, data, env)
+  17: eval(expr, envir, enclos)
+  18: .handleSimpleError(function (e) 
+     {
+         e$calls <- head(sys.calls()[-seq_len(frame + 7)], -2)
+         signalCondition(e)
+     }, "object 'z' not found", quote(eval(expr, envir, enclos)))
+  
+  Error: Test failures
+  Execution halted 
+
+
+log4r =================================================================== 
+ 
+
+
+ltmle =================================================================== 
+ 
+
+
+lubridate =============================================================== 
+ 
+
+
+MALDIquantForeign ======================================================= 
+ 
+
+
+MALDIquant ============================================================== 
+ 
+
+
+mchof =================================================================== 
+ 
+
+
+mets ==================================================================== 
+ 
+
+
+mirt ==================================================================== 
+ 
+
+
+mizer =================================================================== 
+ 
+
+
+mlr ===================================================================== 
+ 
+
+
+mosaic ================================================================== 
+ 
+
+
+mrds ==================================================================== 
+ 
+
+
+MRMR ==================================================================== 
+ 
+
+
+multilevelPSA =========================================================== 
+ 
+
+
+multitable ============================================================== 
+ 
+
+
+naturalsort ============================================================= 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  'citation()' on how to cite R or R packages in publications.
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > if (require(testthat)) {
+  +    library(naturalsort)
+  +    test_package("naturalsort")
+  + }
+  Loading required package: testthat
+  Error: No tests found for naturalsort
+  Execution halted 
+
+
+nat.utils =============================================================== 
+ 
+
+
+ndtv ==================================================================== 
+ 
+
+
+needy =================================================================== 
+ 
+
+
+networkDynamic ========================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/utils_tests.R' failed.
+Last 13 lines of output:
+  +   # deleted edges
+  +   test2<-network.initialize(3)
+  +   test2[1,2]<-1
+  +   test2[2,3]<-1
+  +   test2[3,1]<-1
+  +   delete.edges(test2,eid=2)
+  +   expect_equal(get.dyads.active(test2,at=1),rbind(1:2,c(3,1)),'deleted edge case')
+  +   
+  + },"test get.dyads.active")
+  Error in if (all) all(matches) else any(matches) : 
+    argument is not interpretable as logical
+  Calls: test_that ... expect_that -> condition -> <Anonymous> -> expectation
+  Execution halted 
+
+
+nlmeU =================================================================== 
+ 
+
+
+nloptr ================================================================== 
+ *  checking line endings in C/C++/Fortran sources/headers ... WARNING
+Found the following sources/headers with CR or CRLF line endings:
+  src/nlopt-2.4/esch/esch.h
+Some Unix compilers require LF line endings. 
+
+
+NlsyLinks =============================================================== 
+ 
+
+
+nsprcomp ================================================================ 
+ 
+
+
+operator.tools ========================================================== 
+ 
+
+
+opm ===================================================================== 
+ 
+
+
+optmatch ================================================================ 
+ 
+
+
+optparse ================================================================ 
+ 
+
+
+parallelMap ============================================================= 
+ 
+
+
+ParamHelpers ============================================================ 
+ 
+
+
+pcrsim ================================================================== 
+ *  checking examples ... ERROR
+Running examples in 'pcrsim-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: generateEPG
+> ### Title: Generate EPG
+> ### Aliases: generateEPG
+> ### Keywords: internal
+> 
+> ### ** Examples
+> 
+> # Load genotyping data.
+> data("set1")
+> # Extract a sample.
+> mySample <- set1[set1$Sample.Name=="PC1",]
+> # Generate an electropherogram like plot.
+> generateEPG(data=mySample, kit="ESX17")
+Loading required package: ggplot2
+Loading required package: data.table
+Loading required package: strvalidator
+Error in fixedData[e, ] : incorrect number of dimensions
+Calls: generateEPG -> slim
+Execution halted 
+
+
+permute ================================================================= 
+ 
+
+
+pkgmaker ================================================================ 
+ 
+
+
+pkgutils ================================================================ 
+ 
+
+
+planar ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+plspm =================================================================== 
+ 
+
+
+plumbr ================================================================== 
+ 
+
+
+plyr ==================================================================== 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  Replace values : ....................................
+  List to data frame : ..................................................
+  Split data frame : ......
+  Split indices : .
+  Split labels : .
+  Summarise : ...
+  
+  
+  1. Failure(@test-parallel.r#7): l_ply respects .parallel -----------------------
+  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.176 seconds, which is more than 0.15
+  
+  Error: Test failures
+  Execution halted 
+
+
+pnn ===================================================================== 
+ 
+
+
+polyCub ================================================================= 
+ 
+
+
+popgraph ================================================================ 
+ 
+
+
+PP ====================================================================== 
+ 
+
+
+ProjectTemplate ========================================================= 
+ *  checking tests ... ERROR
+Running the tests in 'tests/1.R' failed.
+Last 13 lines of output:
+  > load.project()
+  Loading project configuration
+  Autoloading data
+  Munging data
+   Running preprocessing script: 01-A.R
+  > test.project()
+  Loading project configuration
+  Autoloading data
+  Munging data
+   Running preprocessing script: 01-A.R
+  Error in setwd(path) : cannot change working directory
+  Calls: test.project -> test_dir -> source_dir -> setwd
+  Execution halted 
+
+
+protoclass ============================================================== 
+ 
+
+
+qiimer ================================================================== 
+ 
+
+
+quadrupen =============================================================== 
+ 
+
+
+questionr =============================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK
+WARNING: There was 1 warning. 
+
+
+R2admb ================================================================== 
+ 
+
+
+RAppArmor =============================================================== 
+ *  checking whether package 'RAppArmor' can be installed ... ERROR
+Installation failed.
+See '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/RAppArmor.Rcheck/00install.out' for details. 
+
+
+rAvis =================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK
+*  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  
+  R is a collaborative project with many contributors.
+  Type 'contributors()' for more information and
+  'citation()' on how to cite R or R packages in publications.
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > library(testthat)
+  > test_package("rAvis")
+  Error: No tests found for rAvis
+  Execution halted 
+
+
+rbhl ==================================================================== 
+ 
+
+
+rbison ================================================================== 
+ 
+
+
+rbundler ================================================================ 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  1: bundle_and_validate(overwrite = FALSE) at test-bundle.r:67
+  2: bundle(pkg = package$path, bundle_path = lib, overwrite = overwrite) at test-bundle.r:21
+  3: apply(depends, 1, FUN = function(d) {
+         install_version(d["name"], d["version"], d["compare"], dependencies = dependencies)
+     })
+  4: FUN(newX[, i], ...)
+  5: install_version(d["name"], d["version"], d["compare"], dependencies = dependencies)
+  6: validate_installed_package(package, version, compare)
+  7: stop(sprintf("Installed package [%s] is of the wrong version. Required: [%s]. Actual: [%s]", 
+         package, version, installed_package$Version))
+  
+  Error: Test failures
+  Execution halted 
+
+
+RcppEigen =============================================================== 
+ 
+
+
+RDS ===================================================================== 
+ 
+
+
+readbitmap ============================================================== 
+ 
+
+
+ReliabilityTheory ======================================================= 
+ 
+
+
+rEMM ==================================================================== 
+ 
+
+
+reshape2 ================================================================ 
+ 
+
+
+reutils ================================================================= 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  Type 'contributors()' for more information and
+  'citation()' on how to cite R or R packages in publications.
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > library(testthat)
+  > library(reutils)
+  > opts <- options(reutils.verbose.queries = FALSE, reutils.email = "test@mail.com")
+  > test_package("reutils")
+  Error: No tests found for reutils
+  Execution halted 
+
+
+rfishbase =============================================================== 
+ 
+
+
+rgbif =================================================================== 
+ 
+
+
+rgeos =================================================================== 
+ 
+
+
+RIGHT =================================================================== 
+ 
+
+
+rio ===================================================================== 
+ 
+
+
+RObsDat ================================================================= 
+ 
+
+
+ropensnp ================================================================ 
+ 
+
+
+roxygen2 ================================================================ 
+ 
+
+
+roxygen ================================================================= 
+ 
+
+
+rpartitions ============================================================= 
+ 
+
+
+rpf ===================================================================== 
+ 
+
+
+rplos =================================================================== 
+ 
+
+
+rsig ==================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'survcomp'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+rsnps =================================================================== 
+ 
+
+
+rspa ==================================================================== 
+ 
+
+
+rspear ================================================================== 
+ 
+
+
+Rssa ==================================================================== 
+ *  checking examples ... ERROR
+Running examples in 'Rssa-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: ssa-input
+> ### Title: Input Data Formats Used by SSA Routines
+> ### Aliases: ssa-input
+> 
+> ### ** Examples
+> 
+> s <- ssa(co2) # Perform the decomposition using the default window length
+> r <- reconstruct(s, groups = list(Trend = c(1, 4),
++                                   Seasonality = c(2, 3))) # Reconstruct into 2 series
+> class(r$Trend) # Result is 'ts' object
+[1] "ts"
+> 
+> # Simultaneous trend extraction using MSSA
+> s <- ssa(EuStockMarkets, kind = "mssa")
+Error in new.hbhmat(field, L = c(L, 1), wmask = NULL, fmask = .get(x,  : 
+  FFTW-less version of 2D-SSA is not implemented yet!
+Calls: ssa ... .get.or.create -> assign -> .hmat.striped -> new.hbhmat -> .Call
+Execution halted 
+
+
+Ruchardet =============================================================== 
+ 
+
+
+scales ================================================================== 
+ 
+
+
+SCGLR =================================================================== 
+ 
+
+
+scoring ================================================================= 
+ 
+
+
+ScrabbleScore =========================================================== 
+ 
+
+
+selectr ================================================================= 
+ 
+
+
+sensR =================================================================== 
+ 
+
+
+seqminer ================================================================ 
+ 
+
+
+sequences =============================================================== 
+ 
+
+
+SharpeR ================================================================= 
+ 
+
+
+shinyAce ================================================================ 
+ 
+
+
+shiny =================================================================== 
+ 
+
+
+shinyRGL ================================================================ 
+ 
+
+
+sinartra ================================================================ 
+ 
+
+
+SixSigma ================================================================ 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [14s/15s] OK
+Examples with CPU or elapsed time > 5s
+                 user system elapsed
+SixSigma-package    6  0.072   6.072 
+
+
+smcUtils ================================================================ 
+ 
+
+
+SmithWilsonYieldCurve =================================================== 
+ 
+
+
+solr ==================================================================== 
+ 
+
+
+SortableHTMLTables ====================================================== 
+ 
+
+
+sortinghat ============================================================== 
+ 
+
+
+SparseGrid ============================================================== 
+ 
+
+
+spatialprobit =========================================================== 
+ 
+
+
+StableEstim ============================================================= 
+ 
+
+
+StatRank ================================================================ 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > library(testthat)
+  > library(StatRank)
+  Loading required package: truncdist
+  Loading required package: stats4
+  Loading required package: evd
+  > 
+  > test_package("StatRank")
+  Error: No tests found for StatRank
+  Execution halted 
+
+
+stringdist ============================================================== 
+ 
+
+
+stringr ================================================================= 
+ 
+
+
+strvalidator ============================================================ 
+ *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  > # CHANGE LOG
+  > # 05.12.2013: Updated to thestthat 0.8
+  > 
+  > 
+  > library(testthat)
+  > library(strvalidator)
+  > 
+  > # test_check(package="strvalidator") # Does not work yet?
+  > # test_package=("strvalidator") # No error message, but does not run (although R CDM says OK)
+  >   test_dir("tests/testthat")
+  Error in setwd(path) : cannot change working directory
+  Calls: test_dir -> source_dir -> setwd
+  Execution halted 
+
+
+svyPVpack =============================================================== 
+ 
+
+
+swirl =================================================================== 
+ 
+
+
+tabplot ================================================================= 
+ 
+
+
+taxize ================================================================== 
+ 
+
+
+tbdiag ================================================================== 
+ 
+
+
+tester ================================================================== 
+ 
+
+
+tikzDevice ============================================================== 
+ 
+
+
+TimeProjection ========================================================== 
+ 
+
+
+tourr =================================================================== 
+ 
+
+
+traitr ================================================================== 
+ 
+
+
+transnet ================================================================ 
+ 
+
+
+treebase ================================================================ 
+ 
+
+
+tspmeta ================================================================= 
+ 
+
+
+turner ================================================================== 
+ 
+
+
+Wats ==================================================================== 
+ 
+
+
+wgsea =================================================================== 
+ *  checking package dependencies ... ERROR
+Package required but not available: 'snpStats'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual. 
+
+
+XiMpLe ================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+
+yaml ==================================================================== 
+ 
+
+
+zoom ==================================================================== 
+ *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ OK 
+
+

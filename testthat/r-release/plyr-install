@@ -1,0 +1,17 @@
+* installing *source* package 'plyr' ...
+** package 'plyr' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c loop-apply.c -o loop-apply.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c split-numeric.c -o split-numeric.o
+gcc -std=gnu99 -shared -o plyr.so loop-apply.o split-numeric.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/plyr.Rcheck/plyr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (plyr)

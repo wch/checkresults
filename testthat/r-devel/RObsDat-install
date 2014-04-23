@@ -1,0 +1,14 @@
+* installing *source* package 'RObsDat' ...
+** package 'RObsDat' successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+Creating a new generic function for 'merge' in package 'RObsDat'
+Creating a generic function for 'plot' from package 'graphics' in package 'RObsDat'
+Creating a generic function for 'NROW' from package 'base' in package 'RObsDat'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (RObsDat)

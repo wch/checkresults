@@ -1,0 +1,24 @@
+* installing *source* package 'rspa' ...
+** package 'rspa' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c R_all_finite.c -o R_all_finite.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c R_dc_spa.c -o R_dc_spa.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c R_sc_arith.c -o R_sc_arith.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c R_spa.c -o R_spa.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c R_sparseConstraints.c -o R_sparseConstraints.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c dc_spa.c -o dc_spa.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c maxdist.c -o maxdist.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c sc_arith.c -o sc_arith.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c spa.c -o spa.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c sparseConstraints.c -o sparseConstraints.o
+gcc -std=gnu99 -shared -o rspa.so R_all_finite.o R_dc_spa.o R_sc_arith.o R_spa.o R_sparseConstraints.o dc_spa.o maxdist.o sc_arith.o spa.o sparseConstraints.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/rspa.Rcheck/rspa/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (rspa)

@@ -1,0 +1,14 @@
+* installing *source* package 'rpartitions' ...
+** package 'rpartitions' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c partitions.c -o partitions.o
+gcc -std=gnu99 -shared -o rpartitions.so partitions.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/rpartitions.Rcheck/rpartitions/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (rpartitions)

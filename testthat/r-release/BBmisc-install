@@ -1,0 +1,16 @@
+* installing *source* package 'BBmisc' ...
+** package 'BBmisc' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c first_last.c -o first_last.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c getMaxColRowIndex.c -o getMaxColRowIndex.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c getMaxIndex.c -o getMaxIndex.o
+gcc -std=gnu99 -shared -o BBmisc.so first_last.o getMaxColRowIndex.o getMaxIndex.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/BBmisc.Rcheck/BBmisc/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (BBmisc)

@@ -1,0 +1,16 @@
+StatRank *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > library(testthat)
+  > library(StatRank)
+  Loading required package: truncdist
+  Loading required package: stats4
+  Loading required package: evd
+  > 
+  > test_package("StatRank")
+  Error: No tests found for StatRank
+  Execution halted

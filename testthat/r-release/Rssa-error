@@ -1,0 +1,23 @@
+Rssa *  checking examples ... ERROR
+Running examples in 'Rssa-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: ssa-input
+> ### Title: Input Data Formats Used by SSA Routines
+> ### Aliases: ssa-input
+> 
+> ### ** Examples
+> 
+> s <- ssa(co2) # Perform the decomposition using the default window length
+> r <- reconstruct(s, groups = list(Trend = c(1, 4),
++                                   Seasonality = c(2, 3))) # Reconstruct into 2 series
+> class(r$Trend) # Result is 'ts' object
+[1] "ts"
+> 
+> # Simultaneous trend extraction using MSSA
+> s <- ssa(EuStockMarkets, kind = "mssa")
+Error in new.hbhmat(field, L = c(L, 1), wmask = NULL, fmask = .get(x,  : 
+  FFTW-less version of 2D-SSA is not implemented yet!
+Calls: ssa ... .get.or.create -> assign -> .hmat.striped -> new.hbhmat -> .Call
+Execution halted

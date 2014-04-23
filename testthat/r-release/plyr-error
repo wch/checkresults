@@ -1,0 +1,16 @@
+plyr *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  Replace values : ....................................
+  List to data frame : ..................................................
+  Split data frame : ......
+  Split indices : .
+  Split labels : .
+  Summarise : ...
+  
+  
+  1. Failure(@test-parallel.r#7): l_ply respects .parallel -----------------------
+  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.178 seconds, which is more than 0.15
+  
+  Error: Test failures
+  Execution halted

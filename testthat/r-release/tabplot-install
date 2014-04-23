@@ -1,0 +1,13 @@
+* installing *source* package 'tabplot' ...
+** package 'tabplot' successfully unpacked and MD5 sums checked
+** R
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'tabplot-vignette.Rnw' 
+** testing if installed package can be loaded
+* DONE (tabplot)

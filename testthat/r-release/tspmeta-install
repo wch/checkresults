@@ -1,0 +1,14 @@
+* installing *source* package 'tspmeta' ...
+** package 'tspmeta' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c fast_two_opt.c -o fast_two_opt.o
+gcc -std=gnu99 -shared -o tspmeta.so fast_two_opt.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/tspmeta.Rcheck/tspmeta/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (tspmeta)

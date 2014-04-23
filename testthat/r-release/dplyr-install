@@ -1,0 +1,22 @@
+* installing *source* package 'dplyr' ...
+** package 'dplyr' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/  -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/BH/include"   -fpic  -O3 -pipe  -g  -c RcppExports.cpp -o RcppExports.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/  -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/BH/include"   -fpic  -O3 -pipe  -g  -c address.cpp -o address.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/  -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/BH/include"   -fpic  -O3 -pipe  -g  -c dplyr.cpp -o dplyr.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/  -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/BH/include"   -fpic  -O3 -pipe  -g  -c init.cpp -o init.o
+g++ -I/usr/share/R/include -DNDEBUG -I../inst/include/  -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/BH/include"   -fpic  -O3 -pipe  -g  -c window.cpp -o window.o
+g++ -shared -o dplyr.so RcppExports.o address.o dplyr.o init.o window.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/dplyr.Rcheck/dplyr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (dplyr)

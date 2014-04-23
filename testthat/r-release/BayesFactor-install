@@ -1,0 +1,27 @@
+* installing *source* package 'BayesFactor' ...
+** package 'BayesFactor' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c common.c -o common.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c debug.c -o debug.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c linearReg.c -o linearReg.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c logMean.c -o logMean.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c matrix.c -o matrix.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c nWayAOV.c -o nWayAOV.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c oneWayAOV.c -o oneWayAOV.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c ttest.c -o ttest.o
+gcc -std=gnu99 -shared -o BayesFactor.so common.o debug.o linearReg.o logMean.o matrix.o nWayAOV.o oneWayAOV.o ttest.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/BayesFactor.Rcheck/BayesFactor/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'summary' from package 'base' in package 'BayesFactor'
+Creating a generic function for 't' from package 'base' in package 'BayesFactor'
+Creating a generic function for 'which.max' from package 'base' in package 'BayesFactor'
+Creating a generic function for 'which.min' from package 'base' in package 'BayesFactor'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (BayesFactor)

@@ -1,0 +1,16 @@
+dplyr *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+    AwardsShareManagers, AwardsSharePlayers, Batting, BattingPost, Fielding,
+    FieldingOF, FieldingPost, HallOfFame, LahmanData, Managers, ManagersHalf,
+    Master, Pitching, PitchingPost, Salaries, Schools, SchoolsPlayers,
+    SeriesPost, Teams, TeamsFranchises, TeamsHalf, sqlite_stat1
+  > if (identical(Sys.getenv("NOT_CRAN"), "true")) {
+  +   lahman_postgres()  
+  + }
+  Loading required package: RPostgreSQL
+  Error in postgresqlNewConnection(drv, ...) : 
+    RS-DBI driver: (could not connect ubuntu@local on dbname "lahman"
+  )
+  Calls: lahman_postgres ... .valueClassTest -> is -> is -> postgresqlNewConnection -> .Call
+  Execution halted

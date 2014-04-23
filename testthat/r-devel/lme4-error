@@ -1,0 +1,16 @@
+lme4 *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  13: eval(expr, envir, enclos)
+  14: model.frame(drop.unused.levels = TRUE, formula = z ~ 1 + f)
+  15: model.frame.default(drop.unused.levels = TRUE, formula = z ~ 1 + f)
+  16: eval(predvars, data, env)
+  17: eval(expr, envir, enclos)
+  18: .handleSimpleError(function (e) 
+     {
+         e$calls <- head(sys.calls()[-seq_len(frame + 7)], -2)
+         signalCondition(e)
+     }, "object 'z' not found", quote(eval(expr, envir, enclos)))
+  
+  Error: Test failures
+  Execution halted

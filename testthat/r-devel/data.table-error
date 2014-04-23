@@ -1,0 +1,16 @@
+data.table *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > library(testthat)
+  > library(data.table)
+  > 
+  > test_package("data.table")
+  S4 Compatability : Error in assign(mname, def, where) : 
+    cannot add bindings to a locked environment
+  Calls: test_package ... eval -> eval -> setClass -> assignClassDef -> assign
+  Execution halted

@@ -1,0 +1,37 @@
+* installing *source* package 'hyperSpec' ...
+** package 'hyperSpec' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'svUnit'
+Creating a generic function for 'aggregate' from package 'stats' in package 'hyperSpec'
+Creating a generic function for 'all.equal' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'apply' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'rownames' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'rownames<-' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'colnames' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'colnames<-' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'ncol' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'nrow' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'labels' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'levelplot' from package 'lattice' in package 'hyperSpec'
+Creating a generic function for 'mean' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'quantile' from package 'stats' in package 'hyperSpec'
+Creating a generic function for 'merge' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'sample' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'print' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'summary' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'split' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'sweep' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'cov' from package 'stats' in package 'hyperSpec'
+Creating a generic function for 'scale' from package 'base' in package 'hyperSpec'
+Creating a generic function for 'subset' from package 'base' in package 'hyperSpec'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (hyperSpec)

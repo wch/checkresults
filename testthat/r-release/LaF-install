@@ -1,0 +1,34 @@
+* installing *source* package 'LaF' ...
+** package 'LaF' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c LaF.cpp -o LaF.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c column.cpp -o column.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c conversion.cpp -o conversion.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c csvreader.cpp -o csvreader.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c doublecolumn.cpp -o doublecolumn.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c factorcolumn.cpp -o factorcolumn.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c file.cpp -o file.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c fwfreader.cpp -o fwfreader.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c intcolumn.cpp -o intcolumn.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c reader.cpp -o reader.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c readermanager.cpp -o readermanager.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c stats.cpp -o stats.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c stringcolumn.cpp -o stringcolumn.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c textutils.cpp -o textutils.o
+g++ -shared -o LaF.so LaF.o column.o conversion.o csvreader.o doublecolumn.o factorcolumn.o file.o fwfreader.o intcolumn.o reader.o readermanager.o stats.o stringcolumn.o textutils.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/LaF.Rcheck/LaF/libs
+** R
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'nrow' from package 'base' in package 'LaF'
+Creating a generic function for 'ncol' from package 'base' in package 'LaF'
+Creating a generic function for 'levels' from package 'base' in package 'LaF'
+Creating a generic function for 'close' from package 'base' in package 'LaF'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'LaF-benchmark.Rnw' 
+   'LaF-manual.Rnw' 
+** testing if installed package can be loaded
+* DONE (LaF)

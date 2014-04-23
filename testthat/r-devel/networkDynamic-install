@@ -1,0 +1,20 @@
+* installing *source* package 'networkDynamic' ...
+** package 'networkDynamic' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c diagnostics.c -o diagnostics.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c edgetree.c -o edgetree.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c infection.c -o infection.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c is.active.c -o is.active.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c wtedgetree.c -o wtedgetree.o
+gcc -std=gnu99 -shared -o networkDynamic.so diagnostics.o edgetree.o infection.o is.active.o wtedgetree.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/networkDynamic.Rcheck/networkDynamic/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (networkDynamic)

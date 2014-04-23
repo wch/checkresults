@@ -1,0 +1,25 @@
+* installing *source* package 'seriation' ...
+** package 'seriation' successfully unpacked and MD5 sums checked
+** libs
+gfortran   -fpic  -O3 -pipe  -g  -c arsa.f -o arsa.o
+gfortran   -fpic  -O3 -pipe  -g  -c bburcg.f -o bburcg.o
+gfortran   -fpic  -O3 -pipe  -g  -c bbwrcg.f -o bbwrcg.o
+gfortran   -fpic  -O3 -pipe  -g  -c bea.f -o bea.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c criterion.c -o criterion.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c dist.c -o dist.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c fprintf.c -o fprintf.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c greedy.c -o greedy.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c optimal.c -o optimal.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c stress.c -o stress.o
+gcc -std=gnu99 -shared -o seriation.so arsa.o bburcg.o bbwrcg.o bea.o criterion.o dist.o fprintf.o greedy.o optimal.o stress.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/seriation.Rcheck/seriation/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (seriation)

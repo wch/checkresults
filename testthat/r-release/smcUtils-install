@@ -1,0 +1,16 @@
+* installing *source* package 'smcUtils' ...
+** package 'smcUtils' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c renormalize.c -o renormalize.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c resample.c -o resample.o
+gcc -std=gnu99 -shared -o smcUtils.so renormalize.o resample.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/smcUtils.Rcheck/smcUtils/libs
+** R
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (smcUtils)

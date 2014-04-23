@@ -1,0 +1,80 @@
+* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/dplyr.Rcheck'
+* using R version 3.0.2 (2013-09-25)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'dplyr/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'dplyr' version '0.1.1'
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Package suggested but not available for checking: 'bigrquery'
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'dplyr' can be installed ... [67s/67s] OK
+* checking installed package size ... NOTE
+  installed size is  7.5Mb
+  sub-directories of 1Mb or more:
+    libs   5.9Mb
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Versioned LinkingTo values for
+  'Rcpp' 'BH'
+are only usable in R >= 3.0.2
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking compilation flags in Makevars ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking installed files from 'inst/doc' ... OK
+* checking files in 'vignettes' ... OK
+* checking examples ... [22s/23s] OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+    AwardsShareManagers, AwardsSharePlayers, Batting, BattingPost, Fielding,
+    FieldingOF, FieldingPost, HallOfFame, LahmanData, Managers, ManagersHalf,
+    Master, Pitching, PitchingPost, Salaries, Schools, SchoolsPlayers,
+    SeriesPost, Teams, TeamsFranchises, TeamsHalf, sqlite_stat1
+  > if (identical(Sys.getenv("NOT_CRAN"), "true")) {
+  +   lahman_postgres()  
+  + }
+  Loading required package: RPostgreSQL
+  Error in postgresqlNewConnection(drv, ...) : 
+    RS-DBI driver: (could not connect ubuntu@local on dbname "lahman"
+  )
+  Calls: lahman_postgres ... .valueClassTest -> is -> is -> postgresqlNewConnection -> .Call
+  Execution halted

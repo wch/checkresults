@@ -1,0 +1,23 @@
+* installing *source* package 'sequences' ...
+** package 'sequences' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c gccount.c -o gccount.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c gccount2.cpp -o gccount2.o
+Error in loadNamespace(name) : there is no package called 'RcppClassic'
+Calls: ::: ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+Execution halted
+g++ -shared -o sequences.so gccount.o gccount2.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -L/usr/lib/R/lib -lR
+Error in loadNamespace(name) : there is no package called 'RcppClassic'
+Calls: ::: ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+Execution halted
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/sequences.Rcheck/sequences/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (sequences)

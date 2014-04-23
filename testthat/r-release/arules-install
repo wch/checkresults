@@ -1,0 +1,48 @@
+* installing *source* package 'arules' ...
+** package 'arules' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c arrayIndex.c -o arrayIndex.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c bitmat.c -o bitmat.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c istree.c -o istree.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c listops.c -o listops.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c matrix.c -o matrix.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c nstats.c -o nstats.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c params.c -o params.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c ptree.c -o ptree.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c rapriori.c -o rapriori.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c reclat.c -o reclat.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c scan.c -o scan.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c symtab.c -o symtab.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c tfscan.c -o tfscan.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c tid_count.c -o tid_count.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c tract.c -o tract.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -DNDEBUG -DNIMAPFN -fpic  -O3 -pipe  -g  -c vecops.c -o vecops.o
+gcc -std=gnu99 -shared -o arules.so arrayIndex.o bitmat.o istree.o listops.o matrix.o nstats.o params.o ptree.o rapriori.o reclat.o scan.o symtab.o tfscan.o tid_count.o tract.o vecops.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/arules.Rcheck/arules/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a new generic function for 'write' in package 'arules'
+Creating a generic function for 'aggregate' from package 'stats' in package 'arules'
+Creating a generic function for 'sort' from package 'base' in package 'arules'
+Creating a generic function for 'unique' from package 'base' in package 'arules'
+Creating a generic function for 'labels' from package 'base' in package 'arules'
+Creating a generic function from function '%in%' in package 'arules'
+Creating a generic function for 'merge' from package 'base' in package 'arules'
+Creating a generic function for 'duplicated' from package 'base' in package 'arules'
+Creating a generic function for 'match' from package 'base' in package 'arules'
+Creating a generic function for 'predict' from package 'stats' in package 'arules'
+Creating a generic function for 'sample' from package 'base' in package 'arules'
+Creating a generic function for 'union' from package 'base' in package 'arules'
+Creating a generic function for 'intersect' from package 'base' in package 'arules'
+Creating a generic function for 'setequal' from package 'base' in package 'arules'
+Creating a generic function for 'setdiff' from package 'base' in package 'arules'
+Creating a generic function for 'is.element' from package 'base' in package 'arules'
+Creating a generic function for 'subset' from package 'base' in package 'arules'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (arules)

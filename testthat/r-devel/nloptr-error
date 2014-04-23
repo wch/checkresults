@@ -1,0 +1,4 @@
+nloptr *  checking line endings in C/C++/Fortran sources/headers ... WARNING
+Found the following sources/headers with CR or CRLF line endings:
+  src/nlopt-2.4/esch/esch.h
+Some Unix compilers require LF line endings.

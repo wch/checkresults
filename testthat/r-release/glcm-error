@@ -1,0 +1,5 @@
+glcm *  checking package dependencies ... ERROR
+Package required and available but unsuitable version: 'Rcpp'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

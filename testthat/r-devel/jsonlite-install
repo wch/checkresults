@@ -1,0 +1,191 @@
+* installing *source* package 'jsonlite' ...
+** package 'jsonlite' successfully unpacked and MD5 sums checked
+Trying to find libjson.h header file
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+USE_LOCAL = ""
+Minor Version: 6
+Using local libjson code. Copying files from src/libjson/Source
+/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/jsonlite.Rcheck/00_pkg_src/jsonlite
+JSONAllocator.cpp
+JSONChildren.cpp
+JSONDebug.cpp
+JSONIterators.cpp
+JSONMemory.cpp
+JSONNode.cpp
+JSONNode_Mutex.cpp
+JSONPreparse.cpp
+JSONStream.cpp
+JSONValidator.cpp
+JSONWorker.cpp
+JSONWriter.cpp
+internalJSONNode.cpp
+libjson.cpp
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c ConvertUTF.c -o ConvertUTF.o
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONAllocator.cpp -o JSONAllocator.o
+In file included from libjson/Source/JSONStats.h:4:0,
+                 from libjson/Source/JSONAllocator.h:4,
+                 from JSONAllocator.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONChildren.cpp -o JSONChildren.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from libjson/Source/JSONMemory.h:6,
+                 from libjson/Source/JSONChildren.h:4,
+                 from JSONChildren.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONDebug.cpp -o JSONDebug.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from JSONDebug.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONIterators.cpp -o JSONIterators.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from libjson/Source/JSONNode.h:4,
+                 from JSONIterators.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONMemory.cpp -o JSONMemory.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from libjson/Source/JSONMemory.h:6,
+                 from JSONMemory.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONNode.cpp -o JSONNode.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from libjson/Source/JSONNode.h:4,
+                 from JSONNode.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONNode_Mutex.cpp -o JSONNode_Mutex.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from libjson/Source/JSONNode.h:4,
+                 from JSONNode_Mutex.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONPreparse.cpp -o JSONPreparse.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from libjson/Source/JSONPreparse.h:4,
+                 from JSONPreparse.cpp:10:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONStream.cpp -o JSONStream.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from libjson/Source/JSONStream.h:4,
+                 from JSONStream.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONValidator.cpp -o JSONValidator.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from libjson/Source/JSONValidator.h:4,
+                 from JSONValidator.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONWorker.cpp -o JSONWorker.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from libjson/Source/JSONNode.h:4,
+                 from libjson/Source/JSONWorker.h:4,
+                 from JSONWorker.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSONWriter.cpp -o JSONWriter.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from libjson/Source/JSONNode.h:4,
+                 from JSONWriter.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c JSON_parser.c -o JSON_parser.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c RJSON.c -o RJSON.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c base64.c -o base64.o
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c internalJSONNode.cpp -o internalJSONNode.o
+In file included from libjson/Source/JSONDefs.h:10:0,
+                 from libjson/Source/JSONDebug.h:4,
+                 from libjson/Source/internalJSONNode.h:5,
+                 from internalJSONNode.cpp:1:
+libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c libjson.cpp -o libjson.o
+In file included from libjson/Source/../Source/JSONDefs.h:10:0,
+                 from libjson/Source/../libjson.h:4,
+                 from libjson.cpp:8:
+libjson/Source/../Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libjson/Source/../Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c rlibjson.c -o rlibjson.o
+In file included from ./libjson/Source/JSONDefs.h:10:0,
+                 from ./libjson/libjson.h:4,
+                 from Rlibjson.h:1,
+                 from rlibjson.c:1:
+./libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+./libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1  -DJSON_VALIDATE  -DJSON_STREAM=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -DJSON_STREAM     -fpic  -O3 -pipe  -g  -c rparser.c -o rparser.o
+In file included from ./libjson/Source/JSONDefs.h:10:0,
+                 from ./libjson/libjson.h:4,
+                 from Rlibjson.h:1,
+                 from rparser.c:1:
+./libjson/Source/../JSONOptions.h:120:0: warning: "JSON_STREAM" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+./libjson/Source/../JSONOptions.h:256:0: warning: "JSON_VALIDATE" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+g++ -shared -o jsonlite.so ConvertUTF.o JSONAllocator.o JSONChildren.o JSONDebug.o JSONIterators.o JSONMemory.o JSONNode.o JSONNode_Mutex.o JSONPreparse.o JSONStream.o JSONValidator.o JSONWorker.o JSONWriter.o JSON_parser.o RJSON.o base64.o internalJSONNode.o libjson.o rlibjson.o rparser.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/jsonlite.Rcheck/jsonlite/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (jsonlite)

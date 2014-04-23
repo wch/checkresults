@@ -1,0 +1,5 @@
+rsig *  checking package dependencies ... ERROR
+Package required but not available: 'survcomp'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

@@ -1,0 +1,16 @@
+* installing *source* package 'RcppEigen' ...
+** package 'RcppEigen' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"  -I../inst/include -fpic  -O3 -pipe  -g  -c RcppEigen.cpp -o RcppEigen.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"  -I../inst/include -fpic  -O3 -pipe  -g  -c fastLm.cpp -o fastLm.o
+g++ -shared -o RcppEigen.so RcppEigen.o fastLm.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/RcppEigen.Rcheck/RcppEigen/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (RcppEigen)

@@ -1,0 +1,14 @@
+* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/wgsea.Rcheck'
+* using R version 3.0.2 (2013-09-25)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'wgsea/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'wgsea' version '1.8'
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package required but not available: 'snpStats'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

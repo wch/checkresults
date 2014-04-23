@@ -1,0 +1,19 @@
+* installing *source* package 'CHNOSZ' ...
+** package 'CHNOSZ' successfully unpacked and MD5 sums checked
+** libs
+gfortran   -fpic  -O3 -pipe  -g  -c H2O92D.f -o H2O92D.o
+gcc -std=gnu99 -shared -o CHNOSZ.so H2O92D.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/CHNOSZ.Rcheck/CHNOSZ/libs
+** R
+** data
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+data(thermo): attached environment "CHNOSZ"
+thermo$obigt: 1811 aqueous, 3370 total species
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (CHNOSZ)

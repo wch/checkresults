@@ -1,0 +1,16 @@
+growcurves *  checking tests ... ERROR
+Running the tests in 'tests/run-all.R' failed.
+Last 13 lines of output:
+  
+  6. Failure(@test-dpgrowmm.R#74): mmigrp option of dpgrowmm returns expect objects 
+  names(srm$X) does not match 'time'. Actual value: ""
+  
+  7. Failure(@test-dpgrowmm.R#107): mmi option of dpgrowmm returns expect objects 
+  names(srm$X) does not match 'time'. Actual value: ""
+  
+  8. Failure(@test-dpgrowmult.R#48): dpgrowmult with multiple MM terms returns expected objects 
+  names(srm$X) does not match 'time'. Actual value: ""
+  
+  Error: Test failures
+  In addition: There were 50 or more warnings (use warnings() to see the first 50)
+  Execution halted

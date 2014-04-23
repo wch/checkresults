@@ -1,0 +1,816 @@
+* installing *source* package 'nloptr' ...
+** package 'nloptr' successfully unpacked and MD5 sums checked
+** libs
+`"/usr/lib/R/bin/Rscript" --vanilla -e "download.file(url='http://ab-initio.mit.edu/nlopt/nlopt-2.4.tar.gz', destfile='nlopt-2.4.tar.gz')"`
+trying URL 'http://ab-initio.mit.edu/nlopt/nlopt-2.4.tar.gz'
+Content type 'application/x-gzip' length 2360753 bytes (2.3 Mb)
+opened URL
+==================================================
+downloaded 2.3 Mb
+
+`"/usr/lib/R/bin/Rscript" --vanilla -e "untar(tarfile='nlopt-2.4.tar.gz')"`
+rm -rf nlopt-2.4.tar.gz
+echo "Installing library to: `pwd`/nlopt-2.4"
+Installing library to: /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4
+cd nlopt-2.4; \
+	ed -s isres/isres.c <<< $'H\n,s/sqrt(/sqrt((double) /g\nw'; \
+	ed -s util/qsort_r.c <<< $'H\n1i\nextern "C" {\n.\nw'; \
+	ed -s util/qsort_r.c <<< $'H\n$a\n}\n.\nw'; \
+	./configure --prefix="`pwd`" --enable-shared --enable-static --without-octave --without-matlab --without-guile --without-python --with-cxx CC="`"/usr/lib/R/bin/R" CMD config CC`" CFLAGS="`"/usr/lib/R/bin/R" CMD config CFLAGS`" CPP="`"/usr/lib/R/bin/R" CMD config CPP`" CPPFLAGS="`"/usr/lib/R/bin/R" CMD config CPPFLAGS`" CXX="`"/usr/lib/R/bin/R" CMD config CXX`" CXXFLAGS="`"/usr/lib/R/bin/R" CMD config CXXFLAGS`" CXXCPP="`"/usr/lib/R/bin/R" CMD config CXXCPP`"; \
+	make; \
+	make install; \
+	ls | grep -v ^include$ | grep -v ^lib$ | xargs rm -rf; \
+    rm -rf .libs;
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... gcc -std=gnu99
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -std=gnu99 accepts -g... yes
+checking for gcc -std=gnu99 option to accept ISO C89... none needed
+checking whether gcc -std=gnu99 understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc -std=gnu99... gcc3
+checking for gcc -std=gnu99 option to accept ISO C99... none needed
+checking for gcc -std=gnu99 option to accept ISO Standard C... (cached) none needed
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc -std=gnu99... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc -std=gnu99 object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -std=gnu99 -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc -std=gnu99 supports -fno-rtti -fno-exceptions... no
+checking for gcc -std=gnu99 option to produce PIC... -fPIC -DPIC
+checking if gcc -std=gnu99 PIC flag -fPIC -DPIC works... yes
+checking if gcc -std=gnu99 static flag -static works... yes
+checking if gcc -std=gnu99 supports -c -o file.o... yes
+checking if gcc -std=gnu99 supports -c -o file.o... (cached) yes
+checking whether the gcc -std=gnu99 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ANSI C header files... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for unistd.h... (cached) yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for stdint.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for C thread-local keyword... __thread
+checking size of unsigned int... 4
+checking size of unsigned long... 8
+checking for uint32_t... yes
+checking for sin in -lm... yes
+checking for BSDgettimeofday... no
+checking for gettimeofday... yes
+checking for time... yes
+checking for qsort_r... yes
+checking for getpid... yes
+checking for gettid syscall... yes
+checking for isnan... yes
+checking for isinf... yes
+checking for copysign... yes
+checking for mkoctfile... no
+checking for mex... no
+checking for working HUGE_VAL... ok
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating nlopt.pc
+config.status: creating api/Makefile
+config.status: creating util/Makefile
+config.status: creating octave/Makefile
+config.status: creating direct/Makefile
+config.status: creating cdirect/Makefile
+config.status: creating stogo/Makefile
+config.status: creating praxis/Makefile
+config.status: creating luksan/Makefile
+config.status: creating crs/Makefile
+config.status: creating mlsl/Makefile
+config.status: creating mma/Makefile
+config.status: creating cobyla/Makefile
+config.status: creating newuoa/Makefile
+config.status: creating neldermead/Makefile
+config.status: creating auglag/Makefile
+config.status: creating bobyqa/Makefile
+config.status: creating isres/Makefile
+config.status: creating slsqp/Makefile
+config.status: creating esch/Makefile
+config.status: creating test/Makefile
+config.status: creating swig/Makefile
+config.status: creating swig/nlopt.scm
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make[1]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+make  all-recursive
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+Making all in util
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/util'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../api   -O3 -pipe -g -MT mt19937ar.lo -MD -MP -MF .deps/mt19937ar.Tpo -c -o mt19937ar.lo mt19937ar.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT mt19937ar.lo -MD -MP -MF .deps/mt19937ar.Tpo -c mt19937ar.c  -fPIC -DPIC -o .libs/mt19937ar.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT mt19937ar.lo -MD -MP -MF .deps/mt19937ar.Tpo -c mt19937ar.c -o mt19937ar.o >/dev/null 2>&1
+mv -f .deps/mt19937ar.Tpo .deps/mt19937ar.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../api   -O3 -pipe -g -MT sobolseq.lo -MD -MP -MF .deps/sobolseq.Tpo -c -o sobolseq.lo sobolseq.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT sobolseq.lo -MD -MP -MF .deps/sobolseq.Tpo -c sobolseq.c  -fPIC -DPIC -o .libs/sobolseq.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT sobolseq.lo -MD -MP -MF .deps/sobolseq.Tpo -c sobolseq.c -o sobolseq.o >/dev/null 2>&1
+mv -f .deps/sobolseq.Tpo .deps/sobolseq.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../api   -O3 -pipe -g -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c -o timer.lo timer.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c timer.c  -fPIC -DPIC -o .libs/timer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c timer.c -o timer.o >/dev/null 2>&1
+mv -f .deps/timer.Tpo .deps/timer.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../api   -O3 -pipe -g -MT stop.lo -MD -MP -MF .deps/stop.Tpo -c -o stop.lo stop.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT stop.lo -MD -MP -MF .deps/stop.Tpo -c stop.c  -fPIC -DPIC -o .libs/stop.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT stop.lo -MD -MP -MF .deps/stop.Tpo -c stop.c -o stop.o >/dev/null 2>&1
+mv -f .deps/stop.Tpo .deps/stop.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../api   -O3 -pipe -g -MT redblack.lo -MD -MP -MF .deps/redblack.Tpo -c -o redblack.lo redblack.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT redblack.lo -MD -MP -MF .deps/redblack.Tpo -c redblack.c  -fPIC -DPIC -o .libs/redblack.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT redblack.lo -MD -MP -MF .deps/redblack.Tpo -c redblack.c -o redblack.o >/dev/null 2>&1
+mv -f .deps/redblack.Tpo .deps/redblack.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../api   -O3 -pipe -g -MT qsort_r.lo -MD -MP -MF .deps/qsort_r.Tpo -c -o qsort_r.lo qsort_r.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT qsort_r.lo -MD -MP -MF .deps/qsort_r.Tpo -c qsort_r.c  -fPIC -DPIC -o .libs/qsort_r.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT qsort_r.lo -MD -MP -MF .deps/qsort_r.Tpo -c qsort_r.c -o qsort_r.o >/dev/null 2>&1
+mv -f .deps/qsort_r.Tpo .deps/qsort_r.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../api   -O3 -pipe -g -MT rescale.lo -MD -MP -MF .deps/rescale.Tpo -c -o rescale.lo rescale.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT rescale.lo -MD -MP -MF .deps/rescale.Tpo -c rescale.c  -fPIC -DPIC -o .libs/rescale.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../api -O3 -pipe -g -MT rescale.lo -MD -MP -MF .deps/rescale.Tpo -c rescale.c -o rescale.o >/dev/null 2>&1
+mv -f .deps/rescale.Tpo .deps/rescale.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libutil.la  mt19937ar.lo sobolseq.lo timer.lo stop.lo redblack.lo qsort_r.lo rescale.lo  -lm 
+libtool: link: ar cru .libs/libutil.a .libs/mt19937ar.o .libs/sobolseq.o .libs/timer.o .libs/stop.o .libs/redblack.o .libs/qsort_r.o .libs/rescale.o 
+libtool: link: ranlib .libs/libutil.a
+libtool: link: ( cd ".libs" && rm -f "libutil.la" && ln -s "../libutil.la" "libutil.la" )
+g++ -DHAVE_CONFIG_H -I. -I..  -I../api   -O3 -pipe -g -MT redblack_test.o -MD -MP -MF .deps/redblack_test.Tpo -c -o redblack_test.o redblack_test.c
+mv -f .deps/redblack_test.Tpo .deps/redblack_test.Po
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o redblack_test redblack_test.o libutil.la -lm 
+libtool: link: g++ -O3 -pipe -g -o redblack_test redblack_test.o  ./.libs/libutil.a -lm
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/util'
+Making all in direct
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/direct'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT DIRect.lo -MD -MP -MF .deps/DIRect.Tpo -c -o DIRect.lo DIRect.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT DIRect.lo -MD -MP -MF .deps/DIRect.Tpo -c DIRect.c  -fPIC -DPIC -o .libs/DIRect.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT DIRect.lo -MD -MP -MF .deps/DIRect.Tpo -c DIRect.c -o DIRect.o >/dev/null 2>&1
+mv -f .deps/DIRect.Tpo .deps/DIRect.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT direct_wrap.lo -MD -MP -MF .deps/direct_wrap.Tpo -c -o direct_wrap.lo direct_wrap.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT direct_wrap.lo -MD -MP -MF .deps/direct_wrap.Tpo -c direct_wrap.c  -fPIC -DPIC -o .libs/direct_wrap.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT direct_wrap.lo -MD -MP -MF .deps/direct_wrap.Tpo -c direct_wrap.c -o direct_wrap.o >/dev/null 2>&1
+mv -f .deps/direct_wrap.Tpo .deps/direct_wrap.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT DIRserial.lo -MD -MP -MF .deps/DIRserial.Tpo -c -o DIRserial.lo DIRserial.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT DIRserial.lo -MD -MP -MF .deps/DIRserial.Tpo -c DIRserial.c  -fPIC -DPIC -o .libs/DIRserial.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT DIRserial.lo -MD -MP -MF .deps/DIRserial.Tpo -c DIRserial.c -o DIRserial.o >/dev/null 2>&1
+mv -f .deps/DIRserial.Tpo .deps/DIRserial.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT DIRsubrout.lo -MD -MP -MF .deps/DIRsubrout.Tpo -c -o DIRsubrout.lo DIRsubrout.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT DIRsubrout.lo -MD -MP -MF .deps/DIRsubrout.Tpo -c DIRsubrout.c  -fPIC -DPIC -o .libs/DIRsubrout.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT DIRsubrout.lo -MD -MP -MF .deps/DIRsubrout.Tpo -c DIRsubrout.c -o DIRsubrout.o >/dev/null 2>&1
+mv -f .deps/DIRsubrout.Tpo .deps/DIRsubrout.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libdirect.la  DIRect.lo direct_wrap.lo DIRserial.lo DIRsubrout.lo  -lm 
+libtool: link: ar cru .libs/libdirect.a .libs/DIRect.o .libs/direct_wrap.o .libs/DIRserial.o .libs/DIRsubrout.o 
+libtool: link: ranlib .libs/libdirect.a
+libtool: link: ( cd ".libs" && rm -f "libdirect.la" && ln -s "../libdirect.la" "libdirect.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/direct'
+Making all in cdirect
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cdirect'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT cdirect.lo -MD -MP -MF .deps/cdirect.Tpo -c -o cdirect.lo cdirect.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT cdirect.lo -MD -MP -MF .deps/cdirect.Tpo -c cdirect.c  -fPIC -DPIC -o .libs/cdirect.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT cdirect.lo -MD -MP -MF .deps/cdirect.Tpo -c cdirect.c -o cdirect.o >/dev/null 2>&1
+mv -f .deps/cdirect.Tpo .deps/cdirect.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT hybrid.lo -MD -MP -MF .deps/hybrid.Tpo -c -o hybrid.lo hybrid.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT hybrid.lo -MD -MP -MF .deps/hybrid.Tpo -c hybrid.c  -fPIC -DPIC -o .libs/hybrid.o
+hybrid.c: In function 'nlopt_result optimize_rect(double*, params*)':
+hybrid.c:91:12: warning: 'nlopt_result nlopt_minimize(nlopt_algorithm, int, nlopt_func_old, void*, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at ../api/nlopt.h:330) [-Wdeprecated-declarations]
+hybrid.c:99:39: warning: 'nlopt_result nlopt_minimize(nlopt_algorithm, int, nlopt_func_old, void*, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at ../api/nlopt.h:330) [-Wdeprecated-declarations]
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT hybrid.lo -MD -MP -MF .deps/hybrid.Tpo -c hybrid.c -o hybrid.o >/dev/null 2>&1
+mv -f .deps/hybrid.Tpo .deps/hybrid.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libcdirect.la  cdirect.lo hybrid.lo  -lm 
+libtool: link: ar cru .libs/libcdirect.a .libs/cdirect.o .libs/hybrid.o 
+libtool: link: ranlib .libs/libcdirect.a
+libtool: link: ( cd ".libs" && rm -f "libcdirect.la" && ln -s "../libcdirect.la" "libcdirect.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cdirect'
+Making all in stogo
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/stogo'
+/bin/bash ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT global.lo -MD -MP -MF .deps/global.Tpo -c -o global.lo global.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT global.lo -MD -MP -MF .deps/global.Tpo -c global.cc  -fPIC -DPIC -o .libs/global.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT global.lo -MD -MP -MF .deps/global.Tpo -c global.cc -o global.o >/dev/null 2>&1
+mv -f .deps/global.Tpo .deps/global.Plo
+/bin/bash ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT linalg.lo -MD -MP -MF .deps/linalg.Tpo -c -o linalg.lo linalg.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT linalg.lo -MD -MP -MF .deps/linalg.Tpo -c linalg.cc  -fPIC -DPIC -o .libs/linalg.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT linalg.lo -MD -MP -MF .deps/linalg.Tpo -c linalg.cc -o linalg.o >/dev/null 2>&1
+mv -f .deps/linalg.Tpo .deps/linalg.Plo
+/bin/bash ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT local.lo -MD -MP -MF .deps/local.Tpo -c -o local.lo local.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT local.lo -MD -MP -MF .deps/local.Tpo -c local.cc  -fPIC -DPIC -o .libs/local.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT local.lo -MD -MP -MF .deps/local.Tpo -c local.cc -o local.o >/dev/null 2>&1
+mv -f .deps/local.Tpo .deps/local.Plo
+/bin/bash ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT stogo.lo -MD -MP -MF .deps/stogo.Tpo -c -o stogo.lo stogo.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT stogo.lo -MD -MP -MF .deps/stogo.Tpo -c stogo.cc  -fPIC -DPIC -o .libs/stogo.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT stogo.lo -MD -MP -MF .deps/stogo.Tpo -c stogo.cc -o stogo.o >/dev/null 2>&1
+mv -f .deps/stogo.Tpo .deps/stogo.Plo
+/bin/bash ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT tools.lo -MD -MP -MF .deps/tools.Tpo -c -o tools.lo tools.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT tools.lo -MD -MP -MF .deps/tools.Tpo -c tools.cc  -fPIC -DPIC -o .libs/tools.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT tools.lo -MD -MP -MF .deps/tools.Tpo -c tools.cc -o tools.o >/dev/null 2>&1
+mv -f .deps/tools.Tpo .deps/tools.Plo
+/bin/bash ../libtool  --tag=CXX   --mode=link g++  -O3 -pipe -g   -o libstogo.la  global.lo linalg.lo local.lo stogo.lo tools.lo  -lm 
+libtool: link: ar cru .libs/libstogo.a .libs/global.o .libs/linalg.o .libs/local.o .libs/stogo.o .libs/tools.o 
+libtool: link: ranlib .libs/libstogo.a
+libtool: link: ( cd ".libs" && rm -f "libstogo.la" && ln -s "../libstogo.la" "libstogo.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/stogo'
+Making all in praxis
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/praxis'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT praxis.lo -MD -MP -MF .deps/praxis.Tpo -c -o praxis.lo praxis.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT praxis.lo -MD -MP -MF .deps/praxis.Tpo -c praxis.c  -fPIC -DPIC -o .libs/praxis.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT praxis.lo -MD -MP -MF .deps/praxis.Tpo -c praxis.c -o praxis.o >/dev/null 2>&1
+mv -f .deps/praxis.Tpo .deps/praxis.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libpraxis.la  praxis.lo  -lm 
+libtool: link: ar cru .libs/libpraxis.a .libs/praxis.o 
+libtool: link: ranlib .libs/libpraxis.a
+libtool: link: ( cd ".libs" && rm -f "libpraxis.la" && ln -s "../libpraxis.la" "libpraxis.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/praxis'
+Making all in luksan
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/luksan'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT plis.lo -MD -MP -MF .deps/plis.Tpo -c -o plis.lo plis.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT plis.lo -MD -MP -MF .deps/plis.Tpo -c plis.c  -fPIC -DPIC -o .libs/plis.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT plis.lo -MD -MP -MF .deps/plis.Tpo -c plis.c -o plis.o >/dev/null 2>&1
+mv -f .deps/plis.Tpo .deps/plis.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT plip.lo -MD -MP -MF .deps/plip.Tpo -c -o plip.lo plip.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT plip.lo -MD -MP -MF .deps/plip.Tpo -c plip.c  -fPIC -DPIC -o .libs/plip.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT plip.lo -MD -MP -MF .deps/plip.Tpo -c plip.c -o plip.o >/dev/null 2>&1
+mv -f .deps/plip.Tpo .deps/plip.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT pnet.lo -MD -MP -MF .deps/pnet.Tpo -c -o pnet.lo pnet.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT pnet.lo -MD -MP -MF .deps/pnet.Tpo -c pnet.c  -fPIC -DPIC -o .libs/pnet.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT pnet.lo -MD -MP -MF .deps/pnet.Tpo -c pnet.c -o pnet.o >/dev/null 2>&1
+mv -f .deps/pnet.Tpo .deps/pnet.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT mssubs.lo -MD -MP -MF .deps/mssubs.Tpo -c -o mssubs.lo mssubs.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT mssubs.lo -MD -MP -MF .deps/mssubs.Tpo -c mssubs.c  -fPIC -DPIC -o .libs/mssubs.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT mssubs.lo -MD -MP -MF .deps/mssubs.Tpo -c mssubs.c -o mssubs.o >/dev/null 2>&1
+mv -f .deps/mssubs.Tpo .deps/mssubs.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT pssubs.lo -MD -MP -MF .deps/pssubs.Tpo -c -o pssubs.lo pssubs.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT pssubs.lo -MD -MP -MF .deps/pssubs.Tpo -c pssubs.c  -fPIC -DPIC -o .libs/pssubs.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT pssubs.lo -MD -MP -MF .deps/pssubs.Tpo -c pssubs.c -o pssubs.o >/dev/null 2>&1
+mv -f .deps/pssubs.Tpo .deps/pssubs.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libluksan.la  plis.lo plip.lo pnet.lo mssubs.lo pssubs.lo  -lm 
+libtool: link: ar cru .libs/libluksan.a .libs/plis.o .libs/plip.o .libs/pnet.o .libs/mssubs.o .libs/pssubs.o 
+libtool: link: ranlib .libs/libluksan.a
+libtool: link: ( cd ".libs" && rm -f "libluksan.la" && ln -s "../libluksan.la" "libluksan.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/luksan'
+Making all in crs
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/crs'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT crs.lo -MD -MP -MF .deps/crs.Tpo -c -o crs.lo crs.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT crs.lo -MD -MP -MF .deps/crs.Tpo -c crs.c  -fPIC -DPIC -o .libs/crs.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT crs.lo -MD -MP -MF .deps/crs.Tpo -c crs.c -o crs.o >/dev/null 2>&1
+mv -f .deps/crs.Tpo .deps/crs.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libcrs.la  crs.lo  -lm 
+libtool: link: ar cru .libs/libcrs.a .libs/crs.o 
+libtool: link: ranlib .libs/libcrs.a
+libtool: link: ( cd ".libs" && rm -f "libcrs.la" && ln -s "../libcrs.la" "libcrs.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/crs'
+Making all in mlsl
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mlsl'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT mlsl.lo -MD -MP -MF .deps/mlsl.Tpo -c -o mlsl.lo mlsl.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT mlsl.lo -MD -MP -MF .deps/mlsl.Tpo -c mlsl.c  -fPIC -DPIC -o .libs/mlsl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT mlsl.lo -MD -MP -MF .deps/mlsl.Tpo -c mlsl.c -o mlsl.o >/dev/null 2>&1
+mv -f .deps/mlsl.Tpo .deps/mlsl.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libmlsl.la  mlsl.lo  -lm 
+libtool: link: ar cru .libs/libmlsl.a .libs/mlsl.o 
+libtool: link: ranlib .libs/libmlsl.a
+libtool: link: ( cd ".libs" && rm -f "libmlsl.la" && ln -s "../libmlsl.la" "libmlsl.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mlsl'
+Making all in mma
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mma'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT mma.lo -MD -MP -MF .deps/mma.Tpo -c -o mma.lo mma.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT mma.lo -MD -MP -MF .deps/mma.Tpo -c mma.c  -fPIC -DPIC -o .libs/mma.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT mma.lo -MD -MP -MF .deps/mma.Tpo -c mma.c -o mma.o >/dev/null 2>&1
+mv -f .deps/mma.Tpo .deps/mma.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT ccsa_quadratic.lo -MD -MP -MF .deps/ccsa_quadratic.Tpo -c -o ccsa_quadratic.lo ccsa_quadratic.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT ccsa_quadratic.lo -MD -MP -MF .deps/ccsa_quadratic.Tpo -c ccsa_quadratic.c  -fPIC -DPIC -o .libs/ccsa_quadratic.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT ccsa_quadratic.lo -MD -MP -MF .deps/ccsa_quadratic.Tpo -c ccsa_quadratic.c -o ccsa_quadratic.o >/dev/null 2>&1
+mv -f .deps/ccsa_quadratic.Tpo .deps/ccsa_quadratic.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libmma.la  mma.lo ccsa_quadratic.lo  -lm 
+libtool: link: ar cru .libs/libmma.a .libs/mma.o .libs/ccsa_quadratic.o 
+libtool: link: ranlib .libs/libmma.a
+libtool: link: ( cd ".libs" && rm -f "libmma.la" && ln -s "../libmma.la" "libmma.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mma'
+Making all in cobyla
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cobyla'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT cobyla.lo -MD -MP -MF .deps/cobyla.Tpo -c -o cobyla.lo cobyla.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT cobyla.lo -MD -MP -MF .deps/cobyla.Tpo -c cobyla.c  -fPIC -DPIC -o .libs/cobyla.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT cobyla.lo -MD -MP -MF .deps/cobyla.Tpo -c cobyla.c -o cobyla.o >/dev/null 2>&1
+mv -f .deps/cobyla.Tpo .deps/cobyla.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libcobyla.la  cobyla.lo  -lm 
+libtool: link: ar cru .libs/libcobyla.a .libs/cobyla.o 
+libtool: link: ranlib .libs/libcobyla.a
+libtool: link: ( cd ".libs" && rm -f "libcobyla.la" && ln -s "../libcobyla.la" "libcobyla.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cobyla'
+Making all in newuoa
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/newuoa'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT newuoa.lo -MD -MP -MF .deps/newuoa.Tpo -c -o newuoa.lo newuoa.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT newuoa.lo -MD -MP -MF .deps/newuoa.Tpo -c newuoa.c  -fPIC -DPIC -o .libs/newuoa.o
+newuoa.c: In function 'nlopt_result trsapp_(int*, int*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, double*, const double*, const double*, const double*)':
+newuoa.c:184:9: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at ../api/nlopt.h:340) [-Wdeprecated-declarations]
+newuoa.c:187:35: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at ../api/nlopt.h:340) [-Wdeprecated-declarations]
+newuoa.c: In function 'nlopt_result biglag_(int*, int*, double*, double*, double*, double*, int*, int*, int*, double*, double*, double*, double*, double*, double*, double*, double*, const double*, const double*, const double*)':
+newuoa.c:1241:10: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at ../api/nlopt.h:340) [-Wdeprecated-declarations]
+newuoa.c:1244:35: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at ../api/nlopt.h:340) [-Wdeprecated-declarations]
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT newuoa.lo -MD -MP -MF .deps/newuoa.Tpo -c newuoa.c -o newuoa.o >/dev/null 2>&1
+mv -f .deps/newuoa.Tpo .deps/newuoa.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libnewuoa.la  newuoa.lo  -lm 
+libtool: link: ar cru .libs/libnewuoa.a .libs/newuoa.o 
+libtool: link: ranlib .libs/libnewuoa.a
+libtool: link: ( cd ".libs" && rm -f "libnewuoa.la" && ln -s "../libnewuoa.la" "libnewuoa.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/newuoa'
+Making all in neldermead
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/neldermead'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT nldrmd.lo -MD -MP -MF .deps/nldrmd.Tpo -c -o nldrmd.lo nldrmd.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT nldrmd.lo -MD -MP -MF .deps/nldrmd.Tpo -c nldrmd.c  -fPIC -DPIC -o .libs/nldrmd.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT nldrmd.lo -MD -MP -MF .deps/nldrmd.Tpo -c nldrmd.c -o nldrmd.o >/dev/null 2>&1
+mv -f .deps/nldrmd.Tpo .deps/nldrmd.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT sbplx.lo -MD -MP -MF .deps/sbplx.Tpo -c -o sbplx.lo sbplx.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT sbplx.lo -MD -MP -MF .deps/sbplx.Tpo -c sbplx.c  -fPIC -DPIC -o .libs/sbplx.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT sbplx.lo -MD -MP -MF .deps/sbplx.Tpo -c sbplx.c -o sbplx.o >/dev/null 2>&1
+mv -f .deps/sbplx.Tpo .deps/sbplx.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libneldermead.la  nldrmd.lo sbplx.lo  -lm 
+libtool: link: ar cru .libs/libneldermead.a .libs/nldrmd.o .libs/sbplx.o 
+libtool: link: ranlib .libs/libneldermead.a
+libtool: link: ( cd ".libs" && rm -f "libneldermead.la" && ln -s "../libneldermead.la" "libneldermead.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/neldermead'
+Making all in auglag
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/auglag'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT auglag.lo -MD -MP -MF .deps/auglag.Tpo -c -o auglag.lo auglag.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT auglag.lo -MD -MP -MF .deps/auglag.Tpo -c auglag.c  -fPIC -DPIC -o .libs/auglag.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT auglag.lo -MD -MP -MF .deps/auglag.Tpo -c auglag.c -o auglag.o >/dev/null 2>&1
+mv -f .deps/auglag.Tpo .deps/auglag.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libauglag.la  auglag.lo  -lm 
+libtool: link: ar cru .libs/libauglag.a .libs/auglag.o 
+libtool: link: ranlib .libs/libauglag.a
+libtool: link: ( cd ".libs" && rm -f "libauglag.la" && ln -s "../libauglag.la" "libauglag.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/auglag'
+Making all in bobyqa
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/bobyqa'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT bobyqa.lo -MD -MP -MF .deps/bobyqa.Tpo -c -o bobyqa.lo bobyqa.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT bobyqa.lo -MD -MP -MF .deps/bobyqa.Tpo -c bobyqa.c  -fPIC -DPIC -o .libs/bobyqa.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT bobyqa.lo -MD -MP -MF .deps/bobyqa.Tpo -c bobyqa.c -o bobyqa.o >/dev/null 2>&1
+mv -f .deps/bobyqa.Tpo .deps/bobyqa.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libbobyqa.la  bobyqa.lo  -lm 
+libtool: link: ar cru .libs/libbobyqa.a .libs/bobyqa.o 
+libtool: link: ranlib .libs/libbobyqa.a
+libtool: link: ( cd ".libs" && rm -f "libbobyqa.la" && ln -s "../libbobyqa.la" "libbobyqa.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/bobyqa'
+Making all in isres
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/isres'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT isres.lo -MD -MP -MF .deps/isres.Tpo -c -o isres.lo isres.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT isres.lo -MD -MP -MF .deps/isres.Tpo -c isres.c  -fPIC -DPIC -o .libs/isres.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT isres.lo -MD -MP -MF .deps/isres.Tpo -c isres.c -o isres.o >/dev/null 2>&1
+mv -f .deps/isres.Tpo .deps/isres.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libisres.la  isres.lo  -lm 
+libtool: link: ar cru .libs/libisres.a .libs/isres.o 
+libtool: link: ranlib .libs/libisres.a
+libtool: link: ( cd ".libs" && rm -f "libisres.la" && ln -s "../libisres.la" "libisres.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/isres'
+Making all in slsqp
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/slsqp'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT slsqp.lo -MD -MP -MF .deps/slsqp.Tpo -c -o slsqp.lo slsqp.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT slsqp.lo -MD -MP -MF .deps/slsqp.Tpo -c slsqp.c  -fPIC -DPIC -o .libs/slsqp.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT slsqp.lo -MD -MP -MF .deps/slsqp.Tpo -c slsqp.c -o slsqp.o >/dev/null 2>&1
+mv -f .deps/slsqp.Tpo .deps/slsqp.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libslsqp.la  slsqp.lo  -lm 
+libtool: link: ar cru .libs/libslsqp.a .libs/slsqp.o 
+libtool: link: ranlib .libs/libslsqp.a
+libtool: link: ( cd ".libs" && rm -f "libslsqp.la" && ln -s "../libslsqp.la" "libslsqp.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/slsqp'
+Making all in esch
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/esch'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../util -I../api   -O3 -pipe -g -MT esch.lo -MD -MP -MF .deps/esch.Tpo -c -o esch.lo esch.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT esch.lo -MD -MP -MF .deps/esch.Tpo -c esch.c  -fPIC -DPIC -o .libs/esch.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../util -I../api -O3 -pipe -g -MT esch.lo -MD -MP -MF .deps/esch.Tpo -c esch.c -o esch.o >/dev/null 2>&1
+mv -f .deps/esch.Tpo .deps/esch.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libesch.la  esch.lo  -lm 
+libtool: link: ar cru .libs/libesch.a .libs/esch.o 
+libtool: link: ranlib .libs/libesch.a
+libtool: link: ( cd ".libs" && rm -f "libesch.la" && ln -s "../libesch.la" "libesch.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/esch'
+Making all in api
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/api'
+make  all-am
+make[4]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/api'
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util   -O3 -pipe -g -MT general.lo -MD -MP -MF .deps/general.Tpo -c -o general.lo general.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util -O3 -pipe -g -MT general.lo -MD -MP -MF .deps/general.Tpo -c general.c  -fPIC -DPIC -o .libs/general.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util -O3 -pipe -g -MT general.lo -MD -MP -MF .deps/general.Tpo -c general.c -o general.o >/dev/null 2>&1
+mv -f .deps/general.Tpo .deps/general.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util   -O3 -pipe -g -MT options.lo -MD -MP -MF .deps/options.Tpo -c -o options.lo options.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util -O3 -pipe -g -MT options.lo -MD -MP -MF .deps/options.Tpo -c options.c  -fPIC -DPIC -o .libs/options.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util -O3 -pipe -g -MT options.lo -MD -MP -MF .deps/options.Tpo -c options.c -o options.o >/dev/null 2>&1
+mv -f .deps/options.Tpo .deps/options.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util   -O3 -pipe -g -MT optimize.lo -MD -MP -MF .deps/optimize.Tpo -c -o optimize.lo optimize.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util -O3 -pipe -g -MT optimize.lo -MD -MP -MF .deps/optimize.Tpo -c optimize.c  -fPIC -DPIC -o .libs/optimize.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util -O3 -pipe -g -MT optimize.lo -MD -MP -MF .deps/optimize.Tpo -c optimize.c -o optimize.o >/dev/null 2>&1
+mv -f .deps/optimize.Tpo .deps/optimize.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util   -O3 -pipe -g -MT deprecated.lo -MD -MP -MF .deps/deprecated.Tpo -c -o deprecated.lo deprecated.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util -O3 -pipe -g -MT deprecated.lo -MD -MP -MF .deps/deprecated.Tpo -c deprecated.c  -fPIC -DPIC -o .libs/deprecated.o
+deprecated.c: In function 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)':
+deprecated.c:149:13: warning: 'nlopt_result nlopt_minimize_econstrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, double, double, int, double)' is deprecated (declared at deprecated.c:65) [-Wdeprecated-declarations]
+deprecated.c:153:60: warning: 'nlopt_result nlopt_minimize_econstrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, double, double, int, double)' is deprecated (declared at deprecated.c:65) [-Wdeprecated-declarations]
+deprecated.c: In function 'nlopt_result nlopt_minimize(nlopt_algorithm, int, nlopt_func_old, void*, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)':
+deprecated.c:167:13: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at deprecated.c:138) [-Wdeprecated-declarations]
+deprecated.c:170:40: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at deprecated.c:138) [-Wdeprecated-declarations]
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util -O3 -pipe -g -MT deprecated.lo -MD -MP -MF .deps/deprecated.Tpo -c deprecated.c -o deprecated.o >/dev/null 2>&1
+mv -f .deps/deprecated.Tpo .deps/deprecated.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..  -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util   -O3 -pipe -g -MT f77api.lo -MD -MP -MF .deps/f77api.Tpo -c -o f77api.lo f77api.c
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util -O3 -pipe -g -MT f77api.lo -MD -MP -MF .deps/f77api.Tpo -c f77api.c  -fPIC -DPIC -o .libs/f77api.o
+In file included from f77api.c:103:0:
+f77funcs.h: In function 'void nloptc_(int*, const int*, const int*, nlopt_f77_func, void*, const int*, nlopt_f77_func, char*, char*, const double*, const double*, double*, double*, const double*, const double*, const double*, const double*, const double*, const int*, const int*, const double*)':
+f77funcs.h:57:14: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at nlopt.h:340) [-Wdeprecated-declarations]
+f77funcs.h:65:24: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at nlopt.h:340) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void nlogls_(int*, int*, int*)':
+f77funcs.h:96:6: warning: 'void nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)' is deprecated (declared at nlopt.h:364) [-Wdeprecated-declarations]
+f77funcs.h:96:65: warning: 'void nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)' is deprecated (declared at nlopt.h:364) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void nlosls_(int*, int*, int*)':
+f77funcs.h:104:6: warning: 'void nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)' is deprecated (declared at nlopt.h:367) [-Wdeprecated-declarations]
+f77funcs.h:104:64: warning: 'void nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)' is deprecated (declared at nlopt.h:367) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void nlogsp_(int*)':
+f77funcs.h:109:13: warning: 'int nlopt_get_stochastic_population()' is deprecated (declared at nlopt.h:371) [-Wdeprecated-declarations]
+f77funcs.h:109:45: warning: 'int nlopt_get_stochastic_population()' is deprecated (declared at nlopt.h:371) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void nlossp_(const int*)':
+f77funcs.h:113:6: warning: 'void nlopt_set_stochastic_population(int)' is deprecated (declared at nlopt.h:372) [-Wdeprecated-declarations]
+f77funcs.h:113:42: warning: 'void nlopt_set_stochastic_population(int)' is deprecated (declared at nlopt.h:372) [-Wdeprecated-declarations]
+In file included from f77api.c:114:0:
+f77funcs.h: In function 'void nloptc(int*, const int*, const int*, nlopt_f77_func, void*, const int*, nlopt_f77_func, char*, char*, const double*, const double*, double*, double*, const double*, const double*, const double*, const double*, const double*, const int*, const int*, const double*)':
+f77funcs.h:57:14: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at nlopt.h:340) [-Wdeprecated-declarations]
+f77funcs.h:65:24: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at nlopt.h:340) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void nlogls(int*, int*, int*)':
+f77funcs.h:96:6: warning: 'void nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)' is deprecated (declared at nlopt.h:364) [-Wdeprecated-declarations]
+f77funcs.h:96:65: warning: 'void nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)' is deprecated (declared at nlopt.h:364) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void nlosls(int*, int*, int*)':
+f77funcs.h:104:6: warning: 'void nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)' is deprecated (declared at nlopt.h:367) [-Wdeprecated-declarations]
+f77funcs.h:104:64: warning: 'void nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)' is deprecated (declared at nlopt.h:367) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void nlogsp(int*)':
+f77funcs.h:109:13: warning: 'int nlopt_get_stochastic_population()' is deprecated (declared at nlopt.h:371) [-Wdeprecated-declarations]
+f77funcs.h:109:45: warning: 'int nlopt_get_stochastic_population()' is deprecated (declared at nlopt.h:371) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void nlossp(const int*)':
+f77funcs.h:113:6: warning: 'void nlopt_set_stochastic_population(int)' is deprecated (declared at nlopt.h:372) [-Wdeprecated-declarations]
+f77funcs.h:113:42: warning: 'void nlopt_set_stochastic_population(int)' is deprecated (declared at nlopt.h:372) [-Wdeprecated-declarations]
+In file included from f77api.c:129:0:
+f77funcs.h: In function 'void NLOPTC(int*, const int*, const int*, nlopt_f77_func, void*, const int*, nlopt_f77_func, char*, char*, const double*, const double*, double*, double*, const double*, const double*, const double*, const double*, const double*, const int*, const int*, const double*)':
+f77funcs.h:57:14: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at nlopt.h:340) [-Wdeprecated-declarations]
+f77funcs.h:65:24: warning: 'nlopt_result nlopt_minimize_constrained(nlopt_algorithm, int, nlopt_func_old, void*, int, nlopt_func_old, void*, ptrdiff_t, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at nlopt.h:340) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void NLOGLS(int*, int*, int*)':
+f77funcs.h:96:6: warning: 'void nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)' is deprecated (declared at nlopt.h:364) [-Wdeprecated-declarations]
+f77funcs.h:96:65: warning: 'void nlopt_get_local_search_algorithm(nlopt_algorithm*, nlopt_algorithm*, int*)' is deprecated (declared at nlopt.h:364) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void NLOSLS(int*, int*, int*)':
+f77funcs.h:104:6: warning: 'void nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)' is deprecated (declared at nlopt.h:367) [-Wdeprecated-declarations]
+f77funcs.h:104:64: warning: 'void nlopt_set_local_search_algorithm(nlopt_algorithm, nlopt_algorithm, int)' is deprecated (declared at nlopt.h:367) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void NLOGSP(int*)':
+f77funcs.h:109:13: warning: 'int nlopt_get_stochastic_population()' is deprecated (declared at nlopt.h:371) [-Wdeprecated-declarations]
+f77funcs.h:109:45: warning: 'int nlopt_get_stochastic_population()' is deprecated (declared at nlopt.h:371) [-Wdeprecated-declarations]
+f77funcs.h: In function 'void NLOSSP(const int*)':
+f77funcs.h:113:6: warning: 'void nlopt_set_stochastic_population(int)' is deprecated (declared at nlopt.h:372) [-Wdeprecated-declarations]
+f77funcs.h:113:42: warning: 'void nlopt_set_stochastic_population(int)' is deprecated (declared at nlopt.h:372) [-Wdeprecated-declarations]
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../cdirect -I../direct -I../stogo -I../praxis -I../lbfgs -I../luksan -I../crs -I../mlsl -I../mma -I../cobyla -I../newuoa -I../neldermead -I../auglag -I../bobyqa -I../isres -I../slsqp -I../esch -I../util -O3 -pipe -g -MT f77api.lo -MD -MP -MF .deps/f77api.Tpo -c f77api.c -o f77api.o >/dev/null 2>&1
+mv -f .deps/f77api.Tpo .deps/f77api.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o libapi.la  general.lo options.lo optimize.lo deprecated.lo f77api.lo  -lm 
+libtool: link: ar cru .libs/libapi.a .libs/general.o .libs/options.o .libs/optimize.o .libs/deprecated.o .libs/f77api.o 
+libtool: link: ranlib .libs/libapi.a
+libtool: link: ( cd ".libs" && rm -f "libapi.la" && ln -s "../libapi.la" "libapi.la" )
+make[4]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/api'
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/api'
+Making all in .
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+/bin/bash ./libtool  --tag=CC   --mode=link g++  -O3 -pipe -g -version-info 8:0:8  -o libnlopt_cxx.la -rpath /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib  direct/libdirect.la cdirect/libcdirect.la stogo/libstogo.la praxis/libpraxis.la luksan/libluksan.la crs/libcrs.la mlsl/libmlsl.la mma/libmma.la cobyla/libcobyla.la newuoa/libnewuoa.la neldermead/libneldermead.la auglag/libauglag.la bobyqa/libbobyqa.la isres/libisres.la slsqp/libslsqp.la esch/libesch.la api/libapi.la util/libutil.la -lm 
+libtool: link: gcc -std=gnu99 -shared  -fPIC -DPIC  -Wl,--whole-archive direct/.libs/libdirect.a cdirect/.libs/libcdirect.a stogo/.libs/libstogo.a praxis/.libs/libpraxis.a luksan/.libs/libluksan.a crs/.libs/libcrs.a mlsl/.libs/libmlsl.a mma/.libs/libmma.a cobyla/.libs/libcobyla.a newuoa/.libs/libnewuoa.a neldermead/.libs/libneldermead.a auglag/.libs/libauglag.a bobyqa/.libs/libbobyqa.a isres/.libs/libisres.a slsqp/.libs/libslsqp.a esch/.libs/libesch.a api/.libs/libapi.a util/.libs/libutil.a -Wl,--no-whole-archive  -lm  -O3   -Wl,-soname -Wl,libnlopt_cxx.so.0 -o .libs/libnlopt_cxx.so.0.8.0
+libtool: link: (cd ".libs" && rm -f "libnlopt_cxx.so.0" && ln -s "libnlopt_cxx.so.0.8.0" "libnlopt_cxx.so.0")
+libtool: link: (cd ".libs" && rm -f "libnlopt_cxx.so" && ln -s "libnlopt_cxx.so.0.8.0" "libnlopt_cxx.so")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libdirect.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/direct/.libs/libdirect.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libcdirect.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cdirect/.libs/libcdirect.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libstogo.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/stogo/.libs/libstogo.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libpraxis.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/praxis/.libs/libpraxis.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libluksan.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/luksan/.libs/libluksan.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libcrs.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/crs/.libs/libcrs.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libmlsl.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mlsl/.libs/libmlsl.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libmma.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mma/.libs/libmma.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libcobyla.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cobyla/.libs/libcobyla.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libnewuoa.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/newuoa/.libs/libnewuoa.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libneldermead.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/neldermead/.libs/libneldermead.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libauglag.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/auglag/.libs/libauglag.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libbobyqa.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/bobyqa/.libs/libbobyqa.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libisres.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/isres/.libs/libisres.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libslsqp.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/slsqp/.libs/libslsqp.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libesch.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/esch/.libs/libesch.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libapi.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/api/.libs/libapi.a")
+libtool: link: (cd .libs/libnlopt_cxx.lax/libutil.a && ar x "/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/util/.libs/libutil.a")
+libtool: link: ar cru .libs/libnlopt_cxx.a   .libs/libnlopt_cxx.lax/libdirect.a/DIRect.o .libs/libnlopt_cxx.lax/libdirect.a/DIRserial.o .libs/libnlopt_cxx.lax/libdirect.a/DIRsubrout.o .libs/libnlopt_cxx.lax/libdirect.a/direct_wrap.o  .libs/libnlopt_cxx.lax/libcdirect.a/cdirect.o .libs/libnlopt_cxx.lax/libcdirect.a/hybrid.o  .libs/libnlopt_cxx.lax/libstogo.a/global.o .libs/libnlopt_cxx.lax/libstogo.a/linalg.o .libs/libnlopt_cxx.lax/libstogo.a/local.o .libs/libnlopt_cxx.lax/libstogo.a/stogo.o .libs/libnlopt_cxx.lax/libstogo.a/tools.o  .libs/libnlopt_cxx.lax/libpraxis.a/praxis.o  .libs/libnlopt_cxx.lax/libluksan.a/mssubs.o .libs/libnlopt_cxx.lax/libluksan.a/plip.o .libs/libnlopt_cxx.lax/libluksan.a/plis.o .libs/libnlopt_cxx.lax/libluksan.a/pnet.o .libs/libnlopt_cxx.lax/libluksan.a/pssubs.o  .libs/libnlopt_cxx.lax/libcrs.a/crs.o  .libs/libnlopt_cxx.lax/libmlsl.a/mlsl.o  .libs/libnlopt_cxx.lax/libmma.a/ccsa_quadratic.o .libs/libnlopt_cxx.lax/libmma.a/mma.o  .libs/libnlopt_cxx.lax/libcobyla.a/cobyla.o  .libs/libnlopt_cxx.lax/libnewuoa.a/newuoa.o  .libs/libnlopt_cxx.lax/libneldermead.a/nldrmd.o .libs/libnlopt_cxx.lax/libneldermead.a/sbplx.o  .libs/libnlopt_cxx.lax/libauglag.a/auglag.o  .libs/libnlopt_cxx.lax/libbobyqa.a/bobyqa.o  .libs/libnlopt_cxx.lax/libisres.a/isres.o  .libs/libnlopt_cxx.lax/libslsqp.a/slsqp.o  .libs/libnlopt_cxx.lax/libesch.a/esch.o  .libs/libnlopt_cxx.lax/libapi.a/deprecated.o .libs/libnlopt_cxx.lax/libapi.a/f77api.o .libs/libnlopt_cxx.lax/libapi.a/general.o .libs/libnlopt_cxx.lax/libapi.a/optimize.o .libs/libnlopt_cxx.lax/libapi.a/options.o  .libs/libnlopt_cxx.lax/libutil.a/mt19937ar.o .libs/libnlopt_cxx.lax/libutil.a/qsort_r.o .libs/libnlopt_cxx.lax/libutil.a/redblack.o .libs/libnlopt_cxx.lax/libutil.a/rescale.o .libs/libnlopt_cxx.lax/libutil.a/sobolseq.o .libs/libnlopt_cxx.lax/libutil.a/stop.o .libs/libnlopt_cxx.lax/libutil.a/timer.o 
+libtool: link: ranlib .libs/libnlopt_cxx.a
+libtool: link: rm -fr .libs/libnlopt_cxx.lax
+libtool: link: ( cd ".libs" && rm -f "libnlopt_cxx.la" && ln -s "../libnlopt_cxx.la" "libnlopt_cxx.la" )
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+Making all in octave
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/octave'
+make  all-am
+make[4]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/octave'
+g++ -DHAVE_CONFIG_H -I. -I..  -I../api -I../util   -O3 -pipe -g -MT dummy.o -MD -MP -MF .deps/dummy.Tpo -c -o dummy.o dummy.c
+mv -f .deps/dummy.Tpo .deps/dummy.Po
+/bin/bash ../libtool  --tag=CC   --mode=link g++  -O3 -pipe -g   -o dummy dummy.o  -lm 
+libtool: link: g++ -O3 -pipe -g -o dummy dummy.o  -lm
+make[4]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/octave'
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/octave'
+Making all in test
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/test'
+g++ -DHAVE_CONFIG_H -I. -I..  -I../api -I../util   -O3 -pipe -g -MT testfuncs.o -MD -MP -MF .deps/testfuncs.Tpo -c -o testfuncs.o testfuncs.c
+mv -f .deps/testfuncs.Tpo .deps/testfuncs.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -I../api -I../util   -O3 -pipe -g -MT testopt.o -MD -MP -MF .deps/testopt.Tpo -c -o testopt.o testopt.cpp
+testopt.cpp: In function 'int test_function(int)':
+testopt.cpp:218:11: warning: 'nlopt_result nlopt_minimize(nlopt_algorithm, int, nlopt_func_old, void*, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at ../api/nlopt.h:330) [-Wdeprecated-declarations]
+testopt.cpp:223:21: warning: 'nlopt_result nlopt_minimize(nlopt_algorithm, int, nlopt_func_old, void*, const double*, const double*, double*, double*, double, double, double, double, const double*, int, double)' is deprecated (declared at ../api/nlopt.h:330) [-Wdeprecated-declarations]
+mv -f .deps/testopt.Tpo .deps/testopt.Po
+/bin/bash ../libtool  --tag=CXX   --mode=link g++  -O3 -pipe -g   -o testopt testfuncs.o testopt.o ../libnlopt_cxx.la -lm 
+libtool: link: g++ -O3 -pipe -g -o .libs/testopt testfuncs.o testopt.o  ../.libs/libnlopt_cxx.so -lm -Wl,-rpath -Wl,/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/test'
+Making all in swig
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/swig'
+make  all-am
+make[4]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/swig'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/swig'
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/swig'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+make[1]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+make[1]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+Making install in util
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/util'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/util'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/util'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/util'
+Making install in direct
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/direct'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/direct'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/direct'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/direct'
+Making install in cdirect
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cdirect'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cdirect'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cdirect'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cdirect'
+Making install in stogo
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/stogo'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/stogo'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/stogo'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/stogo'
+Making install in praxis
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/praxis'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/praxis'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/praxis'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/praxis'
+Making install in luksan
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/luksan'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/luksan'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/luksan'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/luksan'
+Making install in crs
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/crs'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/crs'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/crs'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/crs'
+Making install in mlsl
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mlsl'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mlsl'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mlsl'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mlsl'
+Making install in mma
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mma'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mma'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mma'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/mma'
+Making install in cobyla
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cobyla'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cobyla'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cobyla'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/cobyla'
+Making install in newuoa
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/newuoa'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/newuoa'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/newuoa'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/newuoa'
+Making install in neldermead
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/neldermead'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/neldermead'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/neldermead'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/neldermead'
+Making install in auglag
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/auglag'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/auglag'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/auglag'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/auglag'
+Making install in bobyqa
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/bobyqa'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/bobyqa'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/bobyqa'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/bobyqa'
+Making install in isres
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/isres'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/isres'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/isres'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/isres'
+Making install in slsqp
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/slsqp'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/slsqp'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/slsqp'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/slsqp'
+Making install in esch
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/esch'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/esch'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/esch'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/esch'
+Making install in api
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/api'
+make  install-am
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/api'
+make[4]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/api'
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/include'
+ /usr/bin/install -c -m 644 nlopt.h nlopt.f nlopt.hpp '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/include'
+ /bin/mkdir -p '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/share/man/man3'
+ /usr/bin/install -c -m 644 nlopt.3 '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/share/man/man3'
+make[4]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/api'
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/api'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/api'
+Making install in .
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+ /bin/mkdir -p '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libnlopt_cxx.la '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib'
+libtool: install: /usr/bin/install -c .libs/libnlopt_cxx.so.0.8.0 /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib/libnlopt_cxx.so.0.8.0
+libtool: install: (cd /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib && { ln -s -f libnlopt_cxx.so.0.8.0 libnlopt_cxx.so.0 || { rm -f libnlopt_cxx.so.0 && ln -s libnlopt_cxx.so.0.8.0 libnlopt_cxx.so.0; }; })
+libtool: install: (cd /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib && { ln -s -f libnlopt_cxx.so.0.8.0 libnlopt_cxx.so || { rm -f libnlopt_cxx.so && ln -s libnlopt_cxx.so.0.8.0 libnlopt_cxx.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnlopt_cxx.lai /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib/libnlopt_cxx.la
+libtool: install: /usr/bin/install -c .libs/libnlopt_cxx.a /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib/libnlopt_cxx.a
+libtool: install: chmod 644 /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib/libnlopt_cxx.a
+libtool: install: ranlib /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib/libnlopt_cxx.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/sbin" ldconfig -n /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib/pkgconfig'
+ /usr/bin/install -c -m 644 nlopt.pc '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib/pkgconfig'
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+Making install in octave
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/octave'
+make  install-am
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/octave'
+make[4]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/octave'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/octave'
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/octave'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/octave'
+Making install in test
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/test'
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/test'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/test'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/test'
+Making install in swig
+make[2]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/swig'
+make  install-am
+make[3]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/swig'
+make[4]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/swig'
+make[4]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/swig'
+make[3]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/swig'
+make[2]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/swig'
+make[1]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4'
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -I`pwd`/nlopt-2.4/include -fpic  -O3 -pipe  -g  -c nloptr.c -o nloptr.o
+g++ -shared -o nloptr.so nloptr.o -lm /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/00_pkg_src/nloptr/src/nlopt-2.4/lib/libnlopt_cxx.a -L/usr/lib/R/lib -lR
+`"/usr/lib/R/bin/Rscript" --vanilla -e "download.file(url='http://ab-initio.mit.edu/nlopt/nlopt-2.4.tar.gz', destfile='nlopt-2.4.tar.gz')"`
+trying URL 'http://ab-initio.mit.edu/nlopt/nlopt-2.4.tar.gz'
+Content type 'application/x-gzip' length 2360753 bytes (2.3 Mb)
+opened URL
+==================================================
+downloaded 2.3 Mb
+
+`"/usr/lib/R/bin/Rscript" --vanilla -e "untar(tarfile='nlopt-2.4.tar.gz')"`
+rm -rf nlopt-2.4.tar.gz
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/nloptr.Rcheck/nloptr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (nloptr)

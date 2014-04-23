@@ -1,0 +1,13 @@
+* installing *source* package 'gWidgets2RGtk2' ...
+** package 'gWidgets2RGtk2' successfully unpacked and MD5 sums checked
+** R
+** demo
+** inst
+** preparing package for lazy loading
+Xlib:  extension "RANDR" missing on display ":99".
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+Xlib:  extension "RANDR" missing on display ":99".
+* DONE (gWidgets2RGtk2)

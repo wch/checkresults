@@ -1,0 +1,20 @@
+* installing *source* package 'ffbase' ...
+** package 'ffbase' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c binned_sum.c -o binned_sum.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c binned_sumsq.c -o binned_sumsq.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c binned_tabulate.c -o binned_tabulate.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c bySum.c -o bySum.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c bySumsq.c -o bySumsq.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c grouprunningcumsum.c -o grouprunningcumsum.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c grouprunningcumsumindex.c -o grouprunningcumsumindex.o
+gcc -std=gnu99 -shared -o ffbase.so binned_sum.o binned_sumsq.o binned_tabulate.o bySum.o bySumsq.o grouprunningcumsum.o grouprunningcumsumindex.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/ffbase.Rcheck/ffbase/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (ffbase)

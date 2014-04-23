@@ -1,0 +1,16 @@
+fanovaGraph *  checking tests ... ERROR
+Running the tests in 'tests/run-all.R' failed.
+Last 13 lines of output:
+  Loading required package: igraph
+  
+  Attaching package: 'igraph'
+  
+  The following object is masked from 'package:evd':
+  
+      clusters
+  
+  Loading required package: DiceKriging
+  > 
+  > test_package("fanovaGraph")
+  Error: No tests found for fanovaGraph
+  Execution halted

@@ -1,0 +1,105 @@
+* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/FastImputation.Rcheck'
+* using R version 3.0.2 (2013-09-25)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'FastImputation/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'FastImputation' version '1.2'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'FastImputation' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... ERROR
+Running examples in 'FastImputation-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: FastImputation
+> ### Title: Use the pattern learned from the training data to impute (fill
+> ###   in good guesses for) missing values.
+> ### Aliases: FastImputation
+> 
+> ### ** Examples
+> 
+> data(FItrain)   # provides FItrain dataset
+> patterns <- TrainFastImputation(FItrain)
+> 
+> data(FItest)
+> FItest          # note there is missing data
+      cust.id order.id is.fraud customer.age.yrs spent.days.0to2
+10001    2376    10001        1         13.27703              NA
+10002    2376    10002        1         26.86879            7.95
+10003    2376    10003        0         13.29263            0.08
+10004    2376    10004        1               NA            0.00
+10005    2376    10005        1         20.76693            0.45
+10006    2376    10006        0         20.83466            0.00
+10007    2377    10007        1         17.84906            1.32
+10008    2198    10008        0         16.92020            1.33
+10009    2378    10009        0         17.38457          205.00
+10010    2378    10010        0         17.70023              NA
+      spent.days.3to10 spent.days.11to30 geo.ip.fraud.rate account.age.days
+10001             0.00              0.00         0.7535829              305
+10002             0.24              1.71         0.4094864              193
+10003               NA              0.01                NA              249
+10004             0.00              5.30                NA              112
+10005             0.99              0.09         0.6869650              184
+10006             0.01                NA         0.7327991              379
+10007             0.00                NA         0.5197101               99
+10008             6.21                NA         0.5414169              119
+10009               NA              4.79         0.8924136               NA
+10010             1.83              2.24                NA               NA
+      days.to.first.purchase
+10001                    332
+10002                      8
+10003                     48
+10004                     45
+10005                     64
+10006                      5
+10007                      1
+10008                     NA
+10009                     13
+10010                      9
+> imputed.data <- FastImputation(FItest, patterns)
+
+  |                                                                            
+  |                                                                      |   0%Error in solve.default(a = patterns$FI.covariance[known.cols, known.cols],  : 
+  system is computationally singular: reciprocal condition number = 0
+Calls: FastImputation -> solve -> solve.default
+Execution halted

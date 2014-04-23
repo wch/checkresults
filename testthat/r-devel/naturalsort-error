@@ -1,0 +1,16 @@
+naturalsort *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  'citation()' on how to cite R or R packages in publications.
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > if (require(testthat)) {
+  +    library(naturalsort)
+  +    test_package("naturalsort")
+  + }
+  Loading required package: testthat
+  Error: No tests found for naturalsort
+  Execution halted

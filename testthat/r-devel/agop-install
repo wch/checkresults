@@ -1,0 +1,20 @@
+* installing *source* package 'agop' ...
+** package 'agop' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c agop.cpp -o agop.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c agops_classical.cpp -o agops_classical.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c agops_impact.cpp -o agops_impact.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c preorders.cpp -o preorders.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c prepare_arg.cpp -o prepare_arg.o
+g++ -shared -o agop.so agop.o agops_classical.o agops_impact.o preorders.o prepare_arg.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/agop.Rcheck/agop/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'agop-Tutorial.Rnw' 
+** testing if installed package can be loaded
+* DONE (agop)
