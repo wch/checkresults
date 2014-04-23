@@ -1,0 +1,18 @@
+freqweights *  checking examples ... ERROR
+Running examples in 'freqweights-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: biglmfreq
+> ### Title: Estimates the coefficients of a linear model
+> ### Aliases: biglmfreq coef.biglmfreq predict.biglmfreq print.biglmfreq
+> ###   update.biglmfreq
+> 
+> ### ** Examples
+> 
+> ml <- lm(Sepal.Length ~ Sepal.Width, iris)
+> tt <- tablefreq(iris[,c("Sepal.Length","Sepal.Width")])
+Error in (mat - 1L) %>% combs : 
+  RHS appears to be a function name, but it cannot be found.
+Calls: tablefreq -> id -> %>%
+Execution halted
