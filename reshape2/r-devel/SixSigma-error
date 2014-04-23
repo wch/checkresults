@@ -1,0 +1,6 @@
+SixSigma *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [14s/14s]Examples with CPU or elapsed time > 5s
+          user system elapsed
+SixSigma 5.132  0.036   5.166

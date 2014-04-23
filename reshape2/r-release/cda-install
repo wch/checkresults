@@ -1,0 +1,23 @@
+* installing *source* package 'cda' ...
+** package 'cda' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c array.cpp -o array.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c cd.cpp -o cd.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c cda.cpp -o cda.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c dispersion.cpp -o dispersion.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c internals.cpp -o internals.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
+gfortran   -fpic  -g -O2  -c zgels.f -o zgels.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o cda.so array.o cd.o cda.o dispersion.o internals.o utils.o zgels.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpY5vHLb/check_cran3bbb5d12d224/cda.Rcheck/cda/libs
+** R
+** data
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (cda)

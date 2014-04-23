@@ -1,0 +1,60 @@
+* installing *source* package 'Cubist' ...
+** package 'Cubist' successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c construct.c -o construct.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c contin.c -o contin.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c discr.c -o discr.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c formrules.c -o formrules.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c formtree.c -o formtree.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c getdata.c -o getdata.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c getnames.c -o getnames.o
+getnames.c: In function 'ListAttsUsed':
+getnames.c:517:12: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c global.c -o global.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c hash.c -o hash.o
+hash.c: In function 'ht_setint':
+hash.c:245:28: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+hash.c: In function 'ht_getint':
+hash.c:299:12: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c implicitatt.c -o implicitatt.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c instance.c -o instance.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c modelfiles.c -o modelfiles.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c predict.c -o predict.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c prunetree.c -o prunetree.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c rcubist.c -o rcubist.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c redefine.c -o redefine.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c regress.c -o regress.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c rsample.c -o rsample.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c rulebasedmodels.c -o rulebasedmodels.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c rules.c -o rules.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c sample.c -o sample.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c sort.c -o sort.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c stats.c -o stats.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c strbuf.c -o strbuf.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c top.c -o top.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c trees.c -o trees.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c update.c -o update.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utility.c -o utility.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DNDEBUG    -ffloat-store -g -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c xval.c -o xval.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o Cubist.so construct.o contin.o discr.o formrules.o formtree.o getdata.o getnames.o global.o hash.o implicitatt.o instance.o modelfiles.o predict.o prunetree.o rcubist.o redefine.o regress.o rsample.o rulebasedmodels.o rules.o sample.o sort.o stats.o strbuf.o top.o trees.o update.o utility.o xval.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpY5vHLb/check_cran3bbb5d12d224/Cubist.Rcheck/Cubist/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (Cubist)

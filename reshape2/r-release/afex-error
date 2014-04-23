@@ -1,0 +1,7 @@
+afex *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [19s/19s]Examples with CPU or elapsed time > 5s
+       user system elapsed
+mixed 5.949  0.016   5.967
+WARNING: There was 1 warning.

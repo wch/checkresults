@@ -1,0 +1,4 @@
+SixSigma *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [11s/12s]* checking for unstated dependencies in tests ... OK

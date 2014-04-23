@@ -1,0 +1,26 @@
+* installing *source* package 'rpf' ...
+** package 'rpf' successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -Wall -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c diagnose.c -o diagnose.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -Wall -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c glue.c -o glue.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -Wall -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c libifa-rpf.c -o libifa-rpf.o
+libifa-rpf.c:70:15: warning: 'lognormal_pdf' defined but not used [-Wunused-function]
+libifa-rpf.c:80:15: warning: 'lognormal_gradient' defined but not used [-Wunused-function]
+libifa-rpf.c:97:15: warning: 'logitnormal_pdf' defined but not used [-Wunused-function]
+libifa-rpf.c:107:15: warning: 'logitnormal_gradient' defined but not used [-Wunused-function]
+libifa-rpf.c:383:1: warning: 'irt_rpf_1dim_drm_dTheta' defined but not used [-Wunused-function]
+libifa-rpf.c:968:1: warning: 'pda' defined but not used [-Wunused-function]
+libifa-rpf.c:1165:13: warning: 'noop' defined but not used [-Wunused-function]
+ccache gcc -shared -L/usr/local/lib -o rpf.so diagnose.o glue.o libifa-rpf.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/rpf.Rcheck/rpf/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (rpf)

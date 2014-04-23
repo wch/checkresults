@@ -1,0 +1,17 @@
+* installing *source* package 'lda' ...
+** package 'lda' successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c gibbs.c -o gibbs.o
+gibbs.c: In function 'dv_update':
+gibbs.c:26:1: warning: control reaches end of non-void function [-Wreturn-type]
+ccache gcc -shared -L/usr/local/lib -o lda.so gibbs.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/lda.Rcheck/lda/libs
+** R
+** data
+** demo
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (lda)

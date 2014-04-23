@@ -1,0 +1,12 @@
+* installing *source* package 'ggplot2' ...
+** package 'ggplot2' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (ggplot2)

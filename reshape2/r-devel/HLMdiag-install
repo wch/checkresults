@@ -1,0 +1,25 @@
+* installing *source* package 'HLMdiag' ...
+** package 'HLMdiag' successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c cooksd_obs.cpp -o cooksd_obs.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c cooksd_subset.cpp -o cooksd_subset.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c covratio.cpp -o covratio.o
+covratio.cpp: In function 'SEXPREC* covratioCalc(SEXP, SEXP, SEXP, SEXP, SEXP)':
+covratio.cpp:13:25: warning: unused variable 'p' [-Wunused-variable]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c covtrace.cpp -o covtrace.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c linear_algebra_fnc.cpp -o linear_algebra_fnc.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c mdffits_subset.cpp -o mdffits_subset.o
+ccache g++ -shared -L/usr/local/lib -o HLMdiag.so cooksd_obs.o cooksd_subset.o covratio.o covtrace.o linear_algebra_fnc.o mdffits_subset.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/HLMdiag.Rcheck/HLMdiag/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Creating a generic function from function 'adjust_lmList' in package 'HLMdiag'
+Creating a generic function for 'lmList' from package 'lme4' in package 'HLMdiag'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (HLMdiag)

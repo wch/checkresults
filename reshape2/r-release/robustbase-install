@@ -1,0 +1,29 @@
+* installing *source* package 'robustbase' ...
+** package 'robustbase' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c R-rng4ftn.c -o R-rng4ftn.o
+gfortran   -fpic  -g -O2  -c eigen.f -o eigen.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c lmrob.c -o lmrob.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c mc.c -o mc.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c qn_sn.c -o qn_sn.o
+gfortran   -fpic  -g -O2  -c rf-common.f -o rf-common.o
+gfortran   -fpic  -g -O2  -c rffastmcd.f -o rffastmcd.o
+gfortran   -fpic  -g -O2  -c rfltsreg.f -o rfltsreg.o
+gfortran   -fpic  -g -O2  -c rllarsbi.f -o rllarsbi.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c wgt_himed.c -o wgt_himed.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o robustbase.so R-rng4ftn.o eigen.o init.o lmrob.o mc.o qn_sn.o rf-common.o rffastmcd.o rfltsreg.o rllarsbi.o wgt_himed.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpY5vHLb/check_cran3bbb5d12d224/robustbase.Rcheck/robustbase/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function from function 'chgDefaults' in package 'robustbase'
+Creating a generic function for 'plot' from package 'graphics' in package 'robustbase'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (robustbase)

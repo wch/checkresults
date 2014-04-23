@@ -1,0 +1,29 @@
+* installing *source* package 'robustbase' ...
+** package 'robustbase' successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c R-rng4ftn.c -o R-rng4ftn.o
+ccache gfortran   -fpic  -g -O2  -c eigen.f -o eigen.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c init.c -o init.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c lmrob.c -o lmrob.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c mc.c -o mc.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c qn_sn.c -o qn_sn.o
+ccache gfortran   -fpic  -g -O2  -c rf-common.f -o rf-common.o
+ccache gfortran   -fpic  -g -O2  -c rffastmcd.f -o rffastmcd.o
+ccache gfortran   -fpic  -g -O2  -c rfltsreg.f -o rfltsreg.o
+ccache gfortran   -fpic  -g -O2  -c rllarsbi.f -o rllarsbi.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c wgt_himed.c -o wgt_himed.o
+ccache gcc -shared -L/usr/local/lib -o robustbase.so R-rng4ftn.o eigen.o init.o lmrob.o mc.o qn_sn.o rf-common.o rffastmcd.o rfltsreg.o rllarsbi.o wgt_himed.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/robustbase.Rcheck/robustbase/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function from function 'chgDefaults' in package 'robustbase'
+Creating a generic function for 'plot' from package 'graphics' in package 'robustbase'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (robustbase)

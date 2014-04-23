@@ -1,0 +1,93 @@
+heplots *  checking examples ... ERROR
+Running examples in 'heplots-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: Adopted
+> ### Title: Adopted Children
+> ### Aliases: Adopted
+> ### Keywords: datasets
+> 
+> ### ** Examples
+> 
+> ## Don't show: 
+> 	# allow to work with car 1
+> 	if (packageDescription("car")[["Version"]] < 2) {
++ 		dataEllipse <- data.ellipse
++ 		linearHypothesis <- linear.hypothesis
++ 	}
+> ## End Don't show
+> # Treat as multivariate regression problem
+> Adopted.mod <- lm(cbind(Age2IQ, Age4IQ, Age8IQ, Age13IQ) ~ AMED + BMIQ, data=Adopted)
+> Adopted.mod
+
+Call:
+lm(formula = cbind(Age2IQ, Age4IQ, Age8IQ, Age13IQ) ~ AMED + 
+    BMIQ, data = Adopted)
+
+Coefficients:
+             Age2IQ     Age4IQ     Age8IQ     Age13IQ  
+(Intercept)  117.63046   93.33771   88.03739   76.84827
+AMED          -0.44136   -0.02073   -0.01216   -0.16063
+BMIQ           0.04001    0.22172    0.30961    0.36747
+
+> 
+> # test overall multivariate regression
+> linearHypothesis(Adopted.mod, c("AMED","BMIQ"))
+
+Sum of squares and products for the hypothesis:
+          Age2IQ    Age4IQ    Age8IQ   Age13IQ
+Age2IQ  118.3111  123.1252  168.2407  231.7826
+Age4IQ  123.1252  763.3184 1066.4332 1260.8390
+Age8IQ  168.2407 1066.4332 1490.0603 1760.4299
+Age13IQ 231.7826 1260.8390 1760.4299 2090.8328
+
+Sum of squares and products for error:
+           Age2IQ   Age4IQ   Age8IQ   Age13IQ
+Age2IQ  10242.157 5137.843 5000.888  3430.234
+Age4IQ   5137.843 9561.649 5929.696  5316.677
+Age8IQ   5000.888 5929.696 9875.424  8141.506
+Age13IQ  3430.234 5316.677 8141.506 12312.409
+
+Multivariate Tests: 
+                 Df test stat approx F num Df den Df   Pr(>F)  
+Pillai            2 0.1964576 1.552235      8    114 0.147134  
+Wilks             2 0.8065020 1.589253      8    112 0.135846  
+Hotelling-Lawley  2 0.2362528 1.624238      8    110 0.125939  
+Roy               2 0.2195371 3.128404      4     57 0.021426 *
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> 
+> # show separate linear regressions
+> op <- par(mfcol=c(2,4), mar=c(4,4,2,2)+.1)
+> for (i in 3:6) {
++ 	dataEllipse(as.matrix(Adopted[,c(1,i)]),col="black", levels=0.68, ylim=c(70,140))
++ 	abline(lm(Adopted[,i] ~ Adopted[,1]), col="red", lwd=2)
++ 	dataEllipse(as.matrix(Adopted[,c(2,i)]),col="black", levels=0.68, ylim=c(70,140))
++ 	abline(lm(Adopted[,i] ~ Adopted[,2]), col="red", lwd=2)
++ 	abline(a=0,b=1, lty=1, col="blue")
++ }
+> par(op)
+> 
+> # between-S (MMReg) plots
+> heplot(Adopted.mod, hypotheses=list("Reg"=c("AMED", "BMIQ")),
++ 	main="IQ scores of adopted children: MMReg")
+> 
+> pairs(Adopted.mod, hypotheses=list("Reg"=c("AMED", "BMIQ")))
+> 
+> heplot3d(Adopted.mod, hypotheses=list("Reg"=c("AMED", "BMIQ")),
++ 	col = c("red", "blue", "black", "gray"), wire=FALSE)
+Loading required package: rgl
+Warning in rgl.init(initValue, onlyNULL) :
+  RGL: unable to open X11 display
+Warning in fun(libname, pkgname) : error in rgl_init
+
+Attaching package: 'rgl'
+
+The following object is masked from 'package:car':
+
+    identify3d
+
+Error in rgl.open(useNULL) : rgl.open failed
+Calls: heplot3d -> heplot3d.mlm -> open3d -> rgl.open
+Execution halted

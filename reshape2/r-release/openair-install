@@ -1,0 +1,17 @@
+* installing *source* package 'openair' ...
+** package 'openair' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c cluster.cpp -o cluster.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c rolling.cpp -o rolling.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o openair.so cluster.o rolling.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpY5vHLb/check_cran3bbb5d12d224/openair.Rcheck/openair/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (openair)

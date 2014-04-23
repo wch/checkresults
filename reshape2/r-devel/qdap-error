@@ -1,0 +1,14 @@
+qdap *  checking running R code from vignettes ... [169s/167s] WARNING
+Errors in running code in vignettes:
+when running code in 'qdap_vignette.Rmd'
+  ...
+
+
+> plot(pres, corThreshold = 0.8)
+Loading required package: Rgraphviz
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'Rgraphviz'
+
+  When sourcing 'qdap_vignette.R':
+Error: could not find (bioconductor.org) Rgraphviz package
+Execution halted

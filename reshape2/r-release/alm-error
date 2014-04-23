@@ -1,0 +1,16 @@
+alm *  checking tests ... ERROR
+Running the tests in 'tests/test-all.R' failed.
+Last 13 lines of output:
+  almtotals : ..
+  plot_signposts : No id variables; using all as measure variables
+  Using doi as id variables
+  ..........
+  signposts : .......
+  
+  
+  1. Failure(@test-almevents.R#15): almevents returns the correct dimensions -----
+  nrow(out[["pmc"]]) not equal to 25
+  Mean relative difference: 0.08
+  
+  Error: Test failures
+  Execution halted

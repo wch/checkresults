@@ -1,0 +1,26 @@
+NMF *  checking examples ... ERROR
+Running examples in 'NMF-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: esGolub
+> ### Title: Golub ExpressionSet
+> ### Aliases: esGolub
+> ### Keywords: datasets
+> 
+> ### ** Examples
+> 
+> ## Don't show: 
+> # roxygen generated flag
+> options(R_CHECK_RUNNING_EXAMPLES_=TRUE)
+> ## End Don't show
+> 
+> data(esGolub)
+> esGolub
+Loading required package: Biobase
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'Biobase'
+Error in .requirePackage(package) : 
+  unable to find required package 'Biobase'
+Calls: <Anonymous> ... .findInheritedMethods -> getClass -> getClassDef -> .requirePackage
+Execution halted

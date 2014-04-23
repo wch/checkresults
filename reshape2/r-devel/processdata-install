@@ -1,0 +1,19 @@
+* installing *source* package 'processdata' ...
+** package 'processdata' successfully unpacked and MD5 sums checked
+** R
+** data
+** demo
+** inst
+** preparing package for lazy loading
+in method for 'continuousProcess' with signature '"factor.frame"': no definition for class "factor.frame"
+Creating a generic function for 'subset' from package 'base' in package 'processdata'
+Creating a generic function for 'plot' from package 'graphics' in package 'processdata'
+Creating a generic function for 'summary' from package 'base' in package 'processdata'
+in method for 'markedPointProcess' with signature '"data.frame","factor.frame"': no definition for class "factor.frame"
+Creating a generic function for 'object.size' from package 'utils' in package 'processdata'
+Creating a generic function for 'str' from package 'utils' in package 'processdata'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (processdata)

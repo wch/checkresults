@@ -1,0 +1,39 @@
+* installing *source* package 'cplm' ...
+** package 'cplm' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c bcplm.c -o bcplm.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c cpglmm.c -o cpglmm.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c local_stubs.c -o local_stubs.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c mh.c -o mh.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c tweedie.c -o tweedie.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utilities.c -o utilities.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o cplm.so bcplm.o cpglmm.o init.o local_stubs.o mh.o tweedie.o utilities.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpY5vHLb/check_cran3bbb5d12d224/cplm.Rcheck/cplm/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'terms' from package 'stats' in package 'cplm'
+Creating a generic function for 'model.matrix' from package 'stats' in package 'cplm'
+Creating a generic function for 'formula' from package 'stats' in package 'cplm'
+Creating a generic function for 'vcov' from package 'stats' in package 'cplm'
+Creating a generic function for 'coef' from package 'stats' in package 'cplm'
+Creating a generic function for 'residuals' from package 'stats' in package 'cplm'
+Creating a generic function for 'resid' from package 'stats' in package 'cplm'
+Creating a generic function for 'fitted' from package 'stats' in package 'cplm'
+Creating a generic function for 'deviance' from package 'stats' in package 'cplm'
+Creating a generic function for 'predict' from package 'stats' in package 'cplm'
+Creating a new generic function for 'VarCorr' in package 'cplm'
+Creating a generic function for 'fixef' from package 'nlme' in package 'cplm'
+Creating a generic function for 'plot' from package 'graphics' in package 'cplm'
+Creating a generic function for 'ranef' from package 'nlme' in package 'cplm'
+Creating a generic function for 'anova' from package 'stats' in package 'cplm'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'cplm.Rnw' using 'UTF-8' 
+** testing if installed package can be loaded
+* DONE (cplm)

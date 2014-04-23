@@ -1,0 +1,14 @@
+* installing *source* package 'OpasnetUtils' ...
+** package 'OpasnetUtils' successfully unpacked and MD5 sums checked
+** R
+** preparing package for lazy loading
+in method for 'convert.units' with signature 'x="ovariable"': no definition for class "ovariable"
+in method for 'oprint' with signature 'x="ovariable"': no definition for class "ovariable"
+Creating a generic function for 'merge' from package 'base' in package 'OpasnetUtils'
+Creating a generic function for 'plot' from package 'graphics' in package 'OpasnetUtils'
+Creating a generic function for 'summary' from package 'base' in package 'OpasnetUtils'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (OpasnetUtils)

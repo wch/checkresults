@@ -1,0 +1,5 @@
+MissingDataGUI *  checking package dependencies ... ERROR
+Package required but not available: 'cairoDevice'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

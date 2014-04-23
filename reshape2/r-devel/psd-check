@@ -1,0 +1,14 @@
+* using log directory '/mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/psd.Rcheck'
+* using R Under development (unstable) (2014-03-17 r65205)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'psd/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'psd' version '0.4-0'
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package required but not available: 'fftw'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.

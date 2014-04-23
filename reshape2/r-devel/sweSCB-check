@@ -1,0 +1,83 @@
+* using log directory '/mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/sweSCB.Rcheck'
+* using R Under development (unstable) (2014-03-17 r65205)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'sweSCB/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'sweSCB' version '0.3'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'sweSCB' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... ERROR
+Running examples in 'sweSCB-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: scbGetData
+> ### Title: Get data from a bottom node in SCB API
+> ### Aliases: scbGetData
+> 
+> ### ** Examples
+> 
+> ## CONTINUED FROM EXAMPLES IN scbGetMetadata()
+> # Get metadata for a variable
+> url <- paste(c(baseURL(),"AM","AM0102","AM0102A","KLStabell14LpMan"), collapse="/")
+> metadata <- scbGetMetadata(url)
+> 
+> # Get dimensions (names of dimensions are printed in the terminal)
+> dims <- scbGetDims(metadata)
+Title: 
+ Genomsnittlig m<U+00E5>nadsl<U+00F6>n f<U+00F6>r m<U+00E5>nadsavl<U+00F6>nade samt antal sysselsatta inom statlig sektor (KLS) efter myndighet, k<U+00F6>n, hel-/deltid, tabellinneh<U+00E5>ll och m<U+00E5>nad 
+Names: 
+ Myndighet Kon Heltiddeltid ContentsCode Tid 
+> 
+> # Get data
+> test <- scbGetData(metadata$URL, dims=list(
++    Myndighet = "C02",
++    Kon = "*",
++    Heltiddeltid = "*",
++    ContentsCode = "*",
++    Tid = "*"
++ ))
+> 
+> # Examine data
+> View(test)
+Warning in View(test) : unable to open display
+Error in .External2(C_dataviewer, x, title) : invalid device
+Calls: View
+Execution halted

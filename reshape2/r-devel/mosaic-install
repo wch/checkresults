@@ -1,0 +1,18 @@
+* installing *source* package 'mosaic' ...
+** package 'mosaic' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** preparing package for lazy loading
+Creating a new generic function for 'binom.test' in package 'mosaic'
+Creating a generic function for 'print' from package 'base' in package 'mosaic'
+in method for 'makeFun' with signature '"nls"': no definition for class "nls"
+Creating a new generic function for 'prop.test' in package 'mosaic'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (mosaic)

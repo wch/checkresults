@@ -1,0 +1,111 @@
+* using log directory '/mnt/tmp/RtmpY5vHLb/check_cran3bbb5d12d224/reshapeGUI.Rcheck'
+* using R version 3.1.0 (2014-04-10)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'reshapeGUI/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'reshapeGUI' version '0.1.0'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'reshapeGUI' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... NOTE
+Non-standard file/directory found at top level:
+  'load.r'
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+Packages in Depends field not imported from:
+  'gWidgets' 'gWidgetsRGtk2' 'plyr' 'reshape2'
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+reshapeGUI: warning in gnotebook(cont = w): partial argument match of
+  'cont' to 'container'
+reshapeGUI: warning in ggroup(cont = nb, label = "Data Selection",
+  horizontal = FALSE, expand = TRUE): partial argument match of 'cont'
+  to 'container'
+reshapeGUI: warning in ggroup(cont = p1): partial argument match of
+  'cont' to 'container'
+reshapeGUI: warning in ggroup(cont = selectionBox, expand = TRUE,
+  horizontal = FALSE): partial argument match of 'cont' to 'container'
+reshapeGUI: warning in gtable(wkspaceDfs, cont = p1wkspaceBox, expand =
+  TRUE): partial argument match of 'cont' to 'container'
+reshapeGUI: warning in ggroup(cont = p1wkspaceBox): partial argument
+  match of 'cont' to 'container'
+reshapeGUI: warning in gbutton("Refresh Workspace", cont =
+  p1wkspaceRefreshBox): partial argument match of 'cont' to 'container'
+reshapeGUI: warning in glabel("", cont = entryButtonBox): partial
+  argument match of 'cont' to 'container'
+reshapeGUI: warning in ggroup(cont = entryButtonBox): partial argument
+  match of 'cont' to 'container'
+reshapeGUI: warning in glabel("File Loading/Exporting", cont =
+  p1csvLabelBox): partial argument match of 'cont' to 'container'
+reshapeGUI: warning in gbutton("Load .csv File", cont = loadcsvBox):
+  partial argument match of 'cont' to 'container'
+reshapeGUI: warning in glabel("Object Name:", cont = loadcsvBox):
+  partial argument match of 'cont' to 'container'
+reshapeGUI: warning in gedit("newData", cont = loadcsvBox, width = 10):
+  partial argument match of 'cont' to 'container'
+reshapeGUI: warning in gcheckbox("Header?", checked = FALSE, cont =
+  loadcsvBox): partial argument match of 'cont' to 'container'
+reshapeGUI: warning in gbutton("Export to .csv File", cont =
+  p1WriteBox): partial argument match of 'cont' to 'container'
+reshapeGUI: warning in glabel("File Name:", cont = p1WriteBox): partial
+  argument match of 'cont' to 'container'
+reshapeGUI: warning in gedit("", cont = p1WriteBox, width = 15):
+  partial argument match of 'cont' to 'container'
+reshapeGUI: warning in glabel("Include Row Names?", cont = p1WriteBox):
+  partial argument match of 'cont' to 'container'
+reshapeGUI: warning in gcheckbox("", cont = p1WriteBox): partial
+  argument match of 'cont' to 'container'
+reshapeGUI: warning in glabel("Data Manipulation", cont =
+  p1ManipLabelBox): partial argument match of 'cont' to 'container'
+reshapeGUI: warning in gbutton("melt", cont = p1ManipButtonBox):
+  partial argument match of 'cont' to 'container'
+reshapeGUI: warning in gbutton("cast", cont = p1ManipButtonBox):
+  partial argument match of 'cont' to 'container'
+reshapeGUI: warning in gbutton("ddply", cont = p1ManipButtonBox):
+  partial argument match of 'cont' to 'container'
+reshapeGUI: warning in gbutton("?", cont = p1ManipButtonBox): partial
+  argument match of 'cont' to 'container'
+reshapeGUI: warning in glabel("", cont = p1ManipButtonBox): partial
+  argument match of 'cont' to 'container'
+reshapeGUI: warning in glabel("Data Preview (select data frame above)",
+  cont = p1DataLabelBox): partial argument match of 'cont' to
+  'container'
+reshapeGUI: warning in gdf(data.frame(items = TRUE), cont = p1, expand
+  = TRUE): partial argument match of 'cont' to 'container'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+NOTE: There were 3 notes.

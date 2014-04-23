@@ -1,0 +1,134 @@
+* installing *source* package 'Cubist' ...
+** package 'Cubist' successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c construct.c -o construct.o
+construct.c: In function 'AttributeUsage':
+construct.c:461:5: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c contin.c -o contin.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c discr.c -o discr.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c formrules.c -o formrules.o
+formrules.c: In function 'PruneRule':
+formrules.c:279:17: warning: variable 'Bestid' set but not used [-Wunused-but-set-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c formtree.c -o formtree.o
+formtree.c: In function 'FormTree':
+formtree.c:377:4: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c getdata.c -o getdata.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c getnames.c -o getnames.o
+getnames.c: In function 'ListAttsUsed':
+getnames.c:517:12: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c global.c -o global.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c hash.c -o hash.o
+hash.c: In function 'ht_setint':
+hash.c:245:28: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+hash.c: In function 'ht_getint':
+hash.c:299:12: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c implicitatt.c -o implicitatt.o
+implicitatt.c: In function 'ReadDefinition':
+implicitatt.c:183:2: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+implicitatt.c: In function 'Atom':
+implicitatt.c:464:9: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c instance.c -o instance.o
+instance.c: In function 'BuildIndex':
+instance.c:631:6: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+instance.c:784:7: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c modelfiles.c -o modelfiles.o
+modelfiles.c: In function 'ReadFilePrefix':
+modelfiles.c:239:10: warning: unused variable 'Head' [-Wunused-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c predict.c -o predict.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c prunetree.c -o prunetree.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rcubist.c -o rcubist.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c redefine.c -o redefine.o
+redefine.c: In function 'rbm_fgets':
+redefine.c:168:5: warning: pointer targets in passing argument 2 of 'strbuf_gets' differ in signedness [-Wpointer-sign]
+strbuf.h:28:23: note: expected 'unsigned char *' but argument is of type 'char *'
+redefine.c:168:5: warning: pointer targets in return differ in signedness [-Wpointer-sign]
+redefine.c: In function 'rbm_fprintf':
+redefine.c:177:5: warning: pointer targets in passing argument 2 of 'strbuf_vprintf' differ in signedness [-Wpointer-sign]
+strbuf.h:23:12: note: expected 'const unsigned char *' but argument is of type 'const char *'
+redefine.c: In function 'rbm_fputs':
+redefine.c:195:5: warning: pointer targets in passing argument 2 of 'strbuf_puts' differ in signedness [-Wpointer-sign]
+strbuf.h:25:12: note: expected 'const unsigned char *' but argument is of type 'const char *'
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c regress.c -o regress.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rsample.c -o rsample.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rulebasedmodels.c -o rulebasedmodels.o
+rulebasedmodels.c: In function 'initglobals':
+rulebasedmodels.c:96:5: warning: statement with no effect [-Wunused-value]
+rulebasedmodels.c:108:5: warning: statement with no effect [-Wunused-value]
+rulebasedmodels.c: In function 'closeOf':
+rulebasedmodels.c:217:9: warning: pointer targets in return differ in signedness [-Wpointer-sign]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rules.c -o rules.o
+rules.c: In function 'PrintRule':
+rules.c:352:8: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c sample.c -o sample.o
+sample.c: In function 'Ymain':
+sample.c:24:27: warning: unused variable 'Option' [-Wunused-variable]
+sample.c:21:25: warning: variable 'pval' set but not used [-Wunused-but-set-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c sort.c -o sort.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c stats.c -o stats.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c strbuf.c -o strbuf.o
+strbuf.c: In function 'strbuf_vprintf':
+strbuf.c:217:5: warning: pointer targets in passing argument 1 of 'vsnprintf' differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:391:12: note: expected 'char * restrict' but argument is of type 'unsigned char *'
+strbuf.c:217:5: warning: pointer targets in passing argument 3 of 'vsnprintf' differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:391:12: note: expected 'const char * restrict' but argument is of type 'const unsigned char *'
+strbuf.c:252:9: warning: pointer targets in passing argument 1 of 'vsnprintf' differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:391:12: note: expected 'char * restrict' but argument is of type 'unsigned char *'
+strbuf.c:252:9: warning: pointer targets in passing argument 3 of 'vsnprintf' differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:391:12: note: expected 'const char * restrict' but argument is of type 'const unsigned char *'
+strbuf.c:204:13: warning: unused variable 'ap3' [-Wunused-variable]
+strbuf.c: In function 'strbuf_puts':
+strbuf.c:280:5: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+/usr/include/string.h:399:15: note: expected 'const char *' but argument is of type 'const unsigned char *'
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c top.c -o top.o
+top.c: In function 'cubist':
+top.c:50:5: warning: pointer targets in passing argument 1 of 'strbuf_create_full' differ in signedness [-Wpointer-sign]
+strbuf.h:16:16: note: expected 'unsigned char *' but argument is of type 'char *'
+top.c:56:5: warning: pointer targets in passing argument 1 of 'strbuf_create_full' differ in signedness [-Wpointer-sign]
+strbuf.h:16:16: note: expected 'unsigned char *' but argument is of type 'char *'
+top.c:72:29: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+top.c: In function 'predictions':
+top.c:114:5: warning: pointer targets in passing argument 1 of 'strbuf_create_full' differ in signedness [-Wpointer-sign]
+strbuf.h:16:16: note: expected 'unsigned char *' but argument is of type 'char *'
+top.c:117:5: warning: pointer targets in passing argument 1 of 'strbuf_create_full' differ in signedness [-Wpointer-sign]
+strbuf.h:16:16: note: expected 'unsigned char *' but argument is of type 'char *'
+top.c:120:5: warning: pointer targets in passing argument 1 of 'strbuf_create_full' differ in signedness [-Wpointer-sign]
+strbuf.h:16:16: note: expected 'unsigned char *' but argument is of type 'char *'
+top.c:124:5: warning: pointer targets in passing argument 1 of 'strbuf_create_full' differ in signedness [-Wpointer-sign]
+strbuf.h:16:16: note: expected 'unsigned char *' but argument is of type 'char *'
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c trees.c -o trees.o
+trees.c: In function 'Show':
+trees.c:135:10: warning: operation on 'SubDef' may be undefined [-Wsequence-point]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c update.c -o update.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c utility.c -o utility.o
+utility.c: In function 'DateToDay':
+utility.c:641:5: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+utility.c:646:6: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+utility.c:650:8: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+utility.c:650:8: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+utility.c:650:8: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+utility.c: In function 'DayToDate':
+utility.c:690:3: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+utility.c:690:3: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -DNDEBUG -I/usr/local/include   -ffloat-store -g -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c xval.c -o xval.o
+ccache gcc -shared -L/usr/local/lib -o Cubist.so construct.o contin.o discr.o formrules.o formtree.o getdata.o getnames.o global.o hash.o implicitatt.o instance.o modelfiles.o predict.o prunetree.o rcubist.o redefine.o regress.o rsample.o rulebasedmodels.o rules.o sample.o sort.o stats.o strbuf.o top.o trees.o update.o utility.o xval.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/Cubist.Rcheck/Cubist/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (Cubist)

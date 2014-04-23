@@ -1,0 +1,80 @@
+* using log directory '/mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/mixstock.Rcheck'
+* using R Under development (unstable) (2014-03-17 r65205)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: ASCII
+* using option '--no-codoc'
+* checking for file 'mixstock/DESCRIPTION' ... OK
+* this is package 'mixstock' version '0.9.5.1'
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Package suggested but not available for checking: 'coefplot2'
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'mixstock' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+'library' or 'require' calls to packages already attached by Depends:
+  'abind' 'coda' 'lattice' 'plotrix'
+  Please remove these calls from your code.
+Packages in Depends field not imported from:
+  'abind' 'coda' 'plotrix'
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking sizes of PDF files under 'inst/doc' ... OK
+* checking installed files from 'inst/doc' ... OK
+* checking files in 'vignettes' ... NOTE
+The following files look like leftovers/mistakes:
+  'mixstock.bbl', 'mixstock.blg', 'mixstock.dvi', 'nmark.Rd'
+Please remove them from your package.
+* checking examples ... [23s/23s] OK
+Examples with CPU or elapsed time > 5s
+                       user system elapsed
+tmcmc                12.601  0.004  12.605
+mcmc.chainlength.est  6.156  0.020   6.190
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running 'mprior.R'
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK
+NOTE: There were 3 notes.

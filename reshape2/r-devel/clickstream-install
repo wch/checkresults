@@ -1,0 +1,13 @@
+* installing *source* package 'clickstream' ...
+** package 'clickstream' successfully unpacked and MD5 sums checked
+** R
+** byte-compile and prepare package for lazy loading
+Creating a generic function for 'print' from package 'base' in package 'clickstream'
+Creating a generic function for 'summary' from package 'base' in package 'clickstream'
+Creating a generic function for 'plot' from package 'graphics' in package 'clickstream'
+Creating a generic function for 'predict' from package 'stats' in package 'clickstream'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (clickstream)

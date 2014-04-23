@@ -1,0 +1,24 @@
+* installing *source* package 'quadrupen' ...
+** package 'quadrupen' successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c bounded_reg.cpp -o bounded_reg.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c elastic_net.cpp -o elastic_net.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c first_order.cpp -o first_order.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c quadratic.cpp -o quadratic.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o quadrupen.so bounded_reg.o elastic_net.o first_order.o quadratic.o utils.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpY5vHLb/check_cran3bbb5d12d224/quadrupen.Rcheck/quadrupen/libs
+** R
+** demo
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'plot' from package 'graphics' in package 'quadrupen'
+Creating a generic function for 'fitted' from package 'stats' in package 'quadrupen'
+Creating a generic function for 'predict' from package 'stats' in package 'quadrupen'
+Creating a generic function for 'residuals' from package 'stats' in package 'quadrupen'
+Creating a generic function for 'deviance' from package 'stats' in package 'quadrupen'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (quadrupen)

@@ -1,0 +1,21 @@
+* installing *source* package 'ChainLadder' ...
+** package 'ChainLadder' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'predict' from package 'stats' in package 'ChainLadder'
+Creating a generic function for 'coef' from package 'stats' in package 'ChainLadder'
+Creating a generic function for 'vcov' from package 'stats' in package 'ChainLadder'
+Creating a generic function for 'residuals' from package 'stats' in package 'ChainLadder'
+Creating a generic function for 'resid' from package 'stats' in package 'ChainLadder'
+Creating a generic function for 'fitted' from package 'stats' in package 'ChainLadder'
+Creating a generic function for 'plot' from package 'graphics' in package 'ChainLadder'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (ChainLadder)

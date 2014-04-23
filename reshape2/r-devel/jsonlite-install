@@ -1,0 +1,211 @@
+* installing *source* package 'jsonlite' ...
+** package 'jsonlite' successfully unpacked and MD5 sums checked
+Trying to find libjson.h header file
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+USE_LOCAL = ""
+Minor Version: 6
+Using local libjson code. Copying files from src/libjson/Source
+/mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/jsonlite.Rcheck/00_pkg_src/jsonlite
+JSONAllocator.cpp
+JSONChildren.cpp
+JSONDebug.cpp
+JSONIterators.cpp
+JSONMemory.cpp
+JSONNode.cpp
+JSONNode_Mutex.cpp
+JSONPreparse.cpp
+JSONStream.cpp
+JSONValidator.cpp
+JSONWorker.cpp
+JSONWriter.cpp
+internalJSONNode.cpp
+libjson.cpp
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c ConvertUTF.c -o ConvertUTF.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONAllocator.cpp -o JSONAllocator.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONChildren.cpp -o JSONChildren.o
+In file included from libjson/Source/internalJSONNode.h:12:0,
+                 from libjson/Source/JSONNode.h:5,
+                 from JSONChildren.cpp:2:
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string()':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:180:9: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string(const json_string&)':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:182:9: warning:   when initialized here [-Wreorder]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONDebug.cpp -o JSONDebug.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONIterators.cpp -o JSONIterators.o
+In file included from libjson/Source/internalJSONNode.h:12:0,
+                 from libjson/Source/JSONNode.h:5,
+                 from JSONIterators.cpp:1:
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string()':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:180:9: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string(const json_string&)':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:182:9: warning:   when initialized here [-Wreorder]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONMemory.cpp -o JSONMemory.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONNode.cpp -o JSONNode.o
+In file included from libjson/Source/internalJSONNode.h:12:0,
+                 from libjson/Source/JSONNode.h:5,
+                 from JSONNode.cpp:1:
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string()':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:180:9: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string(const json_string&)':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:182:9: warning:   when initialized here [-Wreorder]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONNode_Mutex.cpp -o JSONNode_Mutex.o
+In file included from libjson/Source/internalJSONNode.h:12:0,
+                 from libjson/Source/JSONNode.h:5,
+                 from JSONNode_Mutex.cpp:1:
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string()':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:180:9: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string(const json_string&)':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:182:9: warning:   when initialized here [-Wreorder]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONPreparse.cpp -o JSONPreparse.o
+In file included from libjson/Source/internalJSONNode.h:12:0,
+                 from libjson/Source/JSONNode.h:5,
+                 from libjson/Source/JSONPreparse.h:5,
+                 from JSONPreparse.cpp:10:
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string()':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:180:9: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string(const json_string&)':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:182:9: warning:   when initialized here [-Wreorder]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONStream.cpp -o JSONStream.o
+In file included from libjson/Source/internalJSONNode.h:12:0,
+                 from libjson/Source/JSONNode.h:5,
+                 from libjson/Source/JSONWorker.h:4,
+                 from JSONStream.cpp:4:
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string()':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:180:9: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string(const json_string&)':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:182:9: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONStream.h: In constructor 'JSONStream::JSONStream(json_stream_callback_t, json_stream_e_callback_t, void*)':
+libjson/Source/JSONStream.h:79:7: warning: 'JSONStream::state' will be initialized after [-Wreorder]
+libjson/Source/JSONStream.h:76:28: warning:   'void (* JSONStream::call)(void*, void*)' [-Wreorder]
+JSONStream.cpp:8:1: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONStream.h:77:27: warning: 'JSONStream::err_call' will be initialized after [-Wreorder]
+libjson/Source/JSONStream.h:75:17: warning:   'json_string JSONStream::buffer' [-Wreorder]
+JSONStream.cpp:8:1: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONStream.h: In copy constructor 'JSONStream::JSONStream(const JSONStream&)':
+libjson/Source/JSONStream.h:79:7: warning: 'JSONStream::state' will be initialized after [-Wreorder]
+libjson/Source/JSONStream.h:76:28: warning:   'void (* JSONStream::call)(void*, void*)' [-Wreorder]
+JSONStream.cpp:12:1: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONStream.h:77:27: warning: 'JSONStream::err_call' will be initialized after [-Wreorder]
+libjson/Source/JSONStream.h:75:17: warning:   'json_string JSONStream::buffer' [-Wreorder]
+JSONStream.cpp:12:1: warning:   when initialized here [-Wreorder]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONValidator.cpp -o JSONValidator.o
+JSONValidator.cpp: In static member function 'static bool JSONValidator::isValidNumber(const char*&)':
+JSONValidator.cpp:101:9: warning: range expressions in switch statements are non-standard [-pedantic]
+JSONValidator.cpp:159:9: warning: range expressions in switch statements are non-standard [-pedantic]
+JSONValidator.cpp:178:5: warning: range expressions in switch statements are non-standard [-pedantic]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONWorker.cpp -o JSONWorker.o
+In file included from libjson/Source/internalJSONNode.h:12:0,
+                 from libjson/Source/JSONNode.h:5,
+                 from libjson/Source/JSONWorker.h:4,
+                 from JSONWorker.cpp:1:
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string()':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:180:9: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string(const json_string&)':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:182:9: warning:   when initialized here [-Wreorder]
+JSONWorker.cpp: In static member function 'static void JSONWorker::SpecialChar(const char*&, const char*, json_string&)':
+JSONWorker.cpp:394:5: warning: range expressions in switch statements are non-standard [-pedantic]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c JSONWriter.cpp -o JSONWriter.o
+In file included from libjson/Source/internalJSONNode.h:12:0,
+                 from libjson/Source/JSONNode.h:5,
+                 from JSONWriter.cpp:1:
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string()':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:180:9: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string(const json_string&)':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:182:9: warning:   when initialized here [-Wreorder]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c JSON_parser.c -o JSON_parser.o
+JSON_parser.c: In function 'parse_parse_buffer':
+JSON_parser.c:459:5: warning: variable 'ok' set but not used [-Wunused-but-set-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c RJSON.c -o RJSON.o
+RJSON.c: In function 'R_readFromJSON':
+RJSON.c:78:18: warning: ISO C forbids conversion of object pointer to function pointer type [-pedantic]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c base64.c -o base64.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c internalJSONNode.cpp -o internalJSONNode.o
+In file included from libjson/Source/internalJSONNode.h:12:0,
+                 from internalJSONNode.cpp:1:
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string()':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:180:9: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string(const json_string&)':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:182:9: warning:   when initialized here [-Wreorder]
+libjson/Source/internalJSONNode.h: In constructor 'internalJSONNode::internalJSONNode(const json_string&, const json_string&)':
+libjson/Source/internalJSONNode.h:258:18: warning: 'internalJSONNode::_name_encoded' will be initialized after [-Wreorder]
+libjson/Source/internalJSONNode.h:257:17: warning:   'json_string internalJSONNode::_name' [-Wreorder]
+internalJSONNode.cpp:78:1: warning:   when initialized here [-Wreorder]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c libjson.cpp -o libjson.o
+In file included from libjson/Source/internalJSONNode.h:12:0,
+                 from libjson/Source/JSONNode.h:5,
+                 from libjson.cpp:11:
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string()':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:180:9: warning:   when initialized here [-Wreorder]
+libjson/Source/JSONSharedString.h: In constructor 'json_shared_string::json_shared_string(const json_string&)':
+libjson/Source/JSONSharedString.h:297:17: warning: 'json_shared_string::len' will be initialized after [-Wreorder]
+libjson/Source/JSONSharedString.h:295:40: warning:   'json_shared_string::json_shared_string_internal* json_shared_string::_str' [-Wreorder]
+libjson/Source/JSONSharedString.h:182:9: warning:   when initialized here [-Wreorder]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rlibjson.c -o rlibjson.o
+rlibjson.c: In function 'processJSONNode':
+rlibjson.c:145:12: warning: ISO C forbids conversion of object pointer to function pointer type [-pedantic]
+rlibjson.c:150:12: warning: ISO C forbids conversion of object pointer to function pointer type [-pedantic]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjson/Source -DNEW_JSON_NEW_STREAM -DNDEBUG=1 -DJSON_LIBRARY=1  -DJSON_ISO_STRICT -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rparser.c -o rparser.o
+rparser.c: In function 'R_json_parser_init_from_con':
+rparser.c:153:18: warning: ISO C forbids assignment between function pointer and 'void *' [-pedantic]
+rparser.c: In function 'R_json_parser_test_stream_chunk':
+rparser.c:304:9: warning: unused variable 'count' [-Wunused-variable]
+ccache g++ -shared -L/usr/local/lib -o jsonlite.so ConvertUTF.o JSONAllocator.o JSONChildren.o JSONDebug.o JSONIterators.o JSONMemory.o JSONNode.o JSONNode_Mutex.o JSONPreparse.o JSONStream.o JSONValidator.o JSONWorker.o JSONWriter.o JSON_parser.o RJSON.o base64.o internalJSONNode.o libjson.o rlibjson.o rparser.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/jsonlite.Rcheck/jsonlite/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (jsonlite)

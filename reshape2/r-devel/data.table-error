@@ -1,0 +1,16 @@
+data.table *  checking tests ... ERROR
+Running the tests in 'tests/tests.R' failed.
+Last 13 lines of output:
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  > require(data.table)
+  Loading required package: data.table
+  > options(warn=2)
+  > test.data.table()
+  Running /mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/data.table.Rcheck/data.table/tests/tests.Rraw 
+  Error in parse(n = -1, file = file, srcfile = NULL, keep.source = FALSE) : 
+    (converted from warning) invalid input found on input connection '/mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/data.table.Rcheck/data.table/tests/tests.Rraw'
+  Calls: test.data.table -> sys.source -> parse
+  Execution halted

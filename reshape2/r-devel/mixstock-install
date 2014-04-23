@@ -1,0 +1,25 @@
+* installing *source* package 'mixstock' ...
+** package 'mixstock' successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c newrand.c -o newrand.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c turtle-funs.c -o turtle-funs.o
+turtle-funs.c: In function 'loglik2wrap':
+turtle-funs.c:323:4: warning: value computed is not used [-Wunused-value]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c turtle-gibbs.c -o turtle-gibbs.o
+turtle-gibbs.c: In function 'gibbswrap':
+turtle-gibbs.c:62:12: warning: variable 'nvars' set but not used [-Wunused-but-set-variable]
+turtle-gibbs.c:62:7: warning: variable 'npts' set but not used [-Wunused-but-set-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c utils.c -o utils.o
+ccache gcc -shared -L/usr/local/lib -o mixstock.so newrand.o turtle-funs.o turtle-gibbs.o utils.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/mixstock.Rcheck/mixstock/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'mixstock.Rnw' 
+** testing if installed package can be loaded
+* DONE (mixstock)

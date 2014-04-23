@@ -1,0 +1,116 @@
+* installing *source* package 'extracat' ...
+** package 'extracat' successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c optile.c -o optile.o
+optile.c: In function 'diagprod':
+optile.c:126:10: warning: unused variable 'k' [-Wunused-variable]
+optile.c: In function 'mvclasscrit2':
+optile.c:208:20: warning: unused variable 's' [-Wunused-variable]
+optile.c:208:11: warning: unused variable 'j' [-Wunused-variable]
+optile.c:208:8: warning: unused variable 'ix' [-Wunused-variable]
+optile.c: In function 'dcorD':
+optile.c:386:9: warning: unused variable 'i2' [-Wunused-variable]
+optile.c: In function 'dcorR':
+optile.c:470:9: warning: unused variable 'i2' [-Wunused-variable]
+optile.c: In function 'MEsimple':
+optile.c:579:10: warning: unused variable 'k' [-Wunused-variable]
+optile.c: In function 'barysort':
+optile.c:735:6: warning: unused variable 'no2' [-Wunused-variable]
+optile.c:734:6: warning: unused variable 'no' [-Wunused-variable]
+optile.c:722:10: warning: unused variable 'IXp' [-Wunused-variable]
+optile.c:700:29: warning: unused variable 'cd' [-Wunused-variable]
+optile.c:700:25: warning: unused variable 'rd' [-Wunused-variable]
+optile.c:700:21: warning: unused variable 'kj' [-Wunused-variable]
+optile.c:700:17: warning: unused variable 'ki' [-Wunused-variable]
+optile.c:700:13: warning: unused variable 'j2' [-Wunused-variable]
+optile.c:700:10: warning: unused variable 'i2' [-Wunused-variable]
+optile.c: In function 'barysort2':
+optile.c:967:6: warning: unused variable 'no2' [-Wunused-variable]
+optile.c:966:6: warning: unused variable 'no' [-Wunused-variable]
+optile.c:953:10: warning: unused variable 'IXp' [-Wunused-variable]
+optile.c:921:29: warning: unused variable 'cd' [-Wunused-variable]
+optile.c:921:25: warning: unused variable 'rd' [-Wunused-variable]
+optile.c:921:21: warning: unused variable 'kj' [-Wunused-variable]
+optile.c:921:17: warning: unused variable 'ki' [-Wunused-variable]
+optile.c:921:13: warning: unused variable 'j2' [-Wunused-variable]
+optile.c:921:10: warning: unused variable 'i2' [-Wunused-variable]
+optile.c: In function 'getclust':
+optile.c:1217:6: warning: variable 'rord' set but not used [-Wunused-but-set-variable]
+optile.c:1216:6: warning: variable 'cord' set but not used [-Wunused-but-set-variable]
+optile.c: In function 'mvhammcrit':
+optile.c:1429:20: warning: unused variable 's' [-Wunused-variable]
+optile.c:1429:11: warning: unused variable 'j' [-Wunused-variable]
+optile.c:1429:8: warning: unused variable 'ix' [-Wunused-variable]
+optile.c: In function 'classcrit':
+optile.c:1530:8: warning: unused variable 'j' [-Wunused-variable]
+optile.c: In function 'mvclass':
+optile.c:1577:10: warning: unused variable 't' [-Wunused-variable]
+optile.c:1577:6: warning: unused variable 'r' [-Wunused-variable]
+optile.c: In function 'preclass':
+optile.c:1833:23: warning: unused variable 's2t' [-Wunused-variable]
+optile.c:1833:18: warning: unused variable 's1t' [-Wunused-variable]
+optile.c:1791:17: warning: variable 'oldcrit' set but not used [-Wunused-but-set-variable]
+optile.c:1747:28: warning: unused variable 'tmp' [-Wunused-variable]
+optile.c:1747:24: warning: unused variable 'kk' [-Wunused-variable]
+optile.c:1747:21: warning: unused variable 'jj' [-Wunused-variable]
+optile.c:1747:18: warning: unused variable 'ii' [-Wunused-variable]
+optile.c:1747:10: warning: unused variable 't' [-Wunused-variable]
+optile.c:1747:6: warning: unused variable 'r' [-Wunused-variable]
+optile.c: In function 'cumsum':
+optile.c:2036:73: warning: unused variable 'tmp2' [-Wunused-variable]
+optile.c:2036:68: warning: unused variable 'tmp' [-Wunused-variable]
+optile.c:2036:62: warning: unused variable 'ind3' [-Wunused-variable]
+optile.c:2036:35: warning: unused variable 'rind' [-Wunused-variable]
+optile.c:2036:12: warning: unused variable 'j' [-Wunused-variable]
+optile.c:2036:9: warning: unused variable 'ix' [-Wunused-variable]
+optile.c: In function 'quickhamm':
+optile.c:2314:6: warning: variable 'init' set but not used [-Wunused-but-set-variable]
+optile.c:2306:17: warning: unused variable 'gg' [-Wunused-variable]
+optile.c:2290:23: warning: unused variable 's2t' [-Wunused-variable]
+optile.c:2290:18: warning: unused variable 's1t' [-Wunused-variable]
+optile.c:2290:6: warning: unused variable 'ds' [-Wunused-variable]
+optile.c:2284:8: warning: unused variable 'startcrit' [-Wunused-variable]
+optile.c:2283:8: warning: variable 'newcrit' set but not used [-Wunused-but-set-variable]
+optile.c:2167:6: warning: unused variable 'r' [-Wunused-variable]
+optile.c: In function 'quickfechner':
+optile.c:2948:6: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+optile.c:2953:6: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+optile.c:3015:8: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+optile.c:3018:8: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+optile.c:2869:8: warning: unused variable 'dv' [-Wunused-variable]
+optile.c:2868:20: warning: unused variable 'dc' [-Wunused-variable]
+optile.c:2868:16: warning: unused variable 'dr' [-Wunused-variable]
+optile.c:2868:13: warning: unused variable 'd' [-Wunused-variable]
+optile.c: In function 'quickfechner2':
+optile.c:3166:8: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+optile.c:3179:8: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+optile.c:3234:8: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+optile.c:3237:8: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+optile.c:3088:8: warning: unused variable 'dv' [-Wunused-variable]
+optile.c:3087:20: warning: unused variable 'dc' [-Wunused-variable]
+optile.c:3087:16: warning: unused variable 'dr' [-Wunused-variable]
+optile.c: In function 'quicktileMR':
+optile.c:3615:16: warning: unused variable 'jj2' [-Wunused-variable]
+optile.c:3615:13: warning: unused variable 'jj' [-Wunused-variable]
+optile.c:3615:9: warning: variable 'ii2' set but not used [-Wunused-but-set-variable]
+optile.c:3615:6: warning: variable 'ii' set but not used [-Wunused-but-set-variable]
+optile.c: In function 'quickmv':
+optile.c:4777:8: warning: unused variable 'stepcount' [-Wunused-variable]
+optile.c:4628:17: warning: unused variable 'gg' [-Wunused-variable]
+optile.c:4613:23: warning: unused variable 's2t' [-Wunused-variable]
+optile.c:4613:18: warning: unused variable 's1t' [-Wunused-variable]
+optile.c:4613:6: warning: unused variable 'ds' [-Wunused-variable]
+optile.c:4499:10: warning: unused variable 't' [-Wunused-variable]
+optile.c:4499:6: warning: unused variable 'r' [-Wunused-variable]
+ccache gcc -shared -L/usr/local/lib -o extracat.so optile.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/extracat.Rcheck/extracat/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (extracat)

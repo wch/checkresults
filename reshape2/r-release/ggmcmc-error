@@ -1,0 +1,8 @@
+ggmcmc *  checking examples ... WARNING
+checking a package with encoding  'UTF-8'  in an ASCII locale
+
+ [17s/17s]Examples with CPU or elapsed time > 5s
+        user system elapsed
+ggmcmc 7.392  0.052   7.469
+WARNING: There was 1 warning.
+NOTE: There was 1 note.

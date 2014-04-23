@@ -1,0 +1,18 @@
+* installing *source* package 'planar' ...
+** package 'planar' successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c gaussian_beam.cpp -o gaussian_beam.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c multilayer.cpp -o multilayer.o
+multilayer.cpp: In function 'Rcpp::List multilayer(const colvec&, const cx_mat&, const cx_mat&, const colvec&, const int&)':
+multilayer.cpp:92:25: warning: variable 'I' set but not used [-Wunused-but-set-variable]
+ccache g++ -shared -L/usr/local/lib -o planar.so gaussian_beam.o multilayer.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp6m0wal/check_cran617c4554c256/planar.Rcheck/planar/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (planar)

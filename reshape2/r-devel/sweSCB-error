@@ -1,0 +1,38 @@
+sweSCB *  checking examples ... ERROR
+Running examples in 'sweSCB-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: scbGetData
+> ### Title: Get data from a bottom node in SCB API
+> ### Aliases: scbGetData
+> 
+> ### ** Examples
+> 
+> ## CONTINUED FROM EXAMPLES IN scbGetMetadata()
+> # Get metadata for a variable
+> url <- paste(c(baseURL(),"AM","AM0102","AM0102A","KLStabell14LpMan"), collapse="/")
+> metadata <- scbGetMetadata(url)
+> 
+> # Get dimensions (names of dimensions are printed in the terminal)
+> dims <- scbGetDims(metadata)
+Title: 
+ Genomsnittlig m<U+00E5>nadsl<U+00F6>n f<U+00F6>r m<U+00E5>nadsavl<U+00F6>nade samt antal sysselsatta inom statlig sektor (KLS) efter myndighet, k<U+00F6>n, hel-/deltid, tabellinneh<U+00E5>ll och m<U+00E5>nad 
+Names: 
+ Myndighet Kon Heltiddeltid ContentsCode Tid 
+> 
+> # Get data
+> test <- scbGetData(metadata$URL, dims=list(
++    Myndighet = "C02",
++    Kon = "*",
++    Heltiddeltid = "*",
++    ContentsCode = "*",
++    Tid = "*"
++ ))
+> 
+> # Examine data
+> View(test)
+Warning in View(test) : unable to open display
+Error in .External2(C_dataviewer, x, title) : invalid device
+Calls: View
+Execution halted
