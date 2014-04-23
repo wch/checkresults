@@ -1,0 +1,6 @@
+1  beadarrayMSV  0.9
+4  PKgraph  70.0
+5  rattle  71.0
+6  RGraphics  55.7
+7  SeqGrapheR  0.6
+8  tourrGui  31.4

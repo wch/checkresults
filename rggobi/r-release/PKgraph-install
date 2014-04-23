@@ -1,0 +1,16 @@
+* installing *source* package 'PKgraph' ...
+** package 'PKgraph' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Xlib:  extension "RANDR" missing on display ":99".
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   'PKgraph.rnw' 
+** testing if installed package can be loaded
+Xlib:  extension "RANDR" missing on display ":99".
+* DONE (PKgraph)

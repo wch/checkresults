@@ -1,0 +1,5 @@
+beadarrayMSV *  checking package dependencies ... ERROR
+Packages required but not available: 'Biobase' 'geneplotter' 'limma'
+
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.
