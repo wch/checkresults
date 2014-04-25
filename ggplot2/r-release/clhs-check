@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/clhs.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/clhs.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -74,7 +74,7 @@ and these will not be indexed nor checked
 * checking examples ... [40s/40s] OK
 Examples with CPU or elapsed time > 5s
                    user system elapsed
-clhs             17.489  0.012  17.513
-plot.cLHS_result 10.029  0.004  10.037
-clhs-package      8.428  0.020   8.449
+clhs             16.909  0.044  16.956
+plot.cLHS_result  9.901  0.020   9.926
+clhs-package      8.480  0.020   8.513
 NOTE: There were 4 notes.

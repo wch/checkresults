@@ -7,7 +7,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ModelSelect.cpp -o ModelSelect.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c clere.cpp -o clere.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o clere.so Fit.o IO.o Model.o ModelSelect.o clere.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/clere.Rcheck/clere/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/clere.Rcheck/clere/libs
 ** R
 ** preparing package for lazy loading
 Creating a generic function for 'predict' from package 'stats' in package 'clere'

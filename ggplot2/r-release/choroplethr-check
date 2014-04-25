@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/choroplethr.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/choroplethr.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -49,16 +49,16 @@
 * checking data for ASCII and uncompressed saves ... OK
 * checking installed files from 'inst/doc' ... OK
 * checking files in 'vignettes' ... OK
-* checking examples ... [28s/28s] OK
+* checking examples ... [27s/27s] OK
 Examples with CPU or elapsed time > 5s
                    user system elapsed
-bind_df_to_map    7.968  0.324   8.386
-choroplethr       6.585  0.224   6.806
-render_choropleth 6.364  0.196   6.589
+bind_df_to_map    7.752  0.344   8.102
+choroplethr       6.377  0.204   6.585
+render_choropleth 6.320  0.208   6.546
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'test-all.R'
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
 * checking running R code from vignettes ... [31s/31s] OK
-* checking re-building of vignette outputs ... [21s/21s] OK
+* checking re-building of vignette outputs ... [21s/22s] OK

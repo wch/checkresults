@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/freqparcoord.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/freqparcoord.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -48,5 +48,5 @@
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... [16s/16s] OK
 Examples with CPU or elapsed time > 5s
-             user system elapsed
-freqparcoord 7.54   0.04    7.58
+              user system elapsed
+freqparcoord 7.536   0.06     7.6

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/OpenStreetMap.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/OpenStreetMap.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'OpenStreetMap' can be installed ... [10s/11s] OK
+* checking whether package 'OpenStreetMap' can be installed ... [10s/10s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... NOTE

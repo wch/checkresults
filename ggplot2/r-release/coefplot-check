@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/coefplot.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/coefplot.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -45,8 +45,8 @@ Deprecated license: BSD
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... [29s/29s] OK
+* checking examples ... [29s/30s] OK
 Examples with CPU or elapsed time > 5s
            user system elapsed
-coefplot 10.052  0.096  10.176
+coefplot 10.148  0.124  10.278
 NOTE: There was 1 note.

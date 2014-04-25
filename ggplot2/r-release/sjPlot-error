@@ -1,8 +1,8 @@
 sjPlot *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [59s/59s]Examples with CPU or elapsed time > 5s
+ [58s/58s]Examples with CPU or elapsed time > 5s
             user system elapsed
-sjp.grpfrq 5.960  0.004   6.182
-sjp.lm.int 5.129  0.008   5.143
+sjp.grpfrq 5.820  0.000   5.821
+sjp.lm.int 5.101  0.004   5.103
 WARNING: There was 1 warning.

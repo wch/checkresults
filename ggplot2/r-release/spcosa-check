@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/spcosa.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/spcosa.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -56,6 +56,6 @@ packages' of the 'Writing R Extensions' manual.
 * checking installed files from 'inst/doc' ... OK
 * checking examples ... [11s/11s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [80s/80s] OK
-  Running 'runTestSuite.R' [79s/79s]
+* checking tests ... [79s/79s] OK
+  Running 'runTestSuite.R' [78s/78s]
 NOTE: There was 1 note.

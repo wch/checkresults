@@ -16,4 +16,4 @@ checking for Rscript... yes
 checking for Boost development files... no
 configure: error: Boost development files not found
 ERROR: configuration failed for package 'dynsurv'
-* removing '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/dynsurv.Rcheck/dynsurv'
+* removing '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/dynsurv.Rcheck/dynsurv'

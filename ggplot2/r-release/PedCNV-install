@@ -5,7 +5,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c getInitial.cpp -o getInitial.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c silWidth.cpp -o silWidth.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o PedCNV.so algorithm.o getInitial.o silWidth.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/PedCNV.Rcheck/PedCNV/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/PedCNV.Rcheck/PedCNV/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

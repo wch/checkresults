@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/robustbase.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/robustbase.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -56,17 +56,17 @@ Package unavailable to check Rd xrefs: 'robustX'
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
 * checking files in 'vignettes' ... OK
-* checking examples ... [18s/18s] OK
+* checking examples ... [17s/18s] OK
 Examples with CPU or elapsed time > 5s
               user system elapsed
-nlrob-algos  5.348  0.024   5.408
-ambientNOxCH 5.064  0.040   5.150
+nlrob-algos  5.284  0.036   5.324
+ambientNOxCH 4.976  0.056   5.041
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [117s/119s] OK
+* checking tests ... [116s/118s] OK
   Running 'LTS-specials.R'
   Running 'MCD-specials.R'
   Comparing 'MCD-specials.Rout' to 'MCD-specials.Rout.save' ... OK
-  Running 'MT-tst.R' [11s/11s]
+  Running 'MT-tst.R' [10s/10s]
   Running 'NAcoef.R'
   Comparing 'NAcoef.Rout' to 'NAcoef.Rout.save' ... OK
   Running 'OGK-ex.R'
@@ -77,7 +77,7 @@ ambientNOxCH 5.064  0.040   5.150
   Comparing 'binom-ni-small.Rout' to 'binom-ni-small.Rout.save' ... OK
   Running 'binom-no-x.R'
   Running 'exact-fit-categorical.R'
-  Running 'glmrob-1.R' [16s/16s]
+  Running 'glmrob-1.R' [15s/16s]
   Running 'glmrob-specials.R'
   Running 'huber-etc.R'
   Comparing 'huber-etc.Rout' to 'huber-etc.Rout.save' ... OK
@@ -91,7 +91,7 @@ ambientNOxCH 5.064  0.040   5.150
   Running 'm-s-estimator.R'
   Running 'mc-etc.R'
   Running 'mc-strict.R'
-  Running 'nlregrob-tst.R' [31s/31s]
+  Running 'nlregrob-tst.R' [30s/30s]
   Running 'nlrob-tst.R'
   Running 'plot-ex.R'
   Running 'poisson-ex.R'

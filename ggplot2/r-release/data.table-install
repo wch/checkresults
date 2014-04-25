@@ -21,7 +21,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protec
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c wrappers.c -o wrappers.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o data.table.so assign.o bmerge.o chmatch.o dogroups.o fastmean.o fastradixdouble.o fastradixint.o fcast.o fmelt.o forder.o fread.o gsumm.o init.o rbindlist.o reorder.o uniqlist.o vecseq.o wrappers.o -L/usr/lib/R/lib -lR
 mv data.table.so datatable.so
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/data.table.Rcheck/data.table/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/data.table.Rcheck/data.table/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading

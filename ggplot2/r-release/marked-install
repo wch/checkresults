@@ -12,7 +12,7 @@ gfortran   -fpic  -g -O2  -c msgamma.f -o msgamma.o
 gfortran   -fpic  -g -O2  -c ums2dmat.f -o ums2dmat.o
 gfortran   -fpic  -g -O2  -c umsdmat.f -o umsdmat.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o marked.so bayesCR.o cjs.o cjsdmat.o cjsgamma.o hmm_like.o ms2gamma.o msdmat.o msgamma.o ums2dmat.o umsdmat.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/marked.Rcheck/marked/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/marked.Rcheck/marked/libs
 ** R
 ** data
 ** demo

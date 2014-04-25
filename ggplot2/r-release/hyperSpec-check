@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/hyperSpec.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/hyperSpec.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -60,6 +60,18 @@ Warning: local assignments to syntactic functions: ~
   Running 'unittests.R'
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [58s/58s] OK
-* checking re-building of vignette outputs ... [79s/87s] OK
-NOTE: There was 1 note.
+* checking running R code from vignettes ... [57s/57s] ERROR
+Errors in running code in vignettes:
+when running code in 'plotting.Rnw'
+  ...
+Attaching package: 'ggplot2'
+
+The following object is masked from 'package:latticeExtra':
+
+    layer
+
+
+  When sourcing 'plotting.R':
+Error: 'opts' is deprecated. Use 'theme' instead. (Defunct; last used in version 0.9.1)
+Execution halted
+

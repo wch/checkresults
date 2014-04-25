@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/poppr.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/poppr.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -60,11 +60,11 @@
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
  [18s/19s]Examples with CPU or elapsed time > 5s
-    user system elapsed
-mlg 5.32  0.048   5.401
+     user system elapsed
+mlg 5.336  0.036   5.395
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [46s/47s] OK
+* checking running R code from vignettes ... [47s/48s] OK
 * checking re-building of vignette outputs ... NOTE
 Error in re-building vignettes:
   ...

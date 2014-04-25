@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/rpf.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/rpf.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -58,9 +58,9 @@
 * checking files in 'vignettes' ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [28s/28s] OK
-  Running 'dotest.R' [28s/28s]
+* checking tests ... [27s/27s] OK
+  Running 'dotest.R' [27s/27s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
 * checking running R code from vignettes ... OK
-* checking re-building of vignette outputs ... [13s/13s] OK
+* checking re-building of vignette outputs ... [13s/14s] OK

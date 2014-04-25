@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/tourr.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/tourr.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -49,7 +49,7 @@ display_trails : render_data: no visible binding for '<<-' assignment
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [26s/30s] OK
+* checking examples ... [25s/29s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'test-all.R'

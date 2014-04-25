@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/phylosim.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/phylosim.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -50,16 +50,15 @@
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
 * checking files in 'vignettes' ... OK
-* checking examples ... [267s/270s] OK
+* checking examples ... [268s/270s] OK
 Examples with CPU or elapsed time > 5s
-                           user system elapsed
-PhyloSim                 13.761  0.012  13.787
-ECMrest                   7.996  0.016   8.089
-ECMunrest                 8.001  0.004   8.317
-FastFieldDeletor          5.945  0.000   6.007
-GY94                      5.740  0.004   5.766
-plot.GeneralSubstitution  4.952  0.016   5.002
+                   user system elapsed
+PhyloSim         13.937  0.004  14.101
+ECMunrest         8.081  0.008   8.135
+ECMrest           8.012  0.028   8.299
+FastFieldDeletor  5.577  0.000   5.603
+GY94              5.556  0.012   5.586
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [341s/336s] OK
-* checking re-building of vignette outputs ... [306s/303s] OK
+* checking running R code from vignettes ... [336s/333s] OK
+* checking re-building of vignette outputs ... [307s/304s] OK

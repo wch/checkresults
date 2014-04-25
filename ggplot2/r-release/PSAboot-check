@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/PSAboot.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/PSAboot.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -54,6 +54,6 @@
 * checking examples ... NONE
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [134s/85s] OK
-* checking re-building of vignette outputs ... [152s/103s] OK
+* checking running R code from vignettes ... [134s/84s] OK
+* checking re-building of vignette outputs ... [152s/102s] OK
 NOTE: There was 1 note.

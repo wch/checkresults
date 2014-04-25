@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/qdap.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/qdap.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -15,7 +15,7 @@ Package suggested but not available for checking: 'Rgraphviz'
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'qdap' can be installed ... [16s/17s] OK
+* checking whether package 'qdap' can be installed ... [16s/16s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking 'build' directory ... OK
@@ -52,13 +52,13 @@ Package suggested but not available for checking: 'Rgraphviz'
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
 * checking files in 'vignettes' ... OK
-* checking examples ... [12s/10s] OK
+* checking examples ... OK
 Examples with CPU or elapsed time > 5s
                user system elapsed
-colcomb2class 6.816  0.516   5.724
+colcomb2class 6.764  0.528   5.372
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [166s/164s] OK
+* checking running R code from vignettes ... [163s/160s] OK
 * checking re-building of vignette outputs ... NOTE
 Error in re-building vignettes:
   ...

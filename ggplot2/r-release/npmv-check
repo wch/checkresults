@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/npmv.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/npmv.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -56,6 +56,6 @@ packages' of the 'Writing R Extensions' manual.
 * checking examples ... [19s/19s] OK
 Examples with CPU or elapsed time > 5s
               user system elapsed
-nonpartest   8.820  0.024   8.958
-npmv-package 8.765  0.000   8.778
+nonpartest   8.776  0.044   8.995
+npmv-package 8.589  0.012   8.677
 NOTE: There was 1 note.

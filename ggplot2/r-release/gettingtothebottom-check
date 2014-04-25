@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/gettingtothebottom.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/gettingtothebottom.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -46,7 +46,7 @@
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [34s/34s] OK
+* checking examples ... [33s/33s] OK
 Examples with CPU or elapsed time > 5s
            user system elapsed
-gdescent 15.765  1.284  17.065
+gdescent 15.777  1.252  17.029

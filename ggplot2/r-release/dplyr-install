@@ -8,7 +8,7 @@ g++ -I/usr/share/R/include -DNDEBUG -I../inst/include -DCOMPILING_DPLYR  -I"/hom
 g++ -I/usr/share/R/include -DNDEBUG -I../inst/include -DCOMPILING_DPLYR  -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/BH/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c init.cpp -o init.o
 g++ -I/usr/share/R/include -DNDEBUG -I../inst/include -DCOMPILING_DPLYR  -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/BH/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c window.cpp -o window.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o dplyr.so RcppExports.o address.o dplyr.o filter.o init.o window.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/dplyr.Rcheck/dplyr/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/dplyr.Rcheck/dplyr/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

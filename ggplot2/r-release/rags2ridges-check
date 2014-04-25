@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/rags2ridges.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/rags2ridges.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -47,7 +47,7 @@
 * checking examples ... [52s/52s] OK
 Examples with CPU or elapsed time > 5s
                user system elapsed
-optPenaltyCV 11.880  0.020  11.902
-sparsify     11.693  0.008  11.747
-Ugraph       11.228  0.016  11.302
-symm         11.201  0.004  11.380
+sparsify     11.681  0.028  11.741
+optPenaltyCV 11.536  0.008  11.549
+Ugraph       11.453  0.024  11.551
+symm         11.449  0.008  11.487

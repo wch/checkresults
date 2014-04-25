@@ -10,7 +10,7 @@ Last 13 lines of output:
   Error: Test failures
   In addition: Warning messages:
   1: In getPackageName(where) :
-    Created a package name, '2014-04-25 16:18:39', when none found
+    Created a package name, '2014-04-25 17:20:38', when none found
   2: In getPackageName(where) :
-    Created a package name, '2014-04-25 16:18:39', when none found
+    Created a package name, '2014-04-25 17:20:38', when none found
   Execution halted

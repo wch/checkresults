@@ -6,7 +6,7 @@ g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -g -O2 -fstack-protector
 g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c objectives.cpp -o objectives.o
 g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c openmp.cpp -o openmp.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o likeLTD.so genetics.o module.o objectives.o openmp.o -fopenmp -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/likeLTD.Rcheck/likeLTD/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/likeLTD.Rcheck/likeLTD/libs
 ** R
 ** data
 ** demo

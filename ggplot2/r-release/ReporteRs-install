@@ -10,7 +10,7 @@ g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param
 g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c raphael_utils.cpp -o raphael_utils.o
 g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o ReporteRs.so DOCX.o PPTX.o RAPHAEL.o colors.o common.o dml_utils.o raphael_utils.o utils.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/ReporteRs.Rcheck/ReporteRs/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/ReporteRs.Rcheck/ReporteRs/libs
 ** R
 ** data
 ** demo

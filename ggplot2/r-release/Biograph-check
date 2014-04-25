@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/Biograph.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/Biograph.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -47,9 +47,9 @@
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [59s/59s] OK
+* checking examples ... [59s/60s] OK
 Examples with CPU or elapsed time > 5s
            user system elapsed
-Rates.ac  8.792  0.144   8.935
-MSLT      5.808  0.016   5.824
-RateTable 5.421  0.084   5.506
+Rates.ac  8.796  0.124   8.919
+MSLT      6.344  0.036   6.383
+RateTable 5.449  0.056   5.514

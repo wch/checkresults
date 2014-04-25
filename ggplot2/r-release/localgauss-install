@@ -6,7 +6,7 @@ gfortran  -fpic -g -O2  -c  obfun.f90 -o obfun.o
 gfortran  -fpic -g -O2  -c  obfun_dv.f90 -o obfun_dv.o
 gfortran  -fpic -g -O2  -c  obfun_dv_dv.f90 -o obfun_dv_dv.o
 gfortran -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o localgauss.so main.o obfun.o obfun_dv.o obfun_dv_dv.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/localgauss.Rcheck/localgauss/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/localgauss.Rcheck/localgauss/libs
 ** R
 ** inst
 ** preparing package for lazy loading

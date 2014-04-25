@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/granovaGG.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/granovaGG.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -217,9 +217,9 @@ These lines will be truncated in the PDF manual.
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [21s/22s] OK
+* checking examples ... [22s/22s] OK
 Examples with CPU or elapsed time > 5s
                  user system elapsed
-granovagg.1w    8.324  0.144   8.596
-granovagg.contr 8.389  0.072   8.460
+granovagg.1w    8.644  0.156   8.830
+granovagg.contr 8.673  0.064   8.747
 NOTE: There were 3 notes.

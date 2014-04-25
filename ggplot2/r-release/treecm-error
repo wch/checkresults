@@ -1,0 +1,14 @@
+treecm *  checking running R code from vignettes ... ERROR
+Errors in running code in vignettes:
+when running code in 'treecm.Rnw'
+  ...
+
+> library(ggplot2)
+
+> ggplot(data = plinth, aes(x = cableLength, y = force)) + 
++     geom_line(aes(color = factor(anchorAlongStem), group = anchorAlongStem)) + 
++     yl .... [TRUNCATED] 
+
+  When sourcing 'treecm.R':
+Error: 'opts' is deprecated. Use 'theme' instead. (Defunct; last used in version 0.9.1)
+Execution halted

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/treemap.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/treemap.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -50,5 +50,5 @@
 * checking examples ... [22s/22s] OK
 Examples with CPU or elapsed time > 5s
                           user system elapsed
-treemap                  9.421  0.016   9.437
-random.hierarchical.data 6.856  0.028   6.884
+treemap                  9.333  0.012   9.344
+random.hierarchical.data 6.776  0.064   6.844

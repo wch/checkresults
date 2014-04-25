@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/BCEA.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/BCEA.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -47,15 +47,15 @@
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [85s/85s] OK
+* checking examples ... [84s/84s] OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-mce.plot        11.065  0.028  11.126
-multi.ce        10.405  0.020  10.426
-bcea            10.233  0.116  10.359
-summary.mixedAn  8.161  0.048   8.213
-plot.mixedAn     7.893  0.068   7.960
-mixedAn          7.292  0.016   7.325
-plot.bcea        7.056  0.040   7.098
-CEriskav         6.228  0.220   6.454
-ceaf.plot        6.096  0.052   6.156
+multi.ce        10.665  0.012  10.709
+mce.plot        10.393  0.048  10.446
+bcea            10.113  0.112  10.267
+plot.mixedAn     8.025  0.096   8.145
+summary.mixedAn  7.537  0.048   7.586
+mixedAn          7.520  0.004   7.561
+plot.bcea        6.924  0.032   7.006
+CEriskav         6.036  0.228   6.268
+ceaf.plot        6.152  0.064   6.227

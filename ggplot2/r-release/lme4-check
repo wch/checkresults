@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/lme4.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/lme4.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'lme4' can be installed ... [89s/90s] OK
+* checking whether package 'lme4' can be installed ... [90s/91s] OK
 * checking installed package size ... NOTE
   installed size is 23.5Mb
   sub-directories of 1Mb or more:
@@ -61,7 +61,7 @@
 * checking files in 'vignettes' ... OK
 * checking examples ... [37s/37s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [411s/421s] OK
+* checking tests ... [416s/426s] OK
   Running 'AAAtest-all.R' [46s/47s]
   Running 'HSAURtrees.R'
   Running 'REMLdev.R'
@@ -108,7 +108,7 @@
   Running 'predict.R'
   Running 'predict_basis.R'
   Running 'predsim.R'
-  Running 'priorWeights.R'
+  Running 'priorWeights.R' [13s/13s]
   Running 'priorWeightsModComp.R'
   Running 'profile-tst.R'
   Running 'refit.R'

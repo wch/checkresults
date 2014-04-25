@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/robustHD.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/robustHD.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'robustHD' can be installed ... [69s/70s] OK
+* checking whether package 'robustHD' can be installed ... [70s/70s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -50,9 +50,9 @@
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
 * checking installed files from 'inst/doc' ... OK
-* checking examples ... [33s/34s] OK
+* checking examples ... [34s/34s] OK
 Examples with CPU or elapsed time > 5s
                 user system elapsed
-diagnosticPlot 6.704  0.004   6.727
-perry.seqModel 6.012  0.000   6.015
-plot.seqModel  5.588  0.016   5.670
+diagnosticPlot 6.700  0.008   6.706
+perry.seqModel 6.432  0.008   6.441
+plot.seqModel  5.720  0.008   5.813

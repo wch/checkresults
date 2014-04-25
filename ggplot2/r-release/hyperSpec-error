@@ -1,0 +1,14 @@
+hyperSpec *  checking running R code from vignettes ... [57s/57s] ERROR
+Errors in running code in vignettes:
+when running code in 'plotting.Rnw'
+  ...
+Attaching package: 'ggplot2'
+
+The following object is masked from 'package:latticeExtra':
+
+    layer
+
+
+  When sourcing 'plotting.R':
+Error: 'opts' is deprecated. Use 'theme' instead. (Defunct; last used in version 0.9.1)
+Execution halted

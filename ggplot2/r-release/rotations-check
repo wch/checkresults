@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/rotations.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/rotations.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'rotations' can be installed ... [74s/75s] OK
+* checking whether package 'rotations' can be installed ... [76s/76s] OK
 * checking installed package size ... NOTE
   installed size is  8.8Mb
   sub-directories of 1Mb or more:
@@ -66,6 +66,6 @@
   Running 'test-all.R'
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [20s/20s] OK
-* checking re-building of vignette outputs ... [25s/26s] OK
+* checking running R code from vignettes ... [20s/21s] OK
+* checking re-building of vignette outputs ... [24s/25s] OK
 NOTE: There was 1 note.

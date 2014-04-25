@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/growcurves.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/growcurves.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'growcurves' can be installed ... [209s/210s] OK
+* checking whether package 'growcurves' can be installed ... [211s/213s] OK
 * checking installed package size ... NOTE
   installed size is 16.7Mb
   sub-directories of 1Mb or more:
@@ -57,6 +57,6 @@
 * checking compiled code ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [92s/92s] OK
-  Running 'run-all.R' [91s/92s]
+* checking tests ... [91s/91s] OK
+  Running 'run-all.R' [90s/91s]
 NOTE: There was 1 note.

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/evaluate.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/evaluate.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -58,7 +58,7 @@ Last 13 lines of output:
   Error: Test failures
   In addition: Warning messages:
   1: In getPackageName(where) :
-    Created a package name, '2014-04-25 16:18:39', when none found
+    Created a package name, '2014-04-25 17:20:38', when none found
   2: In getPackageName(where) :
-    Created a package name, '2014-04-25 16:18:39', when none found
+    Created a package name, '2014-04-25 17:20:38', when none found
   Execution halted

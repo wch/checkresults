@@ -4,7 +4,7 @@
 g++ -I/usr/share/R/include -DNDEBUG -I./include   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppEigen/include" -I"/home/ubuntu/R-lib/3.1/BH/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c PReMiuM.cpp -o PReMiuM.o
 g++ -I/usr/share/R/include -DNDEBUG -I./include   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppEigen/include" -I"/home/ubuntu/R-lib/3.1/BH/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c postProcess.cpp -o postProcess.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o PReMiuM.so PReMiuM.o postProcess.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/PReMiuM.Rcheck/PReMiuM/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/PReMiuM.Rcheck/PReMiuM/libs
 ** R
 ** inst
 ** preparing package for lazy loading

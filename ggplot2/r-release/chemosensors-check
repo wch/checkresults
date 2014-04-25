@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/chemosensors.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/chemosensors.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -47,10 +47,10 @@
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [73s/73s] OK
+* checking examples ... [71s/71s] OK
 Examples with CPU or elapsed time > 5s
                      user system elapsed
-SensorArray-class   9.101  0.012   9.133
-demo-VirtualSensors 8.873  0.004   8.876
-Scenario-class      8.660  0.028   8.692
-demo-SensorNoise    6.524  0.000   6.539
+SensorArray-class   9.161  0.012   9.219
+demo-VirtualSensors 8.997  0.020   9.042
+Scenario-class      8.636  0.044   8.682
+demo-SensorNoise    6.216  0.000   6.217

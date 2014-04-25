@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/OutbreakTools.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/OutbreakTools.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -50,11 +50,11 @@
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
 * checking files in 'vignettes' ... OK
-* checking examples ... [29s/31s] OK
+* checking examples ... [30s/31s] OK
 Examples with CPU or elapsed time > 5s
                         user system elapsed
-plotIndividualTimeline 6.037  0.036   6.079
+plotIndividualTimeline 6.236   0.02   6.264
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [78s/80s] OK
-* checking re-building of vignette outputs ... [85s/87s] OK
+* checking running R code from vignettes ... [79s/81s] OK
+* checking re-building of vignette outputs ... [84s/87s] OK

@@ -84,7 +84,7 @@ The following object is masked from 'package:lattice':
     melanoma
 
 > print(mean(post.rjags))
-[1] 0.6424352
+[1] 0.6646511
 > hist(post.rjags)
 > 
 > ## Posterior distribution of the model parameter using BRugs (Windows and i386 Linux only)

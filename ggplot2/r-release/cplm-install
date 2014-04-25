@@ -9,7 +9,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/in
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c tweedie.c -o tweedie.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utilities.c -o utilities.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o cplm.so bcplm.o cpglmm.o init.o local_stubs.o mh.o tweedie.o utilities.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/cplm.Rcheck/cplm/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/cplm.Rcheck/cplm/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

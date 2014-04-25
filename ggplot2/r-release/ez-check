@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/ez.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/ez.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -49,7 +49,7 @@
 * checking examples ... [47s/47s] OK
 Examples with CPU or elapsed time > 5s
           user system elapsed
-ezMixed  7.821  0.068   7.944
-ezBoot   7.713  0.036   7.749
-ezPlot   6.104  0.004   6.110
-ezDesign 5.896  0.004   5.903
+ezMixed  7.981  0.056   8.037
+ezBoot   7.837  0.032   7.873
+ezDesign 6.008  0.032   6.050
+ezPlot   5.916  0.012   5.927

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/likeLTD.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/likeLTD.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -55,7 +55,10 @@
 * checking installed files from 'inst/doc' ... OK
 * checking files in 'vignettes' ... OK
 * checking examples ... OK
+Examples with CPU or elapsed time > 5s
+                   user system elapsed
+unitTests.likeLTD 5.116  0.148   4.861
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [58s/36s] OK
-* checking re-building of vignette outputs ... [55s/32s] OK
+* checking running R code from vignettes ... [62s/39s] OK
+* checking re-building of vignette outputs ... [58s/36s] OK

@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/automap.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/automap.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -45,6 +45,6 @@
 * checking for unstated dependencies in examples ... OK
 * checking examples ... [11s/11s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [31s/31s] OK
-  Running 'autoKrige.cv.R' [15s/15s]
+* checking tests ... [32s/32s] OK
+  Running 'autoKrige.cv.R' [15s/16s]
   Running 'automap.R' [16s/16s]

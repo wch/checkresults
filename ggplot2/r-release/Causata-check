@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/Causata.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/Causata.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'Causata' can be installed ... [17s/17s] OK
+* checking whether package 'Causata' can be installed ... [16s/16s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -55,10 +55,10 @@ Non-standard file/directory found at top level:
 The following files look like leftovers/mistakes:
   'Causata-vignette.log'
 Please remove them from your package.
-* checking examples ... [20s/21s] OK
+* checking examples ... [21s/21s] OK
 Examples with CPU or elapsed time > 5s
                  user system elapsed
-PredictivePower 5.357  0.024   5.379
+PredictivePower 5.393      0   5.406
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [132s/133s] OK
   Running 'testBinaryCut.R'
@@ -76,13 +76,13 @@ PredictivePower 5.357  0.024   5.379
   Running 'testQueryFunctions.R'
   Running 'testReliableModelCreation.R'
   Running 'testReliableVariableCreation.R'
-  Running 'testToPmml.R' [12s/13s]
+  Running 'testToPmml.R' [13s/13s]
   Running 'testTransformationReplay.R'
   Running 'testUploadGlmnetModel.R'
   Running 'testWoe.R'
   Running 'utils.R'
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [76s/76s] OK
-* checking re-building of vignette outputs ... [78s/80s] OK
+* checking running R code from vignettes ... [76s/77s] OK
+* checking re-building of vignette outputs ... [79s/79s] OK
 NOTE: There were 2 notes.

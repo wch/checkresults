@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/earlywarnings.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/earlywarnings.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -50,4 +50,4 @@
 * checking examples ... [26s/26s] OK
 Examples with CPU or elapsed time > 5s
           user system elapsed
-qda_ews 11.637  0.072  11.721
+qda_ews 11.529  0.104  11.663

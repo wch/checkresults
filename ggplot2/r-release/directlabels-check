@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/directlabels.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/directlabels.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -58,11 +58,11 @@ packages' of the 'Writing R Extensions' manual.
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [53s/53s] OK
+* checking examples ... [52s/52s] OK
 Examples with CPU or elapsed time > 5s
-                    user system elapsed
-qp.labels          9.941  0.004   9.948
-geom_dl            8.524  0.012   8.537
-panel.superpose.dl 7.688  0.004   7.692
-dl.combine         5.836  0.032   5.921
+                     user system elapsed
+qp.labels          10.041  0.008  10.078
+geom_dl             8.420  0.008   8.433
+panel.superpose.dl  7.660  0.008   7.683
+dl.combine          5.664  0.012   5.681
 NOTE: There was 1 note.

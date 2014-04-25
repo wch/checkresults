@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/rfPermute.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/rfPermute.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -53,5 +53,5 @@ packages' of the 'Writing R Extensions' manual.
 * checking examples ... OK
 Examples with CPU or elapsed time > 5s
            user system elapsed
-rfPermute 12.48  0.296   7.091
+rfPermute 12.46  0.336    7.07
 NOTE: There was 1 note.

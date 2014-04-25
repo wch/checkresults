@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/dplyr.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/dplyr.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -15,7 +15,7 @@ Package suggested but not available for checking: 'bigrquery'
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'dplyr' can be installed ... [81s/82s] OK
+* checking whether package 'dplyr' can be installed ... [82s/83s] OK
 * checking installed package size ... NOTE
   installed size is  9.4Mb
   sub-directories of 1Mb or more:
@@ -59,7 +59,7 @@ Package suggested but not available for checking: 'bigrquery'
 * checking compiled code ... OK
 * checking installed files from 'inst/doc' ... OK
 * checking files in 'vignettes' ... OK
-* checking examples ... [15s/16s] OK
+* checking examples ... [15s/15s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... ERROR
 Running the tests in 'tests/test-all.R' failed.

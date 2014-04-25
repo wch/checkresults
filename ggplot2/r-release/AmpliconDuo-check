@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/AmpliconDuo.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/AmpliconDuo.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -47,13 +47,13 @@
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [60s/61s] OK
+* checking examples ... [61s/61s] OK
 Examples with CPU or elapsed time > 5s
                       user system elapsed
-ampliconduo         11.877  0.032  11.924
-site.f               9.880  0.256  10.141
-plotORdensity        8.101  0.116   8.229
-AmpliconDuo-package  7.172  0.068   7.244
-amplicons            6.389  0.140   6.529
-ampliconfreqs        5.648  0.000   5.652
-plotAmpliconduo.set  5.496  0.088   5.583
+ampliconduo         12.145  0.044  12.188
+site.f              10.176  0.248  10.435
+plotORdensity        7.737  0.100   7.858
+AmpliconDuo-package  7.136  0.032   7.175
+amplicons            6.325  0.140   6.469
+ampliconfreqs        5.860  0.000   5.874
+plotAmpliconduo.set  5.296  0.068   5.386

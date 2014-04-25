@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/tabplot.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/tabplot.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -48,8 +48,8 @@
 * checking R/sysdata.rda ... OK
 * checking installed files from 'inst/doc' ... OK
 * checking files in 'vignettes' ... OK
-* checking examples ... [14s/14s] OK
+* checking examples ... [13s/13s] OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [111s/112s] OK
-* checking re-building of vignette outputs ... [92s/92s] OK
+* checking running R code from vignettes ... [106s/107s] OK
+* checking re-building of vignette outputs ... [82s/82s] OK

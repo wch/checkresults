@@ -3,5 +3,5 @@ checking a package with encoding  'UTF-8'  in an ASCII locale
 
  [19s/19s]Examples with CPU or elapsed time > 5s
                     user system elapsed
-levelplot-methods 10.661  0.064  10.798
+levelplot-methods 10.909  0.048  10.955
 WARNING: There was 1 warning.

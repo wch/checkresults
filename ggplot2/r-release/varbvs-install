@@ -8,7 +8,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protec
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c varbvsupdateR.c -o varbvsupdateR.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c vectorops.c -o vectorops.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o varbvs.so sigmoid.o varbvs.o varbvsbin.o varbvsbinupdateR.o varbvsupdateR.o vectorops.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/varbvs.Rcheck/varbvs/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/varbvs.Rcheck/varbvs/libs
 ** R
 ** demo
 ** inst

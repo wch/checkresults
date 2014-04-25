@@ -8,7 +8,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c predModule.cpp -o predModule.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c respModule.cpp -o respModule.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o lme4.so external.o glmFamily.o mcmcsamp.o optimizer.o predModule.o respModule.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/lme4.Rcheck/lme4/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/lme4.Rcheck/lme4/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

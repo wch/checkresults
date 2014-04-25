@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/PAWL.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/PAWL.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -68,5 +68,5 @@ These lines will be truncated in the PDF manual.
 * checking examples ... [18s/18s] OK
 Examples with CPU or elapsed time > 5s
                user system elapsed
-PAWL-package 15.549    0.2  15.816
+PAWL-package 15.689  0.192    15.9
 NOTE: There were 2 notes.

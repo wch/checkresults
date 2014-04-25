@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/mistat.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/mistat.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -50,4 +50,4 @@
 * checking examples ... [28s/28s] OK
 Examples with CPU or elapsed time > 5s
                 user system elapsed
-shroArlPfaCed 15.473  0.064  15.651
+shroArlPfaCed 15.185  0.072   15.53

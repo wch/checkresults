@@ -3,7 +3,7 @@
 ** libs
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -D_POSIX_C_SOURCE=200112L     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c nanotimer.c -o nanotimer.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o microbenchmark.so nanotimer.o -lrt -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/microbenchmark.Rcheck/microbenchmark/libs
+installing to /mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/microbenchmark.Rcheck/microbenchmark/libs
 ** R
 ** preparing package for lazy loading
 ** help

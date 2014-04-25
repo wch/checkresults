@@ -1,4 +1,4 @@
-* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/mixstock.Rcheck'
+* using log directory '/mnt/tmp/RtmpV1Tvwe/check_cran1adb6813e571/mixstock.Rcheck'
 * using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
@@ -78,7 +78,7 @@ Please remove them from your package.
 * checking examples ... [14s/14s] OK
 Examples with CPU or elapsed time > 5s
        user system elapsed
-tmcmc 5.044      0   5.065
+tmcmc 5.144  0.004   5.195
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running 'mprior.R'

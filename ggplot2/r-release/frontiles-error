@@ -6,4 +6,4 @@ checking a package with encoding  'latin1'  in an ASCII locale
 
  [12s/12s]Examples with CPU or elapsed time > 5s
                   user system elapsed
-alphafrontier.3d 7.536  0.048   7.633
+alphafrontier.3d 7.724  0.068    7.79
