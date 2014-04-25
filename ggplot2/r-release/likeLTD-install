@@ -1,12 +1,12 @@
 * installing *source* package 'likeLTD' ...
 ** package 'likeLTD' successfully unpacked and MD5 sums checked
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -O3 -pipe  -g  -c genetics.cpp -o genetics.o
-g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -O3 -pipe  -g  -c module.cpp -o module.o
-g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -O3 -pipe  -g  -c objectives.cpp -o objectives.o
-g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -O3 -pipe  -g  -c openmp.cpp -o openmp.o
-g++ -shared -o likeLTD.so genetics.o module.o objectives.o openmp.o -fopenmp -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/likeLTD.Rcheck/likeLTD/libs
+g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c genetics.cpp -o genetics.o
+g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c module.cpp -o module.o
+g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c objectives.cpp -o objectives.o
+g++ -I/usr/share/R/include -DNDEBUG     -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c openmp.cpp -o openmp.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o likeLTD.so genetics.o module.o objectives.o openmp.o -fopenmp -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/likeLTD.Rcheck/likeLTD/libs
 ** R
 ** data
 ** demo

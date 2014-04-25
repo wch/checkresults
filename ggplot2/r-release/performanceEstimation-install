@@ -9,6 +9,5 @@ Creating a generic function for 'subset' from package 'base' in package 'perform
 ** help
 *** installing help indices
 ** building package indices
-** installing vignettes
 ** testing if installed package can be loaded
 * DONE (performanceEstimation)

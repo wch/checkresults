@@ -6,7 +6,5 @@
 ** help
 *** installing help indices
 ** building package indices
-** installing vignettes
-   'vignette.Rnw' 
 ** testing if installed package can be loaded
 * DONE (ezsim)

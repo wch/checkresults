@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/cvxclustr.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/cvxclustr.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -36,6 +36,20 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... NOTE
+Rd file 'cvxclust.Rd':
+  \examples lines wider than 100 characters:
+     data_plot = data_plot + geom_text(data=X_data,aes(x=x,y=y,label=Name), position=position_jitter(h=0.125,w=0.125))
+
+Rd file 'cvxclust_path_admm.Rd':
+  \examples lines wider than 100 characters:
+     data_plot = data_plot + geom_text(data=X_data,aes(x=x,y=y,label=Name), position=position_jitter(h=0.125,w=0.125))
+
+Rd file 'cvxclust_path_ama.Rd':
+  \examples lines wider than 100 characters:
+     data_plot = data_plot + geom_text(data=X_data,aes(x=x,y=y,label=Name), position=position_jitter(h=0.125,w=0.125))
+
+These lines will be truncated in the PDF manual.
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -50,3 +64,4 @@
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
 * checking examples ... OK
+NOTE: There was 1 note.

@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/catenary.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/catenary.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -43,6 +43,7 @@ packages' of the 'Writing R Extensions' manual.
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -52,10 +53,9 @@ packages' of the 'Writing R Extensions' manual.
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [29s/29s] OK
+* checking examples ... [24s/24s] OK
 Examples with CPU or elapsed time > 5s
                           user system elapsed
-fittedCatenary          12.060  0.032  12.127
-getFunctionEnvelopePara  6.472  0.012   6.486
-getFunctionEnvelopeCat   6.165  0.000   6.166
+fittedCatenary          10.056  0.016  10.085
+getFunctionEnvelopePara  5.552  0.000   5.553
 NOTE: There was 1 note.

@@ -4,7 +4,6 @@ Warning in Sys.setlocale("LC_CTYPE", "en_US") :
 *  checking examples ... WARNING
 checking a package with encoding  'latin1'  in an ASCII locale
 
- [14s/14s] OK
-Examples with CPU or elapsed time > 5s
-                 user system elapsed
-alphafrontier.3d 9.08  0.084   9.179
+ [12s/12s]Examples with CPU or elapsed time > 5s
+                  user system elapsed
+alphafrontier.3d 7.536  0.048   7.633

@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/rpf.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/rpf.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'rpf/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'rpf' version '0.27'
+* this is package 'rpf' version '0.28'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -38,6 +38,7 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -57,19 +58,9 @@
 * checking files in 'vignettes' ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/dotest.R' failed.
-Last 13 lines of output:
-  plink : ............
-  goodness of fit : ...
-  outfit/infit : ........................
-  rescale : ....................................
-  sample : ..........
-  
-  
-  1. Failure(@test-dTheta.R#38): rpf.mdim.nrm ------------------------------------
-  analytic$hessian not equal to c(dir %*% deriv[c(ii@factors + triSize(1:ii@factors)), ])
-  Mean relative difference: 0.0007532709
-  
-  Error: Test failures
-  Execution halted
+* checking tests ... [28s/28s] OK
+  Running 'dotest.R' [28s/28s]
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... [13s/13s] OK

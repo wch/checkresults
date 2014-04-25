@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/sparkTable.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/sparkTable.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -7,7 +7,12 @@
 * checking extension type ... Package
 * this is package 'sparkTable' version '0.9.6'
 * checking package namespace information ... OK
-* checking package dependencies ... OK
+* checking package dependencies ... NOTE
+Depends: includes the non-default packages:
+  'xtable' 'grid' 'Cairo' 'Rglpk' 'StatMatch' 'gridExtra' 'RGraphics'
+  'ggplot2' 'pixmap'
+Adding so many packages to the search path is excessive and importing
+selectively is preferable.
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
@@ -44,6 +49,50 @@ packages' of the 'Writing R Extensions' manual.
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... NOTE
+Rd file 'checkerplot.Rd':
+  \usage lines wider than 90 characters:
+       checkerplot(data, cols=5, rows=5, geom="line", errorbar=FALSE, title=NULL, title.size=20,
+  \examples lines wider than 100 characters:
+         XX <- data.frame(cbind(rep(year,34)), EU_data[,paste("unempl_f_",year,sep="")], EU_data$country, EU_data$order)
+                             ybreaks=c(5,10,15,20), xbreaks=c(1998,2001,2004,2007), xlabels=c("98","01","04","07"),
+
+Rd file 'getParameter.Rd':
+  \examples lines wider than 100 characters:
+       a <- setParameter(a, type='allColors', value=c("darkred", "darkgreen","darkblue", "white", "black", "red"))
+
+Rd file 'newGeoTable.Rd':
+  \examples lines wider than 100 characters:
+             EUlong <- reshapeExt(EU,idvar="country",v.names=c("pop","debt"), varying=list(2:13,14:25),geographicVar="country",timeValues=19 ... [TRUNCATED]
+             xGeoEU <- newGeoTable(EUlong, content, varType,geographicVar="country",geographicInfo=coordsEU)
+
+Rd file 'newSparkBar.Rd':
+  \examples lines wider than 100 characters:
+       a <- setParameter(a, c("darkred", "darkgreen","darkblue", "white", "black", "red"), type='allColors')
+
+Rd file 'plotGeoTable.Rd':
+  \usage lines wider than 90 characters:
+             plotGeoTable(object, outputType='html', filename=NULL, graphNames='out', transpose=FALSE, include.rownames=FALSE, include.colna ... [TRUNCATED]
+  \examples lines wider than 100 characters:
+             EUlong <- reshapeExt(EU,idvar="country",v.names=c("pop","debt"), varying=list(2:13,14:25),geographicVar="country",timeValues=19 ... [TRUNCATED]
+             xGeoEU <- newGeoTable(EUlong, content, varType,geographicVar="country",geographicInfo=coordsEU)
+             plotGeoTable(xGeoEU, outputType="html", graphNames="outEU",filename="testEUT",transpose=TRUE)
+             plotGeoTable(xGeoEU, outputType="html", graphNames="outEU1",filename="testEU",transpose=FALSE)
+
+Rd file 'plotSparkTable.Rd':
+  \examples lines wider than 100 characters:
+             datEx <- data.frame(variable=sample(paste("Cat",1:10,sep="_"),1000,replace=TRUE),value=rnorm(1000),value2=rlnorm(1000))
+             names(content) <- c(paste(c("Mean","Median","Q25","Q75","Boxplot","Histogram"),"_v1",sep=""),
+
+Rd file 'setParameter.Rd':
+  \examples lines wider than 100 characters:
+       a <- setParameter(a, type='allColors', value=c("darkred", "darkgreen","darkblue", "white", "black", "red"))
+
+Rd file 'summaryST.Rd':
+  \examples lines wider than 100 characters:
+     summaryST(data1,filename="st1c",addFun=list(var=function(x)round(var(x,na.rm=TRUE),2)),graphNames="out1c")
+
+These lines will be truncated in the PDF manual.
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -53,9 +102,9 @@ packages' of the 'Writing R Extensions' manual.
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [63s/64s] OK
+* checking examples ... [53s/53s] OK
 Examples with CPU or elapsed time > 5s
                user system elapsed
-checkerplot  41.462  0.148  42.420
-plotGeoTable 10.697  0.116  10.855
-NOTE: There was 1 note.
+checkerplot  33.954   0.14  34.240
+plotGeoTable  9.520   0.10   9.796
+NOTE: There were 3 notes.

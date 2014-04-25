@@ -1,13 +1,13 @@
 * installing *source* package 'adegenet' ...
 ** package 'adegenet' successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c GLfunctions.c -o GLfunctions.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c adesub.c -o adesub.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c monmonier-utils.c -o monmonier-utils.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c sharedAll.c -o sharedAll.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c snpbin.c -o snpbin.o
-gcc -std=gnu99 -shared -o adegenet.so GLfunctions.o adesub.o monmonier-utils.o sharedAll.o snpbin.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/adegenet.Rcheck/adegenet/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c GLfunctions.c -o GLfunctions.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c adesub.c -o adesub.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c monmonier-utils.c -o monmonier-utils.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c sharedAll.c -o sharedAll.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c snpbin.c -o snpbin.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o adegenet.so GLfunctions.o adesub.o monmonier-utils.o sharedAll.o snpbin.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/adegenet.Rcheck/adegenet/libs
 ** R
 ** data
 ** inst

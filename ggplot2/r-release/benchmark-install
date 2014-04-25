@@ -8,6 +8,5 @@
 ** help
 *** installing help indices
 ** building package indices
-** installing vignettes
 ** testing if installed package can be loaded
 * DONE (benchmark)

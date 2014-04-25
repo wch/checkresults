@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/SamplerCompare.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/SamplerCompare.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -43,6 +43,7 @@ packages' of the 'Writing R Extensions' manual.
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -59,14 +60,14 @@ packages' of the 'Writing R Extensions' manual.
 * checking files in 'vignettes' ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [37s/22s] OK
+* checking tests ... [34s/19s] OK
   Running 'test-chud.R'
   Running 'test-gradients.R'
   Running 'test-indep-mh.R'
   Running 'test-misc.R'
-  Running 'test-samplers.R' [35s/19s]
+  Running 'test-samplers.R' [31s/16s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [12s/12s] OK
-* checking re-building of vignette outputs ... [13s/15s] OK
+* checking running R code from vignettes ... [10s/10s] OK
+* checking re-building of vignette outputs ... [11s/13s] OK
 NOTE: There was 1 note.

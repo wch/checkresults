@@ -30,4 +30,4 @@ checking mpi.h presence... no
 checking for mpi.h... no
 configure: error: "Cannot find mpi.h header file"
 ERROR: configuration failed for package 'pbdPROF'
-* removing '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/pbdPROF.Rcheck/pbdPROF'
+* removing '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/pbdPROF.Rcheck/pbdPROF'

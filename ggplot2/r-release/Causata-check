@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/Causata.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/Causata.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -14,12 +14,12 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'Causata' can be installed ... [17s/18s] OK
+* checking whether package 'Causata' can be installed ... [17s/17s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... NOTE
-Non-standard file found at top level:
+Non-standard file/directory found at top level:
   'integration_tests'
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -39,6 +39,7 @@ Non-standard file found at top level:
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -54,12 +55,12 @@ Non-standard file found at top level:
 The following files look like leftovers/mistakes:
   'Causata-vignette.log'
 Please remove them from your package.
-* checking examples ... [22s/22s] OK
+* checking examples ... [20s/21s] OK
 Examples with CPU or elapsed time > 5s
                  user system elapsed
-PredictivePower 5.797  0.032    5.85
+PredictivePower 5.357  0.024   5.379
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [148s/150s] OK
+* checking tests ... [132s/133s] OK
   Running 'testBinaryCut.R'
   Running 'testBinaryPredictor.R'
   Running 'testCleanNaFromContinuous.R'
@@ -75,13 +76,13 @@ PredictivePower 5.797  0.032    5.85
   Running 'testQueryFunctions.R'
   Running 'testReliableModelCreation.R'
   Running 'testReliableVariableCreation.R'
-  Running 'testToPmml.R' [14s/14s]
+  Running 'testToPmml.R' [12s/13s]
   Running 'testTransformationReplay.R'
   Running 'testUploadGlmnetModel.R'
   Running 'testWoe.R'
   Running 'utils.R'
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [84s/85s] OK
-* checking re-building of vignette outputs ... [88s/89s] OK
+* checking running R code from vignettes ... [76s/76s] OK
+* checking re-building of vignette outputs ... [78s/80s] OK
 NOTE: There were 2 notes.

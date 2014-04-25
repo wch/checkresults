@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/ggparallel.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/ggparallel.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -21,7 +21,7 @@
 License components which are templates and need '+ file LICENSE':
   MIT
 * checking top-level files ... NOTE
-Non-standard file found at top level:
+Non-standard file/directory found at top level:
   'ggparallel.Rproj'
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -47,6 +47,20 @@ packages' of the 'Writing R Extensions' manual.
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... NOTE
+Rd file 'genes.Rd':
+  \examples lines wider than 100 characters:
+     ggparallel(list("path", "chrom"), text.offset=c(0.03, 0,-0.03), data = genes,  width=0.1, order=c(1,0), angle=0, color="white",
+        scale_colour_manual(values = c(   brewer.pal("YlOrRd", n = 9), rep("grey80", 24)), guide="none") +
+
+Rd file 'ggparallel.Rd':
+  \examples lines wider than 100 characters:
+     ggparallel(names(titanic)[c(1,4,2,3)], titanic, weight=1, asp=0.5, method="hammock", ratio=0.2, order=c(0,0)) +
+     ggparallel(names(titanic)[c(1,4,2,3)], titanic, weight="Freq", asp=0.5, method="hammock", order=c(0,0)) +
+     ggparallel(list("path", "chrom"), text.offset=c(0.03, 0,-0.03), data = genes,  width=0.1, order=c(1,0), text.angle=0, color="white",
+        scale_colour_manual(values = c(   brewer.pal("YlOrRd", n = 9), rep("grey80", 24)), guide="none") +
+
+These lines will be truncated in the PDF manual.
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -56,9 +70,8 @@ packages' of the 'Writing R Extensions' manual.
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [16s/16s] OK
+* checking examples ... [13s/13s] OK
 Examples with CPU or elapsed time > 5s
             user system elapsed
-ggparallel 8.364  0.012   8.385
-genes      6.080  0.180   6.357
-NOTE: There were 3 notes.
+ggparallel 6.548  0.008   6.556
+NOTE: There were 4 notes.

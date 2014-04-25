@@ -1,12 +1,12 @@
 * installing *source* package 'ppstat' ...
 ** package 'ppstat' successfully unpacked and MD5 sums checked
 ** libs
-gfortran   -fpic  -O3 -pipe  -g  -c bsplvd.f -o bsplvd.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c init.c -o init.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c modelMatrix.c -o modelMatrix.o
-gfortran   -fpic  -O3 -pipe  -g  -c sgram.f -o sgram.o
-gcc -std=gnu99 -shared -o ppstat.so bsplvd.o init.o modelMatrix.o sgram.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/ppstat.Rcheck/ppstat/libs
+gfortran   -fpic  -g -O2  -c bsplvd.f -o bsplvd.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c modelMatrix.c -o modelMatrix.o
+gfortran   -fpic  -g -O2  -c sgram.f -o sgram.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o ppstat.so bsplvd.o init.o modelMatrix.o sgram.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/ppstat.Rcheck/ppstat/libs
 ** R
 ** data
 ** demo

@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/optiRum.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/optiRum.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'optiRum/DESCRIPTION' ... OK
-* this is package 'optiRum' version '0.31'
+* this is package 'optiRum' version '0.33'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -36,6 +36,7 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -47,6 +48,9 @@
 * checking tests ... ERROR
 Running the tests in 'tests/test-all.R' failed.
 Last 13 lines of output:
+  1. Error: generatePDF - correct behaviour, DATED=FALSE,CLEANUP=TRUE, compiler=xelatex 
+  Running 'texi2dvi' on 'datatabletest.tex' failed.
+  1: generatePDF(srcpath = basepath, srcname = "datatabletest", destpath = testpath, destname = "datatabletest", 
          DATED = FALSE, compiler = "xelatex") at test-generatePDF.R:90
   2: knit2pdf(input = src, output = dest, envir = envir, quiet = QUIET, clean = CLEANUP, 
          ...)
@@ -56,7 +60,4 @@ Last 13 lines of output:
   5: stop(msg, domain = NA)
   
   Error: Test failures
-  In addition: Warning messages:
-  1: In precision(x) : NaNs produced
-  2: In precision(x) : NaNs produced
   Execution halted

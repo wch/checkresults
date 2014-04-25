@@ -1,49 +1,16 @@
 * installing *source* package 'ReporteRs' ...
 ** package 'ReporteRs' successfully unpacked and MD5 sums checked
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c DOCX.cpp -o DOCX.o
-DOCX.cpp: In function 'void DOCX_Circle(double, double, double, pGEcontext, pDevDesc)':
-DOCX.cpp:198:48: warning: format not a string literal and no format arguments [-Wformat-security]
-DOCX.cpp:216:46: warning: format not a string literal and no format arguments [-Wformat-security]
-DOCX.cpp: In function 'void DOCX_Line(double, double, double, double, pGEcontext, pDevDesc)':
-DOCX.cpp:245:48: warning: format not a string literal and no format arguments [-Wformat-security]
-DOCX.cpp:280:46: warning: format not a string literal and no format arguments [-Wformat-security]
-DOCX.cpp: In function 'void DOCX_Polyline(int, double*, double*, pGEcontext, pDevDesc)':
-DOCX.cpp:311:48: warning: format not a string literal and no format arguments [-Wformat-security]
-DOCX.cpp:350:46: warning: format not a string literal and no format arguments [-Wformat-security]
-DOCX.cpp: In function 'void DOCX_Polygon(int, double*, double*, pGEcontext, pDevDesc)':
-DOCX.cpp:380:48: warning: format not a string literal and no format arguments [-Wformat-security]
-DOCX.cpp:416:46: warning: format not a string literal and no format arguments [-Wformat-security]
-DOCX.cpp: In function 'void DOCX_Rect(double, double, double, double, pGEcontext, pDevDesc)':
-DOCX.cpp:442:48: warning: format not a string literal and no format arguments [-Wformat-security]
-DOCX.cpp:462:46: warning: format not a string literal and no format arguments [-Wformat-security]
-DOCX.cpp: In function 'void DOCX_Text(double, double, const char*, double, double, pGEcontext, pDevDesc)':
-DOCX.cpp:505:48: warning: format not a string literal and no format arguments [-Wformat-security]
-DOCX.cpp:540:46: warning: format not a string literal and no format arguments [-Wformat-security]
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c PPTX.cpp -o PPTX.o
-PPTX.cpp: In function 'void PPTX_Circle(double, double, double, pGEcontext, pDevDesc)':
-PPTX.cpp:165:48: warning: format not a string literal and no format arguments [-Wformat-security]
-PPTX.cpp:184:46: warning: format not a string literal and no format arguments [-Wformat-security]
-PPTX.cpp: In function 'void PPTX_Line(double, double, double, double, pGEcontext, pDevDesc)':
-PPTX.cpp:205:48: warning: format not a string literal and no format arguments [-Wformat-security]
-PPTX.cpp:233:46: warning: format not a string literal and no format arguments [-Wformat-security]
-PPTX.cpp: In function 'void PPTX_Polyline(int, double*, double*, pGEcontext, pDevDesc)':
-PPTX.cpp:264:48: warning: format not a string literal and no format arguments [-Wformat-security]
-PPTX.cpp:296:46: warning: format not a string literal and no format arguments [-Wformat-security]
-PPTX.cpp: In function 'void PPTX_Polygon(int, double*, double*, pGEcontext, pDevDesc)':
-PPTX.cpp:324:48: warning: format not a string literal and no format arguments [-Wformat-security]
-PPTX.cpp:356:46: warning: format not a string literal and no format arguments [-Wformat-security]
-PPTX.cpp: In function 'void PPTX_Rect(double, double, double, double, pGEcontext, pDevDesc)':
-PPTX.cpp:380:48: warning: format not a string literal and no format arguments [-Wformat-security]
-PPTX.cpp:400:46: warning: format not a string literal and no format arguments [-Wformat-security]
-PPTX.cpp: In function 'void PPTX_Text(double, double, const char*, double, double, pGEcontext, pDevDesc)':
-PPTX.cpp:441:48: warning: format not a string literal and no format arguments [-Wformat-security]
-PPTX.cpp:500:46: warning: format not a string literal and no format arguments [-Wformat-security]
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c RAPHAEL.cpp -o RAPHAEL.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c common.cpp -o common.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c utils.cpp -o utils.o
-g++ -shared -o ReporteRs.so DOCX.o PPTX.o RAPHAEL.o common.o utils.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/ReporteRs.Rcheck/ReporteRs/libs
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c DOCX.cpp -o DOCX.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c PPTX.cpp -o PPTX.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RAPHAEL.cpp -o RAPHAEL.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c colors.cpp -o colors.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c common.cpp -o common.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c dml_utils.cpp -o dml_utils.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c raphael_utils.cpp -o raphael_utils.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o ReporteRs.so DOCX.o PPTX.o RAPHAEL.o colors.o common.o dml_utils.o raphael_utils.o utils.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/ReporteRs.Rcheck/ReporteRs/libs
 ** R
 ** data
 ** demo

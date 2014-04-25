@@ -1,12 +1,12 @@
 * installing *source* package 'NMF' ...
 ** package 'NMF' successfully unpacked and MD5 sums checked
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c distance.cpp -o distance.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c divergence.cpp -o divergence.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c euclidean.cpp -o euclidean.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c utils.cpp -o utils.o
-g++ -shared -o NMF.so distance.o divergence.o euclidean.o utils.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/NMF.Rcheck/NMF/libs
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c distance.cpp -o distance.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c divergence.cpp -o divergence.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c euclidean.cpp -o euclidean.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o NMF.so distance.o divergence.o euclidean.o utils.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/NMF.Rcheck/NMF/libs
 ** R
 ** data
 ** demo

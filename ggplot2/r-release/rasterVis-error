@@ -1,8 +1,7 @@
 rasterVis *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [24s/25s] OK
-Examples with CPU or elapsed time > 5s
+ [19s/19s]Examples with CPU or elapsed time > 5s
                     user system elapsed
-levelplot-methods 14.329  0.088  14.492
+levelplot-methods 10.661  0.064  10.798
 WARNING: There was 1 warning.

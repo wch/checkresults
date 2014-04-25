@@ -1,14 +1,14 @@
 * installing *source* package 'SamplerCompare' ...
 ** package 'SamplerCompare' successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c arms.c -o arms.o
-gfortran   -fpic  -O3 -pipe  -g  -c dchdd.f -o dchdd.o
-gfortran   -fpic  -O3 -pipe  -g  -c dchud.f -o dchud.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c distributions.c -o distributions.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c sampler-glue.c -o sampler-glue.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c slice.c -o slice.o
-gcc -std=gnu99 -shared -o SamplerCompare.so arms.o dchdd.o dchud.o distributions.o sampler-glue.o slice.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/SamplerCompare.Rcheck/SamplerCompare/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c arms.c -o arms.o
+gfortran   -fpic  -g -O2  -c dchdd.f -o dchdd.o
+gfortran   -fpic  -g -O2  -c dchud.f -o dchud.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c distributions.c -o distributions.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c sampler-glue.c -o sampler-glue.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c slice.c -o slice.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o SamplerCompare.so arms.o dchdd.o dchud.o distributions.o sampler-glue.o slice.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/SamplerCompare.Rcheck/SamplerCompare/libs
 ** R
 ** inst
 ** preparing package for lazy loading

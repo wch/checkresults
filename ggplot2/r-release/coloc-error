@@ -1,4 +1,4 @@
-coloc *  checking running R code from vignettes ... [14s/14s] WARNING
+coloc *  checking running R code from vignettes ... [12s/12s] WARNING
 Errors in running code in vignettes:
 when running code in 'vignette.Rnw'
   ...

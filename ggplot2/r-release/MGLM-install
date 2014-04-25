@@ -1,0 +1,15 @@
+* installing *source* package 'MGLM' ...
+** package 'MGLM' successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Creating a generic function for 'predict' from package 'stats' in package 'MGLM'
+Creating a generic function for 'print' from package 'base' in package 'MGLM'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (MGLM)

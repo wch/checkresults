@@ -1,10 +1,10 @@
 * installing *source* package 'poppr' ...
 ** package 'poppr' successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c permut_shuffler.c -o permut_shuffler.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c poppr_distance.c -o poppr_distance.o
-gcc -std=gnu99 -shared -o poppr.so permut_shuffler.o poppr_distance.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/poppr.Rcheck/poppr/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c permut_shuffler.c -o permut_shuffler.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c poppr_distance.c -o poppr_distance.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o poppr.so permut_shuffler.o poppr_distance.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/poppr.Rcheck/poppr/libs
 ** R
 ** data
 ** inst

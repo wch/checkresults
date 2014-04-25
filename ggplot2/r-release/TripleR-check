@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/TripleR.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/TripleR.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -44,6 +44,7 @@ packages' of the 'Writing R Extensions' manual.
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -58,6 +59,5 @@ packages' of the 'Writing R Extensions' manual.
 * checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [12s/12s] OK
-WARNING: There was 1 warning.
+ [11s/11s]WARNING: There was 1 warning.
 NOTE: There was 1 note.

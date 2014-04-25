@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/clhs.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/clhs.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -44,6 +44,20 @@ packages' of the 'Writing R Extensions' manual.
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... NOTE
+Rd file 'clhs-package.Rd':
+  \examples lines wider than 100 characters:
+     df <- data.frame(a = runif(1000), b = rnorm(1000), c = sample(LETTERS[1:5], size = 1000, replace = TRUE))
+
+Rd file 'clhs.Rd':
+  \examples lines wider than 100 characters:
+     df <- data.frame(a = runif(1000), b = rnorm(1000), c = sample(LETTERS[1:5], size = 1000, replace = TRUE))
+
+Rd file 'plot.cLHS_result.Rd':
+  \examples lines wider than 100 characters:
+     df <- data.frame(a = runif(1000), b = rnorm(1000), c = sample(LETTERS[1:5], size = 1000, replace = TRUE))
+
+These lines will be truncated in the PDF manual.
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -55,15 +69,12 @@ packages' of the 'Writing R Extensions' manual.
 * checking for old-style vignette sources ... NOTE
 Vignette sources only in 'inst/doc':
   'vignette.Rnw'
-A 'vignettes' directory will be required as from R 3.1.0
-* checking examples ... [46s/46s] OK
+A 'vignettes' directory is required as from R 3.1.0
+and these will not be indexed nor checked
+* checking examples ... [40s/40s] OK
 Examples with CPU or elapsed time > 5s
                    user system elapsed
-clhs             20.074  0.044  20.132
-plot.cLHS_result 11.348  0.028  11.403
-clhs-package      9.744  0.016   9.828
-* checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [83s/84s] OK
-* checking re-building of vignette outputs ... [85s/85s] OK
-NOTE: There were 3 notes.
+clhs             17.489  0.012  17.513
+plot.cLHS_result 10.029  0.004  10.037
+clhs-package      8.428  0.020   8.449
+NOTE: There were 4 notes.

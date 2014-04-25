@@ -1,11 +1,6 @@
 evaluate *  checking tests ... ERROR
 Running the tests in 'tests/test-all.R' failed.
 Last 13 lines of output:
-  Errors : ....
-  Evaluation : ..1........
-  Evaluation: graphics : .......................
-  Output : .
-  Parsing : .
   
   
   1. Failure(@test-evaluate.r#12): data sets loaded ------------------------------
@@ -13,4 +8,9 @@ Last 13 lines of output:
   Mean relative difference: 0.3333333
   
   Error: Test failures
+  In addition: Warning messages:
+  1: In getPackageName(where) :
+    Created a package name, '2014-04-25 16:18:39', when none found
+  2: In getPackageName(where) :
+    Created a package name, '2014-04-25 16:18:39', when none found
   Execution halted

@@ -1,0 +1,15 @@
+gfcanalysis *  checking examples ... ERROR
+Running examples in 'gfcanalysis-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: calc_gfc_tiles
+> ### Title: Calculate the GFC product tiles needed for a given AOI
+> ### Aliases: calc_gfc_tiles
+> 
+> ### ** Examples
+> 
+> tiles <- calc_gfc_tiles(test_poly)
+Error in gUnaryUnion(aoi) : No UnaryUnion in this version of GEOS
+Calls: calc_gfc_tiles -> gIntersects -> RGEOSBinPredFunc -> gUnaryUnion
+Execution halted

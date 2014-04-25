@@ -15,6 +15,5 @@ Creating a generic function for 'str' from package 'utils' in package 'processda
 ** help
 *** installing help indices
 ** building package indices
-** installing vignettes
 ** testing if installed package can be loaded
 * DONE (processdata)

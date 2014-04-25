@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/taRifx.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/taRifx.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -22,7 +22,7 @@ Packages listed in more than one of Depends, Imports, Suggests, Enhances:
   'lattice' 'grid'
 A package should be listed in only one of these fields.
 * checking top-level files ... NOTE
-Non-standard file found at top level:
+Non-standard file/directory found at top level:
   'taRifx.Rproj'
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -50,6 +50,21 @@ packages' of the 'Writing R Extensions' manual.
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... NOTE
+Rd file 'compareplot.Rd':
+  \usage lines wider than 90 characters:
+         colors.plot = c("salmon", "mediumblue", "olivedrab", "cyan", "brown", "darkgreen", "purple"),
+
+Rd file 'latex.table.by.Rd':
+  \examples lines wider than 100 characters:
+     #   print(latex.table.by(test.df), include.rownames = FALSE, include.colnames = TRUE, sanitize.text.function = force)
+     #   for longtable support, add ,tabular.environment='longtable' to the print command (plus add in ,floating=FALSE), then \usepackage{lo ... [TRUNCATED]
+
+Rd file 'splitc.Rd':
+  \examples lines wider than 100 characters:
+     # applies mean to each, you must use \code{colMeans} as \code{mean} is deprecated for \code{data.frame}s
+
+These lines will be truncated in the PDF manual.
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -57,4 +72,4 @@ packages' of the 'Writing R Extensions' manual.
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
 * checking examples ... OK
-NOTE: There were 3 notes.
+NOTE: There were 4 notes.

@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/robustbase.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/robustbase.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'robustbase/DESCRIPTION' ... OK
-* this is package 'robustbase' version '0.90-2'
+* this is package 'robustbase' version '0.91-0'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'robustbase' can be installed ... [32s/32s] OK
+* checking whether package 'robustbase' can be installed ... [25s/26s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking 'build' directory ... OK
@@ -37,6 +37,7 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... NOTE
 Package unavailable to check Rd xrefs: 'robustX'
 * checking for missing documentation entries ... OK
@@ -55,42 +56,28 @@ Package unavailable to check Rd xrefs: 'robustX'
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
 * checking files in 'vignettes' ... OK
-* checking examples ... [20s/21s] OK
+* checking examples ... [18s/18s] OK
 Examples with CPU or elapsed time > 5s
               user system elapsed
-ambientNOxCH 5.924  0.052   6.173
-nlrob-algos  5.149  0.024   5.263
+nlrob-algos  5.348  0.024   5.408
+ambientNOxCH 5.064  0.040   5.150
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [124s/127s] OK
+* checking tests ... [117s/119s] OK
   Running 'LTS-specials.R'
   Running 'MCD-specials.R'
   Comparing 'MCD-specials.Rout' to 'MCD-specials.Rout.save' ... OK
-  Running 'MT-tst.R' [12s/13s]
+  Running 'MT-tst.R' [11s/11s]
   Running 'NAcoef.R'
-  Comparing 'NAcoef.Rout' to 'NAcoef.Rout.save' ...400c400
-< Residuals:
----
-> Weighted Residuals:
-402c402
-< -4.6412 -2.3912 -0.1412  2.1088  4.3588 
----
-> -3.64119 -1.81100 -0.04729  2.00931  4.35881 
+  Comparing 'NAcoef.Rout' to 'NAcoef.Rout.save' ... OK
   Running 'OGK-ex.R'
   Comparing 'OGK-ex.Rout' to 'OGK-ex.Rout.save' ... OK
   Running 'Rsquared.R'
-  Comparing 'Rsquared.Rout' to 'Rsquared.Rout.save' ...174c174
-< Residuals:
----
-> Weighted Residuals:
-176c176
-< -4.53960 -0.03032  0.10984  1.55271  6.36480 
----
-> -1.01509 -0.04288  0.04892  0.38289  9.00119 
+  Comparing 'Rsquared.Rout' to 'Rsquared.Rout.save' ... OK
   Running 'binom-ni-small.R'
   Comparing 'binom-ni-small.Rout' to 'binom-ni-small.Rout.save' ... OK
   Running 'binom-no-x.R'
   Running 'exact-fit-categorical.R'
-  Running 'glmrob-1.R' [20s/20s]
+  Running 'glmrob-1.R' [16s/16s]
   Running 'glmrob-specials.R'
   Running 'huber-etc.R'
   Comparing 'huber-etc.Rout' to 'huber-etc.Rout.save' ... OK
@@ -104,7 +91,7 @@ nlrob-algos  5.149  0.024   5.263
   Running 'm-s-estimator.R'
   Running 'mc-etc.R'
   Running 'mc-strict.R'
-  Running 'nlregrob-tst.R' [30s/30s]
+  Running 'nlregrob-tst.R' [31s/31s]
   Running 'nlrob-tst.R'
   Running 'plot-ex.R'
   Running 'poisson-ex.R'
@@ -112,25 +99,13 @@ nlrob-algos  5.149  0.024   5.263
   Comparing 'psi-rho-etc.Rout' to 'psi-rho-etc.Rout.save' ... OK
   Running 'small-sample.R'
   Comparing 'small-sample.Rout' to 'small-sample.Rout.save' ... OK
-  Running 'subsample.R' [10s/10s]
+  Running 'subsample.R'
   Running 'tlts.R'
   Comparing 'tlts.Rout' to 'tlts.Rout.save' ... OK
   Running 'tmcd.R'
   Comparing 'tmcd.Rout' to 'tmcd.Rout.save' ... OK
   Running 'weights.R'
-  Comparing 'weights.Rout' to 'weights.Rout.save' ...168c168
-< Residuals:
----
-> Weighted Residuals:
-170c170
-< -1.52261 -0.57370 -0.07248  0.39247  1.61986 
----
-> -2.0956 -0.5369  0.0000  0.3925  2.0381 
-195,196c195
-<  6 observations c(3,6,15,18,27,30) are outliers with |weight| = 0 ( < 0.003); 
-<  27 weights are ~= 1.
----
->  All 27 weights are ~= 1.
+  Comparing 'weights.Rout' to 'weights.Rout.save' ... OK
   Running 'wgt-himed-xtra.R'
   Running 'wgt-himed.R'
   Comparing 'wgt-himed.Rout' to 'wgt-himed.Rout.save' ... OK

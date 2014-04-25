@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/paleofire.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/paleofire.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'paleofire' can be installed ... [15s/15s] OK
+* checking whether package 'paleofire' can be installed ... [14s/15s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -37,6 +37,7 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -46,15 +47,13 @@
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [93s/95s] OK
+* checking examples ... [80s/82s] OK
 Examples with CPU or elapsed time > 5s
                     user system elapsed
-1paleofiRe-package 8.648  0.156   9.029
-pfDotMap           7.477  0.032   7.520
-pfComposite        7.332  0.064   7.522
-plot.pfCircular    7.308  0.024   7.372
-pfCircular         7.209  0.016   7.560
-pfCompositeLF      7.117  0.056   7.199
-plot.pfComposite   6.492  0.036   6.542
-plot.pfCompositeLF 6.421  0.020   6.456
-plot.CHAR          5.037  0.012   6.100
+1paleofiRe-package 7.916  0.120   8.119
+pfComposite        6.716  0.024   6.771
+pfCircular         6.361  0.016   6.452
+plot.pfCircular    6.264  0.032   6.300
+pfCompositeLF      6.169  0.052   6.317
+pfDotMap           6.068  0.060   6.173
+plot.pfCompositeLF 5.896  0.040   6.014

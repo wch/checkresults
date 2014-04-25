@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/evaluate.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/evaluate.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'evaluate/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'evaluate' version '0.5.1'
+* this is package 'evaluate' version '0.5.3'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -37,6 +37,7 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -48,11 +49,6 @@
 * checking tests ... ERROR
 Running the tests in 'tests/test-all.R' failed.
 Last 13 lines of output:
-  Errors : ....
-  Evaluation : ..1........
-  Evaluation: graphics : .......................
-  Output : .
-  Parsing : .
   
   
   1. Failure(@test-evaluate.r#12): data sets loaded ------------------------------
@@ -60,4 +56,9 @@ Last 13 lines of output:
   Mean relative difference: 0.3333333
   
   Error: Test failures
+  In addition: Warning messages:
+  1: In getPackageName(where) :
+    Created a package name, '2014-04-25 16:18:39', when none found
+  2: In getPackageName(where) :
+    Created a package name, '2014-04-25 16:18:39', when none found
   Execution halted

@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/poppr.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/poppr.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -15,7 +15,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'poppr' can be installed ... [16s/16s] OK
+* checking whether package 'poppr' can be installed ... [14s/14s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking 'build' directory ... OK
@@ -39,6 +39,7 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -58,13 +59,12 @@
 * checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [22s/22s] OK
-Examples with CPU or elapsed time > 5s
-     user system elapsed
-mlg 5.789   0.06   5.884
+ [18s/19s]Examples with CPU or elapsed time > 5s
+    user system elapsed
+mlg 5.32  0.048   5.401
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [52s/53s] OK
+* checking running R code from vignettes ... [46s/47s] OK
 * checking re-building of vignette outputs ... NOTE
 Error in re-building vignettes:
   ...

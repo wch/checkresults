@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/mcprofile.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/mcprofile.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -42,6 +42,7 @@ packages' of the 'Writing R Extensions' manual.
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -54,14 +55,13 @@ packages' of the 'Writing R Extensions' manual.
 * checking sizes of PDF files under 'inst/doc' ... OK
 * checking installed files from 'inst/doc' ... OK
 * checking files in 'vignettes' ... OK
-* checking examples ... [31s/32s] OK
+* checking examples ... [24s/24s] OK
 Examples with CPU or elapsed time > 5s
           user system elapsed
-toxinLD 15.565  0.052  15.788
-hoa      5.660  0.092   5.825
+toxinLD 11.433  0.008  11.616
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [19s/20s] OK
+* checking running R code from vignettes ... [16s/16s] OK
 * checking re-building of vignette outputs ... NOTE
 Error in re-building vignettes:
   ...

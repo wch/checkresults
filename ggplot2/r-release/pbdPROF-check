@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/pbdPROF.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/pbdPROF.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -15,4 +15,4 @@
 * checking for sufficient/correct file permissions ... OK
 * checking whether package 'pbdPROF' can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/pbdPROF.Rcheck/00install.out' for details.
+See '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/pbdPROF.Rcheck/00install.out' for details.

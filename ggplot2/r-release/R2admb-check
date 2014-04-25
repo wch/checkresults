@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/R2admb.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/R2admb.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -42,6 +42,7 @@ File 'R2admb/R/check_section.R':
 See section 'Good practice' in '?attach'.
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -63,6 +64,6 @@ See section 'Good practice' in '?attach'.
   Running 'stderr_bug.R'
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [12s/12s] OK
-* checking re-building of vignette outputs ... [15s/15s] OK
+* checking running R code from vignettes ... [11s/11s] OK
+* checking re-building of vignette outputs ... [13s/13s] OK
 NOTE: There was 1 note.

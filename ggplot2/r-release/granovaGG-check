@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/granovaGG.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/granovaGG.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -18,7 +18,7 @@
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... NOTE
-Non-standard file found at top level:
+Non-standard file/directory found at top level:
   'README.markdown'
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -202,6 +202,12 @@ granovagg.ds : Trails: no visible binding for global variable
   'y.trail.end'
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... NOTE
+Rd file 'granovagg.ds.Rd':
+  \examples lines wider than 100 characters:
+                  main = "Assessment Plot for weights to assess Family Therapy treatment for Anorexia Patients",
+
+These lines will be truncated in the PDF manual.
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -211,9 +217,9 @@ granovagg.ds : Trails: no visible binding for global variable
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [27s/27s] OK
+* checking examples ... [21s/22s] OK
 Examples with CPU or elapsed time > 5s
-                  user system elapsed
-granovagg.contr 10.897  0.044  10.961
-granovagg.1w    10.400  0.148  10.740
-NOTE: There were 2 notes.
+                 user system elapsed
+granovagg.1w    8.324  0.144   8.596
+granovagg.contr 8.389  0.072   8.460
+NOTE: There were 3 notes.

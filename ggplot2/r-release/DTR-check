@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/DTR.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/DTR.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -36,6 +36,7 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -45,11 +46,11 @@
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [80s/80s] OK
+* checking examples ... [69s/69s] OK
 Examples with CPU or elapsed time > 5s
                 user system elapsed
-contrast.wald 24.390  0.008  24.429
-WRSEestimate  13.005  2.164  15.199
-plot.DTR      13.189  0.036  13.227
-summary.DTR   12.348  0.012  12.359
-LDTestimate   12.092  0.012  12.106
+contrast.wald 21.157  3.256  24.429
+WRSEestimate  11.161  2.112  13.284
+plot.DTR      10.537  0.016  10.554
+summary.DTR    9.964  0.012   9.974
+LDTestimate    9.352  0.016   9.393

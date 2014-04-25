@@ -9,8 +9,8 @@ Last 13 lines of output:
   Loading required package: data.table
   > options(warn=2)
   > test.data.table()
-  Running /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/data.table.Rcheck/data.table/tests/tests.Rraw 
+  Running /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/data.table.Rcheck/data.table/tests/tests.Rraw 
   Error in parse(n = -1, file = file, srcfile = NULL, keep.source = FALSE) : 
-    (converted from warning) invalid input found on input connection '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/data.table.Rcheck/data.table/tests/tests.Rraw'
+    (converted from warning) invalid input found on input connection '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/data.table.Rcheck/data.table/tests/tests.Rraw'
   Calls: test.data.table -> sys.source -> parse
   Execution halted

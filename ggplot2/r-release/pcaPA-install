@@ -1,15 +1,15 @@
 * installing *source* package 'pcaPA' ...
 ** package 'pcaPA' successfully unpacked and MD5 sums checked
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG `gsl-config --cflags`     -fpic  -O3 -pipe  -g  -c Cpolychoric.cpp -o Cpolychoric.o
+g++ -I/usr/share/R/include -DNDEBUG `gsl-config --cflags`     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Cpolychoric.cpp -o Cpolychoric.o
 /bin/bash: gsl-config: command not found
 Cpolychoric.cpp:38:26: fatal error: gsl/gsl_math.h: No such file or directory
 compilation terminated.
 make: *** [Cpolychoric.o] Error 1
-g++ -I/usr/share/R/include -DNDEBUG `gsl-config --cflags`     -fpic  -O3 -pipe  -g  -c Cpolychoric.cpp -o Cpolychoric.o
+g++ -I/usr/share/R/include -DNDEBUG `gsl-config --cflags`     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Cpolychoric.cpp -o Cpolychoric.o
 /bin/bash: gsl-config: command not found
 Cpolychoric.cpp:38:26: fatal error: gsl/gsl_math.h: No such file or directory
 compilation terminated.
 make: *** [Cpolychoric.o] Error 1
 ERROR: compilation failed for package 'pcaPA'
-* removing '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/pcaPA.Rcheck/pcaPA'
+* removing '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/pcaPA.Rcheck/pcaPA'

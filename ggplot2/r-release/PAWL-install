@@ -1,11 +1,11 @@
 * installing *source* package 'PAWL' ...
 ** package 'PAWL' successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c isinglogdensity.c -o isinglogdensity.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c mixtureloglikelihood.c -o mixtureloglikelihood.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c mixturelogpriordensity.c -o mixturelogpriordensity.o
-gcc -std=gnu99 -shared -o PAWL.so isinglogdensity.o mixtureloglikelihood.o mixturelogpriordensity.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/PAWL.Rcheck/PAWL/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c isinglogdensity.c -o isinglogdensity.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c mixtureloglikelihood.c -o mixtureloglikelihood.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c mixturelogpriordensity.c -o mixturelogpriordensity.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o PAWL.so isinglogdensity.o mixtureloglikelihood.o mixturelogpriordensity.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/PAWL.Rcheck/PAWL/libs
 ** R
 ** data
 ** demo

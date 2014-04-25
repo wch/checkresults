@@ -1,12 +1,12 @@
 * installing *source* package 'localgauss' ...
 ** package 'localgauss' successfully unpacked and MD5 sums checked
 ** libs
-gfortran  -fpic -O3 -pipe  -g  -c  main.f90 -o main.o
-gfortran  -fpic -O3 -pipe  -g  -c  obfun.f90 -o obfun.o
-gfortran  -fpic -O3 -pipe  -g  -c  obfun_dv.f90 -o obfun_dv.o
-gfortran  -fpic -O3 -pipe  -g  -c  obfun_dv_dv.f90 -o obfun_dv_dv.o
-gfortran -shared -o localgauss.so main.o obfun.o obfun_dv.o obfun_dv_dv.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/localgauss.Rcheck/localgauss/libs
+gfortran  -fpic -g -O2  -c  main.f90 -o main.o
+gfortran  -fpic -g -O2  -c  obfun.f90 -o obfun.o
+gfortran  -fpic -g -O2  -c  obfun_dv.f90 -o obfun_dv.o
+gfortran  -fpic -g -O2  -c  obfun_dv_dv.f90 -o obfun_dv_dv.o
+gfortran -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o localgauss.so main.o obfun.o obfun_dv.o obfun_dv_dv.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/localgauss.Rcheck/localgauss/libs
 ** R
 ** inst
 ** preparing package for lazy loading

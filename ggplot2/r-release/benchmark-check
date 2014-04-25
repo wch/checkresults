@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/benchmark.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/benchmark.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -9,6 +9,11 @@
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
 Package suggested but not available for checking: 'Rgraphviz'
+
+Depends: includes the non-default packages:
+  'proto' 'ggplot2' 'reshape' 'relations' 'psychotools' 'scales'
+Adding so many packages to the search path is excessive and importing
+selectively is preferable.
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
@@ -58,6 +63,8 @@ densityplot.AlgorithmPerformance: no visible binding for global
   variable 'value'
 densityplot.AlgorithmPerformance: no visible binding for global
   variable 'algorithms'
+plot.DatasetCharacterization: no visible global function definition for
+  'ddply'
 plot.DatasetCharacterization: no visible binding for global variable
   'characteristics'
 plot.DatasetCharacterization: no visible binding for global variable
@@ -74,6 +81,7 @@ stripchart.AlgorithmPerformance: no visible binding for global variable
   'samples'
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... NOTE
 Package unavailable to check Rd xrefs: 'graph'
 * checking for missing documentation entries ... OK

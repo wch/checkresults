@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/lda.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/lda.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -19,7 +19,7 @@
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... NOTE
-Non-standard files found at top level:
+Non-standard files/directories found at top level:
   'DESCRIPTION.orig' 'DESCRIPTION.rej'
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -42,6 +42,16 @@ packages' of the 'Writing R Extensions' manual.
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... NOTE
+Rd file 'nubbi.collapsed.gibbs.sampler.Rd':
+  \usage lines wider than 90 characters:
+     nubbi.collapsed.gibbs.sampler(contexts, pair.contexts, pairs, K.individual, K.pair, vocab, num.iterations, alpha, eta, xi)
+
+Rd file 'rtm.collapsed.gibbs.sampler.Rd':
+  \usage lines wider than 90 characters:
+             alpha, eta, lambda = sum(sapply(links, length))/(length(links) * (length(links) -1)/2),
+
+These lines will be truncated in the PDF manual.
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -56,4 +66,4 @@ packages' of the 'Writing R Extensions' manual.
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
 * checking examples ... OK
-NOTE: There were 2 notes.
+NOTE: There were 3 notes.

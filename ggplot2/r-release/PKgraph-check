@@ -1,13 +1,320 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/PKgraph.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/PKgraph.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'PKgraph/DESCRIPTION' ... OK
 * this is package 'PKgraph' version '1.7'
 * checking package namespace information ... OK
-* checking package dependencies ... ERROR
-Package required but not available: 'rggobi'
-
+* checking package dependencies ... NOTE
+Depends: includes the non-default packages:
+  'RGtk2' 'gWidgetsRGtk2' 'cairoDevice' 'lattice' 'rggobi' 'ggplot2'
+  'proto'
+Adding so many packages to the search path is excessive and importing
+selectively is preferable.
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package 'PKgraph' can be installed ... [11s/11s] OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Packages listed in more than one of Depends, Imports, Suggests, Enhances:
+  'RGtk2' 'gWidgetsRGtk2'
+A package should be listed in only one of these fields.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+Package in Depends field not imported from: 'cairoDevice'
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
 See the information on DESCRIPTION files in the chapter 'Creating R
 packages' of the 'Writing R Extensions' manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+PKgraph: warning in ggroup(horizontal = FALSE, spacing = 0, cont = PKW,
+  expand = TRUE): partial argument match of 'cont' to 'container'
+configFigureHandler: warning in ggroup(cont = gfigconfig.win,
+  horizontal = FALSE): partial argument match of 'cont' to 'container'
+configFigureHandler: warning in glayout(cont = gf1): partial argument
+  match of 'cont' to 'container'
+configFormatHandler: warning in ggroup(cont = gconfigsave.win,
+  horizontal = FALSE): partial argument match of 'cont' to 'container'
+configFormatHandler: warning in glayout(cont = gf1): partial argument
+  match of 'cont' to 'container'
+ggobi.diagose: warning in glabel("Step 1: Map data", cont = g1):
+  partial argument match of 'cont' to 'container'
+ggobi.diagose: warning in gframe(horizontal = FALSE, expand = FALSE,
+  cont = g1): partial argument match of 'cont' to 'container'
+ggobi.diagose: warning in glayout(cont = gf): partial argument match of
+  'cont' to 'container'
+ggobi.diagose: warning in ggroup(cont = g1): partial argument match of
+  'cont' to 'container'
+ggobi.diagose: warning in gbutton("Map Data", cont = bg1, handler =
+  NULL): partial argument match of 'cont' to 'container'
+ggobi.diagose: warning in gbutton("Remove selection", cont = bg1,
+  handler = NULL): partial argument match of 'cont' to 'container'
+ggobi.diagose: warning in glabel("Step 2: Configure plots", cont = g2):
+  partial argument match of 'cont' to 'container'
+ggobi.diagose: warning in ggroup(horizontal = FALSE, expand = FALSE,
+  cont = g2): partial argument match of 'cont' to 'container'
+ggobi.diagose: warning in gtable(items = c(letters[1:24]), cont = g22,
+  expand = TRUE): partial argument match of 'cont' to 'container'
+ggobi.diagose: warning in ggroup(cont = g2): partial argument match of
+  'cont' to 'container'
+ggobi.diagose: warning in gbutton("Plot selection", cont = bg2, handler
+  = NULL): partial argument match of 'cont' to 'container'
+ggobi.diagose: warning in gbutton("Plot all", cont = bg2, handler =
+  NULL): partial argument match of 'cont' to 'container'
+ggobi.diagose: warning in gbutton("Close plots", cont = bg2, handler =
+  NULL): partial argument match of 'cont' to 'container'
+ggobi.map: warning in ggroup(cont = ggobi.map, horizontal = FALSE):
+  partial argument match of 'cont' to 'container'
+ggobi.map: warning in glayout(cont = gf1): partial argument match of
+  'cont' to 'container'
+ggobiPlotType: warning in ggroup(cont = ggobi.map, horizontal = FALSE):
+  partial argument match of 'cont' to 'container'
+ggobiPlotType: warning in glayout(cont = gf1): partial argument match
+  of 'cont' to 'container'
+openDataHandler: warning in ggroup(cont = gtmp.win, horizontal =
+  FALSE): partial argument match of 'cont' to 'container'
+openDataHandler: warning in glayout(cont = gf1): partial argument match
+  of 'cont' to 'container'
+selectDataDialog: warning in ggroup(cont = ggobi.gwin, horizontal =
+  FALSE): partial argument match of 'cont' to 'container'
+selectDataDialog: warning in glabel(text = labelMessage1, cont =
+  ggobi.group): partial argument match of 'cont' to 'container'
+selectDataDialog: warning in gframe(cont = ggobi.group): partial
+  argument match of 'cont' to 'container'
+selectDataDialog: warning in gtable(alldata.name, cont = g1, expand =
+  TRUE): partial argument match of 'cont' to 'container'
+selectDataDialog: warning in gbutton(">", cont = g1): partial argument
+  match of 'cont' to 'container'
+selectDataDialog: warning in gtable(colnames(Theoph), cont = g1, expand
+  = TRUE): partial argument match of 'cont' to 'container'
+selectDataDialog: warning in glabel(text = labelMessage2, cont =
+  ggobi.group): partial argument match of 'cont' to 'container'
+selectDataDialog: warning in gbutton("Go to next step", cont =
+  ggobi.group): partial argument match of 'cont' to 'container'
+subset.okButtonHandler: warning in glayout(cont = gframe.subset):
+  partial argument match of 'cont' to 'container'
+subset.okButtonHandler: warning in gbutton(text = "Subset", border =
+  TRUE, cont = gframe.subset, handler = function(h, ...) {: partial
+  argument match of 'cont' to 'container'
+subset.okButtonHandler: warning in sapply(1:length(subset.var),
+  function(i) {: partial argument match of 'cont' to 'container'
+subset.okButtonHandler: warning in currentData <<-
+  subset.f1(svalue(tbl.value[[i * 3 - 2]]), svalue(tbl.value[[i * 3 -
+  1]]), svalue(tbl.value[[i * 3]]), currentData): partial argument
+  match of 'cont' to 'container'
+subset.okButtonHandler: warning in }): partial argument match of 'cont'
+  to 'container'
+subset.okButtonHandler: warning in thisDatano <- getTotalDataLen() + 1:
+  partial argument match of 'cont' to 'container'
+subset.okButtonHandler: warning in datatype <- "Subset": partial
+  argument match of 'cont' to 'container'
+subset.okButtonHandler: warning in thisDataName <-
+  paste(getTotalDataLen() + 1, "_", datatype, sep = ""): partial
+  argument match of 'cont' to 'container'
+subset.okButtonHandler: warning in setDatasets(currentData,
+  thisDatano): partial argument match of 'cont' to 'container'
+subset.okButtonHandler: warning in setCurrentDataType(datatype,
+  thisDataName): partial argument match of 'cont' to 'container'
+subset.okButtonHandler: warning in ptable = gtable(currentData,
+  multiple = TRUE, expand = TRUE): partial argument match of 'cont' to
+  'container'
+subset.okButtonHandler: warning in pkmain.add(ptable,
+  as.character(thisDataName), override.closebutton = TRUE): partial
+  argument match of 'cont' to 'container'
+subset.okButtonHandler: warning in dispose(gwin.subset): partial
+  argument match of 'cont' to 'container'
+subset.okButtonHandler: warning in svalue(PKENV$pmg.statusBar) <-
+  "Subset sucessfully!": partial argument match of 'cont' to
+  'container'
+subset.okButtonHandler: warning in }): partial argument match of 'cont'
+  to 'container'
+cleanFigureButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+com.hist.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+com.hist.okButtonHandler.0125: no visible binding for global variable
+  'pk.dialog.notebook'
+com.scatter.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+com.scatter.okButtonHandler.0125: no visible binding for global
+  variable 'pk.dialog.notebook'
+com.time.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+com.time.okButtonHandler.back: no visible binding for global variable
+  'pk.dialog.notebook'
+compare.pred.ggobiImageHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+model.cov.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+model.ggobiImageHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+model.gof.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+model.ind.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+model.para.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+model.random.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+model.resid.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+model.struct.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+openDataHandler : <anonymous> : <anonymous>: no visible binding for
+  '<<-' assignment to 'test'
+openDataHandler : <anonymous> : <anonymous>: no visible binding for
+  global variable 'test'
+psn.bootstrap: no visible binding for global variable
+  'minimization.successful'
+psn.bootstrap: no visible binding for global variable
+  'covariance.step.successful'
+psn.bootstrap: no visible binding for global variable
+  'covariance.step.warnings'
+psn.bootstrap: no visible binding for global variable
+  'estimate.near.boundary'
+psn.bootstrap: no visible binding for global variable
+  'pk.dialog.notebook'
+psn.bootstrap.sum.okButtonHandler: no visible binding for global
+  variable 'pk.dialog.notebook'
+psn.bootstrap.sum.okButtonHandler: no visible binding for global
+  variable 'minimization.successful'
+psn.bootstrap.sum.okButtonHandler: no visible binding for global
+  variable 'covariance.step.successful'
+psn.bootstrap.sum.okButtonHandler: no visible binding for global
+  variable 'covariance.step.warnings'
+psn.bootstrap.sum.okButtonHandler: no visible binding for global
+  variable 'estimate.near.boundary'
+psn.bootstrap.vis.okButtonHandler: no visible binding for global
+  variable 'pk.dialog.notebook'
+psn.bootstrap.vis.okButtonHandler: no visible binding for global
+  variable 'ID'
+psn.bootstrap.vis.okButtonHandler: no visible binding for global
+  variable 'resampleID'
+psn.bootstrap.vis.okButtonHandler: no visible binding for global
+  variable 'para'
+psn.bootstrap.vis.okButtonHandler: no visible binding for global
+  variable 'VAR'
+psn.cdd: no visible binding for global variable
+  'minimization.successful'
+psn.cdd: no visible binding for global variable
+  'covariance.step.successful'
+psn.cdd: no visible binding for global variable
+  'covariance.step.warnings'
+psn.cdd: no visible binding for global variable
+  'estimate.near.boundary'
+psn.cdd: no visible binding for global variable 'outside.n.sd'
+psn.outlier.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+psn.outlier.okButtonHandler: no visible binding for global variable
+  'ID'
+psn.outlier.okButtonHandler: no visible binding for global variable
+  'cook.scores'
+psn.outlier.okButtonHandler: no visible binding for global variable
+  'cov.ratios'
+saveImageHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+saveImageHandler.matrix: no visible binding for global variable
+  'pk.dialog.notebook'
+saveImageHandler.pkmodel: no visible binding for global variable
+  'pk.dialog.notebook'
+summary.bi.ggobiImageHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+summary.bi.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+summary.heat.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+summary.matrix.ggobiImageHandler: no visible binding for global
+  variable 'pk.dialog.notebook'
+summary.matrix.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+summary.para.ggobiImageHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+summary.para.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+summary.tri.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+summary.uni.ggobiImageHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+summary.uni.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+val.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+validation.ggobiImageHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+vis.outlier.okButtonHandler: no visible binding for global variable
+  'pk.dialog.notebook'
+vis.outlier.okButtonHandler: no visible binding for global variable
+  'runID'
+vis.outlier.okButtonHandler: no visible binding for global variable
+  'deleteID'
+vis.outlier.okButtonHandler: no visible binding for global variable
+  'ID'
+vis.outlier.okButtonHandler: no visible binding for global variable
+  'para'
+vis.outlier.okButtonHandler: no visible binding for global variable
+  'resampleID'
+vis.outlier.okButtonHandler: no visible global function definition for
+  'namerows'
+vis.outlier.okButtonHandler: no visible global function definition for
+  'melt'
+vis.outlier.okButtonHandler: no visible global function definition for
+  'ddply'
+vis.outlier.okButtonHandler: no visible binding for global variable
+  'variable'
+vis.outlier.okButtonHandler: no visible global function definition for
+  'rescaler'
+vis.outlier.okButtonHandler: no visible binding for global variable
+  'value'
+vis.outlier.okButtonHandler: no visible binding for global variable
+  'rng'
+vis.outlier.okButtonHandler: no visible binding for global variable
+  'cor1'
+vis.outlier.okButtonHandler: no visible binding for global variable
+  'cor2'
+* checking Rd files ... NOTE
+prepare_Rd: PKgraph.Rd:11-13: Dropping empty section \arguments
+prepare_Rd: PKgraph.Rd:17-19: Dropping empty section \examples
+prepare_Rd: pkdata.Rd:9-11: Dropping empty section \format
+prepare_Rd: pkdata.Rd:14-16: Dropping empty section \examples
+prepare_Rd: pkdata2.Rd:9-11: Dropping empty section \format
+prepare_Rd: pkdata2.Rd:14-16: Dropping empty section \examples
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking sizes of PDF files under 'inst/doc' ... OK
+* checking installed files from 'inst/doc' ... OK
+* checking files in 'vignettes' ... OK
+* checking examples ... NONE
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK
+NOTE: There were 5 notes.

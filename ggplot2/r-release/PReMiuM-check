@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/PReMiuM.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/PReMiuM.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
 * checking for file 'PReMiuM/DESCRIPTION' ... OK
 * checking extension type ... Package
-* this is package 'PReMiuM' version '3.0.21'
+* this is package 'PReMiuM' version '3.0.24'
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,11 +14,11 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'PReMiuM' can be installed ... [67s/67s] OK
+* checking whether package 'PReMiuM' can be installed ... [56s/58s] OK
 * checking installed package size ... NOTE
-  installed size is 11.9Mb
+  installed size is 12.0Mb
   sub-directories of 1Mb or more:
-    libs  11.7Mb
+    libs  11.8Mb
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
@@ -40,6 +40,7 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -51,5 +52,5 @@
 * checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [12s/12s] OK
+* checking examples ... OK
 NOTE: There was 1 note.

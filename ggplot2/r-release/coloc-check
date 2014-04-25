@@ -1,5 +1,5 @@
-* using log directory '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/coloc.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/coloc.Rcheck'
+* using R version 3.1.0 (2014-04-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: ASCII
 * using option '--no-codoc'
@@ -46,6 +46,7 @@ fillin: no visible global function definition for 'snp.imputation'
 fillin: no visible global function definition for 'impute.snps'
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -58,7 +59,7 @@ fillin: no visible global function definition for 'impute.snps'
 * checking examples ... OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [14s/14s] WARNING
+* checking running R code from vignettes ... [12s/12s] WARNING
 Errors in running code in vignettes:
 when running code in 'vignette.Rnw'
   ...

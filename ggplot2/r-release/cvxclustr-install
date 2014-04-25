@@ -1,9 +1,9 @@
 * installing *source* package 'cvxclustr' ...
 ** package 'cvxclustr' successfully unpacked and MD5 sums checked
 ** libs
-gfortran  -fpic -O3 -pipe  -g  -c  variable_splitting.f90 -o variable_splitting.o
-gfortran -shared -o cvxclustr.so variable_splitting.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/cvxclustr.Rcheck/cvxclustr/libs
+gfortran  -fpic -g -O2  -c  variable_splitting.f90 -o variable_splitting.o
+gfortran -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o cvxclustr.so variable_splitting.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/cvxclustr.Rcheck/cvxclustr/libs
 ** R
 ** data
 ** preparing package for lazy loading

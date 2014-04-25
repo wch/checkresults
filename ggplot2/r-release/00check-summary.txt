@@ -1,4 +1,8 @@
-R version 3.0.3 (2014-03-06)
+=========================================================================
+Reverse dependency check for ggplot2 0.9.3.1.99
+Commit c383670265cd89f8a1bce3709e0b861a781c3f80
+=========================================================================
+R version 3.1.0 (2014-04-10)
 Platform: x86_64-pc-linux-gnu (64-bit)
 
 locale:
@@ -13,11 +17,11 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] devtools_1.5
+[1] devtools_1.5.0.99
 
 loaded via a namespace (and not attached):
- [1] digest_0.6.4   evaluate_0.5.1 formatR_0.10   httr_0.3       knitr_1.5     
- [6] memoise_0.1    parallel_3.0.3 RCurl_1.95-4.1 stringr_0.6.2  tools_3.0.3   
+ [1] digest_0.6.4   evaluate_0.5.3 formatR_0.10   httr_0.3       knitr_1.5     
+ [6] memoise_0.2.1  parallel_3.1.0 RCurl_1.95-4.1 stringr_0.6.2  tools_3.1.0   
 [11] whisker_0.3-2 
 
 abctools ================================================================ 
@@ -28,9 +32,8 @@ abd =====================================================================
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [25s/25s] OK
-WARNING: There was 1 warning.
-NOTE: There were 2 notes. 
+ [21s/21s]WARNING: There was 1 warning.
+NOTE: There was 1 note. 
 
 
 adegenet ================================================================ 
@@ -160,7 +163,7 @@ The following object is masked from 'package:lattice':
     melanoma
 
 > print(mean(post.rjags))
-[1] 0.6468731
+[1] 0.6424352
 > hist(post.rjags)
 > 
 > ## Posterior distribution of the model parameter using BRugs (Windows and i386 Linux only)
@@ -241,6 +244,10 @@ clhs ====================================================================
  
 
 
+clusterfly ============================================================== 
+ 
+
+
 clusthaplo ============================================================== 
  
 
@@ -254,7 +261,7 @@ coefplot ================================================================
 
 
 coloc =================================================================== 
- *  checking running R code from vignettes ... [14s/14s] WARNING
+ *  checking running R code from vignettes ... [12s/12s] WARNING
 Errors in running code in vignettes:
 when running code in 'vignette.Rnw'
   ...
@@ -295,9 +302,9 @@ Last 13 lines of output:
   Loading required package: data.table
   > options(warn=2)
   > test.data.table()
-  Running /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/data.table.Rcheck/data.table/tests/tests.Rraw 
+  Running /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/data.table.Rcheck/data.table/tests/tests.Rraw 
   Error in parse(n = -1, file = file, srcfile = NULL, keep.source = FALSE) : 
-    (converted from warning) invalid input found on input connection '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/data.table.Rcheck/data.table/tests/tests.Rraw'
+    (converted from warning) invalid input found on input connection '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/data.table.Rcheck/data.table/tests/tests.Rraw'
   Calls: test.data.table -> sys.source -> parse
   Execution halted 
 
@@ -321,8 +328,7 @@ DescribeDisplay =========================================================
 dfexplore =============================================================== 
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
-
- OK 
+ 
 
 
 dielectric ============================================================== 
@@ -344,7 +350,7 @@ Warning in Sys.setlocale("LC_CTYPE", "en_US") :
 *  checking examples ... WARNING
 checking a package with encoding  'latin1'  in an ASCII locale
 
- [12s/12s] OK 
+ [10s/10s]* checking for unstated dependencies in vignettes ... OK 
 
 
 dplyr =================================================================== 
@@ -381,7 +387,7 @@ dynsim ==================================================================
 dynsurv ================================================================= 
  *  checking whether package 'dynsurv' can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/dynsurv.Rcheck/00install.out' for details. 
+See '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/dynsurv.Rcheck/00install.out' for details. 
 
 
 earlywarnings =========================================================== 
@@ -412,11 +418,6 @@ evaluate ================================================================
  *  checking tests ... ERROR
 Running the tests in 'tests/test-all.R' failed.
 Last 13 lines of output:
-  Errors : ....
-  Evaluation : ..1........
-  Evaluation: graphics : .......................
-  Output : .
-  Parsing : .
   
   
   1. Failure(@test-evaluate.r#12): data sets loaded ------------------------------
@@ -424,6 +425,11 @@ Last 13 lines of output:
   Mean relative difference: 0.3333333
   
   Error: Test failures
+  In addition: Warning messages:
+  1: In getPackageName(where) :
+    Created a package name, '2014-04-25 16:18:39', when none found
+  2: In getPackageName(where) :
+    Created a package name, '2014-04-25 16:18:39', when none found
   Execution halted 
 
 
@@ -459,6 +465,27 @@ freqparcoord ============================================================
  
 
 
+freqweights ============================================================= 
+ *  checking examples ... ERROR
+Running examples in 'freqweights-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: biglmfreq
+> ### Title: Estimates the coefficients of a linear model
+> ### Aliases: biglmfreq coef.biglmfreq predict.biglmfreq print.biglmfreq
+> ###   update.biglmfreq
+> 
+> ### ** Examples
+> 
+> ml <- lm(Sepal.Length ~ Sepal.Width, iris)
+> tt <- tablefreq(iris[,c("Sepal.Length","Sepal.Width")])
+Error in (mat - 1L) %>% combs : 
+  RHS appears to be a function name, but it cannot be found.
+Calls: tablefreq -> id -> %>%
+Execution halted 
+
+
 frontiles =============================================================== 
  *  checking R files for syntax errors ... WARNING
 Warning in Sys.setlocale("LC_CTYPE", "en_US") :
@@ -466,10 +493,9 @@ Warning in Sys.setlocale("LC_CTYPE", "en_US") :
 *  checking examples ... WARNING
 checking a package with encoding  'latin1'  in an ASCII locale
 
- [14s/14s] OK
-Examples with CPU or elapsed time > 5s
-                 user system elapsed
-alphafrontier.3d 9.08  0.084   9.179 
+ [12s/12s]Examples with CPU or elapsed time > 5s
+                  user system elapsed
+alphafrontier.3d 7.536  0.048   7.633 
 
 
 GCD ===================================================================== 
@@ -482,6 +508,24 @@ gcookbook ===============================================================
 
 gettingtothebottom ====================================================== 
  
+
+
+gfcanalysis ============================================================= 
+ *  checking examples ... ERROR
+Running examples in 'gfcanalysis-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: calc_gfc_tiles
+> ### Title: Calculate the GFC product tiles needed for a given AOI
+> ### Aliases: calc_gfc_tiles
+> 
+> ### ** Examples
+> 
+> tiles <- calc_gfc_tiles(test_poly)
+Error in gUnaryUnion(aoi) : No UnaryUnion in this version of GEOS
+Calls: calc_gfc_tiles -> gIntersects -> RGEOSBinPredFunc -> gUnaryUnion
+Execution halted 
 
 
 GGally ================================================================== 
@@ -504,10 +548,9 @@ ggmcmc ==================================================================
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [20s/20s] OK
-Examples with CPU or elapsed time > 5s
+ [16s/16s]Examples with CPU or elapsed time > 5s
         user system elapsed
-ggmcmc 9.288  0.072   9.364
+ggmcmc 7.104  0.052   7.157
 WARNING: There was 1 warning.
 NOTE: There was 1 note. 
 
@@ -560,6 +603,10 @@ granovaGG ===============================================================
  
 
 
+GraphPCA ================================================================ 
+ 
+
+
 gridDebug =============================================================== 
  *  checking package dependencies ... ERROR
 Package required but not available: 'gridGraphviz'
@@ -589,7 +636,92 @@ gstudio =================================================================
 
 
 HistData ================================================================ 
- 
+ *  checking examples ... ERROR
+Running examples in 'HistData-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: Jevons
+> ### Title: W. Stanley Jevons' data on numerical discrimination
+> ### Aliases: Jevons
+> ### Keywords: datasets
+> 
+> ### ** Examples
+> 
+> data(Jevons)
+> # show as tables
+> xtabs(frequency ~ estimated+actual, data=Jevons)
+         actual
+estimated   3   4   5   6   7   8   9  10  11  12  13  14  15
+       3   23   0   0   0   0   0   0   0   0   0   0   0   0
+       4    0  65   0   0   0   0   0   0   0   0   0   0   0
+       5    0   0 102   7   0   0   0   0   0   0   0   0   0
+       6    0   0   4 120  18   0   0   0   0   0   0   0   0
+       7    0   0   1  20 113  30   2   0   0   0   0   0   0
+       8    0   0   0   0  25  76  24   6   1   0   0   0   0
+       9    0   0   0   0   0  28  76  37  11   1   0   0   0
+       10   0   0   0   0   0   1  18  46  19   4   0   0   0
+       11   0   0   0   0   0   0   2  16  26  17   7   2   0
+       12   0   0   0   0   0   0   0   2  12  19  11   3   2
+       13   0   0   0   0   0   0   0   0   0   3   6   3   1
+       14   0   0   0   0   0   0   0   0   0   1   1   4   6
+       15   0   0   0   0   0   0   0   0   0   0   1   2   2
+> xtabs(frequency ~ error+actual, data=Jevons)
+     actual
+error   3   4   5   6   7   8   9  10  11  12  13  14  15
+   -2   0   0   1   0   0   1   2   2   0   1   1   0   0
+   -1   0   0   4  20  25  28  18  16  12   3   1   2   0
+   0   23  65 102 120 113  76  76  46  26  19   6   4   2
+   1    0   0   0   7  18  30  24  37  19  17  11   3   6
+   2    0   0   0   0   0   0   2   6  11   4   7   3   1
+   3    0   0   0   0   0   0   0   0   1   1   0   2   2
+> 
+> # show as sunflowerplot with regression line
+> with(Jevons, sunflowerplot(actual, estimated, frequency, 
++   main="Jevons data on numerical estimation"))
+> Jmod <-lm(estimated ~ actual, data=Jevons, weights=frequency)
+> abline(Jmod)
+> 
+> # show as balloonplots
+> if (require(gplots)) {
++ 
++ with(Jevons, balloonplot(actual, estimated, frequency, xlab="actual", ylab="estimated", 
++   main="Jevons data on numerical estimation\nBubble area proportional to frequency",
++   text.size=0.8))
++ 
++ with(Jevons, balloonplot(actual, error, frequency, xlab="actual", ylab="error", 
++   main="Jevons data on numerical estimation: Errors\nBubble area proportional to frequency", 
++   text.size=0.8))
++ }
+Loading required package: gplots
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+Attaching package: 'gplots'
+
+The following object is masked from 'package:stats':
+
+    lowess
+
+> 
+> # plot average error
+> if(require(reshape)) {
++ unJevons <- untable(Jevons, Jevons$frequency)
++ str(unJevons)
++ 
++ mean_error <- function(df) mean(df$error, na.rm=TRUE)
++ Jmean <- ddply(unJevons, .(actual), mean_error)
++ with(Jmean, plot(actual, V1, ylab='Mean error', xlab='Actual number', type='b', main='Jevons data'))
++ abline(h=0)
++ }
+Loading required package: reshape
+'data.frame':	1027 obs. of  4 variables:
+ $ actual   : num  3 3 3 3 3 3 3 3 3 3 ...
+ $ estimated: num  3 3 3 3 3 3 3 3 3 3 ...
+ $ frequency: num  23 23 23 23 23 23 23 23 23 23 ...
+ $ error    : num  0 0 0 0 0 0 0 0 0 0 ...
+Error: could not find function "ddply"
+Execution halted 
 
 
 HiveR =================================================================== 
@@ -707,11 +839,18 @@ metagen =================================================================
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [28s/28s] OK
-WARNING: There was 1 warning. 
+ [26s/26s]WARNING: There was 1 warning. 
 
 
 meteogRam =============================================================== 
+ 
+
+
+Methplot ================================================================ 
+ 
+
+
+MGLM ==================================================================== 
  
 
 
@@ -736,9 +875,7 @@ mixstock ================================================================
 
 
 Mobilize ================================================================ 
- *  checking whether package 'Mobilize' can be installed ... ERROR
-Installation failed.
-See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/Mobilize.Rcheck/00install.out' for details. 
+ 
 
 
 mosaic ================================================================== 
@@ -1046,6 +1183,9 @@ optiRum =================================================================
  *  checking tests ... ERROR
 Running the tests in 'tests/test-all.R' failed.
 Last 13 lines of output:
+  1. Error: generatePDF - correct behaviour, DATED=FALSE,CLEANUP=TRUE, compiler=xelatex 
+  Running 'texi2dvi' on 'datatabletest.tex' failed.
+  1: generatePDF(srcpath = basepath, srcname = "datatabletest", destpath = testpath, destname = "datatabletest", 
          DATED = FALSE, compiler = "xelatex") at test-generatePDF.R:90
   2: knit2pdf(input = src, output = dest, envir = envir, quiet = QUIET, clean = CLEANUP, 
          ...)
@@ -1055,9 +1195,6 @@ Last 13 lines of output:
   5: stop(msg, domain = NA)
   
   Error: Test failures
-  In addition: Warning messages:
-  1: In precision(x) : NaNs produced
-  2: In precision(x) : NaNs produced
   Execution halted 
 
 
@@ -1077,7 +1214,6 @@ pander ==================================================================
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- OK
 WARNING: There was 1 warning. 
 
 
@@ -1092,7 +1228,7 @@ PAWL ====================================================================
 pbdPROF ================================================================= 
  *  checking whether package 'pbdPROF' can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/pbdPROF.Rcheck/00install.out' for details. 
+See '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/pbdPROF.Rcheck/00install.out' for details. 
 
 
 PBImisc ================================================================= 
@@ -1102,7 +1238,7 @@ PBImisc =================================================================
 pcaPA =================================================================== 
  *  checking whether package 'pcaPA' can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/pcaPA.Rcheck/00install.out' for details. 
+See '/mnt/tmp/RtmptNrE85/check_cran7387754e8f4/pcaPA.Rcheck/00install.out' for details. 
 
 
 pcrcoal ================================================================= 
@@ -1142,11 +1278,7 @@ pitchRx =================================================================
 
 
 PKgraph ================================================================= 
- *  checking package dependencies ... ERROR
-Package required but not available: 'rggobi'
-
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual. 
+ 
 
 
 PKreport ================================================================ 
@@ -1156,8 +1288,7 @@ PKreport ================================================================
 planar ================================================================== 
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
-
- OK 
+ 
 
 
 playwith ================================================================ 
@@ -1168,7 +1299,6 @@ plot2groups =============================================================
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- OK
 WARNING: There was 1 warning. 
 
 
@@ -1184,10 +1314,9 @@ poppr ===================================================================
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [22s/22s] OK
-Examples with CPU or elapsed time > 5s
-     user system elapsed
-mlg 5.789   0.06   5.884 
+ [18s/19s]Examples with CPU or elapsed time > 5s
+    user system elapsed
+mlg 5.32  0.048   5.401 
 
 
 popReconstruct ========================================================== 
@@ -1253,9 +1382,7 @@ packages' of the 'Writing R Extensions' manual.
 
 
 qdap ==================================================================== 
- *  checking whether package 'qdap' can be installed ... ERROR
-Installation failed.
-See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/qdap.Rcheck/00install.out' for details. 
+ 
 
 
 quadrupen =============================================================== 
@@ -1278,10 +1405,9 @@ rasterVis ===============================================================
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [24s/25s] OK
-Examples with CPU or elapsed time > 5s
+ [19s/19s]Examples with CPU or elapsed time > 5s
                     user system elapsed
-levelplot-methods 14.329  0.088  14.492
+levelplot-methods 10.661  0.064  10.798
 WARNING: There was 1 warning. 
 
 
@@ -1290,9 +1416,7 @@ rattle ==================================================================
 
 
 rbefdata ================================================================ 
- *  checking whether package 'rbefdata' can be installed ... ERROR
-Installation failed.
-See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/rbefdata.Rcheck/00install.out' for details. 
+ 
 
 
 rbison ================================================================== 
@@ -1307,6 +1431,10 @@ Package suggested but not available for checking: 'hopach'
 
 See the information on DESCRIPTION files in the chapter 'Creating R
 packages' of the 'Writing R Extensions' manual. 
+
+
+Rchoice ================================================================= 
+ 
 
 
 RcmdrPlugin.KMggplot2 =================================================== 
@@ -1369,27 +1497,16 @@ robustlmm ===============================================================
  
 
 
+rorutadis =============================================================== 
+ 
+
+
 rotations =============================================================== 
  
 
 
 rpf ===================================================================== 
- *  checking tests ... ERROR
-Running the tests in 'tests/dotest.R' failed.
-Last 13 lines of output:
-  plink : ............
-  goodness of fit : ...
-  outfit/infit : ........................
-  rescale : ....................................
-  sample : ..........
-  
-  
-  1. Failure(@test-dTheta.R#38): rpf.mdim.nrm ------------------------------------
-  analytic$hessian not equal to c(dir %*% deriv[c(ii@factors + triSize(1:ii@factors)), ])
-  Mean relative difference: 0.0007532709
-  
-  Error: Test failures
-  Execution halted 
+ 
 
 
 rplos =================================================================== 
@@ -1408,7 +1525,6 @@ RSA =====================================================================
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- OK
 WARNING: There was 1 warning. 
 
 
@@ -1428,11 +1544,19 @@ rvertnet ================================================================
  
 
 
+rWBclimate ============================================================== 
+ 
+
+
 Rz ====================================================================== 
  
 
 
 SamplerCompare ========================================================== 
+ 
+
+
+sand ==================================================================== 
  
 
 
@@ -1466,22 +1590,17 @@ SixSigma ================================================================
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [13s/13s] OK
-Examples with CPU or elapsed time > 5s
-         user system elapsed
-SixSigma 5.06  0.052   5.117 
+ [11s/11s]* checking for unstated dependencies in tests ... OK 
 
 
 sjPlot ================================================================== 
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [69s/70s] OK
-Examples with CPU or elapsed time > 5s
+ [59s/59s]Examples with CPU or elapsed time > 5s
             user system elapsed
-sjp.grpfrq 9.809  0.000  10.144
-sjp.lm.int 6.036  0.004   6.037
-sjp.frq    5.488  0.004   5.543
+sjp.grpfrq 5.960  0.004   6.182
+sjp.lm.int 5.129  0.008   5.143
 WARNING: There was 1 warning. 
 
 
@@ -1502,6 +1621,10 @@ soc.ca ==================================================================
 
 
 sorvi =================================================================== 
+ 
+
+
+sotkanet ================================================================ 
  
 
 
@@ -1577,6 +1700,10 @@ TimeProjection ==========================================================
  
 
 
+toaster ================================================================= 
+ 
+
+
 tourrGui ================================================================ 
  
 
@@ -1589,7 +1716,15 @@ trapezoid ===============================================================
  
 
 
+TreatmentSelection ====================================================== 
+ 
+
+
 treecm ================================================================== 
+ 
+
+
+treemap ================================================================= 
  
 
 
@@ -1601,8 +1736,7 @@ TripleR =================================================================
  *  checking examples ... WARNING
 checking a package with encoding  'UTF-8'  in an ASCII locale
 
- [12s/12s] OK
-WARNING: There was 1 warning.
+ [11s/11s]WARNING: There was 1 warning.
 NOTE: There was 1 note. 
 
 
@@ -1611,6 +1745,10 @@ tspmeta =================================================================
 
 
 useful ================================================================== 
+ 
+
+
+userfriendlyscience ===================================================== 
  
 
 
@@ -1662,10 +1800,12 @@ Calls: print ... unlist -> lapply -> eval.quoted -> lapply -> FUN -> eval
 Execution halted 
 
 
+wesanderson ============================================================= 
+ 
+
+
 wethepeople ============================================================= 
- *  checking whether package 'wethepeople' can be installed ... ERROR
-Installation failed.
-See '/mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/wethepeople.Rcheck/00install.out' for details. 
+ 
 
 
 wppExplorer ============================================================= 

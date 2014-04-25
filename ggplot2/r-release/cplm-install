@@ -1,15 +1,15 @@
 * installing *source* package 'cplm' ...
 ** package 'cplm' successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Matrix/include"   -fpic  -O3 -pipe  -g  -c bcplm.c -o bcplm.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Matrix/include"   -fpic  -O3 -pipe  -g  -c cpglmm.c -o cpglmm.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Matrix/include"   -fpic  -O3 -pipe  -g  -c init.c -o init.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Matrix/include"   -fpic  -O3 -pipe  -g  -c local_stubs.c -o local_stubs.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Matrix/include"   -fpic  -O3 -pipe  -g  -c mh.c -o mh.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Matrix/include"   -fpic  -O3 -pipe  -g  -c tweedie.c -o tweedie.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Matrix/include"   -fpic  -O3 -pipe  -g  -c utilities.c -o utilities.o
-gcc -std=gnu99 -shared -o cplm.so bcplm.o cpglmm.o init.o local_stubs.o mh.o tweedie.o utilities.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpEVqXx2/check_cran4dc7cd043b1/cplm.Rcheck/cplm/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c bcplm.c -o bcplm.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c cpglmm.c -o cpglmm.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c local_stubs.c -o local_stubs.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c mh.c -o mh.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c tweedie.c -o tweedie.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/library/Matrix/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utilities.c -o utilities.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o cplm.so bcplm.o cpglmm.o init.o local_stubs.o mh.o tweedie.o utilities.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmptNrE85/check_cran7387754e8f4/cplm.Rcheck/cplm/libs
 ** R
 ** data
 *** moving datasets to lazyload DB
