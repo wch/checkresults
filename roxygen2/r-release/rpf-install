@@ -1,0 +1,20 @@
+* installing *source* package 'rpf' ...
+** package 'rpf' successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -Wall -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c diagnose.c -o diagnose.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -Wall -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c glue.c -o glue.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -Wall -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c libifa-rpf.c -o libifa-rpf.o
+libifa-rpf.c:937:1: warning: 'pda' defined but not used [-Wunused-function]
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o rpf.so diagnose.o glue.o libifa-rpf.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpTzOMGr/check_cran20d8a30714c/rpf.Rcheck/rpf/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (rpf)
