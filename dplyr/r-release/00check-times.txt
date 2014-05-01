@@ -1,4 +1,4 @@
-1  DataCombine  26.5
-2  freqweights  20.4
-3  pitchRx  80.0
-4  simPH  176.6
+1  DataCombine  28.9
+2  freqweights  23.3
+3  pitchRx  89.6
+4  simPH  189.4
