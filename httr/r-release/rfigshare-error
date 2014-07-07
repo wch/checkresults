@@ -1,0 +1,16 @@
+rfigshare *  checking tests ... ERROR
+Running the tests in ‘tests/test-all.R’ failed.
+Last 13 lines of output:
+  Links : 
+  .
+  Testing miscellaneous functions : ..
+  
+  
+  1. Failure(@test_figshare.R#179): We are able to change visibility of objects --
+  fs_make_private(new_fs_obj) does not match 'error'. Actual value: "Response [http://api.figshare.com/v1/my_data/articles/1094828/action/make_private]\n  Status: 400\n  Content-type: <unknown>\n  Size: 98 B\n<BINARY BODY>"
+  
+  2. Failure(@test_figshare.R#191): We can make articles public ------------------
+  fs_make_public(new_fs_obj) does not match 'error'. Actual value: "Response [http://api.figshare.com/v1/my_data/articles/1094829/action/make_public]\n  Status: 400\n  Content-type: <unknown>\n  Size: 98 B\n<BINARY BODY>"
+  
+  Error: Test failures
+  Execution halted

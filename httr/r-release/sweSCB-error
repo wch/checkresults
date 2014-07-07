@@ -1,0 +1,34 @@
+sweSCB *  checking examples ... ERROR
+Running examples in ‘sweSCB-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: scbGetData
+> ### Title: Get data from a bottom node in SCB API
+> ### Aliases: scbGetData
+> 
+> ### ** Examples
+> 
+> ## CONTINUED FROM EXAMPLES IN scbGetMetadata()
+> # Get metadata for a variable
+> url <- paste(c(baseURL(),"AM","AM0102","AM0102A","KLStabell14LpMan"), collapse="/")
+> metadata <- scbGetMetadata(url)
+> 
+> # Get dimensions (names of dimensions are printed in the terminal)
+> dims <- scbGetDims(metadata)
+Title: 
+ Genomsnittlig månadslön för månadsavlönade samt antal sysselsatta inom statlig sektor (KLS) efter myndighet, kön, hel-/deltid, tabellinnehåll och månad 
+Names: 
+ Myndighet Kon Heltiddeltid ContentsCode Tid 
+> 
+> # Get data
+> test <- scbGetData(metadata$URL, dims=list(
++    Myndighet = "C02",
++    Kon = "*",
++    Heltiddeltid = "*",
++    ContentsCode = "*",
++    Tid = "*"
++ ))
+Error: 200 OK
+ "myndighet","kön","hel-/deltid","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M01","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M02","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M03","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M04","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M05","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M06","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M07","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M08","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M09","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M10","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M11","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS)
+Execution halted
