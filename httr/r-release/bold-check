@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpiDkq4u/check_cran72bdcb68830/bold.Rcheck’
-* using R version 3.1.0 (2014-04-10)
+* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/bold.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -48,9 +48,19 @@
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [3s/11s] OK
-  Running ‘test-all.R’ [2s/11s]
-* checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... OK
-* checking re-building of vignette outputs ... OK
+* checking tests ... ERROR
+Running the tests in ‘tests/test-all.R’ failed.
+Last 13 lines of output:
+  length(c) not equal to 8
+  Mean relative difference: 0.125
+  
+  2. Failure(@test-bold_seqspec.R#10): bold_seqspec returns the correct dimensions or values 
+  length(b) not equal to 8
+  Mean relative difference: 0.125
+  
+  3. Failure(@test-bold_specimens.R#11): bold_specimens returns the correct dimensions or values 
+  length(b) not equal to 8
+  Mean relative difference: 0.125
+  
+  Error: Test failures
+  Execution halted

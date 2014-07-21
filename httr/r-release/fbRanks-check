@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpiDkq4u/check_cran72bdcb68830/fbRanks.Rcheck’
-* using R version 3.1.0 (2014-04-10)
+* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/fbRanks.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -54,5 +54,5 @@
 * checking examples ... OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [83s/84s] OK
-* checking re-building of vignette outputs ... [75s/76s] OK
+* checking running R code from vignettes ... [86s/87s] OK
+* checking re-building of vignette outputs ... [76s/77s] OK

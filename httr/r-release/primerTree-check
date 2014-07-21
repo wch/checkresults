@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpiDkq4u/check_cran72bdcb68830/primerTree.Rcheck’
-* using R version 3.1.0 (2014-04-10)
+* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/primerTree.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -53,5 +53,5 @@
 * checking examples ... [19s/19s] OK
 Examples with CPU or elapsed time > 5s
                  user system elapsed
-plot_tree_ranks 9.561  0.016   9.596
-plot.primerTree 7.128  0.064   7.192
+plot_tree_ranks 8.885  0.032   8.914
+plot.primerTree 7.420  0.100   7.525

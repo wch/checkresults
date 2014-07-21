@@ -1,10 +1,10 @@
-* using log directory ‘/mnt/tmp/RtmpiDkq4u/check_cran72bdcb68830/pollstR.Rcheck’
-* using R version 3.1.0 (2014-04-10)
+* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/pollstR.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘pollstR/DESCRIPTION’ ... OK
-* this is package ‘pollstR’ version ‘1.0-0’
+* this is package ‘pollstR’ version ‘1.0.1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -48,8 +48,8 @@
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [11s/14s] OK
-  Running ‘testthat.R’ [11s/13s]
+* checking tests ... [12s/14s] OK
+  Running ‘testthat.R’ [12s/14s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... OK

@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpiDkq4u/check_cran72bdcb68830/sweSCB.Rcheck’
-* using R version 3.1.0 (2014-04-10)
+* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/sweSCB.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -75,6 +75,7 @@ Names:
 +    ContentsCode = "*",
 +    Tid = "*"
 + ))
-Error: 200 OK
- "myndighet","kön","hel-/deltid","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M01","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M02","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M03","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M04","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M05","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M06","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M07","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M08","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M09","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M10","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M11","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS)
+Error in if (response$headers$statusmessage != "OK") { : 
+  argument is of length zero
+Calls: scbGetData
 Execution halted

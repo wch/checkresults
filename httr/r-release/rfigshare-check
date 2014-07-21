@@ -1,10 +1,10 @@
-* using log directory ‘/mnt/tmp/RtmpiDkq4u/check_cran72bdcb68830/rfigshare.Rcheck’
-* using R version 3.1.0 (2014-04-10)
+* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/rfigshare.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘rfigshare/DESCRIPTION’ ... OK
-* this is package ‘rfigshare’ version ‘0.3-1’
+* this is package ‘rfigshare’ version ‘0.3.5’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -48,19 +48,9 @@
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in ‘tests/test-all.R’ failed.
-Last 13 lines of output:
-  Links : 
-  .
-  Testing miscellaneous functions : ..
-  
-  
-  1. Failure(@test_figshare.R#179): We are able to change visibility of objects --
-  fs_make_private(new_fs_obj) does not match 'error'. Actual value: "Response [http://api.figshare.com/v1/my_data/articles/1094828/action/make_private]\n  Status: 400\n  Content-type: <unknown>\n  Size: 98 B\n<BINARY BODY>"
-  
-  2. Failure(@test_figshare.R#191): We can make articles public ------------------
-  fs_make_public(new_fs_obj) does not match 'error'. Actual value: "Response [http://api.figshare.com/v1/my_data/articles/1094829/action/make_public]\n  Status: 400\n  Content-type: <unknown>\n  Size: 98 B\n<BINARY BODY>"
-  
-  Error: Test failures
-  Execution halted
+* checking tests ... [6s/63s] OK
+  Running ‘test-all.R’ [6s/62s]
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [2s/20s] OK
+* checking re-building of vignette outputs ... [3s/21s] OK

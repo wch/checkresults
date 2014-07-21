@@ -29,6 +29,7 @@ Names:
 +    ContentsCode = "*",
 +    Tid = "*"
 + ))
-Error: 200 OK
- "myndighet","kön","hel-/deltid","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M01","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M02","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M03","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M04","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M05","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M06","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M07","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M08","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M09","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M10","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS) 2010M11","Genomsnittlig månadslön för månadsavlönade, statlig sektor (KLS)
+Error in if (response$headers$statusmessage != "OK") { : 
+  argument is of length zero
+Calls: scbGetData
 Execution halted

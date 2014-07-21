@@ -1,19 +1,21 @@
-* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/solr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/RNeXML.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
-* checking for file ‘solr/DESCRIPTION’ ... OK
-* this is package ‘solr’ version ‘0.1.4’
+* checking for file ‘RNeXML/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘RNeXML’ version ‘1.1.2’
 * checking package namespace information ... OK
-* checking package dependencies ... OK
+* checking package dependencies ... NOTE
+Package suggested but not available for checking: ‘Sxslt’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘solr’ can be installed ... OK
+* checking whether package ‘RNeXML’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK
@@ -34,7 +36,9 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+get_rdf: no visible global function definition for
+  ‘xsltApplyStyleSheet’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd line widths ... OK
@@ -44,11 +48,17 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... OK
+* checking examples ... [16s/16s] OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... [82s/157s] OK
+  Running ‘test-all.R’ [82s/157s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... OK
-* checking re-building of vignette outputs ... OK
+* checking running R code from vignettes ... [14s/15s] OK
+* checking re-building of vignette outputs ... [15s/17s] OK
+NOTE: There were 2 notes.

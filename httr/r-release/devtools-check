@@ -1,13 +1,12 @@
-* using log directory ‘/mnt/tmp/RtmpiDkq4u/check_cran72bdcb68830/devtools.Rcheck’
-* using R version 3.1.0 (2014-04-10)
+* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/devtools.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘devtools/DESCRIPTION’ ... OK
 * this is package ‘devtools’ version ‘1.5’
 * checking package namespace information ... OK
-* checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘BiocInstaller’
+* checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
@@ -59,7 +58,7 @@ See section ‘Good practice’ in ‘?attach’.
 * checking compiled code ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [20s/24s] OK
+* checking tests ... [22s/27s] OK
   Running ‘has-devel.R’
-  Running ‘test-that.R’ [19s/23s]
-NOTE: There were 3 notes.
+  Running ‘test-that.R’ [21s/26s]
+NOTE: There were 2 notes.
