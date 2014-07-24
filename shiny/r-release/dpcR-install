@@ -1,0 +1,13 @@
+* installing *source* package ‘dpcR’ ...
+** package ‘dpcR’ successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Creating a generic function from function ‘test_ratio’ in package ‘dpcR’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (dpcR)

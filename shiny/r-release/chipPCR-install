@@ -1,0 +1,14 @@
+* installing *source* package ‘chipPCR’ ...
+** package ‘chipPCR’ successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Creating a generic function for ‘qqnorm’ from package ‘stats’ in package ‘chipPCR’
+Creating a generic function for ‘qqline’ from package ‘stats’ in package ‘chipPCR’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (chipPCR)

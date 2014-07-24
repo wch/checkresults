@@ -1,0 +1,24 @@
+* installing *source* package ‘mirt’ ...
+** package ‘mirt’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"  -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Estep.cpp -o Estep.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"  -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Misc.cpp -o Misc.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c dgroup.c -o dgroup.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"  -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c dpars.cpp -o dpars.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"  -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c traceLinePts.cpp -o traceLinePts.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o mirt.so Estep.o Misc.o dgroup.o dpars.o traceLinePts.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpYT03z5/check_cran199c3acbcd17/mirt.Rcheck/mirt/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘print’ from package ‘base’ in package ‘mirt’
+Creating a generic function for ‘residuals’ from package ‘stats’ in package ‘mirt’
+Creating a generic function for ‘anova’ from package ‘stats’ in package ‘mirt’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (mirt)
