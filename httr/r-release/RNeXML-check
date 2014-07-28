@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/RNeXML.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpkWT3rC/check_cran260c7e1f9fb7/RNeXML.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -55,8 +55,8 @@ get_rdf: no visible global function definition for
 * checking files in ‘vignettes’ ... OK
 * checking examples ... [16s/16s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [82s/157s] OK
-  Running ‘test-all.R’ [82s/157s]
+* checking tests ... [80s/161s] OK
+  Running ‘test-all.R’ [80s/161s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... [14s/15s] OK

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/RSocrata.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpkWT3rC/check_cran260c7e1f9fb7/RSocrata.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -43,4 +43,7 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... OK
+* checking examples ... [1s/16s] OK
+Examples with CPU or elapsed time > 5s
+              user system elapsed
+read.socrata 0.692  0.028  15.927

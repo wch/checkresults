@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/ecoengine.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpkWT3rC/check_cran260c7e1f9fb7/ecoengine.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘ecoengine/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘ecoengine’ version ‘1.3’
+* this is package ‘ecoengine’ version ‘1.4’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -47,4 +47,19 @@
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [5s/13s] OK
+* checking examples ... ERROR
+Running examples in ‘ecoengine-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: ee_about
+> ### Title: About the Berkeley Ecoinformatics Engine
+> ### Aliases: ee_about
+> 
+> ### ** Examples
+> 
+> ee_about()
+Error in function (type, msg, asError = TRUE)  : 
+  server certificate verification failed. CAfile: /home/ubuntu/R-lib/3.1/httr/cacert.pem CRLfile: none
+Calls: ee_about ... perform -> <Anonymous> -> .Call -> <Anonymous> -> fun
+Execution halted

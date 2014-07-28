@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/RtmpRlDfrX/check_cran149c313c0ce8/sweSCB.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpkWT3rC/check_cran260c7e1f9fb7/sweSCB.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘sweSCB/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘sweSCB’ version ‘0.3.4’
+* this is package ‘sweSCB’ version ‘0.3.5’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -44,38 +44,7 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... ERROR
-Running examples in ‘sweSCB-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: scbGetData
-> ### Title: Get data from a bottom node in SCB API
-> ### Aliases: scbGetData
-> 
-> ### ** Examples
-> 
-> ## CONTINUED FROM EXAMPLES IN scbGetMetadata()
-> # Get metadata for a variable
-> url <- paste(c(baseURL(),"AM","AM0102","AM0102A","KLStabell14LpMan"), collapse="/")
-> metadata <- scbGetMetadata(url)
-> 
-> # Get dimensions (names of dimensions are printed in the terminal)
-> dims <- scbGetDims(metadata)
-Title: 
- Genomsnittlig månadslön för månadsavlönade samt antal sysselsatta inom statlig sektor (KLS) efter myndighet, kön, hel-/deltid, tabellinnehåll och månad 
-Names: 
- Myndighet Kon Heltiddeltid ContentsCode Tid 
-> 
-> # Get data
-> test <- scbGetData(metadata$URL, dims=list(
-+    Myndighet = "C02",
-+    Kon = "*",
-+    Heltiddeltid = "*",
-+    ContentsCode = "*",
-+    Tid = "*"
-+ ))
-Error in if (response$headers$statusmessage != "OK") { : 
-  argument is of length zero
-Calls: scbGetData
-Execution halted
+* checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running ‘accessTestFunctions.R’

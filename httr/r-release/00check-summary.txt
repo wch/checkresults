@@ -1,6 +1,6 @@
 =========================================================================
-Reverse dependency check for httr 0.3.0.99
-Commit 8083f7848fca0ccb7cbe70273509170dd41ffdee
+Reverse dependency check for httr 0.4
+Commit ef92f95516242a8500ea66e5fa77931586e04b8d
 =========================================================================
 R version 3.1.1 (2014-07-10)
 Platform: x86_64-pc-linux-gnu (64-bit)
@@ -17,10 +17,10 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] devtools_1.5.0.99    BiocInstaller_1.14.2
+[1] devtools_1.5.0.99
 
 loaded via a namespace (and not attached):
- [1] bitops_1.0-6   digest_0.6.4   evaluate_0.5.5 formatR_0.10   httr_0.3.0.99 
+ [1] bitops_1.0-6   digest_0.6.4   evaluate_0.5.5 formatR_0.10   httr_0.4      
  [6] knitr_1.6      memoise_0.2.1  parallel_3.1.1 RCurl_1.96-0   stringr_0.6.2 
 [11] tools_3.1.1    whisker_0.3-2 
 
@@ -37,22 +37,7 @@ AntWeb ==================================================================
 
 
 bold ==================================================================== 
- *  checking tests ... ERROR
-Running the tests in ‘tests/test-all.R’ failed.
-Last 13 lines of output:
-  length(c) not equal to 8
-  Mean relative difference: 0.125
-  
-  2. Failure(@test-bold_seqspec.R#10): bold_seqspec returns the correct dimensions or values 
-  length(b) not equal to 8
-  Mean relative difference: 0.125
-  
-  3. Failure(@test-bold_specimens.R#11): bold_specimens returns the correct dimensions or values 
-  length(b) not equal to 8
-  Mean relative difference: 0.125
-  
-  Error: Test failures
-  Execution halted 
+ 
 
 
 devtools ================================================================ 
@@ -60,10 +45,29 @@ devtools ================================================================
 
 
 ecoengine =============================================================== 
- 
+ *  checking examples ... ERROR
+Running examples in ‘ecoengine-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: ee_about
+> ### Title: About the Berkeley Ecoinformatics Engine
+> ### Aliases: ee_about
+> 
+> ### ** Examples
+> 
+> ee_about()
+Error in function (type, msg, asError = TRUE)  : 
+  server certificate verification failed. CAfile: /home/ubuntu/R-lib/3.1/httr/cacert.pem CRLfile: none
+Calls: ee_about ... perform -> <Anonymous> -> .Call -> <Anonymous> -> fun
+Execution halted 
 
 
 fbRanks ================================================================= 
+ 
+
+
+gmailr ================================================================== 
  
 
 
@@ -200,41 +204,7 @@ spocc ===================================================================
 
 
 sweSCB ================================================================== 
- *  checking examples ... ERROR
-Running examples in ‘sweSCB-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: scbGetData
-> ### Title: Get data from a bottom node in SCB API
-> ### Aliases: scbGetData
-> 
-> ### ** Examples
-> 
-> ## CONTINUED FROM EXAMPLES IN scbGetMetadata()
-> # Get metadata for a variable
-> url <- paste(c(baseURL(),"AM","AM0102","AM0102A","KLStabell14LpMan"), collapse="/")
-> metadata <- scbGetMetadata(url)
-> 
-> # Get dimensions (names of dimensions are printed in the terminal)
-> dims <- scbGetDims(metadata)
-Title: 
- Genomsnittlig månadslön för månadsavlönade samt antal sysselsatta inom statlig sektor (KLS) efter myndighet, kön, hel-/deltid, tabellinnehåll och månad 
-Names: 
- Myndighet Kon Heltiddeltid ContentsCode Tid 
-> 
-> # Get data
-> test <- scbGetData(metadata$URL, dims=list(
-+    Myndighet = "C02",
-+    Kon = "*",
-+    Heltiddeltid = "*",
-+    ContentsCode = "*",
-+    Tid = "*"
-+ ))
-Error in if (response$headers$statusmessage != "OK") { : 
-  argument is of length zero
-Calls: scbGetData
-Execution halted 
+ 
 
 
 swirl =================================================================== 
