@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpkWT3rC/check_cran260c7e1f9fb7/primerTree.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/primerTree.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -50,8 +50,8 @@
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [15s/15s] OK
+* checking examples ... [18s/18s] OK
 Examples with CPU or elapsed time > 5s
                  user system elapsed
-plot_tree_ranks 7.308  0.024   7.332
-plot.primerTree 6.032  0.068   6.103
+plot_tree_ranks 9.741  0.044   9.786
+plot.primerTree 6.768  0.112   6.884

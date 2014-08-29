@@ -1,10 +1,10 @@
-* using log directory ‘/mnt/tmp/RtmpkWT3rC/check_cran260c7e1f9fb7/swirl.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/swirl.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘swirl/DESCRIPTION’ ... OK
-* this is package ‘swirl’ version ‘2.2.9’
+* this is package ‘swirl’ version ‘2.2.16’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK

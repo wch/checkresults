@@ -1,10 +1,10 @@
-* using log directory ‘/mnt/tmp/RtmpkWT3rC/check_cran260c7e1f9fb7/bold.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/bold.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘bold/DESCRIPTION’ ... OK
-* this is package ‘bold’ version ‘0.1.2’
+* this is package ‘bold’ version ‘0.2.0’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -44,12 +44,12 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
-* checking for unstated dependencies in tests ... OK
-* checking tests ... [3s/11s] OK
-  Running ‘test-all.R’ [2s/11s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... OK

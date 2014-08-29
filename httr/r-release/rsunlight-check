@@ -1,22 +1,23 @@
-* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/AntWeb.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/rsunlight.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
-* checking for file ‘AntWeb/DESCRIPTION’ ... OK
-* checking extension type ... Package
-* this is package ‘AntWeb’ version ‘0.7’
+* checking for file ‘rsunlight/DESCRIPTION’ ... OK
+* this is package ‘rsunlight’ version ‘0.3.0’
 * checking package namespace information ... OK
-* checking package dependencies ... OK
+* checking package dependencies ... NOTE
+Package suggested but not available for checking: ‘rCharts’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘AntWeb’ can be installed ... OK
+* checking whether package ‘rsunlight’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -44,4 +45,14 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
 * checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK
+NOTE: There was 1 note.

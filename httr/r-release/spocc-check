@@ -1,10 +1,10 @@
-* using log directory ‘/mnt/tmp/RtmpkWT3rC/check_cran260c7e1f9fb7/spocc.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/spocc.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘spocc/DESCRIPTION’ ... OK
-* this is package ‘spocc’ version ‘0.1.4’
+* this is package ‘spocc’ version ‘0.2.0’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘spocc’ can be installed ... [13s/13s] OK
+* checking whether package ‘spocc’ can be installed ... [13s/14s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK

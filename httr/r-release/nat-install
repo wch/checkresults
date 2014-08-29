@@ -1,5 +1,5 @@
-* installing *source* package ‘bold’ ...
-** package ‘bold’ successfully unpacked and MD5 sums checked
+* installing *source* package ‘nat’ ...
+** package ‘nat’ successfully unpacked and MD5 sums checked
 ** R
 ** data
 *** moving datasets to lazyload DB
@@ -8,6 +8,5 @@
 ** help
 *** installing help indices
 ** building package indices
-** installing vignettes
 ** testing if installed package can be loaded
-* DONE (bold)
+* DONE (nat)

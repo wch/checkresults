@@ -1,11 +1,10 @@
-* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/AntWeb.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/RGoogleAnalytics.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
-* checking for file ‘AntWeb/DESCRIPTION’ ... OK
-* checking extension type ... Package
-* this is package ‘AntWeb’ version ‘0.7’
+* checking for file ‘RGoogleAnalytics/DESCRIPTION’ ... OK
+* this is package ‘RGoogleAnalytics’ version ‘0.1.1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘AntWeb’ can be installed ... OK
+* checking whether package ‘RGoogleAnalytics’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -45,3 +44,6 @@
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
 * checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running ‘tests-all.R’

@@ -3,7 +3,7 @@
 ** libs
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c read_dna.c -o read_dna.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o primerTree.so read_dna.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpkWT3rC/check_cran260c7e1f9fb7/primerTree.Rcheck/primerTree/libs
+installing to /mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/primerTree.Rcheck/primerTree/libs
 ** R
 ** data
 *** moving datasets to lazyload DB
