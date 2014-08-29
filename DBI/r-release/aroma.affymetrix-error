@@ -1,0 +1,10 @@
+aroma.affymetrix *  checking package dependencies ... ERROR
+Package required but not available: ‘aroma.core’
+
+Packages suggested but not available for checking:
+  ‘preprocessCore’ ‘affyPLM’ ‘affy’ ‘limma’ ‘gcrma’ ‘dChipIO’ ‘oligo’
+  ‘oligoClasses’ ‘pdInfoBuilder’ ‘aroma.light’ ‘affxparser’
+  ‘AffymetrixDataTestFiles’
+
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.

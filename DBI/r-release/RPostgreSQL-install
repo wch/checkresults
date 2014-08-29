@@ -1,0 +1,42 @@
+* installing *source* package ‘RPostgreSQL’ ...
+** package ‘RPostgreSQL’ successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for pg_config... /usr/bin/pg_config
+checking for "/usr/include/postgresql/libpq-fe.h"... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include/postgresql     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RS-DBI.c -o RS-DBI.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include/postgresql     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RS-PQescape.c -o RS-PQescape.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include/postgresql     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RS-PostgreSQL.c -o RS-PostgreSQL.o
+RS-PostgreSQL.c: In function ‘RS_PostgreSQL_createDataMappings’:
+RS-PostgreSQL.c:446:5: warning: passing argument 1 of ‘Rf_protect’ from incompatible pointer type [enabled by default]
+/usr/share/R/include/Rinternals.h:1257:6: note: expected ‘SEXP’ but argument is of type ‘struct RS_DBI_fields *’
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include/postgresql     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RS-pgsql-copy.c -o RS-pgsql-copy.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include/postgresql     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RS-pgsql-getResult.c -o RS-pgsql-getResult.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include/postgresql     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RS-pgsql-pqexec.c -o RS-pgsql-pqexec.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include/postgresql     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RS-pgsql-pqexecparams.c -o RS-pgsql-pqexecparams.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o RPostgreSQL.so RS-DBI.o RS-PQescape.o RS-PostgreSQL.o RS-pgsql-copy.o RS-pgsql-getResult.o RS-pgsql-pqexec.o RS-pgsql-pqexecparams.o -L/usr/lib -lpq -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp14aRuM/check_cran52fa60cc1146/RPostgreSQL.Rcheck/RPostgreSQL/libs
+** R
+** inst
+** preparing package for lazy loading
+Creating a generic function for ‘format’ from package ‘base’ in package ‘RPostgreSQL’
+Creating a generic function for ‘print’ from package ‘base’ in package ‘RPostgreSQL’
+Creating a generic function for ‘summary’ from package ‘base’ in package ‘RPostgreSQL’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (RPostgreSQL)

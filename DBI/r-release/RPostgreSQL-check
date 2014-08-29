@@ -1,0 +1,115 @@
+* using log directory ‘/mnt/tmp/Rtmp14aRuM/check_cran52fa60cc1146/RPostgreSQL.Rcheck’
+* using R version 3.1.1 (2014-07-10)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘RPostgreSQL/DESCRIPTION’ ... OK
+* this is package ‘RPostgreSQL’ version ‘0.4’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘RPostgreSQL’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... NOTE
+Non-standard files/directories found at top level:
+  ‘config.guess’ ‘config.sub’ ‘install-sh’
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... NOTE
+Rd file 'postgresqlBuildTableDefinition.Rd':
+  \usage lines wider than 90 characters:
+     postgresqlBuildTableDefinition(dbObj, name, obj, field.types = NULL, row.names = TRUE, ...)
+
+Rd file 'postgresqlSupport.Rd':
+  \usage lines wider than 90 characters:
+        postgresqlNewConnection(drv, user, password, host, dbname, port, tty, options, forceISOdate = TRUE)
+
+These lines will be truncated in the PDF manual.
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking compilation flags in Makevars ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running ‘connectWithNull.R’
+  Comparing ‘connectWithNull.Rout’ to ‘connectWithNull.Rout.save’ ... OK
+  Running ‘createTableMixedCaseTest.R’
+  Comparing ‘createTableMixedCaseTest.Rout’ to ‘createTableMixedCaseTest.Rout.save’ ... OK
+  Running ‘dataTypeTests.R’
+  Comparing ‘dataTypeTests.Rout’ to ‘dataTypeTests.Rout.save’ ... OK
+  Running ‘dateTZ.R’
+  Comparing ‘dateTZ.Rout’ to ‘dateTZ.Rout.save’ ... OK
+  Running ‘datetimeTests.R’
+  Comparing ‘datetimeTests.Rout’ to ‘datetimeTests.Rout.save’ ... OK
+  Running ‘datetimestampwrite.R’
+  Comparing ‘datetimestampwrite.Rout’ to ‘datetimestampwrite.Rout.save’ ... OK
+  Running ‘dbColumnInfo.R’
+  Comparing ‘dbColumnInfo.Rout’ to ‘dbColumnInfo.Rout.save’ ... OK
+  Running ‘dbExistsIssue.R’
+  Comparing ‘dbExistsIssue.Rout’ to ‘dbExistsIssue.Rout.save’ ... OK
+  Running ‘dbExistsq.R’
+  Comparing ‘dbExistsq.Rout’ to ‘dbExistsq.Rout.save’ ... OK
+  Running ‘dbExistsqc.R’
+  Comparing ‘dbExistsqc.Rout’ to ‘dbExistsqc.Rout.save’ ... OK
+  Running ‘dbGetQueryParams.R’
+  Comparing ‘dbGetQueryParams.Rout’ to ‘dbGetQueryParams.Rout.save’ ... OK
+  Running ‘dbListFields.R’
+  Comparing ‘dbListFields.Rout’ to ‘dbListFields.Rout.save’ ... OK
+  Running ‘dbTransactionTests.R’
+  Comparing ‘dbTransactionTests.Rout’ to ‘dbTransactionTests.Rout.save’ ... OK
+  Running ‘dbWriteTableFailTest.R’
+  Comparing ‘dbWriteTableFailTest.Rout’ to ‘dbWriteTableFailTest.Rout.save’ ... OK
+  Running ‘dbWriteTableSchema.R’
+  Comparing ‘dbWriteTableSchema.Rout’ to ‘dbWriteTableSchema.Rout.save’ ... OK
+  Running ‘dbWriteTableTest.R’
+  Comparing ‘dbWriteTableTest.Rout’ to ‘dbWriteTableTest.Rout.save’ ... OK
+  Running ‘dbWriteTabletypes.R’
+  Comparing ‘dbWriteTabletypes.Rout’ to ‘dbWriteTabletypes.Rout.save’ ... OK
+  Running ‘dbtemptable.R’
+  Comparing ‘dbtemptable.Rout’ to ‘dbtemptable.Rout.save’ ... OK
+  Running ‘escape.R’
+  Comparing ‘escape.Rout’ to ‘escape.Rout.save’ ... OK
+  Running ‘loadDriverAndConnect.R’
+  Comparing ‘loadDriverAndConnect.Rout’ to ‘loadDriverAndConnect.Rout.save’ ... OK
+  Running ‘openSendQuery.R’
+  Comparing ‘openSendQuery.Rout’ to ‘openSendQuery.Rout.save’ ... OK
+  Running ‘selectWhereZero.R’
+  Comparing ‘selectWhereZero.Rout’ to ‘selectWhereZero.Rout.save’ ... OK
+  Running ‘selectWithAlias.R’
+  Comparing ‘selectWithAlias.Rout’ to ‘selectWithAlias.Rout.save’ ... OK
+  Running ‘unknowntype.R’
+  Comparing ‘unknowntype.Rout’ to ‘unknowntype.Rout.save’ ... OK
+NOTE: There were 2 notes.

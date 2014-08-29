@@ -1,0 +1,11 @@
+* installing *source* package ‘quantmod’ ...
+** package ‘quantmod’ successfully unpacked and MD5 sums checked
+** R
+** demo
+** preparing package for lazy loading
+Creating a generic function for ‘summary’ from package ‘base’ in package ‘quantmod’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (quantmod)

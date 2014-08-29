@@ -1,0 +1,116 @@
+* using log directory ‘/mnt/tmp/Rtmp14aRuM/check_cran52fa60cc1146/RMySQL.Rcheck’
+* using R version 3.1.1 (2014-07-10)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘RMySQL/DESCRIPTION’ ... OK
+* this is package ‘RMySQL’ version ‘0.9-3’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘RMySQL’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking compilation flags in Makevars ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running ‘tests.R’
+  Comparing ‘tests.Rout’ to ‘tests.Rout.save’ ...19,21d18
+< Error in mysqlNewConnection(drv, ...) : 
+<   RS-DBI driver: (Failed to connect to database: Error: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+< )
+27c24,76
+< unable to connect to MySQL
+---
+> > 
+> > ## 1 Ensure that dbWriteTable doesn't add trailing \r
+> > dbRemoveTable(conn, "myDF")         # precaution
+> [1] FALSE
+> > ## RMySQL is not very clever: it does not convert to factor,
+> > ## and converts row names to character.
+> > myDF <- data.frame(x = paste("x", 1:5, sep = ""),
+> +                    y = paste("y", 1:5, sep = ""),
+> +                    row.names = letters[1:5],
+> +                    stringsAsFactors = FALSE)
+> > dbWriteTable(conn, name= "myDF", value = myDF)
+> [1] TRUE
+> > myDF2 <- dbReadTable(conn, "myDF")
+> > stopifnot(identical(myDF, myDF2))
+> > dbRemoveTable(conn, "myDF")
+> [1] TRUE
+> > 
+> > ## 2 Exercise fetch.default.rec and dbGetRowCount... along with 
+> > ##   dbSendQuery() and fetch()
+> > 
+> > dbRemoveTable(conn, "iris")         # precaution
+> [1] TRUE
+> > dbWriteTable(conn,name='iris',value=iris,row.names=FALSE)
+> [1] TRUE
+> > rso <- dbSendQuery(conn,"select * from iris where Species='versicolor'")
+> > x <- fetch(rso,n=2)
+> > rowCount <- nrow(x)
+> > stopifnot(rowCount==2)
+> > stopifnot(rowCount==dbGetRowCount(rso))
+> > while(nrow(x)) {
+> + 	x <- fetch(rso)
+> + 	rowCount <- rowCount + nrow(x)
+> + 	stopifnot(rowCount==dbGetRowCount(rso))
+> + }
+> > 
+> > ## 2  Exercise dbRowsAffected()
+> > nrows <- nrow(iris[iris$Species=='versicolor',])
+> > rso <- dbSendQuery(conn,"delete from iris where Species='versicolor'")
+> > stopifnot(nrows==dbGetRowsAffected(rso))
+> > 
+> > ## 3 Exercise dbGetQuery()
+> > stopifnot(
+> + 	identical(
+> + 		iris[iris$Species!='versicolor','Sepal.Length'],
+> + 		dbGetQuery(conn,'select * from iris')$Sepal_Length
+> + 	)
+> + )
+> > 
+> > dbDisconnect(conn)
+> [1] TRUE
+> > dbUnloadDriver(drv)
+> [1] TRUE
+> > 

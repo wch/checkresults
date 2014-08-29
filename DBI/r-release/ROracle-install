@@ -1,0 +1,5 @@
+* installing *source* package ‘ROracle’ ...
+** package ‘ROracle’ successfully unpacked and MD5 sums checked
+configure: error: OCI libraries not found
+ERROR: configuration failed for package ‘ROracle’
+* removing ‘/mnt/tmp/Rtmp14aRuM/check_cran52fa60cc1146/ROracle.Rcheck/ROracle’

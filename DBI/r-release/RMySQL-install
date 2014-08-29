@@ -1,0 +1,53 @@
+* installing *source* package ‘RMySQL’ ...
+** package ‘RMySQL’ successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking how to run the C preprocessor... gcc -E
+checking for compress in -lz... yes
+checking for getopt_long in -lc... yes
+checking for mysql_init in -lmysqlclient... yes
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking mysql.h usability... no
+checking mysql.h presence... no
+checking for mysql.h... no
+checking /usr/local/include/mysql/mysql.h usability... no
+checking /usr/local/include/mysql/mysql.h presence... no
+checking for /usr/local/include/mysql/mysql.h... no
+checking /usr/include/mysql/mysql.h usability... yes
+checking /usr/include/mysql/mysql.h presence... yes
+checking for /usr/include/mysql/mysql.h... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include/mysql     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RS-DBI.c -o RS-DBI.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include/mysql     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RS-MySQL.c -o RS-MySQL.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o RMySQL.so RS-DBI.o RS-MySQL.o -lmysqlclient -lz -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp14aRuM/check_cran52fa60cc1146/RMySQL.Rcheck/RMySQL/libs
+** R
+** inst
+** preparing package for lazy loading
+Creating a generic function for ‘format’ from package ‘base’ in package ‘RMySQL’
+Creating a generic function for ‘print’ from package ‘base’ in package ‘RMySQL’
+Creating a generic function for ‘summary’ from package ‘base’ in package ‘RMySQL’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (RMySQL)

@@ -1,0 +1,13 @@
+* installing *source* package ‘TSjson’ ...
+** package ‘TSjson’ successfully unpacked and MD5 sums checked
+** R
+** exec
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   ‘Guide.Stex’ 
+** testing if installed package can be loaded
+* DONE (TSjson)

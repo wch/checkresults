@@ -1,0 +1,13 @@
+* using log directory ‘/mnt/tmp/Rtmp14aRuM/check_cran52fa60cc1146/ora.Rcheck’
+* using R version 3.1.1 (2014-07-10)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘ora/DESCRIPTION’ ... OK
+* this is package ‘ora’ version ‘2.0-1’
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package required but not available: ‘ROracle’
+
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.

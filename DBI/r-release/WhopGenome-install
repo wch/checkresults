@@ -1,0 +1,81 @@
+* installing *source* package ‘WhopGenome’ ...
+** package ‘WhopGenome’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_vcf.cpp -o w_vcf.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c t_main.cpp -o t_main.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c faidx_ifc.cpp -o faidx_ifc.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_snpmat_diplo.cpp -o w_snpmat_diplo.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_snpmat_int.cpp -o w_snpmat_int.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_snpmat_str.cpp -o w_snpmat_str.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_snpmat_fnc.cpp -o w_snpmat_fnc.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_filtering.cpp -o w_filtering.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_read.cpp -o w_read.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_rsupport.cpp -o w_rsupport.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_tools.cpp -o w_tools.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_dataframe.cpp -o w_dataframe.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_codemat.cpp -o w_codemat.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_main.cpp -o w_main.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_region.cpp -o w_region.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c w_samples.cpp -o w_samples.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c t_region.cpp -o t_region.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c t_info.cpp -o t_info.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c t_read.cpp -o t_read.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c t_Rifc.cpp -o t_Rifc.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c readdnapp.cpp -o readdnapp.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c tabix/bedidx.c -o tabix/bedidx.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c tabix/bgzf.c -o tabix/bgzf.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c tabix/index.c -o tabix/index.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c tabix/knetfile.c -o tabix/knetfile.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c tabix/kstring.c -o tabix/kstring.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c tabix/razf.c -o tabix/razf.o
+tabix/razf.c: In function ‘razf_close’:
+tabix/razf.c:825:9: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c:826:9: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c:829:9: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c:831:9: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c: In function ‘razf_end_flush’:
+tabix/razf.c:270:9: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c: In function ‘_razf_write’:
+tabix/razf.c:213:8: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c: In function ‘save_zindex’:
+tabix/razf.c:106:17: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c:109:8: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c:116:7: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c:117:7: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c: In function ‘razf_open_r’:
+tabix/razf.c:432:7: warning: ignoring return value of ‘read’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c:440:7: warning: ignoring return value of ‘read’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c: In function ‘load_zindex’:
+tabix/razf.c:134:6: warning: ignoring return value of ‘read’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c:143:6: warning: ignoring return value of ‘read’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c:149:6: warning: ignoring return value of ‘read’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c: In function ‘razf_flush’:
+tabix/razf.c:233:8: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+tabix/razf.c:246:9: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c tabix/faidx.c -o tabix/faidx.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/adler32.c -o zlib/adler32.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/compress.c -o zlib/compress.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/crc32.c -o zlib/crc32.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/deflate.c -o zlib/deflate.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/gzclose.c -o zlib/gzclose.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/gzlib.c -o zlib/gzlib.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/gzread.c -o zlib/gzread.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/gzwrite.c -o zlib/gzwrite.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/infback.c -o zlib/infback.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/inffast.c -o zlib/inffast.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/inflate.c -o zlib/inflate.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/inftrees.c -o zlib/inftrees.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/trees.c -o zlib/trees.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/uncompr.c -o zlib/uncompr.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c zlib/zutil.c -o zlib/zutil.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o WhopGenome.so w_vcf.o t_main.o faidx_ifc.o w_snpmat_diplo.o w_snpmat_int.o w_snpmat_str.o w_snpmat_fnc.o w_filtering.o w_read.o w_rsupport.o w_tools.o w_dataframe.o w_codemat.o w_main.o w_region.o w_samples.o t_region.o t_info.o t_read.o t_Rifc.o readdnapp.o tabix/bedidx.o tabix/bgzf.o tabix/index.o tabix/knetfile.o tabix/kstring.o tabix/razf.o tabix/faidx.o zlib/adler32.o zlib/compress.o zlib/crc32.o zlib/deflate.o zlib/gzclose.o zlib/gzlib.o zlib/gzread.o zlib/gzwrite.o zlib/infback.o zlib/inffast.o zlib/inflate.o zlib/inftrees.o zlib/trees.o zlib/uncompr.o zlib/zutil.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp14aRuM/check_cran52fa60cc1146/WhopGenome.Rcheck/WhopGenome/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (WhopGenome)

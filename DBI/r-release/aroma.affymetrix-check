@@ -1,0 +1,18 @@
+* using log directory ‘/mnt/tmp/Rtmp14aRuM/check_cran52fa60cc1146/aroma.affymetrix.Rcheck’
+* using R version 3.1.1 (2014-07-10)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘aroma.affymetrix/DESCRIPTION’ ... OK
+* this is package ‘aroma.affymetrix’ version ‘2.12.0’
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package required but not available: ‘aroma.core’
+
+Packages suggested but not available for checking:
+  ‘preprocessCore’ ‘affyPLM’ ‘affy’ ‘limma’ ‘gcrma’ ‘dChipIO’ ‘oligo’
+  ‘oligoClasses’ ‘pdInfoBuilder’ ‘aroma.light’ ‘affxparser’
+  ‘AffymetrixDataTestFiles’
+
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.

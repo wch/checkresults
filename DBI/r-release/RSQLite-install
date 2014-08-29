@@ -1,0 +1,39 @@
+* installing *source* package ‘RSQLite’ ...
+** package ‘RSQLite’ successfully unpacked and MD5 sums checked
+checking for gcc... gcc -std=gnu99
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -std=gnu99 accepts -g... yes
+checking for gcc -std=gnu99 option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -std=gnu99 -E
+checking for gcc... (cached) gcc -std=gnu99
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc -std=gnu99 accepts -g... (cached) yes
+checking for gcc -std=gnu99 option to accept ISO C89... (cached) none needed
+checking for library containing fdatasync... none required
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DRSQLITE_USE_BUNDLED_SQLITE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_SOUNDEX -DSQLITE_MAX_VARIABLE_NUMBER=40000 -DSQLITE_MAX_COLUMN=30000 -DTHREADSAFE=0     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RS-DBI.c -o RS-DBI.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DRSQLITE_USE_BUNDLED_SQLITE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_SOUNDEX -DSQLITE_MAX_VARIABLE_NUMBER=40000 -DSQLITE_MAX_COLUMN=30000 -DTHREADSAFE=0     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RS-SQLite.c -o RS-SQLite.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DRSQLITE_USE_BUNDLED_SQLITE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_SOUNDEX -DSQLITE_MAX_VARIABLE_NUMBER=40000 -DSQLITE_MAX_COLUMN=30000 -DTHREADSAFE=0     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c param_binding.c -o param_binding.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -DRSQLITE_USE_BUNDLED_SQLITE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_SOUNDEX -DSQLITE_MAX_VARIABLE_NUMBER=40000 -DSQLITE_MAX_COLUMN=30000 -DTHREADSAFE=0     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c sqlite-all.c -o sqlite-all.o
+sqlite-all.c:1:35: warning: extra tokens at end of #ifdef directive [enabled by default]
+mkdir -p ../inst/include
+cp sqlite/sqlite3.h ../inst/include
+cp sqlite/sqlite3ext.h ../inst/include
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o RSQLite.so RS-DBI.o RS-SQLite.o param_binding.o sqlite-all.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp14aRuM/check_cran52fa60cc1146/RSQLite.Rcheck/RSQLite/libs
+** R
+** inst
+** preparing package for lazy loading
+Creating a generic function for ‘summary’ from package ‘base’ in package ‘RSQLite’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (RSQLite)

@@ -1,0 +1,14 @@
+* installing *source* package ‘MonetDB.R’ ...
+** package ‘MonetDB.R’ successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c mapi.c -o mapi.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c mapisplit.c -o mapisplit.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o MonetDB.R.so mapi.o mapisplit.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp14aRuM/check_cran52fa60cc1146/MonetDB.R.Rcheck/MonetDB.R/libs
+** R
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (MonetDB.R)
