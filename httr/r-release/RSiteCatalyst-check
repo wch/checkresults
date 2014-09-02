@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/RSiteCatalyst.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpSfhIbG/check_cran7ce645ca39a/RSiteCatalyst.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘RSiteCatalyst/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘RSiteCatalyst’ version ‘1.3.3’
+* this is package ‘RSiteCatalyst’ version ‘1.4.0’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK

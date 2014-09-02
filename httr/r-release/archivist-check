@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/RtmpSfhIbG/check_cran7ce645ca39a/translateR.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpSfhIbG/check_cran7ce645ca39a/archivist.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
-* checking for file ‘translateR/DESCRIPTION’ ... OK
+* checking for file ‘archivist/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘translateR’ version ‘1.0’
+* this is package ‘archivist’ version ‘1.0’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘translateR’ can be installed ... OK
+* checking whether package ‘archivist’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -44,7 +44,4 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of ‘data’ directory ... OK
-* checking data for non-ASCII characters ... OK
-* checking data for ASCII and uncompressed saves ... OK
 * checking examples ... OK

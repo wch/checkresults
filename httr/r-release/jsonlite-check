@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/jsonlite.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpSfhIbG/check_cran7ce645ca39a/jsonlite.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -54,7 +54,7 @@
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [14s/14s] OK
+* checking tests ... [15s/15s] OK
   Running ‘run-all.R’ [14s/14s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/RNeXML.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpSfhIbG/check_cran7ce645ca39a/RNeXML.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -53,15 +53,15 @@ get_rdf: no visible global function definition for
 * checking data for ASCII and uncompressed saves ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [17s/17s] OK
+* checking examples ... [22s/22s] OK
 Examples with CPU or elapsed time > 5s
              user system elapsed
-nexml_write 5.517  0.004   5.537
+nexml_write 6.749  0.008    6.77
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [86s/140s] OK
-  Running ‘test-all.R’ [86s/139s]
+* checking tests ... [84s/132s] OK
+  Running ‘test-all.R’ [83s/132s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [14s/15s] OK
-* checking re-building of vignette outputs ... [15s/17s] OK
+* checking running R code from vignettes ... [14s/16s] OK
+* checking re-building of vignette outputs ... [15s/20s] OK
 NOTE: There were 2 notes.

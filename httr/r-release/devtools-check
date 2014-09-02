@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpTAIOgk/check_cran51c2cc75ad0/devtools.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpSfhIbG/check_cran7ce645ca39a/devtools.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -58,7 +58,7 @@ See section ‘Good practice’ in ‘?attach’.
 * checking compiled code ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [24s/29s] OK
+* checking tests ... [26s/32s] OK
   Running ‘has-devel.R’
-  Running ‘test-that.R’ [23s/27s]
+  Running ‘test-that.R’ [24s/30s]
 NOTE: There were 2 notes.
