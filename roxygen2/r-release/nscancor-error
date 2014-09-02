@@ -1,0 +1,20 @@
+nscancor *  checking examples ... ERROR
+Running examples in ‘nscancor-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: mcancor
+> ### Title: Non-Negative and Sparse Multi-Domain CCA
+> ### Aliases: mcancor
+> 
+> ### ** Examples
+> 
+> library(glmnet)
+Loading required package: Matrix
+Loaded glmnet 1.9-8
+
+> data(breastdata, package="PMA")
+Error in find.package(package, lib.loc, verbose = verbose) : 
+  there is no package called ‘PMA’
+Calls: data -> find.package
+Execution halted

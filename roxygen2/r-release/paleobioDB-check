@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpTzOMGr/check_cran20d8a30714c/paleobioDB.Rcheck'
-* using R version 3.1.0 (2014-04-10)
+* using log directory ‘/mnt/tmp/RtmpIxkwKA/check_cran56616426cb39/paleobioDB.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'paleobioDB/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘paleobioDB/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'paleobioDB' version '0.1'
+* this is package ‘paleobioDB’ version ‘0.1’
 * package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... OK
@@ -15,7 +15,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'paleobioDB' can be installed ... OK
+* checking whether package ‘paleobioDB’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -45,7 +45,4 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... WARNING
-checking a package with encoding  'UTF-8'  in an ASCII locale
-
-WARNING: There was 1 warning.
+* checking examples ... OK

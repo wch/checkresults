@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpTzOMGr/check_cran20d8a30714c/nat.utils.Rcheck'
-* using R version 3.1.0 (2014-04-10)
+* using log directory ‘/mnt/tmp/RtmpIxkwKA/check_cran56616426cb39/nat.utils.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'nat.utils/DESCRIPTION' ... OK
-* this is package 'nat.utils' version '0.4'
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘nat.utils/DESCRIPTION’ ... OK
+* this is package ‘nat.utils’ version ‘0.4.2’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'nat.utils' can be installed ... OK
+* checking whether package ‘nat.utils’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK

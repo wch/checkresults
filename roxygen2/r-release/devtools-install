@@ -1,9 +1,9 @@
-* installing *source* package 'devtools' ...
-** package 'devtools' successfully unpacked and MD5 sums checked
+* installing *source* package ‘devtools’ ...
+** package ‘devtools’ successfully unpacked and MD5 sums checked
 ** libs
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c devtools.c -o devtools.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o devtools.so devtools.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpTzOMGr/check_cran20d8a30714c/devtools.Rcheck/devtools/libs
+installing to /mnt/tmp/RtmpIxkwKA/check_cran56616426cb39/devtools.Rcheck/devtools/libs
 ** R
 ** inst
 ** preparing package for lazy loading

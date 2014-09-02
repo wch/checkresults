@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpTzOMGr/check_cran20d8a30714c/intergraph.Rcheck'
-* using R version 3.1.0 (2014-04-10)
+* using log directory ‘/mnt/tmp/RtmpIxkwKA/check_cran56616426cb39/intergraph.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'intergraph/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘intergraph/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'intergraph' version '2.0-0'
+* this is package ‘intergraph’ version ‘2.0-0’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'intergraph' can be installed ... OK
+* checking whether package ‘intergraph’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -35,13 +35,13 @@ will install at top-level and is not mentioned in the DESCRIPTION file.
 * checking loading without being on the library search path ... OK
 * checking dependencies in R code ... NOTE
 Namespaces in Imports field not imported from:
-  'graphics' 'utils'
+  ‘graphics’ ‘utils’
   All declared Imports should be used.
 There are ::: calls to the package's namespace in its code. A package
   almost never needs to use ::: for its own objects:
-  'attrmapmat'
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual.
+  ‘attrmapmat’
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -55,11 +55,11 @@ packages' of the 'Writing R Extensions' manual.
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'testall.R'
+  Running ‘testall.R’
 NOTE: There were 2 notes.
