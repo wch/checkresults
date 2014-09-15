@@ -1,0 +1,87 @@
+* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/tabplot.Rcheck’
+* using R Under development (unstable) (2014-09-15 r66610)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘tabplot/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘tabplot’ version ‘1.1’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘tabplot’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+binRanges: no visible binding for global variable ‘ri’
+bin_data: no visible global function definition for ‘vw<-’
+bin_data: no visible global function definition for ‘chunk’
+bin_data: no visible global function definition for ‘ff’
+bin_data: no visible global function definition for ‘physical’
+bin_data : <anonymous>: no visible global function definition for
+  ‘vmode’
+bin_data : <anonymous>: no visible global function definition for
+  ‘is.factor.ff’
+bin_hcc_data : <anonymous>: no visible global function definition for
+  ‘ff’
+num2fac: no visible global function definition for ‘classIntervals’
+plot.tabplot: no visible global function definition for ‘p’
+subset_data: no visible global function definition for ‘clone’
+subset_data: no visible global function definition for ‘nrow<-’
+subset_data: no visible global function definition for ‘fforder’
+tablePrepare: no visible global function definition for ‘as.ffdf’
+tablePrepare: no visible global function definition for ‘physical’
+tablePrepare: no visible binding for global variable ‘is.factor.ff’
+tablePrepare: no visible global function definition for ‘ff’
+tablePrepare: no visible global function definition for ‘chunk’
+tablePrepare: no visible global function definition for ‘fforder’
+tablePrepare: no visible binding for global variable ‘fforder’
+tablePrepare: no visible binding for global variable ‘ffdf’
+tableplot: no visible global function definition for ‘vmode’
+tableplot: no visible global function definition for ‘physical’
+tableplot : <anonymous>: no visible global function definition for
+  ‘is.factor.ff’
+tableplot : <anonymous>: no visible global function definition for
+  ‘vmode’
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking R/sysdata.rda ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... [16s/16s] OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [148s/148s] OK
+* checking re-building of vignette outputs ... [135s/135s] OK
+* DONE
+NOTE: There was 1 note.

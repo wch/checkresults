@@ -1,0 +1,24 @@
+* installing *source* package ‘mirt’ ...
+** package ‘mirt’ successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"  -fopenmp -fpic  -ggdb -pipe -Wall -pedantic  -c Estep.cpp -o Estep.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"  -fopenmp -fpic  -ggdb -pipe -Wall -pedantic  -c Misc.cpp -o Misc.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c dgroup.c -o dgroup.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"  -fopenmp -fpic  -ggdb -pipe -Wall -pedantic  -c dpars.cpp -o dpars.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"  -fopenmp -fpic  -ggdb -pipe -Wall -pedantic  -c traceLinePts.cpp -o traceLinePts.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o mirt.so Estep.o Misc.o dgroup.o dpars.o traceLinePts.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/mirt.Rcheck/mirt/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘print’ from package ‘base’ in package ‘mirt’
+Creating a generic function for ‘residuals’ from package ‘stats’ in package ‘mirt’
+Creating a generic function for ‘anova’ from package ‘stats’ in package ‘mirt’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (mirt)

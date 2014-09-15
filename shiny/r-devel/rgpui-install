@@ -1,0 +1,14 @@
+* installing *source* package ‘rgpui’ ...
+** package ‘rgpui’ successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+Warning in validateSelected(selected, choices, inputId) :
+  'selected' must be the values instead of names of 'choices' for the input 'sep'
+Warning in validateSelected(selected, choices, inputId) :
+  'selected' must be the values instead of names of 'choices' for the input 'quote'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (rgpui)

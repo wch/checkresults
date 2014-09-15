@@ -1,0 +1,130 @@
+* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/diveRsity.Rcheck’
+* using R Under development (unstable) (2014-09-15 r66610)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘diveRsity/DESCRIPTION’ ... OK
+* this is package ‘diveRsity’ version ‘1.9.5’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘diveRsity’ can be installed ... [56s/56s] OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+bigDivPart: no visible global function definition for ‘write.xlsx’
+difPlot: no visible global function definition for ‘imagesend’
+difPlot: no visible global function definition for ‘color.legend’
+diffCalc: no visible global function definition for ‘detectCores’
+diffCalc: no visible global function definition for ‘makeCluster’
+diffCalc: no visible global function definition for ‘clusterExport’
+diffCalc: no visible global function definition for ‘parLapply’
+diffCalc: no visible global function definition for ‘stopCluster’
+diffCalc: no visible global function definition for ‘parApply’
+divBasic: no visible global function definition for ‘write.xlsx’
+divMigrate: no visible global function definition for ‘makeCluster’
+divMigrate: no visible global function definition for ‘detectCores’
+divMigrate: no visible global function definition for ‘clusterExport’
+divMigrate: no visible global function definition for ‘parSapply’
+divMigrate: no visible global function definition for ‘stopCluster’
+divRatio: no visible global function definition for ‘detectCores’
+divRatio: no visible global function definition for ‘makeCluster’
+divRatio: no visible global function definition for
+  ‘registerDoParallel’
+divRatio: no visible global function definition for ‘clusterExport’
+divRatio: no visible global function definition for ‘parLapply’
+divRatio: no visible global function definition for ‘stopCluster’
+divRatio: no visible global function definition for ‘write.xlsx’
+fastDivPart: no visible global function definition for ‘write.xlsx’
+fastDivPart: no visible global function definition for ‘detectCores’
+fastDivPart: no visible global function definition for ‘makeCluster’
+fastDivPart: no visible global function definition for
+  ‘registerDoParallel’
+fastDivPart: no visible global function definition for ‘clusterExport’
+fastDivPart: no visible global function definition for ‘parLapply’
+fastDivPart: no visible global function definition for ‘stopCluster’
+fstOnly: no visible global function definition for ‘detectCores’
+fstOnly: no visible global function definition for ‘makeCluster’
+fstOnly: no visible global function definition for ‘registerDoParallel’
+fstOnly: no visible global function definition for ‘clusterExport’
+fstOnly: no visible global function definition for ‘parLapply’
+fstOnly: no visible global function definition for ‘write.xlsx’
+fstOnly : tparSapply: no visible global function definition for
+  ‘parSapply’
+fstOnly: no visible global function definition for ‘stopCluster’
+inCalc: no visible global function definition for ‘makeCluster’
+inCalc: no visible global function definition for ‘detectCores’
+inCalc: no visible global function definition for ‘clusterExport’
+inCalc: no visible global function definition for ‘parLapply’
+inCalc: no visible global function definition for ‘stopCluster’
+inCalc: no visible global function definition for ‘write.xlsx’
+plotter: no visible global function definition for ‘imagesend’
+polyIn : polyReader: no visible global function definition for
+  ‘makeCluster’
+polyIn : polyReader: no visible global function definition for
+  ‘detectCores’
+polyIn : polyReader: no visible global function definition for
+  ‘clusterExport’
+polyIn : polyReader: no visible global function definition for
+  ‘parLapply’
+polyIn : polyReader: no visible global function definition for
+  ‘stopCluster’
+polyIn: no visible global function definition for ‘makeCluster’
+polyIn: no visible global function definition for ‘detectCores’
+polyIn: no visible global function definition for ‘clusterExport’
+polyIn: no visible global function definition for ‘parLapply’
+polyIn: no visible global function definition for ‘stopCluster’
+writeBoot: no visible global function definition for ‘makeCluster’
+writeBoot: no visible global function definition for ‘detectCores’
+writeBoot: no visible global function definition for ‘clusterExport’
+writeBoot: no visible global function definition for ‘parLapply’
+writeBoot: no visible global function definition for ‘stopCluster’
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... [11s/12s] OK
+* DONE
+NOTE: There was 1 note.

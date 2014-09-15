@@ -1,0 +1,14 @@
+* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/BBEST.Rcheck’
+* using R Under development (unstable) (2014-09-15 r66610)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘BBEST/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘BBEST’ version ‘0.1-0’
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Package required but not available: ‘aws’
+
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.

@@ -1,0 +1,98 @@
+* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/likert.Rcheck’
+* using R Under development (unstable) (2014-09-15 r66610)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘likert/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘likert’ version ‘1.1’
+* checking package namespace information ... NOTE
+  Namespace with empty importFrom: ‘psych’
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘likert’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+Unexported object imported by a ':::' call: ‘ggplot2:::.zeroGrob’
+  See the note in ?`:::` about the use of this operator.
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+align.plots : gtable_gTree: no visible global function definition for
+  ‘gTree’
+align.plots : gtable_gList : <anonymous>: no visible global function
+  definition for ‘editGrob’
+align.plots : gtable_gList : <anonymous>: no visible global function
+  definition for ‘vpPath’
+align.plots : gtable_viewport: no visible global function definition
+  for ‘viewport’
+align.plots : gtable_viewport : vp: no visible global function
+  definition for ‘viewport’
+align.plots : gtable_viewport: no visible global function definition
+  for ‘vpTree’
+align.plots : gtable_layout: no visible global function definition for
+  ‘grid.layout’
+align.plots : <anonymous>: no visible global function definition for
+  ‘getGrob’
+align.plots : <anonymous>: no visible global function definition for
+  ‘editGrob’
+align.plots: no visible binding for global variable ‘grobWidth’
+align.plots : <anonymous>: no visible global function definition for
+  ‘unit’
+align.plots: no visible binding for global variable ‘grobHeight’
+align.plots: no visible global function definition for ‘unit’
+align.plots: no visible binding for global variable ‘unit.c’
+align.plots: no visible global function definition for ‘pushViewport’
+align.plots: no visible global function definition for ‘viewport’
+align.plots: no visible global function definition for ‘grid.draw’
+align.plots: no visible global function definition for ‘upViewport’
+plot.likert: no visible global function definition for ‘grid.layout’
+plot.likert: no visible global function definition for ‘grid.newpage’
+plot.likert: no visible global function definition for ‘pushViewport’
+plot.likert: no visible global function definition for ‘viewport’
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... NOTE
+  Note: found 7 marked UTF-8 strings
+* checking data for ASCII and uncompressed saves ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking for old-style vignette sources ... NOTE
+Vignette sources only in ‘inst/doc’:
+  ‘likert-xtable.Rnw’
+A ‘vignettes’ directory is required as from R 3.1.0
+and these will not be indexed nor checked
+* checking examples ... OK
+* DONE
+NOTE: There were 5 notes.

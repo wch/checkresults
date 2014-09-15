@@ -1,0 +1,109 @@
+* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/adegenet.Rcheck’
+* using R Under development (unstable) (2014-09-15 r66610)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘adegenet/DESCRIPTION’ ... OK
+* this is package ‘adegenet’ version ‘1.4-2’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘adegenet’ can be installed ... [13s/13s] OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+HWE.test.genind : ftest: no visible global function definition for
+  ‘HWE.chisq’
+HWE.test.genind : ftest: no visible global function definition for
+  ‘genotype’
+alignment2genind: no visible binding for global variable ‘s2c’
+chooseCN: no visible global function definition for ‘tri2nb’
+chooseCN: no visible global function definition for ‘gabrielneigh’
+chooseCN: no visible global function definition for ‘graph2nb’
+chooseCN: no visible global function definition for ‘relativeneigh’
+chooseCN: no visible global function definition for ‘dnearneigh’
+chooseCN: no visible global function definition for ‘knearneigh’
+chooseCN: no visible global function definition for ‘knn2nb’
+chooseCN: no visible global function definition for ‘nb2listw’
+chooseCN: no visible global function definition for ‘mat2listw’
+fasta2DNAbin: no visible global function definition for ‘seg.sites’
+fasta2genlight: no visible global function definition for ‘mclapply’
+fstat: no visible global function definition for ‘varcomp.glob’
+genind2genotype : f2: no visible global function definition for
+  ‘as.genotype’
+genind2genotype: no visible global function definition for
+  ‘makeGenotypes’
+glPca: no visible global function definition for ‘mclapply’
+gstat.randtest: no visible global function definition for
+  ‘g.stats.glob’
+gstat.randtest : <anonymous>: no visible global function definition for
+  ‘g.stats.glob’
+gstat.randtest : <anonymous>: no visible global function definition for
+  ‘samp.within’
+gstat.randtest : <anonymous>: no visible global function definition for
+  ‘samp.between’
+plot.spca: no visible global function definition for ‘card’
+read.PLINK: no visible global function definition for ‘mclapply’
+read.snp: no visible global function definition for ‘mclapply’
+snpposi.plot.DNAbin: no visible global function definition for
+  ‘seg.sites’
+snpposi.test.DNAbin: no visible global function definition for
+  ‘seg.sites’
+spca: no visible global function definition for ‘mat2listw’
+spca: no visible global function definition for ‘nb2listw’
+summary.spca: no visible global function definition for ‘listw2mat’
+summary.spca: no visible binding for global variable ‘lag.listw’
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... NOTE
+File ‘adegenet/libs/adegenet.so’:
+  Found ‘rand’, possibly from ‘rand’ (C)
+    Object: ‘adesub.o’
+  Found ‘srand’, possibly from ‘srand’ (C)
+    Object: ‘adesub.o’
+
+Compiled code should not call entry points which might terminate R nor
+write to stdout/stderr instead of to the console, nor the C RNG.
+
+See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+* checking examples ... [26s/26s] OK
+Examples with CPU or elapsed time > 5s
+      user system elapsed
+fstat 7.28  0.016   7.345
+* DONE
+NOTE: There were 2 notes.
