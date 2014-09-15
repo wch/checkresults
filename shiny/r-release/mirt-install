@@ -7,7 +7,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"  -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c dpars.cpp -o dpars.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"  -fopenmp -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c traceLinePts.cpp -o traceLinePts.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o mirt.so Estep.o Misc.o dgroup.o dpars.o traceLinePts.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpYT03z5/check_cran199c3acbcd17/mirt.Rcheck/mirt/libs
+installing to /mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/mirt.Rcheck/mirt/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpYT03z5/check_cran199c3acbcd17/quipu.Rcheck’
+* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/quipu.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘quipu’ can be installed ... OK
+* checking whether package ‘quipu’ can be installed ... [12s/12s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK

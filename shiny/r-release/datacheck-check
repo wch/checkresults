@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpYT03z5/check_cran199c3acbcd17/datacheck.Rcheck’
+* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/datacheck.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -59,6 +59,18 @@ packages’ of the ‘Writing R Extensions’ manual.
   Running ‘test-all.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... OK
-* checking re-building of vignette outputs ... OK
-NOTE: There was 1 note.
+* checking running R code from vignettes ... ERROR
+Errors in running code in vignettes:
+when running code in ‘index.Rmd’
+  ...
+  |                                                                            
+  |====================================================================  |  97%
+  |                                                                            
+  |======================================================================| 100%
+
+> xtable(shortSummary(atable))
+
+  When sourcing ‘index.R’:
+Error: recursive indexing failed at level 2
+Execution halted
+

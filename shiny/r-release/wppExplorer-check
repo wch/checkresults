@@ -1,10 +1,10 @@
-* using log directory ‘/mnt/tmp/RtmpYT03z5/check_cran199c3acbcd17/wppExplorer.Rcheck’
+* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/wppExplorer.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘wppExplorer/DESCRIPTION’ ... OK
-* this is package ‘wppExplorer’ version ‘1.2-0’
+* this is package ‘wppExplorer’ version ‘1.4-0’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK

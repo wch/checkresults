@@ -1,4 +1,0 @@
-pqantimalarials *  checking whether package ‘pqantimalarials’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘shiny::validate’ when loading ‘pqantimalarials’
-See ‘/mnt/tmp/RtmpYT03z5/check_cran199c3acbcd17/pqantimalarials.Rcheck/00install.out’ for details.

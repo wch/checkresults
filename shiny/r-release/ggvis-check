@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpYT03z5/check_cran199c3acbcd17/ggvis.Rcheck’
+* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/ggvis.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -46,7 +46,7 @@
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [24s/24s] OK
+* checking examples ... [14s/14s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘testthat.R’

@@ -10,5 +10,6 @@ Creating a generic function for ‘qqline’ from package ‘stats’ in package
 ** help
 *** installing help indices
 ** building package indices
+** installing vignettes
 ** testing if installed package can be loaded
 * DONE (chipPCR)

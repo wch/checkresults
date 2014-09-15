@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpYT03z5/check_cran199c3acbcd17/rangeMapper.Rcheck’
+* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/rangeMapper.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘rangeMapper’ can be installed ... OK
+* checking whether package ‘rangeMapper’ can be installed ... [10s/11s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -51,228 +51,23 @@ Running examples in ‘rangeMapper-Ex.R’ failed
 The error most likely occurred in:
 
 > base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: assemblageFetch-methods
-> ### Title: Function 'assemblageFetch' retrieves the species set of an
-> ###   arbitrary canvas cell
-> ### Aliases: assemblageFetch-methods assemblageFetch
-> ###   assemblageFetch,rangeMap,SpatialPoints,character-method
-> ###   assemblageFetch,rangeMap,SpatialPoints,missing-method
-> ### Keywords: methods spatial
+> ### Name: rangeMap.start
+> ### Title: Initiate/open a new rangeMapper project
+> ### Aliases: rangeMap.start rangeMapStart rangeMap.open rangeMap
+> ### Keywords: spatial
 > 
 > ### ** Examples
 > 
-> require(rangeMapper)
+> td = setwd(tempdir())
 > 
-> projName = "wrens.sqlite"
-> projLoc = paste(tempdir(), projName, sep = .Platform$file.sep)
-> 
-> dbcon = rangeMap.start(file = projName,dir = tempdir() , overwrite = TRUE)
-New session 2014-07-24 21:33:45
-PROJECT: wrens.sqlite 
-DIRECTORY: /tmp/RtmptbkxhH
-> f = system.file(package = "rangeMapper", "extdata", "wrens", "vector_combined")
-> global.bbox.save(con = dbcon, bbox = f) 
-Computing global bounding box for 1 ranges...
-Checking for proj4 string differences...
-Done!
-Bounding box uploaded. PROJ4STRING set to  +proj=longlat +ellps=GRS80 +datum=NAD83 +no_defs 
-> gridSize.save(dbcon, gridSize = 3) 
-Grid size set to 3 map units.
-> canvas.save(dbcon) 
-Canvas uploaded.
-> data(wrens)
-> bio.save(con = dbcon, loc = wrens ,  ID = "sci_name")
-Table wrens saved as a  BIO_ table
-> r = readOGR(f, "wrens", verbose = FALSE)
-> processRanges(spdf = r, con =  dbcon, ID = "sci_name")
-Processsing ranges, please wait!...
-Warning in .local(object, spdf, ID, metadata) :
-  Reprojecting to “+proj=longlat +ellps=GRS80 +datum=NAD83 +no_defs ”FALSE
-Identifing ranges...
-84  ranges found.
-
-  |                                                                            
-  |                                                                      |   0%Processing ranges...
-
-  |                                                                            
-  |.                                                                     |   1%
-  |                                                                            
-  |..                                                                    |   2%
-  |                                                                            
-  |..                                                                    |   4%
-  |                                                                            
-  |...                                                                   |   5%
-  |                                                                            
-  |....                                                                  |   6%
-  |                                                                            
-  |.....                                                                 |   7%
-  |                                                                            
-  |......                                                                |   8%
-  |                                                                            
-  |.......                                                               |  10%
-  |                                                                            
-  |........                                                              |  11%
-  |                                                                            
-  |........                                                              |  12%
-  |                                                                            
-  |.........                                                             |  13%
-  |                                                                            
-  |..........                                                            |  14%
-  |                                                                            
-  |...........                                                           |  15%
-  |                                                                            
-  |............                                                          |  17%
-  |                                                                            
-  |............                                                          |  18%
-  |                                                                            
-  |.............                                                         |  19%
-  |                                                                            
-  |..............                                                        |  20%
-  |                                                                            
-  |...............                                                       |  21%
-  |                                                                            
-  |................                                                      |  23%
-  |                                                                            
-  |.................                                                     |  24%
-  |                                                                            
-  |..................                                                    |  25%
-  |                                                                            
-  |..................                                                    |  26%
-  |                                                                            
-  |...................                                                   |  27%
-  |                                                                            
-  |....................                                                  |  29%
-  |                                                                            
-  |.....................                                                 |  30%
-  |                                                                            
-  |......................                                                |  31%
-  |                                                                            
-  |......................                                                |  32%
-  |                                                                            
-  |.......................                                               |  33%
-  |                                                                            
-  |........................                                              |  35%
-  |                                                                            
-  |.........................                                             |  36%
-  |                                                                            
-  |..........................                                            |  37%
-  |                                                                            
-  |...........................                                           |  38%
-  |                                                                            
-  |............................                                          |  39%
-  |                                                                            
-  |............................                                          |  40%
-  |                                                                            
-  |.............................                                         |  42%
-  |                                                                            
-  |..............................                                        |  43%
-  |                                                                            
-  |...............................                                       |  44%
-  |                                                                            
-  |................................                                      |  45%
-  |                                                                            
-  |................................                                      |  46%
-  |                                                                            
-  |.................................                                     |  48%
-  |                                                                            
-  |..................................                                    |  49%
-  |                                                                            
-  |...................................                                   |  50%
-  |                                                                            
-  |....................................                                  |  51%
-  |                                                                            
-  |.....................................                                 |  52%
-  |                                                                            
-  |......................................                                |  54%
-  |                                                                            
-  |......................................                                |  55%
-  |                                                                            
-  |.......................................                               |  56%
-  |                                                                            
-  |........................................                              |  57%
-  |                                                                            
-  |.........................................                             |  58%
-  |                                                                            
-  |..........................................                            |  60%
-  |                                                                            
-  |..........................................                            |  61%
-  |                                                                            
-  |...........................................                           |  62%
-  |                                                                            
-  |............................................                          |  63%
-  |                                                                            
-  |.............................................                         |  64%
-  |                                                                            
-  |..............................................                        |  65%
-  |                                                                            
-  |...............................................                       |  67%
-  |                                                                            
-  |................................................                      |  68%
-  |                                                                            
-  |................................................                      |  69%
-  |                                                                            
-  |.................................................                     |  70%
-  |                                                                            
-  |..................................................                    |  71%
-  |                                                                            
-  |...................................................                   |  73%
-  |                                                                            
-  |....................................................                  |  74%
-  |                                                                            
-  |....................................................                  |  75%
-  |                                                                            
-  |.....................................................                 |  76%
-  |                                                                            
-  |......................................................                |  77%
-  |                                                                            
-  |.......................................................               |  79%
-  |                                                                            
-  |........................................................              |  80%
-  |                                                                            
-  |.........................................................             |  81%
-  |                                                                            
-  |..........................................................            |  82%
-  |                                                                            
-  |..........................................................            |  83%
-  |                                                                            
-  |...........................................................           |  85%
-  |                                                                            
-  |............................................................          |  86%
-  |                                                                            
-  |.............................................................         |  87%
-  |                                                                            
-  |..............................................................        |  88%
-  |                                                                            
-  |..............................................................        |  89%
-  |                                                                            
-  |...............................................................       |  90%
-  |                                                                            
-  |................................................................      |  92%
-  |                                                                            
-  |.................................................................     |  93%
-  |                                                                            
-  |..................................................................    |  94%
-  |                                                                            
-  |...................................................................   |  95%
-  |                                                                            
-  |....................................................................  |  96%
-  |                                                                            
-  |....................................................................  |  98%
-  |                                                                            
-  |..................................................................... |  99%
-  |                                                                            
-  |......................................................................| 100%
-Writing to project.
-84 ranges updated to database; Elapsed time: 0 mins
-> rangeMap.save(dbcon)
-> 
-> sr = rangeMap.fetch(dbcon)
-> image(sr, axes = TRUE); grid()
-> 
-> p = list(x = -76.39, y = 9.26)
-> # or use locator:  p =  locator(1) 
-> 
-> xy = SpatialPoints( do.call(cbind, p), proj4string = CRS("+proj=longlat +datum=NAD83 +no_defs ") )
-> af = assemblageFetch(rangeMap(projLoc) , xy)
-Error: identicalCRS(x, y) is not TRUE
+> dbcon = rangeMap.start(file = "test.sqlite", overwrite = TRUE, dir = tempdir() )
+New session 2014-09-15 18:39:16
+PROJECT: test.sqlite 
+DIRECTORY: /tmp/RtmpL6GQkI
+> summary(dbcon)
+SQLiteConnection 
+dbname = /tmp/RtmpL6GQkI/test.sqlite 
+serverVersion = 3.7.17 
+Error in if (value == "") next : argument is of length zero
+Calls: summary -> summary -> print.list.pairs
 Execution halted

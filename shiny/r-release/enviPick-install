@@ -3,7 +3,7 @@
 ** libs
 g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c kernel.cpp -o kernel.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o enviPick.so kernel.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpYT03z5/check_cran199c3acbcd17/enviPick.Rcheck/enviPick/libs
+installing to /mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/enviPick.Rcheck/enviPick/libs
 ** R
 ** inst
 ** preparing package for lazy loading

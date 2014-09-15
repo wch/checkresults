@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/RtmpYT03z5/check_cran199c3acbcd17/chipPCR.Rcheck’
+* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/chipPCR.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘chipPCR/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘chipPCR’ version ‘0.0.7’
+* this is package ‘chipPCR’ version ‘0.0.8-1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -17,6 +17,7 @@
 * checking whether package ‘chipPCR’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -38,8 +39,7 @@
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd line widths ... OK
-* checking Rd cross-references ... NOTE
-Package unavailable to check Rd xrefs: ‘drc’
+* checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
@@ -48,9 +48,15 @@ Package unavailable to check Rd xrefs: ‘drc’
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [20s/21s] OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... [27s/27s] OK
 Examples with CPU or elapsed time > 5s
               user system elapsed
-amptester    6.112  0.008   7.176
-capillaryPCR 5.817  0.016   5.846
-NOTE: There was 1 note.
+amptester    9.277  0.016   9.299
+capillaryPCR 6.260  0.032   6.339
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [22s/23s] OK
+* checking re-building of vignette outputs ... [27s/29s] OK

@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/RtmpYT03z5/check_cran199c3acbcd17/phenology.Rcheck’
+* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/phenology.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘phenology/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘phenology’ version ‘3.69’
+* this is package ‘phenology’ version ‘3.72’
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
 Package suggested but not available for checking: ‘RNetCDF’
@@ -35,9 +35,7 @@ Package suggested but not available for checking: ‘RNetCDF’
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... NOTE
-ind_long_lat: no visible global function definition for ‘dim.inq.nc’
-ind_long_lat: no visible global function definition for ‘var.get.nc’
+* checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd line widths ... OK
@@ -50,5 +48,5 @@ ind_long_lat: no visible global function definition for ‘var.get.nc’
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [17s/17s] OK
-NOTE: There were 2 notes.
+* checking examples ... [18s/18s] OK
+NOTE: There was 1 note.
