@@ -1,21 +1,21 @@
-* using log directory '/mnt/tmp/Rtmphf0IH4/check_cran47f758388a62/YplantQMC.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory ‘/mnt/tmp/RtmpfV3LIN/check_cran71c7ef8424d/YplantQMC.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'YplantQMC/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘YplantQMC/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'YplantQMC' version '0.5'
+* this is package ‘YplantQMC’ version ‘0.5’
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
-Package suggested but not available for checking: 'ypaddon'
+Package suggested but not available for checking: ‘ypaddon’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'YplantQMC' can be installed ... OK
+* checking whether package ‘YplantQMC’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -32,38 +32,39 @@ Package suggested but not available for checking: 'ypaddon'
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
 * checking dependencies in R code ... NOTE
-'library' or 'require' call to 'geometry' which was already attached by Depends.
+'library' or 'require' call to ‘geometry’ which was already attached by Depends.
   Please remove these calls from your code.
 Packages in Depends field not imported from:
-  'LeafAngle' 'devtools' 'geometry' 'rgl'
+  ‘LeafAngle’ ‘devtools’ ‘geometry’ ‘rgl’
   These packages need to be imported from (in the NAMESPACE file)
   for when this namespace is loaded but not attached.
-Unexported object imported by a ':::' call: 'rgl:::GramSchmidt'
+Unexported object imported by a ':::' call: ‘rgl:::GramSchmidt’
   See the note in ?`:::` about the use of this operator.
 There are ::: calls to the package's namespace in its code. A package
   almost never needs to use ::: for its own objects:
-  'plot3dcylinder'
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual.
+  ‘plot3dcylinder’
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
 Found an obsolete/platform-specific call in the following function:
-  'plot.yplantsim'
+  ‘plot.yplantsim’
 Found the platform-specific device:
-  'windows'
+  ‘windows’
 dev.new() is the preferred way to open a new device, in the unlikely
 event one is needed.
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking line endings in C/C++/Fortran sources/headers ... OK

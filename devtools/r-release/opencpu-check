@@ -1,24 +1,24 @@
-* using log directory '/mnt/tmp/Rtmphf0IH4/check_cran47f758388a62/opencpu.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory ‘/mnt/tmp/RtmpfV3LIN/check_cran71c7ef8424d/opencpu.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'opencpu/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘opencpu/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'opencpu' version '1.2.3'
+* this is package ‘opencpu’ version ‘1.4.4’
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
-Packages suggested but not available for checking: 'RAppArmor' 'RProtoBuf'
+Packages suggested but not available for checking: ‘RAppArmor’ ‘RProtoBuf’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'opencpu' can be installed ... OK
+* checking whether package ‘opencpu’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking 'build' directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -39,18 +39,32 @@ Packages suggested but not available for checking: 'RAppArmor' 'RProtoBuf'
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... OK
-* checking re-building of vignette outputs ... OK
-NOTE: There was 1 note.
+* checking re-building of vignette outputs ... NOTE
+Error in re-building vignettes:
+  ...
+Error in texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet,  : 
+  Running 'texi2dvi' on 'opencpu-paper.tex' failed.
+LaTeX errors:
+! Package keyval Error: hidelinks undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+Calls: buildVignettes -> texi2pdf -> texi2dvi
+Execution halted
+
+NOTE: There were 2 notes.

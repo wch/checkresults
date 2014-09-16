@@ -1,24 +1,24 @@
-* using log directory '/mnt/tmp/Rtmphf0IH4/check_cran47f758388a62/pkgmaker.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory ‘/mnt/tmp/RtmpfV3LIN/check_cran71c7ef8424d/pkgmaker.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'pkgmaker/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘pkgmaker/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'pkgmaker' version '0.20'
+* this is package ‘pkgmaker’ version ‘0.22’
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
-Package suggested but not available for checking: 'ReportingTools'
+Package suggested but not available for checking: ‘ReportingTools’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'pkgmaker' can be installed ... OK
+* checking whether package ‘pkgmaker’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking 'build' directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -38,28 +38,29 @@ Package suggested but not available for checking: 'ReportingTools'
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
 write_PACKAGES_index: no visible global function definition for
-  'HTMLReport'
+  ‘HTMLReport’
 write_PACKAGES_index: no visible global function definition for
-  'publish'
+  ‘publish’
 write_PACKAGES_index: no visible global function definition for
-  'finish'
+  ‘finish’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'doRUnit.R'
+  Running ‘doRUnit.R’
 * checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... OK
 * checking re-building of vignette outputs ... OK
 NOTE: There were 2 notes.

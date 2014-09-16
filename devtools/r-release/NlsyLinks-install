@@ -1,11 +1,11 @@
-* installing *source* package 'NlsyLinks' ...
-** package 'NlsyLinks' successfully unpacked and MD5 sums checked
+* installing *source* package ‘NlsyLinks’ ...
+** package ‘NlsyLinks’ successfully unpacked and MD5 sums checked
 ** R
 ** data
 *** moving datasets to lazyload DB
 ** inst
 ** preparing package for lazy loading
-Creating a generic function for 'print' from package 'base' in package 'NlsyLinks'
+Creating a generic function for ‘print’ from package ‘base’ in package ‘NlsyLinks’
 ** help
 *** installing help indices
 ** building package indices

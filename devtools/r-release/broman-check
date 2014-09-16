@@ -1,11 +1,10 @@
-* using log directory ‘/mnt/tmp/RtmpfV3LIN/check_cran71c7ef8424d/NlsyLinks.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpfV3LIN/check_cran71c7ef8424d/broman.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
-* checking for file ‘NlsyLinks/DESCRIPTION’ ... OK
-* checking extension type ... Package
-* this is package ‘NlsyLinks’ version ‘1.302’
+* checking for file ‘broman/DESCRIPTION’ ... OK
+* this is package ‘broman’ version ‘0.48-2’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,10 +13,9 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘NlsyLinks’ can be installed ... OK
+* checking whether package ‘broman’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -31,15 +29,16 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking dependencies in R code ... NOTE
-Namespace in Imports field not imported from: ‘methods’
-  All declared Imports should be used.
-See the information on DESCRIPTION files in the chapter ‘Creating R
-packages’ of the ‘Writing R Extensions’ manual.
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+Found the following calls to attach():
+File ‘broman/R/loadwork.R’:
+  attach(file)
+  attach(file)
+See section ‘Good practice’ in ‘?attach’.
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd line widths ... OK
@@ -49,18 +48,12 @@ packages’ of the ‘Writing R Extensions’ manual.
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of ‘data’ directory ... OK
-* checking data for non-ASCII characters ... OK
-* checking data for ASCII and uncompressed saves ... OK
-* checking sizes of PDF files under ‘inst/doc’ ... OK
-* checking installed files from ‘inst/doc’ ... OK
-* checking files in ‘vignettes’ ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running ‘DatasetsFixture.R’
-* checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... OK
-* checking re-building of vignette outputs ... [9s/11s] OK
+  Running ‘run-all.R’
 NOTE: There was 1 note.

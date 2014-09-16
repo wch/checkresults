@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/Rtmphf0IH4/check_cran47f758388a62/paleofire.Rcheck'
-* using R version 3.0.3 (2014-03-06)
+* using log directory ‘/mnt/tmp/RtmpfV3LIN/check_cran71c7ef8424d/paleofire.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'paleofire/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘paleofire/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'paleofire' version '1.1-2'
+* this is package ‘paleofire’ version ‘1.1.3’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'paleofire' can be installed ... [10s/10s] OK
+* checking whether package ‘paleofire’ can be installed ... [18s/19s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -37,13 +37,20 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [51s/52s] OK
+* checking examples ... [60s/61s] OK
+Examples with CPU or elapsed time > 5s
+                    user system elapsed
+pfComposite        6.124  0.048   6.173
+pfCompositeLF      5.440  0.028   5.468
+1paleofiRe-package 5.272  0.144   5.430
+pfCircular         5.333  0.040   5.374
