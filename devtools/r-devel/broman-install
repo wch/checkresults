@@ -1,0 +1,15 @@
+* installing *source* package ‘broman’ ...
+** package ‘broman’ successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c normalize.c -o normalize.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c runningmean.c -o runningmean.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o broman.so normalize.o runningmean.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/RtmplDfQUU/check_cran1b2e5efeff0a/broman.Rcheck/broman/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (broman)

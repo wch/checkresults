@@ -1,24 +1,24 @@
-* using log directory '/mnt/tmp/RtmpFJK0PO/check_cran187144ce7f40/doRNG.Rcheck'
-* using R Under development (unstable) (2014-03-25 r65283)
+* using log directory ‘/mnt/tmp/RtmplDfQUU/check_cran1b2e5efeff0a/doRNG.Rcheck’
+* using R Under development (unstable) (2014-09-16 r66618)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'doRNG/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘doRNG/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'doRNG' version '1.6'
+* this is package ‘doRNG’ version ‘1.6’
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
-Package suggested but not available for checking: 'doMPI'
+Package suggested but not available for checking: ‘doMPI’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'doRNG' can be installed ... OK
+* checking whether package ‘doRNG’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking 'build' directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -39,22 +39,23 @@ Package suggested but not available for checking: 'doMPI'
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... NOTE
-Package unavailable to check Rd xrefs: 'doMPI'
+Package unavailable to check Rd xrefs: ‘doMPI’
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'doRUnit.R'
+  Running ‘doRUnit.R’
 * checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... [6s/20s] OK
 * checking re-building of vignette outputs ... NOTE
 Error in re-building vignettes:
@@ -79,4 +80,5 @@ Type  H <return>  for immediate help.
 Calls: buildVignettes -> texi2pdf -> texi2dvi
 Execution halted
 
+* DONE
 NOTE: There were 3 notes.

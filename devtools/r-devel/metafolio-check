@@ -1,14 +1,12 @@
-* using log directory ‘/mnt/tmp/RtmplDfQUU/check_cran1b2e5efeff0a/paleofire.Rcheck’
+* using log directory ‘/mnt/tmp/RtmplDfQUU/check_cran1b2e5efeff0a/metafolio.Rcheck’
 * using R Under development (unstable) (2014-09-16 r66618)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
-* checking for file ‘paleofire/DESCRIPTION’ ... OK
+* checking for file ‘metafolio/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘paleofire’ version ‘1.1.3’
-* checking package namespace information ... NOTE
-  Namespaces with empty importFrom:
-  ‘GCD’ ‘rworldmap’ ‘utils’
+* this is package ‘metafolio’ version ‘0.1.0’
+* checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
@@ -16,9 +14,10 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘paleofire’ can be installed ... [26s/27s] OK
+* checking whether package ‘metafolio’ can be installed ... [19s/21s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -46,12 +45,17 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of ‘data’ directory ... OK
-* checking data for non-ASCII characters ... OK
-* checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [64s/65s] OK
-Examples with CPU or elapsed time > 5s
-                    user system elapsed
-1paleofiRe-package 6.132  0.076   6.232
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking compilation flags in Makevars ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [14s/14s] OK
+* checking re-building of vignette outputs ... [14s/15s] OK
 * DONE
-NOTE: There was 1 note.

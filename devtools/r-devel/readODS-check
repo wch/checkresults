@@ -1,14 +1,12 @@
-* using log directory ‘/mnt/tmp/RtmplDfQUU/check_cran1b2e5efeff0a/paleofire.Rcheck’
+* using log directory ‘/mnt/tmp/RtmplDfQUU/check_cran1b2e5efeff0a/readODS.Rcheck’
 * using R Under development (unstable) (2014-09-16 r66618)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
-* checking for file ‘paleofire/DESCRIPTION’ ... OK
+* checking for file ‘readODS/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘paleofire’ version ‘1.1.3’
-* checking package namespace information ... NOTE
-  Namespaces with empty importFrom:
-  ‘GCD’ ‘rworldmap’ ‘utils’
+* this is package ‘readODS’ version ‘1.4’
+* checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
@@ -16,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘paleofire’ can be installed ... [26s/27s] OK
+* checking whether package ‘readODS’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -46,12 +44,8 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of ‘data’ directory ... OK
-* checking data for non-ASCII characters ... OK
-* checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [64s/65s] OK
-Examples with CPU or elapsed time > 5s
-                    user system elapsed
-1paleofiRe-package 6.132  0.076   6.232
+* checking examples ... NONE
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running ‘runAllTests.R’
 * DONE
-NOTE: There was 1 note.

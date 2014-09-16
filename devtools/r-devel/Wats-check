@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpFJK0PO/check_cran187144ce7f40/Wats.Rcheck'
-* using R Under development (unstable) (2014-03-25 r65283)
+* using log directory ‘/mnt/tmp/RtmplDfQUU/check_cran1b2e5efeff0a/Wats.Rcheck’
+* using R Under development (unstable) (2014-09-16 r66618)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'Wats/DESCRIPTION' ... OK
-* this is package 'Wats' version '0.2-9'
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘Wats/DESCRIPTION’ ... OK
+* this is package ‘Wats’ version ‘0.2-16’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,10 +13,10 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'Wats' can be installed ... OK
+* checking whether package ‘Wats’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking 'build' directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -30,35 +30,31 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking dependencies in R code ... NOTE
-Namespaces in Imports field not imported from:
-  'boot' 'scales'
-  All declared Imports should be used.
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual.
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'test-all.R'
+  Running ‘test-all.R’
 * checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [50s/50s] OK
-* checking re-building of vignette outputs ... [50s/50s] OK
-NOTE: There was 1 note.
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [44s/44s] OK
+* checking re-building of vignette outputs ... [48s/48s] OK
+* DONE

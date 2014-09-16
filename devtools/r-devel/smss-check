@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpFJK0PO/check_cran187144ce7f40/smss.Rcheck'
-* using R Under development (unstable) (2014-03-25 r65283)
+* using log directory ‘/mnt/tmp/RtmplDfQUU/check_cran1b2e5efeff0a/smss.Rcheck’
+* using R Under development (unstable) (2014-09-16 r66618)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'smss/DESCRIPTION' ... OK
-* this is package 'smss' version '1.0-1'
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘smss/DESCRIPTION’ ... OK
+* this is package ‘smss’ version ‘1.0-1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'smss' can be installed ... OK
+* checking whether package ‘smss’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -36,13 +36,15 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... OK
+* DONE

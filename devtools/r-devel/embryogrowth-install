@@ -1,5 +1,5 @@
-* installing *source* package ‘Wats’ ...
-** package ‘Wats’ successfully unpacked and MD5 sums checked
+* installing *source* package ‘embryogrowth’ ...
+** package ‘embryogrowth’ successfully unpacked and MD5 sums checked
 ** R
 ** data
 *** moving datasets to lazyload DB
@@ -8,6 +8,5 @@
 ** help
 *** installing help indices
 ** building package indices
-** installing vignettes
 ** testing if installed package can be loaded
-* DONE (Wats)
+* DONE (embryogrowth)

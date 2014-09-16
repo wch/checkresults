@@ -1,12 +1,10 @@
-* installing *source* package ‘doRNG’ ...
-** package ‘doRNG’ successfully unpacked and MD5 sums checked
+* installing *source* package ‘packrat’ ...
+** package ‘packrat’ successfully unpacked and MD5 sums checked
 ** R
-** demo
 ** inst
 ** preparing package for lazy loading
 ** help
 *** installing help indices
 ** building package indices
-** installing vignettes
 ** testing if installed package can be loaded
-* DONE (doRNG)
+* DONE (packrat)

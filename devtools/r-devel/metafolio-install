@@ -1,0 +1,16 @@
+* installing *source* package ‘metafolio’ ...
+** package ‘metafolio’ successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c RcppExports.cpp -o RcppExports.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c metasim_base.cpp -o metasim_base.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o metafolio.so RcppExports.o metasim_base.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/RtmplDfQUU/check_cran1b2e5efeff0a/metafolio.Rcheck/metafolio/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (metafolio)
