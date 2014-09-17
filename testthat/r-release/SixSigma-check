@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/SixSigma.Rcheck'
-* using R version 3.0.2 (2013-09-25)
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/SixSigma.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'SixSigma/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘SixSigma/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'SixSigma' version '0.7-0'
+* this is package ‘SixSigma’ version ‘0.8-1’
 * package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... OK
@@ -15,13 +15,11 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'SixSigma' can be installed ... OK
+* checking whether package ‘SixSigma’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking DESCRIPTION meta-information ... NOTE
-Packages listed in more than one of Depends, Imports, Suggests, Enhances:
-  'ggplot2' 'reshape2'
-A package should be listed in only one of these fields.
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -34,60 +32,31 @@ A package should be listed in only one of these fields.
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking dependencies in R code ... NOTE
-'library' or 'require' call to 'nortest' which was already attached by Depends.
-  Please remove these calls from your code.
-Namespace in Imports field not imported from: 'reshape2'
-  All declared Imports should be used.
-Packages in Depends field not imported from:
-  'nortest' 'plyr' 'reshape2' 'testthat'
-  These packages needs to imported from for the case when
-  this namespace is loaded but not attached.
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual.
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... NOTE
-File 'SixSigma/R/SixSigma-package.R':
-  .onLoad calls:
-    packageStartupMessage(ss.message)
-
-See section 'Good practice' in '?.onAttach'.
-
-Found the following calls to attach():
-File 'SixSigma/R/ss.ci.R':
-  attach(data, warn.conflicts = FALSE)
-File 'SixSigma/R/ss.rr.R':
-  attach(data, warn.conflicts = FALSE)
-See section 'Good practice' in '?attach'.
+* checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
-* checking examples ... WARNING
-checking a package with encoding  'UTF-8'  in an ASCII locale
-
- [14s/14s] OK
-Examples with CPU or elapsed time > 5s
-                  user system elapsed
-SixSigma-package 6.064  0.076   6.157
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... [11s/11s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'run-all.R'
+  Running ‘run-all.R’
 * checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... OK
 * checking re-building of vignette outputs ... OK
-WARNING: There was 1 warning.
-NOTE: There were 3 notes.

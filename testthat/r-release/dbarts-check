@@ -1,0 +1,18 @@
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck’
+* using R version 3.1.1 (2014-07-10)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘dbarts/DESCRIPTION’ ... OK
+* this is package ‘dbarts’ version ‘0.8-3’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘dbarts’ can be installed ... [14s/19s] ERROR
+Installation failed.
+See ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck/00install.out’ for details.

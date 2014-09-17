@@ -1,0 +1,23 @@
+* installing *source* package ‘dcmr’ ...
+** package ‘dcmr’ successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** preparing package for lazy loading
+Creating a generic function for ‘head’ from package ‘utils’ in package ‘dcmr’
+in method for ‘head’ with signature ‘x="attribute.class"’: no definition for class “attribute.class”
+Creating a generic function for ‘print’ from package ‘base’ in package ‘dcmr’
+in method for ‘print’ with signature ‘x="attribute.class"’: no definition for class “attribute.class”
+Creating a generic function for ‘summary’ from package ‘base’ in package ‘dcmr’
+in method for ‘summary’ with signature ‘object="attribute.class"’: no definition for class “attribute.class”
+Creating a generic function for ‘plot’ from package ‘graphics’ in package ‘dcmr’
+in method for ‘plot’ with signature ‘x="attribute.class",y="missing"’: no definition for class “attribute.class”
+in method for ‘print’ with signature ‘x="attribute.profile.class"’: no definition for class “attribute.profile.class”
+in method for ‘head’ with signature ‘x="attribute.profile.class"’: no definition for class “attribute.profile.class”
+in method for ‘summary’ with signature ‘object="attribute.profile.class"’: no definition for class “attribute.profile.class”
+in method for ‘plot’ with signature ‘x="attribute.profile.class",y="missing"’: no definition for class “attribute.profile.class”
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (dcmr)

@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/ndtv.Rcheck'
-* using R version 3.0.2 (2013-09-25)
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/ndtv.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'ndtv/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘ndtv/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'ndtv' version '0.5.1'
+* this is package ‘ndtv’ version ‘0.5.1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'ndtv' can be installed ... OK
+* checking whether package ‘ndtv’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -34,36 +34,44 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+Found an obsolete/platform-specific call in the following function:
+  ‘render.animation’
+Found the platform-specific devices:
+  ‘quartz’ ‘windows’ ‘x11’
+dev.new() is the preferred way to open a new device, in the unlikely
+event one is needed.
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
-* checking examples ... [15s/15s] OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... [12s/12s] OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-render.animation 8.756  0.192    9.02
+render.animation 5.588  0.096   5.708
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [50s/51s] OK
-  Running 'compute.animation_tests.R'
-  Running 'filmstrip_tests.R'
-  Running 'layout_tests.R'
-  Running 'networkAnimationTest.R'
-  Running 'proximity.timeline_test.R'
-  Running 'render.animation_test.R' [11s/11s]
-  Running 'timeline_test.R'
-  Running 'weighttest.R' [15s/16s]
+* checking tests ... [41s/43s] OK
+  Running ‘compute.animation_tests.R’
+  Running ‘filmstrip_tests.R’
+  Running ‘layout_tests.R’
+  Running ‘networkAnimationTest.R’
+  Running ‘proximity.timeline_test.R’
+  Running ‘render.animation_test.R’
+  Running ‘timeline_test.R’
+  Running ‘weighttest.R’ [12s/12s]
 * checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [283s/278s] OK
-* checking re-building of vignette outputs ... [186s/179s] OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [272s/267s] OK
+* checking re-building of vignette outputs ... [266s/259s] OK
+NOTE: There was 1 note.

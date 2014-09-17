@@ -1,21 +1,19 @@
-* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/devtools.Rcheck'
-* using R version 3.0.2 (2013-09-25)
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/devtools.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'devtools/DESCRIPTION' ... OK
-* this is package 'devtools' version '1.4.1'
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘devtools/DESCRIPTION’ ... OK
+* this is package ‘devtools’ version ‘1.5’
 * checking package namespace information ... OK
-* checking package dependencies ... NOTE
-Packages suggested but not available for checking:
-  'BiocInstaller' 'rstudio'
+* checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'devtools' can be installed ... OK
+* checking whether package ‘devtools’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -32,23 +30,22 @@ Packages suggested but not available for checking:
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
 * checking dependencies in R code ... NOTE
-Missing or unexported object: 'roxygen2::clear_caches'
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual.
+There are ::: calls to the package's namespace in its code. A package
+  almost never needs to use ::: for its own objects:
+  ‘run_example’
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
-check_cran: no visible global function definition for
-  'biocinstallRepos'
-document_roxygen2: no visible binding for global variable 'parse.file'
-
 Found the following calls to attach():
-File 'devtools/R/package-env.r':
+File ‘devtools/R/package-env.r’:
   attach(NULL, name = pkg_env_name(pkg))
-See section 'Good practice' in '?attach'.
+See section ‘Good practice’ in ‘?attach’.
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -59,12 +56,9 @@ See section 'Good practice' in '?attach'.
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [4s/11s] OK
-Examples with CPU or elapsed time > 5s
-             user system elapsed
-source_gist 0.496  0.032   6.984
+* checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [31s/36s] OK
-  Running 'has-devel.R'
-  Running 'test-that.R' [29s/34s]
-NOTE: There were 3 notes.
+* checking tests ... [31s/37s] OK
+  Running ‘has-devel.R’
+  Running ‘test-that.R’ [29s/35s]
+NOTE: There were 2 notes.

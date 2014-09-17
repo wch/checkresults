@@ -1,13 +1,12 @@
-* installing *source* package 'BBmisc' ...
-** package 'BBmisc' successfully unpacked and MD5 sums checked
+* installing *source* package ‘BBmisc’ ...
+** package ‘BBmisc’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c first_last.c -o first_last.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c getMaxColRowIndex.c -o getMaxColRowIndex.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c getMaxIndex.c -o getMaxIndex.o
-gcc -std=gnu99 -shared -o BBmisc.so first_last.o getMaxColRowIndex.o getMaxIndex.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/BBmisc.Rcheck/BBmisc/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c getMaxColRowIndex.c -o getMaxColRowIndex.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c getMaxIndex.c -o getMaxIndex.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c which_first.c -o which_first.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o BBmisc.so getMaxColRowIndex.o getMaxIndex.o which_first.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/BBmisc.Rcheck/BBmisc/libs
 ** R
-** inst
 ** byte-compile and prepare package for lazy loading
 ** help
 *** installing help indices

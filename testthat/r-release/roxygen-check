@@ -1,20 +1,20 @@
-* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/roxygen.Rcheck'
-* using R version 3.0.2 (2013-09-25)
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/roxygen.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'roxygen/DESCRIPTION' ... OK
-* this is package 'roxygen' version '0.1-3'
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘roxygen/DESCRIPTION’ ... OK
+* this is package ‘roxygen’ version ‘0.1-3’
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
-Package suggested but not available for checking: 'Rgraphviz'
+Package suggested but not available for checking: ‘Rgraphviz’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'roxygen' can be installed ... OK
+* checking whether package ‘roxygen’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -30,7 +30,16 @@ Package suggested but not available for checking: 'Rgraphviz'
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking dependencies in R code ... OK
+* checking dependencies in R code ... NOTE
+Packages in Depends field not imported from:
+  ‘digest’ ‘gsubfn’
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+Unexported objects imported by ':::' calls:
+  ‘tools:::RdTags’ ‘tools:::as.character.Rd’
+  See the note in ?`:::` about the use of this operator.
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -45,34 +54,36 @@ new_cache : cache_get: warning in get(key, env = cache, inherits =
 new_cache : cache_has_key: warning in exists(key, env = cache, inherits
   = FALSE): partial argument match of 'env' to 'envir'
 make.callgraph.roclet : graphviz: no visible global function definition
-  for 'addEdge'
+  for ‘addEdge’
 make.callgraph.roclet : graphviz: no visible global function definition
-  for 'agopenSimple'
+  for ‘agopenSimple’
 make.callgraph.roclet : graphviz: no visible global function definition
-  for 'graphDataDefaults<-'
+  for ‘graphDataDefaults<-’
 make.callgraph.roclet : graphviz: no visible global function definition
-  for 'nodeDataDefaults<-'
+  for ‘nodeDataDefaults<-’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... NOTE
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... NOTE
 The following files should probably not be installed:
-  'GSoC-idea.tex'
+  ‘GSoC-idea.tex’
 
-Consider the use of a .Rinstignore file: see 'Writing R Extensions',
-or move the vignette sources from 'inst/doc' to 'vignettes'.
+Consider the use of a .Rinstignore file: see ‘Writing R Extensions’,
+or move the vignette sources from ‘inst/doc’ to ‘vignettes’.
+* checking for old-style vignette sources ... NOTE
+Vignette sources only in ‘inst/doc’:
+  ‘roxygen.Rnw’
+A ‘vignettes’ directory is required as from R 3.1.0
+and these will not be indexed nor checked
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'test-all.R'
-* checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... OK
-* checking re-building of vignette outputs ... OK
-NOTE: There were 3 notes.
+  Running ‘test-all.R’
+NOTE: There were 5 notes.

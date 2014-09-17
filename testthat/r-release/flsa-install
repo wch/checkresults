@@ -1,19 +1,19 @@
-* installing *source* package 'flsa' ...
-** package 'flsa' successfully unpacked and MD5 sums checked
+* installing *source* package ‘flsa’ ...
+** package ‘flsa’ successfully unpacked and MD5 sums checked
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c FLSA.cc -o FLSA.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c FLSAGeneral.cc -o FLSAGeneral.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c FLSAGeneralMain.cc -o FLSAGeneralMain.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c GeneralFunctions.cc -o GeneralFunctions.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Groups.cc -o Groups.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c MaxFlowGraph.cc -o MaxFlowGraph.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c PenaltyGraph.cc -o PenaltyGraph.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Scheduler.cc -o Scheduler.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c flsaBackwards.cc -o flsaBackwards.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c helperFuncsSEXP.cc -o helperFuncsSEXP.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c init.cc -o init.o
-g++ -shared -o flsa.so FLSA.o FLSAGeneral.o FLSAGeneralMain.o GeneralFunctions.o Groups.o MaxFlowGraph.o PenaltyGraph.o Scheduler.o flsaBackwards.o helperFuncsSEXP.o init.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/flsa.Rcheck/flsa/libs
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c FLSA.cc -o FLSA.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c FLSAGeneral.cc -o FLSAGeneral.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c FLSAGeneralMain.cc -o FLSAGeneralMain.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c GeneralFunctions.cc -o GeneralFunctions.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Groups.cc -o Groups.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c MaxFlowGraph.cc -o MaxFlowGraph.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c PenaltyGraph.cc -o PenaltyGraph.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c Scheduler.cc -o Scheduler.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c flsaBackwards.cc -o flsaBackwards.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c helperFuncsSEXP.cc -o helperFuncsSEXP.o
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c init.cc -o init.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o flsa.so FLSA.o FLSAGeneral.o FLSAGeneralMain.o GeneralFunctions.o Groups.o MaxFlowGraph.o PenaltyGraph.o Scheduler.o flsaBackwards.o helperFuncsSEXP.o init.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/flsa.Rcheck/flsa/libs
 ** R
 ** inst
 ** preparing package for lazy loading

@@ -1,9 +1,9 @@
-* installing *source* package 'rpartitions' ...
-** package 'rpartitions' successfully unpacked and MD5 sums checked
+* installing *source* package ‘rpartitions’ ...
+** package ‘rpartitions’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c partitions.c -o partitions.o
-gcc -std=gnu99 -shared -o rpartitions.so partitions.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/rpartitions.Rcheck/rpartitions/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c partitions.c -o partitions.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o rpartitions.so partitions.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/rpartitions.Rcheck/rpartitions/libs
 ** R
 ** inst
 ** preparing package for lazy loading

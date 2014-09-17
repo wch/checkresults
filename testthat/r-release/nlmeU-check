@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/nlmeU.Rcheck'
-* using R version 3.0.2 (2013-09-25)
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/nlmeU.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'nlmeU/DESCRIPTION' ... OK
-* this is package 'nlmeU' version '0.70-3'
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘nlmeU/DESCRIPTION’ ... OK
+* this is package ‘nlmeU’ version ‘0.70-3’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'nlmeU' can be installed ... OK
+* checking whether package ‘nlmeU’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -36,22 +36,23 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'Pwr1.R'
-  Running 'Pwr2.R'
-  Running 'logLik1.R'
-  Running 'missPat.R'
-  Running 'roxygen.R'
-  Running 'runScript.R'
-  Running 'simY.R'
+  Running ‘Pwr1.R’
+  Running ‘Pwr2.R’
+  Running ‘logLik1.R’
+  Running ‘missPat.R’
+  Running ‘roxygen.R’
+  Running ‘runScript.R’
+  Running ‘simY.R’

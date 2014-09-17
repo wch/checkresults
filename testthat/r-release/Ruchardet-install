@@ -1,0 +1,62 @@
+* installing *source* package ‘Ruchardet’ ...
+** package ‘Ruchardet’ successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking whether make sets $(MAKE)... yes
+checking for ranlib... ranlib
+checking for Rscript... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+g++ -I/usr/share/R/include -DNDEBUG -Iuchardet-0.0.1/src   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -I/usr/share/R/include -DNDEBUG -Iuchardet-0.0.1/src   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c detectEncoding.cpp -o detectEncoding.o
+(cd uchardet-0.0.1/src && \
+	(make  CXX="g++" CXXFLAGS="-g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic " AR="ar" RANLIB="ranlib"))
+make[1]: Entering directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/Ruchardet.Rcheck/00_pkg_src/Ruchardet/src/uchardet-0.0.1/src'
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c CharDistribution.cpp -o CharDistribution.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c JpCntx.cpp -o JpCntx.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c LangBulgarianModel.cpp -o LangBulgarianModel.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c LangCyrillicModel.cpp -o LangCyrillicModel.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c LangGreekModel.cpp -o LangGreekModel.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c LangHebrewModel.cpp -o LangHebrewModel.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c LangHungarianModel.cpp -o LangHungarianModel.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c LangThaiModel.cpp -o LangThaiModel.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsBig5Prober.cpp -o nsBig5Prober.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsCharSetProber.cpp -o nsCharSetProber.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsEUCJPProber.cpp -o nsEUCJPProber.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsEUCKRProber.cpp -o nsEUCKRProber.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsEUCTWProber.cpp -o nsEUCTWProber.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsEscCharsetProber.cpp -o nsEscCharsetProber.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsEscSM.cpp -o nsEscSM.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsGB2312Prober.cpp -o nsGB2312Prober.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsHebrewProber.cpp -o nsHebrewProber.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsLatin1Prober.cpp -o nsLatin1Prober.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsMBCSGroupProber.cpp -o nsMBCSGroupProber.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsMBCSSM.cpp -o nsMBCSSM.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsSBCSGroupProber.cpp -o nsSBCSGroupProber.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsSBCharSetProber.cpp -o nsSBCharSetProber.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsSJISProber.cpp -o nsSJISProber.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsUTF8Prober.cpp -o nsUTF8Prober.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c nsUniversalDetector.cpp -o nsUniversalDetector.o
+g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c uchardet.cpp -o uchardet.o
+ar cr libuchardet.a CharDistribution.o JpCntx.o LangBulgarianModel.o LangCyrillicModel.o LangGreekModel.o LangHebrewModel.o LangHungarianModel.o LangThaiModel.o nsBig5Prober.o nsCharSetProber.o nsEUCJPProber.o nsEUCKRProber.o nsEUCTWProber.o nsEscCharsetProber.o nsEscSM.o nsGB2312Prober.o nsHebrewProber.o nsLatin1Prober.o nsMBCSGroupProber.o nsMBCSSM.o nsSBCSGroupProber.o nsSBCharSetProber.o nsSJISProber.o nsUTF8Prober.o nsUniversalDetector.o uchardet.o
+ranlib libuchardet.a
+make[1]: Leaving directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/Ruchardet.Rcheck/00_pkg_src/Ruchardet/src/uchardet-0.0.1/src'
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o Ruchardet.so RcppExports.o detectEncoding.o -Luchardet-0.0.1/src -luchardet -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/Ruchardet.Rcheck/Ruchardet/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (Ruchardet)

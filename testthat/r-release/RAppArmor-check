@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/RAppArmor.Rcheck'
-* using R version 3.0.2 (2013-09-25)
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/RAppArmor.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'RAppArmor/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘RAppArmor/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'RAppArmor' version '1.0.1'
+* this is package ‘RAppArmor’ version ‘1.0.1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,6 +14,6 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'RAppArmor' can be installed ... ERROR
+* checking whether package ‘RAppArmor’ can be installed ... ERROR
 Installation failed.
-See '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/RAppArmor.Rcheck/00install.out' for details.
+See ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/RAppArmor.Rcheck/00install.out’ for details.

@@ -1,9 +1,9 @@
-* installing *source* package 'CHNOSZ' ...
-** package 'CHNOSZ' successfully unpacked and MD5 sums checked
+* installing *source* package ‘CHNOSZ’ ...
+** package ‘CHNOSZ’ successfully unpacked and MD5 sums checked
 ** libs
-gfortran   -fpic  -O3 -pipe  -g  -c H2O92D.f -o H2O92D.o
-gcc -std=gnu99 -shared -o CHNOSZ.so H2O92D.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/CHNOSZ.Rcheck/CHNOSZ/libs
+gfortran   -fpic  -g -O2  -c H2O92D.f -o H2O92D.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o CHNOSZ.so H2O92D.o -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/CHNOSZ.Rcheck/CHNOSZ/libs
 ** R
 ** data
 ** demo

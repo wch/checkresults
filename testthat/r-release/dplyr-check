@@ -1,30 +1,28 @@
-* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/dplyr.Rcheck'
-* using R version 3.0.2 (2013-09-25)
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dplyr.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'dplyr/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘dplyr/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'dplyr' version '0.1.1'
+* this is package ‘dplyr’ version ‘0.2’
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
-Package suggested but not available for checking: 'bigrquery'
+Package suggested but not available for checking: ‘bigrquery’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'dplyr' can be installed ... [67s/67s] OK
+* checking whether package ‘dplyr’ can be installed ... [170s/172s] OK
 * checking installed package size ... NOTE
-  installed size is  7.5Mb
+  installed size is 16.2Mb
   sub-directories of 1Mb or more:
-    libs   5.9Mb
+    libs  14.5Mb
 * checking package directory ... OK
-* checking DESCRIPTION meta-information ... NOTE
-Versioned LinkingTo values for
-  'Rcpp' 'BH'
-are only usable in R >= 3.0.2
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -37,20 +35,26 @@ are only usable in R >= 3.0.2
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking dependencies in R code ... OK
+* checking dependencies in R code ... NOTE
+Namespaces in Imports field not imported from:
+  ‘Lahman’ ‘hflights’ ‘magrittr’ ‘methods’
+  All declared Imports should be used.
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking line endings in C/C++/Fortran sources/headers ... OK
@@ -58,23 +62,224 @@ are only usable in R >= 3.0.2
 * checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
-* checking examples ... [22s/23s] OK
-* checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
-Last 13 lines of output:
-    AwardsShareManagers, AwardsSharePlayers, Batting, BattingPost, Fielding,
-    FieldingOF, FieldingPost, HallOfFame, LahmanData, Managers, ManagersHalf,
-    Master, Pitching, PitchingPost, Salaries, Schools, SchoolsPlayers,
-    SeriesPost, Teams, TeamsFranchises, TeamsHalf, sqlite_stat1
-  > if (identical(Sys.getenv("NOT_CRAN"), "true")) {
-  +   lahman_postgres()  
-  + }
-  Loading required package: RPostgreSQL
-  Error in postgresqlNewConnection(drv, ...) : 
-    RS-DBI driver: (could not connect ubuntu@local on dbname "lahman"
-  )
-  Calls: lahman_postgres ... .valueClassTest -> is -> is -> postgresqlNewConnection -> .Call
-  Execution halted
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... ERROR
+Running examples in ‘dplyr-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: tbl_df
+> ### Title: Create a data frame tble.
+> ### Aliases: tbl_df
+> 
+> ### ** Examples
+> 
+> ds <- tbl_df(mtcars)
+> ds
+Source: local data frame [32 x 11]
+
+                     mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
+Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
+Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
+Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
+Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
+Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
+Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
+Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0  0    3    4
+Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
+Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
+Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
+Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
+Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
+Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
+AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
+Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
+Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0  0    3    2
+Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
+Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
+Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1  1    5    2
+Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
+Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
+Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
+Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
+> as.data.frame(ds)
+                     mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
+Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
+Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
+Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
+Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
+Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
+Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
+Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0  0    3    4
+Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
+Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
+Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
+Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
+Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
+Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
+AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
+Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
+Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0  0    3    2
+Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
+Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
+Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1  1    5    2
+Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
+Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
+Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
+Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
+> 
+> data("Batting", package = "Lahman")
+> batting <- tbl_df(Batting)
+> dim(batting)
+[1] 97889    24
+> colnames(batting)
+ [1] "playerID"  "yearID"    "stint"     "teamID"    "lgID"      "G"        
+ [7] "G_batting" "AB"        "R"         "H"         "X2B"       "X3B"      
+[13] "HR"        "RBI"       "SB"        "CS"        "BB"        "SO"       
+[19] "IBB"       "HBP"       "SH"        "SF"        "GIDP"      "G_old"    
+> head(batting)
+Source: local data frame [6 x 24]
+
+   playerID yearID stint teamID lgID  G G_batting AB R H X2B X3B HR RBI SB CS
+1 aardsda01   2004     1    SFN   NL 11        11  0 0 0   0   0  0   0  0  0
+2 aardsda01   2006     1    CHN   NL 45        43  2 0 0   0   0  0   0  0  0
+3 aardsda01   2007     1    CHA   AL 25         2  0 0 0   0   0  0   0  0  0
+4 aardsda01   2008     1    BOS   AL 47         5  1 0 0   0   0  0   0  0  0
+5 aardsda01   2009     1    SEA   AL 73         3  0 0 0   0   0  0   0  0  0
+6 aardsda01   2010     1    SEA   AL 53         4  0 0 0   0   0  0   0  0  0
+Variables not shown: BB (int), SO (int), IBB (int), HBP (int), SH (int), SF
+  (int), GIDP (int), G_old (int)
+> 
+> # Data manipulation verbs ---------------------------------------------------
+> filter(batting, yearID > 2005, G > 130)
+Source: local data frame [1,126 x 24]
+
+    playerID yearID stint teamID lgID   G G_batting  AB   R   H X2B X3B HR RBI
+1  abreubo01   2007     1    NYA   AL 158       158 605 123 171  40   5 16 101
+2  abreubo01   2008     1    NYA   AL 156       156 609 100 180  39   4 20 100
+3  abreubo01   2009     1    LAA   AL 152       152 563  96 165  29   3 15 103
+4  abreubo01   2010     1    LAA   AL 154       154 573  88 146  41   1 20  78
+5  abreubo01   2011     1    LAA   AL 142       142 502  54 127  30   1  8  60
+6  ackledu01   2012     1    SEA   AL 153        NA 607  84 137  22   2 12  50
+7  alonsyo01   2012     1    SDN   NL 155        NA 549  47 150  39   0  9  62
+8  altuvjo01   2012     1    HOU   NL 147        NA 576  80 167  34   4  7  37
+9  alvarpe01   2012     1    PIT   NL 149        NA 525  64 128  25   1 30  85
+10 amezaal01   2006     1    FLO   NL 132       132 334  42  87   9   3  3  19
+..       ...    ...   ...    ...  ... ...       ... ... ... ... ... ... .. ...
+Variables not shown: SB (int), CS (int), BB (int), SO (int), IBB (int), HBP
+  (int), SH (int), SF (int), GIDP (int), G_old (int)
+> select(batting, playerID:lgID)
+Source: local data frame [97,889 x 5]
+
+    playerID yearID stint teamID lgID
+1  aardsda01   2004     1    SFN   NL
+2  aardsda01   2006     1    CHN   NL
+3  aardsda01   2007     1    CHA   AL
+4  aardsda01   2008     1    BOS   AL
+5  aardsda01   2009     1    SEA   AL
+6  aardsda01   2010     1    SEA   AL
+7  aardsda01   2012     1    NYA   AL
+8  aaronha01   1954     1    ML1   NL
+9  aaronha01   1955     1    ML1   NL
+10 aaronha01   1956     1    ML1   NL
+..       ...    ...   ...    ...  ...
+> arrange(batting, playerID, desc(yearID))
+Source: local data frame [97,889 x 24]
+
+    playerID yearID stint teamID lgID   G G_batting  AB  R   H X2B X3B HR RBI
+1  aardsda01   2013     1    NYN   NL  43        43   0  0   0   0   0  0   0
+2  aardsda01   2012     1    NYA   AL   1        NA  NA NA  NA  NA  NA NA  NA
+3  aardsda01   2010     1    SEA   AL  53         4   0  0   0   0   0  0   0
+4  aardsda01   2009     1    SEA   AL  73         3   0  0   0   0   0  0   0
+5  aardsda01   2008     1    BOS   AL  47         5   1  0   0   0   0  0   0
+6  aardsda01   2007     1    CHA   AL  25         2   0  0   0   0   0  0   0
+7  aardsda01   2006     1    CHN   NL  45        43   2  0   0   0   0  0   0
+8  aardsda01   2004     1    SFN   NL  11        11   0  0   0   0   0  0   0
+9  aaronha01   1976     1    ML4   AL  85        85 271 22  62   8   0 10  35
+10 aaronha01   1975     1    ML4   AL 137       137 465 45 109  16   2 12  60
+..       ...    ...   ...    ...  ... ...       ... ... .. ... ... ... .. ...
+Variables not shown: SB (int), CS (int), BB (int), SO (int), IBB (int), HBP
+  (int), SH (int), SF (int), GIDP (int), G_old (int)
+> summarise(batting, G = mean(G), n = n())
+Source: local data frame [1 x 2]
+
+         G     n
+1 51.65408 97889
+> mutate(batting, rbi2 = if(is.null(AB)) 1.0 * R / AB else 0)
+Source: local data frame [97,889 x 25]
+
+    playerID yearID stint teamID lgID   G G_batting  AB   R   H X2B X3B HR RBI
+1  aardsda01   2004     1    SFN   NL  11        11   0   0   0   0   0  0   0
+2  aardsda01   2006     1    CHN   NL  45        43   2   0   0   0   0  0   0
+3  aardsda01   2007     1    CHA   AL  25         2   0   0   0   0   0  0   0
+4  aardsda01   2008     1    BOS   AL  47         5   1   0   0   0   0  0   0
+5  aardsda01   2009     1    SEA   AL  73         3   0   0   0   0   0  0   0
+6  aardsda01   2010     1    SEA   AL  53         4   0   0   0   0   0  0   0
+7  aardsda01   2012     1    NYA   AL   1        NA  NA  NA  NA  NA  NA NA  NA
+8  aaronha01   1954     1    ML1   NL 122       122 468  58 131  27   6 13  69
+9  aaronha01   1955     1    ML1   NL 153       153 602 105 189  37   9 27 106
+10 aaronha01   1956     1    ML1   NL 153       153 609 106 200  34  14 26  92
+..       ...    ...   ...    ...  ... ...       ... ... ... ... ... ... .. ...
+Variables not shown: SB (int), CS (int), BB (int), SO (int), IBB (int), HBP
+  (int), SH (int), SF (int), GIDP (int), G_old (int), rbi2 (dbl)
+> 
+> # Group by operations -------------------------------------------------------
+> # To perform operations by group, create a grouped object with group_by
+> players <- group_by(batting, playerID)
+> head(group_size(players), 100)
+  [1]  8 23  7 13  3  4  2 10  6  5  1  3 12  5 11 10  4  1 12  8  1  3  1  5  3
+ [26] 17  2  3  3  7 10  1  1 19  1  1  5  3  3  9  5  5 10 12  4  3  2  4  3  3
+ [51]  6  6  4 15  1  6 19  8  1  2 15  1  8  2  1  1  1  1  8  3  1  1  3  2  2
+ [76]  3  5 10  1  1  3  5  1 14  4 12  5  2 17  2  5  4  1  7  1  6  3  1  2  2
+> 
+> summarise(players, mean_g = mean(G), best_ab = max(AB))
+Source: local data frame [18,107 x 3]
+
+    playerID    mean_g best_ab
+1  aardsda01  37.25000      NA
+2  aaronha01 143.39130     631
+3  aaronto01  62.42857     334
+4   aasedo01  34.46154      NA
+5   abadan01   5.00000      17
+6   abadfe01  31.50000       7
+7  abadijo01   6.00000      45
+8  abbated01  85.50000     610
+9  abbeybe01  13.16667      75
+10 abbeych01  90.20000     523
+..       ...       ...     ...
+> best_year <- filter(players, AB == max(AB) | G == max(G))
+> progress <- mutate(players, cyear = yearID - min(yearID) + 1,
++  rank(desc(AB)), cumsum(AB))
+> 
+> # When you group by multiple level, each summarise peels off one level
+> per_year <- group_by(batting, playerID, yearID)
+> stints <- summarise(per_year, stints = max(stint))
+> # filter(stints, stints > 3)
+> # summarise(stints, max(stints))
+> # mutate(stints, cumsum(stints))
+> 
+> # Joins ---------------------------------------------------------------------
+> data("Master", "HallOfFame", package = "Lahman")
+> player_info <- select(tbl_df(Master), playerID, hofID, birthYear)
+Error in eval(expr, envir, enclos) : object 'hofID' not found
+Calls: select ... select_vars -> select_vars_q -> lapply -> FUN -> eval
+Execution halted

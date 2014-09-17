@@ -1,0 +1,5 @@
+* installing *source* package ‘sdcTable’ ...
+** package ‘sdcTable’ successfully unpacked and MD5 sums checked
+GLPK is not available
+ERROR: configuration failed for package ‘sdcTable’
+* removing ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/sdcTable.Rcheck/sdcTable’

@@ -1,16 +1,16 @@
-* installing *source* package 'sequences' ...
-** package 'sequences' successfully unpacked and MD5 sums checked
+* installing *source* package ‘sequences’ ...
+** package ‘sequences’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c gccount.c -o gccount.o
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c gccount2.cpp -o gccount2.o
-Error in loadNamespace(name) : there is no package called 'RcppClassic'
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c gccount.c -o gccount.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c gccount2.cpp -o gccount2.o
+Error in loadNamespace(name) : there is no package called ‘RcppClassic’
 Calls: ::: ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
 Execution halted
-g++ -shared -o sequences.so gccount.o gccount2.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -L/usr/lib/R/lib -lR
-Error in loadNamespace(name) : there is no package called 'RcppClassic'
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o sequences.so gccount.o gccount2.o -L/usr/lib/R/lib -lR
+Error in loadNamespace(name) : there is no package called ‘RcppClassic’
 Calls: ::: ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
 Execution halted
-installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/sequences.Rcheck/sequences/libs
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/sequences.Rcheck/sequences/libs
 ** R
 ** data
 ** inst

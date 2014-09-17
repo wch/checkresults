@@ -1,16 +1,16 @@
 optiRum *  checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
+Running the tests in ‘tests/test-all.R’ failed.
 Last 13 lines of output:
+  1: generatePDF(srcpath = basepath, srcname = "datatabletest", destpath = testpath, destname = "datatabletest", 
+         DATED = FALSE, compiler = "xelatex") at test-generatePDF.R:90
+  2: knit2pdf(input = src, output = dest, envir = envir, quiet = QUIET, clean = CLEANUP, 
+         ...)
+  3: tools::texi2pdf(basename(out), ...)
+  4: texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet, texi2dvi = texi2dvi, 
+         texinputs = texinputs, index = index)
+  5: stop(msg, domain = NA)
   
-  R is a collaborative project with many contributors.
-  Type 'contributors()' for more information and
-  'citation()' on how to cite R or R packages in publications.
-  
-  Type 'demo()' for some demos, 'help()' for on-line help, or
-  'help.start()' for an HTML browser interface to help.
-  Type 'q()' to quit R.
-  
-  > library("testthat")
-  > test_package("optiRum")
-  Error: No tests found for optiRum
+  Error: Test failures
+  In addition: Warning message:
+  In precision(x) : NaNs produced
   Execution halted

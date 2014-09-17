@@ -1,5 +1,5 @@
-* installing *source* package 'ndtv' ...
-** package 'ndtv' successfully unpacked and MD5 sums checked
+* installing *source* package ‘ndtv’ ...
+** package ‘ndtv’ successfully unpacked and MD5 sums checked
 ** R
 ** data
 ** exec
@@ -9,6 +9,6 @@
 *** installing help indices
 ** building package indices
 ** installing vignettes
-   'ndtv.Rnw' 
+   ‘ndtv.Rnw’ 
 ** testing if installed package can be loaded
 * DONE (ndtv)

@@ -1,0 +1,21 @@
+surveillance *  checking examples ... ERROR
+Running examples in ‘surveillance-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: polyAtBorder
+> ### Title: Indicate Polygons at the Border
+> ### Aliases: polyAtBorder
+> ### Keywords: spatial
+> 
+> ### ** Examples
+> 
+> ## Load districts of Germany
+> load(system.file("shapes", "districtsD.RData", package="surveillance"))
+> 
+> ## indicate districts at the border
+> districtAtBorder <- polyAtBorder(districtsD)
+Error in rgeos::gUnaryUnion(SpP, ...) : 
+  No UnaryUnion in this version of GEOS
+Calls: polyAtBorder -> unionSpatialPolygons -> <Anonymous>
+Execution halted

@@ -1,10 +1,10 @@
-* installing *source* package 'smcUtils' ...
-** package 'smcUtils' successfully unpacked and MD5 sums checked
+* installing *source* package ‘smcUtils’ ...
+** package ‘smcUtils’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c renormalize.c -o renormalize.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c resample.c -o resample.o
-gcc -std=gnu99 -shared -o smcUtils.so renormalize.o resample.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/smcUtils.Rcheck/smcUtils/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c renormalize.c -o renormalize.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c resample.c -o resample.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o smcUtils.so renormalize.o resample.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/smcUtils.Rcheck/smcUtils/libs
 ** R
 ** demo
 ** inst

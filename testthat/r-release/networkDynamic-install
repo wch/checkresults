@@ -1,13 +1,13 @@
-* installing *source* package 'networkDynamic' ...
-** package 'networkDynamic' successfully unpacked and MD5 sums checked
+* installing *source* package ‘networkDynamic’ ...
+** package ‘networkDynamic’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c diagnostics.c -o diagnostics.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c edgetree.c -o edgetree.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c infection.c -o infection.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c is.active.c -o is.active.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c wtedgetree.c -o wtedgetree.o
-gcc -std=gnu99 -shared -o networkDynamic.so diagnostics.o edgetree.o infection.o is.active.o wtedgetree.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/networkDynamic.Rcheck/networkDynamic/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c diagnostics.c -o diagnostics.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c edgetree.c -o edgetree.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c infection.c -o infection.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c is.active.c -o is.active.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c wtedgetree.c -o wtedgetree.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o networkDynamic.so diagnostics.o edgetree.o infection.o is.active.o wtedgetree.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/networkDynamic.Rcheck/networkDynamic/libs
 ** R
 ** data
 ** inst
@@ -16,6 +16,6 @@ installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/networkDynamic.Rcheck/ne
 *** installing help indices
 ** building package indices
 ** installing vignettes
-   'networkDynamic.Rnw' 
+   ‘networkDynamic.Rnw’ 
 ** testing if installed package can be loaded
 * DONE (networkDynamic)

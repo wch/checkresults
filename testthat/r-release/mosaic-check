@@ -1,23 +1,28 @@
-* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/mosaic.Rcheck'
-* using R version 3.0.2 (2013-09-25)
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/mosaic.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'mosaic/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘mosaic/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'mosaic' version '0.8-10'
+* this is package ‘mosaic’ version ‘0.9.1-3’
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
-Package suggested but not available for checking: 'manipulate'
+Package which this enhances but not available for checking: ‘manipulate’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'mosaic' can be installed ... OK
-* checking installed package size ... OK
+* checking whether package ‘mosaic’ can be installed ... [17s/17s] OK
+* checking installed package size ... NOTE
+  installed size is  9.1Mb
+  sub-directories of 1Mb or more:
+    R     1.8Mb
+    doc   6.7Mb
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -38,28 +43,23 @@ Package suggested but not available for checking: 'manipulate'
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
-* checking data for non-ASCII characters ... NOTE
-  Note: found 7 marked UTF-8 strings
-* checking data for ASCII and uncompressed saves ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
-* checking examples ... [51s/52s] OK
-Examples with CPU or elapsed time > 5s
-           user system elapsed
-statTally 5.277      0   5.274
+* checking R/sysdata.rda ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... [56s/54s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [20s/20s] OK
-  Running 'test-all.R' [19s/19s]
+* checking tests ... [15s/15s] OK
+  Running ‘test-all.R’ [14s/15s]
 * checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... OK
-* checking re-building of vignette outputs ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [41s/42s] OK
+* checking re-building of vignette outputs ... [38s/39s] OK
 NOTE: There were 2 notes.

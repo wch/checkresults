@@ -1,18 +1,17 @@
-* installing *source* package 'rpf' ...
-** package 'rpf' successfully unpacked and MD5 sums checked
+* installing *source* package ‘rpf’ ...
+** package ‘rpf’ successfully unpacked and MD5 sums checked
+Change default C/C++ compiler and default compile flags by editing /usr/lib/R/etc/Makeconf
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -Wall -fpic  -O3 -pipe  -g  -c diagnose.c -o diagnose.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -Wall -fpic  -O3 -pipe  -g  -c glue.c -o glue.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -Wall -fpic  -O3 -pipe  -g  -c libifa-rpf.c -o libifa-rpf.o
-libifa-rpf.c:70:15: warning: 'lognormal_pdf' defined but not used [-Wunused-function]
-libifa-rpf.c:80:15: warning: 'lognormal_gradient' defined but not used [-Wunused-function]
-libifa-rpf.c:97:15: warning: 'logitnormal_pdf' defined but not used [-Wunused-function]
-libifa-rpf.c:107:15: warning: 'logitnormal_gradient' defined but not used [-Wunused-function]
-libifa-rpf.c:383:1: warning: 'irt_rpf_1dim_drm_dTheta' defined but not used [-Wunused-function]
-libifa-rpf.c:968:1: warning: 'pda' defined but not used [-Wunused-function]
-libifa-rpf.c:1165:13: warning: 'noop' defined but not used [-Wunused-function]
-gcc -std=gnu99 -shared -o rpf.so diagnose.o glue.o libifa-rpf.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/rpf.Rcheck/rpf/libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c ba81quad.cpp -o ba81quad.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c dataframe.cpp -o dataframe.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c diagnose.cpp -o diagnose.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c dmvnorm.cpp -o dmvnorm.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c eap.cpp -o eap.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c glue.cpp -o glue.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c libifa-rpf.cpp -o libifa-rpf.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c m2.cpp -o m2.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o rpf.so ba81quad.o dataframe.o diagnose.o dmvnorm.o eap.o glue.o libifa-rpf.o m2.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/rpf.Rcheck/rpf/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

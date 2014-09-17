@@ -1,5 +1,5 @@
-* installing *source* package 'lava' ...
-** package 'lava' successfully unpacked and MD5 sums checked
+* installing *source* package ‘lava’ ...
+** package ‘lava’ successfully unpacked and MD5 sums checked
 ** R
 ** data
 ** demo
@@ -8,6 +8,5 @@
 ** help
 *** installing help indices
 ** building package indices
-** installing vignettes
 ** testing if installed package can be loaded
 * DONE (lava)

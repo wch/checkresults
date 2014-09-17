@@ -1,10 +1,19 @@
-* installing *source* package 'PP' ...
-** package 'PP' successfully unpacked and MD5 sums checked
+* installing *source* package ‘PP’ ...
+** package ‘PP’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c GPCM4PL_stuff.cpp -o GPCM4PL_stuff.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c helper_func.cpp -o helper_func.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o PP.so GPCM4PL_stuff.o RcppExports.o helper_func.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/PP.Rcheck/PP/libs
 ** R
+** data
+*** moving datasets to lazyload DB
 ** inst
 ** preparing package for lazy loading
 ** help
 *** installing help indices
 ** building package indices
+** installing vignettes
 ** testing if installed package can be loaded
 * DONE (PP)

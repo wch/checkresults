@@ -1,0 +1,117 @@
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/bbmle.Rcheck’
+* using R version 3.1.1 (2014-07-10)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘bbmle/DESCRIPTION’ ... OK
+* this is package ‘bbmle’ version ‘1.0.17’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘bbmle’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... [11s/11s] OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... [53s/54s] OK
+  Running ‘BIC.R’
+  Comparing ‘BIC.Rout’ to ‘BIC.Rout.save’ ... OK
+  Running ‘ICtab.R’
+  Comparing ‘ICtab.Rout’ to ‘ICtab.Rout.save’ ... OK
+  Running ‘RUnit-tests.R’
+  Running ‘binomtest1.R’
+  Comparing ‘binomtest1.Rout’ to ‘binomtest1.Rout.save’ ... OK
+  Running ‘controleval.R’
+  Comparing ‘controleval.Rout’ to ‘controleval.Rout.save’ ... OK
+  Running ‘doRUnit.R’
+  Running ‘eval.R’
+  Comparing ‘eval.Rout’ to ‘eval.Rout.save’ ... OK
+  Running ‘formulatest.R’
+  Comparing ‘formulatest.Rout’ to ‘formulatest.Rout.save’ ... OK
+  Running ‘glmcomp.R’
+  Comparing ‘glmcomp.Rout’ to ‘glmcomp.Rout.save’ ... OK
+  Running ‘gradient_vecpar_profile.R’
+  Comparing ‘gradient_vecpar_profile.Rout’ to ‘gradient_vecpar_profile.Rout.save’ ... OK
+  Running ‘grtest1.R’
+  Comparing ‘grtest1.Rout’ to ‘grtest1.Rout.save’ ...16c16
+< 1.09e-13 1.00e+00 
+---
+> 1.092e-13 1.000e+00 
+  Running ‘methods.R’
+  Comparing ‘methods.Rout’ to ‘methods.Rout.save’ ... OK
+  Running ‘mortanal.R’
+  Comparing ‘mortanal.Rout’ to ‘mortanal.Rout.save’ ... OK
+  Running ‘optimize.R’
+  Comparing ‘optimize.Rout’ to ‘optimize.Rout.save’ ... OK
+  Running ‘optimizers.R’
+  Comparing ‘optimizers.Rout’ to ‘optimizers.Rout.save’ ... OK
+  Running ‘optimx.R’
+  Comparing ‘optimx.Rout’ to ‘optimx.Rout.save’ ... OK
+  Running ‘order.R’
+  Comparing ‘order.Rout’ to ‘order.Rout.save’ ... OK
+  Running ‘parscale.R’
+  Comparing ‘parscale.Rout’ to ‘parscale.Rout.save’ ... OK
+  Running ‘predict.R’
+  Comparing ‘predict.Rout’ to ‘predict.Rout.save’ ... OK
+  Running ‘profbound.R’
+  Comparing ‘profbound.Rout’ to ‘profbound.Rout.save’ ... OK
+  Running ‘richards.R’
+  Comparing ‘richards.Rout’ to ‘richards.Rout.save’ ... OK
+  Running ‘startvals.R’
+  Comparing ‘startvals.Rout’ to ‘startvals.Rout.save’ ... OK
+  Running ‘startvals2.R’
+  Comparing ‘startvals2.Rout’ to ‘startvals2.Rout.save’ ... OK
+  Running ‘test-relist1.R’
+  Comparing ‘test-relist1.Rout’ to ‘test-relist1.Rout.save’ ... OK
+  Running ‘testbounds.R’
+  Comparing ‘testbounds.Rout’ to ‘testbounds.Rout.save’ ... OK
+  Running ‘testderiv.R’
+  Comparing ‘testderiv.Rout’ to ‘testderiv.Rout.save’ ... OK
+  Running ‘testenv.R’
+  Comparing ‘testenv.Rout’ to ‘testenv.Rout.save’ ... OK
+  Running ‘testparpred.R’
+  Comparing ‘testparpred.Rout’ to ‘testparpred.Rout.save’ ... OK
+  Running ‘tmptest.R’
+  Comparing ‘tmptest.Rout’ to ‘tmptest.Rout.save’ ... OK
+  Running ‘update.R’
+  Comparing ‘update.Rout’ to ‘update.Rout.save’ ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [28s/28s] OK
+* checking re-building of vignette outputs ... [32s/34s] OK

@@ -1,18 +1,18 @@
-* installing *source* package 'yaml' ...
-** package 'yaml' successfully unpacked and MD5 sums checked
+* installing *source* package ‘yaml’ ...
+** package ‘yaml’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c api.c -o api.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c dumper.c -o dumper.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c emitter.c -o emitter.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c implicit.c -o implicit.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c loader.c -o loader.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c parser.c -o parser.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c r-ext.c -o r-ext.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c reader.c -o reader.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c scanner.c -o scanner.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c writer.c -o writer.o
-gcc -std=gnu99 -shared -o yaml.so api.o dumper.o emitter.o implicit.o loader.o parser.o r-ext.o reader.o scanner.o writer.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/yaml.Rcheck/yaml/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c api.c -o api.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c dumper.c -o dumper.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c emitter.c -o emitter.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c implicit.c -o implicit.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c loader.c -o loader.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c parser.c -o parser.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c r-ext.c -o r-ext.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c reader.c -o reader.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c scanner.c -o scanner.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c writer.c -o writer.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o yaml.so api.o dumper.o emitter.o implicit.o loader.o parser.o r-ext.o reader.o scanner.o writer.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/yaml.Rcheck/yaml/libs
 ** R
 ** inst
 ** preparing package for lazy loading

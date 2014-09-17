@@ -1,9 +1,9 @@
-* installing *source* package 'rvgtest' ...
-** package 'rvgtest' successfully unpacked and MD5 sums checked
+* installing *source* package ‘rvgtest’ ...
+** package ‘rvgtest’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c bincount.c -o bincount.o
-gcc -std=gnu99 -shared -o rvgtest.so bincount.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/rvgtest.Rcheck/rvgtest/libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c bincount.c -o bincount.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o rvgtest.so bincount.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/rvgtest.Rcheck/rvgtest/libs
 ** R
 ** inst
 ** preparing package for lazy loading

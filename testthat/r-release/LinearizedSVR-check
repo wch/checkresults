@@ -1,28 +1,23 @@
-* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/LinearizedSVR.Rcheck'
-* using R version 3.0.2 (2013-09-25)
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/LinearizedSVR.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'LinearizedSVR/DESCRIPTION' ... OK
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘LinearizedSVR/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'LinearizedSVR' version '1.0'
+* this is package ‘LinearizedSVR’ version ‘1.3’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
-* checking for hidden files and directories ... NOTE
-Found the following hidden files and directories:
-  .gitignore
-These were most likely included in error. See section 'Package
-structure' in the 'Writing R Extensions' manual.
+* checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'LinearizedSVR' can be installed ... [14s/14s] OK
+* checking whether package ‘LinearizedSVR’ can be installed ... [14s/14s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking DESCRIPTION meta-information ... NOTE
-Deprecated license: BSD
+* checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -42,6 +37,7 @@ Deprecated license: BSD
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -51,5 +47,4 @@ Deprecated license: BSD
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'main.R'
-NOTE: There were 2 notes.
+  Running ‘main.R’

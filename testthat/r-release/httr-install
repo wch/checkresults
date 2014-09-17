@@ -1,5 +1,9 @@
-* installing *source* package 'httr' ...
-** package 'httr' successfully unpacked and MD5 sums checked
+* installing *source* package ‘httr’ ...
+** package ‘httr’ successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c writer.c -o writer.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o httr.so writer.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/httr.Rcheck/httr/libs
 ** R
 ** demo
 ** inst
@@ -7,5 +11,6 @@
 ** help
 *** installing help indices
 ** building package indices
+** installing vignettes
 ** testing if installed package can be loaded
 * DONE (httr)

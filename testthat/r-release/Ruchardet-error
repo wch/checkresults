@@ -1,5 +1,0 @@
-Ruchardet *  checking package dependencies ... ERROR
-Packages required and available but unsuitable versions: 'Rcpp' 'Rcpp'
-
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual.

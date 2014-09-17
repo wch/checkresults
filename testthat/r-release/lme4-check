@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpJWMIgN/check_cran60c78448f53/lme4.Rcheck'
-* using R version 3.0.2 (2013-09-25)
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/lme4.Rcheck’
+* using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'lme4/DESCRIPTION' ... OK
-* this is package 'lme4' version '1.0-6'
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘lme4/DESCRIPTION’ ... OK
+* this is package ‘lme4’ version ‘1.1-7’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,13 +13,14 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'lme4' can be installed ... [85s/85s] OK
+* checking whether package ‘lme4’ can be installed ... [90s/92s] OK
 * checking installed package size ... NOTE
-  installed size is 21.6Mb
+  installed size is 23.7Mb
   sub-directories of 1Mb or more:
-    doc    1.1Mb
-    libs  18.5Mb
+    doc    1.3Mb
+    libs  19.4Mb
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -40,13 +41,14 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking line endings in C/C++/Fortran sources/headers ... OK
@@ -54,27 +56,105 @@
 * checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
-* checking examples ... [41s/41s] OK
-Examples with CPU or elapsed time > 5s
-                 user system elapsed
-profile-methods 5.933  0.004   5.944
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... [39s/39s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
-Last 13 lines of output:
-  13: eval(expr, envir, enclos)
-  14: model.frame(drop.unused.levels = TRUE, formula = z ~ 1 + f)
-  15: model.frame.default(drop.unused.levels = TRUE, formula = z ~ 1 + f)
-  16: eval(predvars, data, env)
-  17: eval(expr, envir, enclos)
-  18: .handleSimpleError(function (e) 
-     {
-         e$calls <- head(sys.calls()[-seq_len(frame + 7)], -2)
-         signalCondition(e)
-     }, "object 'z' not found", quote(eval(expr, envir, enclos)))
-  
-  Error: Test failures
-  Execution halted
+* checking tests ... [421s/432s] OK
+  Running ‘AAAtest-all.R’ [51s/52s]
+  Running ‘HSAURtrees.R’
+  Running ‘REMLdev.R’
+  Running ‘ST.R’
+  Running ‘agridat_gotway.R’
+  Running ‘bootMer.R’ [8s/16s]
+  Running ‘boundary.R’ [14s/14s]
+  Running ‘condVar.R’
+  Running ‘confint.R’
+  Running ‘devCritFun.R’
+  Running ‘devfunQ.R’
+  Running ‘drop.R’
+  Running ‘drop1contrasts.R’
+  Running ‘dynload.R’
+  Running ‘elston.R’
+  Running ‘evalCall.R’
+  Running ‘extras.R’
+  Running ‘falsezero_dorie.R’
+  Running ‘fewlevels.R’
+  Running ‘getME.R’
+  Running ‘glmer-1.R’
+  Running ‘glmerControlPass.R’ [14s/14s]
+  Running ‘glmerWarn.R’
+  Running ‘glmmExt.R’ [15s/15s]
+  Running ‘glmmWeights.R’ [13s/13s]
+  Running ‘hatvalues.R’
+  Running ‘is.R’
+  Running ‘lmList.R’
+  Running ‘lme4_nlme.R’
+  Running ‘lmer-0.R’
+  Running ‘lmer-1.R’
+  Comparing ‘lmer-1.Rout’ to ‘lmer-1.Rout.save’ ... OK
+  Running ‘lmer-conv.R’
+  Running ‘lmer2_ex.R’
+  Running ‘methods.R’
+  Running ‘minval.R’
+  Running ‘modFormula.R’
+  Running ‘nbinom.R’
+  Running ‘nlmer-conv.R’
+  Running ‘nlmer.R’
+  Comparing ‘nlmer.Rout’ to ‘nlmer.Rout.save’ ... OK
+  Running ‘offset.R’
+  Running ‘optimizer.R’
+  Running ‘polytomous.R’
+  Running ‘prLogistic.R’
+  Running ‘predict.R’
+  Running ‘predict_basis.R’
+  Running ‘predsim.R’
+  Running ‘priorWeights.R’
+  Running ‘priorWeightsModComp.R’
+  Running ‘profile-tst.R’
+  Running ‘refit.R’
+  Running ‘resids.R’
+  Running ‘respiratory.R’
+  Running ‘simulate.R’
+  Running ‘testOptControl.R’
+  Running ‘test_times.R’
+  Running ‘testcolonizer.R’
+  Running ‘testcrab.R’ [10s/10s]
+  Running ‘throw.R’
+  Running ‘utils.R’
+  Running ‘varcorr.R’
+  Running ‘vcov-etc.R’
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [54s/54s] OK
+* checking re-building of vignette outputs ... NOTE
+Error in re-building vignettes:
+  ...
+                   \unhbox 
+l.38 ...{Subsection.5.1.Using the output module.2}
+                                                  
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.38 ...{Subsection.5.1.Using the output module.2}
+                                                  
+! Missing number, treated as zero.
+<to be read again> 
+                   \B_Subsubsection.5.2.4.Computing $p$ 
+l.38 ...{Subsection.5.1.Using the output module.2}
+                                                  
+! Missing { inserted.
+<to be read again> 
+                   \unhbox 
+l.38 ...{Subsection.5.1.Using the output module.2}
+                                                  
+! File ended while scanning text of \B_Subsubsection.5.2.4.Computing $p$.
+<inserted text> 
+                }
+l.145 \begin{document}
+                      
+Calls: buildVignettes -> texi2pdf -> texi2dvi
+Execution halted
+
+NOTE: There were 2 notes.

@@ -1,0 +1,18 @@
+* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/sdcTable.Rcheck’
+* using R version 3.1.1 (2014-07-10)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘sdcTable/DESCRIPTION’ ... OK
+* this is package ‘sdcTable’ version ‘0.17.1’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘sdcTable’ can be installed ... ERROR
+Installation failed.
+See ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/sdcTable.Rcheck/00install.out’ for details.
