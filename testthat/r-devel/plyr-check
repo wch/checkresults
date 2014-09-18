@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/plyr.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'plyr/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/plyr.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘plyr/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'plyr' version '1.8'
+* this is package ‘plyr’ version ‘1.8.1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,12 +14,10 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'plyr' can be installed ... OK
+* checking whether package ‘plyr’ can be installed ... [21s/22s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking DESCRIPTION meta-information ... NOTE
-Licenses which are templates and need '+ file LICENSE':
-  MIT
+* checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -37,41 +35,50 @@ Licenses which are templates and need '+ file LICENSE':
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
-l_ply: no visible binding for global variable 'd'
+l_ply: no visible global function definition for ‘%dopar%’
+llply: no visible global function definition for ‘%dopar%’
+progress_tk : <anonymous>: no visible global function definition for
+  ‘tkProgressBar’
+progress_tk : <anonymous>: no visible global function definition for
+  ‘setTkProgressBar’
+setup_parallel: no visible global function definition for
+  ‘getDoParWorkers’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking line endings in C/C++/Fortran sources/headers ... OK
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [47s/48s] OK
+* checking examples ... [46s/47s] OK
 Examples with CPU or elapsed time > 5s
-           user system elapsed
-baseball 10.240  0.048  10.290
-ddply     5.692  0.028   5.742
+          user system elapsed
+baseball 7.952  0.028   7.986
+dlply    5.828  0.000   5.828
+liply    5.673  0.000   5.671
 * checking for unstated dependencies in tests ... OK
 * checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
+Running the tests in ‘tests/test-all.R’ failed.
 Last 13 lines of output:
-  Replace values : ....................................
-  List to data frame : ..................................................
+  r?ply : .................................................................................
+  List to data frame : ........................................................
   Split data frame : ......
-  Split indices : .
+  Split indices : ...
   Split labels : .
   Summarise : ...
   
   
-  1. Failure(@test-parallel.r#7): l_ply respects .parallel -----------------------
-  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.176 seconds, which is more than 0.15
+  1. Failure(@test-parallel.r#8): l_ply respects .parallel -----------------------
+  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.193000000000001 seconds, which is more than 0.15
   
   Error: Test failures
   Execution halted

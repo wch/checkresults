@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/aidar.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'aidar/DESCRIPTION' ... OK
-* this is package 'aidar' version '1.0.0'
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/aidar.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘aidar/DESCRIPTION’ ... OK
+* this is package ‘aidar’ version ‘1.0.0’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'aidar' can be installed ... OK
+* checking whether package ‘aidar’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -29,23 +29,84 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking dependencies in R code ... OK
+* checking dependencies in R code ... NOTE
+Package in Depends field not imported from: ‘XML’
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+getAnnotation: no visible global function definition for ‘xmlRoot’
+getAnnotation: no visible global function definition for ‘xmlTreeParse’
+getAnnotation: no visible global function definition for ‘getNodeSet’
+getAnnotation: no visible binding for global variable ‘xmlGetAttr’
+getBins: no visible global function definition for ‘xmlGetAttr’
+getCloud1D: no visible global function definition for ‘xmlRoot’
+getCloud1D: no visible global function definition for ‘xmlTreeParse’
+getCloud1D: no visible global function definition for ‘getNodeSet’
+getCloud1D: no visible binding for global variable ‘xmlGetAttr’
+getCloud2D: no visible global function definition for ‘xmlRoot’
+getCloud2D: no visible global function definition for ‘xmlTreeParse’
+getCloud2D: no visible global function definition for ‘getNodeSet’
+getCloud2D: no visible binding for global variable ‘xmlGetAttr’
+getCloud3D: no visible global function definition for ‘xmlRoot’
+getCloud3D: no visible global function definition for ‘xmlTreeParse’
+getCloud3D: no visible global function definition for ‘getNodeSet’
+getCloud3D: no visible binding for global variable ‘xmlGetAttr’
+getEntries: no visible global function definition for ‘xmlGetAttr’
+getFileInfo: no visible global function definition for ‘xmlRoot’
+getFileInfo: no visible global function definition for ‘xmlTreeParse’
+getFileInfo: no visible binding for global variable ‘xmlGetAttr’
+getFileInfo: no visible global function definition for ‘getNodeSet’
+getHisto1D: no visible global function definition for ‘xmlRoot’
+getHisto1D: no visible global function definition for ‘xmlTreeParse’
+getHisto1D: no visible global function definition for ‘getNodeSet’
+getHisto1D: no visible binding for global variable ‘xmlGetAttr’
+getHisto1D: no visible global function definition for ‘xmlGetAttr’
+getHisto2D: no visible global function definition for ‘xmlRoot’
+getHisto2D: no visible global function definition for ‘xmlTreeParse’
+getHisto2D: no visible global function definition for ‘getNodeSet’
+getHisto2D: no visible binding for global variable ‘xmlGetAttr’
+getHisto3D: no visible global function definition for ‘xmlRoot’
+getHisto3D: no visible global function definition for ‘xmlTreeParse’
+getHisto3D: no visible global function definition for ‘getNodeSet’
+getHisto3D: no visible binding for global variable ‘xmlGetAttr’
+getProfile1D: no visible global function definition for ‘xmlRoot’
+getProfile1D: no visible global function definition for ‘xmlTreeParse’
+getProfile1D: no visible global function definition for ‘getNodeSet’
+getProfile1D: no visible binding for global variable ‘xmlGetAttr’
+getProfile2D: no visible global function definition for ‘xmlRoot’
+getProfile2D: no visible global function definition for ‘xmlTreeParse’
+getProfile2D: no visible global function definition for ‘getNodeSet’
+getProfile2D: no visible binding for global variable ‘xmlGetAttr’
+getRow: no visible global function definition for ‘getNodeSet’
+getRow: no visible binding for global variable ‘xmlGetAttr’
+getTuple: no visible global function definition for ‘xmlRoot’
+getTuple: no visible global function definition for ‘xmlTreeParse’
+getTuple: no visible global function definition for ‘getNodeSet’
+getTuple: no visible binding for global variable ‘xmlGetAttr’
+getXAxisInfo: no visible global function definition for ‘xmlGetAttr’
+getXStats: no visible global function definition for ‘xmlGetAttr’
+getYAxisInfo: no visible global function definition for ‘xmlGetAttr’
+getYStats: no visible global function definition for ‘xmlGetAttr’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... [23s/24s] OK
+* checking examples ... [23s/23s] OK
 Examples with CPU or elapsed time > 5s
            user system elapsed
-getTuple 14.525  0.136  15.138
+getTuple 14.377  0.152  14.532
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [19s/19s] OK
-  Running 'run-all.R' [19s/19s]
+* checking tests ... [24s/24s] OK
+  Running ‘run-all.R’ [23s/23s]
+* DONE
+NOTE: There were 2 notes.

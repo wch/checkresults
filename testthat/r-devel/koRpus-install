@@ -1,5 +1,5 @@
-* installing *source* package 'koRpus' ...
-** package 'koRpus' successfully unpacked and MD5 sums checked
+* installing *source* package ‘koRpus’ ...
+** package ‘koRpus’ successfully unpacked and MD5 sums checked
 ** R
 ** data
 ** inst
@@ -7,5 +7,7 @@
 ** help
 *** installing help indices
 ** building package indices
+** installing vignettes
+   ‘koRpus_vignette.Rnw’ using ‘UTF-8’ 
 ** testing if installed package can be loaded
 * DONE (koRpus)

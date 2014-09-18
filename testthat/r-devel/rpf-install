@@ -1,18 +1,87 @@
-* installing *source* package 'rpf' ...
-** package 'rpf' successfully unpacked and MD5 sums checked
+* installing *source* package ‘rpf’ ...
+** package ‘rpf’ successfully unpacked and MD5 sums checked
+Change default C/C++ compiler and default compile flags by editing /usr/local/lib/R-devel/lib/R/etc/Makeconf
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -Wall -fpic  -O3 -pipe  -g  -c diagnose.c -o diagnose.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -Wall -fpic  -O3 -pipe  -g  -c glue.c -o glue.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -Wall -fpic  -O3 -pipe  -g  -c libifa-rpf.c -o libifa-rpf.o
-libifa-rpf.c:70:15: warning: 'lognormal_pdf' defined but not used [-Wunused-function]
-libifa-rpf.c:80:15: warning: 'lognormal_gradient' defined but not used [-Wunused-function]
-libifa-rpf.c:97:15: warning: 'logitnormal_pdf' defined but not used [-Wunused-function]
-libifa-rpf.c:107:15: warning: 'logitnormal_gradient' defined but not used [-Wunused-function]
-libifa-rpf.c:383:1: warning: 'irt_rpf_1dim_drm_dTheta' defined but not used [-Wunused-function]
-libifa-rpf.c:967:1: warning: 'pda' defined but not used [-Wunused-function]
-libifa-rpf.c:1164:13: warning: 'noop' defined but not used [-Wunused-function]
-gcc -std=gnu99 -shared -o rpf.so diagnose.o glue.o libifa-rpf.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/rpf.Rcheck/rpf/libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"      -fpic  -ggdb -pipe -Wall -pedantic  -c ba81quad.cpp -o ba81quad.o
+In file included from rpf.h:45:0,
+                 from ba81quad.cpp:18:
+ba81quad.h:217:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:366:0: warning: ignoring #pragma omp atomic [-Wunknown-pragmas]
+ba81quad.h:426:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:445:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:448:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ba81quad.h:493:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:518:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:521:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"      -fpic  -ggdb -pipe -Wall -pedantic  -c dataframe.cpp -o dataframe.o
+In file included from rpf.h:45:0,
+                 from dataframe.cpp:1:
+ba81quad.h:217:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:366:0: warning: ignoring #pragma omp atomic [-Wunknown-pragmas]
+ba81quad.h:426:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:445:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:448:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ba81quad.h:493:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:518:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:521:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"      -fpic  -ggdb -pipe -Wall -pedantic  -c diagnose.cpp -o diagnose.o
+In file included from rpf.h:45:0,
+                 from diagnose.cpp:1:
+ba81quad.h:217:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:366:0: warning: ignoring #pragma omp atomic [-Wunknown-pragmas]
+ba81quad.h:426:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:445:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:448:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ba81quad.h:493:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:518:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:521:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"      -fpic  -ggdb -pipe -Wall -pedantic  -c dmvnorm.cpp -o dmvnorm.o
+In file included from rpf.h:45:0,
+                 from dmvnorm.cpp:1:
+ba81quad.h:217:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:366:0: warning: ignoring #pragma omp atomic [-Wunknown-pragmas]
+ba81quad.h:426:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:445:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:448:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ba81quad.h:493:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:518:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:521:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"      -fpic  -ggdb -pipe -Wall -pedantic  -c eap.cpp -o eap.o
+In file included from rpf.h:45:0,
+                 from eap.cpp:1:
+ba81quad.h:217:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:366:0: warning: ignoring #pragma omp atomic [-Wunknown-pragmas]
+ba81quad.h:426:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:445:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:448:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ba81quad.h:493:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:518:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:521:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"      -fpic  -ggdb -pipe -Wall -pedantic  -c glue.cpp -o glue.o
+In file included from rpf.h:45:0,
+                 from glue.cpp:1:
+ba81quad.h:217:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:366:0: warning: ignoring #pragma omp atomic [-Wunknown-pragmas]
+ba81quad.h:426:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:445:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:448:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ba81quad.h:493:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:518:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:521:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"      -fpic  -ggdb -pipe -Wall -pedantic  -c libifa-rpf.cpp -o libifa-rpf.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"      -fpic  -ggdb -pipe -Wall -pedantic  -c m2.cpp -o m2.o
+In file included from rpf.h:45:0,
+                 from m2.cpp:1:
+ba81quad.h:217:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:366:0: warning: ignoring #pragma omp atomic [-Wunknown-pragmas]
+ba81quad.h:426:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:445:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:448:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ba81quad.h:493:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:518:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
+ba81quad.h:521:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o rpf.so ba81quad.o dataframe.o diagnose.o dmvnorm.o eap.o glue.o libifa-rpf.o m2.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rpf.Rcheck/rpf/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

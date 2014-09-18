@@ -1,0 +1,27 @@
+* installing *source* package ‘RANN’ ...
+** package ‘RANN’ successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c ANN.cpp -o ANN.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c NN.cc -o NN.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c bd_fix_rad_search.cpp -o bd_fix_rad_search.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c bd_pr_search.cpp -o bd_pr_search.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c bd_search.cpp -o bd_search.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c bd_tree.cpp -o bd_tree.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c brute.cpp -o brute.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c kd_dump.cpp -o kd_dump.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c kd_fix_rad_search.cpp -o kd_fix_rad_search.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c kd_pr_search.cpp -o kd_pr_search.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c kd_search.cpp -o kd_search.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c kd_split.cpp -o kd_split.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c kd_tree.cpp -o kd_tree.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -IANN -DRANN -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c kd_util.cpp -o kd_util.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o RANN.so ANN.o NN.o bd_fix_rad_search.o bd_pr_search.o bd_search.o bd_tree.o brute.o kd_dump.o kd_fix_rad_search.o kd_pr_search.o kd_search.o kd_split.o kd_tree.o kd_util.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/RANN.Rcheck/RANN/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (RANN)

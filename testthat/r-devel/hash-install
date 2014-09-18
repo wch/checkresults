@@ -1,9 +1,9 @@
-* installing *source* package 'hash' ...
-** package 'hash' successfully unpacked and MD5 sums checked
+* installing *source* package ‘hash’ ...
+** package ‘hash’ successfully unpacked and MD5 sums checked
 ** R
 ** demo
 ** preparing package for lazy loading
-Creating a generic function for 'format' from package 'base' in package 'hash'
+Creating a generic function for ‘format’ from package ‘base’ in package ‘hash’
 ** help
 *** installing help indices
 ** building package indices

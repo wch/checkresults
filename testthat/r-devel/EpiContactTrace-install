@@ -1,9 +1,9 @@
-* installing *source* package 'EpiContactTrace' ...
-** package 'EpiContactTrace' successfully unpacked and MD5 sums checked
+* installing *source* package ‘EpiContactTrace’ ...
+** package ‘EpiContactTrace’ successfully unpacked and MD5 sums checked
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c trace.cpp -o trace.o
-g++ -shared -o EpiContactTrace.so trace.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/EpiContactTrace.Rcheck/EpiContactTrace/libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c trace.cpp -o trace.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o EpiContactTrace.so trace.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/EpiContactTrace.Rcheck/EpiContactTrace/libs
 ** R
 ** data
 ** inst

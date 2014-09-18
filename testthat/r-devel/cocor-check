@@ -1,22 +1,22 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/cocor.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'cocor/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/cocor.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘cocor/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'cocor' version '1.0-0'
+* this is package ‘cocor’ version ‘1.0-0’
 * package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
-Package which this enhances but not available for checking: 'rkward'
+Package which this enhances but not available for checking: ‘rkward’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'cocor' can be installed ... OK
+* checking whether package ‘cocor’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -39,21 +39,19 @@ Package which this enhances but not available for checking: 'rkward'
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... WARNING
-checking a package with encoding  'UTF-8'  in an ASCII locale
-
- OK
+* checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'test.cocor.package.R'
-WARNING: There was 1 warning.
+  Running ‘test.cocor.package.R’
+* DONE
 NOTE: There was 1 note.

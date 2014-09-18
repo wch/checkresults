@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/lme4.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'lme4/DESCRIPTION' ... OK
-* this is package 'lme4' version '1.0-5'
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/lme4.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘lme4/DESCRIPTION’ ... OK
+* this is package ‘lme4’ version ‘1.1-7’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,13 +13,14 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'lme4' can be installed ... [84s/83s] OK
+* checking whether package ‘lme4’ can be installed ... [85s/85s] OK
 * checking installed package size ... NOTE
-  installed size is 21.6Mb
+  installed size is 26.4Mb
   sub-directories of 1Mb or more:
-    doc    1.1Mb
-    libs  18.5Mb
+    doc    1.3Mb
+    libs  22.1Mb
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -37,16 +38,20 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+GQdk: no visible binding for global variable ‘GQN’
+vcov.merMod : calc.vcov.hess: no visible global function definition for
+  ‘forceSymmetric’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking line endings in C/C++/Fortran sources/headers ... OK
@@ -54,27 +59,112 @@
 * checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
-* checking examples ... [41s/41s] OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... [103s/104s] OK
 Examples with CPU or elapsed time > 5s
-                 user system elapsed
-profile-methods 6.045  0.008   6.066
+                  user system elapsed
+grouseticks     25.077  0.000  25.089
+VerbAgg         21.918  0.012  22.075
+profile-methods  5.661  0.028   5.865
+glmer            5.228  0.000   5.248
 * checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
-Last 13 lines of output:
-  13: eval(expr, envir, enclos)
-  14: model.frame(drop.unused.levels = TRUE, formula = z ~ 1 + f)
-  15: model.frame.default(drop.unused.levels = TRUE, formula = z ~ 1 + f)
-  16: eval(predvars, data, env)
-  17: eval(expr, envir, enclos)
-  18: .handleSimpleError(function (e) 
-     {
-         e$calls <- head(sys.calls()[-seq_len(frame + 7)], -2)
-         signalCondition(e)
-     }, "object 'z' not found", quote(eval(expr, envir, enclos)))
-  
-  Error: Test failures
-  Execution halted
+* checking tests ... [14m/14m] OK
+  Running ‘AAAtest-all.R’ [129s/129s]
+  Running ‘HSAURtrees.R’ [10s/10s]
+  Running ‘REMLdev.R’
+  Running ‘ST.R’
+  Running ‘agridat_gotway.R’ [20s/20s]
+  Running ‘bootMer.R’ [15s/25s]
+  Running ‘boundary.R’ [21s/21s]
+  Running ‘condVar.R’
+  Running ‘confint.R’ [14s/14s]
+  Running ‘devCritFun.R’
+  Running ‘devfunQ.R’
+  Running ‘drop.R’ [12s/13s]
+  Running ‘drop1contrasts.R’
+  Running ‘dynload.R’
+  Running ‘elston.R’ [11s/11s]
+  Running ‘evalCall.R’
+  Running ‘extras.R’
+  Running ‘falsezero_dorie.R’
+  Running ‘fewlevels.R’ [11s/11s]
+  Running ‘getME.R’
+  Running ‘glmer-1.R’ [14s/14s]
+  Running ‘glmerControlPass.R’ [58s/58s]
+  Running ‘glmerWarn.R’
+  Running ‘glmmExt.R’ [47s/47s]
+  Running ‘glmmWeights.R’ [35s/35s]
+  Running ‘hatvalues.R’
+  Running ‘is.R’
+  Running ‘lmList.R’
+  Running ‘lme4_nlme.R’
+  Running ‘lmer-0.R’
+  Running ‘lmer-1.R’
+  Comparing ‘lmer-1.Rout’ to ‘lmer-1.Rout.save’ ... OK
+  Running ‘lmer-conv.R’
+  Running ‘lmer2_ex.R’
+  Running ‘methods.R’
+  Running ‘minval.R’
+  Running ‘modFormula.R’
+  Running ‘nbinom.R’
+  Running ‘nlmer-conv.R’
+  Running ‘nlmer.R’
+  Comparing ‘nlmer.Rout’ to ‘nlmer.Rout.save’ ... OK
+  Running ‘offset.R’ [10s/10s]
+  Running ‘optimizer.R’
+  Running ‘polytomous.R’
+  Running ‘prLogistic.R’
+  Running ‘predict.R’
+  Running ‘predict_basis.R’
+  Running ‘predsim.R’
+  Running ‘priorWeights.R’ [17s/17s]
+  Running ‘priorWeightsModComp.R’
+  Running ‘profile-tst.R’ [14s/14s]
+  Running ‘refit.R’
+  Running ‘resids.R’
+  Running ‘respiratory.R’ [49s/49s]
+  Running ‘simulate.R’ [16s/16s]
+  Running ‘testOptControl.R’
+  Running ‘test_times.R’
+  Running ‘testcolonizer.R’
+  Running ‘testcrab.R’ [43s/43s]
+  Running ‘throw.R’ [41s/41s]
+  Running ‘utils.R’
+  Running ‘varcorr.R’
+  Running ‘vcov-etc.R’
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [124s/124s] OK
+* checking re-building of vignette outputs ... NOTE
+Error in re-building vignettes:
+  ...
+                   \unhbox 
+l.38 ...{Subsection.5.1.Using the output module.2}
+                                                  
+! Missing \endcsname inserted.
+<to be read again> 
+                   \unhbox 
+l.38 ...{Subsection.5.1.Using the output module.2}
+                                                  
+! Missing number, treated as zero.
+<to be read again> 
+                   \B_Subsubsection.5.2.4.Computing $p$ 
+l.38 ...{Subsection.5.1.Using the output module.2}
+                                                  
+! Missing { inserted.
+<to be read again> 
+                   \unhbox 
+l.38 ...{Subsection.5.1.Using the output module.2}
+                                                  
+! File ended while scanning text of \B_Subsubsection.5.2.4.Computing $p$.
+<inserted text> 
+                }
+l.145 \begin{document}
+                      
+Calls: buildVignettes -> texi2pdf -> texi2dvi
+Execution halted
+
+* DONE
+NOTE: There were 3 notes.

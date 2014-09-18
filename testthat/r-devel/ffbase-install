@@ -1,15 +1,21 @@
-* installing *source* package 'ffbase' ...
-** package 'ffbase' successfully unpacked and MD5 sums checked
+* installing *source* package ‘ffbase’ ...
+** package ‘ffbase’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c binned_sum.c -o binned_sum.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c binned_sumsq.c -o binned_sumsq.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c binned_tabulate.c -o binned_tabulate.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c bySum.c -o bySum.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c bySumsq.c -o bySumsq.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c grouprunningcumsum.c -o grouprunningcumsum.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c grouprunningcumsumindex.c -o grouprunningcumsumindex.o
-gcc -std=gnu99 -shared -o ffbase.so binned_sum.o binned_sumsq.o binned_tabulate.o bySum.o bySumsq.o grouprunningcumsum.o grouprunningcumsumindex.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/ffbase.Rcheck/ffbase/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c binned_sum.c -o binned_sum.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c binned_sumsq.c -o binned_sumsq.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c binned_tabulate.c -o binned_tabulate.o
+binned_tabulate.c: In function ‘binned_tabulate’:
+binned_tabulate.c:10:10: warning: unused variable ‘nl’ [-Wunused-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bySum.c -o bySum.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bySumsq.c -o bySumsq.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c grouprunningcumsum.c -o grouprunningcumsum.o
+grouprunningcumsum.c: In function ‘grouprunningcumsum’:
+grouprunningcumsum.c:14:19: warning: unused variable ‘xinit’ [-Wunused-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c grouprunningcumsumindex.c -o grouprunningcumsumindex.o
+grouprunningcumsumindex.c: In function ‘grouprunningcumsumindex’:
+grouprunningcumsumindex.c:15:19: warning: unused variable ‘xinit’ [-Wunused-variable]
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o ffbase.so binned_sum.o binned_sumsq.o binned_tabulate.o bySum.o bySumsq.o grouprunningcumsum.o grouprunningcumsumindex.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/ffbase.Rcheck/ffbase/libs
 ** R
 ** inst
 ** preparing package for lazy loading

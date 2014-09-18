@@ -1,26 +1,23 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/tourr.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'tourr/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/tourr.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘tourr/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'tourr' version '0.5.2'
+* this is package ‘tourr’ version ‘0.5.3’
 * checking package namespace information ... OK
-* checking package dependencies ... NOTE
-Package suggested but not available for checking: 'rggobi'
+* checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'tourr' can be installed ... OK
+* checking whether package ‘tourr’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking DESCRIPTION meta-information ... NOTE
-Licenses which are templates and need '+ file LICENSE':
-  MIT
+* checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
@@ -38,37 +35,38 @@ Licenses which are templates and need '+ file LICENSE':
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
-display_ggobi : init: no visible global function definition for 'ggobi'
-display_ggobi : init: no visible global function definition for
-  'displays'
-display_ggobi : init: no visible global function definition for
-  'pmode<-'
-display_ggobi : render_data: no visible global function definition for
-  'ggobi_display_set_tour_projection'
-display_pcp : render_data: no visible binding for global variable 'y'
-display_trails : render_data: no visible binding for global variable
-  'past_x'
+display_dist : render_data: no visible global function definition for
+  ‘ash1’
+display_dist : render_data: no visible global function definition for
+  ‘bin1’
+display_faces : render_data: no visible global function definition for
+  ‘faces2’
 display_trails : render_data: no visible binding for '<<-' assignment
-  to 'past_x'
-plot.path_curve: no visible binding for global variable 'value'
-plot.path_curve: no visible binding for global variable 'obs'
-range_dist: no visible global function definition for 'xy_limits'
+  to ‘past_x’
+plot.path_curve: no visible global function definition for ‘qplot’
+plot.path_curve: no visible global function definition for ‘facet_grid’
+plot.path_index: no visible global function definition for ‘qplot’
+plot.path_index: no visible global function definition for ‘labs’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [30s/34s] OK
+* checking examples ... [34s/38s] OK
 Examples with CPU or elapsed time > 5s
-           user system elapsed
-path_dist 5.241  0.028    5.37
+             user system elapsed
+path_dist   6.045  0.044   6.090
+path_curves 5.836  0.056   5.895
+paths_index 4.968  0.044   5.044
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'test-all.R'
-NOTE: There were 3 notes.
+  Running ‘test-all.R’
+* DONE
+NOTE: There was 1 note.

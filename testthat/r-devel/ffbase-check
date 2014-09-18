@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/ffbase.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'ffbase/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/ffbase.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘ffbase/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'ffbase' version '0.11.1'
+* this is package ‘ffbase’ version ‘0.11.3’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'ffbase' can be installed ... OK
+* checking whether package ‘ffbase’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -34,9 +34,27 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+addfforder: no visible global function definition for ‘is.sorted<-’
+bigglm.ffdf: no visible global function definition for ‘bigglm’
+checkRange: no visible global function definition for ‘ri’
+compact.ffdf: no visible global function definition for ‘physical’
+droplevels.ffdf: no visible global function definition for ‘physical’
+ffappend: no visible global function definition for ‘as.which’
+ffdfappend: no visible global function definition for ‘physical’
+ffdfdply: no visible global function definition for ‘ri’
+ffrep.int: no visible global function definition for ‘ri’
+ffsorted: no visible global function definition for ‘is.sorted<-’
+laf_to_ffdf: no visible global function definition for ‘begin’
+laf_to_ffdf: no visible global function definition for ‘next_block’
+load.ffdf: no visible global function definition for ‘physical’
+load.ffdf: no visible global function definition for ‘physical<-’
+move.ffdf: no visible global function definition for ‘physical’
+move.ffdf: no visible global function definition for ‘physical<-’
+save.ffdf: no visible global function definition for ‘physical’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -47,7 +65,9 @@
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [12s/12s] OK
+* checking examples ... [16s/16s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'test_all.R'
+  Running ‘test_all.R’
+* DONE
+NOTE: There was 1 note.

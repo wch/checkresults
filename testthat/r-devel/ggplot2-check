@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/ggplot2.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'ggplot2/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/ggplot2.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘ggplot2/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'ggplot2' version '0.9.3.1'
+* this is package ‘ggplot2’ version ‘1.0.0’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,9 +14,10 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'ggplot2' can be installed ... [10s/10s] OK
+* checking whether package ‘ggplot2’ can be installed ... [14s/14s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -30,73 +31,46 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking dependencies in R code ... NOTE
-Package in Depends field not imported from: 'methods'
-  These packages needs to imported from for the case when
-  this namespace is loaded but not attached.
-':::' call which should be '::': 'plyr:::split_indices'
-  See the note in ?`:::` about the use of this operator.
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual.
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
-borders: no visible binding for global variable 'long'
-borders: no visible binding for global variable 'lat'
-borders: no visible binding for global variable 'group'
-collide: no visible binding for global variable 'x'
-collide: no visible binding for global variable 'y'
-collide: no visible binding for global variable 'ymax'
-compute_grob_dimensions: no visible binding for global variable 'type'
-compute_intercept: no visible binding for global variable 'group'
-ggfluctuation: no visible binding for global variable 'x'
-ggfluctuation: no visible binding for global variable 'y'
-ggfluctuation: no visible binding for global variable 'result'
-ggfluctuation: no visible binding for global variable 'freq'
-ggplot_gtable : find_panel: no visible binding for global variable
-  'name'
-ggplot_gtable : find_panel: no visible binding for global variable 'r'
-ggplot_gtable : find_panel: no visible binding for global variable 'b'
-ggplot_gtable : find_panel: no visible binding for global variable 'l'
-ggplot_gtable: no visible binding for global variable 'name'
-guide_gengrob.legend: no visible binding for global variable 'R'
-guide_gengrob.legend: no visible binding for global variable 'key.row'
-guide_gengrob.legend: no visible binding for global variable 'key.col'
-guide_gengrob.legend: no visible binding for global variable
-  'label.row'
-guide_gengrob.legend: no visible binding for global variable
-  'label.col'
-label_bquote: no visible binding for global variable 'x'
-layout_grid: no visible binding for global variable 'PANEL'
-locate_grid: no visible binding for global variable 'PANEL'
-plotmatrix: no visible binding for global variable 'x'
-plotmatrix: no visible binding for global variable 'y'
-plotmatrix: no visible binding for global variable '..scaled..'
-summarise_by_x: no visible binding for global variable 'group'
-summarise_by_x: no visible binding for global variable 'x'
+fortify.SpatialPolygonsDataFrame: no visible global function definition
+  for ‘unionSpatialPolygons’
+hexBin: no visible global function definition for ‘hexbin’
+hexBin: no visible global function definition for ‘hcell2xy’
+hexGrob: no visible global function definition for ‘hexcoords’
+mproject: no visible global function definition for ‘mapproject’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [161s/161s] OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... [169s/170s] OK
 Examples with CPU or elapsed time > 5s
-                         user system elapsed
-geom_dotplot            6.068  0.020   6.084
-geom_line               5.956  0.024   6.047
-guide_colourbar         5.948  0.012   5.991
-scale_date              5.700  0.016   5.716
-scale_brewer            5.109  0.008   5.136
-coord_map               5.032  0.044   5.106
-aes_linetype_size_shape 4.952  0.068   5.025
+                  user system elapsed
+scale_brewer    10.241  0.028  10.306
+guide_colourbar  6.620  0.008   6.656
+geom_dotplot     6.397  0.000   6.415
+coord_map        5.832  0.052   5.997
+geom_line        5.800  0.016   5.850
+scale_date       5.404  0.016   5.436
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [19s/19s] OK
-  Running 'test-all.R' [19s/19s]
-NOTE: There were 2 notes.
+* checking tests ... [20s/20s] OK
+  Running ‘test-all.R’ [19s/19s]
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK
+* DONE
+NOTE: There was 1 note.

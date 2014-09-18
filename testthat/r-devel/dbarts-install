@@ -1,0 +1,119 @@
+* installing *source* package ‘dbarts’ ...
+** package ‘dbarts’ successfully unpacked and MD5 sums checked
+checking for gcc... ccache gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether ccache gcc accepts -g... yes
+checking for ccache gcc option to accept ISO C89... none needed
+checking for ccache gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... ccache gcc -E
+checking whether we are using the GNU C++ compiler... yes
+checking whether ccache g++ accepts -g... yes
+checking how to run the C++ preprocessor... ccache g++ -E
+checking for C/C++ restrict keyword... __restrict
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking if compiler needs -Werror to reject unknown flags... no
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... no
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking cstdint usability... no
+checking cstdint presence... no
+checking for cstdint... no
+checking for stdint.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for int64_t... yes
+checking for uint64_t... yes
+checking for gettimeofday... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for snprintf... yes
+checking for std::snprintf... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating src/config.hpp
+config.status: creating src/dbarts/config.hpp
+config.status: creating src/external/config.h
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../inst/include -Iinclude -pthread  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c R_C_interface.cpp -o R_C_interface.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../inst/include -Iinclude -pthread  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c R_interface.cpp -o R_interface.o
+make[1]: Entering directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/00_pkg_src/dbarts/src/dbarts'
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c bartFit.cpp -o bartFit.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c birthDeathRule.cpp -o birthDeathRule.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c changeRule.cpp -o changeRule.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c functions.cpp -o functions.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c likelihood.cpp -o likelihood.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c node.cpp -o node.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c parameterPrior.cpp -o parameterPrior.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c state.cpp -o state.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c swapRule.cpp -o swapRule.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c tree.cpp -o tree.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c treePrior.cpp -o treePrior.o
+ar rv libdbarts.a bartFit.o birthDeathRule.o changeRule.o functions.o likelihood.o node.o parameterPrior.o state.o swapRule.o tree.o treePrior.o
+ar: creating libdbarts.a
+a - bartFit.o
+a - birthDeathRule.o
+a - changeRule.o
+a - functions.o
+a - likelihood.o
+a - node.o
+a - parameterPrior.o
+a - state.o
+a - swapRule.o
+a - tree.o
+a - treePrior.o
+make[1]: Leaving directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/00_pkg_src/dbarts/src/dbarts'
+make[1]: Entering directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/00_pkg_src/dbarts/src/external'
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../include -pthread -I/usr/local/include -fpic -ggdb -pipe -std=gnu99 -Wall -pedantic  -c io.c -o io.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../include -pthread -I/usr/local/include -fpic -ggdb -pipe -std=gnu99 -Wall -pedantic  -c linearAlgebra.c -o linearAlgebra.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../include -pthread -I/usr/local/include -fpic -ggdb -pipe -std=gnu99 -Wall -pedantic  -c moments.c -o moments.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../include -pthread -I/usr/local/include -fpic -ggdb -pipe -std=gnu99 -Wall -pedantic  -c stats.c -o stats.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../include -pthread -I/usr/local/include -fpic -ggdb -pipe -std=gnu99 -Wall -pedantic  -c thread.c -o thread.o
+ar rv libexternal.a io.o linearAlgebra.o moments.o stats.o thread.o
+ar: creating libexternal.a
+a - io.o
+a - linearAlgebra.o
+a - moments.o
+a - stats.o
+a - thread.o
+make[1]: Leaving directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/00_pkg_src/dbarts/src/external'
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o dbarts.so R_C_interface.o R_interface.o -llapack -lblas -lgfortran -lm -lquadmath dbarts/libdbarts.a external/libexternal.a -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/dbarts/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/dbarts/libs/dbarts.so':
+  /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/dbarts/libs/dbarts.so: undefined symbol: dlassq_
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/dbarts’

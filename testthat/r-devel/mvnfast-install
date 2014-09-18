@@ -1,0 +1,34 @@
+* installing *source* package ‘mvnfast’ ...
+** package ‘mvnfast’ successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include" -I"/home/ubuntu/R-lib/3.2/BH/include"  -fopenmp -fpic  -ggdb -pipe -Wall -pedantic  -c dmvnCpp.cpp -o dmvnCpp.o
+In file included from mvnfast.h:6:0,
+                 from dmvnCpp.cpp:20:
+sitmo/sitmo.hpp: In member function ‘void sitmo::prng_engine::discard(uint64_t)’:
+sitmo/sitmo.hpp:224:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include" -I"/home/ubuntu/R-lib/3.2/BH/include"  -fopenmp -fpic  -ggdb -pipe -Wall -pedantic  -c mahaCpp.cpp -o mahaCpp.o
+In file included from mvnfast.h:6:0,
+                 from mahaCpp.cpp:20:
+sitmo/sitmo.hpp: In member function ‘void sitmo::prng_engine::discard(uint64_t)’:
+sitmo/sitmo.hpp:224:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include" -I"/home/ubuntu/R-lib/3.2/BH/include"  -fopenmp -fpic  -ggdb -pipe -Wall -pedantic  -c msCpp.cpp -o msCpp.o
+In file included from mvnfast.h:6:0,
+                 from msCpp.cpp:21:
+sitmo/sitmo.hpp: In member function ‘void sitmo::prng_engine::discard(uint64_t)’:
+sitmo/sitmo.hpp:224:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include" -I"/home/ubuntu/R-lib/3.2/BH/include"  -fopenmp -fpic  -ggdb -pipe -Wall -pedantic  -c rmvnCpp.cpp -o rmvnCpp.o
+In file included from mvnfast.h:6:0,
+                 from rmvnCpp.cpp:20:
+sitmo/sitmo.hpp: In member function ‘void sitmo::prng_engine::discard(uint64_t)’:
+sitmo/sitmo.hpp:224:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o mvnfast.so dmvnCpp.o mahaCpp.o msCpp.o rmvnCpp.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/mvnfast.Rcheck/mvnfast/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (mvnfast)

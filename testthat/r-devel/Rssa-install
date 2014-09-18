@@ -1,15 +1,15 @@
-* installing *source* package 'Rssa' ...
-** package 'Rssa' successfully unpacked and MD5 sums checked
-checking for gcc... gcc -std=gnu99
+* installing *source* package ‘Rssa’ ...
+** package ‘Rssa’ successfully unpacked and MD5 sums checked
+checking for gcc... ccache gcc
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
 checking for suffix of executables... 
 checking whether we are cross compiling... no
 checking for suffix of object files... o
 checking whether we are using the GNU C compiler... yes
-checking whether gcc -std=gnu99 accepts -g... yes
-checking for gcc -std=gnu99 option to accept ISO C89... none needed
-checking how to run the C preprocessor... gcc -std=gnu99 -E
+checking whether ccache gcc accepts -g... yes
+checking for ccache gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... ccache gcc -E
 checking for grep that handles long lines and -e... /bin/grep
 checking for egrep... /bin/grep -E
 checking for ANSI C header files... yes
@@ -31,12 +31,12 @@ config.status: creating src/Makevars
 config.status: creating R/init.R
 config.status: creating src/config.h
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c extmat.c -o extmat.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c hankel.c -o hankel.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c hbhankel.c -o hbhankel.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -O3 -pipe  -g  -c toeplitz.c -o toeplitz.o
-gcc -std=gnu99 -shared -o Rssa.so extmat.o hankel.o hbhankel.o toeplitz.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/Rssa.Rcheck/Rssa/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -I. -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c extmat.c -o extmat.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -I. -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c hankel.c -o hankel.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -I. -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c hbhankel.c -o hbhankel.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -I. -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c toeplitz.c -o toeplitz.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o Rssa.so extmat.o hankel.o hbhankel.o toeplitz.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/Rssa.Rcheck/Rssa/libs
 ** R
 ** data
 ** inst

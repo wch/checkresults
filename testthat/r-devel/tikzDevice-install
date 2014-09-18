@@ -1,9 +1,9 @@
-* installing *source* package 'tikzDevice' ...
-** package 'tikzDevice' successfully unpacked and MD5 sums checked
+* installing *source* package ‘tikzDevice’ ...
+** package ‘tikzDevice’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c tikzDevice.c -o tikzDevice.o
-gcc -std=gnu99 -shared -o tikzDevice.so tikzDevice.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/tikzDevice.Rcheck/tikzDevice/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c tikzDevice.c -o tikzDevice.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o tikzDevice.so tikzDevice.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/tikzDevice.Rcheck/tikzDevice/libs
 ** R
 ** inst
 ** preparing package for lazy loading

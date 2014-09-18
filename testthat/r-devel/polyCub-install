@@ -1,5 +1,9 @@
-* installing *source* package 'polyCub' ...
-** package 'polyCub' successfully unpacked and MD5 sums checked
+* installing *source* package ‘polyCub’ ...
+** package ‘polyCub’ successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c polyCub.SV.c -o polyCub.SV.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o polyCub.so polyCub.SV.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/polyCub.Rcheck/polyCub/libs
 ** R
 ** inst
 ** preparing package for lazy loading

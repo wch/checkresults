@@ -1,0 +1,38 @@
+* installing *source* package ‘mcIRT’ ...
+** package ‘mcIRT’ successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c EnelmC.cpp -o EnelmC.o
+EnelmC.cpp: In function ‘Rcpp::List EnelmC(Rcpp::List, Rcpp::List, Rcpp::List, Rcpp::List)’:
+EnelmC.cpp:49:9: warning: unused variable ‘lpim1’ [-Wunused-variable]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c EnrmC.cpp -o EnrmC.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c RcppExports.cpp -o RcppExports.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c de1nelmC.cpp -o de1nelmC.o
+de1nelmC.cpp: In function ‘Rcpp::NumericVector de1nelmC(Rcpp::List, Rcpp::List, Rcpp::List, Rcpp::List, Rcpp::List)’:
+de1nelmC.cpp:59:16: warning: variable ‘tplf’ set but not used [-Wunused-but-set-variable]
+de1nelmC.cpp:34:9: warning: unused variable ‘gescat’ [-Wunused-variable]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c de1nrmC.cpp -o de1nrmC.o
+de1nrmC.cpp: In function ‘Rcpp::NumericVector de1nrmC(Rcpp::List, Rcpp::List, Rcpp::List, Rcpp::List)’:
+de1nrmC.cpp:33:9: warning: unused variable ‘gescat’ [-Wunused-variable]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c mue_nelmC.cpp -o mue_nelmC.o
+mue_nelmC.cpp: In function ‘Rcpp::List mue_nelmC(Rcpp::List, Rcpp::List, Rcpp::List, Rcpp::List, int, double)’:
+mue_nelmC.cpp:147:29: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+mue_nelmC.cpp:185:32: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+mue_nelmC.cpp:230:41: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+mue_nelmC.cpp:157:34: warning: ‘ENDsk’ may be used uninitialized in this function [-Wuninitialized]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c mue_nrmC.cpp -o mue_nrmC.o
+mue_nrmC.cpp: In function ‘Rcpp::List mue_nrmC(Rcpp::List, Rcpp::List, Rcpp::List, Rcpp::List, int, double)’:
+mue_nrmC.cpp:135:29: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+mue_nrmC.cpp:173:32: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+mue_nrmC.cpp:218:41: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+mue_nrmC.cpp:145:34: warning: ‘ENDsk’ may be used uninitialized in this function [-Wuninitialized]
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o mcIRT.so EnelmC.o EnrmC.o RcppExports.o de1nelmC.o de1nrmC.o mue_nelmC.o mue_nrmC.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/mcIRT.Rcheck/mcIRT/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (mcIRT)

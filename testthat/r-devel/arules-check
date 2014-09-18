@@ -1,22 +1,22 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/arules.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'arules/DESCRIPTION' ... OK
-* this is package 'arules' version '1.1-1'
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/arules.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘arules/DESCRIPTION’ ... OK
+* this is package ‘arules’ version ‘1.1-5’
 * checking package namespace information ... OK
-* checking package dependencies ... NOTE
-Package suggested but not available for checking: 'arulesViz'
+* checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'arules' can be installed ... [18s/18s] OK
+* checking whether package ‘arules’ can be installed ... [23s/23s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -37,13 +37,14 @@ Package suggested but not available for checking: 'arulesViz'
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking line endings in C/C++/Fortran sources/headers ... OK
@@ -51,33 +52,34 @@ Package suggested but not available for checking: 'arulesViz'
 * checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
-* checking examples ... [37s/37s] OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... [47s/47s] OK
 Examples with CPU or elapsed time > 5s
                      user system elapsed
-random.transactions 5.336  0.116   5.496
+random.transactions 7.113  0.148   7.272
+predict             5.088  0.228   5.353
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [61s/61s] OK
-  Running 'associations.R'
-  Comparing 'associations.Rout' to 'associations.Rout.save' ... OK
-  Running 'extract.R'
-  Comparing 'extract.Rout' to 'extract.Rout.save' ... OK
-  Running 'interfaces.R'
-  Comparing 'interfaces.Rout' to 'interfaces.Rout.save' ... OK
-  Running 'itemMatrix.R'
-  Comparing 'itemMatrix.Rout' to 'itemMatrix.Rout.save' ... OK
-  Running 'matrix.R'
-  Comparing 'matrix.Rout' to 'matrix.Rout.save' ... OK
-  Running 'measures.R' [15s/15s]
-  Comparing 'measures.Rout' to 'measures.Rout.save' ... OK
-  Running 'sets.R'
-  Comparing 'sets.Rout' to 'sets.Rout.save' ... OK
-  Running 'transactions.R'
-  Comparing 'transactions.Rout' to 'transactions.Rout.save' ... OK
+* checking tests ... [78s/79s] OK
+  Running ‘associations.R’
+  Comparing ‘associations.Rout’ to ‘associations.Rout.save’ ... OK
+  Running ‘extract.R’ [10s/10s]
+  Comparing ‘extract.Rout’ to ‘extract.Rout.save’ ... OK
+  Running ‘interfaces.R’
+  Comparing ‘interfaces.Rout’ to ‘interfaces.Rout.save’ ... OK
+  Running ‘itemMatrix.R’
+  Comparing ‘itemMatrix.Rout’ to ‘itemMatrix.Rout.save’ ... OK
+  Running ‘matrix.R’
+  Comparing ‘matrix.Rout’ to ‘matrix.Rout.save’ ... OK
+  Running ‘measures.R’ [20s/20s]
+  Comparing ‘measures.Rout’ to ‘measures.Rout.save’ ... OK
+  Running ‘sets.R’
+  Comparing ‘sets.Rout’ to ‘sets.Rout.save’ ... OK
+  Running ‘transactions.R’
+  Comparing ‘transactions.Rout’ to ‘transactions.Rout.save’ ... OK
 * checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [19s/19s] OK
-* checking re-building of vignette outputs ... [22s/23s] OK
-NOTE: There was 1 note.
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [21s/21s] OK
+* checking re-building of vignette outputs ... [24s/24s] OK
+* DONE

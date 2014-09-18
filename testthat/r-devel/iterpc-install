@@ -1,0 +1,36 @@
+* installing *source* package ‘iterpc’ ...
+** package ‘iterpc’ successfully unpacked and MD5 sums checked
+** libs
+make[1]: Entering directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
+rm -f libmbcomb.a Examples/combinations-elements Examples/combinations Examples/k-permutations-elements Examples/k-permutations Examples/multicombinations Examples/multiset-combinations-elements Examples/multiset-combinations Examples/multiset-subsets-elements Examples/multiset-subsets Examples/n-tuples Examples/partitions-elements Examples/partitions Examples/permutations-elements Examples/permutations Examples/subset-subsets Examples/subsets-elements Examples/subsets
+rm -f Src/comb-util.o Src/combination.o Src/k-permutation.o Src/multicombination.o Src/multiset-combination.o Src/multiset-subset.o Src/n-tuple.o Src/partition.o Src/permutation.o Src/subset-subset.o Src/subset.o
+rm -f 
+make[1]: Leaving directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c utils/k-permutation.c -o utils/k-permutation.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c RcppExports.cpp -o RcppExports.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c combination.cpp -o combination.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c permutation.cpp -o permutation.o
+make[1]: Entering directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
+ccache gcc -ggdb -pipe -std=gnu99 -Wall -pedantic  -fpic -I Include -c Src/comb-util.c -o Src/comb-util.o
+ccache gcc -ggdb -pipe -std=gnu99 -Wall -pedantic  -fpic -I Include -c Src/combination.c -o Src/combination.o
+ccache gcc -ggdb -pipe -std=gnu99 -Wall -pedantic  -fpic -I Include -c Src/k-permutation.c -o Src/k-permutation.o
+ccache gcc -ggdb -pipe -std=gnu99 -Wall -pedantic  -fpic -I Include -c Src/multicombination.c -o Src/multicombination.o
+ccache gcc -ggdb -pipe -std=gnu99 -Wall -pedantic  -fpic -I Include -c Src/multiset-combination.c -o Src/multiset-combination.o
+ccache gcc -ggdb -pipe -std=gnu99 -Wall -pedantic  -fpic -I Include -c Src/multiset-subset.c -o Src/multiset-subset.o
+ccache gcc -ggdb -pipe -std=gnu99 -Wall -pedantic  -fpic -I Include -c Src/n-tuple.c -o Src/n-tuple.o
+ccache gcc -ggdb -pipe -std=gnu99 -Wall -pedantic  -fpic -I Include -c Src/partition.c -o Src/partition.o
+ccache gcc -ggdb -pipe -std=gnu99 -Wall -pedantic  -fpic -I Include -c Src/permutation.c -o Src/permutation.o
+ccache gcc -ggdb -pipe -std=gnu99 -Wall -pedantic  -fpic -I Include -c Src/subset-subset.c -o Src/subset-subset.o
+ccache gcc -ggdb -pipe -std=gnu99 -Wall -pedantic  -fpic -I Include -c Src/subset.c -o Src/subset.o
+ar -rcs libmbcomb.a Src/comb-util.o Src/combination.o Src/k-permutation.o Src/multicombination.o Src/multiset-combination.o Src/multiset-subset.o Src/n-tuple.o Src/partition.o Src/permutation.o Src/subset-subset.o Src/subset.o
+make[1]: Leaving directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o iterpc.so utils/k-permutation.o RcppExports.o combination.o permutation.o -Lmbcomb -lmbcomb -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/iterpc.Rcheck/iterpc/libs
+** R
+** demo
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (iterpc)

@@ -1,14 +1,14 @@
-* installing *source* package 'MALDIquant' ...
-** package 'MALDIquant' successfully unpacked and MD5 sums checked
+* installing *source* package ‘MALDIquant’ ...
+** package ‘MALDIquant’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c colMedians.c -o colMedians.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c init.c -o init.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c localMaxima.c -o localMaxima.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c lowerConvexHull.c -o lowerConvexHull.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c morphologicalFilters.c -o morphologicalFilters.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c snip.c -o snip.o
-gcc -std=gnu99 -shared -o MALDIquant.so colMedians.o init.o localMaxima.o lowerConvexHull.o morphologicalFilters.o snip.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/MALDIquant.Rcheck/MALDIquant/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c colMedians.c -o colMedians.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c init.c -o init.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c localMaxima.c -o localMaxima.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c lowerConvexHull.c -o lowerConvexHull.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c morphologicalFilters.c -o morphologicalFilters.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c snip.c -o snip.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o MALDIquant.so colMedians.o init.o localMaxima.o lowerConvexHull.o morphologicalFilters.o snip.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/MALDIquant.Rcheck/MALDIquant/libs
 ** R
 ** data
 ** demo
@@ -17,5 +17,6 @@ installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/MALDIquant.Rcheck/MALDIq
 ** help
 *** installing help indices
 ** building package indices
+** installing vignettes
 ** testing if installed package can be loaded
 * DONE (MALDIquant)

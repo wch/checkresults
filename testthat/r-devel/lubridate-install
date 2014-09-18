@@ -1,9 +1,17 @@
-* installing *source* package 'lubridate' ...
-** package 'lubridate' successfully unpacked and MD5 sums checked
+* installing *source* package ‘lubridate’ ...
+** package ‘lubridate’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c tparse.c -o tparse.o
-gcc -std=gnu99 -shared -o lubridate.so tparse.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/lubridate.Rcheck/lubridate/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c tparse.c -o tparse.o
+tparse.c: In function ‘parse_dt’:
+tparse.c:109:13: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+tparse.c:198:17: warning: suggest explicit braces to avoid ambiguous ‘else’ [-Wparentheses]
+tparse.c:212:11: warning: value computed is not used [-Wunused-value]
+tparse.c:75:22: warning: unused variable ‘leap’ [-Wunused-variable]
+tparse.c: In function ‘parse_hms’:
+tparse.c:314:9: warning: value computed is not used [-Wunused-value]
+tparse.c:270:19: warning: ‘i’ may be used uninitialized in this function [-Wuninitialized]
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o lubridate.so tparse.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/lubridate.Rcheck/lubridate/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

@@ -1,10 +1,11 @@
-* installing *source* package 'knitcitations' ...
-** package 'knitcitations' successfully unpacked and MD5 sums checked
+* installing *source* package ‘knitcitations’ ...
+** package ‘knitcitations’ successfully unpacked and MD5 sums checked
 ** R
 ** inst
 ** preparing package for lazy loading
 ** help
 *** installing help indices
 ** building package indices
+** installing vignettes
 ** testing if installed package can be loaded
 * DONE (knitcitations)

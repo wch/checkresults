@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/StatRank.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'StatRank/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/StatRank.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘StatRank/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'StatRank' version '0.0.2'
+* this is package ‘StatRank’ version ‘0.0.4’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'StatRank' can be installed ... OK
+* checking whether package ‘StatRank’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -34,33 +34,123 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+Visualization.Empirical: no visible global function definition for
+  ‘ggplot’
+Visualization.Empirical: no visible global function definition for
+  ‘aes’
+Visualization.Empirical: no visible global function definition for
+  ‘geom_bar’
+Visualization.Empirical: no visible global function definition for
+  ‘scale_x_reverse’
+Visualization.Empirical: no visible global function definition for
+  ‘ggtitle’
+Visualization.Empirical: no visible global function definition for
+  ‘labs’
+Visualization.Empirical: no visible global function definition for
+  ‘scale_y_continuous’
+Visualization.Empirical: no visible binding for global variable
+  ‘grid.arrange’
+Visualization.MultiType: no visible global function definition for
+  ‘ggplot’
+Visualization.MultiType: no visible global function definition for
+  ‘aes’
+Visualization.MultiType: no visible global function definition for
+  ‘geom_line’
+Visualization.MultiType: no visible global function definition for
+  ‘labs’
+Visualization.MultiType: no visible global function definition for
+  ‘geom_vline’
+Visualization.MultiType: no visible global function definition for
+  ‘scale_color_manual’
+Visualization.MultiType: no visible global function definition for
+  ‘scale_linetype_manual’
+Visualization.MultiType: no visible global function definition for
+  ‘theme’
+Visualization.MultiType: no visible binding for global variable
+  ‘grid.arrange’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘ggplot’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘aes’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘geom_tile’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘geom_text’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘scale_fill_gradient’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘labs’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘scale_x_discrete’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘scale_y_reverse’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘theme_bw’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘theme’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘element_blank’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘element_text’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘coord_fixed’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘guides’
+Visualization.Pairwise.Probabilities : Generate.Pairwise.Matrix.Plot:
+  no visible global function definition for ‘guide_legend’
+Visualization.Pairwise.Probabilities: no visible global function
+  definition for ‘grid.arrange’
+Visualization.Pairwise.Probabilities: no visible global function
+  definition for ‘textGrob’
+Visualization.Pairwise.Probabilities: no visible global function
+  definition for ‘gpar’
+Visualization.RUMplots.Exponential : <anonymous>: no visible global
+  function definition for ‘qplot’
+Visualization.RUMplots.Exponential : <anonymous>: no visible global
+  function definition for ‘labs’
+Visualization.RUMplots.Exponential : <anonymous>: no visible global
+  function definition for ‘geom_vline’
+Visualization.RUMplots.Exponential: no visible binding for global
+  variable ‘grid.arrange’
+Visualization.RUMplots.Gumbel : <anonymous>: no visible global function
+  definition for ‘qplot’
+Visualization.RUMplots.Gumbel : <anonymous>: no visible global function
+  definition for ‘labs’
+Visualization.RUMplots.Gumbel : <anonymous>: no visible global function
+  definition for ‘geom_vline’
+Visualization.RUMplots.Gumbel: no visible binding for global variable
+  ‘grid.arrange’
+Visualization.RUMplots.Nonparametric : <anonymous>: no visible global
+  function definition for ‘qplot’
+Visualization.RUMplots.Nonparametric : <anonymous>: no visible global
+  function definition for ‘labs’
+Visualization.RUMplots.Nonparametric : <anonymous>: no visible global
+  function definition for ‘scale_y_continuous’
+Visualization.RUMplots.Nonparametric: no visible binding for global
+  variable ‘grid.arrange’
+Visualization.Surfaceplots : makewireframe: no visible global function
+  definition for ‘wireframe’
+Visualization.Surfaceplots: no visible global function definition for
+  ‘grid.arrange’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [10s/10s] OK
+* checking examples ... [25s/26s] OK
+Examples with CPU or elapsed time > 5s
+                             user system elapsed
+Estimation.RUM.MultiType.MLE 5.76   0.02   5.781
 * checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
-Last 13 lines of output:
-  Type 'demo()' for some demos, 'help()' for on-line help, or
-  'help.start()' for an HTML browser interface to help.
-  Type 'q()' to quit R.
-  
-  > library(testthat)
-  > library(StatRank)
-  Loading required package: truncdist
-  Loading required package: stats4
-  Loading required package: evd
-  > 
-  > test_package("StatRank")
-  Error: No tests found for StatRank
-  Execution halted
+* checking tests ... OK
+  Running ‘testthat.R’
+* DONE
+NOTE: There was 1 note.

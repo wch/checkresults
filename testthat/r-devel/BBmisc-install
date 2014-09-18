@@ -1,12 +1,12 @@
-* installing *source* package 'BBmisc' ...
-** package 'BBmisc' successfully unpacked and MD5 sums checked
+* installing *source* package ‘BBmisc’ ...
+** package ‘BBmisc’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c getMaxColRowIndex.c -o getMaxColRowIndex.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c getMaxIndex.c -o getMaxIndex.o
-gcc -std=gnu99 -shared -o BBmisc.so getMaxColRowIndex.o getMaxIndex.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/BBmisc.Rcheck/BBmisc/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c getMaxColRowIndex.c -o getMaxColRowIndex.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c getMaxIndex.c -o getMaxIndex.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c which_first.c -o which_first.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o BBmisc.so getMaxColRowIndex.o getMaxIndex.o which_first.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/BBmisc.Rcheck/BBmisc/libs
 ** R
-** inst
 ** byte-compile and prepare package for lazy loading
 ** help
 *** installing help indices

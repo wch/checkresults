@@ -1,21 +1,21 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/fanovaGraph.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'fanovaGraph/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/fanovaGraph.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘fanovaGraph/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'fanovaGraph' version '1.4.5'
+* this is package ‘fanovaGraph’ version ‘1.4.7’
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
-Package suggested but not available for checking: 'manipulate'
+Package suggested but not available for checking: ‘manipulate’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'fanovaGraph' can be installed ... OK
+* checking whether package ‘fanovaGraph’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -35,38 +35,35 @@ Package suggested but not available for checking: 'manipulate'
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+plotTk: no visible global function definition for ‘tclVar’
+plotTk : refresh: no visible global function definition for ‘tclvalue’
+plotTk: no visible global function definition for ‘tktoplevel’
+plotTk: no visible global function definition for ‘tkwm.title’
+plotTk: no visible global function definition for ‘tkframe’
+plotTk: no visible global function definition for ‘tkscale’
+plotTk: no visible global function definition for ‘tkpack’
+plotTk: no visible global function definition for ‘tklabel’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [29s/29s] OK
+* checking examples ... [36s/37s] OK
 Examples with CPU or elapsed time > 5s
-                         user system elapsed
-predictAdditive         8.929  0.000   8.931
-kmAdditive              8.844  0.032   8.876
-thresholdIdentification 5.932  0.004   5.937
+                          user system elapsed
+predictAdditive         11.209  0.004  11.214
+kmAdditive              11.112  0.040  11.260
+thresholdIdentification  8.177  0.000   8.184
 * checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/run-all.R' failed.
-Last 13 lines of output:
-  Loading required package: igraph
-  
-  Attaching package: 'igraph'
-  
-  The following object is masked from 'package:evd':
-  
-      clusters
-  
-  Loading required package: DiceKriging
-  > 
-  > test_package("fanovaGraph")
-  Error: No tests found for fanovaGraph
-  Execution halted
+* checking tests ... [33s/33s] OK
+  Running ‘run-all.R’ [32s/32s]
+* DONE
+NOTE: There were 2 notes.

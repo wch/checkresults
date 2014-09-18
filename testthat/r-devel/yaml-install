@@ -1,18 +1,44 @@
-* installing *source* package 'yaml' ...
-** package 'yaml' successfully unpacked and MD5 sums checked
+* installing *source* package ‘yaml’ ...
+** package ‘yaml’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c api.c -o api.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c dumper.c -o dumper.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c emitter.c -o emitter.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c implicit.c -o implicit.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c loader.c -o loader.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c parser.c -o parser.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c r-ext.c -o r-ext.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c reader.c -o reader.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c scanner.c -o scanner.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -O3 -pipe  -g  -c writer.c -o writer.o
-gcc -std=gnu99 -shared -o yaml.so api.o dumper.o emitter.o implicit.o loader.o parser.o r-ext.o reader.o scanner.o writer.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/yaml.Rcheck/yaml/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DNDEBUG -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c api.c -o api.o
+api.c: In function ‘yaml_document_delete’:
+api.c:1121:7: warning: variable ‘context’ set but not used [-Wunused-but-set-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DNDEBUG -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c dumper.c -o dumper.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DNDEBUG -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c emitter.c -o emitter.o
+emitter.c: In function ‘yaml_emitter_write_plain_scalar’:
+emitter.c:1931:18: warning: value computed is not used [-Wunused-value]
+emitter.c:1931:18: warning: value computed is not used [-Wunused-value]
+emitter.c: In function ‘yaml_emitter_write_single_quoted_scalar’:
+emitter.c:1992:18: warning: value computed is not used [-Wunused-value]
+emitter.c:1992:18: warning: value computed is not used [-Wunused-value]
+emitter.c: In function ‘yaml_emitter_write_literal_scalar’:
+emitter.c:2255:18: warning: value computed is not used [-Wunused-value]
+emitter.c:2255:18: warning: value computed is not used [-Wunused-value]
+emitter.c: In function ‘yaml_emitter_write_folded_scalar’:
+emitter.c:2304:18: warning: value computed is not used [-Wunused-value]
+emitter.c:2304:18: warning: value computed is not used [-Wunused-value]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DNDEBUG -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c implicit.c -o implicit.o
+implicit.re: In function ‘find_implicit_tag’:
+implicit.re:12:31: warning: variable ‘limit’ set but not used [-Wunused-but-set-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DNDEBUG -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c loader.c -o loader.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DNDEBUG -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c parser.c -o parser.o
+parser.c: In function ‘yaml_parser_parse_block_sequence_entry’:
+parser.c:762:21: warning: variable ‘dummy_mark’ set but not used [-Wunused-but-set-variable]
+parser.c: In function ‘yaml_parser_parse_block_mapping_key’:
+parser.c:872:21: warning: variable ‘dummy_mark’ set but not used [-Wunused-but-set-variable]
+parser.c: In function ‘yaml_parser_parse_flow_sequence_entry’:
+parser.c:955:17: warning: variable ‘dummy_mark’ set but not used [-Wunused-but-set-variable]
+parser.c: In function ‘yaml_parser_parse_flow_mapping_key’:
+parser.c:1107:17: warning: variable ‘dummy_mark’ set but not used [-Wunused-but-set-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DNDEBUG -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c r-ext.c -o r-ext.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DNDEBUG -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c reader.c -o reader.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DNDEBUG -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c scanner.c -o scanner.o
+scanner.c: In function ‘yaml_parser_decrease_flow_level’:
+scanner.c:1196:23: warning: variable ‘dummy_key’ set but not used [-Wunused-but-set-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DNDEBUG -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c writer.c -o writer.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o yaml.so api.o dumper.o emitter.o implicit.o loader.o parser.o r-ext.o reader.o scanner.o writer.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/yaml.Rcheck/yaml/libs
 ** R
 ** inst
 ** preparing package for lazy loading

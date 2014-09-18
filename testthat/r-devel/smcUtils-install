@@ -1,10 +1,10 @@
-* installing *source* package 'smcUtils' ...
-** package 'smcUtils' successfully unpacked and MD5 sums checked
+* installing *source* package ‘smcUtils’ ...
+** package ‘smcUtils’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c renormalize.c -o renormalize.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c resample.c -o resample.o
-gcc -std=gnu99 -shared -o smcUtils.so renormalize.o resample.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/smcUtils.Rcheck/smcUtils/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c renormalize.c -o renormalize.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c resample.c -o resample.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o smcUtils.so renormalize.o resample.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/smcUtils.Rcheck/smcUtils/libs
 ** R
 ** demo
 ** inst

@@ -1,39 +1,20 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/ProjectTemplate.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'ProjectTemplate/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/ProjectTemplate.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘ProjectTemplate/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'ProjectTemplate' version '0.4-2'
+* this is package ‘ProjectTemplate’ version ‘0.5-1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
-* checking for hidden files and directories ... NOTE
-Found the following hidden files and directories:
-  .gitignore
-  inst/defaults/full/cache/.gitignore
-  inst/defaults/full/config/.gitignore
-  inst/defaults/full/data/.gitignore
-  inst/defaults/full/diagnostics/.gitignore
-  inst/defaults/full/doc/.gitignore
-  inst/defaults/full/graphs/.gitignore
-  inst/defaults/full/logs/.gitignore
-  inst/defaults/full/munge/.gitignore
-  inst/defaults/full/reports/.gitignore
-  inst/defaults/full/src/.gitignore
-  inst/defaults/minimal/cache/.gitignore
-  inst/defaults/minimal/config/.gitignore
-  inst/defaults/minimal/data/.gitignore
-  inst/defaults/minimal/munge/.gitignore
-  inst/defaults/minimal/src/.gitignore
-These were most likely included in error. See section 'Package
-structure' in the 'Writing R Extensions' manual.
+* checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'ProjectTemplate' can be installed ... OK
+* checking whether package ‘ProjectTemplate’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -50,78 +31,58 @@ structure' in the 'Writing R Extensions' manual.
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
 * checking dependencies in R code ... NOTE
-'library' or 'require' call to 'testthat' which was already attached by Depends.
-  Please remove these calls from your code.
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual.
+Unexported object imported by a ':::' call: ‘log4r:::INFO’
+  See the note in ?`:::` about the use of this operator.
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
-cache.project: no visible binding for global variable 'project.info'
-show.project: no visible binding for global variable 'project.info'
-xlsx.reader: no visible global function definition for 'loadWorkbook'
-xlsx.reader: no visible global function definition for 'getSheets'
-xlsx.reader: no visible global function definition for 'read.xlsx'
-
-Found the following assignments to the global environment:
-File 'ProjectTemplate/R/arff.reader.R':
-  assign(variable.name, read.arff(filename), envir = .GlobalEnv)
-File 'ProjectTemplate/R/csv.reader.R':
-  assign(variable.name, read.csv(filename, header = TRUE, sep = ","), 
-    envir = .GlobalEnv)
-File 'ProjectTemplate/R/db.reader.R':
-  assign(ProjectTemplate:::clean.variable.name(table), data.parcel, 
-    envir = .GlobalEnv)
-File 'ProjectTemplate/R/dbf.reader.R':
-  assign(variable.name, read.dbf(filename), envir = .GlobalEnv)
-File 'ProjectTemplate/R/epiinfo.reader.R':
-  assign(variable.name, read.epiinfo(filename), envir = .GlobalEnv)
-File 'ProjectTemplate/R/load.project.R':
-  assign("config", config, envir = .GlobalEnv)
-  assign(data.set, data.table(get(data.set, envir = .GlobalEnv)), 
-    envir = .GlobalEnv)
-  assign("logger", logger, envir = .GlobalEnv)
-  assign("project.info", project.info, envir = .GlobalEnv)
-File 'ProjectTemplate/R/mp3.reader.R':
-  assign(variable.name, readMP3(filename), envir = .GlobalEnv)
-File 'ProjectTemplate/R/mtp.reader.R':
-  assign(variable.name, read.mtp(filename), envir = .GlobalEnv)
-File 'ProjectTemplate/R/octave.reader.R':
-  assign(variable.name, read.octave(filename), envir = .GlobalEnv)
-File 'ProjectTemplate/R/ppm.reader.R':
-  assign(variable.name, read.pnm(filename), envir = .GlobalEnv)
-File 'ProjectTemplate/R/spss.reader.R':
-  assign(variable.name, read.spss(filename, to.data.frame = TRUE), 
-    envir = .GlobalEnv)
-File 'ProjectTemplate/R/sql.reader.R':
-  assign(variable.name, NULL, envir = .GlobalEnv)
-  assign(variable.name, results, envir = .GlobalEnv)
-  assign(ProjectTemplate:::clean.variable.name(table), data.parcel, 
-    envir = .GlobalEnv)
-  assign(variable.name, data.parcel, envir = .GlobalEnv)
-  assign(variable.name, data.parcel, envir = .GlobalEnv)
-  assign(variable.name, NULL, envir = .GlobalEnv)
-File 'ProjectTemplate/R/stata.reader.R':
-  assign(variable.name, read.dta(filename), envir = .GlobalEnv)
-File 'ProjectTemplate/R/systat.reader.R':
-  assign(variable.name, read.systat(filename), envir = .GlobalEnv)
-File 'ProjectTemplate/R/tsv.reader.R':
-  assign(variable.name, read.csv(filename, header = TRUE, sep = "\t"), 
-    envir = .GlobalEnv)
-File 'ProjectTemplate/R/wsv.reader.R':
-  assign(variable.name, read.csv(filename, header = TRUE, sep = " "), 
-    envir = .GlobalEnv)
-File 'ProjectTemplate/R/xls.reader.R':
-  assign(variable.name, read.xls(filename, sheet = sheet.name), 
-    envir = .GlobalEnv)
-File 'ProjectTemplate/R/xlsx.reader.R':
-  assign(variable.name, read.xlsx(filename, sheetName = sheet.name, 
-    header = TRUE), envir = .GlobalEnv)
-File 'ProjectTemplate/R/xport.reader.R':
-  assign(variable.name, read.xport(filename), envir = .GlobalEnv)
+arff.reader: no visible global function definition for ‘read.arff’
+db.reader: no visible global function definition for ‘dbDriver’
+db.reader: no visible global function definition for ‘dbConnect’
+db.reader: no visible global function definition for ‘dbListTables’
+db.reader: no visible global function definition for ‘dbReadTable’
+db.reader: no visible global function definition for ‘dbDisconnect’
+dbf.reader: no visible global function definition for ‘read.dbf’
+epiinfo.reader: no visible global function definition for
+  ‘read.epiinfo’
+load.project: no visible global function definition for ‘data.table’
+load.project: no visible global function definition for ‘create.logger’
+load.project: no visible global function definition for ‘logfile<-’
+load.project: no visible global function definition for ‘level<-’
+mp3.reader: no visible global function definition for ‘readMP3’
+mtp.reader: no visible global function definition for ‘read.mtp’
+octave.reader: no visible global function definition for ‘read.octave’
+ppm.reader: no visible global function definition for ‘read.pnm’
+spss.reader: no visible global function definition for ‘read.spss’
+sql.reader: no visible global function definition for
+  ‘odbcDriverConnect’
+sql.reader: no visible global function definition for ‘sqlQuery’
+sql.reader: no visible global function definition for ‘odbcClose’
+sql.reader: no visible global function definition for ‘dbDriver’
+sql.reader: no visible global function definition for ‘dbConnect’
+sql.reader: no visible global function definition for ‘dbGetQuery’
+sql.reader: no visible global function definition for ‘JDBC’
+sql.reader: no visible global function definition for ‘dbListTables’
+sql.reader: no visible global function definition for ‘dbReadTable’
+sql.reader: no visible global function definition for ‘dbExistsTable’
+sql.reader: no visible global function definition for ‘qq’
+sql.reader: no visible global function definition for ‘dbGetException’
+sql.reader: no visible global function definition for ‘dbDisconnect’
+stata.reader: no visible global function definition for ‘read.dta’
+systat.reader: no visible global function definition for ‘read.systat’
+test.project: no visible binding for global variable ‘test_file’
+xls.reader: no visible global function definition for ‘sheetNames’
+xls.reader: no visible global function definition for ‘read.xls’
+xlsx.reader: no visible global function definition for ‘loadWorkbook’
+xlsx.reader: no visible global function definition for ‘getSheets’
+xlsx.reader: no visible global function definition for ‘read.xlsx’
+xport.reader: no visible global function definition for ‘read.xport’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -130,19 +91,11 @@ File 'ProjectTemplate/R/xport.reader.R':
 * checking for unstated dependencies in examples ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/1.R' failed.
-Last 13 lines of output:
-  > load.project()
-  Loading project configuration
-  Autoloading data
-  Munging data
-   Running preprocessing script: 01-A.R
-  > test.project()
-  Loading project configuration
-  Autoloading data
-  Munging data
-   Running preprocessing script: 01-A.R
-  Error in setwd(path) : cannot change working directory
-  Calls: test.project -> test_dir -> source_dir -> setwd
-  Execution halted
+* checking tests ... OK
+  Running ‘1.R’
+  Running ‘2.R’
+  Running ‘3.R’
+  Running ‘4.R’
+  Running ‘5.R’
+* DONE
+NOTE: There were 2 notes.

@@ -1,0 +1,4 @@
+mets *  checking dependencies in R code ... WARNING
+'library' or 'require' call not declared from: ‘compiler’
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.

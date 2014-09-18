@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/mlr.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'mlr/DESCRIPTION' ... OK
-* this is package 'mlr' version '1.1-18'
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/mlr.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘mlr/DESCRIPTION’ ... OK
+* this is package ‘mlr’ version ‘2.1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'mlr' can be installed ... [10s/10s] OK
+* checking whether package ‘mlr’ can be installed ... [23s/23s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -33,16 +33,335 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+getFilterValues: no visible global function definition for ‘mRMR.data’
+getFilterValues: no visible global function definition for ‘scores’
+getFilterValues: no visible global function definition for ‘solutions’
+makePreprocWrapperRemoveOutliers : trainfun : <anonymous>: no visible
+  global function definition for ‘covMcd’
+makeRLearner.classif.blackboost: no visible global function definition
+  for ‘Binomial’
+makeRLearner.classif.blackboost: no visible global function definition
+  for ‘AdaExp’
+makeRLearner.classif.glmboost: no visible global function definition
+  for ‘Binomial’
+makeRLearner.classif.glmboost: no visible global function definition
+  for ‘AdaExp’
+makeRLearner.classif.mda: no visible binding for global variable
+  ‘polyreg’
+makeRLearner.classif.mda: no visible binding for global variable ‘mars’
+makeRLearner.classif.mda: no visible binding for global variable
+  ‘bruto’
+makeRLearner.classif.mda: no visible binding for global variable
+  ‘gen.ridge’
+makeRLearner.regr.blackboost: no visible global function definition for
+  ‘Gaussian’
+makeRLearner.regr.blackboost: no visible global function definition for
+  ‘Huber’
+makeRLearner.regr.blackboost: no visible global function definition for
+  ‘Laplace’
+makeRLearner.regr.mob: no visible binding for global variable
+  ‘glinearModel’
+makeRLearner.regr.mob: no visible binding for global variable
+  ‘linearModel’
+makeRLearner.surv.glmboost: no visible global function definition for
+  ‘CoxPH’
+makeRLearner.surv.glmboost: no visible global function definition for
+  ‘Weibull’
+makeRLearner.surv.glmboost: no visible global function definition for
+  ‘Loglog’
+makeRLearner.surv.glmboost: no visible global function definition for
+  ‘Lognormal’
+plotFilterValues: no visible global function definition for
+  ‘aes_string’
+plotFilterValues: no visible global function definition for ‘ggplot’
+plotFilterValues: no visible global function definition for ‘geom_bar’
+plotFilterValues: no visible global function definition for
+  ‘scale_fill_manual’
+plotFilterValues: no visible global function definition for ‘ggtitle’
+plotFilterValues: no visible global function definition for ‘xlab’
+plotFilterValues: no visible global function definition for ‘ylab’
+plotFilterValues: no visible global function definition for ‘theme’
+plotFilterValues: no visible global function definition for
+  ‘element_text’
+plotLearnerPrediction: no visible global function definition for
+  ‘ggplot’
+plotLearnerPrediction: no visible global function definition for
+  ‘aes_string’
+plotLearnerPrediction: no visible global function definition for
+  ‘geom_tile’
+plotLearnerPrediction: no visible global function definition for
+  ‘scale_alpha’
+plotLearnerPrediction: no visible global function definition for
+  ‘geom_point’
+plotLearnerPrediction: no visible global function definition for
+  ‘guides’
+plotLearnerPrediction: no visible global function definition for
+  ‘geom_line’
+plotLearnerPrediction: no visible global function definition for
+  ‘geom_ribbon’
+plotLearnerPrediction: no visible global function definition for
+  ‘scale_fill_gradient2’
+plotLearnerPrediction: no visible global function definition for
+  ‘scale_colour_gradient2’
+plotLearnerPrediction: no visible global function definition for
+  ‘ggtitle’
+plotThreshVsPerf: no visible global function definition for ‘melt’
+plotThreshVsPerf: no visible global function definition for ‘ggplot’
+plotThreshVsPerf: no visible global function definition for
+  ‘aes_string’
+plotThreshVsPerf: no visible global function definition for ‘geom_line’
+plotThreshVsPerf: no visible global function definition for
+  ‘geom_vline’
+plotTuneMultiCritResult: no visible global function definition for
+  ‘aes_string’
+plotTuneMultiCritResult: no visible global function definition for
+  ‘ggplot’
+plotTuneMultiCritResult: no visible global function definition for
+  ‘geom_point’
+predictLearner.classif.ctree: no visible global function definition for
+  ‘treeresponse’
+predictLearner.classif.geoDA: no visible global function definition for
+  ‘classify’
+predictLearner.classif.kknn: no visible binding for global variable
+  ‘kknn’
+predictLearner.classif.knn: no visible binding for global variable
+  ‘knn’
+predictLearner.classif.linDA: no visible global function definition for
+  ‘classify’
+predictLearner.classif.lvq1: no visible global function definition for
+  ‘lvqtest’
+predictLearner.classif.plsDA: no visible global function definition for
+  ‘classify’
+predictLearner.classif.quaDA: no visible global function definition for
+  ‘classify’
+predictLearner.regr.kknn: no visible binding for global variable ‘kknn’
+predictLearner.surv.coxph: no visible global function definition for
+  ‘survfit’
+predictLearner.surv.penalized: no visible global function definition
+  for ‘survival’
+smote: no visible global function definition for ‘daisy’
+trainLearner.classif.IBk: no visible global function definition for
+  ‘Weka_control’
+trainLearner.classif.IBk: no visible global function definition for
+  ‘IBk’
+trainLearner.classif.J48: no visible global function definition for
+  ‘Weka_control’
+trainLearner.classif.J48: no visible global function definition for
+  ‘J48’
+trainLearner.classif.JRip: no visible global function definition for
+  ‘Weka_control’
+trainLearner.classif.JRip: no visible global function definition for
+  ‘JRip’
+trainLearner.classif.LiblineaRBinary: no visible global function
+  definition for ‘LiblineaR’
+trainLearner.classif.LiblineaRLogReg: no visible global function
+  definition for ‘LiblineaR’
+trainLearner.classif.LiblineaRMultiClass: no visible global function
+  definition for ‘LiblineaR’
+trainLearner.classif.OneR: no visible global function definition for
+  ‘Weka_control’
+trainLearner.classif.OneR: no visible global function definition for
+  ‘OneR’
+trainLearner.classif.PART: no visible global function definition for
+  ‘Weka_control’
+trainLearner.classif.PART: no visible global function definition for
+  ‘PART’
+trainLearner.classif.ada: no visible global function definition for
+  ‘ada’
+trainLearner.classif.blackboost: no visible binding for global variable
+  ‘boost_control’
+trainLearner.classif.blackboost: no visible binding for global variable
+  ‘ctree_control’
+trainLearner.classif.blackboost: no visible global function definition
+  for ‘blackboost’
+trainLearner.classif.boosting: no visible binding for global variable
+  ‘rpart.control’
+trainLearner.classif.boosting: no visible global function definition
+  for ‘boosting’
+trainLearner.classif.cforest: no visible binding for global variable
+  ‘cforest_unbiased’
+trainLearner.classif.cforest: no visible global function definition for
+  ‘cforest’
+trainLearner.classif.ctree: no visible binding for global variable
+  ‘ctree_control’
+trainLearner.classif.ctree: no visible global function definition for
+  ‘ctree’
+trainLearner.classif.gbm: no visible global function definition for
+  ‘gbm’
+trainLearner.classif.geoDA: no visible global function definition for
+  ‘geoDA’
+trainLearner.classif.glmboost: no visible binding for global variable
+  ‘boost_control’
+trainLearner.classif.glmboost: no visible global function definition
+  for ‘glmboost’
+trainLearner.classif.glmnet: no visible binding for global variable
+  ‘glmnet.control’
+trainLearner.classif.glmnet: no visible binding for global variable
+  ‘glmnet’
+trainLearner.classif.glmnet: no visible global function definition for
+  ‘glmnet.control’
+trainLearner.classif.ksvm: no visible global function definition for
+  ‘ksvm’
+trainLearner.classif.lda: no visible global function definition for
+  ‘lda’
+trainLearner.classif.linDA: no visible global function definition for
+  ‘linDA’
+trainLearner.classif.lssvm: no visible global function definition for
+  ‘lssvm’
+trainLearner.classif.lvq1: no visible binding for global variable
+  ‘lvqinit’
+trainLearner.classif.lvq1: no visible binding for global variable
+  ‘lvq1’
+trainLearner.classif.mda: no visible global function definition for
+  ‘mda’
+trainLearner.classif.multinom: no visible global function definition
+  for ‘multinom’
+trainLearner.classif.naiveBayes: no visible global function definition
+  for ‘naiveBayes’
+trainLearner.classif.nnet: no visible global function definition for
+  ‘nnet’
+trainLearner.classif.plr: no visible binding for global variable ‘plr’
+trainLearner.classif.plsDA: no visible global function definition for
+  ‘plsDA’
+trainLearner.classif.plsdaCaret: no visible global function definition
+  for ‘plsda’
+trainLearner.classif.qda: no visible global function definition for
+  ‘qda’
+trainLearner.classif.quaDA: no visible global function definition for
+  ‘quaDA’
+trainLearner.classif.randomForest: no visible global function
+  definition for ‘randomForest’
+trainLearner.classif.rda: no visible global function definition for
+  ‘rda’
+trainLearner.classif.rpart: no visible global function definition for
+  ‘rpart’
+trainLearner.classif.rrlda: no visible global function definition for
+  ‘rrlda’
+trainLearner.classif.svm: no visible global function definition for
+  ‘svm’
+trainLearner.cluster.EM: no visible global function definition for
+  ‘Weka_control’
+trainLearner.cluster.EM: no visible global function definition for
+  ‘make_Weka_clusterer’
+trainLearner.cluster.SimpleKMeans: no visible global function
+  definition for ‘Weka_control’
+trainLearner.cluster.SimpleKMeans: no visible global function
+  definition for ‘SimpleKMeans’
+trainLearner.cluster.XMeans: no visible global function definition for
+  ‘Weka_control’
+trainLearner.cluster.XMeans: no visible global function definition for
+  ‘XMeans’
+trainLearner.regr.IBk: no visible global function definition for
+  ‘Weka_control’
+trainLearner.regr.IBk: no visible global function definition for ‘IBk’
+trainLearner.regr.blackboost: no visible binding for global variable
+  ‘boost_control’
+trainLearner.regr.blackboost: no visible binding for global variable
+  ‘ctree_control’
+trainLearner.regr.blackboost: no visible global function definition for
+  ‘blackboost’
+trainLearner.regr.cforest: no visible binding for global variable
+  ‘cforest_unbiased’
+trainLearner.regr.cforest: no visible global function definition for
+  ‘cforest’
+trainLearner.regr.crs: no visible global function definition for ‘crs’
+trainLearner.regr.earth: no visible global function definition for
+  ‘earth’
+trainLearner.regr.gbm: no visible global function definition for ‘gbm’
+trainLearner.regr.glmnet: no visible binding for global variable
+  ‘glmnet.control’
+trainLearner.regr.glmnet: no visible binding for global variable
+  ‘glmnet’
+trainLearner.regr.glmnet: no visible global function definition for
+  ‘glmnet.control’
+trainLearner.regr.km: no visible global function definition for ‘km’
+trainLearner.regr.ksvm: no visible global function definition for
+  ‘ksvm’
+trainLearner.regr.mars: no visible global function definition for
+  ‘mars’
+trainLearner.regr.mob: no visible binding for global variable
+  ‘mob_control’
+trainLearner.regr.mob: no visible global function definition for ‘mob’
+trainLearner.regr.nnet: no visible global function definition for
+  ‘nnet’
+trainLearner.regr.pcr: no visible global function definition for ‘pcr’
+trainLearner.regr.penalized.lasso: no visible global function
+  definition for ‘penalized’
+trainLearner.regr.penalized.ridge: no visible global function
+  definition for ‘penalized’
+trainLearner.regr.randomForest: no visible global function definition
+  for ‘randomForest’
+trainLearner.regr.randomForest : <anonymous>: no visible global
+  function definition for ‘randomForest’
+trainLearner.regr.rpart: no visible global function definition for
+  ‘rpart’
+trainLearner.regr.rsm: no visible binding for global variable ‘rsm’
+trainLearner.regr.rvm: no visible global function definition for ‘rvm’
+trainLearner.regr.svm: no visible global function definition for ‘svm’
+trainLearner.surv.CoxBoost: no visible global function definition for
+  ‘optimCoxBoostPenalty’
+trainLearner.surv.CoxBoost: no visible global function definition for
+  ‘CoxBoost’
+trainLearner.surv.cforest: no visible binding for global variable
+  ‘cforest_unbiased’
+trainLearner.surv.cforest: no visible global function definition for
+  ‘cforest’
+trainLearner.surv.coxph: no visible global function definition for
+  ‘coxph’
+trainLearner.surv.glmboost: no visible binding for global variable
+  ‘boost_control’
+trainLearner.surv.glmboost: no visible global function definition for
+  ‘glmboost’
+trainLearner.surv.glmboost: no visible global function definition for
+  ‘CoxPH’
+trainLearner.surv.glmnet: no visible global function definition for
+  ‘cv.glmnet’
+trainLearner.surv.penalized: no visible global function definition for
+  ‘penalized’
+trainLearner.surv.randomForestSRC: no visible global function
+  definition for ‘rfsrc’
+tuneCMAES: no visible global function definition for ‘cma_es’
+tuneGenSA: no visible global function definition for ‘GenSA’
+tuneIrace: no visible global function definition for ‘irace’
+tuneIrace: no visible global function definition for
+  ‘removeCandidatesMetaData’
+tuneMultiCritNSGA2: no visible binding for global variable ‘nsga2’
+tuneThreshold: no visible global function definition for ‘cma_es’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking examples ... [28s/28s] OK
+Examples with CPU or elapsed time > 5s
+                     user system elapsed
+tuneParamsMultiCrit 8.432  0.008   8.556
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [274s/272s] OK
-  Running 'run-all.R' [274s/271s]
+* checking tests ... ERROR
+Running the tests in ‘tests/run-all.R’ failed.
+Last 13 lines of output:
+  Component "env": Names: 1 string mismatch
+  Component "env": Length mismatch: comparison on first 1 components
+  Component "env": Component 1: Modes: list, NULL
+  Component "env": Component 1: Lengths: 5, 0
+  Component "env": Component 1: names for target but not for current
+  Component "env": Component 1: Attributes: < Modes: list, NULL >
+  Component "env": Component 1: Attributes: < Lengths: 2, 0 >
+  Component "env": Component 1: Attributes: < names for target but not for current >
+  Component "env": Component 1: Attributes: < current is not list-like >
+  Component "env": Component 1: current is not list-like
+  
+  Error: Test failures
+  Execution halted

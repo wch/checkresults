@@ -1,25 +1,29 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/multilevelPSA.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'multilevelPSA/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/multilevelPSA.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘multilevelPSA/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'multilevelPSA' version '1.2'
+* this is package ‘multilevelPSA’ version ‘1.2’
 * checking package namespace information ... OK
-* checking package dependencies ... OK
+* checking package dependencies ... NOTE
+Depends: includes the non-default packages:
+  ‘ggplot2’ ‘plyr’ ‘psych’ ‘reshape’ ‘proto’ ‘grid’ ‘xtable’
+Adding so many packages to the search path is excessive and importing
+selectively is preferable.
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'multilevelPSA' can be installed ... OK
+* checking whether package ‘multilevelPSA’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... NOTE
 Package listed in more than one of Depends, Imports, Suggests, Enhances:
-  'xtable'
+  ‘xtable’
 A package should be listed in only one of these fields.
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -35,25 +39,271 @@ A package should be listed in only one of these fields.
 * checking loading without being on the library search path ... OK
 * checking dependencies in R code ... NOTE
 Packages in Depends field not imported from:
-  'ggplot2' 'plyr' 'psych' 'reshape'
-  These packages needs to imported from for the case when
-  this namespace is loaded but not attached.
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual.
+  ‘ggplot2’ ‘grid’ ‘plyr’ ‘psych’ ‘reshape’
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+Unexported object imported by a ':::' call: ‘ggplot2:::.zeroGrob’
+  See the note in ?`:::` about the use of this operator.
+There are ::: calls to the package's namespace in its code. A package
+  almost never needs to use ::: for its own objects:
+  ‘align.plots’
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+align.plots : ggplotGrob: no visible global function definition for
+  ‘ggplot_gtable’
+align.plots : ggplotGrob: no visible global function definition for
+  ‘ggplot_build’
+align.plots : gtable_gTree: no visible global function definition for
+  ‘gTree’
+align.plots : gtable_gList: no visible global function definition for
+  ‘llply’
+align.plots : gtable_gList : <anonymous>: no visible global function
+  definition for ‘editGrob’
+align.plots : gtable_gList : <anonymous>: no visible global function
+  definition for ‘vpPath’
+align.plots : gtable_viewport: no visible global function definition
+  for ‘viewport’
+align.plots : gtable_viewport : vp: no visible global function
+  definition for ‘viewport’
+align.plots : gtable_viewport: no visible global function definition
+  for ‘llply’
+align.plots : gtable_viewport: no visible global function definition
+  for ‘vpTree’
+align.plots : gtable_layout: no visible global function definition for
+  ‘grid.layout’
+align.plots : <anonymous>: no visible global function definition for
+  ‘getGrob’
+align.plots : <anonymous>: no visible global function definition for
+  ‘editGrob’
+align.plots: no visible binding for global variable ‘grobWidth’
+align.plots : <anonymous>: no visible global function definition for
+  ‘unit’
+align.plots: no visible binding for global variable ‘grobHeight’
+align.plots: no visible global function definition for ‘unit’
+align.plots: no visible binding for global variable ‘unit.c’
+align.plots: no visible global function definition for ‘pushViewport’
+align.plots: no visible global function definition for ‘viewport’
+align.plots: no visible global function definition for ‘grid.draw’
+align.plots: no visible global function definition for ‘upViewport’
+difftable.plot: no visible global function definition for ‘ggplot’
+difftable.plot: no visible global function definition for ‘aes’
+difftable.plot: no visible global function definition for ‘geom_point’
+difftable.plot: no visible global function definition for ‘geom_text’
+difftable.plot: no visible global function definition for ‘xlab’
+difftable.plot: no visible global function definition for ‘ylab’
+difftable.plot: no visible global function definition for ‘opts’
+difftable.plot: no visible global function definition for ‘theme_text’
+difftable.plot: no visible global function definition for
+  ‘scale_colour_manual’
+difftable.plot: no visible global function definition for
+  ‘scale_fill_manual’
+difftable.plot: no visible global function definition for
+  ‘scale_colour_hue’
+difftable.plot: no visible global function definition for
+  ‘scale_fill_hue’
+difftable.plot: no visible global function definition for
+  ‘scale_colour_brewer’
+difftable.plot: no visible global function definition for
+  ‘scale_fill_brewer’
+getStrata: no visible global function definition for ‘where’
+loess.plot: no visible global function definition for ‘ggplot’
+loess.plot: no visible global function definition for ‘aes’
+loess.plot: no visible global function definition for ‘geom_point’
+loess.plot: no visible global function definition for ‘geom_smooth’
+loess.plot: no visible global function definition for ‘ylab’
+loess.plot: no visible global function definition for ‘xlab’
+loess.plot: no visible global function definition for ‘theme’
+loess.plot: no visible global function definition for
+  ‘scale_colour_hue’
+loess.plot: no visible global function definition for ‘xlim’
+loess.plot: no visible global function definition for ‘ylim’
+loess.plot: no visible global function definition for ‘geom_density’
+loess.plot: no visible global function definition for ‘coord_flip’
+loess.plot: no visible global function definition for ‘geom_rect’
+loess.plot: no visible global function definition for ‘element_blank’
+loess.plot: no visible global function definition for ‘grid.layout’
+loess.plot: no visible global function definition for ‘grid.newpage’
+loess.plot: no visible global function definition for ‘pushViewport’
+loess.plot: no visible global function definition for ‘viewport’
+missing.plot: no visible global function definition for ‘unit’
+missing.plot: no visible global function definition for ‘ggplot’
+missing.plot: no visible global function definition for ‘aes’
+missing.plot: no visible global function definition for ‘geom_bar’
+missing.plot: no visible global function definition for ‘coord_flip’
+missing.plot: no visible global function definition for ‘xlab’
+missing.plot: no visible global function definition for ‘ylab’
+missing.plot: no visible global function definition for
+  ‘scale_fill_gradient’
+missing.plot: no visible global function definition for ‘geom_text’
+missing.plot: no visible global function definition for ‘ylim’
+missing.plot: no visible global function definition for ‘theme’
+missing.plot: no visible global function definition for ‘element_text’
+missing.plot: no visible global function definition for ‘element_blank’
+missing.plot: no visible global function definition for ‘melt’
+missing.plot: no visible global function definition for ‘geom_tile’
+missing.plot: no visible global function definition for ‘grid.layout’
+missing.plot: no visible global function definition for ‘grid.newpage’
+missing.plot: no visible global function definition for ‘pushViewport’
+missing.plot: no visible global function definition for ‘viewport’
+mlpsa: no visible global function definition for ‘describeBy’
+mlpsa: no visible global function definition for ‘cast’
+mlpsa.circ.plot: no visible global function definition for ‘ggplot’
+mlpsa.circ.plot: no visible global function definition for ‘aes_string’
+mlpsa.circ.plot: no visible global function definition for
+  ‘coord_fixed’
+mlpsa.circ.plot: no visible global function definition for
+  ‘scale_x_continuous’
+mlpsa.circ.plot: no visible global function definition for
+  ‘scale_y_continuous’
+mlpsa.circ.plot: no visible global function definition for ‘theme’
+mlpsa.circ.plot: no visible global function definition for ‘unit’
+mlpsa.circ.plot: no visible global function definition for
+  ‘geom_segment’
+mlpsa.circ.plot: no visible global function definition for ‘aes’
+mlpsa.circ.plot: no visible global function definition for
+  ‘geom_abline’
+mlpsa.circ.plot: no visible global function definition for ‘geom_vline’
+mlpsa.circ.plot: no visible global function definition for ‘geom_hline’
+mlpsa.circ.plot: no visible global function definition for ‘geom_point’
+mlpsa.circ.plot: no visible global function definition for ‘geom_text’
+mlpsa.circ.plot: no visible global function definition for
+  ‘scale_size_continuous’
+mlpsa.circ.plot: no visible global function definition for
+  ‘scale_colour_manual’
+mlpsa.circ.plot: no visible global function definition for
+  ‘scale_fill_manual’
+mlpsa.circ.plot: no visible global function definition for
+  ‘scale_colour_hue’
+mlpsa.circ.plot: no visible global function definition for
+  ‘scale_fill_hue’
+mlpsa.circ.plot: no visible global function definition for
+  ‘scale_colour_brewer’
+mlpsa.circ.plot: no visible global function definition for
+  ‘scale_fill_brewer’
+mlpsa.ctree : partyPlyr: no visible global function definition for
+  ‘ctree’
+mlpsa.ctree: no visible global function definition for ‘dlply’
+mlpsa.difference.plot: no visible global function definition for
+  ‘ggplot’
+mlpsa.difference.plot: no visible global function definition for ‘aes’
+mlpsa.difference.plot: no visible global function definition for
+  ‘coord_flip’
+mlpsa.difference.plot: no visible global function definition for
+  ‘geom_hline’
+mlpsa.difference.plot: no visible global function definition for
+  ‘theme’
+mlpsa.difference.plot: no visible global function definition for ‘unit’
+mlpsa.difference.plot: no visible global function definition for
+  ‘element_text’
+mlpsa.difference.plot: no visible global function definition for
+  ‘geom_errorbar’
+mlpsa.difference.plot: no visible global function definition for
+  ‘geom_point’
+mlpsa.difference.plot: no visible global function definition for
+  ‘geom_rug’
+mlpsa.difference.plot: no visible global function definition for
+  ‘scale_size_continuous’
+mlpsa.difference.plot: no visible global function definition for ‘opts’
+mlpsa.difference.plot: no visible global function definition for
+  ‘geom_text’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘ggplot’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘aes_string’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘scale_x_continuous’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘theme’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘element_text’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘ylab’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘xlab’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘geom_rug’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘geom_vline’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘scale_y_continuous’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘geom_hline’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘geom_point’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘scale_colour_manual’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘scale_fill_manual’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘scale_colour_hue’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘scale_fill_hue’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘scale_colour_brewer’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘scale_fill_brewer’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘geom_text’
+mlpsa.distribution.plot: no visible global function definition for
+  ‘aes’
+mlpsa.logistic: no visible global function definition for ‘dlply’
+plot.mlpsa: no visible global function definition for ‘theme’
+plot.mlpsa: no visible global function definition for ‘xlab’
+plot.mlpsa: no visible global function definition for ‘ylab’
+plot.mlpsa: no visible global function definition for ‘grid.layout’
+plot.mlpsa: no visible global function definition for ‘grid.newpage’
+plot.mlpsa: no visible global function definition for ‘pushViewport’
+plot.mlpsa: no visible global function definition for ‘viewport’
+plot.mlpsa: no visible global function definition for ‘grid.draw’
+plot.mlpsa: no visible global function definition for ‘ggplotGrob’
+plot.psrange: no visible global function definition for ‘ggplot’
+plot.psrange: no visible global function definition for ‘xlim’
+plot.psrange: no visible global function definition for ‘ylim’
+plot.psrange: no visible global function definition for ‘stat_density’
+plot.psrange: no visible global function definition for ‘aes’
+plot.psrange: no visible global function definition for ‘geom_rect’
+plot.psrange: no visible global function definition for ‘geom_point’
+plot.psrange: no visible global function definition for
+  ‘geom_errorbarh’
+plot.psrange: no visible global function definition for ‘geom_text’
+plot.psrange: no visible global function definition for ‘facet_grid’
+plot.psrange: no visible global function definition for ‘theme’
+plot.psrange: no visible global function definition for ‘element_blank’
+plot.psrange: no visible global function definition for ‘element_rect’
+plot.psrange: no visible global function definition for ‘element_text’
+plot.psrange: no visible global function definition for
+  ‘scale_fill_hue’
+psrange: no visible global function definition for ‘describeBy’
+tree.plot : convertTree: no visible global function definition for
+  ‘nodes’
+tree.plot: no visible global function definition for ‘melt’
+tree.plot: no visible global function definition for ‘ggplot’
+tree.plot: no visible global function definition for ‘aes’
+tree.plot: no visible global function definition for ‘geom_text’
+tree.plot: no visible global function definition for ‘geom_tile’
+tree.plot: no visible global function definition for
+  ‘scale_fill_gradient’
+tree.plot: no visible global function definition for ‘theme’
+tree.plot: no visible global function definition for ‘element_text’
+tree.plot: no visible global function definition for ‘element_blank’
+tree.plot: no visible global function definition for ‘xlab’
+tree.plot: no visible global function definition for ‘ylab’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... OK
-NOTE: There were 2 notes.
+* DONE
+NOTE: There were 4 notes.

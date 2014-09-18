@@ -1,0 +1,16 @@
+jsonlite *  checking tests ... ERROR
+Running the tests in ‘tests/run-all.R’ failed.
+Last 13 lines of output:
+  9: compare.default(expected, actual, ...)
+  10: all.equal(x, y, ...)
+  11: all.equal.default(x, y, ...)
+  12: all.equal.environment(target, current, ...)
+  13: all.equal.list(as.list(target, all.names = all.names, sorted = TRUE), as.list(current, 
+         all.names = all.names, sorted = TRUE), ...)
+  14: attr.all.equal(target, current, ...)
+  15: mode(target)
+  16: as.list(target, all.names = all.names, sorted = TRUE)
+  17: as.list.default(target, all.names = all.names, sorted = TRUE)
+  
+  Error: Test failures
+  Execution halted

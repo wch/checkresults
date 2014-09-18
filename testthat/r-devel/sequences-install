@@ -1,16 +1,18 @@
-* installing *source* package 'sequences' ...
-** package 'sequences' successfully unpacked and MD5 sums checked
+* installing *source* package ‘sequences’ ...
+** package ‘sequences’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c gccount.c -o gccount.o
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c gccount2.cpp -o gccount2.o
-Error in loadNamespace(name) : there is no package called 'RcppClassic'
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c gccount.c -o gccount.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c gccount2.cpp -o gccount2.o
+gccount2.cpp: In function ‘SEXPREC* gccount2(SEXP)’:
+gccount2.cpp:11:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Error in loadNamespace(name) : there is no package called ‘RcppClassic’
 Calls: ::: ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
 Execution halted
-g++ -shared -o sequences.so gccount.o gccount2.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -L/usr/lib/R/lib -lR
-Error in loadNamespace(name) : there is no package called 'RcppClassic'
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o sequences.so gccount.o gccount2.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+Error in loadNamespace(name) : there is no package called ‘RcppClassic’
 Calls: ::: ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
 Execution halted
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/sequences.Rcheck/sequences/libs
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/sequences.Rcheck/sequences/libs
 ** R
 ** data
 ** inst

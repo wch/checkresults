@@ -1,22 +1,84 @@
-* installing *source* package 'quadrupen' ...
-** package 'quadrupen' successfully unpacked and MD5 sums checked
+* installing *source* package ‘quadrupen’ ...
+** package ‘quadrupen’ successfully unpacked and MD5 sums checked
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c bounded_reg.cpp -o bounded_reg.o
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c elastic_net.cpp -o elastic_net.o
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c first_order.cpp -o first_order.o
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c quadratic.cpp -o quadratic.o
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppArmadillo/include"   -fpic  -O3 -pipe  -g  -c utils.cpp -o utils.o
-g++ -shared -o quadrupen.so bounded_reg.o elastic_net.o first_order.o quadratic.o utils.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/quadrupen.Rcheck/quadrupen/libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c bounded_reg.cpp -o bounded_reg.o
+bounded_reg.cpp: In function ‘SEXPREC* bounded_reg(SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP)’:
+bounded_reg.cpp:87:41: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
+bounded_reg.cpp:106:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+bounded_reg.cpp:128:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from bounded_reg.h:18:0,
+                 from bounded_reg.cpp:6:
+utils.h: In function ‘void standardize(any_mat&, arma::vec&, bool&, bool&, arma::vec&, arma::vec&, arma::vec&, double&, arma::vec&, double&) [with any_mat = arma::SpMat<double>, arma::vec = arma::Col<double>]’:
+bounded_reg.cpp:69:87:   instantiated from here
+utils.h:69:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+bounded_reg.cpp:69:87:   instantiated from here
+utils.h:79:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+bounded_reg.cpp:69:87:   instantiated from here
+utils.h:87:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+utils.h: In function ‘void standardize(any_mat&, arma::vec&, bool&, bool&, arma::vec&, arma::vec&, arma::vec&, double&, arma::vec&, double&) [with any_mat = arma::Mat<double>, arma::vec = arma::Col<double>]’:
+bounded_reg.cpp:76:84:   instantiated from here
+utils.h:69:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+bounded_reg.cpp:76:84:   instantiated from here
+utils.h:79:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+bounded_reg.cpp:76:84:   instantiated from here
+utils.h:87:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c elastic_net.cpp -o elastic_net.o
+elastic_net.cpp: In function ‘SEXPREC* elastic_net(SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP)’:
+elastic_net.cpp:86:41: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
+elastic_net.cpp:145:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+elastic_net.cpp:153:20: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+elastic_net.cpp:171:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+elastic_net.cpp:244:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+elastic_net.cpp:290:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from elastic_net.h:18:0,
+                 from elastic_net.cpp:6:
+utils.h: In function ‘void standardize(any_mat&, arma::vec&, bool&, bool&, arma::vec&, arma::vec&, arma::vec&, double&, arma::vec&, double&) [with any_mat = arma::SpMat<double>, arma::vec = arma::Col<double>]’:
+elastic_net.cpp:70:87:   instantiated from here
+utils.h:69:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+elastic_net.cpp:70:87:   instantiated from here
+utils.h:79:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+elastic_net.cpp:70:87:   instantiated from here
+utils.h:87:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+utils.h: In function ‘void standardize(any_mat&, arma::vec&, bool&, bool&, arma::vec&, arma::vec&, arma::vec&, double&, arma::vec&, double&) [with any_mat = arma::Mat<double>, arma::vec = arma::Col<double>]’:
+elastic_net.cpp:76:84:   instantiated from here
+utils.h:69:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+elastic_net.cpp:76:84:   instantiated from here
+utils.h:79:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+elastic_net.cpp:76:84:   instantiated from here
+utils.h:87:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c first_order.cpp -o first_order.o
+first_order.cpp: In function ‘int fista_lasso(arma::vec&, arma::mat&, arma::vec, double&, arma::uvec&, double&, double)’:
+first_order.cpp:38:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+first_order.cpp: In function ‘int pathwise_enet(arma::vec&, arma::mat&, arma::vec, arma::vec&, double&, arma::uvec&, double&, double)’:
+first_order.cpp:189:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c quadratic.cpp -o quadratic.o
+quadratic.cpp: In function ‘int quadra_breg(arma::vec&, const mat&, const vec&, double&, arma::vec&, arma::uvec&, int)’:
+quadratic.cpp:106:34: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c utils.cpp -o utils.o
+utils.cpp: In function ‘void add_var_enet(arma::uword&, int&, arma::uword&, arma::vec&, arma::uvec&, arma::mat&, arma::mat&, arma::mat&, arma::mat&, arma::mat&, arma::mat&, double&, arma::vec&, arma::sp_mat&, bool&, arma::uword&)’:
+utils.cpp:70:29: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+utils.cpp: In function ‘void add_var_enet(arma::uword&, int&, arma::uword&, arma::vec&, arma::uvec&, arma::sp_mat&, arma::sp_mat&, arma::mat&, arma::mat&, arma::mat&, arma::mat&, double&, arma::vec&, arma::sp_mat&, bool&, arma::uword&)’:
+utils.cpp:102:29: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+utils.cpp: In function ‘void remove_var_enet(int&, arma::uvec&, arma::vec&, arma::uvec&, arma::mat&, arma::mat&, arma::mat&, arma::mat&, arma::uvec&, bool&, arma::uword&)’:
+utils.cpp:114:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+utils.cpp:124:31: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+utils.cpp: In function ‘arma::vec cg(arma::mat, arma::vec, arma::vec, double)’:
+utils.cpp:191:35: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+utils.cpp: In function ‘arma::vec pcg(arma::mat, arma::mat, arma::vec, arma::vec, double)’:
+utils.cpp:222:35: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+/home/ubuntu/R-lib/3.2/RcppArmadillo/include/armadillo_bits/fn_norm.hpp: In function ‘typename arma::enable_if2<arma::is_arma_type<T1>::value, typename T1::pod_type>::result arma::norm(const T1&, arma::uword, const typename arma::arma_real_or_cx_only<typename T1::elem_type>::result*) [with T1 = arma::subview_elem1<double, arma::Mat<unsigned int> >, typename arma::enable_if2<arma::is_arma_type<T1>::value, typename T1::pod_type>::result = double, arma::uword = unsigned int, typename arma::arma_real_or_cx_only<typename T1::elem_type>::result = double]’:
+/home/ubuntu/R-lib/3.2/RcppArmadillo/include/armadillo_bits/fn_norm.hpp:635:3: warning: control reaches end of non-void function [-Wreturn-type]
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o quadrupen.so bounded_reg.o elastic_net.o first_order.o quadratic.o utils.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/quadrupen.Rcheck/quadrupen/libs
 ** R
 ** demo
 ** inst
 ** preparing package for lazy loading
-Creating a generic function for 'plot' from package 'graphics' in package 'quadrupen'
-Creating a generic function for 'fitted' from package 'stats' in package 'quadrupen'
-Creating a generic function for 'predict' from package 'stats' in package 'quadrupen'
-Creating a generic function for 'residuals' from package 'stats' in package 'quadrupen'
-Creating a generic function for 'deviance' from package 'stats' in package 'quadrupen'
+Creating a generic function for ‘plot’ from package ‘graphics’ in package ‘quadrupen’
+Creating a generic function for ‘fitted’ from package ‘stats’ in package ‘quadrupen’
+Creating a generic function for ‘predict’ from package ‘stats’ in package ‘quadrupen’
+Creating a generic function for ‘residuals’ from package ‘stats’ in package ‘quadrupen’
+Creating a generic function for ‘deviance’ from package ‘stats’ in package ‘quadrupen’
 ** help
 *** installing help indices
 ** building package indices

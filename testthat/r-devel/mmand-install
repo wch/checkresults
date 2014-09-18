@@ -1,0 +1,28 @@
+* installing *source* package ‘mmand’ ...
+** package ‘mmand’ successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c Array.cpp -o Array.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c Kernel.cpp -o Kernel.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c Morpher.cpp -o Morpher.o
+Morpher.cpp: In member function ‘bool Morpher::meetsRestrictions(long int)’:
+Morpher.cpp:12:45: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Morpher.cpp:23:45: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Morpher.cpp:58:57: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Morpher.cpp:69:57: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Morpher.cpp: In member function ‘double Morpher::mergeValues()’:
+Morpher.cpp:115:45: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Morpher.cpp:123:45: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Morpher.cpp:110:16: warning: enumeration value ‘MinOp’ not handled in switch [-Wswitch]
+Morpher.cpp:110:16: warning: enumeration value ‘MaxOp’ not handled in switch [-Wswitch]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c Resampler.cpp -o Resampler.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c main.cpp -o main.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o mmand.so Array.o Kernel.o Morpher.o Resampler.o main.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/mmand.Rcheck/mmand/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (mmand)

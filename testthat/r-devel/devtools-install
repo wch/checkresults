@@ -1,9 +1,9 @@
-* installing *source* package 'devtools' ...
-** package 'devtools' successfully unpacked and MD5 sums checked
+* installing *source* package ‘devtools’ ...
+** package ‘devtools’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c devtools.c -o devtools.o
-gcc -std=gnu99 -shared -o devtools.so devtools.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/devtools.Rcheck/devtools/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c devtools.c -o devtools.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o devtools.so devtools.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/devtools.Rcheck/devtools/libs
 ** R
 ** inst
 ** preparing package for lazy loading

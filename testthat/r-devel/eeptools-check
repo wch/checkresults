@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/eeptools.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'eeptools/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/eeptools.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘eeptools/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'eeptools' version '0.3'
+* this is package ‘eeptools’ version ‘0.3.1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'eeptools' can be installed ... [17s/17s] OK
+* checking whether package ‘eeptools’ can be installed ... [25s/25s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -34,38 +34,28 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+moves_calc: no visible binding for global variable ‘id’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [36s/36s] OK
+* checking examples ... [37s/37s] OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-theme_dpi_map    8.165  0.048   8.212
-theme_dpi_map2   6.512  0.028   6.540
-theme_dpi_mapPNG 5.913  0.032   5.959
+theme_dpi_map    6.584  0.048   6.631
+theme_dpi_map2   6.308  0.020   6.338
+theme_dpi_mapPNG 6.125  0.032   6.160
 * checking for unstated dependencies in tests ... OK
-* checking tests ... ERROR
-Running the tests in 'tests/test-all.R' failed.
-Last 13 lines of output:
-  Type 'demo()' for some demos, 'help()' for on-line help, or
-  'help.start()' for an HTML browser interface to help.
-  Type 'q()' to quit R.
-  
-  > library(testthat)
-  > library(eeptools)
-  Loading required package: ggplot2
-  Loading required package: MASS
-  Loading required namespace: car
-  > 
-  > test_package("eeptools")
-  Error: No tests found for eeptools
-  Execution halted
+* checking tests ... [13s/13s] OK
+  Running ‘test-all.R’ [13s/13s]
+* DONE
+NOTE: There was 1 note.

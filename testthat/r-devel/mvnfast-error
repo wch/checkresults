@@ -1,0 +1,9 @@
+mvnfast *  checking compiled code ... WARNING
+File ‘mvnfast/libs/mvnfast.so’:
+  Found ‘__assert_fail’, possibly from ‘assert’ (C)
+    Object: ‘rmvnCpp.o’
+
+Compiled code should not call entry points which might terminate R nor
+write to stdout/stderr instead of to the console, nor the C RNG.
+
+See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.

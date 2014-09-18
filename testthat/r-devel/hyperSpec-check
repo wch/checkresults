@@ -1,11 +1,11 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/hyperSpec.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'hyperSpec/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/hyperSpec.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘hyperSpec/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'hyperSpec' version '0.98-20120923'
+* this is package ‘hyperSpec’ version ‘0.98-20140523’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,9 +14,10 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'hyperSpec' can be installed ... OK
+* checking whether package ‘hyperSpec’ can be installed ... [11s/11s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -30,44 +31,111 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking dependencies in R code ... NOTE
-'library' or 'require' call to 'grid' which was already attached by Depends.
-  Please remove these calls from your code.
-Package in Depends field not imported from: 'mvtnorm'
-  These packages needs to imported from for the case when
-  this namespace is loaded but not attached.
-See the information on DESCRIPTION files in the chapter 'Creating R
-packages' of the 'Writing R Extensions' manual.
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
 Warning: local assignments to syntactic functions: ~
+Warning: local assignments to syntactic functions: ~
+hy.unittest: no visible binding for global variable ‘is.test’
+hy.unittest: no visible global function definition for ‘clearLog’
+hy.unittest: no visible global function definition for ‘runTest’
+hy.unittest: no visible global function definition for ‘stats’
+hy.unittest: no visible global function definition for ‘Log’
+hy.unittest: no visible global function definition for ‘errorLog’
+legendright: no visible global function definition for ‘grid.layout’
+legendright: no visible global function definition for ‘unit’
+map.identify: no visible global function definition for ‘convertX’
+map.identify: no visible global function definition for ‘unit’
+map.identify: no visible global function definition for ‘convertY’
+map.identify: no visible global function definition for ‘grid.locator’
+map.identify: no visible global function definition for ‘grid.circle’
+map.identify: no visible global function definition for ‘gpar’
+map.sel.poly: no visible global function definition for
+  ‘point.in.polygon’
+plotmat: no visible global function definition for ‘color.legend’
+plotspc: no visible binding for global variable ‘axis.break’
+qmixlegend: no visible global function definition for ‘ggplot’
+qmixlegend: no visible global function definition for ‘aes’
+qmixlegend: no visible global function definition for ‘geom_point’
+qmixlegend: no visible global function definition for ‘ylab’
+qmixlegend: no visible global function definition for ‘xlab’
+qmixlegend: no visible global function definition for ‘geom_rect’
+qmixlegend: no visible global function definition for ‘aes_string’
+qmixlegend: no visible global function definition for ‘theme’
+qmixlegend: no visible global function definition for ‘unit’
+qmixlegend: no visible global function definition for
+  ‘scale_fill_identity’
+qmixlegend: no visible global function definition for
+  ‘scale_colour_identity’
+qmixtile: no visible global function definition for ‘aes_string’
+qmixtile: no visible global function definition for ‘ggplot’
+qmixtile: no visible global function definition for ‘geom_tile’
+qmixtile: no visible global function definition for
+  ‘scale_fill_identity’
+qmixtile: no visible global function definition for ‘theme’
+qplotc: no visible global function definition for ‘aes_string’
+qplotc: no visible global function definition for ‘ggplot’
+qplotc: no visible global function definition for ‘geom_point’
+qplotc: no visible global function definition for ‘xlab’
+qplotmap: no visible global function definition for ‘aes_string’
+qplotmap: no visible global function definition for ‘ggplot’
+qplotmap: no visible global function definition for ‘geom_tile’
+qplotmap: no visible global function definition for ‘coord_equal’
+qplotmap: no visible global function definition for ‘scale_x_discrete’
+qplotmap: no visible global function definition for
+  ‘scale_x_continuous’
+qplotmap: no visible global function definition for ‘scale_y_discrete’
+qplotmap: no visible global function definition for
+  ‘scale_y_continuous’
+qplotmap: no visible global function definition for ‘labs’
+qplotmixmap: no visible global function definition for ‘coord_equal’
+qplotmixmap: no visible global function definition for ‘xlab’
+qplotmixmap: no visible global function definition for ‘ylab’
+qplotspc: no visible global function definition for ‘aes_string’
+qplotspc: no visible global function definition for ‘ggplot’
+qplotspc: no visible global function definition for ‘geom_line’
+qplotspc: no visible global function definition for ‘xlab’
+qplotspc: no visible global function definition for ‘ylab’
+qplotspc: no visible global function definition for ‘facet_grid’
+qplotspc: no visible global function definition for ‘theme’
+qplotspc: no visible global function definition for ‘element_text’
+read.cytomat: no visible global function definition for ‘readMat’
+sel.poly: no visible global function definition for ‘grid.locator’
+sel.poly: no visible global function definition for ‘grid.points’
+sel.poly: no visible global function definition for ‘unit’
+sel.poly: no visible global function definition for ‘gpar’
+sel.poly: no visible global function definition for ‘grid.lines’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of 'data' directory ... OK
+* checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
 * checking R/sysdata.rda ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
-* checking examples ... [54s/54s] OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... NOTE
+The following files look like leftovers/mistakes:
+  ‘Rplots.pdf’
+Please remove them from your package.
+* checking examples ... [52s/53s] OK
 Examples with CPU or elapsed time > 5s
-           user system elapsed
-levelplot 9.725  0.044   9.819
-chondro   7.493  0.000   7.545
+         user system elapsed
+chondro 5.401  0.036   5.435
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'unittests.R'
+  Running ‘unittests.R’
 * checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
-* checking running R code from vignettes ... [68s/68s] OK
-* checking re-building of vignette outputs ... [89s/94s] OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [77s/77s] OK
+* checking re-building of vignette outputs ... [97s/104s] OK
+* DONE
 NOTE: There were 2 notes.

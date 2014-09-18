@@ -1,0 +1,14 @@
+miniCRAN *  checking running R code from vignettes ... ERROR
+Errors in running code in vignettes:
+when running code in ‘miniCRAN.rmd’
+  ...
+
+> revolution <- c(CRAN = "http://cran.revolutionanalytics.com")
+
+> pkgList <- pkgDep(pkgs, repos = revolution, type = "source", 
++     suggests = FALSE, )
+Warning: unable to access index for repository http://cran.revolutionanalytics.com/src/contrib
+
+  When sourcing ‘miniCRAN.R’:
+Error: Unable to retrieve available packages from CRAN
+Execution halted

@@ -1,9 +1,9 @@
-* installing *source* package 'dils' ...
-** package 'dils' successfully unpacked and MD5 sums checked
+* installing *source* package ‘dils’ ...
+** package ‘dils’ successfully unpacked and MD5 sums checked
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c rss_cpp_matrix.cpp -o rss_cpp_matrix.o
-g++ -shared -o dils.so rss_cpp_matrix.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/dils.Rcheck/dils/libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c rss_cpp_matrix.cpp -o rss_cpp_matrix.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o dils.so rss_cpp_matrix.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dils.Rcheck/dils/libs
 ** R
 ** inst
 ** preparing package for lazy loading

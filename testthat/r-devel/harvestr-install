@@ -1,5 +1,5 @@
-* installing *source* package 'harvestr' ...
-** package 'harvestr' successfully unpacked and MD5 sums checked
+* installing *source* package ‘harvestr’ ...
+** package ‘harvestr’ successfully unpacked and MD5 sums checked
 ** R
 ** inst
 ** preparing package for lazy loading
@@ -7,6 +7,5 @@
 *** installing help indices
 ** building package indices
 ** installing vignettes
-   'harvestr.Rnw' 
 ** testing if installed package can be loaded
 * DONE (harvestr)

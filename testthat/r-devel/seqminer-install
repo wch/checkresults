@@ -1,13 +1,13 @@
-* installing *source* package 'seqminer' ...
-** package 'seqminer' successfully unpacked and MD5 sums checked
+* installing *source* package ‘seqminer’ ...
+** package ‘seqminer’ successfully unpacked and MD5 sums checked
 checking whether the C++ compiler works... yes
 checking for C++ compiler default output file name... a.out
 checking for suffix of executables... 
 checking whether we are cross compiling... no
 checking for suffix of object files... o
 checking whether we are using the GNU C++ compiler... yes
-checking whether g++ accepts -g... yes
-checking how to run the C++ preprocessor... g++ -E
+checking whether ccache g++ accepts -g... yes
+checking how to run the C++ preprocessor... ccache g++ -E
 checking for grep that handles long lines and -e... /bin/grep
 checking for egrep... /bin/grep -E
 checking for ANSI C header files... yes
@@ -33,67 +33,69 @@ configure: creating ./config.status
 config.status: creating src/Makevars
 config.status: creating src/config.h
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c BCFReader.cpp -o BCFReader.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c Exception.cpp -o Exception.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c GeneLoader.cpp -o GeneLoader.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c IO.cpp -o IO.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c PatternMatch.cpp -o PatternMatch.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c PeopleSet.cpp -o PeopleSet.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c PlinkInputFile.cpp -o PlinkInputFile.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c PlinkOutputFile.cpp -o PlinkOutputFile.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c R_CPP_interface.cpp -o R_CPP_interface.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c RangeList.cpp -o RangeList.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c SimpleMatrix.cpp -o SimpleMatrix.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c TypeConversion.cpp -o TypeConversion.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c Utils.cpp -o Utils.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c VCFHeader.cpp -o VCFHeader.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c VCFIndividual.cpp -o VCFIndividual.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c VCFInfo.cpp -o VCFInfo.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c VCFInputFile.cpp -o VCFInputFile.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c VCFUtil.cpp -o VCFUtil.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c adler32.c -o adler32.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c bcf.c -o bcf.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c bcf_index.c -o bcf_index.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c bcfutils.c -o bcfutils.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c bedidx.c -o bedidx.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c bgzf.c -o bgzf.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c blocksort.c -o blocksort.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c bzCompress.c -o bzCompress.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c bz_internal_error.c -o bz_internal_error.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c bzlib.c -o bzlib.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c compress.c -o compress.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c crc32.c -o crc32.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c crctable.c -o crctable.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c decompress.c -o decompress.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c deflate.c -o deflate.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c gzclose.c -o gzclose.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c gzlib.c -o gzlib.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c gzread.c -o gzread.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c gzwrite.c -o gzwrite.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c huffman.c -o huffman.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c infback.c -o infback.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c inffast.c -o inffast.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c inflate.c -o inflate.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c inftrees.c -o inftrees.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c kstring.c -o kstring.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c randtable.c -o randtable.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c rvMetaLoader.cpp -o rvMetaLoader.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c seqminer.c -o seqminer.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c tabixLoader.cpp -o tabixLoader.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c tabix_index.c -o tabix_index.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c trees.c -o trees.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c uncompr.c -o uncompr.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c vcf.c -o vcf.o
-g++ -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG  -O3 -pipe -g -fpic  -O3 -pipe  -g  -c vcf2genoLoader.cpp -o vcf2genoLoader.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -DNDEBUG -O3 -pipe -g -fpic  -O3 -pipe  -g  -c zutil.c -o zutil.o
-g++ -shared -o seqminer.so BCFReader.o Exception.o GeneLoader.o IO.o PatternMatch.o PeopleSet.o PlinkInputFile.o PlinkOutputFile.o R_CPP_interface.o RangeList.o SimpleMatrix.o TypeConversion.o Utils.o VCFHeader.o VCFIndividual.o VCFInfo.o VCFInputFile.o VCFUtil.o adler32.o bcf.o bcf_index.o bcfutils.o bedidx.o bgzf.o blocksort.o bzCompress.o bz_internal_error.o bzlib.o compress.o crc32.o crctable.o decompress.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o huffman.o infback.o inffast.o inflate.o inftrees.o kstring.o randtable.o rvMetaLoader.o seqminer.o tabixLoader.o tabix_index.o trees.o uncompr.o vcf.o vcf2genoLoader.o zutil.o -lz -lm -lbz2 -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/seqminer.Rcheck/seqminer/libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c BCFReader.cpp -o BCFReader.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c Exception.cpp -o Exception.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c GeneLoader.cpp -o GeneLoader.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c IO.cpp -o IO.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c PatternMatch.cpp -o PatternMatch.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c PeopleSet.cpp -o PeopleSet.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c PlinkInputFile.cpp -o PlinkInputFile.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c PlinkOutputFile.cpp -o PlinkOutputFile.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c R_CPP_interface.cpp -o R_CPP_interface.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c RangeList.cpp -o RangeList.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c Rannotation.cpp -o Rannotation.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c SimpleMatrix.cpp -o SimpleMatrix.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c TypeConversion.cpp -o TypeConversion.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c Utils.cpp -o Utils.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c VCFHeader.cpp -o VCFHeader.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c VCFIndividual.cpp -o VCFIndividual.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c VCFInfo.cpp -o VCFInfo.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c VCFInputFile.cpp -o VCFInputFile.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c VCFUtil.cpp -o VCFUtil.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c adler32.c -o adler32.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bcf.c -o bcf.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bcf_index.c -o bcf_index.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bcfutils.c -o bcfutils.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bedidx.c -o bedidx.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bgzf.c -o bgzf.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c blocksort.c -o blocksort.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bzCompress.c -o bzCompress.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bz_internal_error.c -o bz_internal_error.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bzlib.c -o bzlib.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c compress.c -o compress.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c crc32.c -o crc32.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c crctable.c -o crctable.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c decompress.c -o decompress.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c deflate.c -o deflate.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c gzclose.c -o gzclose.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c gzlib.c -o gzlib.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c gzread.c -o gzread.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c gzwrite.c -o gzwrite.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c huffman.c -o huffman.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c infback.c -o infback.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c inffast.c -o inffast.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c inflate.c -o inflate.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c inftrees.c -o inftrees.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c kstring.c -o kstring.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c randtable.c -o randtable.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c rvMetaLoader.cpp -o rvMetaLoader.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c seqForStat.c -o seqForStat.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c seqminer.c -o seqminer.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c tabixLoader.cpp -o tabixLoader.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c tabix_index.c -o tabix_index.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c trees.c -o trees.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c uncompr.c -o uncompr.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c vcf.c -o vcf.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c vcf2genoLoader.cpp -o vcf2genoLoader.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c zutil.c -o zutil.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o seqminer.so BCFReader.o Exception.o GeneLoader.o IO.o PatternMatch.o PeopleSet.o PlinkInputFile.o PlinkOutputFile.o R_CPP_interface.o RangeList.o Rannotation.o SimpleMatrix.o TypeConversion.o Utils.o VCFHeader.o VCFIndividual.o VCFInfo.o VCFInputFile.o VCFUtil.o adler32.o bcf.o bcf_index.o bcfutils.o bedidx.o bgzf.o blocksort.o bzCompress.o bz_internal_error.o bzlib.o compress.o crc32.o crctable.o decompress.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o huffman.o infback.o inffast.o inflate.o inftrees.o kstring.o randtable.o rvMetaLoader.o seqForStat.o seqminer.o tabixLoader.o tabix_index.o trees.o uncompr.o vcf.o vcf2genoLoader.o zutil.o -lz -lm -lbz2 -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/seqminer.Rcheck/seqminer/libs
 ** R
+** demo
 ** inst
 ** preparing package for lazy loading
 ** help
 *** installing help indices
 ** building package indices
-** installing vignettes
 ** testing if installed package can be loaded
 * DONE (seqminer)

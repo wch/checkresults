@@ -1,5 +1,5 @@
-* installing *source* package 'Ruchardet' ...
-** package 'Ruchardet' successfully unpacked and MD5 sums checked
+* installing *source* package ‘Ruchardet’ ...
+** package ‘Ruchardet’ successfully unpacked and MD5 sums checked
 checking for gcc... gcc
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
@@ -16,42 +16,46 @@ checking for Rscript... yes
 configure: creating ./config.status
 config.status: creating src/Makevars
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG -Iuchardet-0.0.1/src   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c RcppExports.cpp -o RcppExports.o
-g++ -I/usr/share/R/include -DNDEBUG -Iuchardet-0.0.1/src   -I"/home/ubuntu/R-lib/3.0/Rcpp/include"   -fpic  -O3 -pipe  -g  -c detectEncoding.cpp -o detectEncoding.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -Iuchardet-0.0.1/src  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c RcppExports.cpp -o RcppExports.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -Iuchardet-0.0.1/src  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c detectEncoding.cpp -o detectEncoding.o
 (cd uchardet-0.0.1/src && \
-	(make  CXX="g++" CXXFLAGS="-O3 -pipe  -g  -fpic " AR="ar" RANLIB="ranlib"))
-make[1]: Entering directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/Ruchardet.Rcheck/00_pkg_src/Ruchardet/src/uchardet-0.0.1/src'
-g++ -O3 -pipe  -g  -fpic  -I. -c CharDistribution.cpp -o CharDistribution.o
-g++ -O3 -pipe  -g  -fpic  -I. -c JpCntx.cpp -o JpCntx.o
-g++ -O3 -pipe  -g  -fpic  -I. -c LangBulgarianModel.cpp -o LangBulgarianModel.o
-g++ -O3 -pipe  -g  -fpic  -I. -c LangCyrillicModel.cpp -o LangCyrillicModel.o
-g++ -O3 -pipe  -g  -fpic  -I. -c LangGreekModel.cpp -o LangGreekModel.o
-g++ -O3 -pipe  -g  -fpic  -I. -c LangHebrewModel.cpp -o LangHebrewModel.o
-g++ -O3 -pipe  -g  -fpic  -I. -c LangHungarianModel.cpp -o LangHungarianModel.o
-g++ -O3 -pipe  -g  -fpic  -I. -c LangThaiModel.cpp -o LangThaiModel.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsBig5Prober.cpp -o nsBig5Prober.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsCharSetProber.cpp -o nsCharSetProber.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsEUCJPProber.cpp -o nsEUCJPProber.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsEUCKRProber.cpp -o nsEUCKRProber.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsEUCTWProber.cpp -o nsEUCTWProber.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsEscCharsetProber.cpp -o nsEscCharsetProber.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsEscSM.cpp -o nsEscSM.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsGB2312Prober.cpp -o nsGB2312Prober.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsHebrewProber.cpp -o nsHebrewProber.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsLatin1Prober.cpp -o nsLatin1Prober.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsMBCSGroupProber.cpp -o nsMBCSGroupProber.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsMBCSSM.cpp -o nsMBCSSM.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsSBCSGroupProber.cpp -o nsSBCSGroupProber.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsSBCharSetProber.cpp -o nsSBCharSetProber.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsSJISProber.cpp -o nsSJISProber.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsUTF8Prober.cpp -o nsUTF8Prober.o
-g++ -O3 -pipe  -g  -fpic  -I. -c nsUniversalDetector.cpp -o nsUniversalDetector.o
-g++ -O3 -pipe  -g  -fpic  -I. -c uchardet.cpp -o uchardet.o
+	(make  CXX="ccache g++" CXXFLAGS="-ggdb -pipe -Wall -pedantic  -fpic " AR="ar" RANLIB="ranlib"))
+make[1]: Entering directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/Ruchardet.Rcheck/00_pkg_src/Ruchardet/src/uchardet-0.0.1/src'
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c CharDistribution.cpp -o CharDistribution.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c JpCntx.cpp -o JpCntx.o
+JpCntx.cpp: In member function ‘virtual PRInt32 SJISContextAnalysis::GetOrder(const char*, PRUint32*)’:
+JpCntx.cpp:199:91: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+JpCntx.cpp: In member function ‘virtual PRInt32 EUCJPContextAnalysis::GetOrder(const char*, PRUint32*)’:
+JpCntx.cpp:217:45: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c LangBulgarianModel.cpp -o LangBulgarianModel.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c LangCyrillicModel.cpp -o LangCyrillicModel.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c LangGreekModel.cpp -o LangGreekModel.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c LangHebrewModel.cpp -o LangHebrewModel.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c LangHungarianModel.cpp -o LangHungarianModel.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c LangThaiModel.cpp -o LangThaiModel.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsBig5Prober.cpp -o nsBig5Prober.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsCharSetProber.cpp -o nsCharSetProber.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsEUCJPProber.cpp -o nsEUCJPProber.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsEUCKRProber.cpp -o nsEUCKRProber.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsEUCTWProber.cpp -o nsEUCTWProber.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsEscCharsetProber.cpp -o nsEscCharsetProber.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsEscSM.cpp -o nsEscSM.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsGB2312Prober.cpp -o nsGB2312Prober.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsHebrewProber.cpp -o nsHebrewProber.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsLatin1Prober.cpp -o nsLatin1Prober.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsMBCSGroupProber.cpp -o nsMBCSGroupProber.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsMBCSSM.cpp -o nsMBCSSM.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsSBCSGroupProber.cpp -o nsSBCSGroupProber.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsSBCharSetProber.cpp -o nsSBCharSetProber.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsSJISProber.cpp -o nsSJISProber.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsUTF8Prober.cpp -o nsUTF8Prober.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c nsUniversalDetector.cpp -o nsUniversalDetector.o
+ccache g++ -ggdb -pipe -Wall -pedantic  -fpic  -I. -c uchardet.cpp -o uchardet.o
 ar cr libuchardet.a CharDistribution.o JpCntx.o LangBulgarianModel.o LangCyrillicModel.o LangGreekModel.o LangHebrewModel.o LangHungarianModel.o LangThaiModel.o nsBig5Prober.o nsCharSetProber.o nsEUCJPProber.o nsEUCKRProber.o nsEUCTWProber.o nsEscCharsetProber.o nsEscSM.o nsGB2312Prober.o nsHebrewProber.o nsLatin1Prober.o nsMBCSGroupProber.o nsMBCSSM.o nsSBCSGroupProber.o nsSBCharSetProber.o nsSJISProber.o nsUTF8Prober.o nsUniversalDetector.o uchardet.o
 ranlib libuchardet.a
-make[1]: Leaving directory `/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/Ruchardet.Rcheck/00_pkg_src/Ruchardet/src/uchardet-0.0.1/src'
-g++ -shared -o Ruchardet.so RcppExports.o detectEncoding.o -Luchardet-0.0.1/src -luchardet -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/Ruchardet.Rcheck/Ruchardet/libs
+make[1]: Leaving directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/Ruchardet.Rcheck/00_pkg_src/Ruchardet/src/uchardet-0.0.1/src'
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o Ruchardet.so RcppExports.o detectEncoding.o -Luchardet-0.0.1/src -luchardet -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/Ruchardet.Rcheck/Ruchardet/libs
 ** R
 ** inst
 ** preparing package for lazy loading

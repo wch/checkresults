@@ -1,10 +1,10 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/dostats.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'dostats/DESCRIPTION' ... OK
-* this is package 'dostats' version '1.3.0'
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dostats.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘dostats/DESCRIPTION’ ... OK
+* this is package ‘dostats’ version ‘1.3.1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'dostats' can be installed ... OK
+* checking whether package ‘dostats’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -33,9 +33,51 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+Table1: no visible global function definition for ‘idata.frame’
+copy_names: no visible global function definition for ‘dlply’
+depth: no visible global function definition for ‘laply’
+dseval_fork: no visible global function definition for ‘dlply’
+dseval_left.dostats.formula.bind: no visible global function definition
+  for ‘llply’
+dseval_right.dostats.formula.bind: no visible global function
+  definition for ‘llply’
+dseval_right.dostats.formula.bind: no visible global function
+  definition for ‘laply’
+dseval_right.dostats.formula.by_two_fun: no visible global function
+  definition for ‘llply’
+dseval_right.dostats.formula.nest: no visible global function
+  definition for ‘llply’
+dseval_right.dostats.formula.nest: no visible global function
+  definition for ‘laply’
+find_headers.hdf: no visible global function definition for ‘llply’
+find_headers.hdf: no visible global function definition for ‘laply’
+find_headers.list: no visible global function definition for ‘llply’
+find_headers.list: no visible global function definition for ‘laply’
+format.hdf: no visible global function definition for ‘llply’
+get_vars.dostats.formula.bind: no visible global function definition
+  for ‘llply’
+get_vars.dostats.formula.nest: no visible global function definition
+  for ‘llply’
+hdf: no visible global function definition for ‘llply’
+hdf: no visible global function definition for ‘laply’
+is_uniform: no visible global function definition for ‘laply’
+listrows: no visible global function definition for ‘mlply’
+make_pmat: no visible global function definition for ‘laply’
+make_ppath: no visible global function definition for ‘llply’
+parse_bind: no visible global function definition for ‘llply’
+parse_by_two_fun: no visible global function definition for ‘llply’
+parse_nest: no visible global function definition for ‘llply’
+rbind.hdf: no visible global function definition for ‘llply’
+rbind.hdf: no visible global function definition for ‘laply’
+rbind.hdf : <anonymous>: no visible global function definition for
+  ‘llply’
+take_names.default: no visible global function definition for ‘llply’
+trace_parents: no visible global function definition for ‘llply’
+unroll: no visible global function definition for ‘llply’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
@@ -45,4 +87,6 @@
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'test_package.R'
+  Running ‘test_package.R’
+* DONE
+NOTE: There was 1 note.

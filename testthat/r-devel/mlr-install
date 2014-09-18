@@ -1,6 +1,12 @@
-* installing *source* package 'mlr' ...
-** package 'mlr' successfully unpacked and MD5 sums checked
+* installing *source* package ‘mlr’ ...
+** package ‘mlr’ successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c smote.c -o smote.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o mlr.so smote.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/mlr.Rcheck/mlr/libs
 ** R
+** data
+*** moving datasets to lazyload DB
 ** inst
 ** byte-compile and prepare package for lazy loading
 ** help

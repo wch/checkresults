@@ -1,5 +1,5 @@
-* installing *source* package 'rfishbase' ...
-** package 'rfishbase' successfully unpacked and MD5 sums checked
+* installing *source* package ‘rfishbase’ ...
+** package ‘rfishbase’ successfully unpacked and MD5 sums checked
 ** R
 ** data
 ** inst
@@ -7,6 +7,5 @@
 ** help
 *** installing help indices
 ** building package indices
-** installing vignettes
 ** testing if installed package can be loaded
 * DONE (rfishbase)

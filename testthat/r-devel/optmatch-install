@@ -1,22 +1,22 @@
-* installing *source* package 'optmatch' ...
-** package 'optmatch' successfully unpacked and MD5 sums checked
+* installing *source* package ‘optmatch’ ...
+** package ‘optmatch’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c cuseful.c -o cuseful.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c distances.c -o distances.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c map.c -o map.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c register.c -o register.o
-gfortran  --fixed-line-length-132 -fpic  -O3 -pipe  -g  -c relax4s.f -o relax4s.o
-gfortran  --fixed-line-length-132 -fpic  -O3 -pipe  -g  -c relax4sold.f -o relax4sold.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c subsetInfSparseMatrix.c -o subsetInfSparseMatrix.o
-gcc -std=gnu99 -shared -o optmatch.so cuseful.o distances.o map.o register.o relax4s.o relax4sold.o subsetInfSparseMatrix.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/optmatch.Rcheck/optmatch/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c cuseful.c -o cuseful.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c distances.c -o distances.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c map.c -o map.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c r_smahal.c -o r_smahal.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c register.c -o register.o
+ccache gfortran  --fixed-line-length-132 -fpic  -g -O2  -c relax4s.f -o relax4s.o
+ccache gfortran  --fixed-line-length-132 -fpic  -g -O2  -c relax4sold.f -o relax4sold.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c smahal.c -o smahal.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c subsetInfSparseMatrix.c -o subsetInfSparseMatrix.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o optmatch.so cuseful.o distances.o map.o r_smahal.o register.o relax4s.o relax4sold.o smahal.o subsetInfSparseMatrix.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/optmatch.Rcheck/optmatch/libs
 ** R
 ** data
 ** demo
 ** inst
 ** preparing package for lazy loading
-Warning in FUN(X[[1L]], ...) :
-  Created a package name, '2014-01-23 19:12:27', when none found
 ** help
 *** installing help indices
 ** building package indices

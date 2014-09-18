@@ -1,0 +1,38 @@
+* installing *source* package ‘forecast’ ...
+** package ‘forecast’ successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c calcBATS.cpp -o calcBATS.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c calcTBATS.cpp -o calcTBATS.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c etsTargetFunction.cpp -o etsTargetFunction.o
+etsTargetFunction.cpp: In member function ‘void EtsTargetFunction::eval(const double*, int)’:
+etsTargetFunction.cpp:87:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+etsTargetFunction.cpp:119:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+etsTargetFunction.cpp:147:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+etsTargetFunction.cpp:163:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+etsTargetFunction.cpp: In member function ‘bool EtsTargetFunction::admissible()’:
+etsTargetFunction.cpp:302:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c etsTargetFunctionWrapper.cpp -o etsTargetFunctionWrapper.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c etscalc.c -o etscalc.o
+etscalc.c: In function ‘etssimulate’:
+etscalc.c:112:15: warning: variable ‘nstates’ set but not used [-Wunused-but-set-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c etspolyroot.c -o etspolyroot.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c makeBATSMatrices.cpp -o makeBATSMatrices.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c makeTBATSMatrices.cpp -o makeTBATSMatrices.o
+makeTBATSMatrices.cpp: In function ‘SEXPREC* makeTBATSWMatrix(SEXP, SEXP, SEXP, SEXP, SEXP)’:
+makeTBATSMatrices.cpp:11:6: warning: unused variable ‘lengthSeasonal’ [-Wunused-variable]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c updateMatrices.cpp -o updateMatrices.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c updateTBATSMatrices.cpp -o updateTBATSMatrices.o
+updateTBATSMatrices.cpp: In function ‘SEXPREC* updateTBATSGMatrix(SEXP, SEXP, SEXP, SEXP)’:
+updateTBATSMatrices.cpp:38:10: warning: unused variable ‘gammaVector’ [-Wunused-variable]
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o forecast.so calcBATS.o calcTBATS.o etsTargetFunction.o etsTargetFunctionWrapper.o etscalc.o etspolyroot.o makeBATSMatrices.o makeTBATSMatrices.o updateMatrices.o updateTBATSMatrices.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/forecast.Rcheck/forecast/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (forecast)

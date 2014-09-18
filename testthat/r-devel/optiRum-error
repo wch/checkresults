@@ -1,0 +1,16 @@
+optiRum *  checking tests ... ERROR
+Running the tests in ‘tests/test-all.R’ failed.
+Last 13 lines of output:
+  4: generatePDF(srcpath = basepath, srcname = "datatabletest", destpath = testpath, destname = "datatabletest", 
+         DATED = FALSE, compiler = "xelatex") at test-generatePDF.R:90
+  5: knit2pdf(input = src, output = dest, envir = envir, quiet = QUIET, clean = CLEANUP, 
+         ...)
+  6: tools::texi2pdf(basename(out), ...)
+  7: texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet, texi2dvi = texi2dvi, 
+         texinputs = texinputs, index = index)
+  8: stop(msg, domain = NA)
+  
+  Error: Test failures
+  In addition: Warning message:
+  In precision(x) : NaNs produced
+  Execution halted

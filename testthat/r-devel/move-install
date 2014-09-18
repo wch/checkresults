@@ -1,0 +1,17 @@
+* installing *source* package ‘move’ ...
+** package ‘move’ successfully unpacked and MD5 sums checked
+** libs
+ccache gfortran  -fpic -g -O2  -c  DBBMM.f95 -o DBBMM.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bgbVar.c -o bgbVar.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bgb_bbmm.c -o bgb_bbmm.o
+ccache gfortran -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o move.so DBBMM.o bgbVar.o bgb_bbmm.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/move.Rcheck/move/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (move)

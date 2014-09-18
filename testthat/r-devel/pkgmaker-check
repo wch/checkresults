@@ -1,22 +1,24 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/pkgmaker.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'pkgmaker/DESCRIPTION' ... OK
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/pkgmaker.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘pkgmaker/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package 'pkgmaker' version '0.17.4'
+* this is package ‘pkgmaker’ version ‘0.22’
 * checking package namespace information ... OK
-* checking package dependencies ... OK
+* checking package dependencies ... NOTE
+Package suggested but not available for checking: ‘ReportingTools’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'pkgmaker' can be installed ... OK
+* checking whether package ‘pkgmaker’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -34,23 +36,54 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+.existsTestLogger: no visible binding for global variable ‘.testLogger’
+CLIArgumentParser: no visible global function definition for
+  ‘ArgumentParser’
+CLIArgumentParser: no visible global function definition for ‘proto’
+chunkOutputHook : <anonymous> : <anonymous>: no visible binding for
+  global variable ‘knit_hooks’
+cite_pkg: no visible global function definition for ‘read.bib’
+hook_backspace : <anonymous>: no visible binding for global variable
+  ‘knit_hooks’
+knit_ex: no visible global function definition for ‘knit2html’
+knit_ex: no visible global function definition for ‘knit’
+latex_bibliography: no visible binding for global variable ‘knit_hooks’
+makeUnitVignette: no visible global function definition for ‘getErrors’
+runVignette.rnw_knitr: no visible binding for global variable
+  ‘opts_chunk’
+runVignette.rnw_knitr: no visible global function definition for
+  ‘knit2pdf’
+runVignette.rnw_knitr: no visible global function definition for ‘knit’
+write_PACKAGES_index: no visible global function definition for
+  ‘HTMLReport’
+write_PACKAGES_index : linkPackage: no visible global function
+  definition for ‘hwrite’
+write_PACKAGES_index: no visible global function definition for
+  ‘publish’
+write_PACKAGES_index: no visible global function definition for
+  ‘knit2html’
+write_PACKAGES_index: no visible global function definition for
+  ‘finish’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking sizes of PDF files under 'inst/doc' ... OK
-* checking installed files from 'inst/doc' ... OK
-* checking files in 'vignettes' ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
-  Running 'doRUnit.R'
+  Running ‘doRUnit.R’
 * checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in 'inst/doc' ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... OK
 * checking re-building of vignette outputs ... OK
+* DONE
+NOTE: There were 2 notes.

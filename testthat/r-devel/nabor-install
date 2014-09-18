@@ -1,0 +1,20 @@
+* installing *source* package ‘nabor’ ...
+** package ‘nabor’ successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include" -I"/home/ubuntu/R-lib/3.2/BH/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c RcppExports.cpp -o RcppExports.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include" -I"/home/ubuntu/R-lib/3.2/BH/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c WKNN.cpp -o WKNN.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include" -I"/home/ubuntu/R-lib/3.2/BH/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c brute_force_cpu.cpp -o brute_force_cpu.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include" -I"/home/ubuntu/R-lib/3.2/BH/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c kdtree_cpu.cpp -o kdtree_cpu.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include" -I"/home/ubuntu/R-lib/3.2/BH/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nabo.cpp -o nabo.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include" -I"/home/ubuntu/R-lib/3.2/BH/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nabor.cpp -o nabor.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o nabor.so RcppExports.o WKNN.o brute_force_cpu.o kdtree_cpu.o nabo.o nabor.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/nabor.Rcheck/nabor/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (nabor)

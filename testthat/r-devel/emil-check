@@ -1,0 +1,68 @@
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/emil.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘emil/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘emil’ version ‘1.1-6’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘emil’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... WARNING
+'library' or 'require' call not declared from: ‘parallel’
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+emil.fit.caret: no visible global function definition for ‘train’
+emil.fit.cforest: no visible binding for global variable
+  ‘cforest_unbiased’
+emil.fit.cforest: no visible global function definition for ‘is.Surv’
+emil.fit.glmnet: no visible global function definition for ‘glmnet’
+emil.fit.lda: no visible global function definition for ‘lda’
+emil.fit.qda: no visible global function definition for ‘qda’
+image.resample: no visible global function definition for ‘brewer.pal’
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... [13s/14s] OK
+Examples with CPU or elapsed time > 5s
+                    user system elapsed
+modeling.procedure 7.952  0.212   8.183
+* checking for unstated dependencies in tests ... OK
+* checking tests ... [12s/15s] OK
+  Running ‘run-all.R’ [11s/14s]
+* DONE
+WARNING: There was 1 warning.
+NOTE: There was 1 note.

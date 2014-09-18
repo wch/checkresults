@@ -1,0 +1,16 @@
+mlr *  checking tests ... ERROR
+Running the tests in ‘tests/run-all.R’ failed.
+Last 13 lines of output:
+  Component "env": Names: 1 string mismatch
+  Component "env": Length mismatch: comparison on first 1 components
+  Component "env": Component 1: Modes: list, NULL
+  Component "env": Component 1: Lengths: 5, 0
+  Component "env": Component 1: names for target but not for current
+  Component "env": Component 1: Attributes: < Modes: list, NULL >
+  Component "env": Component 1: Attributes: < Lengths: 2, 0 >
+  Component "env": Component 1: Attributes: < names for target but not for current >
+  Component "env": Component 1: Attributes: < current is not list-like >
+  Component "env": Component 1: current is not list-like
+  
+  Error: Test failures
+  Execution halted

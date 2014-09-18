@@ -1,8 +1,12 @@
-* installing *source* package 'ParamHelpers' ...
-** package 'ParamHelpers' successfully unpacked and MD5 sums checked
+* installing *source* package ‘ParamHelpers’ ...
+** package ‘ParamHelpers’ successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c c_dfRowsToList.c -o c_dfRowsToList.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c c_generateDesign.c -o c_generateDesign.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o ParamHelpers.so c_dfRowsToList.o c_generateDesign.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/ParamHelpers.Rcheck/ParamHelpers/libs
 ** R
-** inst
-** preparing package for lazy loading
+** byte-compile and prepare package for lazy loading
 ** help
 *** installing help indices
 ** building package indices

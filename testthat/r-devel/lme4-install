@@ -1,14 +1,14 @@
-* installing *source* package 'lme4' ...
-** package 'lme4' successfully unpacked and MD5 sums checked
+* installing *source* package ‘lme4’ ...
+** package ‘lme4’ successfully unpacked and MD5 sums checked
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -O3 -pipe  -g  -c external.cpp -o external.o
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -O3 -pipe  -g  -c glmFamily.cpp -o glmFamily.o
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -O3 -pipe  -g  -c mcmcsamp.cpp -o mcmcsamp.o
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -O3 -pipe  -g  -c optimizer.cpp -o optimizer.o
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -O3 -pipe  -g  -c predModule.cpp -o predModule.o
-g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.0/Rcpp/include" -I"/home/ubuntu/R-lib/3.0/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -O3 -pipe  -g  -c respModule.cpp -o respModule.o
-g++ -shared -o lme4.so external.o glmFamily.o mcmcsamp.o optimizer.o predModule.o respModule.o -L/home/ubuntu/R-lib/3.0/Rcpp/lib -lRcpp -Wl,-rpath,/home/ubuntu/R-lib/3.0/Rcpp/lib -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/lme4.Rcheck/lme4/libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -ggdb -pipe -Wall -pedantic  -c external.cpp -o external.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -ggdb -pipe -Wall -pedantic  -c glmFamily.cpp -o glmFamily.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -ggdb -pipe -Wall -pedantic  -c mcmcsamp.cpp -o mcmcsamp.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -ggdb -pipe -Wall -pedantic  -c optimizer.cpp -o optimizer.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -ggdb -pipe -Wall -pedantic  -c predModule.cpp -o predModule.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -ggdb -pipe -Wall -pedantic  -c respModule.cpp -o respModule.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o lme4.so external.o glmFamily.o mcmcsamp.o optimizer.o predModule.o respModule.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/lme4.Rcheck/lme4/libs
 ** R
 ** data
 *** moving datasets to lazyload DB
@@ -18,7 +18,5 @@ installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/lme4.Rcheck/lme4/libs
 *** installing help indices
 ** building package indices
 ** installing vignettes
-   'PLSvGLS.Rnw' 
-   'Theory.Rnw' 
 ** testing if installed package can be loaded
 * DONE (lme4)

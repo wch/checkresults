@@ -1,19 +1,72 @@
-* installing *source* package 'flsa' ...
-** package 'flsa' successfully unpacked and MD5 sums checked
+* installing *source* package ‘flsa’ ...
+** package ‘flsa’ successfully unpacked and MD5 sums checked
 ** libs
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c FLSA.cc -o FLSA.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c FLSAGeneral.cc -o FLSAGeneral.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c FLSAGeneralMain.cc -o FLSAGeneralMain.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c GeneralFunctions.cc -o GeneralFunctions.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Groups.cc -o Groups.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c MaxFlowGraph.cc -o MaxFlowGraph.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c PenaltyGraph.cc -o PenaltyGraph.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c Scheduler.cc -o Scheduler.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c flsaBackwards.cc -o flsaBackwards.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c helperFuncsSEXP.cc -o helperFuncsSEXP.o
-g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c init.cc -o init.o
-g++ -shared -o flsa.so FLSA.o FLSAGeneral.o FLSAGeneralMain.o GeneralFunctions.o Groups.o MaxFlowGraph.o PenaltyGraph.o Scheduler.o flsaBackwards.o helperFuncsSEXP.o init.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/flsa.Rcheck/flsa/libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c FLSA.cc -o FLSA.o
+In file included from FLSA.cc:6:0:
+GeneralFunctions.h:17:51: warning: extra ‘;’ [-pedantic]
+FLSA.cc:41:2: warning: extra ‘;’ [-pedantic]
+FLSA.cc:179:2: warning: extra ‘;’ [-pedantic]
+FLSA.cc:293:2: warning: extra ‘;’ [-pedantic]
+FLSA.cc:375:2: warning: extra ‘;’ [-pedantic]
+FLSA.cc:430:2: warning: extra ‘;’ [-pedantic]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c FLSAGeneral.cc -o FLSAGeneral.o
+In file included from PenaltyGraph.h:15:0,
+                 from FLSAGeneral.h:13,
+                 from FLSAGeneral.cc:6:
+GeneralFunctions.h:17:51: warning: extra ‘;’ [-pedantic]
+FLSAGeneral.cc:264:2: warning: extra ‘;’ [-pedantic]
+FLSAGeneral.cc: In member function ‘SEXPREC* FLSAGeneral::solution(SEXP, SEXP)’:
+FLSAGeneral.cc:387:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+FLSAGeneral.cc:391:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+FLSAGeneral.cc: In member function ‘SEXPREC* FLSAGeneral::solutionGraph()’:
+FLSAGeneral.cc:408:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+FLSAGeneral.cc:412:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c FLSAGeneralMain.cc -o FLSAGeneralMain.o
+In file included from PenaltyGraph.h:15:0,
+                 from FLSAGeneralMain.cc:6:
+GeneralFunctions.h:17:51: warning: extra ‘;’ [-pedantic]
+In file included from FLSAGeneralMain.cc:11:0:
+helperFuncsSEXP.h:14:2: warning: extra ‘;’ [-pedantic]
+FLSAGeneralMain.cc:52:2: warning: extra ‘;’ [-pedantic]
+FLSAGeneralMain.cc:61:2: warning: extra ‘;’ [-pedantic]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c GeneralFunctions.cc -o GeneralFunctions.o
+In file included from GeneralFunctions.cc:1:0:
+GeneralFunctions.h:17:51: warning: extra ‘;’ [-pedantic]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c Groups.cc -o Groups.o
+In file included from MaxFlowGraph.h:10:0,
+                 from Groups.h:7,
+                 from Groups.cc:2:
+GeneralFunctions.h:17:51: warning: extra ‘;’ [-pedantic]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c MaxFlowGraph.cc -o MaxFlowGraph.o
+In file included from MaxFlowGraph.h:10:0,
+                 from MaxFlowGraph.cc:1:
+GeneralFunctions.h:17:51: warning: extra ‘;’ [-pedantic]
+MaxFlowGraph.cc:147:2: warning: extra ‘;’ [-pedantic]
+MaxFlowGraph.cc: In member function ‘double MaxFlowGraph::calcTensionChangeProportional(double, int&, bool)’:
+MaxFlowGraph.cc:731:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c PenaltyGraph.cc -o PenaltyGraph.o
+In file included from PenaltyGraph.h:15:0,
+                 from PenaltyGraph.cc:1:
+GeneralFunctions.h:17:51: warning: extra ‘;’ [-pedantic]
+PenaltyGraph.cc:28:2: warning: extra ‘;’ [-pedantic]
+PenaltyGraph.cc:70:2: warning: extra ‘;’ [-pedantic]
+PenaltyGraph.cc:152:2: warning: extra ‘;’ [-pedantic]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c Scheduler.cc -o Scheduler.o
+In file included from Scheduler.h:4:0,
+                 from Scheduler.cc:2:
+GeneralFunctions.h:17:51: warning: extra ‘;’ [-pedantic]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c flsaBackwards.cc -o flsaBackwards.o
+flsaBackwards.cc: In member function ‘void FLSABackwards::calcTauDeriv(int, int, double)’:
+flsaBackwards.cc:72:7: warning: variable ‘violated’ set but not used [-Wunused-but-set-variable]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c helperFuncsSEXP.cc -o helperFuncsSEXP.o
+In file included from helperFuncsSEXP.cc:1:0:
+helperFuncsSEXP.h:14:2: warning: extra ‘;’ [-pedantic]
+In file included from helperFuncsSEXP.cc:2:0:
+GeneralFunctions.h:17:51: warning: extra ‘;’ [-pedantic]
+helperFuncsSEXP.cc:68:2: warning: extra ‘;’ [-pedantic]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c init.cc -o init.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o flsa.so FLSA.o FLSAGeneral.o FLSAGeneralMain.o GeneralFunctions.o Groups.o MaxFlowGraph.o PenaltyGraph.o Scheduler.o flsaBackwards.o helperFuncsSEXP.o init.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/flsa.Rcheck/flsa/libs
 ** R
 ** inst
 ** preparing package for lazy loading

@@ -1,5 +1,5 @@
 Rssa *  checking examples ... ERROR
-Running examples in 'Rssa-Ex.R' failed
+Running examples in ‘Rssa-Ex.R’ failed
 The error most likely occurred in:
 
 > base::assign(".ptime", proc.time(), pos = "CheckExEnv")

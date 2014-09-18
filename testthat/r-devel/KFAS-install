@@ -1,0 +1,36 @@
+* installing *source* package ‘KFAS’ ...
+** package ‘KFAS’ successfully unpacked and MD5 sums checked
+** libs
+ccache gfortran  -fpic -g -O2  -c  approx.f95 -o approx.o
+ccache gfortran  -fpic -g -O2  -c  artransform.f95 -o artransform.o
+ccache gfortran  -fpic -g -O2  -c  covmeanw.f95 -o covmeanw.o
+ccache gfortran  -fpic -g -O2  -c  deviance.f95 -o deviance.o
+ccache gfortran  -fpic -g -O2  -c  filtersimfast.f95 -o filtersimfast.o
+ccache gfortran  -fpic -g -O2  -c  gloglik.f95 -o gloglik.o
+ccache gfortran  -fpic -g -O2  -c  glogliku.f95 -o glogliku.o
+ccache gfortran  -fpic -g -O2  -c  gsmoothall.f95 -o gsmoothall.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c init.c -o init.o
+ccache gfortran  -fpic -g -O2  -c  isample.f95 -o isample.o
+ccache gfortran  -fpic -g -O2  -c  isamplefilter.f95 -o isamplefilter.o
+ccache gfortran  -fpic -g -O2  -c  kfilter.f95 -o kfilter.o
+ccache gfortran  -fpic -g -O2  -c  kfstheta.f95 -o kfstheta.o
+ccache gfortran  -fpic -g -O2  -c  ldl.f95 -o ldl.o
+ccache gfortran  -fpic -g -O2  -c  ldlssm.f95 -o ldlssm.o
+ccache gfortran  -fpic -g -O2  -c  ngfilter.f95 -o ngfilter.o
+ccache gfortran  -fpic -g -O2  -c  ngloglik.f95 -o ngloglik.o
+ccache gfortran  -fpic -g -O2  -c  ngsmooth.f95 -o ngsmooth.o
+ccache gfortran  -fpic -g -O2  -c  predict.f95 -o predict.o
+ccache gfortran  -fpic -g -O2  -c  simfilter.f95 -o simfilter.o
+ccache gfortran  -fpic -g -O2  -c  simgaussian.f95 -o simgaussian.o
+ccache gfortran  -fpic -g -O2  -c  smoothsim.f95 -o smoothsim.o
+ccache gfortran  -fpic -g -O2  -c  smoothsimfast.f95 -o smoothsimfast.o
+ccache gfortran -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o KFAS.so approx.o artransform.o covmeanw.o deviance.o filtersimfast.o gloglik.o glogliku.o gsmoothall.o init.o isample.o isamplefilter.o kfilter.o kfstheta.o ldl.o ldlssm.o ngfilter.o ngloglik.o ngsmooth.o predict.o simfilter.o simgaussian.o smoothsim.o smoothsimfast.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/KFAS.Rcheck/KFAS/libs
+** R
+** data
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (KFAS)

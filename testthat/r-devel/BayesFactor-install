@@ -1,24 +1,36 @@
-* installing *source* package 'BayesFactor' ...
-** package 'BayesFactor' successfully unpacked and MD5 sums checked
+* installing *source* package ‘BayesFactor’ ...
+** package ‘BayesFactor’ successfully unpacked and MD5 sums checked
 ** libs
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c common.c -o common.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c debug.c -o debug.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c linearReg.c -o linearReg.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c logMean.c -o logMean.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c matrix.c -o matrix.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c nWayAOV.c -o nWayAOV.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c oneWayAOV.c -o oneWayAOV.o
-gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O3 -pipe  -g  -c ttest.c -o ttest.o
-gcc -std=gnu99 -shared -o BayesFactor.so common.o debug.o linearReg.o logMean.o matrix.o nWayAOV.o oneWayAOV.o ttest.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/BayesFactor.Rcheck/BayesFactor/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c common.c -o common.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c debug.c -o debug.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c linearReg.c -o linearReg.o
+linearReg.c: In function ‘GibbsLinearReg’:
+linearReg.c:42:43: warning: unused variable ‘bTemp’ [-Wunused-variable]
+linearReg.c:39:14: warning: unused variable ‘k’ [-Wunused-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c logMean.c -o logMean.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c matrix.c -o matrix.o
+matrix.c: In function ‘quadform’:
+matrix.c:43:27: warning: unused variable ‘j’ [-Wunused-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c nWayAOV.c -o nWayAOV.o
+nWayAOV.c: In function ‘jeffSamplerNwayAov’:
+nWayAOV.c:67:31: warning: unused variable ‘W’ [-Wunused-variable]
+nWayAOV.c: In function ‘RGibbsNwayAov’:
+nWayAOV.c:327:13: warning: unused variable ‘b’ [-Wunused-variable]
+nWayAOV.c:327:10: warning: unused variable ‘a’ [-Wunused-variable]
+nWayAOV.c: In function ‘GibbsNwayAov’:
+nWayAOV.c:371:10: warning: unused variable ‘g1’ [-Wunused-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c oneWayAOV.c -o oneWayAOV.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c ttest.c -o ttest.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o BayesFactor.so common.o debug.o linearReg.o logMean.o matrix.o nWayAOV.o oneWayAOV.o ttest.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/BayesFactor.Rcheck/BayesFactor/libs
 ** R
 ** data
 ** inst
 ** preparing package for lazy loading
-Creating a generic function for 'summary' from package 'base' in package 'BayesFactor'
-Creating a generic function for 't' from package 'base' in package 'BayesFactor'
-Creating a generic function for 'which.max' from package 'base' in package 'BayesFactor'
-Creating a generic function for 'which.min' from package 'base' in package 'BayesFactor'
+Creating a generic function for ‘summary’ from package ‘base’ in package ‘BayesFactor’
+Creating a generic function for ‘t’ from package ‘base’ in package ‘BayesFactor’
+Creating a generic function for ‘which.max’ from package ‘base’ in package ‘BayesFactor’
+Creating a generic function for ‘which.min’ from package ‘base’ in package ‘BayesFactor’
 ** help
 *** installing help indices
 ** building package indices

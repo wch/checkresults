@@ -1,0 +1,63 @@
+* installing *source* package ‘phylobase’ ...
+** package ‘phylobase’ successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c GetNCL.cpp -o GetNCL.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c RcppExports.cpp -o RcppExports.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c ancestors.c -o ancestors.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c checkPhylo4.cpp -o checkPhylo4.o
+checkPhylo4.cpp: In function ‘Rcpp::List checkTreeCpp(Rcpp::S4, Rcpp::List)’:
+checkPhylo4.cpp:300:9: warning: unused variable ‘nLabel’ [-Wunused-variable]
+checkPhylo4.cpp:301:9: warning: unused variable ‘nEdLabel’ [-Wunused-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c descendants.c -o descendants.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxsassumptionsblock.cpp -o nxsassumptionsblock.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxsblock.cpp -o nxsblock.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxscharactersblock.cpp -o nxscharactersblock.o
+nxscharactersblock.cpp: In static member function ‘static NxsCharactersBlock* NxsCharactersBlock::NewCodonsCharactersBlock(const NxsCharactersBlock*, bool, bool, bool, const std::list<int>*, NxsCharactersBlock**)’:
+nxscharactersblock.cpp:1306:39: warning: variable ‘endNucIt’ set but not used [-Wunused-but-set-variable]
+nxscharactersblock.cpp: In member function ‘virtual void NxsCharactersBlock::HandleFormat(NxsToken&)’:
+nxscharactersblock.cpp:1975:25: warning: variable ‘numDefStates’ set but not used [-Wunused-but-set-variable]
+nxscharactersblock.cpp: In member function ‘virtual void NxsCharactersBlock::HandleStdMatrix(NxsToken&)’:
+nxscharactersblock.cpp:4102:21: warning: variable ‘ftContRowPtr’ set but not used [-Wunused-but-set-variable]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxscxxdiscretematrix.cpp -o nxscxxdiscretematrix.o
+nxscxxdiscretematrix.cpp: In function ‘unsigned int NxsCompressDiscreteMatrix(const NxsCXXDiscreteMatrix&, std::set<NxsCharacterPattern>&, std::vector<const NxsCharacterPattern*>*, const NxsUnsignedSet*, const NxsUnsignedSet*)’:
+nxscxxdiscretematrix.cpp:137:7: warning: variable ‘weightsSpecified’ set but not used [-Wunused-but-set-variable]
+nxscxxdiscretematrix.cpp:138:7: warning: variable ‘weightsAsInts’ set but not used [-Wunused-but-set-variable]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxsdatablock.cpp -o nxsdatablock.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxsdistancedatum.cpp -o nxsdistancedatum.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxsdistancesblock.cpp -o nxsdistancesblock.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxsemptyblock.cpp -o nxsemptyblock.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxsexception.cpp -o nxsexception.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxsmultiformat.cpp -o nxsmultiformat.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxspublicblocks.cpp -o nxspublicblocks.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxsreader.cpp -o nxsreader.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxssetreader.cpp -o nxssetreader.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxsstring.cpp -o nxsstring.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxstaxablock.cpp -o nxstaxablock.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxstoken.cpp -o nxstoken.o
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxstreesblock.cpp -o nxstreesblock.o
+nxstreesblock.cpp: In member function ‘std::vector<std::vector<int> > NxsSimpleTree::GetIntPathDistances(bool) const’:
+nxstreesblock.cpp:357:25: warning: variable ‘iRow’ set but not used [-Wunused-but-set-variable]
+nxstreesblock.cpp:358:25: warning: variable ‘jRow’ set but not used [-Wunused-but-set-variable]
+nxstreesblock.cpp: In member function ‘std::vector<std::vector<double> > NxsSimpleTree::GetDblPathDistances(bool) const’:
+nxstreesblock.cpp:469:25: warning: variable ‘iRow’ set but not used [-Wunused-but-set-variable]
+nxstreesblock.cpp:470:25: warning: variable ‘jRow’ set but not used [-Wunused-but-set-variable]
+ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nxsunalignedblock.cpp -o nxsunalignedblock.o
+nxsunalignedblock.cpp: In member function ‘virtual void NxsUnalignedBlock::HandleFormat(NxsToken&)’:
+nxsunalignedblock.cpp:330:25: warning: variable ‘numDefStates’ set but not used [-Wunused-but-set-variable]
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c phyloXX.c -o phyloXX.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c reorderBinary.c -o reorderBinary.o
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c reorderRobust.c -o reorderRobust.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o phylobase.so GetNCL.o RcppExports.o ancestors.o checkPhylo4.o descendants.o nxsassumptionsblock.o nxsblock.o nxscharactersblock.o nxscxxdiscretematrix.o nxsdatablock.o nxsdistancedatum.o nxsdistancesblock.o nxsemptyblock.o nxsexception.o nxsmultiformat.o nxspublicblocks.o nxsreader.o nxssetreader.o nxsstring.o nxstaxablock.o nxstoken.o nxstreesblock.o nxsunalignedblock.o phyloXX.o reorderBinary.o reorderRobust.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/phylobase.Rcheck/phylobase/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Creating a new generic function for ‘edges’ in package ‘phylobase’
+Creating a generic function for ‘plot’ from package ‘graphics’ in package ‘phylobase’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (phylobase)

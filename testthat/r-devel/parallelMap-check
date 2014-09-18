@@ -1,20 +1,20 @@
-* using log directory '/mnt/tmp/RtmpBCY3Yb/check_cranfc51c156e5a/parallelMap.Rcheck'
-* using R version 3.0.2 (2013-09-25)
-* using platform: x86_64-pc-linux-gnu (64-bit)
-* using session charset: ASCII
-* using option '--no-codoc'
-* checking for file 'parallelMap/DESCRIPTION' ... OK
-* this is package 'parallelMap' version '1.0-83'
+* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/parallelMap.Rcheck’
+* using R Under development (unstable) (2014-09-17 r66626)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘parallelMap/DESCRIPTION’ ... OK
+* this is package ‘parallelMap’ version ‘1.1’
 * checking package namespace information ... OK
 * checking package dependencies ... NOTE
-Package suggested but not available for checking: 'Rmpi'
+Package suggested but not available for checking: ‘Rmpi’
 * checking if this is a source package ... OK
 * checking if there is a namespace ... OK
 * checking for executable files ... OK
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package 'parallelMap' can be installed ... OK
+* checking whether package ‘parallelMap’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -34,11 +34,42 @@ Package suggested but not available for checking: 'Rmpi'
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+exportToSlavePkgParallel: no visible global function definition for
+  ‘clusterCall’
+mcmapply_fixed: no visible global function definition for ‘mclapply’
+parallelLibrary: no visible global function definition for
+  ‘clusterEvalQ’
+parallelMap: no visible global function definition for ‘clusterMap’
+parallelMap: no visible global function definition for ‘makeRegistry’
+parallelMap: no visible global function definition for ‘batchMap’
+parallelMap: no visible global function definition for ‘submitJobs’
+parallelMap: no visible global function definition for ‘waitForJobs’
+parallelMap: no visible global function definition for ‘findTerminated’
+parallelMap: no visible global function definition for ‘getLogFiles’
+parallelMap: no visible global function definition for ‘getJobIds’
+parallelMap: no visible global function definition for ‘findErrors’
+parallelMap: no visible global function definition for ‘findExpired’
+parallelMap: no visible global function definition for ‘findDone’
+parallelMap: no visible global function definition for ‘findOnSystem’
+parallelMap: no visible global function definition for ‘killJobs’
+parallelMap: no visible global function definition for ‘loadResults’
+parallelSource: no visible global function definition for
+  ‘clusterEvalQ’
+parallelStart: no visible global function definition for
+  ‘makePSOCKcluster’
+parallelStart: no visible global function definition for
+  ‘setDefaultCluster’
+parallelStart: no visible global function definition for
+  ‘clusterSetRNGStream’
+parallelStop: no visible global function definition for ‘stopCluster’
+parallelStop: no visible global function definition for
+  ‘setDefaultCluster’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... NOTE
-Package unavailable to check Rd xrefs: 'Rmpi'
+Package unavailable to check Rd xrefs: ‘Rmpi’
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
@@ -46,6 +77,7 @@ Package unavailable to check Rd xrefs: 'Rmpi'
 * checking for unstated dependencies in examples ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [6s/10s] OK
-  Running 'run-all.R'
-NOTE: There were 2 notes.
+* checking tests ... [2s/10s] OK
+  Running ‘test-all.R’
+* DONE
+NOTE: There were 3 notes.
