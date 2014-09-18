@@ -9,7 +9,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protec
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c grouprunningcumsum.c -o grouprunningcumsum.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c grouprunningcumsumindex.c -o grouprunningcumsumindex.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o ffbase.so binned_sum.o binned_sumsq.o binned_tabulate.o bySum.o bySumsq.o grouprunningcumsum.o grouprunningcumsumindex.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/ffbase.Rcheck/ffbase/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/ffbase.Rcheck/ffbase/libs
 ** R
 ** inst
 ** preparing package for lazy loading

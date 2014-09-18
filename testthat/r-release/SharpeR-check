@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/SharpeR.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/SharpeR.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -59,6 +59,6 @@ packages’ of the ‘Writing R Extensions’ manual.
   Running ‘run-all.R’ [27s/27s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [57s/58s] OK
-* checking re-building of vignette outputs ... [56s/57s] OK
+* checking running R code from vignettes ... [56s/57s] OK
+* checking re-building of vignette outputs ... [51s/52s] OK
 NOTE: There was 1 note.

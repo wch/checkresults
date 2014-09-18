@@ -11,7 +11,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protec
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c soundex.c -o soundex.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o stringdist.so dl.o hamming.o jaro.o lcs.o lv.o osa.o qgram.o soundex.o utils.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/stringdist.Rcheck/stringdist/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/stringdist.Rcheck/stringdist/libs
 ** R
 ** inst
 ** preparing package for lazy loading

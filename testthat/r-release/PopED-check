@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/PopED.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/PopED.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -44,12 +44,12 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... [38s/39s] OK
+* checking examples ... [38s/38s] OK
 Examples with CPU or elapsed time > 5s
                             user system elapsed
-plot_efficiency_of_windows 6.645  0.024   6.669
-evaluate.e.ofv.fim         6.412  0.008   6.451
-ed_laplace_ofv             6.292  0.004   6.308
+plot_efficiency_of_windows 6.741  0.004   6.753
+evaluate.e.ofv.fim         6.416  0.016   6.436
+ed_laplace_ofv             6.248  0.008   6.255
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘test-all.R’

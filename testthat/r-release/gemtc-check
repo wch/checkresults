@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/gemtc.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/gemtc.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -55,8 +55,8 @@ mtc.sample: no visible global function definition for ‘BRugsFit’
 * checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [10s/10s] OK
+* checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [22s/22s] OK
-  Running ‘test.R’ [21s/22s]
+* checking tests ... [23s/23s] OK
+  Running ‘test.R’ [22s/22s]
 NOTE: There were 3 notes.

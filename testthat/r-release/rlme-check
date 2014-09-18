@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/rlme.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/rlme.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘rlme’ can be installed ... [43s/43s] OK
+* checking whether package ‘rlme’ can be installed ... [44s/44s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -51,7 +51,7 @@
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... OK
+* checking examples ... [10s/10s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [11s/11s] OK
-  Running ‘test-all.R’ [10s/10s]
+  Running ‘test-all.R’ [10s/11s]

@@ -36,7 +36,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -g -O2 -fstack
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c hbhankel.c -o hbhankel.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG     -I. -I. -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c toeplitz.c -o toeplitz.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o Rssa.so extmat.o hankel.o hbhankel.o toeplitz.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/Rssa.Rcheck/Rssa/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/Rssa.Rcheck/Rssa/libs
 ** R
 ** data
 ** inst

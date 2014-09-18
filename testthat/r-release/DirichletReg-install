@@ -1,0 +1,17 @@
+* installing *source* package ‘DirichletReg’ ...
+** package ‘DirichletReg’ successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c dirichlet.c -o dirichlet.o
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o DirichletReg.so dirichlet.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/DirichletReg.Rcheck/DirichletReg/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (DirichletReg)

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/quantspec.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/quantspec.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -53,12 +53,13 @@
 * checking examples ... [26s/28s] OK
 Examples with CPU or elapsed time > 5s
                         user system elapsed
-IntegrQuantileSD-class 6.348  0.084   6.575
-QuantilePG-class       6.088  0.076   6.184
+IntegrQuantileSD-class 6.276  0.104   6.392
+QuantilePG-class       6.112  0.048   6.254
+QuantileSD-class       5.089  0.028   5.131
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘test-all.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... [41s/41s] OK
-* checking re-building of vignette outputs ... [43s/43s] OK
+* checking re-building of vignette outputs ... [44s/44s] OK

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/BatchExperiments.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/BatchExperiments.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -63,9 +63,9 @@ packages’ of the ‘Writing R Extensions’ manual.
 * checking for unstated dependencies in examples ... OK
 * checking examples ... [16s/16s] OK
 Examples with CPU or elapsed time > 5s
-                user system elapsed
-addExperiments 6.804  0.196   7.032
+               user system elapsed
+addExperiments 6.14  0.192   6.329
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [28s/28s] OK
-  Running ‘run-all.R’ [28s/28s]
+  Running ‘run-all.R’ [27s/28s]
 NOTE: There was 1 note.

@@ -1,16 +1,16 @@
 llama *  checking tests ... ERROR
 Running the tests in ‘tests/run-all.R’ failed.
 Last 13 lines of output:
-  4: .jfindClass(as.character(class))
-  5: stop("class not found")
   
   2. Error: contributions respects minimize --------------------------------------
-  class not found
-  1: contributions(d) at test.analysis.R:10
-  2: J("shapleyComputation/CoalitionValueCalculator")
-  3: jclassName(class)
-  4: .jfindClass(as.character(class))
-  5: stop("class not found")
+  class not found1: withCallingHandlers(eval(code, new_test_environment), error = capture_calls)
+  2: eval(code, new_test_environment)
+  3: eval(expr, envir, enclos)
+  4: contributions(d) at test.analysis.R:10
+  5: J("shapleyComputation/CoalitionValueCalculator")
+  6: jclassName(class)
+  7: .jfindClass(as.character(class))
+  8: stop("class not found")
   
   Error: Test failures
   Execution halted

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/mlr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/mlr.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -53,7 +53,7 @@
 * checking examples ... [21s/21s] OK
 Examples with CPU or elapsed time > 5s
                      user system elapsed
-tuneParamsMultiCrit 6.437   0.02   6.537
+tuneParamsMultiCrit 6.305   0.02   6.353
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [45s/44s] OK
-  Running ‘run-all.R’ [44s/44s]
+* checking tests ... [45s/45s] OK
+  Running ‘run-all.R’ [45s/45s]

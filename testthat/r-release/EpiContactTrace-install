@@ -3,7 +3,7 @@
 ** libs
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c trace.cpp -o trace.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o EpiContactTrace.so trace.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/EpiContactTrace.Rcheck/EpiContactTrace/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/EpiContactTrace.Rcheck/EpiContactTrace/libs
 ** R
 ** data
 ** inst

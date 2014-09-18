@@ -61,7 +61,7 @@ config.status: creating src/external/config.h
 ** libs
 g++ -I/usr/share/R/include -DNDEBUG -I../inst/include -Iinclude -pthread      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c R_C_interface.cpp -o R_C_interface.o
 g++ -I/usr/share/R/include -DNDEBUG -I../inst/include -Iinclude -pthread      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c R_interface.cpp -o R_interface.o
-make[1]: Entering directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck/00_pkg_src/dbarts/src/dbarts'
+make[1]: Entering directory `/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/dbarts.Rcheck/00_pkg_src/dbarts/src/dbarts'
 g++ -I/usr/share/R/include -DNDEBUG -I../../inst/include -I../include -pthread  -DBART_EXACT -fpic -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c bartFit.cpp -o bartFit.o
 g++ -I/usr/share/R/include -DNDEBUG -I../../inst/include -I../include -pthread  -DBART_EXACT -fpic -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c birthDeathRule.cpp -o birthDeathRule.o
 g++ -I/usr/share/R/include -DNDEBUG -I../../inst/include -I../include -pthread  -DBART_EXACT -fpic -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c changeRule.cpp -o changeRule.o
@@ -86,8 +86,8 @@ a - state.o
 a - swapRule.o
 a - tree.o
 a - treePrior.o
-make[1]: Leaving directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck/00_pkg_src/dbarts/src/dbarts'
-make[1]: Entering directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck/00_pkg_src/dbarts/src/external'
+make[1]: Leaving directory `/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/dbarts.Rcheck/00_pkg_src/dbarts/src/dbarts'
+make[1]: Entering directory `/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/dbarts.Rcheck/00_pkg_src/dbarts/src/external'
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I../include -pthread  -fpic -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c io.c -o io.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I../include -pthread  -fpic -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c linearAlgebra.c -o linearAlgebra.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I../include -pthread  -fpic -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c moments.c -o moments.o
@@ -100,9 +100,9 @@ a - linearAlgebra.o
 a - moments.o
 a - stats.o
 a - thread.o
-make[1]: Leaving directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck/00_pkg_src/dbarts/src/external'
+make[1]: Leaving directory `/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/dbarts.Rcheck/00_pkg_src/dbarts/src/external'
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o dbarts.so R_C_interface.o R_interface.o -llapack -lblas -lgfortran -lm -lquadmath dbarts/libdbarts.a external/libexternal.a -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck/dbarts/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/dbarts.Rcheck/dbarts/libs
 ** R
 ** inst
 ** preparing package for lazy loading
@@ -111,9 +111,9 @@ installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck/dbarts/li
 ** building package indices
 ** testing if installed package can be loaded
 Error in dyn.load(file, DLLpath = DLLpath, ...) : 
-  unable to load shared object '/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck/dbarts/libs/dbarts.so':
-  /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck/dbarts/libs/dbarts.so: undefined symbol: dlassq_
+  unable to load shared object '/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/dbarts.Rcheck/dbarts/libs/dbarts.so':
+  /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/dbarts.Rcheck/dbarts/libs/dbarts.so: undefined symbol: dlassq_
 Error: loading failed
 Execution halted
 ERROR: loading failed
-* removing ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck/dbarts’
+* removing ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/dbarts.Rcheck/dbarts’

@@ -16,7 +16,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c stringcolumn.cpp -o stringcolumn.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c textutils.cpp -o textutils.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o LaF.so LaF.o column.o conversion.o csvreader.o doublecolumn.o factorcolumn.o file.o fwfreader.o intcolumn.o reader.o readermanager.o stats.o stringcolumn.o textutils.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/LaF.Rcheck/LaF/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/LaF.Rcheck/LaF/libs
 ** R
 ** inst
 ** preparing package for lazy loading

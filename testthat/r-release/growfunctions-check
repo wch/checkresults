@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/growfunctions.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/growfunctions.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘growfunctions’ can be installed ... [169s/170s] OK
+* checking whether package ‘growfunctions’ can be installed ... [170s/170s] OK
 * checking installed package size ... NOTE
   installed size is 11.6Mb
   sub-directories of 1Mb or more:
@@ -55,15 +55,16 @@
 * checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [47s/48s] OK
+* checking examples ... [48s/48s] OK
 Examples with CPU or elapsed time > 5s
                        user system elapsed
-growfunctions-package 9.132  0.024   9.230
-fit_compare           8.736  0.032   8.766
-gpdpgrow              7.345  0.020   7.365
-gmrfdpgrow            5.360  0.004   5.366
-cluster_plot          5.301  0.044   5.393
+fit_compare           9.284  0.024   9.307
+growfunctions-package 8.516  0.016   8.557
+gpdpgrow              7.749  0.008   7.784
+cluster_plot          5.265  0.048   5.351
+gmrfdpgrow            5.236  0.020   5.286
+MSPE                  5.124  0.056   5.181
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [16s/16s] OK
-  Running ‘test-all.R’ [15s/16s]
+  Running ‘test-all.R’ [15s/15s]
 NOTE: There was 1 note.

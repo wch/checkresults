@@ -10,7 +10,7 @@ Last 13 lines of output:
   
   
   1. Failure(@test-parallel.r#8): l_ply respects .parallel -----------------------
-  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.182 seconds, which is more than 0.15
+  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.183 seconds, which is more than 0.15
   
   Error: Test failures
   Execution halted

@@ -10,7 +10,7 @@ g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o sequences.so gccount.o gcco
 Error in loadNamespace(name) : there is no package called ‘RcppClassic’
 Calls: ::: ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
 Execution halted
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/sequences.Rcheck/sequences/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/sequences.Rcheck/sequences/libs
 ** R
 ** data
 ** inst

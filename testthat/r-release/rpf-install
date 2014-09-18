@@ -11,7 +11,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RcppEigen/includ
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c libifa-rpf.cpp -o libifa-rpf.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RcppEigen/include"      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c m2.cpp -o m2.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o rpf.so ba81quad.o dataframe.o diagnose.o dmvnorm.o eap.o glue.o libifa-rpf.o m2.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/rpf.Rcheck/rpf/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/rpf.Rcheck/rpf/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

@@ -8,7 +8,7 @@ g++ -I/usr/share/R/include -DNDEBUG -I.  -I"/home/ubuntu/R-lib/3.1/Rcpp/include"
 g++ -I/usr/share/R/include -DNDEBUG -I.  -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppEigen/include" -I"/home/ubuntu/R-lib/3.1/BH/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c nabo.cpp -o nabo.o
 g++ -I/usr/share/R/include -DNDEBUG -I.  -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppEigen/include" -I"/home/ubuntu/R-lib/3.1/BH/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c nabor.cpp -o nabor.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o nabor.so RcppExports.o WKNN.o brute_force_cpu.o kdtree_cpu.o nabo.o nabor.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/nabor.Rcheck/nabor/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/nabor.Rcheck/nabor/libs
 ** R
 ** data
 ** inst

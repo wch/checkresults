@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/rfigshare.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/rfigshare.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -48,9 +48,9 @@
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [9s/60s] OK
-  Running ‘test-all.R’ [9s/60s]
+* checking tests ... [9s/73s] OK
+  Running ‘test-all.R’ [9s/73s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [4s/21s] OK
-* checking re-building of vignette outputs ... [5s/22s] OK
+* checking running R code from vignettes ... [4s/22s] OK
+* checking re-building of vignette outputs ... [5s/24s] OK

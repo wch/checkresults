@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/ggplot2.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/ggplot2.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -50,12 +50,12 @@
 * checking data for ASCII and uncompressed saves ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [133s/135s] OK
+* checking examples ... [133s/133s] OK
 Examples with CPU or elapsed time > 5s
                  user system elapsed
-scale_brewer    7.808  0.004   7.903
-guide_colourbar 5.245  0.012   5.349
-geom_dotplot    5.120  0.008   5.150
+scale_brewer    7.816  0.024   7.843
+guide_colourbar 5.125  0.004   5.314
+geom_dotplot    5.020  0.016   5.038
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [15s/15s] OK
   Running ‘test-all.R’ [15s/15s]

@@ -25,7 +25,7 @@ gfortran  -fpic -g -O2  -c  simgaussian.f95 -o simgaussian.o
 gfortran  -fpic -g -O2  -c  smoothsim.f95 -o smoothsim.o
 gfortran  -fpic -g -O2  -c  smoothsimfast.f95 -o smoothsimfast.o
 gfortran -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o KFAS.so approx.o artransform.o covmeanw.o deviance.o filtersimfast.o gloglik.o glogliku.o gsmoothall.o init.o isample.o isamplefilter.o kfilter.o kfstheta.o ldl.o ldlssm.o ngfilter.o ngloglik.o ngsmooth.o predict.o simfilter.o simgaussian.o smoothsim.o smoothsimfast.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/KFAS.Rcheck/KFAS/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/KFAS.Rcheck/KFAS/libs
 ** R
 ** data
 ** preparing package for lazy loading

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/qdap.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/qdap.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘qdap’ can be installed ... [20s/21s] OK
+* checking whether package ‘qdap’ can be installed ... [21s/21s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK
@@ -51,10 +51,10 @@
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [13s/11s] OK
+* checking examples ... [13s/10s] OK
 Examples with CPU or elapsed time > 5s
                user system elapsed
-colcomb2class 7.152   0.88   6.096
+colcomb2class 6.928  0.656   5.297
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [28s/27s] OK
   Running ‘testthat.R’ [27s/26s]

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/extraTrees.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/extraTrees.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -49,8 +49,8 @@
 * checking files in ‘vignettes’ ... OK
 * checking examples ... [16s/11s] OK
 Examples with CPU or elapsed time > 5s
-           user system elapsed
-extraTrees  7.9  0.468   5.656
+            user system elapsed
+extraTrees 8.176    0.5   5.548
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... OK

@@ -12,7 +12,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -f
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c scanner.c -o scanner.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DNDEBUG     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c writer.c -o writer.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o yaml.so api.o dumper.o emitter.o implicit.o loader.o parser.o r-ext.o reader.o scanner.o writer.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/yaml.Rcheck/yaml/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/yaml.Rcheck/yaml/libs
 ** R
 ** inst
 ** preparing package for lazy loading

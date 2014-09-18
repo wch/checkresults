@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/R2admb.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/R2admb.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -64,6 +64,6 @@ See section ‘Good practice’ in ‘?attach’.
   Running ‘stderr_bug.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [11s/11s] OK
-* checking re-building of vignette outputs ... [13s/13s] OK
+* checking running R code from vignettes ... [12s/12s] OK
+* checking re-building of vignette outputs ... [14s/14s] OK
 NOTE: There was 1 note.

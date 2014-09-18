@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dils.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/dils.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘dils’ can be installed ... [10s/11s] OK
+* checking whether package ‘dils’ can be installed ... [11s/11s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -55,10 +55,10 @@ packages’ of the ‘Writing R Extensions’ manual.
 * checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [28s/28s] OK
+* checking examples ... [27s/27s] OK
 Examples with CPU or elapsed time > 5s
                              user system elapsed
-RelationStrengthSimilarity 14.141  0.028  14.187
+RelationStrengthSimilarity 13.405      0  13.426
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘run-all.R’

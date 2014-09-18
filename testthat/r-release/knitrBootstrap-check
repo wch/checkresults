@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/knitrBootstrap.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/knitrBootstrap.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -49,5 +49,5 @@
 * checking examples ... OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [14s/14s] OK
-* checking re-building of vignette outputs ... [14s/14s] OK
+* checking running R code from vignettes ... [15s/15s] OK
+* checking re-building of vignette outputs ... [13s/13s] OK

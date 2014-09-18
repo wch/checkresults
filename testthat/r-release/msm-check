@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/msm.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/msm.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘msm’ can be installed ... [15s/16s] OK
+* checking whether package ‘msm’ can be installed ... [15s/15s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK
@@ -54,11 +54,11 @@
 * checking compiled code ... OK
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
-* checking examples ... [33s/33s] OK
+* checking examples ... [34s/34s] OK
 Examples with CPU or elapsed time > 5s
               user system elapsed
-msm         17.577  0.088  17.770
-pearson.msm  6.292  0.008   6.305
+msm         17.933  0.096  18.132
+pearson.msm  6.680  0.004   6.700
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [281s/281s] OK
-  Running ‘test_base.R’ [280s/281s]
+* checking tests ... [283s/284s] OK
+  Running ‘test_base.R’ [283s/284s]

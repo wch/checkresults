@@ -16,7 +16,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protec
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c rules.c -o rules.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c which_first.c -o which_first.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o checkmate.so all_missing.o all_nchar.o any_missing.o assertions.o bounds.o checks.o cmessages.o comps.o helper.o is_integerish.o qassert.o qtest.o rules.o which_first.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/checkmate.Rcheck/checkmate/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/checkmate.Rcheck/checkmate/libs
 ** R
 ** byte-compile and prepare package for lazy loading
 ** help

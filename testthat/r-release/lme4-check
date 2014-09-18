@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/lme4.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/lme4.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘lme4’ can be installed ... [90s/92s] OK
+* checking whether package ‘lme4’ can be installed ... [89s/89s] OK
 * checking installed package size ... NOTE
   installed size is 23.7Mb
   sub-directories of 1Mb or more:
@@ -59,16 +59,16 @@
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [39s/39s] OK
+* checking examples ... [39s/40s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [421s/432s] OK
-  Running ‘AAAtest-all.R’ [51s/52s]
+* checking tests ... [416s/426s] OK
+  Running ‘AAAtest-all.R’ [52s/52s]
   Running ‘HSAURtrees.R’
   Running ‘REMLdev.R’
   Running ‘ST.R’
   Running ‘agridat_gotway.R’
-  Running ‘bootMer.R’ [8s/16s]
-  Running ‘boundary.R’ [14s/14s]
+  Running ‘bootMer.R’ [9s/16s]
+  Running ‘boundary.R’ [13s/14s]
   Running ‘condVar.R’
   Running ‘confint.R’
   Running ‘devCritFun.R’
@@ -83,7 +83,7 @@
   Running ‘fewlevels.R’
   Running ‘getME.R’
   Running ‘glmer-1.R’
-  Running ‘glmerControlPass.R’ [14s/14s]
+  Running ‘glmerControlPass.R’ [15s/15s]
   Running ‘glmerWarn.R’
   Running ‘glmmExt.R’ [15s/15s]
   Running ‘glmmWeights.R’ [13s/13s]
@@ -110,7 +110,7 @@
   Running ‘predict.R’
   Running ‘predict_basis.R’
   Running ‘predsim.R’
-  Running ‘priorWeights.R’
+  Running ‘priorWeights.R’ [13s/13s]
   Running ‘priorWeightsModComp.R’
   Running ‘profile-tst.R’
   Running ‘refit.R’

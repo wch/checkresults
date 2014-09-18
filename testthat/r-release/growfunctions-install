@@ -13,7 +13,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c lsqcluster_cpp.cpp -o lsqcluster_cpp.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utility.cpp -o utility.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o growfunctions.so dpmix.o dpmix_moves.o gen_bb.o gp.o gpbfix.o gpdpbmix.o gpdpmix.o gpdpmix_moves.o gpfix.o lsqcluster_cpp.o utility.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/growfunctions.Rcheck/growfunctions/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/growfunctions.Rcheck/growfunctions/libs
 ** R
 ** data
 ** preparing package for lazy loading

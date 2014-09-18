@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/miniCRAN.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/miniCRAN.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -52,18 +52,5 @@
 * checking examples ... OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... ERROR
-Errors in running code in vignettes:
-when running code in ‘miniCRAN.rmd’
-  ...
-
-> revolution <- c(CRAN = "http://cran.revolutionanalytics.com")
-
-> pkgList <- pkgDep(pkgs, repos = revolution, type = "source", 
-+     suggests = FALSE, )
-Warning: unable to access index for repository http://cran.revolutionanalytics.com/src/contrib
-
-  When sourcing ‘miniCRAN.R’:
-Error: Unable to retrieve available packages from CRAN
-Execution halted
-
+* checking running R code from vignettes ... [15s/19s] OK
+* checking re-building of vignette outputs ... [16s/20s] OK

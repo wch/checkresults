@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/CHNOSZ.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/CHNOSZ.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -54,14 +54,14 @@
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [35s/36s] OK
+* checking examples ... [35s/35s] OK
 Examples with CPU or elapsed time > 5s
               user system elapsed
-protein.info 6.853  0.016   6.877
+protein.info 6.889  0.008   6.914
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [36s/36s] OK
-  Running ‘test-all.R’ [35s/35s]
+* checking tests ... [34s/34s] OK
+  Running ‘test-all.R’ [34s/34s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [63s/64s] OK
-* checking re-building of vignette outputs ... [75s/82s] OK
+* checking running R code from vignettes ... [64s/64s] OK
+* checking re-building of vignette outputs ... [67s/71s] OK

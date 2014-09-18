@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dendextend.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/dendextend.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -51,10 +51,10 @@ Packages unavailable to check Rd xrefs: ‘WGCNA’, ‘moduleColor’
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [30s/30s] OK
-  Running ‘test-all.R’ [30s/30s]
+* checking tests ... [29s/30s] OK
+  Running ‘test-all.R’ [29s/29s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... [14s/14s] OK
-* checking re-building of vignette outputs ... [26s/27s] OK
+* checking re-building of vignette outputs ... [27s/27s] OK
 NOTE: There was 1 note.

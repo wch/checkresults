@@ -4,7 +4,7 @@
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c calc_texture.cpp -o calc_texture.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o glcm.so RcppExports.o calc_texture.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/glcm.Rcheck/glcm/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/glcm.Rcheck/glcm/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

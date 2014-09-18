@@ -1,16 +1,16 @@
 * installing *source* package ‘iterpc’ ...
 ** package ‘iterpc’ successfully unpacked and MD5 sums checked
 ** libs
-make[1]: Entering directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
+make[1]: Entering directory `/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
 rm -f libmbcomb.a Examples/combinations-elements Examples/combinations Examples/k-permutations-elements Examples/k-permutations Examples/multicombinations Examples/multiset-combinations-elements Examples/multiset-combinations Examples/multiset-subsets-elements Examples/multiset-subsets Examples/n-tuples Examples/partitions-elements Examples/partitions Examples/permutations-elements Examples/permutations Examples/subset-subsets Examples/subsets-elements Examples/subsets
 rm -f Src/comb-util.o Src/combination.o Src/k-permutation.o Src/multicombination.o Src/multiset-combination.o Src/multiset-subset.o Src/n-tuple.o Src/partition.o Src/permutation.o Src/subset-subset.o Src/subset.o
 rm -f 
-make[1]: Leaving directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
+make[1]: Leaving directory `/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utils/k-permutation.c -o utils/k-permutation.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c combination.cpp -o combination.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c permutation.cpp -o permutation.o
-make[1]: Entering directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
+make[1]: Entering directory `/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
 gcc -std=gnu99 -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic -I Include -c Src/comb-util.c -o Src/comb-util.o
 gcc -std=gnu99 -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic -I Include -c Src/combination.c -o Src/combination.o
 gcc -std=gnu99 -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic -I Include -c Src/k-permutation.c -o Src/k-permutation.o
@@ -23,9 +23,9 @@ gcc -std=gnu99 -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wfor
 gcc -std=gnu99 -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic -I Include -c Src/subset-subset.c -o Src/subset-subset.o
 gcc -std=gnu99 -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic -I Include -c Src/subset.c -o Src/subset.o
 ar -rcs libmbcomb.a Src/comb-util.o Src/combination.o Src/k-permutation.o Src/multicombination.o Src/multiset-combination.o Src/multiset-subset.o Src/n-tuple.o Src/partition.o Src/permutation.o Src/subset-subset.o Src/subset.o
-make[1]: Leaving directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
+make[1]: Leaving directory `/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/iterpc.Rcheck/00_pkg_src/iterpc/src/mbcomb'
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o iterpc.so utils/k-permutation.o RcppExports.o combination.o permutation.o -Lmbcomb -lmbcomb -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/iterpc.Rcheck/iterpc/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/iterpc.Rcheck/iterpc/libs
 ** R
 ** demo
 ** preparing package for lazy loading

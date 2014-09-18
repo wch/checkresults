@@ -9,7 +9,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include" -I"/home/ubuntu/R-lib/3.1/RcppArmadillo/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
 gfortran   -fpic  -g -O2  -c zgels.f -o zgels.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o cda.so array.o cd.o cda.o dispersion.o internals.o utils.o zgels.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/cda.Rcheck/cda/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/cda.Rcheck/cda/libs
 ** R
 ** data
 ** demo

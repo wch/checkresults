@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/mcIRT.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/mcIRT.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘mcIRT’ can be installed ... [73s/73s] OK
+* checking whether package ‘mcIRT’ can be installed ... [72s/72s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -55,8 +55,8 @@
 * checking examples ... [22s/22s] OK
 Examples with CPU or elapsed time > 5s
                       user system elapsed
-DDF                  7.788  0.104    7.89
-plot.standardization 4.985  0.036    5.02
+DDF                  7.612  0.076   7.694
+plot.standardization 5.057  0.028   5.094
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘test-all.R’

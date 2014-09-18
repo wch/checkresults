@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/pryr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/pryr.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -48,10 +48,10 @@
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [10s/11s] OK
+* checking examples ... [10s/10s] OK
 Examples with CPU or elapsed time > 5s
            user system elapsed
-find_uses 5.964   0.04   6.101
+find_uses 5.876  0.036   5.957
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘testthat.R’

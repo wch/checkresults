@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/optmatch.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/optmatch.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -54,7 +54,7 @@
 * checking examples ... OK
 * checking differences from ‘optmatch-Ex.Rout’ to ‘optmatch-Ex.Rout.save’ ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [38s/39s] OK
+* checking tests ... [39s/40s] OK
   Running ‘exporting-methods.R’
   Running ‘fullmatch.R’
   Comparing ‘fullmatch.Rout’ to ‘fullmatch.Rout.save’ ... OK
@@ -72,4 +72,4 @@
   Comparing ‘stratumStructure-tests.Rout’ to ‘stratumStructure-tests.Rout.save’ ... OK
   Running ‘summary.optmatch-tests.R’
   Comparing ‘summary.optmatch-tests.Rout’ to ‘summary.optmatch-tests.Rout.save’ ... OK
-  Running ‘testthat-tests.R’ [22s/22s]
+  Running ‘testthat-tests.R’ [23s/23s]

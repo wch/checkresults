@@ -28,7 +28,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_T
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS  -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c reorderBinary.c -o reorderBinary.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS  -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c reorderRobust.c -o reorderRobust.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o phylobase.so GetNCL.o RcppExports.o ancestors.o checkPhylo4.o descendants.o nxsassumptionsblock.o nxsblock.o nxscharactersblock.o nxscxxdiscretematrix.o nxsdatablock.o nxsdistancedatum.o nxsdistancesblock.o nxsemptyblock.o nxsexception.o nxsmultiformat.o nxspublicblocks.o nxsreader.o nxssetreader.o nxsstring.o nxstaxablock.o nxstoken.o nxstreesblock.o nxsunalignedblock.o phyloXX.o reorderBinary.o reorderRobust.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/phylobase.Rcheck/phylobase/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/phylobase.Rcheck/phylobase/libs
 ** R
 ** data
 ** inst

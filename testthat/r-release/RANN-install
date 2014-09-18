@@ -16,7 +16,7 @@ g++ -I/usr/share/R/include -DNDEBUG -I. -IANN -DRANN     -fpic  -g -O2 -fstack-p
 g++ -I/usr/share/R/include -DNDEBUG -I. -IANN -DRANN     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c kd_tree.cpp -o kd_tree.o
 g++ -I/usr/share/R/include -DNDEBUG -I. -IANN -DRANN     -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c kd_util.cpp -o kd_util.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o RANN.so ANN.o NN.o bd_fix_rad_search.o bd_pr_search.o bd_search.o bd_tree.o brute.o kd_dump.o kd_fix_rad_search.o kd_pr_search.o kd_search.o kd_split.o kd_tree.o kd_util.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/RANN.Rcheck/RANN/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/RANN.Rcheck/RANN/libs
 ** R
 ** inst
 ** preparing package for lazy loading

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/rsdmx.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/rsdmx.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -43,7 +43,10 @@
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... OK
+* checking examples ... [2s/11s] OK
+Examples with CPU or elapsed time > 5s
+          user system elapsed
+readSDMX 0.288   0.02   9.524
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [127s/127s] OK
-  Running ‘test-all.R’ [126s/127s]
+* checking tests ... [125s/125s] OK
+  Running ‘test-all.R’ [125s/125s]

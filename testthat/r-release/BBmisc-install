@@ -5,7 +5,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protec
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c getMaxIndex.c -o getMaxIndex.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c which_first.c -o which_first.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o BBmisc.so getMaxColRowIndex.o getMaxIndex.o which_first.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/BBmisc.Rcheck/BBmisc/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/BBmisc.Rcheck/BBmisc/libs
 ** R
 ** byte-compile and prepare package for lazy loading
 ** help

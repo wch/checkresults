@@ -1,6 +1,6 @@
 =========================================================================
-Reverse dependency check for testthat 0.8.1.0.99
-Commit 62c9f690266fb4f8ed3b49eacd4fa54f33b6eed5
+Reverse dependency check for testthat 0.9
+Commit 925ece8f625c6f455e51f6ff78ba473687f828c0
 =========================================================================
  setting  value                       
  version  R version 3.1.1 (2014-07-10)
@@ -47,6 +47,10 @@ argparse ================================================================
 
 
 arules ================================================================== 
+ 
+
+
+aRxiv =================================================================== 
  
 
 
@@ -173,9 +177,9 @@ data.table ==============================================================
 
 
 dbarts ================================================================== 
- *  checking whether package ‘dbarts’ can be installed ... [14s/19s] ERROR
+ *  checking whether package ‘dbarts’ can be installed ... [14s/17s] ERROR
 Installation failed.
-See ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/dbarts.Rcheck/00install.out’ for details. 
+See ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/dbarts.Rcheck/00install.out’ for details. 
 
 
 DBI ===================================================================== 
@@ -215,6 +219,10 @@ DiceKriging =============================================================
 
 
 dils ==================================================================== 
+ 
+
+
+DirichletReg ============================================================ 
  
 
 
@@ -799,16 +807,16 @@ llama ===================================================================
  *  checking tests ... ERROR
 Running the tests in ‘tests/run-all.R’ failed.
 Last 13 lines of output:
-  4: .jfindClass(as.character(class))
-  5: stop("class not found")
   
   2. Error: contributions respects minimize --------------------------------------
-  class not found
-  1: contributions(d) at test.analysis.R:10
-  2: J("shapleyComputation/CoalitionValueCalculator")
-  3: jclassName(class)
-  4: .jfindClass(as.character(class))
-  5: stop("class not found")
+  class not found1: withCallingHandlers(eval(code, new_test_environment), error = capture_calls)
+  2: eval(code, new_test_environment)
+  3: eval(expr, envir, enclos)
+  4: contributions(d) at test.analysis.R:10
+  5: J("shapleyComputation/CoalitionValueCalculator")
+  6: jclassName(class)
+  7: .jfindClass(as.character(class))
+  8: stop("class not found")
   
   Error: Test failures
   Execution halted 
@@ -863,20 +871,6 @@ mets ====================================================================
 
 
 miniCRAN ================================================================ 
- *  checking running R code from vignettes ... ERROR
-Errors in running code in vignettes:
-when running code in ‘miniCRAN.rmd’
-  ...
-
-> revolution <- c(CRAN = "http://cran.revolutionanalytics.com")
-
-> pkgList <- pkgDep(pkgs, repos = revolution, type = "source", 
-+     suggests = FALSE, )
-Warning: unable to access index for repository http://cran.revolutionanalytics.com/src/contrib
-
-  When sourcing ‘miniCRAN.R’:
-Error: Unable to retrieve available packages from CRAN
-Execution halted
  
 
 
@@ -952,10 +946,6 @@ nat.utils ===============================================================
  
 
 
-ndtv ==================================================================== 
- 
-
-
 needy =================================================================== 
  
 
@@ -1023,14 +1013,14 @@ optiRum =================================================================
  *  checking tests ... ERROR
 Running the tests in ‘tests/test-all.R’ failed.
 Last 13 lines of output:
-  1: generatePDF(srcpath = basepath, srcname = "datatabletest", destpath = testpath, destname = "datatabletest", 
+  4: generatePDF(srcpath = basepath, srcname = "datatabletest", destpath = testpath, destname = "datatabletest", 
          DATED = FALSE, compiler = "xelatex") at test-generatePDF.R:90
-  2: knit2pdf(input = src, output = dest, envir = envir, quiet = QUIET, clean = CLEANUP, 
+  5: knit2pdf(input = src, output = dest, envir = envir, quiet = QUIET, clean = CLEANUP, 
          ...)
-  3: tools::texi2pdf(basename(out), ...)
-  4: texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet, texi2dvi = texi2dvi, 
+  6: tools::texi2pdf(basename(out), ...)
+  7: texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet, texi2dvi = texi2dvi, 
          texinputs = texinputs, index = index)
-  5: stop(msg, domain = NA)
+  8: stop(msg, domain = NA)
   
   Error: Test failures
   In addition: Warning message:
@@ -1119,7 +1109,7 @@ Last 13 lines of output:
   
   
   1. Failure(@test-parallel.r#8): l_ply respects .parallel -----------------------
-  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.182 seconds, which is more than 0.15
+  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.183 seconds, which is more than 0.15
   
   Error: Test failures
   Execution halted 
@@ -1228,7 +1218,7 @@ RANN ====================================================================
 RAppArmor =============================================================== 
  *  checking whether package ‘RAppArmor’ can be installed ... ERROR
 Installation failed.
-See ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/RAppArmor.Rcheck/00install.out’ for details. 
+See ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/RAppArmor.Rcheck/00install.out’ for details. 
 
 
 rappdirs ================================================================ 
@@ -1472,7 +1462,7 @@ ScrabbleScore ===========================================================
 sdcTable ================================================================ 
  *  checking whether package ‘sdcTable’ can be installed ... ERROR
 Installation failed.
-See ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/sdcTable.Rcheck/00install.out’ for details. 
+See ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/sdcTable.Rcheck/00install.out’ for details. 
 
 
 sdmvspecies ============================================================= 

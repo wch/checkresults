@@ -20,7 +20,7 @@ g++ -I/usr/share/R/include -DNDEBUG -Iuchardet-0.0.1/src   -I"/home/ubuntu/R-lib
 g++ -I/usr/share/R/include -DNDEBUG -Iuchardet-0.0.1/src   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c detectEncoding.cpp -o detectEncoding.o
 (cd uchardet-0.0.1/src && \
 	(make  CXX="g++" CXXFLAGS="-g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic " AR="ar" RANLIB="ranlib"))
-make[1]: Entering directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/Ruchardet.Rcheck/00_pkg_src/Ruchardet/src/uchardet-0.0.1/src'
+make[1]: Entering directory `/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/Ruchardet.Rcheck/00_pkg_src/Ruchardet/src/uchardet-0.0.1/src'
 g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c CharDistribution.cpp -o CharDistribution.o
 g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c JpCntx.cpp -o JpCntx.o
 g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c LangBulgarianModel.cpp -o LangBulgarianModel.o
@@ -49,9 +49,9 @@ g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-securit
 g++ -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -fpic  -I. -c uchardet.cpp -o uchardet.o
 ar cr libuchardet.a CharDistribution.o JpCntx.o LangBulgarianModel.o LangCyrillicModel.o LangGreekModel.o LangHebrewModel.o LangHungarianModel.o LangThaiModel.o nsBig5Prober.o nsCharSetProber.o nsEUCJPProber.o nsEUCKRProber.o nsEUCTWProber.o nsEscCharsetProber.o nsEscSM.o nsGB2312Prober.o nsHebrewProber.o nsLatin1Prober.o nsMBCSGroupProber.o nsMBCSSM.o nsSBCSGroupProber.o nsSBCharSetProber.o nsSJISProber.o nsUTF8Prober.o nsUniversalDetector.o uchardet.o
 ranlib libuchardet.a
-make[1]: Leaving directory `/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/Ruchardet.Rcheck/00_pkg_src/Ruchardet/src/uchardet-0.0.1/src'
+make[1]: Leaving directory `/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/Ruchardet.Rcheck/00_pkg_src/Ruchardet/src/uchardet-0.0.1/src'
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o Ruchardet.so RcppExports.o detectEncoding.o -Luchardet-0.0.1/src -luchardet -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmpamuc2d/check_cran475d21502863/Ruchardet.Rcheck/Ruchardet/libs
+installing to /mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/Ruchardet.Rcheck/Ruchardet/libs
 ** R
 ** inst
 ** preparing package for lazy loading

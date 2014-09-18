@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/RAppArmor.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/RAppArmor.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -16,4 +16,4 @@
 * checking for sufficient/correct file permissions ... OK
 * checking whether package ‘RAppArmor’ can be installed ... ERROR
 Installation failed.
-See ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/RAppArmor.Rcheck/00install.out’ for details.
+See ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/RAppArmor.Rcheck/00install.out’ for details.

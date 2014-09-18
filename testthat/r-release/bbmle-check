@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmpamuc2d/check_cran475d21502863/bbmle.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpqSO5Ps/check_cran3f166063b4c2/bbmle.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -47,9 +47,9 @@
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [11s/11s] OK
+* checking examples ... [10s/10s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [53s/54s] OK
+* checking tests ... [52s/53s] OK
   Running ‘BIC.R’
   Comparing ‘BIC.Rout’ to ‘BIC.Rout.save’ ... OK
   Running ‘ICtab.R’
@@ -113,5 +113,5 @@
   Comparing ‘update.Rout’ to ‘update.Rout.save’ ... OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [28s/28s] OK
-* checking re-building of vignette outputs ... [32s/34s] OK
+* checking running R code from vignettes ... [27s/27s] OK
+* checking re-building of vignette outputs ... [31s/33s] OK
