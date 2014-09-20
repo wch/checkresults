@@ -8,7 +8,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c basics.cpp -o basics.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c estimators.cpp -o estimators.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o rotations.so CppBayesFunctions.o FisherMethod.o RcppExports.o ZhangMethod.o basics.o estimators.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rotations.Rcheck/rotations/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/rotations.Rcheck/rotations/libs
 ** R
 ** data
 ** inst

@@ -16,7 +16,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rules.c -o rules.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c which_first.c -o which_first.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o checkmate.so all_missing.o all_nchar.o any_missing.o assertions.o bounds.o checks.o cmessages.o comps.o helper.o is_integerish.o qassert.o qtest.o rules.o which_first.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/checkmate.Rcheck/checkmate/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/checkmate.Rcheck/checkmate/libs
 ** R
 ** byte-compile and prepare package for lazy loading
 ** help

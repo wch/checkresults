@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/ggplot2.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/ggplot2.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -56,18 +56,18 @@ mproject: no visible global function definition for ‘mapproject’
 * checking data for ASCII and uncompressed saves ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [169s/170s] OK
+* checking examples ... [168s/170s] OK
 Examples with CPU or elapsed time > 5s
-                  user system elapsed
-scale_brewer    10.241  0.028  10.306
-guide_colourbar  6.620  0.008   6.656
-geom_dotplot     6.397  0.000   6.415
-coord_map        5.832  0.052   5.997
-geom_line        5.800  0.016   5.850
-scale_date       5.404  0.016   5.436
+                 user system elapsed
+scale_brewer    9.933  0.016   9.961
+geom_dotplot    7.053  0.004   7.058
+coord_map       6.160  0.040   6.225
+guide_colourbar 6.144  0.004   6.151
+geom_line       5.868  0.004   6.083
+scale_date      5.328  0.012   5.366
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [20s/20s] OK
-  Running ‘test-all.R’ [19s/19s]
+  Running ‘test-all.R’ [19s/20s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... OK

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/aidar.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/aidar.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -101,12 +101,12 @@ getYStats: no visible global function definition for ‘xmlGetAttr’
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking examples ... [23s/23s] OK
+* checking examples ... [21s/21s] OK
 Examples with CPU or elapsed time > 5s
            user system elapsed
-getTuple 14.377  0.152  14.532
+getTuple 13.025  0.128   13.15
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [24s/24s] OK
-  Running ‘run-all.R’ [23s/23s]
+* checking tests ... [23s/23s] OK
+  Running ‘run-all.R’ [22s/23s]
 * DONE
 NOTE: There were 2 notes.

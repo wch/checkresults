@@ -15,7 +15,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 grouprunningcumsumindex.c: In function ‘grouprunningcumsumindex’:
 grouprunningcumsumindex.c:15:19: warning: unused variable ‘xinit’ [-Wunused-variable]
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o ffbase.so binned_sum.o binned_sumsq.o binned_tabulate.o bySum.o bySumsq.o grouprunningcumsum.o grouprunningcumsumindex.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/ffbase.Rcheck/ffbase/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/ffbase.Rcheck/ffbase/libs
 ** R
 ** inst
 ** preparing package for lazy loading

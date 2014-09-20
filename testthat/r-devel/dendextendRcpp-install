@@ -8,7 +8,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c is_functions.cpp -o is_functions.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c labels_dendrogram.cpp -o labels_dendrogram.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o dendextendRcpp.so RcppExports.o cut_lower.o get_branches_heights.o heights_per_k.o is_functions.o labels_dendrogram.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dendextendRcpp.Rcheck/dendextendRcpp/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/dendextendRcpp.Rcheck/dendextendRcpp/libs
 ** R
 ** inst
 ** preparing package for lazy loading

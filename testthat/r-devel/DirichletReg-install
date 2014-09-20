@@ -1,0 +1,23 @@
+* installing *source* package ‘DirichletReg’ ...
+** package ‘DirichletReg’ successfully unpacked and MD5 sums checked
+** libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c dirichlet.c -o dirichlet.o
+ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o DirichletReg.so dirichlet.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/DirichletReg.Rcheck/DirichletReg/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in rgl.init(initValue, onlyNULL) :
+  RGL: unable to open X11 display
+Warning in fun(libname, pkgname) : error in rgl_init
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+Warning in rgl.init(initValue, onlyNULL) :
+  RGL: unable to open X11 display
+Warning in fun(libname, pkgname) : error in rgl_init
+* DONE (DirichletReg)

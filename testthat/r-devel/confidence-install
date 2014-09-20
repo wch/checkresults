@@ -1,0 +1,16 @@
+* installing *source* package ‘confidence’ ...
+** package ‘confidence’ successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+Warning in fun(libname, pkgname) :
+  no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+Warning in fun(libname, pkgname) :
+  no DISPLAY variable so Tk is not available
+* DONE (confidence)

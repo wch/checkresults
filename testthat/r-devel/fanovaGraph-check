@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/fanovaGraph.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/fanovaGraph.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -56,14 +56,14 @@ plotTk: no visible global function definition for ‘tklabel’
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [36s/37s] OK
+* checking examples ... [37s/37s] OK
 Examples with CPU or elapsed time > 5s
                           user system elapsed
-predictAdditive         11.209  0.004  11.214
-kmAdditive              11.112  0.040  11.260
-thresholdIdentification  8.177  0.000   8.184
+predictAdditive         11.073  0.004  11.089
+kmAdditive              11.024  0.032  11.199
+thresholdIdentification  8.933  0.000   8.932
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [33s/33s] OK
+* checking tests ... [32s/33s] OK
   Running ‘run-all.R’ [32s/32s]
 * DONE
 NOTE: There were 2 notes.

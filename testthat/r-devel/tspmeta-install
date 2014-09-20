@@ -3,7 +3,7 @@
 ** libs
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c fast_two_opt.c -o fast_two_opt.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o tspmeta.so fast_two_opt.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/tspmeta.Rcheck/tspmeta/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/tspmeta.Rcheck/tspmeta/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading

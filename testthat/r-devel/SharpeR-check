@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/SharpeR.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/SharpeR.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -57,10 +57,10 @@ as.sr.timeSeries: no visible global function definition for ‘as.xts’
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [38s/38s] OK
-  Running ‘run-all.R’ [38s/38s]
+  Running ‘run-all.R’ [37s/38s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [75s/76s] OK
-* checking re-building of vignette outputs ... [68s/69s] OK
+* checking running R code from vignettes ... [74s/74s] OK
+* checking re-building of vignette outputs ... [67s/68s] OK
 * DONE
 NOTE: There were 2 notes.

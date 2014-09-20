@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/seqminer.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/seqminer.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘seqminer’ can be installed ... [37s/38s] OK
+* checking whether package ‘seqminer’ can be installed ... [37s/37s] OK
 * checking installed package size ... NOTE
   installed size is  7.1Mb
   sub-directories of 1Mb or more:

@@ -13,7 +13,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c lsqcluster_cpp.cpp -o lsqcluster_cpp.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c utility.cpp -o utility.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o growfunctions.so dpmix.o dpmix_moves.o gen_bb.o gp.o gpbfix.o gpdpbmix.o gpdpmix.o gpdpmix_moves.o gpfix.o lsqcluster_cpp.o utility.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/growfunctions.Rcheck/growfunctions/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/growfunctions.Rcheck/growfunctions/libs
 ** R
 ** data
 ** preparing package for lazy loading

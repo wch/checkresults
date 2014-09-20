@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/lme4.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/lme4.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘lme4’ can be installed ... [85s/85s] OK
+* checking whether package ‘lme4’ can be installed ... [85s/83s] OK
 * checking installed package size ... NOTE
   installed size is 26.4Mb
   sub-directories of 1Mb or more:
@@ -62,16 +62,16 @@ vcov.merMod : calc.vcov.hess: no visible global function definition for
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [103s/104s] OK
+* checking examples ... [103s/103s] OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-grouseticks     25.077  0.000  25.089
-VerbAgg         21.918  0.012  22.075
-profile-methods  5.661  0.028   5.865
-glmer            5.228  0.000   5.248
+grouseticks     25.221  0.000  25.262
+VerbAgg         21.994  0.028  22.091
+profile-methods  5.621  0.036   5.662
+glmer            5.289  0.004   5.310
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [14m/14m] OK
-  Running ‘AAAtest-all.R’ [129s/129s]
+* checking tests ... [13m/14m] OK
+  Running ‘AAAtest-all.R’ [128s/129s]
   Running ‘HSAURtrees.R’ [10s/10s]
   Running ‘REMLdev.R’
   Running ‘ST.R’
@@ -82,7 +82,7 @@ glmer            5.228  0.000   5.248
   Running ‘confint.R’ [14s/14s]
   Running ‘devCritFun.R’
   Running ‘devfunQ.R’
-  Running ‘drop.R’ [12s/13s]
+  Running ‘drop.R’ [12s/12s]
   Running ‘drop1contrasts.R’
   Running ‘dynload.R’
   Running ‘elston.R’ [11s/11s]
@@ -91,8 +91,8 @@ glmer            5.228  0.000   5.248
   Running ‘falsezero_dorie.R’
   Running ‘fewlevels.R’ [11s/11s]
   Running ‘getME.R’
-  Running ‘glmer-1.R’ [14s/14s]
-  Running ‘glmerControlPass.R’ [58s/58s]
+  Running ‘glmer-1.R’ [13s/13s]
+  Running ‘glmerControlPass.R’ [54s/54s]
   Running ‘glmerWarn.R’
   Running ‘glmmExt.R’ [47s/47s]
   Running ‘glmmWeights.R’ [35s/35s]
@@ -112,7 +112,7 @@ glmer            5.228  0.000   5.248
   Running ‘nlmer-conv.R’
   Running ‘nlmer.R’
   Comparing ‘nlmer.Rout’ to ‘nlmer.Rout.save’ ... OK
-  Running ‘offset.R’ [10s/10s]
+  Running ‘offset.R’
   Running ‘optimizer.R’
   Running ‘polytomous.R’
   Running ‘prLogistic.R’
@@ -124,7 +124,7 @@ glmer            5.228  0.000   5.248
   Running ‘profile-tst.R’ [14s/14s]
   Running ‘refit.R’
   Running ‘resids.R’
-  Running ‘respiratory.R’ [49s/49s]
+  Running ‘respiratory.R’ [48s/48s]
   Running ‘simulate.R’ [16s/16s]
   Running ‘testOptControl.R’
   Running ‘test_times.R’
@@ -136,7 +136,7 @@ glmer            5.228  0.000   5.248
   Running ‘vcov-etc.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [124s/124s] OK
+* checking running R code from vignettes ... [123s/123s] OK
 * checking re-building of vignette outputs ... NOTE
 Error in re-building vignettes:
   ...

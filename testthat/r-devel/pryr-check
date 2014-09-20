@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/pryr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/pryr.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘pryr’ can be installed ... [39s/39s] OK
+* checking whether package ‘pryr’ can be installed ... [39s/40s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -51,7 +51,7 @@
 * checking examples ... [14s/14s] OK
 Examples with CPU or elapsed time > 5s
           user system elapsed
-find_uses 7.82  0.032   7.859
+find_uses 7.98  0.032   8.023
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘testthat.R’

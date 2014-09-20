@@ -22,7 +22,7 @@ In file included from mvnfast.h:6:0,
 sitmo/sitmo.hpp: In member function ‘void sitmo::prng_engine::discard(uint64_t)’:
 sitmo/sitmo.hpp:224:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o mvnfast.so dmvnCpp.o mahaCpp.o msCpp.o rmvnCpp.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/mvnfast.Rcheck/mvnfast/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/mvnfast.Rcheck/mvnfast/libs
 ** R
 ** inst
 ** preparing package for lazy loading

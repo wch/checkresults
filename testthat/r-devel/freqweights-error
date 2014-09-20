@@ -1,0 +1,6 @@
+freqweights *  checking Rd cross-references ... WARNING
+Missing link or links in documentation object 'evaldp.Rd':
+  ‘[dplyr]{manip}’
+
+See the information in section 'Cross-references' of the 'Writing R
+Extensions' manual.

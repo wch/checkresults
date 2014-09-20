@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/growfunctions.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/growfunctions.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘growfunctions’ can be installed ... [134s/132s] OK
+* checking whether package ‘growfunctions’ can be installed ... [132s/130s] OK
 * checking installed package size ... NOTE
   installed size is  9.0Mb
   sub-directories of 1Mb or more:
@@ -66,17 +66,17 @@ Compiled code should not call entry points which might terminate R nor
 write to stdout/stderr instead of to the console, nor the C RNG.
 
 See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
-* checking examples ... [68s/68s] OK
+* checking examples ... [67s/67s] OK
 Examples with CPU or elapsed time > 5s
                         user system elapsed
-fit_compare           12.905  0.028  13.013
-growfunctions-package 12.561  0.004  12.629
-gpdpgrow               9.897  0.024   9.921
-gmrfdpgrow             7.840  0.012   7.909
-MSPE                   7.469  0.044   7.539
-cluster_plot           7.356  0.036   7.421
+fit_compare           12.589  0.028  12.651
+growfunctions-package 12.561  0.032  12.648
+gpdpgrow               9.749  0.008   9.810
+MSPE                   7.493  0.064   7.613
+gmrfdpgrow             7.464  0.012   7.493
+cluster_plot           7.296  0.052   7.387
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [21s/22s] OK
+* checking tests ... [22s/22s] OK
   Running ‘test-all.R’ [21s/21s]
 * DONE
 NOTE: There were 2 notes.

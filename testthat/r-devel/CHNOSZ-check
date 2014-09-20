@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/CHNOSZ.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/CHNOSZ.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -59,16 +59,16 @@ palply: no visible global function definition for ‘stopCluster’
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [48s/48s] OK
+* checking examples ... [47s/48s] OK
 Examples with CPU or elapsed time > 5s
-             user system elapsed
-protein.info 9.66  0.008   9.973
+              user system elapsed
+protein.info 9.668  0.008   9.688
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [46s/46s] OK
-  Running ‘test-all.R’ [46s/46s]
+  Running ‘test-all.R’ [45s/46s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [85s/85s] OK
-* checking re-building of vignette outputs ... [89s/93s] OK
+* checking running R code from vignettes ... [85s/86s] OK
+* checking re-building of vignette outputs ... [88s/92s] OK
 * DONE
 NOTE: There was 1 note.

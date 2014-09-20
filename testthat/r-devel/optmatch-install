@@ -11,7 +11,7 @@ ccache gfortran  --fixed-line-length-132 -fpic  -g -O2  -c relax4sold.f -o relax
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c smahal.c -o smahal.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c subsetInfSparseMatrix.c -o subsetInfSparseMatrix.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o optmatch.so cuseful.o distances.o map.o r_smahal.o register.o relax4s.o relax4sold.o smahal.o subsetInfSparseMatrix.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/optmatch.Rcheck/optmatch/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/optmatch.Rcheck/optmatch/libs
 ** R
 ** data
 ** demo

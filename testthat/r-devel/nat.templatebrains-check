@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/nat.templatebrains.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/nat.templatebrains.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -34,7 +34,10 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+Warning in rgl.init(initValue, onlyNULL) :
+  RGL: unable to open X11 display
+Warning in fun(libname, pkgname) : error in rgl_init
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd line widths ... OK
@@ -49,3 +52,4 @@
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... OK
 * DONE
+NOTE: There was 1 note.

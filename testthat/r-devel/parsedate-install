@@ -5,7 +5,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c mingw.c -o mingw.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rdate.c -o rdate.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o parsedate.so date.o mingw.o rdate.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/parsedate.Rcheck/parsedate/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/parsedate.Rcheck/parsedate/libs
 ** R
 ** preparing package for lazy loading
 ** help

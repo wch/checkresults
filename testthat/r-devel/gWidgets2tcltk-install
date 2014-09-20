@@ -4,8 +4,11 @@
 ** demo
 ** inst
 ** preparing package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** testing if installed package can be loaded
-* DONE (gWidgets2tcltk)
+Warning in fun(libname, pkgname) :
+  no DISPLAY variable so Tk is not available
+Error in structure(.External(.C_dotTclObjv, objv), class = "tclObj") : 
+  [tcl] invalid command name "font".
+
+Error : unable to load R code in package ‘gWidgets2tcltk’
+ERROR: lazy loading failed for package ‘gWidgets2tcltk’
+* removing ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/gWidgets2tcltk.Rcheck/gWidgets2tcltk’

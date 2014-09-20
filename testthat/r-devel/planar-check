@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/planar.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/planar.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -15,7 +15,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘planar’ can be installed ... [41s/42s] OK
+* checking whether package ‘planar’ can be installed ... [41s/41s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK
@@ -56,6 +56,6 @@
 * checking examples ... OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [41s/41s] OK
+* checking running R code from vignettes ... [40s/41s] OK
 * checking re-building of vignette outputs ... [40s/40s] OK
 * DONE

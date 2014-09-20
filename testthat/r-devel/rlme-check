@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rlme.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/rlme.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘rlme’ can be installed ... [41s/41s] OK
+* checking whether package ‘rlme’ can be installed ... [40s/40s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -54,5 +54,5 @@
 * checking examples ... [13s/13s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [16s/16s] OK
-  Running ‘test-all.R’ [15s/16s]
+  Running ‘test-all.R’ [15s/15s]
 * DONE

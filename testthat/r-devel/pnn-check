@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/pnn.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/pnn.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -52,6 +52,6 @@ smooth: no visible global function definition for ‘genoud’
 * checking examples ... [11s/11s] OK
 Examples with CPU or elapsed time > 5s
       user system elapsed
-perf 9.888  0.016  10.014
+perf 9.632  0.016   9.675
 * DONE
 NOTE: There were 2 notes.

@@ -6,7 +6,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c RcppExports.cpp -o RcppExports.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c init.c -o init.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o Kmisc.so Kmisc_c.o Kmisc_cpp.o RcppExports.o init.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/Kmisc.Rcheck/Kmisc/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/Kmisc.Rcheck/Kmisc/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading

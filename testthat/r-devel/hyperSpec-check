@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/hyperSpec.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/hyperSpec.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -126,16 +126,16 @@ sel.poly: no visible global function definition for ‘grid.lines’
 The following files look like leftovers/mistakes:
   ‘Rplots.pdf’
 Please remove them from your package.
-* checking examples ... [52s/53s] OK
+* checking examples ... [52s/52s] OK
 Examples with CPU or elapsed time > 5s
          user system elapsed
-chondro 5.401  0.036   5.435
+chondro 5.289  0.056   5.348
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘unittests.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [77s/77s] OK
-* checking re-building of vignette outputs ... [97s/104s] OK
+* checking running R code from vignettes ... [75s/76s] OK
+* checking re-building of vignette outputs ... [96s/103s] OK
 * DONE
 NOTE: There were 2 notes.

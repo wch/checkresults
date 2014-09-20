@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/plyr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/plyr.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -59,26 +59,26 @@ setup_parallel: no visible global function definition for
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [46s/47s] OK
+* checking examples ... [45s/46s] OK
 Examples with CPU or elapsed time > 5s
           user system elapsed
-baseball 7.952  0.028   7.986
-dlply    5.828  0.000   5.828
-liply    5.673  0.000   5.671
+baseball 7.960  0.048   8.018
+dlply    5.768  0.004   5.780
+liply    5.341  0.004   5.348
 * checking for unstated dependencies in tests ... OK
 * checking tests ... ERROR
 Running the tests in ‘tests/test-all.R’ failed.
 Last 13 lines of output:
-  r?ply : .................................................................................
-  List to data frame : ........................................................
-  Split data frame : ......
   Split indices : ...
   Split labels : .
   Summarise : ...
   
   
   1. Failure(@test-parallel.r#8): l_ply respects .parallel -----------------------
-  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.193000000000001 seconds, which is more than 0.15
+  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.186 seconds, which is more than 0.15
+  
+  2. Failure(@test-rbind.r#283): rbind.fill performance linear with times --------
+  p[2]/p[1] < threshold isn't true
   
   Error: Test failures
   Execution halted

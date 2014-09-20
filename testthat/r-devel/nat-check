@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/nat.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/nat.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -34,7 +34,10 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+Warning in rgl.init(initValue, onlyNULL) :
+  RGL: unable to open X11 display
+Warning in fun(libname, pkgname) : error in rgl_init
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd line widths ... OK
@@ -47,8 +50,20 @@
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... OK
-* checking for unstated dependencies in tests ... OK
-* checking tests ... [47s/54s] OK
-  Running ‘test-all.R’ [46s/53s]
-* DONE
+* checking examples ... ERROR
+Running examples in ‘nat-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: mirror
+> ### Title: Mirror 3d object about a given axis, optionally using a warping
+> ###   registration
+> ### Aliases: mirror mirror.default mirror.neuronlist
+> 
+> ### ** Examples
+> 
+> x=Cell07PNs[[1]]
+> plot3d(x,col='red')
+Error in rgl.open(useNULL) : rgl.open failed
+Calls: plot3d -> plot3d.neuron -> par3d -> open3d -> rgl.open
+Execution halted

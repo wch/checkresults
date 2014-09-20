@@ -62,7 +62,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_validate.c -o rgeos_validate.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I/usr/include -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/sp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c rgeos_wkt.c -o rgeos_wkt.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o rgeos.so dummy.o init.o local_stubs.o rgeos.o rgeos_R2geos.o rgeos_R2geosMP.o rgeos_bbox.o rgeos_buffer.o rgeos_coord.o rgeos_geos2R.o rgeos_misc.o rgeos_poly2nb.o rgeos_predicate_binary.o rgeos_predicate_unary.o rgeos_topology.o rgeos_topology_binary.o rgeos_validate.o rgeos_wkt.o -L/usr/lib -lgeos -lgeos_c -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rgeos.Rcheck/rgeos/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/rgeos.Rcheck/rgeos/libs
 ** R
 ** inst
 ** preparing package for lazy loading

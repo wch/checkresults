@@ -5,10 +5,10 @@ ccache g++ -std=c++0x -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../inst/
 ccache g++ -std=c++0x -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o RcppParallel.so options.o -L/usr/local/lib/R-devel/lib/R/lib -lR
 mkdir -p ../inst/lib
 (cd tbb/src; make tbb_release tbb_build_prefix=lib)
-make[1]: Entering directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/RcppParallel.Rcheck/00_pkg_src/RcppParallel/src/tbb/src'
+make[1]: Entering directory `/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/RcppParallel.Rcheck/00_pkg_src/RcppParallel/src/tbb/src'
 Created ../build/lib_release directory
 make -C "../build/lib_release"  -r -f ../../build/Makefile.tbb cfg=release
-make[2]: Entering directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/RcppParallel.Rcheck/00_pkg_src/RcppParallel/src/tbb/build/lib_release'
+make[2]: Entering directory `/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/RcppParallel.Rcheck/00_pkg_src/RcppParallel/src/tbb/build/lib_release'
 ../../build/Makefile.tbb:39: CONFIG: cfg=release arch=intel64 compiler=gcc target=linux runtime=cc4.6_libc2.15_kernel3.2.0
 g++ -o concurrent_hash_map.o -c -MMD -DDO_ITT_NOTIFY -g -O2 -DUSE_PTHREAD -m64  -fPIC -D__TBB_BUILD=1 -DTBB_NO_LEGACY=1 -DTBB_USE_EXCEPTIONS=0 -Wall -Wno-parentheses -Wno-non-virtual-dtor    -I../../src -I../../src/rml/include -I../../include ../../src/tbb/concurrent_hash_map.cpp
 g++ -o concurrent_queue.o -c -MMD -DDO_ITT_NOTIFY -g -O2 -DUSE_PTHREAD -m64  -fPIC -D__TBB_BUILD=1 -DTBB_NO_LEGACY=1 -DTBB_USE_EXCEPTIONS=0 -Wall -Wno-parentheses -Wno-non-virtual-dtor    -I../../src -I../../src/rml/include -I../../include ../../src/tbb/concurrent_queue.cpp
@@ -48,10 +48,10 @@ sh ../../build/generate_tbbvars.sh
 echo "INPUT (libtbb.so.2)" > libtbb.so
 g++ -E -x c++ ../../src/tbb/lin64-tbb-export.def -DDO_ITT_NOTIFY -g -O2 -DUSE_PTHREAD -m64  -fPIC -D__TBB_BUILD=1 -DTBB_NO_LEGACY=1 -DTBB_USE_EXCEPTIONS=0 -Wall -Wno-parentheses -Wno-non-virtual-dtor  -I../../src -I../../src/rml/include -I../../include > tbb.def
 g++ -fPIC -o libtbb.so.2 concurrent_hash_map.o concurrent_queue.o concurrent_vector.o dynamic_link.o itt_notify.o cache_aligned_allocator.o pipeline.o queuing_mutex.o queuing_rw_mutex.o reader_writer_lock.o spin_rw_mutex.o x86_rtm_rw_mutex.o spin_mutex.o critical_section.o mutex.o recursive_mutex.o condition_variable.o tbb_thread.o concurrent_monitor.o semaphore.o private_server.o rml_tbb.o tbb_misc.o tbb_misc_ex.o task.o task_group_context.o governor.o market.o arena.o scheduler.o observer_proxy.o tbb_statistics.o tbb_main.o    -ldl -lpthread -lrt -shared -Wl,-soname=libtbb.so.2 -m64  -Wl,--version-script,tbb.def
-make[2]: Leaving directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/RcppParallel.Rcheck/00_pkg_src/RcppParallel/src/tbb/build/lib_release'
-make[1]: Leaving directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/RcppParallel.Rcheck/00_pkg_src/RcppParallel/src/tbb/src'
+make[2]: Leaving directory `/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/RcppParallel.Rcheck/00_pkg_src/RcppParallel/src/tbb/build/lib_release'
+make[1]: Leaving directory `/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/RcppParallel.Rcheck/00_pkg_src/RcppParallel/src/tbb/src'
 cp tbb/build/lib_release/libtbb.* ../inst/lib
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/RcppParallel.Rcheck/RcppParallel/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/RcppParallel.Rcheck/RcppParallel/libs
 ** R
 ** inst
 ** preparing package for lazy loading

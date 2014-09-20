@@ -15,7 +15,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c mmIplusDP.cpp -o mmIplusDP.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c mmmult.cpp -o mmmult.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o growcurves.so DPre.o ddp.o lgm.o mmC.o mmCchol.o mmCmiar.o mmCmvplusDP.o mmCplusDP.o mmI.o mmIgroup.o mmIgroupDP.o mmIplusDP.o mmmult.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/growcurves.Rcheck/growcurves/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/growcurves.Rcheck/growcurves/libs
 ** R
 ** data
 ** inst

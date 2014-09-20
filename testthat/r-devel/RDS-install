@@ -4,7 +4,7 @@
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bsC.c -o bsC.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c getinclCstacked.c -o getinclCstacked.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o RDS.so bsC.o getinclCstacked.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/RDS.Rcheck/RDS/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/RDS.Rcheck/RDS/libs
 ** R
 ** data
 ** inst

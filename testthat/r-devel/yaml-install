@@ -38,7 +38,7 @@ scanner.c: In function ‘yaml_parser_decrease_flow_level’:
 scanner.c:1196:23: warning: variable ‘dummy_key’ set but not used [-Wunused-but-set-variable]
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DNDEBUG -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c writer.c -o writer.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o yaml.so api.o dumper.o emitter.o implicit.o loader.o parser.o r-ext.o reader.o scanner.o writer.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/yaml.Rcheck/yaml/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/yaml.Rcheck/yaml/libs
 ** R
 ** inst
 ** preparing package for lazy loading

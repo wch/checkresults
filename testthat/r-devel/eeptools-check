@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/eeptools.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/eeptools.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘eeptools’ can be installed ... [25s/25s] OK
+* checking whether package ‘eeptools’ can be installed ... [24s/24s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -48,14 +48,14 @@ moves_calc: no visible binding for global variable ‘id’
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [37s/37s] OK
+* checking examples ... [35s/35s] OK
 Examples with CPU or elapsed time > 5s
                   user system elapsed
-theme_dpi_map    6.584  0.048   6.631
-theme_dpi_map2   6.308  0.020   6.338
-theme_dpi_mapPNG 6.125  0.032   6.160
+theme_dpi_map    6.296  0.036   6.343
+theme_dpi_map2   5.952  0.040   5.991
+theme_dpi_mapPNG 5.429  0.016   5.442
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [13s/13s] OK
-  Running ‘test-all.R’ [13s/13s]
+  Running ‘test-all.R’ [12s/12s]
 * DONE
 NOTE: There was 1 note.

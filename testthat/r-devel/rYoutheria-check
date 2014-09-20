@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rYoutheria.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/rYoutheria.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -51,18 +51,6 @@
 * checking examples ... OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [26s/164s] ERROR
-Errors in running code in vignettes:
-when running code in ‘vignette.Rnw’
-  ...
-4 Myotis  daubentoni       2.09        grams
-5 Myotis daubentonii          7        grams
-6 Myotis daubentonii        8.5        grams
-
-> LynxSwiss <- getMeasurementData(measurementType = "Sexual Maturity Age", 
-+     MSW05Binomial = "Lynx lynx", country = "Switzerland", silent = TRUE)
-
-  When sourcing ‘vignette.R’:
-Error: Recv failure: Connection reset by peer
-Execution halted
-
+* checking running R code from vignettes ... [26s/37s] OK
+* checking re-building of vignette outputs ... [27s/39s] OK
+* DONE

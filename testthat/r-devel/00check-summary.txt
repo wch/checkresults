@@ -1,6 +1,6 @@
 =========================================================================
-Reverse dependency check for testthat 0.8.1.0.99
-Commit 9d189e71c4877a8f57f5fbfaf1de67f09764e1f3
+Reverse dependency check for testthat 0.9
+Commit 01ae4a9d455b63858284c55b3791af82de506fd3
 =========================================================================
  setting  value                                             
  version  R Under development (unstable) (2014-09-17 r66626)
@@ -33,7 +33,129 @@ alm =====================================================================
 
 
 analogue ================================================================ 
- 
+ *  checking examples ... ERROR
+Running examples in ‘analogue-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: Plot3d
+> ### Title: Interactive 3D plot of a principal curve in principal coordinate
+> ###   space
+> ### Aliases: Plot3d
+> ### Keywords: dynamic graphics
+> 
+> ### ** Examples
+> 
+> data(abernethy)
+> 
+> ## Remove the Depth and Age variables
+> abernethy2 <- abernethy[, -(37:38)]
+> 
+> ## Fit the principal curve using the median complexity over
+> ## all species
+> aber.pc <- prcurve(abernethy2, method = "ca", trace = TRUE,
++                    vary = FALSE, penalty = 1.4)
+
+   Determining initial DFs for each variable...
+
+  |                                                                            
+  |                                                                      |   0%
+  |                                                                            
+  |==                                                                    |   3%
+  |                                                                            
+  |====                                                                  |   6%
+  |                                                                            
+  |======                                                                |   8%
+  |                                                                            
+  |========                                                              |  11%
+  |                                                                            
+  |==========                                                            |  14%
+  |                                                                            
+  |============                                                          |  17%
+  |                                                                            
+  |==============                                                        |  19%
+  |                                                                            
+  |================                                                      |  22%
+  |                                                                            
+  |==================                                                    |  25%
+  |                                                                            
+  |===================                                                   |  28%
+  |                                                                            
+  |=====================                                                 |  31%
+  |                                                                            
+  |=======================                                               |  33%
+  |                                                                            
+  |=========================                                             |  36%
+  |                                                                            
+  |===========================                                           |  39%
+  |                                                                            
+  |=============================                                         |  42%
+  |                                                                            
+  |===============================                                       |  44%
+  |                                                                            
+  |=================================                                     |  47%
+  |                                                                            
+  |===================================                                   |  50%
+  |                                                                            
+  |=====================================                                 |  53%
+  |                                                                            
+  |=======================================                               |  56%
+  |                                                                            
+  |=========================================                             |  58%
+  |                                                                            
+  |===========================================                           |  61%
+  |                                                                            
+  |=============================================                         |  64%
+  |                                                                            
+  |===============================================                       |  67%
+  |                                                                            
+  |=================================================                     |  69%
+  |                                                                            
+  |===================================================                   |  72%
+  |                                                                            
+  |====================================================                  |  75%
+  |                                                                            
+  |======================================================                |  78%
+  |                                                                            
+  |========================================================              |  81%
+  |                                                                            
+  |==========================================================            |  83%
+  |                                                                            
+  |============================================================          |  86%
+  |                                                                            
+  |==============================================================        |  89%
+  |                                                                            
+  |================================================================      |  92%
+  |                                                                            
+  |==================================================================    |  94%
+  |                                                                            
+  |====================================================================  |  97%
+  |                                                                            
+  |======================================================================| 100%
+
+
+Fitting Principal Curve:
+
+Initial curve: d.sq: 103233.450
+Iteration   1: d.sq: 4853.791
+Iteration   2: d.sq: 5013.497
+Iteration   3: d.sq: 5109.973
+Iteration   4: d.sq: 5135.654
+Iteration   5: d.sq: 5137.944
+
+PC Converged in 5 iterations.
+
+> 
+> ## 3D plot of data with curve superimposed
+> ## plot3d.prcurve(aber.pc) # now deprecated, instead use
+> Plot3d(aber.pc)
+Loading required package: rgl
+Warning in rgl.init(initValue, onlyNULL) :
+  RGL: unable to open X11 display
+Warning in fun(libname, pkgname) : error in rgl_init
+Error in rgl.primitive("points", x, y, z, ...) : rgl_primitive
+Calls: Plot3d -> ordirgl -> rgl.points -> rgl.primitive
+Execution halted 
 
 
 argparse ================================================================ 
@@ -41,6 +163,10 @@ argparse ================================================================
 
 
 arules ================================================================== 
+ 
+
+
+aRxiv =================================================================== 
  
 
 
@@ -136,6 +262,10 @@ coenocliner =============================================================
  
 
 
+confidence ============================================================== 
+ 
+
+
 CSS ===================================================================== 
  
 
@@ -167,9 +297,9 @@ data.table ==============================================================
 
 
 dbarts ================================================================== 
- *  checking whether package ‘dbarts’ can be installed ... [11s/15s] ERROR
+ *  checking whether package ‘dbarts’ can be installed ... [11s/14s] ERROR
 Installation failed.
-See ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/00install.out’ for details. 
+See ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/dbarts.Rcheck/00install.out’ for details. 
 
 
 DBI ===================================================================== 
@@ -209,6 +339,10 @@ DiceKriging =============================================================
 
 
 dils ==================================================================== 
+ 
+
+
+DirichletReg ============================================================ 
  
 
 
@@ -605,6 +739,12 @@ formula.tools ===========================================================
 
 
 freqweights ============================================================= 
+ *  checking Rd cross-references ... WARNING
+Missing link or links in documentation object 'evaldp.Rd':
+  ‘[dplyr]{manip}’
+
+See the information in section 'Cross-references' of the 'Writing R
+Extensions' manual.
  
 
 
@@ -637,22 +777,20 @@ ggplot2 =================================================================
 
 
 ggvis =================================================================== 
- *  checking tests ... ERROR
-Running the tests in ‘tests/testthat.R’ failed.
-Last 13 lines of output:
-  976: all.equal.default(target[[i]], current[[i]], check.attributes = check.attributes, 
-         use.names = use.names, ...)
-  977: all.equal.list(target, current, ...)
-  978: attr.all.equal(target, current, ...)
-  979: all.equal(ax, ay, ..., check.attributes = check.attributes)
-  980: all.equal.list(ax, ay, ..., check.attributes = check.attributes)
-  981: attr.all.equal(target, current, ...)
-  982: all.equal.character(nx, ny, check.attributes = check.attributes)
-  983: attr.all.equal(target, current, ...)
-  984: mode(target)
-  
-  Error: Test failures
-  Execution halted 
+ *  checking examples ... ERROR
+Running examples in ‘ggvis-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: compute_stack
+> ### Title: Stack overlapping data.
+> ### Aliases: compute_stack
+> 
+> ### ** Examples
+> 
+> mtcars %>% cbind(count = 1) %>% compute_stack(~count, ~cyl)
+Error: 'lag' is not an exported object from 'namespace:dplyr'
+Execution halted 
 
 
 glcm ==================================================================== 
@@ -660,6 +798,10 @@ glcm ====================================================================
 
 
 GlobalOptions =========================================================== 
+ 
+
+
+gmailr ================================================================== 
  
 
 
@@ -684,11 +826,28 @@ gtable ==================================================================
 
 
 gWidgets2RGtk2 ========================================================== 
- 
+ *  checking tests ... ERROR
+Running the tests in ‘tests/run-tests.R’ failed.
+Last 13 lines of output:
+   9: GWindow$new(toolkit, title, visible = visible, name, width, height,     parent, handler, action, ...)
+  10: .gwindow.guiWidgetsToolkitRGtk2(toolkit, title, visible = visible,     name, width, height, parent, handler, action, ...)
+  11: .gwindow(toolkit, title, visible = visible, name, width, height,     parent, handler, action, ...)
+  12: gwindow("buttons")
+  13: eval(expr, envir, enclos)
+  14: eval(ei, envir)
+  15: withVisible(eval(ei, envir))
+  16: source(i)
+  17: FUN(c("/home/ubuntu/R-lib/3.2/gWidgets2/tests/button.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/calendar.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/checkbox.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/combobox.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/containers.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/df.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/edit.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/label.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/notebook.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/radio.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/slider.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/statusbar.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/table.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/text.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/tree.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/window.R")[[1L]], ...)
+  18: lapply(X = X, FUN = FUN, ...)
+  19: sapply(f, function(i) {    message("testing ", i)    source(i)})
+  aborting ...
+  Segmentation fault (core dumped) 
 
 
 gWidgets2tcltk ========================================================== 
- 
+ *  checking whether package ‘gWidgets2tcltk’ can be installed ... ERROR
+Installation failed.
+See ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/gWidgets2tcltk.Rcheck/00install.out’ for details. 
 
 
 harvestr ================================================================ 
@@ -870,7 +1029,7 @@ The error most likely occurred in:
 > hm(x)
 
  *** caught segfault ***
-address 0x9f53ec0, cause 'memory not mapped'
+address 0xd17b9d0, cause 'memory not mapped'
 
 Traceback:
  1: .Call("parse_hms", hms, order)
@@ -917,20 +1076,6 @@ packages’ of the ‘Writing R Extensions’ manual.
 
 
 miniCRAN ================================================================ 
- *  checking running R code from vignettes ... ERROR
-Errors in running code in vignettes:
-when running code in ‘miniCRAN.rmd’
-  ...
-
-> revolution <- c(CRAN = "http://cran.revolutionanalytics.com")
-
-> pkgList <- pkgDep(pkgs, repos = revolution, type = "source", 
-+     suggests = FALSE, )
-Warning: unable to access index for repository http://cran.revolutionanalytics.com/src/contrib
-
-  When sourcing ‘miniCRAN.R’:
-Error: Unable to retrieve available packages from CRAN
-Execution halted
  
 
 
@@ -946,9 +1091,6 @@ mlr =====================================================================
  *  checking tests ... ERROR
 Running the tests in ‘tests/run-all.R’ failed.
 Last 13 lines of output:
-  Component "env": Names: 1 string mismatch
-  Component "env": Length mismatch: comparison on first 1 components
-  Component "env": Component 1: Modes: list, NULL
   Component "env": Component 1: Lengths: 5, 0
   Component "env": Component 1: names for target but not for current
   Component "env": Component 1: Attributes: < Modes: list, NULL >
@@ -958,6 +1100,9 @@ Last 13 lines of output:
   Component "env": Component 1: current is not list-like
   
   Error: Test failures
+  In addition: Warning messages:
+  1: In rgl.init(initValue, onlyNULL) : RGL: unable to open X11 display
+  2: In fun(libname, pkgname) : error in rgl_init
   Execution halted 
 
 
@@ -970,7 +1115,33 @@ morgenstemning ==========================================================
 
 
 mosaic ================================================================== 
- 
+ *  checking examples ... ERROR
+Running examples in ‘mosaic-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: fortify.hclust
+> ### Title: mosaic tools for clustering
+> ### Aliases: fortify.hclust mplot.hclust
+> 
+> ### ** Examples
+> 
+> if (require(mosaicData)) {
++ KidsFeet %>% select(-name, -birthmonth) %>% rescale() -> KidsFeet2
++   M <- dist(KidsFeet2)
++   Cl <- hclust(M)
++   fortify(Cl, k=5) %>% head(3)
++   fortify(Cl, which="heatmap", data=KidsFeet2) %>% head(3)
++   fortify(Cl, which="data", data=KidsFeet2) %>% head(3)
++   fortify(Cl, which="labels") %>% head(3)
++   mplot(Cl, data=KidsFeet2, k=4, heatmap=2)
++   mplot(Cl, data=KidsFeet2, k=4, heatmap=0.5, enumerate="transparent")
++   mplot(Cl, data=KidsFeet2, k=4, heatmap=2, type="triangle")
++   mplot(Cl, data=KidsFeet2, k=4, heatmap=0, type="triangle")
++ }
+Loading required package: mosaicData
+Error: 'as.lazy_dots' is not an exported object from 'namespace:lazy'
+Execution halted 
 
 
 move ==================================================================== 
@@ -1013,8 +1184,66 @@ nabor ===================================================================
  
 
 
+nat.nblast ============================================================== 
+ *  checking examples ... ERROR
+Running examples in ‘nat.nblast-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: nblast
+> ### Title: Calculate similarity score for neuron morphologies
+> ### Aliases: nblast
+> 
+> ### ** Examples
+> 
+> # load sample Kenyon cell data from nat package
+> data(kcs20, package='nat')
+> # search one neuron against all neurons
+> scores=nblast(kcs20[['GadMARCM-F000142_seg002']], kcs20)
+> # scores from best to worst, top hit is of course same neuron
+> sort(scores, decreasing = TRUE)
+GadMARCM-F000142_seg002 ChaMARCM-F000586_seg002 GadMARCM-F000423_seg001 
+              4043.1766               1914.8224               1772.8506 
+GadMARCM-F000442_seg002 FruMARCM-M000115_seg001 FruMARCM-F000085_seg001 
+              1007.4565                853.8108                713.2106 
+FruMARCM-F001929_seg001 FruMARCM-F001494_seg002 GadMARCM-F000050_seg001 
+               604.4071                481.4737                480.4146 
+GadMARCM-F000071_seg001 FruMARCM-M001339_seg001 FruMARCM-F000188_seg001 
+               448.1516                433.9340                404.0470 
+GadMARCM-F000476_seg001 FruMARCM-F000270_seg001 FruMARCM-F000706_seg001 
+               313.2021                254.7516                204.2116 
+FruMARCM-M000842_seg002 FruMARCM-M001051_seg002 FruMARCM-M001205_seg002 
+               196.4543                140.8164               -251.4999 
+GadMARCM-F000122_seg001 FruMARCM-F001115_seg002 
+              -262.2352               -520.2581 
+> hist(scores, breaks=25, col='grey')
+> abline(v=1500, col='red')
+> 
+> # plot query neuron
+> open3d()
+Error in rgl.open(useNULL) : rgl.open failed
+Calls: open3d -> rgl.open
+Execution halted 
+
+
 nat ===================================================================== 
- 
+ *  checking examples ... ERROR
+Running examples in ‘nat-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: mirror
+> ### Title: Mirror 3d object about a given axis, optionally using a warping
+> ###   registration
+> ### Aliases: mirror mirror.default mirror.neuronlist
+> 
+> ### ** Examples
+> 
+> x=Cell07PNs[[1]]
+> plot3d(x,col='red')
+Error in rgl.open(useNULL) : rgl.open failed
+Calls: plot3d -> plot3d.neuron -> par3d -> open3d -> rgl.open
+Execution halted 
 
 
 nat.templatebrains ====================================================== 
@@ -1183,16 +1412,16 @@ plyr ====================================================================
  *  checking tests ... ERROR
 Running the tests in ‘tests/test-all.R’ failed.
 Last 13 lines of output:
-  r?ply : .................................................................................
-  List to data frame : ........................................................
-  Split data frame : ......
   Split indices : ...
   Split labels : .
   Summarise : ...
   
   
   1. Failure(@test-parallel.r#8): l_ply respects .parallel -----------------------
-  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.193000000000001 seconds, which is more than 0.15
+  l_ply(c(0.1, 0.1), Sys.sleep, .parallel = TRUE) took 0.186 seconds, which is more than 0.15
+  
+  2. Failure(@test-rbind.r#283): rbind.fill performance linear with times --------
+  p[2]/p[1] < threshold isn't true
   
   Error: Test failures
   Execution halted 
@@ -1259,10 +1488,10 @@ qiimer ==================================================================
 
 
 quadrupen =============================================================== 
- *  checking whether package ‘quadrupen’ can be installed ... [77s/76s] WARNING
+ *  checking whether package ‘quadrupen’ can be installed ... [76s/76s] WARNING
 Found the following significant warnings:
   /home/ubuntu/R-lib/3.2/RcppArmadillo/include/armadillo_bits/fn_norm.hpp:635:3: warning: control reaches end of non-void function [-Wreturn-type]
-See ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/quadrupen.Rcheck/00install.out’ for details. 
+See ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/quadrupen.Rcheck/00install.out’ for details. 
 
 
 Quandl ================================================================== 
@@ -1304,7 +1533,7 @@ RANN ====================================================================
 RAppArmor =============================================================== 
  *  checking whether package ‘RAppArmor’ can be installed ... ERROR
 Installation failed.
-See ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/RAppArmor.Rcheck/00install.out’ for details. 
+See ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/RAppArmor.Rcheck/00install.out’ for details. 
 
 
 rappdirs ================================================================ 
@@ -1360,7 +1589,7 @@ reshape2 ================================================================
 Found the following significant warnings:
   melt.cpp:102:1: warning: control reaches end of non-void function [-Wreturn-type]
   melt.cpp:51:1: warning: control reaches end of non-void function [-Wreturn-type]
-See ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/reshape2.Rcheck/00install.out’ for details. 
+See ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/reshape2.Rcheck/00install.out’ for details. 
 
 
 reutils ================================================================= 
@@ -1436,10 +1665,6 @@ rotations ===============================================================
 
 
 roxygen2 ================================================================ 
- 
-
-
-roxygen ================================================================= 
  
 
 
@@ -1534,20 +1759,6 @@ rvgtest =================================================================
 
 
 rYoutheria ============================================================== 
- *  checking running R code from vignettes ... [26s/164s] ERROR
-Errors in running code in vignettes:
-when running code in ‘vignette.Rnw’
-  ...
-4 Myotis  daubentoni       2.09        grams
-5 Myotis daubentonii          7        grams
-6 Myotis daubentonii        8.5        grams
-
-> LynxSwiss <- getMeasurementData(measurementType = "Sexual Maturity Age", 
-+     MSW05Binomial = "Lynx lynx", country = "Switzerland", silent = TRUE)
-
-  When sourcing ‘vignette.R’:
-Error: Recv failure: Connection reset by peer
-Execution halted
  
 
 
@@ -1566,7 +1777,7 @@ ScrabbleScore ===========================================================
 sdcTable ================================================================ 
  *  checking whether package ‘sdcTable’ can be installed ... ERROR
 Installation failed.
-See ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/sdcTable.Rcheck/00install.out’ for details. 
+See ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/sdcTable.Rcheck/00install.out’ for details. 
 
 
 sdmvspecies ============================================================= 
@@ -1742,7 +1953,40 @@ testthatsomemore ========================================================
 
 
 tidyr =================================================================== 
- 
+ *  checking examples ... ERROR
+Running examples in ‘tidyr-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: gather
+> ### Title: Gather columns into key-value pairs.
+> ### Aliases: gather
+> 
+> ### ** Examples
+> 
+> library(dplyr)
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> # From http://stackoverflow.com/questions/1181060
+> stocks <- data.frame(
++   time = as.Date('2009-01-01') + 0:9,
++   X = rnorm(10, 0, 1),
++   Y = rnorm(10, 0, 2),
++   Z = rnorm(10, 0, 4)
++ )
+> 
+> gather(stocks, stock, price, -time)
+Error: 'lazy_dots' is not an exported object from 'namespace:lazy'
+Execution halted 
 
 
 tikzDevice ============================================================== 

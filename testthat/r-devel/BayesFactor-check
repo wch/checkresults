@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/BayesFactor.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/BayesFactor.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -56,13 +56,13 @@ Package unavailable to check Rd xrefs: ‘BAS’
 * checking compiled code ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [22s/22s] OK
+* checking examples ... [21s/21s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘run-all.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [159s/160s] OK
-* checking re-building of vignette outputs ... [160s/161s] OK
+* checking running R code from vignettes ... [156s/156s] OK
+* checking re-building of vignette outputs ... [161s/162s] OK
 * DONE
 NOTE: There was 1 note.

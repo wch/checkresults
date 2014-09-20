@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/msm.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/msm.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -66,14 +66,14 @@ drlcv.msm: no visible global function definition for ‘foreach’
 * checking compiled code ... OK
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
-* checking examples ... [51s/51s] OK
+* checking examples ... [50s/50s] OK
 Examples with CPU or elapsed time > 5s
               user system elapsed
-msm         26.866  0.076  27.138
-pearson.msm  9.840  0.004   9.849
-psor         7.625  0.012   7.636
+msm         26.653  0.076  26.852
+pearson.msm 10.117  0.012  10.138
+psor         7.185  0.016   7.232
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [407s/408s] OK
-  Running ‘test_base.R’ [407s/407s]
+* checking tests ... [406s/407s] OK
+  Running ‘test_base.R’ [405s/406s]
 * DONE
 NOTE: There was 1 note.

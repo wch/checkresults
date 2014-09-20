@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/ltmle.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/ltmle.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -54,8 +54,8 @@ FixScoreEquation : FindMin: no visible global function definition for
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... [10s/10s] OK
 Examples with CPU or elapsed time > 5s
-       user system elapsed
-ltmle 5.512  0.068   5.583
+      user system elapsed
+ltmle 5.82   0.06    5.88
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [27s/27s] OK
   Running ‘test-all.R’ [26s/26s]

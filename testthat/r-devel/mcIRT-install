@@ -26,7 +26,7 @@ mue_nrmC.cpp:173:32: warning: suggest parentheses around comparison in operand o
 mue_nrmC.cpp:218:41: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
 mue_nrmC.cpp:145:34: warning: ‘ENDsk’ may be used uninitialized in this function [-Wuninitialized]
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o mcIRT.so EnelmC.o EnrmC.o RcppExports.o de1nelmC.o de1nrmC.o mue_nelmC.o mue_nrmC.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/mcIRT.Rcheck/mcIRT/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/mcIRT.Rcheck/mcIRT/libs
 ** R
 ** data
 ** inst

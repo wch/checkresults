@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/metafor.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/metafor.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘metafor’ can be installed ... [57s/57s] OK
+* checking whether package ‘metafor’ can be installed ... [56s/56s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK
@@ -65,8 +65,8 @@ rma.glmm: no visible binding for global variable ‘clogistic’
 * checking examples ... [36s/36s] OK
 Examples with CPU or elapsed time > 5s
                          user system elapsed
-llplot                  5.524  0.008   5.542
-dat.konstantopoulos2011 5.313  0.004   5.316
+llplot                  5.416  0.000   5.483
+dat.konstantopoulos2011 5.341  0.004   5.498
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [10s/10s] OK
   Running ‘test-all.R’

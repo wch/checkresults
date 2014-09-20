@@ -17,7 +17,7 @@ Morpher.cpp:110:16: warning: enumeration value ‘MaxOp’ not handled in switch
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c Resampler.cpp -o Resampler.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppArmadillo/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c main.cpp -o main.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o mmand.so Array.o Kernel.o Morpher.o Resampler.o main.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/mmand.Rcheck/mmand/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/mmand.Rcheck/mmand/libs
 ** R
 ** inst
 ** preparing package for lazy loading

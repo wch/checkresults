@@ -15,7 +15,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../inst/include -DC
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../inst/include -DCOMPILING_DPLYR -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/BH/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c test.cpp -o test.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../inst/include -DCOMPILING_DPLYR -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/BH/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c window.cpp -o window.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o dplyr.so RcppExports.o address.o arrange.o bind.o distinct.o dplyr.o filter.o init.o join.o select.o summarise.o test.o window.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dplyr.Rcheck/dplyr/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/dplyr.Rcheck/dplyr/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

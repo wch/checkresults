@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/tikzDevice.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/tikzDevice.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -58,7 +58,7 @@
   Running ‘unit_tests.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [20s/21s] OK
+* checking running R code from vignettes ... [20s/20s] OK
 * checking re-building of vignette outputs ... NOTE
 Error in re-building vignettes:
   ...

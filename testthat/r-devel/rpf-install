@@ -81,7 +81,7 @@ ba81quad.h:493:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
 ba81quad.h:518:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]
 ba81quad.h:521:0: warning: ignoring #pragma omp section [-Wunknown-pragmas]
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o rpf.so ba81quad.o dataframe.o diagnose.o dmvnorm.o eap.o glue.o libifa-rpf.o m2.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rpf.Rcheck/rpf/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/rpf.Rcheck/rpf/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

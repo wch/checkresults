@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/tourr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/tourr.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -59,12 +59,10 @@ plot.path_index: no visible global function definition for ‘labs’
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [34s/38s] OK
+* checking examples ... [30s/33s] OK
 Examples with CPU or elapsed time > 5s
-             user system elapsed
-path_dist   6.045  0.044   6.090
-path_curves 5.836  0.056   5.895
-paths_index 4.968  0.044   5.044
+           user system elapsed
+path_dist 5.265  0.052   5.318
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘test-all.R’

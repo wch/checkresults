@@ -1,0 +1,17 @@
+nat *  checking examples ... ERROR
+Running examples in ‘nat-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: mirror
+> ### Title: Mirror 3d object about a given axis, optionally using a warping
+> ###   registration
+> ### Aliases: mirror mirror.default mirror.neuronlist
+> 
+> ### ** Examples
+> 
+> x=Cell07PNs[[1]]
+> plot3d(x,col='red')
+Error in rgl.open(useNULL) : rgl.open failed
+Calls: plot3d -> plot3d.neuron -> par3d -> open3d -> rgl.open
+Execution halted

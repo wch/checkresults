@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/bbmle.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/bbmle.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -59,9 +59,9 @@ xyplot.slice : pfun: no visible global function definition for
 * checking examples ... [15s/15s] OK
 Examples with CPU or elapsed time > 5s
                    user system elapsed
-profile.mle-class 5.284      0   5.282
+profile.mle-class 5.176      0   5.177
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [73s/74s] OK
+* checking tests ... [71s/72s] OK
   Running ‘BIC.R’
   Comparing ‘BIC.Rout’ to ‘BIC.Rout.save’ ... OK
   Running ‘ICtab.R’

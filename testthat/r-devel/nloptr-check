@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/nloptr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/nloptr.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘nloptr’ can be installed ... [39s/56s] OK
+* checking whether package ‘nloptr’ can be installed ... [38s/57s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK
@@ -53,7 +53,7 @@
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [10s/11s] OK
+* checking examples ... [10s/10s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘test-all.R’

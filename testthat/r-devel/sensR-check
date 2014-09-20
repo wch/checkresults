@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/sensR.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/sensR.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘sensR’ can be installed ... [15s/15s] OK
+* checking whether package ‘sensR’ can be installed ... [14s/15s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK
@@ -51,10 +51,10 @@
 * checking examples ... [69s/72s] OK
 Examples with CPU or elapsed time > 5s
             user system elapsed
-dodPwr    47.615  0.292  50.827
-clm2twoAC  5.020  0.088   5.107
+dodPwr    48.695  0.288  51.805
+clm2twoAC  5.028  0.112   5.163
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [19s/20s] OK
+* checking tests ... [19s/19s] OK
   Running ‘betabin.R’
   Comparing ‘betabin.Rout’ to ‘betabin.Rout.save’ ... OK
   Running ‘discrim.R’
@@ -64,7 +64,7 @@ clm2twoAC  5.020  0.088   5.107
   Comparing ‘twoAC.Rout’ to ‘twoAC.Rout.save’ ... OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [12s/12s] OK
+* checking running R code from vignettes ... [13s/13s] OK
 * checking re-building of vignette outputs ... NOTE
 Error in re-building vignettes:
   ...

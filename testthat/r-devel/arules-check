@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/arules.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/arules.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -58,10 +58,10 @@
 * checking examples ... [47s/47s] OK
 Examples with CPU or elapsed time > 5s
                      user system elapsed
-random.transactions 7.113  0.148   7.272
-predict             5.088  0.228   5.353
+random.transactions 7.121  0.140   7.284
+predict             5.048  0.248   5.318
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [78s/79s] OK
+* checking tests ... [77s/77s] OK
   Running ‘associations.R’
   Comparing ‘associations.Rout’ to ‘associations.Rout.save’ ... OK
   Running ‘extract.R’ [10s/10s]
@@ -72,7 +72,7 @@ predict             5.088  0.228   5.353
   Comparing ‘itemMatrix.Rout’ to ‘itemMatrix.Rout.save’ ... OK
   Running ‘matrix.R’
   Comparing ‘matrix.Rout’ to ‘matrix.Rout.save’ ... OK
-  Running ‘measures.R’ [20s/20s]
+  Running ‘measures.R’ [19s/19s]
   Comparing ‘measures.Rout’ to ‘measures.Rout.save’ ... OK
   Running ‘sets.R’
   Comparing ‘sets.Rout’ to ‘sets.Rout.save’ ... OK
@@ -80,6 +80,6 @@ predict             5.088  0.228   5.353
   Comparing ‘transactions.Rout’ to ‘transactions.Rout.save’ ... OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [21s/21s] OK
-* checking re-building of vignette outputs ... [24s/24s] OK
+* checking running R code from vignettes ... [20s/21s] OK
+* checking re-building of vignette outputs ... [23s/24s] OK
 * DONE

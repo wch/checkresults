@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/tidyr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/tidyr.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -46,12 +46,37 @@
 * checking for unstated dependencies in examples ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... OK
-* checking for unstated dependencies in tests ... OK
-* checking tests ... OK
-  Running ‘testthat.R’
-* checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... OK
-* checking re-building of vignette outputs ... OK
-* DONE
+* checking examples ... ERROR
+Running examples in ‘tidyr-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: gather
+> ### Title: Gather columns into key-value pairs.
+> ### Aliases: gather
+> 
+> ### ** Examples
+> 
+> library(dplyr)
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> # From http://stackoverflow.com/questions/1181060
+> stocks <- data.frame(
++   time = as.Date('2009-01-01') + 0:9,
++   X = rnorm(10, 0, 1),
++   Y = rnorm(10, 0, 2),
++   Z = rnorm(10, 0, 4)
++ )
+> 
+> gather(stocks, stock, price, -time)
+Error: 'lazy_dots' is not an exported object from 'namespace:lazy'
+Execution halted

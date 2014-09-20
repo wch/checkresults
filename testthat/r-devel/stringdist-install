@@ -11,7 +11,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c soundex.c -o soundex.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c utils.c -o utils.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o stringdist.so dl.o hamming.o jaro.o lcs.o lv.o osa.o qgram.o soundex.o utils.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/stringdist.Rcheck/stringdist/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/stringdist.Rcheck/stringdist/libs
 ** R
 ** inst
 ** preparing package for lazy loading

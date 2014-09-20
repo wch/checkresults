@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/mcIRT.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/mcIRT.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘mcIRT’ can be installed ... [58s/57s] OK
+* checking whether package ‘mcIRT’ can be installed ... [58s/58s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -52,12 +52,12 @@
 * checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [34s/34s] OK
+* checking examples ... [33s/34s] OK
 Examples with CPU or elapsed time > 5s
                        user system elapsed
-DDF                  11.592  0.120  11.730
-plot.standardization  8.461  0.056   8.524
-nrm                   5.880  0.024   5.924
+DDF                  11.612  0.080  11.712
+plot.standardization  8.188  0.060   8.256
+nrm                   5.704  0.012   5.762
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [11s/11s] OK
   Running ‘test-all.R’ [10s/10s]

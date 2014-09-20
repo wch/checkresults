@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/poppr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/poppr.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -64,7 +64,7 @@ gen2polysat : <anonymous>: no visible global function definition for
   Running ‘test-all.R’ [17s/17s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [36s/36s] OK
+* checking running R code from vignettes ... [34s/35s] OK
 * checking re-building of vignette outputs ... NOTE
 Error in re-building vignettes:
   ...

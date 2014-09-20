@@ -9,7 +9,7 @@ is.active.c: In function ‘IsSpellActive_int’:
 is.active.c:28:27: warning: unused variable ‘spells_dim2’ [-Wunused-variable]
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c wtedgetree.c -o wtedgetree.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o networkDynamic.so diagnostics.o edgetree.o infection.o is.active.o wtedgetree.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/networkDynamic.Rcheck/networkDynamic/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/networkDynamic.Rcheck/networkDynamic/libs
 ** R
 ** data
 ** inst

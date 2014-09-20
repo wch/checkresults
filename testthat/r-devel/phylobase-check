@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/phylobase.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/phylobase.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘phylobase’ can be installed ... [104s/104s] OK
+* checking whether package ‘phylobase’ can be installed ... [103s/104s] OK
 * checking installed package size ... NOTE
   installed size is 17.3Mb
   sub-directories of 1Mb or more:
@@ -115,8 +115,8 @@ treePlot: no visible global function definition for ‘upViewport’
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [43s/43s] OK
-  Running ‘doRUnit.R’ [12s/12s]
+* checking tests ... [41s/41s] OK
+  Running ‘doRUnit.R’ [11s/11s]
   Running ‘misctests.R’
   Comparing ‘misctests.Rout’ to ‘misctests.Rout.save’ ... OK
   Running ‘phylo4dtests.R’

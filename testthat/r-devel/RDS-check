@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/RDS.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/RDS.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -51,12 +51,12 @@
 * checking line endings in Makefiles ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [47s/48s] OK
+* checking examples ... [47s/47s] OK
 Examples with CPU or elapsed time > 5s
                          user system elapsed
-RDS.compare.proportions 8.001  0.044   8.087
-plot.rds.data.frame     7.385  0.064   7.447
-reingold.tilford.plot   5.760  0.000   5.759
+RDS.compare.proportions 7.885  0.040   7.927
+plot.rds.data.frame     7.477  0.000   7.475
+reingold.tilford.plot   5.340  0.004   5.342
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘tests.R’

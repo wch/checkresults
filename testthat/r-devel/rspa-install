@@ -12,7 +12,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c spa.c -o spa.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c sparseConstraints.c -o sparseConstraints.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o rspa.so R_all_finite.o R_dc_spa.o R_sc_arith.o R_spa.o R_sparseConstraints.o dc_spa.o maxdist.o sc_arith.o spa.o sparseConstraints.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rspa.Rcheck/rspa/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/rspa.Rcheck/rspa/libs
 ** R
 ** inst
 ** preparing package for lazy loading

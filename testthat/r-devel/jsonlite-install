@@ -13,7 +13,7 @@ checking for gcc option to accept ISO C89... none needed
 USE_LOCAL = ""
 Minor Version: 6
 Using local libjson code. Copying files from src/libjson/Source
-/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/jsonlite.Rcheck/00_pkg_src/jsonlite
+/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/jsonlite.Rcheck/00_pkg_src/jsonlite
 JSONAllocator.cpp
 JSONChildren.cpp
 JSONDebug.cpp
@@ -199,7 +199,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -Ilibjson -Ilibjs
 rparser.c: In function ‘R_json_parser_init_from_con’:
 rparser.c:153:18: warning: ISO C forbids assignment between function pointer and ‘void *’ [-pedantic]
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o jsonlite.so ConvertUTF.o JSONAllocator.o JSONChildren.o JSONDebug.o JSONIterators.o JSONMemory.o JSONNode.o JSONNode_Mutex.o JSONPreparse.o JSONStream.o JSONValidator.o JSONWorker.o JSONWriter.o JSON_parser.o RJSON.o base64.o collapse_array.o escape_chars.o internalJSONNode.o libjson.o rlibjson.o rparser.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/jsonlite.Rcheck/jsonlite/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/jsonlite.Rcheck/jsonlite/libs
 ** R
 ** inst
 ** preparing package for lazy loading

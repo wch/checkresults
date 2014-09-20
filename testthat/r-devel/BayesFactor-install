@@ -22,7 +22,7 @@ nWayAOV.c:371:10: warning: unused variable ‘g1’ [-Wunused-variable]
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c oneWayAOV.c -o oneWayAOV.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c ttest.c -o ttest.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o BayesFactor.so common.o debug.o linearReg.o logMean.o matrix.o nWayAOV.o oneWayAOV.o ttest.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/BayesFactor.Rcheck/BayesFactor/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/BayesFactor.Rcheck/BayesFactor/libs
 ** R
 ** data
 ** inst

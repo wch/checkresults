@@ -36,7 +36,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -I. -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c hbhankel.c -o hbhankel.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -I. -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c toeplitz.c -o toeplitz.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o Rssa.so extmat.o hankel.o hbhankel.o toeplitz.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/Rssa.Rcheck/Rssa/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/Rssa.Rcheck/Rssa/libs
 ** R
 ** data
 ** inst

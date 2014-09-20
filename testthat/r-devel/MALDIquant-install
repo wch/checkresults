@@ -8,7 +8,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c morphologicalFilters.c -o morphologicalFilters.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c snip.c -o snip.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o MALDIquant.so colMedians.o init.o localMaxima.o lowerConvexHull.o morphologicalFilters.o snip.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/MALDIquant.Rcheck/MALDIquant/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/MALDIquant.Rcheck/MALDIquant/libs
 ** R
 ** data
 ** demo

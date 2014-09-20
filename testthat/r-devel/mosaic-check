@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/mosaic.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/mosaic.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -15,7 +15,7 @@ Package which this enhances but not available for checking: ‘manipulate’
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘mosaic’ can be installed ... [20s/20s] OK
+* checking whether package ‘mosaic’ can be installed ... [20s/21s] OK
 * checking installed package size ... NOTE
   installed size is  9.1Mb
   sub-directories of 1Mb or more:
@@ -54,19 +54,30 @@ Package which this enhances but not available for checking: ‘manipulate’
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [68s/68s] OK
-Examples with CPU or elapsed time > 5s
-           user system elapsed
-CIsim     5.812  0.004   5.815
-plotFun   5.185  0.032   5.217
-confint   4.568  0.508   2.678
-findZeros 5.032  0.040   5.132
-* checking for unstated dependencies in tests ... OK
-* checking tests ... [20s/21s] OK
-  Running ‘test-all.R’ [20s/20s]
-* checking for unstated dependencies in vignettes ... OK
-* checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [58s/58s] OK
-* checking re-building of vignette outputs ... [51s/52s] OK
-* DONE
-NOTE: There were 2 notes.
+* checking examples ... ERROR
+Running examples in ‘mosaic-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: fortify.hclust
+> ### Title: mosaic tools for clustering
+> ### Aliases: fortify.hclust mplot.hclust
+> 
+> ### ** Examples
+> 
+> if (require(mosaicData)) {
++ KidsFeet %>% select(-name, -birthmonth) %>% rescale() -> KidsFeet2
++   M <- dist(KidsFeet2)
++   Cl <- hclust(M)
++   fortify(Cl, k=5) %>% head(3)
++   fortify(Cl, which="heatmap", data=KidsFeet2) %>% head(3)
++   fortify(Cl, which="data", data=KidsFeet2) %>% head(3)
++   fortify(Cl, which="labels") %>% head(3)
++   mplot(Cl, data=KidsFeet2, k=4, heatmap=2)
++   mplot(Cl, data=KidsFeet2, k=4, heatmap=0.5, enumerate="transparent")
++   mplot(Cl, data=KidsFeet2, k=4, heatmap=2, type="triangle")
++   mplot(Cl, data=KidsFeet2, k=4, heatmap=0, type="triangle")
++ }
+Loading required package: mosaicData
+Error: 'as.lazy_dots' is not an exported object from 'namespace:lazy'
+Execution halted

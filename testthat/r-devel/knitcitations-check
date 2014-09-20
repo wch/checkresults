@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/knitcitations.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/knitcitations.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -48,10 +48,10 @@
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [4s/21s] OK
+* checking examples ... [4s/25s] OK
 Examples with CPU or elapsed time > 5s
        user system elapsed
-citep 0.108  0.004  15.753
+citep 0.104  0.012  18.586
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘testthat.R’

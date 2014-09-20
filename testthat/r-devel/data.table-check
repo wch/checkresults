@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/data.table.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/data.table.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -61,11 +61,11 @@ examples.IDateTime: no visible global function definition for ‘chron’
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [108s/109s] OK
+* checking tests ... [105s/106s] OK
   Running ‘autoprint.R’
   Comparing ‘autoprint.Rout’ to ‘autoprint.Rout.save’ ... OK
   Running ‘test-all.R’
-  Running ‘tests.R’ [104s/104s]
+  Running ‘tests.R’ [101s/102s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... [58s/58s] OK

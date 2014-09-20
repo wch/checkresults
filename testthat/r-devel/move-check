@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/move.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/move.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘move’ can be installed ... [18s/18s] OK
+* checking whether package ‘move’ can be installed ... [17s/17s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK
@@ -75,16 +75,16 @@ hrBootstrap,SpatialPoints: no visible global function definition for
 * checking examples ... [60s/61s] OK
 Examples with CPU or elapsed time > 5s
                      user system elapsed
-dynBGB-methods      6.188  0.124   6.363
-hrBootstrap         5.777  0.020   5.854
-brownian.bridge.dyn 5.552  0.052   5.653
+dynBGB-methods      6.164  0.136   6.340
+hrBootstrap         5.809  0.036   5.945
+brownian.bridge.dyn 5.156  0.044   5.340
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [139s/139s] OK
+* checking tests ... [138s/139s] OK
   Running ‘doRUnit.R’ [49s/49s]
-  Running ‘test-all.R’ [90s/90s]
+  Running ‘test-all.R’ [89s/89s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [59s/60s] OK
+* checking running R code from vignettes ... [58s/59s] OK
 * checking re-building of vignette outputs ... [55s/57s] OK
 * DONE
 NOTE: There was 1 note.

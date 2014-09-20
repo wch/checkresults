@@ -13,7 +13,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c slice.cpp -o slice.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c typename.cpp -o typename.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o pryr.so RcppExports.o bytes.o inspect.o object_size.o promise.o slice.o typename.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/pryr.Rcheck/pryr/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/pryr.Rcheck/pryr/libs
 ** R
 ** preparing package for lazy loading
 ** help

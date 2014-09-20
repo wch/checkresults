@@ -5,7 +5,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 matrix.c: In function ‘clear_matrix’:
 matrix.c:24:14: warning: unused variable ‘ind’ [-Wunused-variable]
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o rEMM.so matrix.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rEMM.Rcheck/rEMM/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/rEMM.Rcheck/rEMM/libs
 ** R
 ** data
 ** inst

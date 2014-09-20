@@ -6,7 +6,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 Scaling.c: In function ‘gradScale’:
 Scaling.c:83:19: warning: unused variable ‘knot’ [-Wunused-variable]
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o DiceKriging.so CovFuns.o Scaling.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/DiceKriging.Rcheck/DiceKriging/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/DiceKriging.Rcheck/DiceKriging/libs
 ** R
 ** inst
 ** preparing package for lazy loading

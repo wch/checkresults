@@ -7,7 +7,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c surveillance.c -o surveillance.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c twins.cc -o twins.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o surveillance.so backproj.o ks.o stcd-assuncaocorrea.o surveillance.o twins.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/surveillance.Rcheck/surveillance/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/surveillance.Rcheck/surveillance/libs
 ** R
 ** data
 ** demo

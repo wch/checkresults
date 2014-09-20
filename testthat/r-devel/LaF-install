@@ -16,7 +16,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c stringcolumn.cpp -o stringcolumn.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c textutils.cpp -o textutils.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o LaF.so LaF.o column.o conversion.o csvreader.o doublecolumn.o factorcolumn.o file.o fwfreader.o intcolumn.o reader.o readermanager.o stats.o stringcolumn.o textutils.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/LaF.Rcheck/LaF/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/LaF.Rcheck/LaF/libs
 ** R
 ** inst
 ** preparing package for lazy loading

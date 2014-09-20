@@ -48,7 +48,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c reorderBinary.c -o reorderBinary.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -DHAVE_INTTYPES_H -DASSERTS_TO_EXCEPTIONS -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c reorderRobust.c -o reorderRobust.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o phylobase.so GetNCL.o RcppExports.o ancestors.o checkPhylo4.o descendants.o nxsassumptionsblock.o nxsblock.o nxscharactersblock.o nxscxxdiscretematrix.o nxsdatablock.o nxsdistancedatum.o nxsdistancesblock.o nxsemptyblock.o nxsexception.o nxsmultiformat.o nxspublicblocks.o nxsreader.o nxssetreader.o nxsstring.o nxstaxablock.o nxstoken.o nxstreesblock.o nxsunalignedblock.o phyloXX.o reorderBinary.o reorderRobust.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/phylobase.Rcheck/phylobase/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/phylobase.Rcheck/phylobase/libs
 ** R
 ** data
 ** inst

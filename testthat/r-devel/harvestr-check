@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/harvestr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/harvestr.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -51,9 +51,9 @@
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [41s/41s] OK
-  Running ‘testthat-package.R’ [40s/41s]
+  Running ‘testthat-package.R’ [41s/41s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [102s/102s] OK
-* checking re-building of vignette outputs ... [103s/103s] OK
+* checking running R code from vignettes ... [100s/101s] OK
+* checking re-building of vignette outputs ... [103s/104s] OK
 * DONE

@@ -21,7 +21,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c wrappers.c -o wrappers.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o data.table.so assign.o bmerge.o chmatch.o dogroups.o fastmean.o fastradixdouble.o fastradixint.o fcast.o fmelt.o forder.o fread.o gsumm.o init.o rbindlist.o reorder.o uniqlist.o vecseq.o wrappers.o -L/usr/local/lib/R-devel/lib/R/lib -lR
 mv data.table.so datatable.so
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/data.table.Rcheck/data.table/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/data.table.Rcheck/data.table/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading

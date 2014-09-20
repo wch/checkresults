@@ -1,0 +1,39 @@
+nat.nblast *  checking examples ... ERROR
+Running examples in ‘nat.nblast-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: nblast
+> ### Title: Calculate similarity score for neuron morphologies
+> ### Aliases: nblast
+> 
+> ### ** Examples
+> 
+> # load sample Kenyon cell data from nat package
+> data(kcs20, package='nat')
+> # search one neuron against all neurons
+> scores=nblast(kcs20[['GadMARCM-F000142_seg002']], kcs20)
+> # scores from best to worst, top hit is of course same neuron
+> sort(scores, decreasing = TRUE)
+GadMARCM-F000142_seg002 ChaMARCM-F000586_seg002 GadMARCM-F000423_seg001 
+              4043.1766               1914.8224               1772.8506 
+GadMARCM-F000442_seg002 FruMARCM-M000115_seg001 FruMARCM-F000085_seg001 
+              1007.4565                853.8108                713.2106 
+FruMARCM-F001929_seg001 FruMARCM-F001494_seg002 GadMARCM-F000050_seg001 
+               604.4071                481.4737                480.4146 
+GadMARCM-F000071_seg001 FruMARCM-M001339_seg001 FruMARCM-F000188_seg001 
+               448.1516                433.9340                404.0470 
+GadMARCM-F000476_seg001 FruMARCM-F000270_seg001 FruMARCM-F000706_seg001 
+               313.2021                254.7516                204.2116 
+FruMARCM-M000842_seg002 FruMARCM-M001051_seg002 FruMARCM-M001205_seg002 
+               196.4543                140.8164               -251.4999 
+GadMARCM-F000122_seg001 FruMARCM-F001115_seg002 
+              -262.2352               -520.2581 
+> hist(scores, breaks=25, col='grey')
+> abline(v=1500, col='red')
+> 
+> # plot query neuron
+> open3d()
+Error in rgl.open(useNULL) : rgl.open failed
+Calls: open3d -> rgl.open
+Execution halted

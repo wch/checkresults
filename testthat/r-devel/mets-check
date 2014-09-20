@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/mets.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/mets.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -77,13 +77,13 @@ twostage: no visible global function definition for ‘basehaz’
 * checking compilation flags in Makevars ... OK
 * checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
 * checking compiled code ... OK
-* checking examples ... [43s/43s] OK
+* checking examples ... [42s/42s] OK
 Examples with CPU or elapsed time > 5s
                         user system elapsed
-binomial.twostage      7.120  0.036   7.258
-easy.binomial.twostage 6.592  0.020   6.640
-twinlm                 6.216  0.004   6.224
-easy.twostage          6.008  0.068   6.088
+binomial.twostage      6.936  0.032   7.065
+easy.binomial.twostage 6.652  0.028   6.706
+easy.twostage          5.964  0.052   6.047
+twinlm                 5.596  0.004   5.603
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘test-all.R’

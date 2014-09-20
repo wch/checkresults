@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/networkDynamic.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/networkDynamic.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -57,12 +57,12 @@
 * checking examples ... OK
 Examples with CPU or elapsed time > 5s
                 user system elapsed
-networkDynamic 5.172  0.028   5.214
+networkDynamic 5.116  0.024   5.146
 * checking for unstated dependencies in tests ... OK
 * checking tests ... [30s/31s] OK
   Running ‘activate_tests.R’
   Running ‘classTests.R’
-  Running ‘converter_tests.R’ [11s/11s]
+  Running ‘converter_tests.R’ [10s/11s]
   Running ‘get_tests.R’
   Running ‘network_tests.R’
   Running ‘pid_tests.R’
@@ -73,5 +73,5 @@ networkDynamic 5.172  0.028   5.214
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... [22s/22s] OK
-* checking re-building of vignette outputs ... [24s/26s] OK
+* checking re-building of vignette outputs ... [24s/25s] OK
 * DONE

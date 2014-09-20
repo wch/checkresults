@@ -89,7 +89,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -I/usr/local/include -ggdb -pipe -Wall -pedantic -fpic  -ggdb -pipe -Wall -pedantic  -c vcf2genoLoader.cpp -o vcf2genoLoader.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I. -DNDEBUG -ggdb -pipe -std=gnu99 -Wall -pedantic -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c zutil.c -o zutil.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o seqminer.so BCFReader.o Exception.o GeneLoader.o IO.o PatternMatch.o PeopleSet.o PlinkInputFile.o PlinkOutputFile.o R_CPP_interface.o RangeList.o Rannotation.o SimpleMatrix.o TypeConversion.o Utils.o VCFHeader.o VCFIndividual.o VCFInfo.o VCFInputFile.o VCFUtil.o adler32.o bcf.o bcf_index.o bcfutils.o bedidx.o bgzf.o blocksort.o bzCompress.o bz_internal_error.o bzlib.o compress.o crc32.o crctable.o decompress.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o huffman.o infback.o inffast.o inflate.o inftrees.o kstring.o randtable.o rvMetaLoader.o seqForStat.o seqminer.o tabixLoader.o tabix_index.o trees.o uncompr.o vcf.o vcf2genoLoader.o zutil.o -lz -lm -lbz2 -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/seqminer.Rcheck/seqminer/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/seqminer.Rcheck/seqminer/libs
 ** R
 ** demo
 ** inst

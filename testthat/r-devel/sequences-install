@@ -12,7 +12,7 @@ ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o sequen
 Error in loadNamespace(name) : there is no package called ‘RcppClassic’
 Calls: ::: ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
 Execution halted
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/sequences.Rcheck/sequences/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/sequences.Rcheck/sequences/libs
 ** R
 ** data
 ** inst

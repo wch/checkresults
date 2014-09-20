@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rbundler.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/rbundler.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -46,9 +46,6 @@ install_version: no visible global function definition for
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
 * checking examples ... OK
-Examples with CPU or elapsed time > 5s
-                      user system elapsed
-create_mock_packages 4.476  0.312   5.035
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘test-all.R’

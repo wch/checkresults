@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/EDISON.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/EDISON.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -47,9 +47,9 @@
 * checking examples ... [25s/25s] OK
 Examples with CPU or elapsed time > 5s
                             user system elapsed
-calculateEdgeProbabilities 8.849  0.004   8.856
-EDISON-package             6.576  0.068   6.650
+calculateEdgeProbabilities 8.749  0.000   8.754
+EDISON-package             6.496  0.044   6.539
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [23s/23s] OK
+* checking tests ... [22s/22s] OK
   Running ‘test-all.R’ [22s/22s]
 * DONE

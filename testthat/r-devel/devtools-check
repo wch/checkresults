@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/devtools.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/devtools.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -63,8 +63,8 @@ See section ‘Good practice’ in ‘?attach’.
 * checking compiled code ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [37s/42s] OK
+* checking tests ... [36s/42s] OK
   Running ‘has-devel.R’
-  Running ‘test-that.R’ [35s/40s]
+  Running ‘test-that.R’ [34s/40s]
 * DONE
 NOTE: There were 3 notes.

@@ -35,15 +35,15 @@ opened URL
 ==================================================
 downloaded 2.3 Mb
 
-configure: Starting to install library to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/nloptr.Rcheck/00_pkg_src/nloptr/nlopt-2.4.2
-configure: Done installing library to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/nloptr.Rcheck/00_pkg_src/nloptr/nlopt-2.4.2
+configure: Starting to install library to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/nloptr.Rcheck/00_pkg_src/nloptr/nlopt-2.4.2
+configure: Done installing library to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/nloptr.Rcheck/00_pkg_src/nloptr/nlopt-2.4.2
 configure: creating ./config.status
 config.status: creating src/Makevars
 ** libs
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c dummy.cpp -o dummy.o
-ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/nloptr.Rcheck/00_pkg_src/nloptr/nlopt-2.4.2/include -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c nloptr.c -o nloptr.o
-ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o nloptr.so dummy.o nloptr.o -lm /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/nloptr.Rcheck/00_pkg_src/nloptr/nlopt-2.4.2/lib/libnlopt_cxx.a -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/nloptr.Rcheck/nloptr/libs
+ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -I/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/nloptr.Rcheck/00_pkg_src/nloptr/nlopt-2.4.2/include -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c nloptr.c -o nloptr.o
+ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o nloptr.so dummy.o nloptr.o -lm /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/nloptr.Rcheck/00_pkg_src/nloptr/nlopt-2.4.2/lib/libnlopt_cxx.a -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/nloptr.Rcheck/nloptr/libs
 ** R
 ** inst
 ** preparing package for lazy loading

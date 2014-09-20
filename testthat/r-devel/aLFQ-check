@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/aLFQ.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/aLFQ.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -62,7 +62,7 @@ Package unavailable to check Rd xrefs: ‘protiq’
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [23s/23s] OK
+* checking examples ... [22s/22s] OK
 * checking differences from ‘aLFQ-Ex.Rout’ to ‘aLFQ-Ex.Rout.save’ ... OK
 
 48c48
@@ -78,9 +78,9 @@ Package unavailable to check Rd xrefs: ‘protiq’
 > randomForest 4.6-7
 Examples with CPU or elapsed time > 5s
       user system elapsed
-APEX 5.608  0.148   5.805
+APEX 5.372  0.212   5.595
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [25s/25s] OK
+* checking tests ... [24s/24s] OK
   Running ‘units.R’ [24s/24s]
 * DONE
 NOTE: There were 3 notes.

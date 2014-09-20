@@ -1,0 +1,16 @@
+gWidgets2RGtk2 *  checking tests ... ERROR
+Running the tests in ‘tests/run-tests.R’ failed.
+Last 13 lines of output:
+   9: GWindow$new(toolkit, title, visible = visible, name, width, height,     parent, handler, action, ...)
+  10: .gwindow.guiWidgetsToolkitRGtk2(toolkit, title, visible = visible,     name, width, height, parent, handler, action, ...)
+  11: .gwindow(toolkit, title, visible = visible, name, width, height,     parent, handler, action, ...)
+  12: gwindow("buttons")
+  13: eval(expr, envir, enclos)
+  14: eval(ei, envir)
+  15: withVisible(eval(ei, envir))
+  16: source(i)
+  17: FUN(c("/home/ubuntu/R-lib/3.2/gWidgets2/tests/button.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/calendar.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/checkbox.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/combobox.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/containers.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/df.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/edit.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/label.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/notebook.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/radio.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/slider.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/statusbar.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/table.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/text.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/tree.R", "/home/ubuntu/R-lib/3.2/gWidgets2/tests/window.R")[[1L]], ...)
+  18: lapply(X = X, FUN = FUN, ...)
+  19: sapply(f, function(i) {    message("testing ", i)    source(i)})
+  aborting ...
+  Segmentation fault (core dumped)

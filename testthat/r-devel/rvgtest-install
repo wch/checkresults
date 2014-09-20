@@ -3,7 +3,7 @@
 ** libs
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c bincount.c -o bincount.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o rvgtest.so bincount.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rvgtest.Rcheck/rvgtest/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/rvgtest.Rcheck/rvgtest/libs
 ** R
 ** inst
 ** preparing package for lazy loading

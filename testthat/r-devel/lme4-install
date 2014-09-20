@@ -8,7 +8,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -ggdb -pipe -Wall -pedantic  -c predModule.cpp -o predModule.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fpic  -ggdb -pipe -Wall -pedantic  -c respModule.cpp -o respModule.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o lme4.so external.o glmFamily.o mcmcsamp.o optimizer.o predModule.o respModule.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/lme4.Rcheck/lme4/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/lme4.Rcheck/lme4/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

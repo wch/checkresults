@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/sdmvspecies.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/sdmvspecies.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘sdmvspecies/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘sdmvspecies’ version ‘0.3’
+* this is package ‘sdmvspecies’ version ‘0.3.1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘sdmvspecies’ can be installed ... [12s/13s] OK
+* checking whether package ‘sdmvspecies’ can be installed ... [13s/13s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK
@@ -50,10 +50,10 @@
 * checking files in ‘vignettes’ ... OK
 * checking examples ... [16s/15s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [117s/65s] OK
-  Running ‘test-all.R’ [117s/64s]
+* checking tests ... OK
+  Running ‘test-all.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [12s/12s] OK
-* checking re-building of vignette outputs ... [33s/27s] OK
+* checking running R code from vignettes ... [15s/15s] OK
+* checking re-building of vignette outputs ... [38s/30s] OK
 * DONE

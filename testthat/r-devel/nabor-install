@@ -8,7 +8,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -I/usr/local/incl
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include" -I"/home/ubuntu/R-lib/3.2/BH/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nabo.cpp -o nabo.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I. -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include" -I"/home/ubuntu/R-lib/3.2/RcppEigen/include" -I"/home/ubuntu/R-lib/3.2/BH/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c nabor.cpp -o nabor.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o nabor.so RcppExports.o WKNN.o brute_force_cpu.o kdtree_cpu.o nabo.o nabor.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/nabor.Rcheck/nabor/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/nabor.Rcheck/nabor/libs
 ** R
 ** data
 ** inst

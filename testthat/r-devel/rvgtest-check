@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rvgtest.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/rvgtest.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -59,10 +59,10 @@ xerror : myaqdist: no visible global function definition for ‘uq’
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [13s/14s] OK
+* checking examples ... [13s/13s] OK
 Examples with CPU or elapsed time > 5s
         user system elapsed
-uerror 5.048  0.024   5.134
+uerror 4.992  0.016   5.009
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘dotestthat.R’

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/quantspec.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/quantspec.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -50,12 +50,12 @@
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [38s/42s] OK
+* checking examples ... [39s/42s] OK
 Examples with CPU or elapsed time > 5s
                         user system elapsed
-IntegrQuantileSD-class 9.392  0.084   9.807
-QuantilePG-class       9.169  0.052   9.243
-QuantileSD-class       7.868  0.012   7.892
+IntegrQuantileSD-class 9.544  0.100   9.735
+QuantilePG-class       9.313  0.052   9.396
+QuantileSD-class       8.032  0.012   8.057
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘test-all.R’

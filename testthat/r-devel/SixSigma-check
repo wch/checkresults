@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/SixSigma.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/SixSigma.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -56,7 +56,7 @@ ss.rr: no visible binding for global variable ‘ss.data.rr’
 * checking examples ... [14s/14s] OK
 Examples with CPU or elapsed time > 5s
           user system elapsed
-SixSigma 5.688  0.064   5.812
+SixSigma 5.664  0.068   5.739
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘run-all.R’

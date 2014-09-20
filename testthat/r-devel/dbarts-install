@@ -61,7 +61,7 @@ config.status: creating src/external/config.h
 ** libs
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../inst/include -Iinclude -pthread  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c R_C_interface.cpp -o R_C_interface.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../inst/include -Iinclude -pthread  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c R_interface.cpp -o R_interface.o
-make[1]: Entering directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/00_pkg_src/dbarts/src/dbarts'
+make[1]: Entering directory `/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/dbarts.Rcheck/00_pkg_src/dbarts/src/dbarts'
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c bartFit.cpp -o bartFit.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c birthDeathRule.cpp -o birthDeathRule.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../../inst/include -I../include -pthread -I/usr/local/include -DBART_EXACT -fpic -ggdb -pipe -Wall -pedantic  -c changeRule.cpp -o changeRule.o
@@ -86,8 +86,8 @@ a - state.o
 a - swapRule.o
 a - tree.o
 a - treePrior.o
-make[1]: Leaving directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/00_pkg_src/dbarts/src/dbarts'
-make[1]: Entering directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/00_pkg_src/dbarts/src/external'
+make[1]: Leaving directory `/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/dbarts.Rcheck/00_pkg_src/dbarts/src/dbarts'
+make[1]: Entering directory `/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/dbarts.Rcheck/00_pkg_src/dbarts/src/external'
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../include -pthread -I/usr/local/include -fpic -ggdb -pipe -std=gnu99 -Wall -pedantic  -c io.c -o io.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../include -pthread -I/usr/local/include -fpic -ggdb -pipe -std=gnu99 -Wall -pedantic  -c linearAlgebra.c -o linearAlgebra.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG -I../include -pthread -I/usr/local/include -fpic -ggdb -pipe -std=gnu99 -Wall -pedantic  -c moments.c -o moments.o
@@ -100,9 +100,9 @@ a - linearAlgebra.o
 a - moments.o
 a - stats.o
 a - thread.o
-make[1]: Leaving directory `/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/00_pkg_src/dbarts/src/external'
+make[1]: Leaving directory `/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/dbarts.Rcheck/00_pkg_src/dbarts/src/external'
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o dbarts.so R_C_interface.o R_interface.o -llapack -lblas -lgfortran -lm -lquadmath dbarts/libdbarts.a external/libexternal.a -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/dbarts/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/dbarts.Rcheck/dbarts/libs
 ** R
 ** inst
 ** preparing package for lazy loading
@@ -111,9 +111,9 @@ installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/dbarts/li
 ** building package indices
 ** testing if installed package can be loaded
 Error in dyn.load(file, DLLpath = DLLpath, ...) : 
-  unable to load shared object '/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/dbarts/libs/dbarts.so':
-  /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/dbarts/libs/dbarts.so: undefined symbol: dlassq_
+  unable to load shared object '/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/dbarts.Rcheck/dbarts/libs/dbarts.so':
+  /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/dbarts.Rcheck/dbarts/libs/dbarts.so: undefined symbol: dlassq_
 Error: loading failed
 Execution halted
 ERROR: loading failed
-* removing ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/dbarts.Rcheck/dbarts’
+* removing ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/dbarts.Rcheck/dbarts’

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/rfishbase.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/rfishbase.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -48,12 +48,12 @@
 * checking data for ASCII and uncompressed saves ... OK
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
-* checking examples ... [48s/48s] OK
+* checking examples ... [47s/47s] OK
 Examples with CPU or elapsed time > 5s
                  user system elapsed
-which_fish     12.888  0.108  12.996
-getRefs         8.488  0.204   8.695
-findSpecies     5.576  0.232   5.809
-fish_names      5.500  0.152   5.656
-getQuantTraits  5.264  0.096   5.357
+which_fish     12.880  0.084  12.964
+getRefs         8.204  0.204   8.407
+findSpecies     5.492  0.212   5.710
+fish_names      5.444  0.160   5.603
+getQuantTraits  4.984  0.060   5.201
 * DONE

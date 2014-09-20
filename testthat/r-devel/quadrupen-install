@@ -69,7 +69,7 @@ utils.cpp:222:35: warning: suggest parentheses around comparison in operand of �
 /home/ubuntu/R-lib/3.2/RcppArmadillo/include/armadillo_bits/fn_norm.hpp: In function ‘typename arma::enable_if2<arma::is_arma_type<T1>::value, typename T1::pod_type>::result arma::norm(const T1&, arma::uword, const typename arma::arma_real_or_cx_only<typename T1::elem_type>::result*) [with T1 = arma::subview_elem1<double, arma::Mat<unsigned int> >, typename arma::enable_if2<arma::is_arma_type<T1>::value, typename T1::pod_type>::result = double, arma::uword = unsigned int, typename arma::arma_real_or_cx_only<typename T1::elem_type>::result = double]’:
 /home/ubuntu/R-lib/3.2/RcppArmadillo/include/armadillo_bits/fn_norm.hpp:635:3: warning: control reaches end of non-void function [-Wreturn-type]
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o quadrupen.so bounded_reg.o elastic_net.o first_order.o quadratic.o utils.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/quadrupen.Rcheck/quadrupen/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/quadrupen.Rcheck/quadrupen/libs
 ** R
 ** demo
 ** inst

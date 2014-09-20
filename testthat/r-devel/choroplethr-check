@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/choroplethr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/choroplethr.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -51,8 +51,8 @@
 * checking files in ‘vignettes’ ... OK
 * checking examples ... [31s/31s] OK
 Examples with CPU or elapsed time > 5s
-               user system elapsed
-df_pop_county 5.692  0.032   5.782
+              user system elapsed
+df_pop_county 5.64  0.064   5.704
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘test-all.R’

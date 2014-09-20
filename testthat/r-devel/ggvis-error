@@ -1,16 +1,14 @@
-ggvis *  checking tests ... ERROR
-Running the tests in ‘tests/testthat.R’ failed.
-Last 13 lines of output:
-  976: all.equal.default(target[[i]], current[[i]], check.attributes = check.attributes, 
-         use.names = use.names, ...)
-  977: all.equal.list(target, current, ...)
-  978: attr.all.equal(target, current, ...)
-  979: all.equal(ax, ay, ..., check.attributes = check.attributes)
-  980: all.equal.list(ax, ay, ..., check.attributes = check.attributes)
-  981: attr.all.equal(target, current, ...)
-  982: all.equal.character(nx, ny, check.attributes = check.attributes)
-  983: attr.all.equal(target, current, ...)
-  984: mode(target)
-  
-  Error: Test failures
-  Execution halted
+ggvis *  checking examples ... ERROR
+Running examples in ‘ggvis-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: compute_stack
+> ### Title: Stack overlapping data.
+> ### Aliases: compute_stack
+> 
+> ### ** Examples
+> 
+> mtcars %>% cbind(count = 1) %>% compute_stack(~count, ~cyl)
+Error: 'lag' is not an exported object from 'namespace:dplyr'
+Execution halted

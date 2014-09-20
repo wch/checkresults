@@ -66,7 +66,7 @@ GeneralFunctions.h:17:51: warning: extra ‘;’ [-pedantic]
 helperFuncsSEXP.cc:68:2: warning: extra ‘;’ [-pedantic]
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c init.cc -o init.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o flsa.so FLSA.o FLSAGeneral.o FLSAGeneralMain.o GeneralFunctions.o Groups.o MaxFlowGraph.o PenaltyGraph.o Scheduler.o flsaBackwards.o helperFuncsSEXP.o init.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/flsa.Rcheck/flsa/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/flsa.Rcheck/flsa/libs
 ** R
 ** inst
 ** preparing package for lazy loading

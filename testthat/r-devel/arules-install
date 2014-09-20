@@ -18,7 +18,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -DNDEBUG -DNIMAPFN -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c tract.c -o tract.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include   -DNDEBUG -DNIMAPFN -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c vecops.c -o vecops.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o arules.so arrayIndex.o bitmat.o istree.o listops.o matrix.o nstats.o params.o ptree.o rapriori.o reclat.o scan.o symtab.o tfscan.o tid_count.o tract.o vecops.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/arules.Rcheck/arules/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/arules.Rcheck/arules/libs
 ** R
 ** data
 ** inst

@@ -12,7 +12,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c optimal.c -o optimal.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c stress.c -o stress.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o seriation.so arsa.o bburcg.o bbwrcg.o bea.o criterion.o dist.o fprintf.o greedy.o optimal.o stress.o -lgfortran -lm -lquadmath -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/seriation.Rcheck/seriation/libs
+installing to /mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/seriation.Rcheck/seriation/libs
 ** R
 ** data
 ** inst

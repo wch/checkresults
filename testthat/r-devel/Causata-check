@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp58ZmhJ/check_cran6a03574b8030/Causata.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpKy6TEF/check_cran23e25bd1e38f/Causata.Rcheck’
 * using R Under development (unstable) (2014-09-17 r66626)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘Causata’ can be installed ... [24s/24s] OK
+* checking whether package ‘Causata’ can be installed ... [23s/23s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -58,17 +58,17 @@ Please remove them from your package.
 * checking examples ... [29s/29s] OK
 Examples with CPU or elapsed time > 5s
                  user system elapsed
-BinaryPredictor 7.349  0.076   7.488
-PredictivePower 7.396  0.020   7.434
+PredictivePower 7.452  0.068   7.547
+BinaryPredictor 7.309  0.088   7.526
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [194s/195s] OK
+* checking tests ... [189s/191s] OK
   Running ‘testBinaryCut.R’
   Running ‘testBinaryPredictor.R’ [12s/12s]
   Running ‘testCleanNaFromContinuous.R’
   Running ‘testCleanNaFromFactor.R’
   Running ‘testDiscretize.R’
-  Running ‘testFocalPointQuery.R’ [10s/10s]
-  Running ‘testGetStratifiedSample.R’ [10s/10s]
+  Running ‘testFocalPointQuery.R’
+  Running ‘testGetStratifiedSample.R’
   Running ‘testMergeLevels.R’
   Running ‘testModelDefinition.R’
   Running ‘testPredictivePower.R’
@@ -84,7 +84,7 @@ PredictivePower 7.396  0.020   7.434
   Running ‘utils.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [94s/94s] OK
-* checking re-building of vignette outputs ... [96s/98s] OK
+* checking running R code from vignettes ... [93s/94s] OK
+* checking re-building of vignette outputs ... [95s/96s] OK
 * DONE
 NOTE: There were 2 notes.
