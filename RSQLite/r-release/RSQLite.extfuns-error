@@ -1,0 +1,19 @@
+RSQLite.extfuns *  checking examples ... ERROR
+Running examples in ‘RSQLite.extfuns-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: RSQLite.extfuns-package
+> ### Title: Math and String Extension Functions for RSQLite
+> ### Aliases: RSQLite.extfuns-package RSQLite.extfuns
+> ### Keywords: package
+> 
+> ### ** Examples
+> 
+> ## basic usage looks like this
+> db <- dbConnect(SQLite(), dbname = ":memory:")
+> init_extensions(db)
+Error in if (.allows_extensions(db)) { : 
+  missing value where TRUE/FALSE needed
+Calls: init_extensions
+Execution halted

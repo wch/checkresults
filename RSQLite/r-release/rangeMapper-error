@@ -1,0 +1,24 @@
+rangeMapper *  checking Rd cross-references ... WARNING
+Missing link or links in documentation object '99_RMQuery.Rd':
+  ‘sqliteQuickSQL’
+
+See the information in section 'Cross-references' of the 'Writing R
+Extensions' manual.
+
+*  checking examples ... ERROR
+Running examples in ‘rangeMapper-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: rangeMap.start
+> ### Title: Initiate/open a new rangeMapper project
+> ### Aliases: rangeMap.start rangeMapStart rangeMap.open rangeMap
+> ### Keywords: spatial
+> 
+> ### ** Examples
+> 
+> td = setwd(tempdir())
+> 
+> dbcon = rangeMap.start(file = "test.sqlite", overwrite = TRUE, dir = tempdir() )
+Error: could not find function "sqliteQuickSQL"
+Execution halted

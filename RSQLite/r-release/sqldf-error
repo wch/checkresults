@@ -1,0 +1,25 @@
+sqldf *  checking examples ... ERROR
+Running examples in ‘sqldf-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: sqldf
+> ### Title: SQL select on data frames
+> ### Aliases: sqldf
+> ### Keywords: manip
+> 
+> ### ** Examples
+> 
+> 
+> #
+> # These examples show how to run a variety of data frame manipulations
+> # in R without SQL and then again with SQL
+> #
+> 
+> # head
+> a1r <- head(warpbreaks)
+> a1s <- sqldf("select * from warpbreaks limit 6")
+Error in if (.allows_extensions(db)) { : 
+  missing value where TRUE/FALSE needed
+Calls: sqldf -> init_extensions
+Execution halted

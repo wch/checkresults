@@ -1,0 +1,33 @@
+dplyr *  checking examples ... ERROR
+Running examples in ‘dplyr-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: copy_to.src_sql
+> ### Title: Copy a local data fram to a sqlite src.
+> ### Aliases: copy_to.src_sql
+> 
+> ### ** Examples
+> 
+> if (require("RSQLite") && require("RSQLite.extfuns")) {
++ db <- src_sqlite(tempfile(), create = TRUE)
++ 
++ iris2 <- copy_to(db, iris)
++ mtcars$model <- rownames(mtcars)
++ mtcars2 <- copy_to(db, mtcars, indexes = list("model"))
++ 
++ explain(filter(mtcars2, model == "Hornet 4 Drive"))
++ 
++ # Note that tables are temporary by default, so they're not
++ # visible from other connections to the same database.
++ src_tbls(db)
++ db2 <- src_sqlite(db$path)
++ src_tbls(db2)
++ }
+Loading required package: RSQLite
+Loading required package: DBI
+Loading required package: RSQLite.extfuns
+Error in if (.allows_extensions(db)) { : 
+  missing value where TRUE/FALSE needed
+Calls: src_sqlite ... dbi_connect -> dbi_connect.SQLiteDriver -> <Anonymous>
+Execution halted

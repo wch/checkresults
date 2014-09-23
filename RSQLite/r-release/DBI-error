@@ -1,0 +1,38 @@
+DBI *  checking examples ... ERROR
+Running examples in ‘DBI-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: dbFetch
+> ### Title: Fetch records from a previously executed query.
+> ### Aliases: dbFetch dbFetch,DBIResult-method fetch
+> 
+> ### ** Examples
+> 
+> if (!require("RSQLite")) {
++ con <- dbConnect(RSQLite::SQLite(), ":memory:")
++ dbWriteTable(con, "mtcars", mtcars)
++ 
++ # Fetch all results
++ res <- dbSendQuery(con, "SELECT * FROM mtcars WHERE cyl = 4")
++ dbFetch(res)
++ dbClearResult(res)
++ 
++ # Fetch in chunks
++ res <- dbSendQuery(con, "SELECT * FROM mtcars")
++ while (!dbHasCompleted(res)) {
++   chunk <- fetch(res, 10)
++   print(nrow(chunk))
++ }
++ dbClearResult(res)
++ dbDisconnect(con)
++ }
+Loading required package: RSQLite
+Failed with error:  ‘package ‘DBI’ 0.3.0 is loaded, but >= 0.3.1 is required by ‘RSQLite’’
+Error in check_valid(res) : could not find function "dbIsValid"
+Error in check_valid(dbObj) : could not find function "dbIsValid"
+Calls: dbWriteTable ... is -> dbGetInfo -> dbGetInfo -> .local -> check_valid
+Error in check_valid(res) : could not find function "dbIsValid"
+Calls: dbWriteTable ... dbClearResult -> .valueClassTest -> is -> is -> check_valid
+Execution halted
+Warning: Closing open result set

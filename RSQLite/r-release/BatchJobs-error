@@ -1,0 +1,24 @@
+BatchJobs *  checking examples ... ERROR
+Running examples in ‘BatchJobs-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: batchExpandGrid
+> ### Title: Map function over all combinations.
+> ### Aliases: batchExpandGrid
+> 
+> ### ** Examples
+> 
+> reg = makeRegistry(id = "BatchJobsExample", file.dir = tempfile(), seed = 123)
+Creating dir: /tmp/Rtmpj3AYlX/file14db5dc4217e
+Saving registry: /tmp/Rtmpj3AYlX/file14db5dc4217e/registry.RData
+> f = function(x, y, z) x * y  + z
+> batchExpandGrid(reg, f, x = 1:2, y = 1:3, more.args = list(z = 10))
+Adding 6 jobs to DB.
+Warning: 'dbBeginTransaction' is deprecated.
+Use 'dbBegin' instead.
+See help("Deprecated")
+Error in (function (classes, fdef, mtable)  : 
+  unable to find an inherited method for function ‘dbBegin’ for signature ‘"missing"’
+Calls: batchExpandGrid ... dbBeginTransaction -> dbBegin -> .valueClassTest -> is -> <Anonymous>
+Execution halted

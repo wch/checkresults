@@ -1,0 +1,68 @@
+SSN *  checking examples ... ERROR
+Running examples in ‘SSN-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: BlockPredict
+> ### Title: Block Predicton for Streams Data
+> ### Aliases: BlockPredict
+> 
+> ### ** Examples
+> 
+> 
+> library(SSN)
+> # NOT RUN 
+> # mf04 <- importSSN(system.file("lsndata/MiddleFork04.ssn", 
+> #	        package = "SSN"), o.write = TRUE)
+> # use SpatialStreamNetwork object mf04 that was already created
+> data(mf04p)
+> #make sure mf04p has the correct path, will vary for each users installation
+> mf04p <- updatePath(mf04p, system.file("lsndata/MiddleFork04.ssn", package = "SSN"))
+[1] "SSN path updated to /mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/SSN.Rcheck/SSN/lsndata/MiddleFork04.ssn"
+> 
+> ## NOT RUN Distance Matrix has already been created
+> ## createDistMat(mf04)
+> # mf04p <- importPredpts(mf04p, "Knapp", "ssn")
+> # mf04p <- importPredpts(mf04p, "CapeHorn", "ssn")
+> names(mf04p)
+$Obs
+ [1] "NCEASID"    "STREAMNAME" "HUC3"       "HUC4"       "COMID"     
+ [6] "CUMDRAINAG" "AREAWTMAP"  "MAXELEVSMO" "SLOPE"      "NCEASID_"  
+[11] "ELEV_DEM"   "Deployment" "SampleYear" "NumberOfDa" "OriginalID"
+[16] "Source"     "Summer_mn"  "MaxOver20"  "C16"        "C20"       
+[21] "C24"        "FlowCMS"    "AirMEANc"   "AirMWMTc"   "NEAR_FID"  
+[26] "NEAR_DIST"  "NEAR_X"     "NEAR_Y"     "NEAR_ANGLE" "rid"       
+[31] "ratio"      "afvArea"    "upDist"     "locID"      "netID"     
+[36] "pid"       
+
+$pred1km
+ [1] "COMID"      "GNIS_NAME"  "CUMDRAINAG" "HUC3"       "HUC4"      
+ [6] "AREAWTMAP"  "MAXELEVSMO" "SLOPE"      "COMID_"     "ELEV_DEM"  
+[11] "FlowCMS"    "AirMEANc"   "AirMWMTc"   "SampleYear" "NEAR_FID"  
+[16] "NEAR_DIST"  "NEAR_X"     "NEAR_Y"     "NEAR_ANGLE" "rid"       
+[21] "ratio"      "afvArea"    "upDist"     "locID"      "netID"     
+[26] "pid"       
+
+$Knapp
+ [1] "COMID"      "GNIS_NAME"  "CUMDRAINAG" "HUC3"       "HUC4"      
+ [6] "AREAWTMAP"  "MAXELEVSMO" "SLOPE"      "COMID_"     "ELEV_DEM"  
+[11] "FlowCMS"    "AirMEANc"   "AirMWMTc"   "SampleYear" "NEAR_FID"  
+[16] "NEAR_DIST"  "NEAR_X"     "NEAR_Y"     "NEAR_ANGLE" "rid"       
+[21] "ratio"      "afvArea"    "upDist"     "locID"      "netID"     
+[26] "pid"       
+
+$CapeHorn
+ [1] "COMID"      "GNIS_NAME"  "CUMDRAINAG" "HUC3"       "HUC4"      
+ [6] "AREAWTMAP"  "MAXELEVSMO" "SLOPE"      "COMID_"     "ELEV_DEM"  
+[11] "FlowCMS"    "AirMEANc"   "AirMWMTc"   "SampleYear" "NEAR_FID"  
+[16] "NEAR_DIST"  "NEAR_X"     "NEAR_Y"     "NEAR_ANGLE" "rid"       
+[21] "ratio"      "afvArea"    "upDist"     "locID"      "netID"     
+[26] "pid"       
+
+> ## NOTE: need the amongpreds distance matrices for block prediction
+> #createDistMat(mf04p, predpts = "Knapp", o.write = TRUE, amongpreds = TRUE)
+> # just do CapeHorn Example
+> createDistMat(mf04p, predpts = "CapeHorn", o.write = TRUE, amongpreds = TRUE)
+Error in createDistMat(mf04p, predpts = "CapeHorn", o.write = TRUE, amongpreds = TRUE) : 
+  could not find function "sqliteCloseConnection"
+Execution halted

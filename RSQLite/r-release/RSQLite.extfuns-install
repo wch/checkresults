@@ -1,0 +1,14 @@
+* installing *source* package ‘RSQLite.extfuns’ ...
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RSQLite/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c extension-functions.c -o extension-functions.o
+extension-functions.c: In function ‘print_elem’:
+extension-functions.c:1942:3: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘int64_t’ [-Wformat]
+gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o RSQLite.extfuns.so extension-functions.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/RSQLite.extfuns.Rcheck/RSQLite.extfuns/libs
+** R
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (RSQLite.extfuns)

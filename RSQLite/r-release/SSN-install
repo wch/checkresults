@@ -1,0 +1,20 @@
+* installing *source* package ‘SSN’ ...
+** package ‘SSN’ successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/BH/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c RdbfwriteSSN.c -o RdbfwriteSSN.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/BH/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c additiveFunctionValues.cpp -o additiveFunctionValues.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/BH/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c dbfopenSSN.c -o dbfopenSSN.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/BH/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/BH/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c test_fc_UNIX.c -o test_fc_UNIX.o
+g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o SSN.so RdbfwriteSSN.o additiveFunctionValues.o dbfopenSSN.o init.o test_fc_UNIX.o -L/usr/lib/R/lib -lR
+installing to /mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/SSN.Rcheck/SSN/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (SSN)

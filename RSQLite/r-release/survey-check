@@ -1,0 +1,160 @@
+* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/survey.Rcheck’
+* using R version 3.1.1 (2014-07-10)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘survey/DESCRIPTION’ ... OK
+* this is package ‘survey’ version ‘3.30-3’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘survey’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking R/sysdata.rda ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... [31s/31s] OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... [34s/35s] OK
+  Running ‘DBIcheck.R’
+  Comparing ‘DBIcheck.Rout’ to ‘DBIcheck.Rout.save’ ...23,26d22
+< Warning message:
+< 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+34,43d29
+< Warning messages:
+< 1: 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+< 2: 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+< 3: 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+51,57d36
+< Warning messages:
+< 1: 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+< 2: 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+67,70d45
+< Warning message:
+< 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+83,86d57
+< Warning message:
+< 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+95,98d65
+< Warning message:
+< 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+106,109d72
+< Warning message:
+< 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+132,135d94
+< Warning message:
+< 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+139,145d97
+< Warning messages:
+< 1: 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+< 2: 'isIdCurrent' is deprecated.
+< Use 'dbIsValid' instead.
+< See help("Deprecated") 
+  Running ‘api.R’
+  Comparing ‘api.Rout’ to ‘api.Rout.save’ ... OK
+  Running ‘badcal.R’
+  Comparing ‘badcal.Rout’ to ‘badcal.Rout.save’ ... OK
+  Running ‘bycovmat.R’
+  Comparing ‘bycovmat.Rout’ to ‘bycovmat.Rout.save’ ... OK
+  Running ‘caleg.R’
+  Comparing ‘caleg.Rout’ to ‘caleg.Rout.save’ ... OK
+  Running ‘check.R’
+  Comparing ‘check.Rout’ to ‘check.Rout.save’ ... OK
+  Running ‘deff.R’
+  Comparing ‘deff.Rout’ to ‘deff.Rout.save’ ... OK
+  Running ‘domain.R’
+  Comparing ‘domain.Rout’ to ‘domain.Rout.save’ ... OK
+  Running ‘fpc.R’
+  Comparing ‘fpc.Rout’ to ‘fpc.Rout.save’ ... OK
+  Running ‘kalton.R’
+  Comparing ‘kalton.Rout’ to ‘kalton.Rout.save’ ... OK
+  Running ‘lonely.psu.R’
+  Comparing ‘lonely.psu.Rout’ to ‘lonely.psu.Rout.save’ ... OK
+  Running ‘multistage.R’
+  Comparing ‘multistage.Rout’ to ‘multistage.Rout.save’ ... OK
+  Running ‘nwts-cch.R’
+  Comparing ‘nwts-cch.Rout’ to ‘nwts-cch.Rout.save’ ... OK
+  Running ‘nwts.R’
+  Comparing ‘nwts.Rout’ to ‘nwts.Rout.save’ ... OK
+  Running ‘pps.R’
+  Comparing ‘pps.Rout’ to ‘pps.Rout.save’ ... OK
+  Running ‘quantile.R’
+  Comparing ‘quantile.Rout’ to ‘quantile.Rout.save’ ... OK
+  Running ‘rakecheck.R’
+  Comparing ‘rakecheck.Rout’ to ‘rakecheck.Rout.save’ ... OK
+  Running ‘raowuboot.R’
+  Comparing ‘raowuboot.Rout’ to ‘raowuboot.Rout.save’ ... OK
+  Running ‘regpredict.R’
+  Comparing ‘regpredict.Rout’ to ‘regpredict.Rout.save’ ... OK
+  Running ‘scoping.R’
+  Comparing ‘scoping.Rout’ to ‘scoping.Rout.save’ ... OK
+  Running ‘survcurve.R’
+  Comparing ‘survcurve.Rout’ to ‘survcurve.Rout.save’ ... OK
+  Running ‘twophase.R’
+  Comparing ‘twophase.Rout’ to ‘twophase.Rout.save’ ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [18s/18s] OK
+* checking re-building of vignette outputs ... [14s/15s] OK

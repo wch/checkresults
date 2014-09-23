@@ -1,0 +1,118 @@
+* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/CITAN.Rcheck’
+* using R version 3.1.1 (2014-07-10)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘CITAN/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘CITAN’ version ‘2011.08-1’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘CITAN’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... NOTE
+File
+  LICENSE
+is not mentioned in the DESCRIPTION file.
+File
+  inst/LICENSE
+will install at top-level and is not mentioned in the DESCRIPTION file.
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+Packages in Depends field not imported from:
+  ‘ADGofTest’ ‘DBI’ ‘RGtk2’ ‘RSQLite’ ‘hash’
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+There are ::: calls to the package's namespace in its code. A package
+  almost never needs to use ::: for its own objects:
+  ‘.gtk2.progressBar’ ‘.gtk2.selectAuthors’ ‘.gtk2.selectDocuments’
+  ‘.lbsCheckConnection’ ‘.lbs_DocumentType_ShortToFull’
+  ‘.lbs_DocumentTypesFull’ ‘.lbs_DocumentTypesShort’
+  ‘.lbs_PrepareRestriction_DocumentTypes’
+  ‘.lbs_PrepareRestriction_SurveyDescription’ ‘.lbs_SourceTypesFull’
+  ‘.lbs_SourceTypesShort’
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... NOTE
+Calls with DUP = FALSE:
+   .C("Sstat2", as.double(kappaInv(x)), as.integer(length(x)), out = double(1), 
+       DUP = FALSE, PACKAGE = "CITAN")
+   .C("index_g", as.double(x), as.integer(length(x)), out = double(1), 
+       DUP = FALSE, PACKAGE = "CITAN")
+   .C("index_h", as.double(x), as.integer(length(x)), out = double(1), 
+       DUP = FALSE, PACKAGE = "CITAN")
+   .C("index_h_log", as.double(x), as.integer(length(x)), out = double(1), 
+       DUP = FALSE, PACKAGE = "CITAN")
+   .C("index_lp_finite", as.double(x), as.integer(length(x)), as.double(p), 
+       integer(length(x) + 1), out = double(2), DUP = FALSE, PACKAGE = "CITAN")
+   .C("index_lp_infinite", as.double(x), as.integer(length(x)), 
+       out = double(2), DUP = FALSE, PACKAGE = "CITAN")
+   .C("index_rp_finite", as.double(x), as.integer(length(x)), as.double(p), 
+       out = double(1), DUP = FALSE, PACKAGE = "CITAN")
+   .C("index_rp_infinite", as.double(x), as.integer(length(x)), 
+       out = double(1), DUP = FALSE, PACKAGE = "CITAN")
+   .C("pareto2_dhirsch", out = as.double(x), m, as.double(n), as.double(k), 
+       as.double(s), DUP = FALSE, PACKAGE = "CITAN")
+   .C("pareto2_phirsch", out = as.double(x), m, as.double(n), as.double(k), 
+       as.double(s), DUP = FALSE, PACKAGE = "CITAN")
+DUP = FALSE is deprecated and may be disabled in future versions of R.
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... NOTE
+S3 methods shown with full name in documentation object 'as.character.authorinfo':
+  ‘as.character.authorinfo’
+
+S3 methods shown with full name in documentation object 'as.character.docinfo':
+  ‘as.character.docinfo’
+
+S3 methods shown with full name in documentation object 'plot.citfun':
+  ‘plot.citfun’
+
+S3 methods shown with full name in documentation object 'print.authorinfo':
+  ‘print.authorinfo’
+
+S3 methods shown with full name in documentation object 'print.docinfo':
+  ‘print.docinfo’
+
+The \usage entries for S3 methods should use the \method markup and not
+their full name.
+See the chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking sizes of PDF files under ‘inst/doc’ ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking examples ... OK
+NOTE: There were 4 notes.

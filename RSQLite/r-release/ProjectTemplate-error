@@ -1,0 +1,16 @@
+ProjectTemplate *  checking tests ... ERROR
+Running the tests in ‘tests/3.R’ failed.
+Last 13 lines of output:
+  +                                           'example_28.db'),
+  +                        table = 'example_28')
+  > write.dcf(sql.file, file = 'example_28.sql', width = 1000)
+  > 
+  > data.file <- 'example_28.sql'
+  > filename <- 'example_28.sql'
+  > variable.name <- ProjectTemplate:::clean.variable.name('example_28')
+  > 
+  > ProjectTemplate:::sql.reader(data.file, filename, variable.name)
+  Loading required package: RSQLite
+  Loading required package: DBI
+  Error: length(row.names) == 1 is not TRUE
+  Execution halted

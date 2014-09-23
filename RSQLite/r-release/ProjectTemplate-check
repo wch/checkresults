@@ -1,0 +1,68 @@
+* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/ProjectTemplate.Rcheck’
+* using R version 3.1.1 (2014-07-10)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘ProjectTemplate/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘ProjectTemplate’ version ‘0.5-1’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘ProjectTemplate’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+Unexported object imported by a ':::' call: ‘log4r:::INFO’
+  See the note in ?`:::` about the use of this operator.
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... ERROR
+Running the tests in ‘tests/3.R’ failed.
+Last 13 lines of output:
+  +                                           'example_28.db'),
+  +                        table = 'example_28')
+  > write.dcf(sql.file, file = 'example_28.sql', width = 1000)
+  > 
+  > data.file <- 'example_28.sql'
+  > filename <- 'example_28.sql'
+  > variable.name <- ProjectTemplate:::clean.variable.name('example_28')
+  > 
+  > ProjectTemplate:::sql.reader(data.file, filename, variable.name)
+  Loading required package: RSQLite
+  Loading required package: DBI
+  Error: length(row.names) == 1 is not TRUE
+  Execution halted

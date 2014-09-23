@@ -1,0 +1,14 @@
+marmap *  checking running R code from vignettes ... ERROR
+Errors in running code in vignettes:
+when running code in ‘marmap.Rnw’
+  ...
+
+> require(RSQLite)
+Loading required package: RSQLite
+Loading required package: DBI
+
+> setSQL(bathy = "png.xyz", sep = "\t")
+
+  When sourcing ‘marmap.R’:
+Error: unable to find an inherited method for function ‘dbConnect’ for signature ‘"character"’
+Execution halted
