@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/survey.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/survey.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -51,9 +51,9 @@
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [31s/31s] OK
+* checking examples ... [28s/28s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [34s/35s] OK
+* checking tests ... [33s/34s] OK
   Running ‘DBIcheck.R’
   Comparing ‘DBIcheck.Rout’ to ‘DBIcheck.Rout.save’ ...23,26d22
 < Warning message:

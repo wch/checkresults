@@ -18,7 +18,7 @@ The error most likely occurred in:
 > data(mf04p)
 > #make sure mf04p has the correct path, will vary for each users installation
 > mf04p <- updatePath(mf04p, system.file("lsndata/MiddleFork04.ssn", package = "SSN"))
-[1] "SSN path updated to /mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/SSN.Rcheck/SSN/lsndata/MiddleFork04.ssn"
+[1] "SSN path updated to /mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/SSN.Rcheck/SSN/lsndata/MiddleFork04.ssn"
 > 
 > ## NOT RUN Distance Matrix has already been created
 > ## createDistMat(mf04)

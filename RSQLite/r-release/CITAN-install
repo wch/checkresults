@@ -5,7 +5,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protec
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c impact_functions.c -o impact_functions.o
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c pareto2.c -o pareto2.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o CITAN.so CITAN.o impact_functions.o pareto2.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/CITAN.Rcheck/CITAN/libs
+installing to /mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/CITAN.Rcheck/CITAN/libs
 ** R
 ** data
 *** moving datasets to lazyload DB

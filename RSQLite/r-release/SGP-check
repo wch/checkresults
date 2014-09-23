@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/SGP.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/SGP.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘SGP’ can be installed ... [42s/42s] OK
+* checking whether package ‘SGP’ can be installed ... [43s/43s] OK
 * checking installed package size ... NOTE
   installed size is  7.9Mb
   sub-directories of 1Mb or more:
@@ -50,8 +50,8 @@
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [14s/14s] OK
+* checking examples ... [15s/15s] OK
 Examples with CPU or elapsed time > 5s
                            user system elapsed
-studentGrowthPercentiles 12.412   0.18  12.694
+studentGrowthPercentiles 13.196  0.192   13.39
 NOTE: There was 1 note.

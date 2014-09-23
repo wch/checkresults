@@ -4,7 +4,7 @@ gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/RSQLi
 extension-functions.c: In function ‘print_elem’:
 extension-functions.c:1942:3: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘int64_t’ [-Wformat]
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o RSQLite.extfuns.so extension-functions.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/RSQLite.extfuns.Rcheck/RSQLite.extfuns/libs
+installing to /mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/RSQLite.extfuns.Rcheck/RSQLite.extfuns/libs
 ** R
 ** preparing package for lazy loading
 ** help

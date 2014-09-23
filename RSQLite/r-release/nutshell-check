@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/nutshell.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/nutshell.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -58,7 +58,6 @@ packages’ of the ‘Writing R Extensions’ manual.
 * checking data for ASCII and uncompressed saves ... OK
 * checking examples ... [16s/16s] OK
 Examples with CPU or elapsed time > 5s
-                user system elapsed
-births2006.smpl 5.98  0.288   6.291
-mort06.smpl     4.82  0.356   5.177
+                 user system elapsed
+births2006.smpl 6.164   0.38   6.541
 NOTE: There were 2 notes.

@@ -1,4 +1,4 @@
-marmap *  checking running R code from vignettes ... ERROR
+marmap *  checking running R code from vignettes ... [10s/10s] ERROR
 Errors in running code in vignettes:
 when running code in ‘marmap.Rnw’
   ...

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/dplyr.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/dplyr.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -15,7 +15,7 @@ Package suggested but not available for checking: ‘bigrquery’
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘dplyr’ can be installed ... [128s/130s] OK
+* checking whether package ‘dplyr’ can be installed ... [123s/123s] OK
 * checking installed package size ... NOTE
   installed size is 16.2Mb
   sub-directories of 1Mb or more:

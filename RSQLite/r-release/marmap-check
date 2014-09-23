@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/marmap.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/marmap.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -54,14 +54,15 @@ packages’ of the ‘Writing R Extensions’ manual.
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [44s/44s] OK
+* checking examples ... [45s/45s] OK
 Examples with CPU or elapsed time > 5s
-              user system elapsed
-get.area     8.585  0.072   8.659
-path.profile 4.781  0.388   5.554
+                         user system elapsed
+get.area                7.637  0.060   7.699
+path.profile            5.285  0.336   5.621
+as.SpatialGridDataFrame 5.076  0.140   5.216
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... ERROR
+* checking running R code from vignettes ... [10s/10s] ERROR
 Errors in running code in vignettes:
 when running code in ‘marmap.Rnw’
   ...

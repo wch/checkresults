@@ -3,7 +3,7 @@
 ** libs
 gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c refGenome.c -o refGenome.o
 gcc -std=gnu99 -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o refGenome.so refGenome.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/refGenome.Rcheck/refGenome/libs
+installing to /mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/refGenome.Rcheck/refGenome/libs
 ** R
 ** inst
 ** preparing package for lazy loading

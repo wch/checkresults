@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/MUCflights.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/MUCflights.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -60,10 +60,10 @@ These lines will be truncated in the PDF manual.
 * checking data for non-ASCII characters ... NOTE
   Note: found 99 marked UTF-8 strings
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [26s/26s] OK
+* checking examples ... [25s/25s] OK
 Examples with CPU or elapsed time > 5s
          user system elapsed
-movie   8.856  2.512  11.366
-flights 4.512  2.776   7.289
-routes  3.713  1.880   5.594
+movie   8.120  2.060  10.181
+flights 4.144  2.652   6.795
+routes  3.853  1.960   5.809
 NOTE: There were 3 notes.

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/SSN.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/SSN.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -91,7 +91,7 @@ The error most likely occurred in:
 > data(mf04p)
 > #make sure mf04p has the correct path, will vary for each users installation
 > mf04p <- updatePath(mf04p, system.file("lsndata/MiddleFork04.ssn", package = "SSN"))
-[1] "SSN path updated to /mnt/tmp/RtmpBbPyWP/check_cran6f221b80e252/SSN.Rcheck/SSN/lsndata/MiddleFork04.ssn"
+[1] "SSN path updated to /mnt/tmp/RtmpBbPyWP/check_cran6f2254e71bd8/SSN.Rcheck/SSN/lsndata/MiddleFork04.ssn"
 > 
 > ## NOT RUN Distance Matrix has already been created
 > ## createDistMat(mf04)
