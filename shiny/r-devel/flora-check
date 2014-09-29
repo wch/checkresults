@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/flora.Rcheck’
-* using R Under development (unstable) (2014-09-15 r66610)
+* using log directory ‘/mnt/tmp/RtmpQKc1vi/check_cran348515c01528/flora.Rcheck’
+* using R Under development (unstable) (2014-09-29 r66696)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘flora’ can be installed ... [11s/12s] OK
+* checking whether package ‘flora’ can be installed ... [11s/11s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -51,5 +51,5 @@
 * checking examples ... [11s/11s] OK
 Examples with CPU or elapsed time > 5s
             user system elapsed
-occurrence 5.888  0.048   5.934
+occurrence 6.008   0.04   6.046
 * DONE

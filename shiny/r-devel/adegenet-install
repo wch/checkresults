@@ -7,7 +7,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c sharedAll.c -o sharedAll.o
 ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -std=gnu99 -Wall -pedantic  -c snpbin.c -o snpbin.o
 ccache gcc -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o adegenet.so GLfunctions.o adesub.o monmonier-utils.o sharedAll.o snpbin.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/adegenet.Rcheck/adegenet/libs
+installing to /mnt/tmp/RtmpQKc1vi/check_cran348515c01528/adegenet.Rcheck/adegenet/libs
 ** R
 ** data
 ** inst

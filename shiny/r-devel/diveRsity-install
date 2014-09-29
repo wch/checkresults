@@ -9,7 +9,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c pwWC.cpp -o pwWC.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c varFunc.cpp -o varFunc.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o diveRsity.so RcppExports.o glbWC.o myTab.o pwHetCalcCpp.o pwHt.o pwWC.o varFunc.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/diveRsity.Rcheck/diveRsity/libs
+installing to /mnt/tmp/RtmpQKc1vi/check_cran348515c01528/diveRsity.Rcheck/diveRsity/libs
 ** R
 ** data
 ** inst

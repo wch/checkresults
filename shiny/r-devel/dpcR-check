@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/dpcR.Rcheck’
-* using R Under development (unstable) (2014-09-15 r66610)
+* using log directory ‘/mnt/tmp/RtmpQKc1vi/check_cran348515c01528/dpcR.Rcheck’
+* using R Under development (unstable) (2014-09-29 r66696)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -35,6 +35,9 @@
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
+Warning in rgl.init(initValue, onlyNULL) :
+  RGL: unable to open X11 display
+Warning in fun(libname, pkgname) : error in rgl_init
 fit_adpcr: no visible binding for global variable ‘l5’
 limit_cq: no visible binding for global variable ‘l5’
 qpcr_analyser: no visible binding for global variable ‘l5’
@@ -53,6 +56,6 @@ qpcr_analyser,modlist: no visible binding for global variable ‘l5’
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [23s/23s] OK
+* checking examples ... [20s/22s] OK
 * DONE
 NOTE: There was 1 note.

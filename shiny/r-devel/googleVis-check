@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/googleVis.Rcheck’
-* using R Under development (unstable) (2014-09-15 r66610)
+* using log directory ‘/mnt/tmp/RtmpQKc1vi/check_cran348515c01528/googleVis.Rcheck’
+* using R Under development (unstable) (2014-09-29 r66696)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -56,6 +56,6 @@
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... OK
-* checking re-building of vignette outputs ... [12s/13s] OK
+* checking re-building of vignette outputs ... [11s/12s] OK
 * DONE
 NOTE: There was 1 note.

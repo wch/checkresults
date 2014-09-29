@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/mirt.Rcheck’
-* using R Under development (unstable) (2014-09-15 r66610)
+* using log directory ‘/mnt/tmp/RtmpQKc1vi/check_cran348515c01528/mirt.Rcheck’
+* using R Under development (unstable) (2014-09-29 r66696)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘mirt’ can be installed ... [63s/63s] OK
+* checking whether package ‘mirt’ can be installed ... [62s/62s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK

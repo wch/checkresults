@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/datacheck.Rcheck’
-* using R Under development (unstable) (2014-09-15 r66610)
+* using log directory ‘/mnt/tmp/RtmpQKc1vi/check_cran348515c01528/datacheck.Rcheck’
+* using R Under development (unstable) (2014-09-29 r66696)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘datacheck/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘datacheck’ version ‘1.0.0’
+* this is package ‘datacheck’ version ‘1.0.4’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -31,35 +31,11 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking dependencies in R code ... NOTE
-Packages in Depends field not imported from:
-  ‘Hmisc’ ‘shiny’ ‘stringr’ ‘testthat’ ‘xtable’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-See the information on DESCRIPTION files in the chapter ‘Creating R
-packages’ of the ‘Writing R Extensions’ manual.
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... NOTE
-as.rules: no visible global function definition for ‘str_trim’
-as.rules: no visible global function definition for ‘str_locate’
-as.rules: no visible global function definition for ‘str_detect’
-as.rules: no visible global function definition for ‘str_split’
-has.punct: no visible global function definition for ‘str_detect’
-is.oneOf: no visible global function definition for ‘str_detect’
-is.oneOf: no visible global function definition for ‘str_split’
-is.oneOf: no visible global function definition for ‘str_trim’
-is.onlyLowers: no visible global function definition for ‘str_length’
-is.onlyLowers: no visible global function definition for ‘str_match’
-is.properName: no visible global function definition for ‘str_detect’
-is.properName: no visible global function definition for ‘str_sub’
-is.properName: no visible global function definition for ‘str_length’
-pkg.version: no visible global function definition for ‘str_extract’
-prep4rep: no visible global function definition for ‘str_detect’
-prep4rep: no visible global function definition for ‘str_count’
-prep4rep: no visible global function definition for ‘str_split’
-shortSummary: no visible global function definition for ‘describe’
+* checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd line widths ... OK
@@ -72,23 +48,8 @@ shortSummary: no visible global function definition for ‘describe’
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
-* checking for unstated dependencies in tests ... OK
-* checking tests ... OK
-  Running ‘test-all.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... ERROR
-Errors in running code in vignettes:
-when running code in ‘index.Rmd’
-  ...
-  |                                                                            
-  |====================================================================  |  97%
-  |                                                                            
-  |======================================================================| 100%
-
-> xtable(shortSummary(atable))
-
-  When sourcing ‘index.R’:
-Error: recursive indexing failed at level 2
-Execution halted
-
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK
+* DONE

@@ -3,11 +3,15 @@
 ** libs
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c linear.cpp -o linear.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o plotSEMM.so linear.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/plotSEMM.Rcheck/plotSEMM/libs
+installing to /mnt/tmp/RtmpQKc1vi/check_cran348515c01528/plotSEMM.Rcheck/plotSEMM/libs
 ** R
 ** preparing package for lazy loading
+Warning in fun(libname, pkgname) :
+  no DISPLAY variable so Tk is not available
 ** help
 *** installing help indices
 ** building package indices
 ** testing if installed package can be loaded
+Warning in fun(libname, pkgname) :
+  no DISPLAY variable so Tk is not available
 * DONE (plotSEMM)

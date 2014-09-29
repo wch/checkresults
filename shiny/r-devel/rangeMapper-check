@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/rangeMapper.Rcheck’
-* using R Under development (unstable) (2014-09-15 r66610)
+* using log directory ‘/mnt/tmp/RtmpQKc1vi/check_cran348515c01528/rangeMapper.Rcheck’
+* using R Under development (unstable) (2014-09-29 r66696)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -72,9 +72,9 @@ The error most likely occurred in:
 > projLoc = paste(tempdir(), projName, sep = .Platform$file.sep)
 > 
 > dbcon = rangeMap.start(file = projName,dir = tempdir() , overwrite = TRUE)
-New session 2014-09-15 19:15:44
+New session 2014-09-29 17:44:15
 PROJECT: wrens.sqlite 
-DIRECTORY: /tmp/RtmpSxTCBN
+DIRECTORY: /tmp/Rtmp4HSwVu
 > f = system.file(package = "rangeMapper", "extdata", "wrens", "vector_combined")
 > global.bbox.save(con = dbcon, bbox = f) 
 Computing global bounding box for 1 ranges...

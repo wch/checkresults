@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/RtmpQKc1vi/check_cran348515c01528/plotSEMM.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpQKc1vi/check_cran348515c01528/rmarkdown.Rcheck’
 * using R Under development (unstable) (2014-09-29 r66696)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
-* checking for file ‘plotSEMM/DESCRIPTION’ ... OK
+* checking for file ‘rmarkdown/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘plotSEMM’ version ‘2.0’
+* this is package ‘rmarkdown’ version ‘0.3.3’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘plotSEMM’ can be installed ... OK
+* checking whether package ‘rmarkdown’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -34,9 +34,7 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... NOTE
-Warning in fun(libname, pkgname) :
-  no DISPLAY variable so Tk is not available
+* checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd line widths ... OK
@@ -46,10 +44,8 @@ Warning in fun(libname, pkgname) :
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking line endings in C/C++/Fortran sources/headers ... OK
-* checking line endings in Makefiles ... OK
-* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
-* checking compiled code ... OK
 * checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running ‘test-all.R’
 * DONE
-NOTE: There was 1 note.

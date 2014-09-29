@@ -3,7 +3,7 @@
 ** libs
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include    -fpic  -ggdb -pipe -Wall -pedantic  -c kernel.cpp -o kernel.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o enviPick.so kernel.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/enviPick.Rcheck/enviPick/libs
+installing to /mnt/tmp/RtmpQKc1vi/check_cran348515c01528/enviPick.Rcheck/enviPick/libs
 ** R
 ** inst
 ** preparing package for lazy loading

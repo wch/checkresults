@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/ggvis.Rcheck’
-* using R Under development (unstable) (2014-09-15 r66610)
+* using log directory ‘/mnt/tmp/RtmpQKc1vi/check_cran348515c01528/ggvis.Rcheck’
+* using R Under development (unstable) (2014-09-29 r66696)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -48,21 +48,21 @@ knit_print.ggvis: no visible global function definition for
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [18s/18s] OK
+* checking examples ... [15s/15s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... ERROR
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
-  1039: all.equal(target[[i]], current[[i]], check.attributes = check.attributes, use.names = use.names, 
-         ...)
-  1040: all.equal.default(target[[i]], current[[i]], check.attributes = check.attributes, 
-         use.names = use.names, ...)
-  1041: all.equal.list(target, current, ...)
-  1042: attr.all.equal(target, current, ...)
-  1043: order(nx)
-  1044: unlist(lapply(z, is.object))
-  1045: lapply(z, is.object)
-  1046: match.fun(FUN)
+  Component "y.update": Component "env": Component 1: Component 4: names for target but not for current
+  Component "y.update": Component "env": Component 1: Component 4: Attributes: < Modes: list, NULL >
+  Component "y.update": Component "env": Component 1: Component 4: Attributes: < names for target but not for current >
+  Component "y.update": Component "env": Component 1: Component 4: Attributes: < current is not list-like >
+  Component "y.update": Component "env": Component 1: Component 4: Length mismatch: comparison on first 0 components
+  Component "y.update": Component "env": Component 1: Component 5: names for target but not for current
+  Component "y.update": Component "env": Component 1: Component 5: Attributes: < Modes: list, NULL >
+  Component "y.update": Component "env": Component 1: Component 5: Attributes: < names for target but not for current >
+  Component "y.update": Component "env": Component 1: Component 5: Attributes: < current is not list-like >
+  Component "y.update": Component "env": Component 1: Component 5: Length mismatch: comparison on first 0 components
   
   Error: Test failures
   Execution halted

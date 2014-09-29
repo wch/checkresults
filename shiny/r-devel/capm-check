@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/capm.Rcheck’
-* using R Under development (unstable) (2014-09-15 r66610)
+* using log directory ‘/mnt/tmp/RtmpQKc1vi/check_cran348515c01528/capm.Rcheck’
+* using R Under development (unstable) (2014-09-29 r66696)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -47,9 +47,9 @@
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [25s/25s] OK
+* checking examples ... [24s/24s] OK
 Examples with CPU or elapsed time > 5s
             user system elapsed
-PlotModels 5.597  0.024    5.62
-SolveIASA  5.244  0.004    5.25
+PlotModels 5.885  0.008   5.896
+SolveIASA  5.616  0.016   5.636
 * DONE

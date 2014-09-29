@@ -13,7 +13,7 @@ ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c rgbToGray.cpp -o rgbToGray.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic  -c thresholdImageMatrix.cpp -o thresholdImageMatrix.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o StereoMorph.so RcppExports.o dilateImage.o drawRectangle.o equalizeImageHist.o erodeImage.o findBoundaryPoints.o findCornerSubPix.o generateQuads.o meanBlurImage.o rgbToGray.o thresholdImageMatrix.o -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/StereoMorph.Rcheck/StereoMorph/libs
+installing to /mnt/tmp/RtmpQKc1vi/check_cran348515c01528/StereoMorph.Rcheck/StereoMorph/libs
 ** R
 ** inst
 ** preparing package for lazy loading

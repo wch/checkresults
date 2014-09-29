@@ -19,9 +19,9 @@ The error most likely occurred in:
 > projLoc = paste(tempdir(), projName, sep = .Platform$file.sep)
 > 
 > dbcon = rangeMap.start(file = projName,dir = tempdir() , overwrite = TRUE)
-New session 2014-09-15 19:15:44
+New session 2014-09-29 17:44:15
 PROJECT: wrens.sqlite 
-DIRECTORY: /tmp/RtmpSxTCBN
+DIRECTORY: /tmp/Rtmp4HSwVu
 > f = system.file(package = "rangeMapper", "extdata", "wrens", "vector_combined")
 > global.bbox.save(con = dbcon, bbox = f) 
 Computing global bounding box for 1 ranges...

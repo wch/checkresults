@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/sparkTable.Rcheck’
-* using R Under development (unstable) (2014-09-15 r66610)
+* using log directory ‘/mnt/tmp/RtmpQKc1vi/check_cran348515c01528/sparkTable.Rcheck’
+* using R Under development (unstable) (2014-09-29 r66696)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -7,86 +7,8 @@
 * checking extension type ... Package
 * this is package ‘sparkTable’ version ‘0.11.0’
 * checking package namespace information ... OK
-* checking package dependencies ... OK
-* checking if this is a source package ... OK
-* checking if there is a namespace ... OK
-* checking for executable files ... OK
-* checking for hidden files and directories ... OK
-* checking for portable file names ... OK
-* checking for sufficient/correct file permissions ... OK
-* checking whether package ‘sparkTable’ can be installed ... OK
-* checking installed package size ... OK
-* checking package directory ... OK
-* checking DESCRIPTION meta-information ... OK
-* checking top-level files ... OK
-* checking for left-over files ... OK
-* checking index information ... OK
-* checking package subdirectories ... OK
-* checking R files for non-ASCII characters ... OK
-* checking R files for syntax errors ... OK
-* checking whether the package can be loaded ... OK
-* checking whether the package can be loaded with stated dependencies ... OK
-* checking whether the package can be unloaded cleanly ... OK
-* checking whether the namespace can be loaded with stated dependencies ... OK
-* checking whether the namespace can be unloaded cleanly ... OK
-* checking loading without being on the library search path ... OK
-* checking dependencies in R code ... NOTE
-Package in Depends field not imported from: ‘grid’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
+* checking package dependencies ... ERROR
+Package required but not available: ‘Rglpk’
+
 See the information on DESCRIPTION files in the chapter ‘Creating R
 packages’ of the ‘Writing R Extensions’ manual.
-* checking S3 generic/method consistency ... OK
-* checking replacement functions ... OK
-* checking foreign function calls ... OK
-* checking R code for possible problems ... NOTE
-checkerplot: no visible global function definition for ‘grid.newpage’
-checkerplot: no visible global function definition for ‘unit’
-checkerplot: no visible global function definition for ‘pushViewport’
-checkerplot: no visible global function definition for ‘viewport’
-checkerplot: no visible global function definition for ‘grid.layout’
-checkerplot: no visible global function definition for ‘grid.text’
-checkerplot: no visible global function definition for ‘gpar’
-checkerplot: no visible global function definition for ‘popViewport’
-checkerplot: no visible global function definition for ‘grid.rect’
-checkerplot: no visible global function definition for ‘grid.draw’
-checkerplot: no visible global function definition for ‘grid.lines’
-plotSparks,sparkbar: no visible global function definition for
-  ‘grid.rect’
-plotSparks,sparkbar: no visible global function definition for ‘unit’
-plotSparks,sparkbar: no visible global function definition for ‘gpar’
-plotSparks,sparkbox: no visible global function definition for
-  ‘grid.rect’
-plotSparks,sparkbox: no visible global function definition for ‘unit’
-plotSparks,sparkbox: no visible global function definition for ‘gpar’
-plotSparks,sparkbox: no visible global function definition for
-  ‘grid.lines’
-plotSparks,sparkbox: no visible global function definition for
-  ‘grid.points’
-plotSparks,sparkhist: no visible global function definition for
-  ‘grid.rect’
-plotSparks,sparkhist: no visible global function definition for ‘unit’
-plotSparks,sparkhist: no visible global function definition for ‘gpar’
-plotSparks,sparkline: no visible global function definition for
-  ‘grid.rect’
-plotSparks,sparkline: no visible global function definition for ‘unit’
-plotSparks,sparkline: no visible global function definition for ‘gpar’
-plotSparks,sparkline: no visible global function definition for
-  ‘grid.lines’
-plotSparks,sparkline: no visible global function definition for
-  ‘grid.points’
-* checking Rd files ... OK
-* checking Rd metadata ... OK
-* checking Rd line widths ... OK
-* checking Rd cross-references ... OK
-* checking for missing documentation entries ... OK
-* checking for code/documentation mismatches ... SKIPPED
-* checking Rd \usage sections ... OK
-* checking Rd contents ... OK
-* checking for unstated dependencies in examples ... OK
-* checking contents of ‘data’ directory ... OK
-* checking data for non-ASCII characters ... OK
-* checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [10s/10s] OK
-* DONE
-NOTE: There were 2 notes.

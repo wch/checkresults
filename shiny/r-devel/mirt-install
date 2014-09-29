@@ -7,7 +7,7 @@ ccache gcc -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"  -fopenmp -fpic  -ggdb -pipe -Wall -pedantic  -c dpars.cpp -o dpars.o
 ccache g++ -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"  -fopenmp -fpic  -ggdb -pipe -Wall -pedantic  -c traceLinePts.cpp -o traceLinePts.o
 ccache g++ -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o mirt.so Estep.o Misc.o dgroup.o dpars.o traceLinePts.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/local/lib/R-devel/lib/R/lib -lR
-installing to /mnt/tmp/RtmpfjBkhf/check_cran4d3c5a62eb17/mirt.Rcheck/mirt/libs
+installing to /mnt/tmp/RtmpQKc1vi/check_cran348515c01528/mirt.Rcheck/mirt/libs
 ** R
 ** data
 *** moving datasets to lazyload DB
