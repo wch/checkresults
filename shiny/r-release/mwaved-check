@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/mwaved.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpvXyJqx/check_cran7397291f867/mwaved.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -16,4 +16,4 @@
 * checking for sufficient/correct file permissions ... OK
 * checking whether package ‘mwaved’ can be installed ... ERROR
 Installation failed.
-See ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/mwaved.Rcheck/00install.out’ for details.
+See ‘/mnt/tmp/RtmpvXyJqx/check_cran7397291f867/mwaved.Rcheck/00install.out’ for details.

@@ -9,7 +9,7 @@ g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c pwWC.cpp -o pwWC.o
 g++ -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g  -c varFunc.cpp -o varFunc.o
 g++ -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o diveRsity.so RcppExports.o glbWC.o myTab.o pwHetCalcCpp.o pwHt.o pwWC.o varFunc.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/diveRsity.Rcheck/diveRsity/libs
+installing to /mnt/tmp/RtmpvXyJqx/check_cran7397291f867/diveRsity.Rcheck/diveRsity/libs
 ** R
 ** data
 ** inst

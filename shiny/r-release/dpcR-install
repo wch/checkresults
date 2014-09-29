@@ -5,9 +5,15 @@
 *** moving datasets to lazyload DB
 ** inst
 ** preparing package for lazy loading
+Warning in rgl.init(initValue, onlyNULL) :
+  RGL: unable to open X11 display
+Warning in fun(libname, pkgname) : error in rgl_init
 Creating a generic function from function ‘test_ratio’ in package ‘dpcR’
 ** help
 *** installing help indices
 ** building package indices
 ** testing if installed package can be loaded
+Warning in rgl.init(initValue, onlyNULL) :
+  RGL: unable to open X11 display
+Warning in fun(libname, pkgname) : error in rgl_init
 * DONE (dpcR)

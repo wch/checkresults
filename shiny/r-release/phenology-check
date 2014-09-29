@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/phenology.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpvXyJqx/check_cran7397291f867/phenology.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -48,5 +48,5 @@ Package suggested but not available for checking: ‘RNetCDF’
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [18s/18s] OK
+* checking examples ... [14s/15s] OK
 NOTE: There was 1 note.

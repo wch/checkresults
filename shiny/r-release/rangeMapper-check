@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/rangeMapper.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpvXyJqx/check_cran7397291f867/rangeMapper.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘rangeMapper’ can be installed ... [10s/11s] OK
+* checking whether package ‘rangeMapper’ can be installed ... [10s/10s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking DESCRIPTION meta-information ... OK
@@ -33,11 +33,18 @@
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
+* checking R code for possible problems ... NOTE
+RMQuery: no visible global function definition for ‘sqliteQuickSQL’
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd line widths ... OK
-* checking Rd cross-references ... OK
+* checking Rd cross-references ... WARNING
+Missing link or links in documentation object '99_RMQuery.Rd':
+  ‘sqliteQuickSQL’
+
+See the information in section 'Cross-references' of the 'Writing R
+Extensions' manual.
+
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... SKIPPED
 * checking Rd \usage sections ... OK
@@ -61,13 +68,5 @@ The error most likely occurred in:
 > td = setwd(tempdir())
 > 
 > dbcon = rangeMap.start(file = "test.sqlite", overwrite = TRUE, dir = tempdir() )
-New session 2014-09-15 18:39:16
-PROJECT: test.sqlite 
-DIRECTORY: /tmp/RtmpL6GQkI
-> summary(dbcon)
-SQLiteConnection 
-dbname = /tmp/RtmpL6GQkI/test.sqlite 
-serverVersion = 3.7.17 
-Error in if (value == "") next : argument is of length zero
-Calls: summary -> summary -> print.list.pairs
+Error: could not find function "sqliteQuickSQL"
 Execution halted

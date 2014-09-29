@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/chipPCR.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpvXyJqx/check_cran7397291f867/chipPCR.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘chipPCR/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘chipPCR’ version ‘0.0.8-1’
+* this is package ‘chipPCR’ version ‘0.0.8-3’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -51,12 +51,12 @@
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [27s/27s] OK
+* checking examples ... [23s/24s] OK
 Examples with CPU or elapsed time > 5s
               user system elapsed
-amptester    9.277  0.016   9.299
-capillaryPCR 6.260  0.032   6.339
+amptester    7.440  0.012   7.453
+capillaryPCR 6.553  0.032   7.269
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [22s/23s] OK
-* checking re-building of vignette outputs ... [27s/29s] OK
+* checking running R code from vignettes ... [24s/25s] OK
+* checking re-building of vignette outputs ... [29s/30s] OK

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/interAdapt.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpvXyJqx/check_cran7397291f867/interAdapt.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -49,4 +49,4 @@
 * checking examples ... OK
 Examples with CPU or elapsed time > 5s
                             user system elapsed
-compute_design_performance 7.396  0.068   7.466
+compute_design_performance 6.536  0.108   6.644

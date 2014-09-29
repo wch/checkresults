@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/shinyFiles.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpvXyJqx/check_cran7397291f867/shinyFiles.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘shinyFiles/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘shinyFiles’ version ‘0.3.2’
+* this is package ‘shinyFiles’ version ‘0.4.0’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK

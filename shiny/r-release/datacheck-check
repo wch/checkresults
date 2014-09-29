@@ -1,11 +1,11 @@
-* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/datacheck.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpvXyJqx/check_cran7397291f867/datacheck.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
 * checking for file ‘datacheck/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘datacheck’ version ‘1.0.0’
+* this is package ‘datacheck’ version ‘1.0.4’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -31,13 +31,7 @@
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
 * checking loading without being on the library search path ... OK
-* checking dependencies in R code ... NOTE
-Packages in Depends field not imported from:
-  ‘Hmisc’ ‘shiny’ ‘stringr’ ‘testthat’ ‘xtable’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-See the information on DESCRIPTION files in the chapter ‘Creating R
-packages’ of the ‘Writing R Extensions’ manual.
+* checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
@@ -54,23 +48,7 @@ packages’ of the ‘Writing R Extensions’ manual.
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
-* checking for unstated dependencies in tests ... OK
-* checking tests ... OK
-  Running ‘test-all.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... ERROR
-Errors in running code in vignettes:
-when running code in ‘index.Rmd’
-  ...
-  |                                                                            
-  |====================================================================  |  97%
-  |                                                                            
-  |======================================================================| 100%
-
-> xtable(shortSummary(atable))
-
-  When sourcing ‘index.R’:
-Error: recursive indexing failed at level 2
-Execution halted
-
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK

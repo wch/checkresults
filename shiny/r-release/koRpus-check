@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/koRpus.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpvXyJqx/check_cran7397291f867/koRpus.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -55,8 +55,8 @@ Package which this enhances but not available for checking: ‘rkward’
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [14s/15s] OK
-  Running ‘test_koRpus_package.R’ [14s/14s]
+* checking tests ... [12s/12s] OK
+  Running ‘test_koRpus_package.R’ [11s/11s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... OK

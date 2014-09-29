@@ -1,4 +1,11 @@
-rangeMapper *  checking examples ... ERROR
+rangeMapper *  checking Rd cross-references ... WARNING
+Missing link or links in documentation object '99_RMQuery.Rd':
+  ‘sqliteQuickSQL’
+
+See the information in section 'Cross-references' of the 'Writing R
+Extensions' manual.
+
+*  checking examples ... ERROR
 Running examples in ‘rangeMapper-Ex.R’ failed
 The error most likely occurred in:
 
@@ -13,13 +20,5 @@ The error most likely occurred in:
 > td = setwd(tempdir())
 > 
 > dbcon = rangeMap.start(file = "test.sqlite", overwrite = TRUE, dir = tempdir() )
-New session 2014-09-15 18:39:16
-PROJECT: test.sqlite 
-DIRECTORY: /tmp/RtmpL6GQkI
-> summary(dbcon)
-SQLiteConnection 
-dbname = /tmp/RtmpL6GQkI/test.sqlite 
-serverVersion = 3.7.17 
-Error in if (value == "") next : argument is of length zero
-Calls: summary -> summary -> print.list.pairs
+Error: could not find function "sqliteQuickSQL"
 Execution halted

@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/Rtmp6Z1d0v/check_cran297b1925d55c/treemap.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpvXyJqx/check_cran7397291f867/treemap.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -47,7 +47,8 @@
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... [16s/16s] OK
+* checking examples ... [18s/19s] OK
 Examples with CPU or elapsed time > 5s
-         user system elapsed
-treemap 8.272  0.004   8.279
+                          user system elapsed
+treemap                  8.889  0.008   9.119
+random.hierarchical.data 5.268  0.036   5.302
