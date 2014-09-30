@@ -1,0 +1,18 @@
+* installing *source* package ‘rplexos’ ...
+** package ‘rplexos’ successfully unpacked and MD5 sums checked
+** libs
+ccache g++ -std=c++0x -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic -c RcppExports.cpp -o RcppExports.o
+ccache g++ -std=c++0x -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic -c expand_interval_data.cpp -o expand_interval_data.o
+ccache g++ -std=c++0x -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic -c expand_tkey.cpp -o expand_tkey.o
+ccache g++ -std=c++0x -I/usr/local/lib/R-devel/lib/R/include -DNDEBUG  -I/usr/local/include -I"/home/ubuntu/R-lib/3.2/Rcpp/include"   -fpic  -ggdb -pipe -Wall -pedantic -c process_xml.cpp -o process_xml.o
+ccache g++ -std=c++0x -shared -L/usr/local/lib/R-devel/lib/R/lib -L/usr/local/lib -o rplexos.so RcppExports.o expand_interval_data.o expand_tkey.o process_xml.o -L/usr/local/lib/R-devel/lib/R/lib -lR
+installing to /mnt/tmp/Rtmp8yoDHB/check_cran2c016833b56/rplexos.Rcheck/rplexos/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (rplexos)

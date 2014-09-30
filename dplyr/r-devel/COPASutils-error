@@ -1,0 +1,14 @@
+COPASutils *  checking running R code from vignettes ... ERROR
+Errors in running code in vignettes:
+when running code in ‘Overview.Rmd’
+  ...
+3   A   3 70        3 307.2143        310 190.8714      209.5 62.61429       52.0
+4   A   4 NA       NA       NA         NA       NA         NA       NA         NA
+5   A   5 69        3 323.9420        346 203.0580      215.0 47.00000       48.0
+6   A   6 NA       NA       NA         NA       NA         NA       NA         NA
+
+> edgeEffect(setupSummarized, "n")
+
+  When sourcing ‘Overview.R’:
+Error: index out of bounds
+Execution halted

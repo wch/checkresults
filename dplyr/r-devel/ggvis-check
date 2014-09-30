@@ -1,0 +1,78 @@
+* using log directory ‘/mnt/tmp/Rtmp8yoDHB/check_cran2c016833b56/ggvis.Rcheck’
+* using R Under development (unstable) (2014-09-30 r66698)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--no-codoc’
+* checking for file ‘ggvis/DESCRIPTION’ ... OK
+* this is package ‘ggvis’ version ‘0.3.0.1’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘ggvis’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... WARNING
+'::' or ':::' import not declared from: ‘lazyeval’
+Missing or unexported object: ‘dplyr::lag’
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+knit_print.ggvis: no visible global function definition for
+  ‘knit_print’
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... SKIPPED
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... ERROR
+Running examples in ‘ggvis-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: auto_group
+> ### Title: Automatically group data by grouping variables
+> ### Aliases: auto_group
+> 
+> ### ** Examples
+> 
+> # Make cyl a factor (as it really should be)
+> mtcars2 <- mtcars
+> mtcars2$cyl <- factor(mtcars2$cyl)
+> 
+> # One line
+> mtcars2 %>% ggvis(~disp,  ~mpg, stroke = ~cyl) %>% layer_paths()
+> # One line for each level of cyl
+> mtcars2 %>% ggvis(~disp,  ~mpg, stroke = ~cyl) %>% group_by(cyl) %>%
++   layer_paths()
+Error in UseMethod("group_by_") : 
+  no applicable method for 'group_by_' applied to an object of class "ggvis"
+Calls: %>% ... withVisible -> eval -> eval -> group_by -> group_by_
+Execution halted
