@@ -1,0 +1,39 @@
+freqweights *  checking Rd cross-references ... WARNING
+Missing link or links in documentation object 'evaldp.Rd':
+  ‘[dplyr]{manip}’
+
+See the information in section 'Cross-references' of the 'Writing R
+Extensions' manual.
+
+*  checking examples ... ERROR
+Running examples in ‘freqweights-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: freqweights-package
+> ### Title: Working with frequency tables
+> ### Aliases: freqweights freqweights-package
+> ### Keywords: package
+> 
+> ### ** Examples
+> 
+> tablefreq(iris)
+Source: local data frame [149 x 6]
+
+   Sepal.Length Sepal.Width Petal.Length Petal.Width Species freq
+1           4.3         3.0          1.1         0.1  setosa    1
+2           4.4         2.9          1.4         0.2  setosa    1
+3           4.4         3.0          1.3         0.2  setosa    1
+4           4.4         3.2          1.3         0.2  setosa    1
+5           4.5         2.3          1.3         0.3  setosa    1
+6           4.6         3.1          1.5         0.2  setosa    1
+7           4.6         3.2          1.4         0.2  setosa    1
+8           4.6         3.4          1.4         0.3  setosa    1
+9           4.6         3.6          1.0         0.2  setosa    1
+10          4.7         3.2          1.3         0.2  setosa    1
+..          ...         ...          ...         ...     ...  ...
+> lmfreq(Sepal.Length ~ Petal.Length, tablefreq(iris))
+Error in model.frame.default(formula = Sepal.Length ~ Petal.Length, data = list( : 
+  invalid type (list) for variable '(weights)'
+Calls: lmfreq ... lm -> eval -> eval -> <Anonymous> -> model.frame.default
+Execution halted

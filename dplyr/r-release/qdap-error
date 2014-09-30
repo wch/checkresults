@@ -1,0 +1,16 @@
+qdap *  checking tests ... ERROR
+Running the tests in ‘tests/testthat.R’ failed.
+Last 13 lines of output:
+  7: melt.default(cor_dat)
+  8: setNames(data.frame(data), value.name)
+  
+  Error: Test failures
+  In addition: Warning messages:
+  1: In word_cor(text.var[, "text"], text.var[, "tot"], word = Filtered_dat[,  :
+    The following words were not found in the data set and were removed:
+  =======================
+  a, and, answer, at, award, be, bounty, if, least, of, the, to
+  
+  2: In word_cor(text.var[, "text"], text.var[, "tot"], word = Filtered_dat[,  :
+    No words found in the data set.  NULL returned
+  Execution halted

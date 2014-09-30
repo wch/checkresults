@@ -1,0 +1,9 @@
+rPref *  checking examples ... WARNING
+Found the following significant warnings:
+
+  Warning: 'dplyr::regroup' is deprecated.
+  Warning: 'dplyr::regroup' is deprecated.
+Deprecated functions may be defunct as soon as of the next release of
+R.
+See ?Deprecated.
+WARNING: There was 1 warning.

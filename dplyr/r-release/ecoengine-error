@@ -1,0 +1,16 @@
+ecoengine *  checking examples ... ERROR
+Running examples in ‘ecoengine-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: ee_about
+> ### Title: About the Berkeley Ecoinformatics Engine
+> ### Aliases: ee_about
+> 
+> ### ** Examples
+> 
+> ee_about()
+Error in function (type, msg, asError = TRUE)  : 
+  server certificate verification failed. CAfile: /home/ubuntu/R-lib/3.1/httr/cacert.pem CRLfile: none
+Calls: ee_about ... perform -> <Anonymous> -> .Call -> <Anonymous> -> fun
+Execution halted

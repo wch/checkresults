@@ -1,0 +1,38 @@
+simPH *  checking examples ... ERROR
+Running examples in ‘simPH-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: tvc
+> ### Title: Create a time interaction variable
+> ### Aliases: tvc
+> ### Keywords: utilities
+> 
+> ### ** Examples
+> 
+> # Load Golub & Steunenberg (2007) Data
+> data('GolubEUPData')
+> 
+> # Subset PURELY TO SPEED UP THE EXAMPLE
+> GolubEUPData <- GolubEUPData[1:500, ]
+> 
+> # Expand data into equally spaced time intervals
+> GolubEUPData <- SurvExpand(GolubEUPData, GroupVar = 'caseno',
++                   Time = 'begin', Time2 = 'end', event = 'event')
+
+Reminder (1): Currently SurvExpand does not support repeated events data.
+
+
+Reminder (2): Times should be in 1 unit intervals, otherwise this could take awhile.
+
+
+Converting "begin" to numeric. Things might get wacky. Please check.
+Converting "end" to numeric. Things might get wacky. Please check.
+Converting "event" to numeric. Things might get wacky. Please check.
+
+Expanding data.
+
+Keeping only needed observations.
+
+Error: index out of bounds
+Execution halted

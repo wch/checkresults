@@ -1,0 +1,264 @@
+=========================================================================
+Reverse dependency check for dplyr 0.3
+Commit 15b67ef77f684118caee271d80531006e42bb437
+=========================================================================
+ setting  value                       
+ version  R version 3.1.1 (2014-07-10)
+ system   x86_64, linux-gnu           
+ ui       X11                         
+ language (EN)                        
+ collate  en_US.UTF-8                 
+ tz       <NA>                        
+
+ package    * version    date       source                          
+ bitops       1.0.6      2013-08-17 CRAN (R 3.1.0)                  
+ devtools   * 1.6.0.9000 2014-09-29 Github (hadley/devtools@c639659)
+ digest       0.6.4      2013-12-03 CRAN (R 3.1.0)                  
+ evaluate     0.5.5      2014-04-29 CRAN (R 3.1.0)                  
+ formatR      1.0        2014-08-25 CRAN (R 3.1.1)                  
+ httr         0.5        2014-09-02 Github (hadley/httr@5ecb5ef)    
+ knitr        1.6        2014-05-25 CRAN (R 3.1.0)                  
+ memoise      0.2.1      2014-04-22 CRAN (R 3.1.0)                  
+ RCurl        1.96.0     2014-07-07 local                           
+ rstudioapi   0.1        2014-03-27 CRAN (R 3.1.0)                  
+ stringr      0.6.2      2012-12-06 CRAN (R 3.1.0)                  
+
+aemo ==================================================================== 
+ 
+
+
+COPASutils ============================================================== 
+ *  checking running R code from vignettes ... ERROR
+Errors in running code in vignettes:
+when running code in ‘Overview.Rmd’
+  ...
+3   A   3 70        3 307.2143        310 190.8714      209.5 62.61429       52.0
+4   A   4 NA       NA       NA         NA       NA         NA       NA         NA
+5   A   5 69        3 323.9420        346 203.0580      215.0 47.00000       48.0
+6   A   6 NA       NA       NA         NA       NA         NA       NA         NA
+
+> edgeEffect(setupSummarized, "n")
+
+  When sourcing ‘Overview.R’:
+Error: index out of bounds
+Execution halted
+ 
+
+
+DataCombine ============================================================= 
+ 
+
+
+ecoengine =============================================================== 
+ *  checking examples ... ERROR
+Running examples in ‘ecoengine-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: ee_about
+> ### Title: About the Berkeley Ecoinformatics Engine
+> ### Aliases: ee_about
+> 
+> ### ** Examples
+> 
+> ee_about()
+Error in function (type, msg, asError = TRUE)  : 
+  server certificate verification failed. CAfile: /home/ubuntu/R-lib/3.1/httr/cacert.pem CRLfile: none
+Calls: ee_about ... perform -> <Anonymous> -> .Call -> <Anonymous> -> fun
+Execution halted 
+
+
+freqweights ============================================================= 
+ *  checking Rd cross-references ... WARNING
+Missing link or links in documentation object 'evaldp.Rd':
+  ‘[dplyr]{manip}’
+
+See the information in section 'Cross-references' of the 'Writing R
+Extensions' manual.
+
+*  checking examples ... ERROR
+Running examples in ‘freqweights-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: freqweights-package
+> ### Title: Working with frequency tables
+> ### Aliases: freqweights freqweights-package
+> ### Keywords: package
+> 
+> ### ** Examples
+> 
+> tablefreq(iris)
+Source: local data frame [149 x 6]
+
+   Sepal.Length Sepal.Width Petal.Length Petal.Width Species freq
+1           4.3         3.0          1.1         0.1  setosa    1
+2           4.4         2.9          1.4         0.2  setosa    1
+3           4.4         3.0          1.3         0.2  setosa    1
+4           4.4         3.2          1.3         0.2  setosa    1
+5           4.5         2.3          1.3         0.3  setosa    1
+6           4.6         3.1          1.5         0.2  setosa    1
+7           4.6         3.2          1.4         0.2  setosa    1
+8           4.6         3.4          1.4         0.3  setosa    1
+9           4.6         3.6          1.0         0.2  setosa    1
+10          4.7         3.2          1.3         0.2  setosa    1
+..          ...         ...          ...         ...     ...  ...
+> lmfreq(Sepal.Length ~ Petal.Length, tablefreq(iris))
+Error in model.frame.default(formula = Sepal.Length ~ Petal.Length, data = list( : 
+  invalid type (list) for variable '(weights)'
+Calls: lmfreq ... lm -> eval -> eval -> <Anonymous> -> model.frame.default
+Execution halted 
+
+
+fueleconomy ============================================================= 
+ 
+
+
+gender ================================================================== 
+ 
+
+
+ggvis =================================================================== 
+ *  checking dependencies in R code ... WARNING
+'::' or ':::' import not declared from: ‘lazyeval’
+Missing or unexported object: ‘dplyr::lag’
+See the information on DESCRIPTION files in the chapter ‘Creating R
+packages’ of the ‘Writing R Extensions’ manual.
+*  checking examples ... ERROR
+Running examples in ‘ggvis-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: auto_group
+> ### Title: Automatically group data by grouping variables
+> ### Aliases: auto_group
+> 
+> ### ** Examples
+> 
+> # Make cyl a factor (as it really should be)
+> mtcars2 <- mtcars
+> mtcars2$cyl <- factor(mtcars2$cyl)
+> 
+> # One line
+> mtcars2 %>% ggvis(~disp,  ~mpg, stroke = ~cyl) %>% layer_paths()
+> # One line for each level of cyl
+> mtcars2 %>% ggvis(~disp,  ~mpg, stroke = ~cyl) %>% group_by(cyl) %>%
++   layer_paths()
+Error in UseMethod("group_by_") : 
+  no applicable method for 'group_by_' applied to an object of class "ggvis"
+Calls: %>% ... withVisible -> eval -> eval -> group_by -> group_by_
+Execution halted 
+
+
+mosaic ================================================================== 
+ 
+
+
+nycflights13 ============================================================ 
+ 
+
+
+peptider ================================================================ 
+ 
+
+
+pitchRx ================================================================= 
+ 
+
+
+pollstR ================================================================= 
+ 
+
+
+qdap ==================================================================== 
+ *  checking tests ... ERROR
+Running the tests in ‘tests/testthat.R’ failed.
+Last 13 lines of output:
+  7: melt.default(cor_dat)
+  8: setNames(data.frame(data), value.name)
+  
+  Error: Test failures
+  In addition: Warning messages:
+  1: In word_cor(text.var[, "text"], text.var[, "tot"], word = Filtered_dat[,  :
+    The following words were not found in the data set and were removed:
+  =======================
+  a, and, answer, at, award, be, bounty, if, least, of, the, to
+  
+  2: In word_cor(text.var[, "text"], text.var[, "tot"], word = Filtered_dat[,  :
+    No words found in the data set.  NULL returned
+  Execution halted 
+
+
+rattle ================================================================== 
+ 
+
+
+rplexos ================================================================= 
+ 
+
+
+rPref =================================================================== 
+ *  checking examples ... WARNING
+Found the following significant warnings:
+
+  Warning: 'dplyr::regroup' is deprecated.
+  Warning: 'dplyr::regroup' is deprecated.
+Deprecated functions may be defunct as soon as of the next release of
+R.
+See ?Deprecated.
+WARNING: There was 1 warning. 
+
+
+simPH =================================================================== 
+ *  checking examples ... ERROR
+Running examples in ‘simPH-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: tvc
+> ### Title: Create a time interaction variable
+> ### Aliases: tvc
+> ### Keywords: utilities
+> 
+> ### ** Examples
+> 
+> # Load Golub & Steunenberg (2007) Data
+> data('GolubEUPData')
+> 
+> # Subset PURELY TO SPEED UP THE EXAMPLE
+> GolubEUPData <- GolubEUPData[1:500, ]
+> 
+> # Expand data into equally spaced time intervals
+> GolubEUPData <- SurvExpand(GolubEUPData, GroupVar = 'caseno',
++                   Time = 'begin', Time2 = 'end', event = 'event')
+
+Reminder (1): Currently SurvExpand does not support repeated events data.
+
+
+Reminder (2): Times should be in 1 unit intervals, otherwise this could take awhile.
+
+
+Converting "begin" to numeric. Things might get wacky. Please check.
+Converting "end" to numeric. Things might get wacky. Please check.
+Converting "event" to numeric. Things might get wacky. Please check.
+
+Expanding data.
+
+Keeping only needed observations.
+
+Error: index out of bounds
+Execution halted 
+
+
+tidyr =================================================================== 
+ 
+
+
+turfR =================================================================== 
+ 
+
+
+vdmR ==================================================================== 
+ 
+
+
