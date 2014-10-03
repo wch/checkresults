@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpVjQqf8/check_cran220e24263d0e/rplexos.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpNSZ8CL/check_cran7c12a3a27a7/rplexos.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘rplexos’ can be installed ... [27s/27s] OK
+* checking whether package ‘rplexos’ can be installed ... [29s/29s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK

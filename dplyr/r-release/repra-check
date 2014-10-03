@@ -1,10 +1,10 @@
-* using log directory ‘/mnt/tmp/RtmpNSZ8CL/check_cran7c12a3a27a7/fueleconomy.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpNSZ8CL/check_cran7c12a3a27a7/repra.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
-* checking for file ‘fueleconomy/DESCRIPTION’ ... OK
-* this is package ‘fueleconomy’ version ‘0.1’
+* checking for file ‘repra/DESCRIPTION’ ... OK
+* this is package ‘repra’ version ‘0.4.1’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -13,9 +13,10 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘fueleconomy’ can be installed ... OK
+* checking whether package ‘repra’ can be installed ... [17s/17s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -46,4 +47,42 @@
 * checking contents of ‘data’ directory ... OK
 * checking data for non-ASCII characters ... OK
 * checking data for ASCII and uncompressed saves ... OK
-* checking examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... WARNING
+Found the following significant warnings:
+
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+Deprecated functions may be defunct as soon as of the next release of
+R.
+See ?Deprecated.
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running ‘test-all.R’
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... [11s/11s] OK
+* checking re-building of vignette outputs ... [10s/10s] OK
+WARNING: There was 1 warning.

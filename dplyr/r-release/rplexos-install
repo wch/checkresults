@@ -6,7 +6,7 @@ g++ -std=c++0x -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/
 g++ -std=c++0x -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g -c expand_tkey.cpp -o expand_tkey.o
 g++ -std=c++0x -I/usr/share/R/include -DNDEBUG   -I"/home/ubuntu/R-lib/3.1/Rcpp/include"   -fpic  -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -Werror=format-security -D_FORTIFY_SOURCE=2 -g -c process_xml.cpp -o process_xml.o
 g++ -std=c++0x -shared -Wl,-Bsymbolic-functions -Wl,-z,relro -o rplexos.so RcppExports.o expand_interval_data.o expand_tkey.o process_xml.o -L/usr/lib/R/lib -lR
-installing to /mnt/tmp/RtmpVjQqf8/check_cran220e24263d0e/rplexos.Rcheck/rplexos/libs
+installing to /mnt/tmp/RtmpNSZ8CL/check_cran7c12a3a27a7/rplexos.Rcheck/rplexos/libs
 ** R
 ** inst
 ** preparing package for lazy loading

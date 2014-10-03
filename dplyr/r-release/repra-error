@@ -1,0 +1,25 @@
+repra *  checking examples ... WARNING
+Found the following significant warnings:
+
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+Deprecated functions may be defunct as soon as of the next release of
+R.
+See ?Deprecated.

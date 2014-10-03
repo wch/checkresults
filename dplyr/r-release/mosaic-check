@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpVjQqf8/check_cran220e24263d0e/mosaic.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpNSZ8CL/check_cran7c12a3a27a7/mosaic.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -15,7 +15,7 @@ Package which this enhances but not available for checking: ‘manipulate’
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘mosaic’ can be installed ... [16s/16s] OK
+* checking whether package ‘mosaic’ can be installed ... [14s/14s] OK
 * checking installed package size ... NOTE
   installed size is  9.1Mb
   sub-directories of 1Mb or more:
@@ -54,12 +54,12 @@ Package which this enhances but not available for checking: ‘manipulate’
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [27s/25s] OK
+* checking examples ... [28s/27s] OK
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘test-all.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... [22s/22s] OK
-* checking re-building of vignette outputs ... [19s/19s] OK
+* checking re-building of vignette outputs ... [19s/20s] OK
 NOTE: There were 2 notes.

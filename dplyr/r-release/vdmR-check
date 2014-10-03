@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpVjQqf8/check_cran220e24263d0e/vdmR.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpNSZ8CL/check_cran7c12a3a27a7/vdmR.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -51,14 +51,14 @@
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [18s/18s] OK
+* checking examples ... [18s/19s] OK
 Examples with CPU or elapsed time > 5s
          user system elapsed
-vlaunch 5.648  0.024   5.669
+vlaunch 5.252  0.012   5.264
 * checking for unstated dependencies in tests ... OK
 * checking tests ... OK
   Running ‘run-all.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
-* checking running R code from vignettes ... [25s/25s] OK
-* checking re-building of vignette outputs ... [17s/18s] OK
+* checking running R code from vignettes ... [21s/21s] OK
+* checking re-building of vignette outputs ... [21s/21s] OK

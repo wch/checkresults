@@ -1,6 +1,6 @@
 =========================================================================
 Reverse dependency check for dplyr 0.3
-Commit 15b67ef77f684118caee271d80531006e42bb437
+Commit b3014b6a8e2280bebdf30f71b7c90ee881b4d09b
 =========================================================================
  setting  value                       
  version  R version 3.1.1 (2014-07-10)
@@ -193,6 +193,34 @@ rattle ==================================================================
  
 
 
+repra =================================================================== 
+ *  checking examples ... WARNING
+Found the following significant warnings:
+
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+  Warning: 'regroup' is deprecated.
+Deprecated functions may be defunct as soon as of the next release of
+R.
+See ?Deprecated. 
+
+
 rplexos ================================================================= 
  
 
@@ -241,6 +269,8 @@ Reminder (2): Times should be in 1 unit intervals, otherwise this could take awh
 Converting "begin" to numeric. Things might get wacky. Please check.
 Converting "end" to numeric. Things might get wacky. Please check.
 Converting "event" to numeric. Things might get wacky. Please check.
+Warning in `[.data.table`(Full, , !c("allow.cartesian.1", "FakeID"), with = FALSE) :
+  column(s) not removed because not found: allow.cartesian.1
 
 Expanding data.
 

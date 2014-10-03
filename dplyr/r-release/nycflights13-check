@@ -1,4 +1,4 @@
-* using log directory ‘/mnt/tmp/RtmpVjQqf8/check_cran220e24263d0e/nycflights13.Rcheck’
+* using log directory ‘/mnt/tmp/RtmpNSZ8CL/check_cran7c12a3a27a7/nycflights13.Rcheck’
 * using R version 3.1.1 (2014-07-10)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘nycflights13’ can be installed ... [10s/10s] OK
+* checking whether package ‘nycflights13’ can be installed ... OK
 * checking installed package size ... NOTE
   installed size is  5.6Mb
   sub-directories of 1Mb or more:
