@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/Rtmp8yoDHB/check_cran2c016833b56/qdap.Rcheck’
-* using R Under development (unstable) (2014-09-30 r66698)
+* using log directory ‘/mnt/tmp/RtmpjULWJs/check_cran226c599fdebb/qdap.Rcheck’
+* using R Under development (unstable) (2014-10-02 r66711)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -14,7 +14,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘qdap’ can be installed ... [26s/27s] OK
+* checking whether package ‘qdap’ can be installed ... [26s/26s] OK
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking ‘build’ directory ... OK

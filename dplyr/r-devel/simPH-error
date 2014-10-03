@@ -29,6 +29,8 @@ Reminder (2): Times should be in 1 unit intervals, otherwise this could take awh
 Converting "begin" to numeric. Things might get wacky. Please check.
 Converting "end" to numeric. Things might get wacky. Please check.
 Converting "event" to numeric. Things might get wacky. Please check.
+Warning in `[.data.table`(Full, , !c("allow.cartesian.1", "FakeID"), with = FALSE) :
+  column(s) not removed because not found: allow.cartesian.1
 
 Expanding data.
 

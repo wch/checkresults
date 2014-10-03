@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/Rtmp8yoDHB/check_cran2c016833b56/mosaic.Rcheck’
-* using R Under development (unstable) (2014-09-30 r66698)
+* using log directory ‘/mnt/tmp/RtmpjULWJs/check_cran226c599fdebb/mosaic.Rcheck’
+* using R Under development (unstable) (2014-10-02 r66711)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -54,10 +54,10 @@ Package which this enhances but not available for checking: ‘manipulate’
 * checking sizes of PDF files under ‘inst/doc’ ... OK
 * checking installed files from ‘inst/doc’ ... OK
 * checking files in ‘vignettes’ ... OK
-* checking examples ... [40s/38s] OK
+* checking examples ... [38s/37s] OK
 * checking for unstated dependencies in tests ... OK
-* checking tests ... [10s/11s] OK
-  Running ‘test-all.R’ [10s/10s]
+* checking tests ... [11s/11s] OK
+  Running ‘test-all.R’ [10s/11s]
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes in ‘inst/doc’ ... OK
 * checking running R code from vignettes ... [33s/34s] OK

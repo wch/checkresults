@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/Rtmp8yoDHB/check_cran2c016833b56/simPH.Rcheck’
-* using R Under development (unstable) (2014-09-30 r66698)
+* using log directory ‘/mnt/tmp/RtmpjULWJs/check_cran226c599fdebb/simPH.Rcheck’
+* using R Under development (unstable) (2014-10-02 r66711)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -81,6 +81,8 @@ Reminder (2): Times should be in 1 unit intervals, otherwise this could take awh
 Converting "begin" to numeric. Things might get wacky. Please check.
 Converting "end" to numeric. Things might get wacky. Please check.
 Converting "event" to numeric. Things might get wacky. Please check.
+Warning in `[.data.table`(Full, , !c("allow.cartesian.1", "FakeID"), with = FALSE) :
+  column(s) not removed because not found: allow.cartesian.1
 
 Expanding data.
 

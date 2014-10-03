@@ -1,5 +1,5 @@
-* using log directory ‘/mnt/tmp/Rtmp8yoDHB/check_cran2c016833b56/nycflights13.Rcheck’
-* using R Under development (unstable) (2014-09-30 r66698)
+* using log directory ‘/mnt/tmp/RtmpjULWJs/check_cran226c599fdebb/nycflights13.Rcheck’
+* using R Under development (unstable) (2014-10-02 r66711)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
 * using session charset: UTF-8
 * using option ‘--no-codoc’
@@ -13,7 +13,7 @@
 * checking for hidden files and directories ... OK
 * checking for portable file names ... OK
 * checking for sufficient/correct file permissions ... OK
-* checking whether package ‘nycflights13’ can be installed ... [15s/15s] OK
+* checking whether package ‘nycflights13’ can be installed ... [16s/16s] OK
 * checking installed package size ... NOTE
   installed size is  5.6Mb
   sub-directories of 1Mb or more:
